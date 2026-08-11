@@ -1,0 +1,5 @@
+.DS_Store
+**/.capture.png
+**/node_modules/
+**/dist/
+**/dist-demo/

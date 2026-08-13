@@ -6,7 +6,10 @@
   `npm run catalog:check` to reject a stale or inconsistent `catalog/catalog.json`.
 - Query agent-facing candidates with `node tools/ui-bank.mjs search ...`; inspect a candidate with
   `node tools/ui-bank.mjs show <id>` before adapting it.
-- Install the user-invoked `$ui-bank` workflow on a cloned host with `npm run skill:install`.
+- Install the user-invoked `$ui-bank` workflow on a cloned host with `npm run skill:install`. It
+  symlinks `.agents/skills/ui-bank` into every agent runtime already present on the machine —
+  Claude Code, Codex, Hermes, Antigravity, and the cross-runtime `~/.agents/skills` alias. Use
+  `--host <name>` to target one runtime and `--all` to install for absent runtimes too.
 - The skill may adapt references into a target project, but `ui/` remains a read-only snapshot and
   must never become the target project's runtime dependency.
 

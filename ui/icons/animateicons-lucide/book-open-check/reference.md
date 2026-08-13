@@ -1,0 +1,3 @@
+# Use when
+
+Use the book-open-check animated icon from animateicons-lucide.

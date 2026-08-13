@@ -11,10 +11,12 @@ import { createRoot } from "react-dom/client";
 import { BY_ID } from "./registry";
 import { ErrorBoundary } from "./ErrorBoundary";
 import { DEMO_COMPONENTS, DEMO_PROPS } from "./demos";
+import { IconPreview } from "./IconPreview";
 import "./preview-base.css";
 
 const id = new URLSearchParams(location.search).get("id") ?? "";
 const entry = BY_ID.get(id);
+const variant = new URLSearchParams(location.search).get("variant") ?? undefined;
 
 function report(status: "ok" | "broken", reason?: string) {
   parent.postMessage({ type: "preview-status", id, status, reason }, "*");
@@ -37,6 +39,7 @@ function Preview() {
     let alive = true;
     (async () => {
       if (!entry) return setErr(`Unknown id: ${id}`);
+      if (entry.category === "icons") return;
       if (entry.cssProfile === "beautiful-ui") {
         document.documentElement.classList.add("dark");
         await import("/ui/_sources/beautiful-ui/styles.css");
@@ -70,6 +73,7 @@ function Preview() {
       </div>
     );
   }
+  if (entry?.category === "icons") return <div className="pv-stage pv-icon"><IconPreview entry={entry} variant={variant} /></div>;
   if (!Comp) return <div className="pv-loading">loading…</div>;
   const Demo = DEMO_COMPONENTS[id];
   return (

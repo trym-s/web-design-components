@@ -8,7 +8,7 @@
 import { OVERRIDES, type CssProfile, type Kind, type Status } from "./overrides";
 import catalog from "../../catalog/catalog.json";
 
-export type SourceName = "beautiful-ui" | "transitions.dev" | "arlan-vault" | "interior.dev" | "liquid-gooey" | "standalone";
+export type SourceName = string;
 
 export interface Entry {
   id: string; // "ai/chat/chat-composer"
@@ -25,7 +25,7 @@ export interface Entry {
   sourceDoc?: string;
   prompt?: string;
   preview?: string;
-  files: { path: string; code: string }[];
+  files: { path: string; code?: string; load?: () => Promise<string> }[];
   load?: () => Promise<any>;
   cssProfile: CssProfile;
   kind: Kind;
@@ -33,13 +33,27 @@ export interface Entry {
   statusReason?: string;
   evidence: "verified" | "review" | "limited" | "blocked";
   roles: ("structure" | "behavior" | "visual")[];
+  framework?: string;
+  availability?: "public" | "personal-cache";
+  variants?: string[];
+  installation?: {
+    method: "shadcn" | "source";
+    command?: string;
+    registryUrl?: string;
+    fallbackPath?: string;
+  };
+  bundled: boolean;
 }
+
+type CatalogEntry = (typeof catalog.entries)[number] & { files?: string[] };
+const RAW_ROOT = "https://raw.githubusercontent.com/trym-s/web-design-components/main/";
+const raw = (path: string) => `${RAW_ROOT}${path}`;
 
 const refLoaders = import.meta.glob("/ui/**/reference.tsx");
 const refRaw = import.meta.glob("/ui/**/reference.{tsx,md}", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const docsRaw = import.meta.glob("/ui/**/{README,SOURCE,PROMPT}.md", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const previews = import.meta.glob("/ui/**/preview.png", { query: "?url", import: "default", eager: true }) as Record<string, string>;
-const srcRaw = import.meta.glob("/ui/**/{src,registry}/**/*.{ts,tsx,js,jsx,css,html,md}", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
+const srcRaw = import.meta.glob("/ui/**/{src,registry}/**/*.{ts,tsx,js,jsx,css,html,md,vue,svelte,svg,json}", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 
 const dirOf = (p: string) => p.slice(0, p.lastIndexOf("/"));
 
@@ -101,7 +115,7 @@ function build(): Entry[] {
     const files = Object.keys(srcRaw)
       .filter((p) => p.startsWith(dir + "/"))
       .sort()
-      .map((p) => ({ path: p.slice(dir.length + 1), code: srcRaw[p] }));
+      .map((p) => ({ path: p.slice(dir.length + 1), load: srcRaw[p] }));
     if (refRaw[`${dir}/reference.tsx`]) {
       files.unshift({ path: "reference.tsx", code: refRaw[`${dir}/reference.tsx`] });
     }
@@ -127,14 +141,61 @@ function build(): Entry[] {
       statusReason: metadata.statusReason,
       evidence: metadata.evidence as Entry["evidence"],
       roles: metadata.roles as Entry["roles"],
+      framework: metadata.framework,
+      availability: metadata.availability,
+      variants: metadata.variants,
+      installation: metadata.installation,
+      bundled: true,
     });
   }
   return entries.sort((a, b) => a.id.localeCompare(b.id));
 }
 
-export const ENTRIES = build();
-export const BY_ID = new Map(ENTRIES.map((e) => [e.id, e]));
+export let ENTRIES = build();
+export let BY_ID = new Map(ENTRIES.map((e) => [e.id, e]));
+export let CATEGORIES = [...new Set(ENTRIES.map((e) => e.category))].sort();
+export let SOURCES = [...new Set(ENTRIES.map((e) => e.source))].sort();
+export let NATURES = [...new Set(ENTRIES.map((e) => e.nature).filter(Boolean))].sort() as string[];
 
-export const CATEGORIES = [...new Set(ENTRIES.map((e) => e.category))].sort();
-export const SOURCES = [...new Set(ENTRIES.map((e) => e.source))].sort();
-export const NATURES = [...new Set(ENTRIES.map((e) => e.nature).filter(Boolean))].sort() as string[];
+export async function loadLiveCatalog() {
+  const response = await fetch(raw("catalog/catalog.json"), { cache: "no-cache" });
+  if (!response.ok) throw new Error(`Live catalog: ${response.status}`);
+  const live = (await response.json()).entries as CatalogEntry[];
+  const bundled = new Map(ENTRIES.map((entry) => [entry.id, entry]));
+
+  ENTRIES = live.map((metadata) => bundled.get(metadata.id) ?? {
+    id: metadata.id,
+    dir: `/${metadata.paths.directory}`,
+    category: metadata.category,
+    name: metadata.id.split("/").at(-1)!,
+    title: metadata.title,
+    source: metadata.source,
+    useWhen: metadata.useWhen,
+    nature: metadata.nature,
+    medium: metadata.medium,
+    entryPoint: metadata.entryPoint,
+    preview: metadata.paths.preview ? raw(metadata.paths.preview) : undefined,
+    files: (metadata.files ?? []).map((path) => ({
+      path,
+      load: () => fetch(raw(`${metadata.paths.directory}/${path}`)).then((result) => {
+        if (!result.ok) throw new Error(`${result.status} ${result.statusText}`);
+        return result.text();
+      }),
+    })),
+    cssProfile: "none",
+    kind: "react",
+    status: metadata.status,
+    statusReason: metadata.statusReason,
+    evidence: metadata.evidence,
+    roles: metadata.roles,
+    framework: metadata.framework,
+    availability: metadata.availability,
+    variants: metadata.variants,
+    installation: metadata.installation,
+    bundled: false,
+  });
+  BY_ID = new Map(ENTRIES.map((entry) => [entry.id, entry]));
+  CATEGORIES = [...new Set(ENTRIES.map((entry) => entry.category))].sort();
+  SOURCES = [...new Set(ENTRIES.map((entry) => entry.source))].sort();
+  NATURES = [...new Set(ENTRIES.map((entry) => entry.nature).filter(Boolean))].sort() as string[];
+}

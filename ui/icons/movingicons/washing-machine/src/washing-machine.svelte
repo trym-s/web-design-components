@@ -1,0 +1,69 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 3000);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div class={className} aria-label="washing-machine" role="img" onmouseenter={handleMouseEnter}>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="washing-machine-icon"
+		><path d="M3 6h3" /><path d="M17 6h.01" /><rect width="18" height="20" x="3" y="2" rx="2" /><g
+			class="drum"
+			class:animate
+		>
+			<circle cx="12" cy="13" r="5" /><path d="M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5" /></g
+		></svg
+	>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.drum {
+		transform-origin: center 13px;
+		transition: transform 1s ease-in-out;
+	}
+
+	.drum.animate {
+		animation: rotate-drum 3s ease-in-out;
+	}
+
+	@keyframes rotate-drum {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(-1080deg);
+		}
+	}
+</style>

@@ -1,0 +1,3575 @@
+{
+  "id": "animateicons-lucide",
+  "repo": "Avijit07x/animateicons",
+  "commit": "2ec6bc6c0b4eba9ce1ba13e31ded8c16ef8a69a3",
+  "site": "https://animateicons.in/icons/lucide",
+  "license": "MIT",
+  "framework": "react",
+  "expected": 509,
+  "count": 509,
+  "icons": [
+    {
+      "name": "a-arrow-down",
+      "path": "ui/_sources/animateicons-lucide/src/a-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-a-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-a-arrow-down.json"
+    },
+    {
+      "name": "a-arrow-up",
+      "path": "ui/_sources/animateicons-lucide/src/a-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-a-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-a-arrow-up.json"
+    },
+    {
+      "name": "accessibility",
+      "path": "ui/_sources/animateicons-lucide/src/accessibility.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-accessibility.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-accessibility.json"
+    },
+    {
+      "name": "activity",
+      "path": "ui/_sources/animateicons-lucide/src/activity.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-activity.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-activity.json"
+    },
+    {
+      "name": "alarm-clock-check",
+      "path": "ui/_sources/animateicons-lucide/src/alarm-clock-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-alarm-clock-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock-check.json"
+    },
+    {
+      "name": "alarm-clock",
+      "path": "ui/_sources/animateicons-lucide/src/alarm-clock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-alarm-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock.json"
+    },
+    {
+      "name": "alarm-clock-minus",
+      "path": "ui/_sources/animateicons-lucide/src/alarm-clock-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-alarm-clock-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock-minus.json"
+    },
+    {
+      "name": "alarm-clock-off",
+      "path": "ui/_sources/animateicons-lucide/src/alarm-clock-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-alarm-clock-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock-off.json"
+    },
+    {
+      "name": "alarm-clock-plus",
+      "path": "ui/_sources/animateicons-lucide/src/alarm-clock-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-alarm-clock-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock-plus.json"
+    },
+    {
+      "name": "align-center",
+      "path": "ui/_sources/animateicons-lucide/src/align-center.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-align-center.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-align-center.json"
+    },
+    {
+      "name": "align-justify",
+      "path": "ui/_sources/animateicons-lucide/src/align-justify.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-align-justify.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-align-justify.json"
+    },
+    {
+      "name": "align-left",
+      "path": "ui/_sources/animateicons-lucide/src/align-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-align-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-align-left.json"
+    },
+    {
+      "name": "align-right",
+      "path": "ui/_sources/animateicons-lucide/src/align-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-align-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-align-right.json"
+    },
+    {
+      "name": "angry",
+      "path": "ui/_sources/animateicons-lucide/src/angry.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-angry.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-angry.json"
+    },
+    {
+      "name": "annoyed",
+      "path": "ui/_sources/animateicons-lucide/src/annoyed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-annoyed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-annoyed.json"
+    },
+    {
+      "name": "arrow-down",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-down.json"
+    },
+    {
+      "name": "arrow-down-left",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-down-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-down-left.json"
+    },
+    {
+      "name": "arrow-down-right",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-down-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-down-right.json"
+    },
+    {
+      "name": "arrow-down-up",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-down-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-down-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-down-up.json"
+    },
+    {
+      "name": "arrow-left",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-left.json"
+    },
+    {
+      "name": "arrow-left-right",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-left-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-left-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-left-right.json"
+    },
+    {
+      "name": "arrow-right",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-right.json"
+    },
+    {
+      "name": "arrow-up-0-1",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-0-1.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-0-1.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-0-1.json"
+    },
+    {
+      "name": "arrow-up-1-0",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-1-0.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-1-0.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-1-0.json"
+    },
+    {
+      "name": "arrow-up-a-z",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-a-z.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-a-z.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-a-z.json"
+    },
+    {
+      "name": "arrow-up-down",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-down.json"
+    },
+    {
+      "name": "arrow-up",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up.json"
+    },
+    {
+      "name": "arrow-up-left",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-left.json"
+    },
+    {
+      "name": "arrow-up-right",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-right.json"
+    },
+    {
+      "name": "arrow-up-z-a",
+      "path": "ui/_sources/animateicons-lucide/src/arrow-up-z-a.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-arrow-up-z-a.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-arrow-up-z-a.json"
+    },
+    {
+      "name": "atom",
+      "path": "ui/_sources/animateicons-lucide/src/atom.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-atom.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-atom.json"
+    },
+    {
+      "name": "audio-lines",
+      "path": "ui/_sources/animateicons-lucide/src/audio-lines.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-audio-lines.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-audio-lines.json"
+    },
+    {
+      "name": "audio-waveform",
+      "path": "ui/_sources/animateicons-lucide/src/audio-waveform.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-audio-waveform.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-audio-waveform.json"
+    },
+    {
+      "name": "badge-cent",
+      "path": "ui/_sources/animateicons-lucide/src/badge-cent.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-badge-cent.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-badge-cent.json"
+    },
+    {
+      "name": "badge-dollar-sign",
+      "path": "ui/_sources/animateicons-lucide/src/badge-dollar-sign.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-badge-dollar-sign.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-badge-dollar-sign.json"
+    },
+    {
+      "name": "badge-percent",
+      "path": "ui/_sources/animateicons-lucide/src/badge-percent.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-badge-percent.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-badge-percent.json"
+    },
+    {
+      "name": "baggage-claim",
+      "path": "ui/_sources/animateicons-lucide/src/baggage-claim.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-baggage-claim.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-baggage-claim.json"
+    },
+    {
+      "name": "banknote",
+      "path": "ui/_sources/animateicons-lucide/src/banknote.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-banknote.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-banknote.json"
+    },
+    {
+      "name": "barcode",
+      "path": "ui/_sources/animateicons-lucide/src/barcode.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-barcode.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-barcode.json"
+    },
+    {
+      "name": "battery-charging",
+      "path": "ui/_sources/animateicons-lucide/src/battery-charging.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-battery-charging.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery-charging.json"
+    },
+    {
+      "name": "battery-full",
+      "path": "ui/_sources/animateicons-lucide/src/battery-full.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-battery-full.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery-full.json"
+    },
+    {
+      "name": "battery",
+      "path": "ui/_sources/animateicons-lucide/src/battery.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-battery.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery.json"
+    },
+    {
+      "name": "battery-low",
+      "path": "ui/_sources/animateicons-lucide/src/battery-low.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-battery-low.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery-low.json"
+    },
+    {
+      "name": "bell-dot",
+      "path": "ui/_sources/animateicons-lucide/src/bell-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-dot.json"
+    },
+    {
+      "name": "bell-electric",
+      "path": "ui/_sources/animateicons-lucide/src/bell-electric.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-electric.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-electric.json"
+    },
+    {
+      "name": "bell",
+      "path": "ui/_sources/animateicons-lucide/src/bell.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell.json"
+    },
+    {
+      "name": "bell-minus",
+      "path": "ui/_sources/animateicons-lucide/src/bell-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-minus.json"
+    },
+    {
+      "name": "bell-off",
+      "path": "ui/_sources/animateicons-lucide/src/bell-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-off.json"
+    },
+    {
+      "name": "bell-plus",
+      "path": "ui/_sources/animateicons-lucide/src/bell-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-plus.json"
+    },
+    {
+      "name": "bell-ring",
+      "path": "ui/_sources/animateicons-lucide/src/bell-ring.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bell-ring.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell-ring.json"
+    },
+    {
+      "name": "biceps-flexed",
+      "path": "ui/_sources/animateicons-lucide/src/biceps-flexed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-biceps-flexed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-biceps-flexed.json"
+    },
+    {
+      "name": "bike",
+      "path": "ui/_sources/animateicons-lucide/src/bike.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bike.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bike.json"
+    },
+    {
+      "name": "bitcoin",
+      "path": "ui/_sources/animateicons-lucide/src/bitcoin.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bitcoin.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bitcoin.json"
+    },
+    {
+      "name": "blend",
+      "path": "ui/_sources/animateicons-lucide/src/blend.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-blend.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-blend.json"
+    },
+    {
+      "name": "blocks",
+      "path": "ui/_sources/animateicons-lucide/src/blocks.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-blocks.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-blocks.json"
+    },
+    {
+      "name": "bold",
+      "path": "ui/_sources/animateicons-lucide/src/bold.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bold.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bold.json"
+    },
+    {
+      "name": "bolt",
+      "path": "ui/_sources/animateicons-lucide/src/bolt.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bolt.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bolt.json"
+    },
+    {
+      "name": "book-open-check",
+      "path": "ui/_sources/animateicons-lucide/src/book-open-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-book-open-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-book-open-check.json"
+    },
+    {
+      "name": "book-open",
+      "path": "ui/_sources/animateicons-lucide/src/book-open.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-book-open.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-book-open.json"
+    },
+    {
+      "name": "book-open-text",
+      "path": "ui/_sources/animateicons-lucide/src/book-open-text.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-book-open-text.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-book-open-text.json"
+    },
+    {
+      "name": "bookmark-check",
+      "path": "ui/_sources/animateicons-lucide/src/bookmark-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bookmark-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark-check.json"
+    },
+    {
+      "name": "bookmark",
+      "path": "ui/_sources/animateicons-lucide/src/bookmark.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bookmark.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark.json"
+    },
+    {
+      "name": "bookmark-minus",
+      "path": "ui/_sources/animateicons-lucide/src/bookmark-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bookmark-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark-minus.json"
+    },
+    {
+      "name": "bookmark-plus",
+      "path": "ui/_sources/animateicons-lucide/src/bookmark-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bookmark-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark-plus.json"
+    },
+    {
+      "name": "bookmark-x",
+      "path": "ui/_sources/animateicons-lucide/src/bookmark-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bookmark-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark-x.json"
+    },
+    {
+      "name": "box",
+      "path": "ui/_sources/animateicons-lucide/src/box.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-box.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-box.json"
+    },
+    {
+      "name": "boxes",
+      "path": "ui/_sources/animateicons-lucide/src/boxes.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-boxes.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-boxes.json"
+    },
+    {
+      "name": "brain",
+      "path": "ui/_sources/animateicons-lucide/src/brain.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-brain.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-brain.json"
+    },
+    {
+      "name": "bring-to-front",
+      "path": "ui/_sources/animateicons-lucide/src/bring-to-front.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-bring-to-front.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bring-to-front.json"
+    },
+    {
+      "name": "calculator",
+      "path": "ui/_sources/animateicons-lucide/src/calculator.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calculator.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calculator.json"
+    },
+    {
+      "name": "calendar-check",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-check.json"
+    },
+    {
+      "name": "calendar-clock",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-clock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-clock.json"
+    },
+    {
+      "name": "calendar-days",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-days.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-days.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-days.json"
+    },
+    {
+      "name": "calendar-fold",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-fold.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-fold.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-fold.json"
+    },
+    {
+      "name": "calendar-heart",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-heart.json"
+    },
+    {
+      "name": "calendar",
+      "path": "ui/_sources/animateicons-lucide/src/calendar.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar.json"
+    },
+    {
+      "name": "calendar-minus",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-minus.json"
+    },
+    {
+      "name": "calendar-plus",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-plus.json"
+    },
+    {
+      "name": "calendar-range",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-range.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-range.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-range.json"
+    },
+    {
+      "name": "calendar-search",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-search.json"
+    },
+    {
+      "name": "calendar-x",
+      "path": "ui/_sources/animateicons-lucide/src/calendar-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-calendar-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-x.json"
+    },
+    {
+      "name": "camera",
+      "path": "ui/_sources/animateicons-lucide/src/camera.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-camera.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-camera.json"
+    },
+    {
+      "name": "car",
+      "path": "ui/_sources/animateicons-lucide/src/car.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-car.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-car.json"
+    },
+    {
+      "name": "cat",
+      "path": "ui/_sources/animateicons-lucide/src/cat.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cat.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cat.json"
+    },
+    {
+      "name": "chart-area",
+      "path": "ui/_sources/animateicons-lucide/src/chart-area.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-area.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-area.json"
+    },
+    {
+      "name": "chart-bar-big",
+      "path": "ui/_sources/animateicons-lucide/src/chart-bar-big.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-bar-big.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-bar-big.json"
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "path": "ui/_sources/animateicons-lucide/src/chart-bar-decreasing.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-bar-decreasing.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-bar-decreasing.json"
+    },
+    {
+      "name": "chart-bar",
+      "path": "ui/_sources/animateicons-lucide/src/chart-bar.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-bar.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-bar.json"
+    },
+    {
+      "name": "chart-bar-increasing",
+      "path": "ui/_sources/animateicons-lucide/src/chart-bar-increasing.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-bar-increasing.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-bar-increasing.json"
+    },
+    {
+      "name": "chart-candlestick",
+      "path": "ui/_sources/animateicons-lucide/src/chart-candlestick.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-candlestick.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-candlestick.json"
+    },
+    {
+      "name": "chart-column-big",
+      "path": "ui/_sources/animateicons-lucide/src/chart-column-big.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-column-big.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-column-big.json"
+    },
+    {
+      "name": "chart-column-decreasing",
+      "path": "ui/_sources/animateicons-lucide/src/chart-column-decreasing.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-column-decreasing.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-column-decreasing.json"
+    },
+    {
+      "name": "chart-column",
+      "path": "ui/_sources/animateicons-lucide/src/chart-column.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-column.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-column.json"
+    },
+    {
+      "name": "chart-column-increasing",
+      "path": "ui/_sources/animateicons-lucide/src/chart-column-increasing.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-column-increasing.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-column-increasing.json"
+    },
+    {
+      "name": "chart-gantt",
+      "path": "ui/_sources/animateicons-lucide/src/chart-gantt.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-gantt.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-gantt.json"
+    },
+    {
+      "name": "chart-line",
+      "path": "ui/_sources/animateicons-lucide/src/chart-line.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-line.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-line.json"
+    },
+    {
+      "name": "chart-network",
+      "path": "ui/_sources/animateicons-lucide/src/chart-network.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-network.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-network.json"
+    },
+    {
+      "name": "chart-no-axes-column",
+      "path": "ui/_sources/animateicons-lucide/src/chart-no-axes-column.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-no-axes-column.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-no-axes-column.json"
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "path": "ui/_sources/animateicons-lucide/src/chart-no-axes-combined.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-no-axes-combined.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-no-axes-combined.json"
+    },
+    {
+      "name": "chart-pie",
+      "path": "ui/_sources/animateicons-lucide/src/chart-pie.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-pie.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-pie.json"
+    },
+    {
+      "name": "chart-scatter",
+      "path": "ui/_sources/animateicons-lucide/src/chart-scatter.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-scatter.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-scatter.json"
+    },
+    {
+      "name": "chart-spline",
+      "path": "ui/_sources/animateicons-lucide/src/chart-spline.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chart-spline.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-spline.json"
+    },
+    {
+      "name": "check-check",
+      "path": "ui/_sources/animateicons-lucide/src/check-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-check-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-check-check.json"
+    },
+    {
+      "name": "check",
+      "path": "ui/_sources/animateicons-lucide/src/check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-check.json"
+    },
+    {
+      "name": "chevron-down",
+      "path": "ui/_sources/animateicons-lucide/src/chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevron-down.json"
+    },
+    {
+      "name": "chevron-left",
+      "path": "ui/_sources/animateicons-lucide/src/chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevron-left.json"
+    },
+    {
+      "name": "chevron-right",
+      "path": "ui/_sources/animateicons-lucide/src/chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevron-right.json"
+    },
+    {
+      "name": "chevron-up",
+      "path": "ui/_sources/animateicons-lucide/src/chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevron-up.json"
+    },
+    {
+      "name": "chevrons-down",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-down.json"
+    },
+    {
+      "name": "chevrons-left",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-left.json"
+    },
+    {
+      "name": "chevrons-left-right-ellipsis",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-left-right-ellipsis.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-left-right-ellipsis.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-left-right-ellipsis.json"
+    },
+    {
+      "name": "chevrons-left-right",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-left-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-left-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-left-right.json"
+    },
+    {
+      "name": "chevrons-right",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-right.json"
+    },
+    {
+      "name": "chevrons-right-left",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-right-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-right-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-right-left.json"
+    },
+    {
+      "name": "chevrons-up",
+      "path": "ui/_sources/animateicons-lucide/src/chevrons-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chevrons-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-up.json"
+    },
+    {
+      "name": "chrome",
+      "path": "ui/_sources/animateicons-lucide/src/chrome.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-chrome.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chrome.json"
+    },
+    {
+      "name": "circle-check-big",
+      "path": "ui/_sources/animateicons-lucide/src/circle-check-big.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-check-big.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-check-big.json"
+    },
+    {
+      "name": "circle-check",
+      "path": "ui/_sources/animateicons-lucide/src/circle-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-check.json"
+    },
+    {
+      "name": "circle-chevron-down",
+      "path": "ui/_sources/animateicons-lucide/src/circle-chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-chevron-down.json"
+    },
+    {
+      "name": "circle-chevron-left",
+      "path": "ui/_sources/animateicons-lucide/src/circle-chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-chevron-left.json"
+    },
+    {
+      "name": "circle-chevron-right",
+      "path": "ui/_sources/animateicons-lucide/src/circle-chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-chevron-right.json"
+    },
+    {
+      "name": "circle-chevron-up",
+      "path": "ui/_sources/animateicons-lucide/src/circle-chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-chevron-up.json"
+    },
+    {
+      "name": "circle-pause",
+      "path": "ui/_sources/animateicons-lucide/src/circle-pause.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-pause.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-pause.json"
+    },
+    {
+      "name": "circle-play",
+      "path": "ui/_sources/animateicons-lucide/src/circle-play.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-play.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-play.json"
+    },
+    {
+      "name": "circle-plus",
+      "path": "ui/_sources/animateicons-lucide/src/circle-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-plus.json"
+    },
+    {
+      "name": "circle-stop",
+      "path": "ui/_sources/animateicons-lucide/src/circle-stop.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-circle-stop.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-circle-stop.json"
+    },
+    {
+      "name": "clipboard",
+      "path": "ui/_sources/animateicons-lucide/src/clipboard.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clipboard.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clipboard.json"
+    },
+    {
+      "name": "clock-alert",
+      "path": "ui/_sources/animateicons-lucide/src/clock-alert.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clock-alert.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock-alert.json"
+    },
+    {
+      "name": "clock-arrow-down",
+      "path": "ui/_sources/animateicons-lucide/src/clock-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clock-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock-arrow-down.json"
+    },
+    {
+      "name": "clock-arrow-up",
+      "path": "ui/_sources/animateicons-lucide/src/clock-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clock-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock-arrow-up.json"
+    },
+    {
+      "name": "clock",
+      "path": "ui/_sources/animateicons-lucide/src/clock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock.json"
+    },
+    {
+      "name": "clock-plus",
+      "path": "ui/_sources/animateicons-lucide/src/clock-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-clock-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock-plus.json"
+    },
+    {
+      "name": "cloud-drizzle",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-drizzle.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-drizzle.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-drizzle.json"
+    },
+    {
+      "name": "cloud-fog",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-fog.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-fog.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-fog.json"
+    },
+    {
+      "name": "cloud-hail",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-hail.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-hail.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-hail.json"
+    },
+    {
+      "name": "cloud",
+      "path": "ui/_sources/animateicons-lucide/src/cloud.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud.json"
+    },
+    {
+      "name": "cloud-lightning",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-lightning.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-lightning.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-lightning.json"
+    },
+    {
+      "name": "cloud-moon",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-moon.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-moon.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-moon.json"
+    },
+    {
+      "name": "cloud-moon-rain",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-moon-rain.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-moon-rain.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-moon-rain.json"
+    },
+    {
+      "name": "cloud-off",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-off.json"
+    },
+    {
+      "name": "cloud-rain",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-rain.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-rain.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-rain.json"
+    },
+    {
+      "name": "cloud-rain-wind",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-rain-wind.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-rain-wind.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-rain-wind.json"
+    },
+    {
+      "name": "cloud-snow",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-snow.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-snow.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-snow.json"
+    },
+    {
+      "name": "cloud-sun",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-sun.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-sun.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-sun.json"
+    },
+    {
+      "name": "cloud-sun-rain",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-sun-rain.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-sun-rain.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-sun-rain.json"
+    },
+    {
+      "name": "cloud-upload",
+      "path": "ui/_sources/animateicons-lucide/src/cloud-upload.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloud-upload.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-upload.json"
+    },
+    {
+      "name": "cloudy",
+      "path": "ui/_sources/animateicons-lucide/src/cloudy.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cloudy.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloudy.json"
+    },
+    {
+      "name": "code",
+      "path": "ui/_sources/animateicons-lucide/src/code.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-code.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-code.json"
+    },
+    {
+      "name": "code-xml",
+      "path": "ui/_sources/animateicons-lucide/src/code-xml.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-code-xml.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-code-xml.json"
+    },
+    {
+      "name": "coffee",
+      "path": "ui/_sources/animateicons-lucide/src/coffee.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-coffee.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-coffee.json"
+    },
+    {
+      "name": "coins",
+      "path": "ui/_sources/animateicons-lucide/src/coins.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-coins.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-coins.json"
+    },
+    {
+      "name": "compass",
+      "path": "ui/_sources/animateicons-lucide/src/compass.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-compass.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-compass.json"
+    },
+    {
+      "name": "contact",
+      "path": "ui/_sources/animateicons-lucide/src/contact.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-contact.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-contact.json"
+    },
+    {
+      "name": "contact-round",
+      "path": "ui/_sources/animateicons-lucide/src/contact-round.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-contact-round.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-contact-round.json"
+    },
+    {
+      "name": "copy",
+      "path": "ui/_sources/animateicons-lucide/src/copy.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-copy.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-copy.json"
+    },
+    {
+      "name": "corner-down-left",
+      "path": "ui/_sources/animateicons-lucide/src/corner-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-down-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-down-left.json"
+    },
+    {
+      "name": "corner-down-right",
+      "path": "ui/_sources/animateicons-lucide/src/corner-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-down-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-down-right.json"
+    },
+    {
+      "name": "corner-left-down",
+      "path": "ui/_sources/animateicons-lucide/src/corner-left-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-left-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-left-down.json"
+    },
+    {
+      "name": "corner-left-up",
+      "path": "ui/_sources/animateicons-lucide/src/corner-left-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-left-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-left-up.json"
+    },
+    {
+      "name": "corner-right-down",
+      "path": "ui/_sources/animateicons-lucide/src/corner-right-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-right-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-right-down.json"
+    },
+    {
+      "name": "corner-right-up",
+      "path": "ui/_sources/animateicons-lucide/src/corner-right-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-right-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-right-up.json"
+    },
+    {
+      "name": "corner-up-left",
+      "path": "ui/_sources/animateicons-lucide/src/corner-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-up-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-up-left.json"
+    },
+    {
+      "name": "corner-up-right",
+      "path": "ui/_sources/animateicons-lucide/src/corner-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-corner-up-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-up-right.json"
+    },
+    {
+      "name": "cpu",
+      "path": "ui/_sources/animateicons-lucide/src/cpu.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-cpu.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cpu.json"
+    },
+    {
+      "name": "credit-card",
+      "path": "ui/_sources/animateicons-lucide/src/credit-card.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-credit-card.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-credit-card.json"
+    },
+    {
+      "name": "diff",
+      "path": "ui/_sources/animateicons-lucide/src/diff.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-diff.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-diff.json"
+    },
+    {
+      "name": "disc-2",
+      "path": "ui/_sources/animateicons-lucide/src/disc-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-disc-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-disc-2.json"
+    },
+    {
+      "name": "disc-3",
+      "path": "ui/_sources/animateicons-lucide/src/disc-3.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-disc-3.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-disc-3.json"
+    },
+    {
+      "name": "dog",
+      "path": "ui/_sources/animateicons-lucide/src/dog.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-dog.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-dog.json"
+    },
+    {
+      "name": "dollar-sign",
+      "path": "ui/_sources/animateicons-lucide/src/dollar-sign.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-dollar-sign.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-dollar-sign.json"
+    },
+    {
+      "name": "download",
+      "path": "ui/_sources/animateicons-lucide/src/download.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-download.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-download.json"
+    },
+    {
+      "name": "droplet",
+      "path": "ui/_sources/animateicons-lucide/src/droplet.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-droplet.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-droplet.json"
+    },
+    {
+      "name": "droplets",
+      "path": "ui/_sources/animateicons-lucide/src/droplets.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-droplets.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-droplets.json"
+    },
+    {
+      "name": "drum",
+      "path": "ui/_sources/animateicons-lucide/src/drum.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-drum.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-drum.json"
+    },
+    {
+      "name": "ellipsis",
+      "path": "ui/_sources/animateicons-lucide/src/ellipsis.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-ellipsis.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-ellipsis.json"
+    },
+    {
+      "name": "ellipsis-vertical",
+      "path": "ui/_sources/animateicons-lucide/src/ellipsis-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-ellipsis-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-ellipsis-vertical.json"
+    },
+    {
+      "name": "euro",
+      "path": "ui/_sources/animateicons-lucide/src/euro.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-euro.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-euro.json"
+    },
+    {
+      "name": "external-link",
+      "path": "ui/_sources/animateicons-lucide/src/external-link.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-external-link.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-external-link.json"
+    },
+    {
+      "name": "eye-closed",
+      "path": "ui/_sources/animateicons-lucide/src/eye-closed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-eye-closed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-eye-closed.json"
+    },
+    {
+      "name": "eye",
+      "path": "ui/_sources/animateicons-lucide/src/eye.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-eye.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-eye.json"
+    },
+    {
+      "name": "eye-off",
+      "path": "ui/_sources/animateicons-lucide/src/eye-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-eye-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-eye-off.json"
+    },
+    {
+      "name": "facebook",
+      "path": "ui/_sources/animateicons-lucide/src/facebook.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-facebook.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-facebook.json"
+    },
+    {
+      "name": "fast-forward",
+      "path": "ui/_sources/animateicons-lucide/src/fast-forward.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-fast-forward.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-fast-forward.json"
+    },
+    {
+      "name": "figma",
+      "path": "ui/_sources/animateicons-lucide/src/figma.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-figma.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-figma.json"
+    },
+    {
+      "name": "file-archive",
+      "path": "ui/_sources/animateicons-lucide/src/file-archive.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-archive.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-archive.json"
+    },
+    {
+      "name": "file-check",
+      "path": "ui/_sources/animateicons-lucide/src/file-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-check.json"
+    },
+    {
+      "name": "file-clock",
+      "path": "ui/_sources/animateicons-lucide/src/file-clock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-clock.json"
+    },
+    {
+      "name": "file-code",
+      "path": "ui/_sources/animateicons-lucide/src/file-code.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-code.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-code.json"
+    },
+    {
+      "name": "file-heart",
+      "path": "ui/_sources/animateicons-lucide/src/file-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-heart.json"
+    },
+    {
+      "name": "file",
+      "path": "ui/_sources/animateicons-lucide/src/file.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file.json"
+    },
+    {
+      "name": "file-image",
+      "path": "ui/_sources/animateicons-lucide/src/file-image.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-image.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-image.json"
+    },
+    {
+      "name": "file-key",
+      "path": "ui/_sources/animateicons-lucide/src/file-key.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-key.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-key.json"
+    },
+    {
+      "name": "file-lock",
+      "path": "ui/_sources/animateicons-lucide/src/file-lock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-lock.json"
+    },
+    {
+      "name": "file-minus",
+      "path": "ui/_sources/animateicons-lucide/src/file-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-minus.json"
+    },
+    {
+      "name": "file-music",
+      "path": "ui/_sources/animateicons-lucide/src/file-music.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-music.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-music.json"
+    },
+    {
+      "name": "file-pen",
+      "path": "ui/_sources/animateicons-lucide/src/file-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-pen.json"
+    },
+    {
+      "name": "file-plus",
+      "path": "ui/_sources/animateicons-lucide/src/file-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-plus.json"
+    },
+    {
+      "name": "file-scan",
+      "path": "ui/_sources/animateicons-lucide/src/file-scan.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-scan.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-scan.json"
+    },
+    {
+      "name": "file-search",
+      "path": "ui/_sources/animateicons-lucide/src/file-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-search.json"
+    },
+    {
+      "name": "file-spreadsheet",
+      "path": "ui/_sources/animateicons-lucide/src/file-spreadsheet.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-spreadsheet.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-spreadsheet.json"
+    },
+    {
+      "name": "file-terminal",
+      "path": "ui/_sources/animateicons-lucide/src/file-terminal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-terminal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-terminal.json"
+    },
+    {
+      "name": "file-text",
+      "path": "ui/_sources/animateicons-lucide/src/file-text.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-text.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-text.json"
+    },
+    {
+      "name": "file-type",
+      "path": "ui/_sources/animateicons-lucide/src/file-type.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-type.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-type.json"
+    },
+    {
+      "name": "file-x",
+      "path": "ui/_sources/animateicons-lucide/src/file-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-file-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-x.json"
+    },
+    {
+      "name": "files",
+      "path": "ui/_sources/animateicons-lucide/src/files.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-files.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-files.json"
+    },
+    {
+      "name": "filter",
+      "path": "ui/_sources/animateicons-lucide/src/filter.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-filter.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-filter.json"
+    },
+    {
+      "name": "fish",
+      "path": "ui/_sources/animateicons-lucide/src/fish.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-fish.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-fish.json"
+    },
+    {
+      "name": "flag",
+      "path": "ui/_sources/animateicons-lucide/src/flag.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-flag.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-flag.json"
+    },
+    {
+      "name": "flag-off",
+      "path": "ui/_sources/animateicons-lucide/src/flag-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-flag-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-flag-off.json"
+    },
+    {
+      "name": "flag-triangle-right",
+      "path": "ui/_sources/animateicons-lucide/src/flag-triangle-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-flag-triangle-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-flag-triangle-right.json"
+    },
+    {
+      "name": "flame",
+      "path": "ui/_sources/animateicons-lucide/src/flame.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-flame.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-flame.json"
+    },
+    {
+      "name": "folder-check",
+      "path": "ui/_sources/animateicons-lucide/src/folder-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-check.json"
+    },
+    {
+      "name": "folder-closed",
+      "path": "ui/_sources/animateicons-lucide/src/folder-closed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-closed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-closed.json"
+    },
+    {
+      "name": "folder-dot",
+      "path": "ui/_sources/animateicons-lucide/src/folder-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-dot.json"
+    },
+    {
+      "name": "folder-heart",
+      "path": "ui/_sources/animateicons-lucide/src/folder-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-heart.json"
+    },
+    {
+      "name": "folder",
+      "path": "ui/_sources/animateicons-lucide/src/folder.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder.json"
+    },
+    {
+      "name": "folder-key",
+      "path": "ui/_sources/animateicons-lucide/src/folder-key.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-key.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-key.json"
+    },
+    {
+      "name": "folder-lock",
+      "path": "ui/_sources/animateicons-lucide/src/folder-lock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-lock.json"
+    },
+    {
+      "name": "folder-minus",
+      "path": "ui/_sources/animateicons-lucide/src/folder-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-minus.json"
+    },
+    {
+      "name": "folder-open",
+      "path": "ui/_sources/animateicons-lucide/src/folder-open.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-open.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-open.json"
+    },
+    {
+      "name": "folder-plus",
+      "path": "ui/_sources/animateicons-lucide/src/folder-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-plus.json"
+    },
+    {
+      "name": "folder-search",
+      "path": "ui/_sources/animateicons-lucide/src/folder-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-search.json"
+    },
+    {
+      "name": "folder-x",
+      "path": "ui/_sources/animateicons-lucide/src/folder-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-folder-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-x.json"
+    },
+    {
+      "name": "footprints",
+      "path": "ui/_sources/animateicons-lucide/src/footprints.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-footprints.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-footprints.json"
+    },
+    {
+      "name": "framer",
+      "path": "ui/_sources/animateicons-lucide/src/framer.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-framer.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-framer.json"
+    },
+    {
+      "name": "gamepad",
+      "path": "ui/_sources/animateicons-lucide/src/gamepad.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-gamepad.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-gamepad.json"
+    },
+    {
+      "name": "georgian-lari",
+      "path": "ui/_sources/animateicons-lucide/src/georgian-lari.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-georgian-lari.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-georgian-lari.json"
+    },
+    {
+      "name": "gift",
+      "path": "ui/_sources/animateicons-lucide/src/gift.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-gift.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-gift.json"
+    },
+    {
+      "name": "git-branch",
+      "path": "ui/_sources/animateicons-lucide/src/git-branch.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-branch.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-branch.json"
+    },
+    {
+      "name": "git-branch-minus",
+      "path": "ui/_sources/animateicons-lucide/src/git-branch-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-branch-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-branch-minus.json"
+    },
+    {
+      "name": "git-branch-plus",
+      "path": "ui/_sources/animateicons-lucide/src/git-branch-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-branch-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-branch-plus.json"
+    },
+    {
+      "name": "git-commit-horizontal",
+      "path": "ui/_sources/animateicons-lucide/src/git-commit-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-commit-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-commit-horizontal.json"
+    },
+    {
+      "name": "git-commit-vertical",
+      "path": "ui/_sources/animateicons-lucide/src/git-commit-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-commit-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-commit-vertical.json"
+    },
+    {
+      "name": "git-compare-arrows",
+      "path": "ui/_sources/animateicons-lucide/src/git-compare-arrows.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-compare-arrows.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-compare-arrows.json"
+    },
+    {
+      "name": "git-compare",
+      "path": "ui/_sources/animateicons-lucide/src/git-compare.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-compare.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-compare.json"
+    },
+    {
+      "name": "git-fork",
+      "path": "ui/_sources/animateicons-lucide/src/git-fork.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-fork.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-fork.json"
+    },
+    {
+      "name": "git-merge-conflict",
+      "path": "ui/_sources/animateicons-lucide/src/git-merge-conflict.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-merge-conflict.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-merge-conflict.json"
+    },
+    {
+      "name": "git-merge",
+      "path": "ui/_sources/animateicons-lucide/src/git-merge.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-git-merge.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-merge.json"
+    },
+    {
+      "name": "github",
+      "path": "ui/_sources/animateicons-lucide/src/github.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-github.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-github.json"
+    },
+    {
+      "name": "gitlab",
+      "path": "ui/_sources/animateicons-lucide/src/gitlab.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-gitlab.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-gitlab.json"
+    },
+    {
+      "name": "globe",
+      "path": "ui/_sources/animateicons-lucide/src/globe.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-globe.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-globe.json"
+    },
+    {
+      "name": "globe-lock",
+      "path": "ui/_sources/animateicons-lucide/src/globe-lock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-globe-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-globe-lock.json"
+    },
+    {
+      "name": "guitar",
+      "path": "ui/_sources/animateicons-lucide/src/guitar.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-guitar.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-guitar.json"
+    },
+    {
+      "name": "hand-coins",
+      "path": "ui/_sources/animateicons-lucide/src/hand-coins.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-hand-coins.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-hand-coins.json"
+    },
+    {
+      "name": "hard-drive-download",
+      "path": "ui/_sources/animateicons-lucide/src/hard-drive-download.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-hard-drive-download.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-hard-drive-download.json"
+    },
+    {
+      "name": "hard-drive",
+      "path": "ui/_sources/animateicons-lucide/src/hard-drive.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-hard-drive.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-hard-drive.json"
+    },
+    {
+      "name": "haze",
+      "path": "ui/_sources/animateicons-lucide/src/haze.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-haze.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-haze.json"
+    },
+    {
+      "name": "heading-1",
+      "path": "ui/_sources/animateicons-lucide/src/heading-1.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-heading-1.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-heading-1.json"
+    },
+    {
+      "name": "heading-2",
+      "path": "ui/_sources/animateicons-lucide/src/heading-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-heading-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-heading-2.json"
+    },
+    {
+      "name": "heading",
+      "path": "ui/_sources/animateicons-lucide/src/heading.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-heading.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-heading.json"
+    },
+    {
+      "name": "headphone-off",
+      "path": "ui/_sources/animateicons-lucide/src/headphone-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-headphone-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-headphone-off.json"
+    },
+    {
+      "name": "headphones",
+      "path": "ui/_sources/animateicons-lucide/src/headphones.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-headphones.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-headphones.json"
+    },
+    {
+      "name": "headset",
+      "path": "ui/_sources/animateicons-lucide/src/headset.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-headset.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-headset.json"
+    },
+    {
+      "name": "heart",
+      "path": "ui/_sources/animateicons-lucide/src/heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-heart.json"
+    },
+    {
+      "name": "history",
+      "path": "ui/_sources/animateicons-lucide/src/history.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-history.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-history.json"
+    },
+    {
+      "name": "hourglass",
+      "path": "ui/_sources/animateicons-lucide/src/hourglass.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-hourglass.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-hourglass.json"
+    },
+    {
+      "name": "house",
+      "path": "ui/_sources/animateicons-lucide/src/house.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-house.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-house.json"
+    },
+    {
+      "name": "image",
+      "path": "ui/_sources/animateicons-lucide/src/image.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-image.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-image.json"
+    },
+    {
+      "name": "inbox",
+      "path": "ui/_sources/animateicons-lucide/src/inbox.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-inbox.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-inbox.json"
+    },
+    {
+      "name": "indent-decrease",
+      "path": "ui/_sources/animateicons-lucide/src/indent-decrease.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-indent-decrease.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-indent-decrease.json"
+    },
+    {
+      "name": "indent-increase",
+      "path": "ui/_sources/animateicons-lucide/src/indent-increase.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-indent-increase.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-indent-increase.json"
+    },
+    {
+      "name": "indian-rupee",
+      "path": "ui/_sources/animateicons-lucide/src/indian-rupee.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-indian-rupee.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-indian-rupee.json"
+    },
+    {
+      "name": "info",
+      "path": "ui/_sources/animateicons-lucide/src/info.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-info.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-info.json"
+    },
+    {
+      "name": "instagram",
+      "path": "ui/_sources/animateicons-lucide/src/instagram.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-instagram.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-instagram.json"
+    },
+    {
+      "name": "italic",
+      "path": "ui/_sources/animateicons-lucide/src/italic.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-italic.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-italic.json"
+    },
+    {
+      "name": "japanese-yen",
+      "path": "ui/_sources/animateicons-lucide/src/japanese-yen.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-japanese-yen.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-japanese-yen.json"
+    },
+    {
+      "name": "key",
+      "path": "ui/_sources/animateicons-lucide/src/key.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-key.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-key.json"
+    },
+    {
+      "name": "key-round",
+      "path": "ui/_sources/animateicons-lucide/src/key-round.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-key-round.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-key-round.json"
+    },
+    {
+      "name": "key-square",
+      "path": "ui/_sources/animateicons-lucide/src/key-square.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-key-square.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-key-square.json"
+    },
+    {
+      "name": "keyboard",
+      "path": "ui/_sources/animateicons-lucide/src/keyboard.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-keyboard.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-keyboard.json"
+    },
+    {
+      "name": "laptop",
+      "path": "ui/_sources/animateicons-lucide/src/laptop.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-laptop.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-laptop.json"
+    },
+    {
+      "name": "laptop-minimal",
+      "path": "ui/_sources/animateicons-lucide/src/laptop-minimal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-laptop-minimal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-laptop-minimal.json"
+    },
+    {
+      "name": "layers",
+      "path": "ui/_sources/animateicons-lucide/src/layers.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-layers.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-layers.json"
+    },
+    {
+      "name": "layout-dashboard",
+      "path": "ui/_sources/animateicons-lucide/src/layout-dashboard.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-layout-dashboard.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-layout-dashboard.json"
+    },
+    {
+      "name": "layout-grid",
+      "path": "ui/_sources/animateicons-lucide/src/layout-grid.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-layout-grid.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-layout-grid.json"
+    },
+    {
+      "name": "layout-list",
+      "path": "ui/_sources/animateicons-lucide/src/layout-list.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-layout-list.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-layout-list.json"
+    },
+    {
+      "name": "lightbulb",
+      "path": "ui/_sources/animateicons-lucide/src/lightbulb.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-lightbulb.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-lightbulb.json"
+    },
+    {
+      "name": "link",
+      "path": "ui/_sources/animateicons-lucide/src/link.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-link.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-link.json"
+    },
+    {
+      "name": "linkedin",
+      "path": "ui/_sources/animateicons-lucide/src/linkedin.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-linkedin.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-linkedin.json"
+    },
+    {
+      "name": "list-checks",
+      "path": "ui/_sources/animateicons-lucide/src/list-checks.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-list-checks.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-list-checks.json"
+    },
+    {
+      "name": "list-chevrons-up-down",
+      "path": "ui/_sources/animateicons-lucide/src/list-chevrons-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-list-chevrons-up-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-list-chevrons-up-down.json"
+    },
+    {
+      "name": "list",
+      "path": "ui/_sources/animateicons-lucide/src/list.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-list.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-list.json"
+    },
+    {
+      "name": "list-ordered",
+      "path": "ui/_sources/animateicons-lucide/src/list-ordered.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-list-ordered.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-list-ordered.json"
+    },
+    {
+      "name": "loader-circle",
+      "path": "ui/_sources/animateicons-lucide/src/loader-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-loader-circle.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-loader-circle.json"
+    },
+    {
+      "name": "loader",
+      "path": "ui/_sources/animateicons-lucide/src/loader.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-loader.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-loader.json"
+    },
+    {
+      "name": "locate-fixed",
+      "path": "ui/_sources/animateicons-lucide/src/locate-fixed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-locate-fixed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-locate-fixed.json"
+    },
+    {
+      "name": "locate",
+      "path": "ui/_sources/animateicons-lucide/src/locate.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-locate.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-locate.json"
+    },
+    {
+      "name": "locate-off",
+      "path": "ui/_sources/animateicons-lucide/src/locate-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-locate-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-locate-off.json"
+    },
+    {
+      "name": "lock",
+      "path": "ui/_sources/animateicons-lucide/src/lock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-lock.json"
+    },
+    {
+      "name": "log-in",
+      "path": "ui/_sources/animateicons-lucide/src/log-in.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-log-in.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-log-in.json"
+    },
+    {
+      "name": "log-out",
+      "path": "ui/_sources/animateicons-lucide/src/log-out.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-log-out.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-log-out.json"
+    },
+    {
+      "name": "mail-check",
+      "path": "ui/_sources/animateicons-lucide/src/mail-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-check.json"
+    },
+    {
+      "name": "mail",
+      "path": "ui/_sources/animateicons-lucide/src/mail.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail.json"
+    },
+    {
+      "name": "mail-minus",
+      "path": "ui/_sources/animateicons-lucide/src/mail-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-minus.json"
+    },
+    {
+      "name": "mail-open",
+      "path": "ui/_sources/animateicons-lucide/src/mail-open.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-open.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-open.json"
+    },
+    {
+      "name": "mail-plus",
+      "path": "ui/_sources/animateicons-lucide/src/mail-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-plus.json"
+    },
+    {
+      "name": "mail-search",
+      "path": "ui/_sources/animateicons-lucide/src/mail-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-search.json"
+    },
+    {
+      "name": "mail-warning",
+      "path": "ui/_sources/animateicons-lucide/src/mail-warning.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-warning.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-warning.json"
+    },
+    {
+      "name": "mail-x",
+      "path": "ui/_sources/animateicons-lucide/src/mail-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mail-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-x.json"
+    },
+    {
+      "name": "mailbox",
+      "path": "ui/_sources/animateicons-lucide/src/mailbox.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mailbox.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mailbox.json"
+    },
+    {
+      "name": "mails",
+      "path": "ui/_sources/animateicons-lucide/src/mails.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mails.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mails.json"
+    },
+    {
+      "name": "map",
+      "path": "ui/_sources/animateicons-lucide/src/map.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-map.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-map.json"
+    },
+    {
+      "name": "map-pin-check",
+      "path": "ui/_sources/animateicons-lucide/src/map-pin-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-map-pin-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-map-pin-check.json"
+    },
+    {
+      "name": "map-pin-check-inside",
+      "path": "ui/_sources/animateicons-lucide/src/map-pin-check-inside.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-map-pin-check-inside.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-map-pin-check-inside.json"
+    },
+    {
+      "name": "map-pin",
+      "path": "ui/_sources/animateicons-lucide/src/map-pin.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-map-pin.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-map-pin.json"
+    },
+    {
+      "name": "map-pinned",
+      "path": "ui/_sources/animateicons-lucide/src/map-pinned.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-map-pinned.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-map-pinned.json"
+    },
+    {
+      "name": "mars",
+      "path": "ui/_sources/animateicons-lucide/src/mars.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mars.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mars.json"
+    },
+    {
+      "name": "megaphone",
+      "path": "ui/_sources/animateicons-lucide/src/megaphone.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-megaphone.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-megaphone.json"
+    },
+    {
+      "name": "memory-stick",
+      "path": "ui/_sources/animateicons-lucide/src/memory-stick.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-memory-stick.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-memory-stick.json"
+    },
+    {
+      "name": "menu",
+      "path": "ui/_sources/animateicons-lucide/src/menu.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-menu.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-menu.json"
+    },
+    {
+      "name": "message-circle-heart",
+      "path": "ui/_sources/animateicons-lucide/src/message-circle-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-circle-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-circle-heart.json"
+    },
+    {
+      "name": "message-circle",
+      "path": "ui/_sources/animateicons-lucide/src/message-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-circle.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-circle.json"
+    },
+    {
+      "name": "message-circle-more",
+      "path": "ui/_sources/animateicons-lucide/src/message-circle-more.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-circle-more.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-circle-more.json"
+    },
+    {
+      "name": "message-circle-plus",
+      "path": "ui/_sources/animateicons-lucide/src/message-circle-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-circle-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-circle-plus.json"
+    },
+    {
+      "name": "message-circle-x",
+      "path": "ui/_sources/animateicons-lucide/src/message-circle-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-circle-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-circle-x.json"
+    },
+    {
+      "name": "message-square-dot",
+      "path": "ui/_sources/animateicons-lucide/src/message-square-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-dot.json"
+    },
+    {
+      "name": "message-square-heart",
+      "path": "ui/_sources/animateicons-lucide/src/message-square-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-heart.json"
+    },
+    {
+      "name": "message-square",
+      "path": "ui/_sources/animateicons-lucide/src/message-square.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square.json"
+    },
+    {
+      "name": "message-square-plus",
+      "path": "ui/_sources/animateicons-lucide/src/message-square-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-plus.json"
+    },
+    {
+      "name": "message-square-text",
+      "path": "ui/_sources/animateicons-lucide/src/message-square-text.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square-text.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-text.json"
+    },
+    {
+      "name": "message-square-x",
+      "path": "ui/_sources/animateicons-lucide/src/message-square-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-message-square-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-x.json"
+    },
+    {
+      "name": "mic",
+      "path": "ui/_sources/animateicons-lucide/src/mic.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mic.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mic.json"
+    },
+    {
+      "name": "mic-off",
+      "path": "ui/_sources/animateicons-lucide/src/mic-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mic-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mic-off.json"
+    },
+    {
+      "name": "milestone",
+      "path": "ui/_sources/animateicons-lucide/src/milestone.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-milestone.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-milestone.json"
+    },
+    {
+      "name": "minus",
+      "path": "ui/_sources/animateicons-lucide/src/minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-minus.json"
+    },
+    {
+      "name": "monitor",
+      "path": "ui/_sources/animateicons-lucide/src/monitor.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-monitor.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-monitor.json"
+    },
+    {
+      "name": "monitor-smartphone",
+      "path": "ui/_sources/animateicons-lucide/src/monitor-smartphone.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-monitor-smartphone.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-monitor-smartphone.json"
+    },
+    {
+      "name": "moon",
+      "path": "ui/_sources/animateicons-lucide/src/moon.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-moon.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-moon.json"
+    },
+    {
+      "name": "moon-star",
+      "path": "ui/_sources/animateicons-lucide/src/moon-star.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-moon-star.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-moon-star.json"
+    },
+    {
+      "name": "mountain",
+      "path": "ui/_sources/animateicons-lucide/src/mountain.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mountain.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mountain.json"
+    },
+    {
+      "name": "mouse",
+      "path": "ui/_sources/animateicons-lucide/src/mouse.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mouse.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mouse.json"
+    },
+    {
+      "name": "mouse-pointer-click",
+      "path": "ui/_sources/animateicons-lucide/src/mouse-pointer-click.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-mouse-pointer-click.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mouse-pointer-click.json"
+    },
+    {
+      "name": "move-diagonal-2",
+      "path": "ui/_sources/animateicons-lucide/src/move-diagonal-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-diagonal-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-diagonal-2.json"
+    },
+    {
+      "name": "move-diagonal",
+      "path": "ui/_sources/animateicons-lucide/src/move-diagonal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-diagonal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-diagonal.json"
+    },
+    {
+      "name": "move-horizontal",
+      "path": "ui/_sources/animateicons-lucide/src/move-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-horizontal.json"
+    },
+    {
+      "name": "move-left",
+      "path": "ui/_sources/animateicons-lucide/src/move-left.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-left.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-left.json"
+    },
+    {
+      "name": "move-right",
+      "path": "ui/_sources/animateicons-lucide/src/move-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-right.json"
+    },
+    {
+      "name": "move-vertical",
+      "path": "ui/_sources/animateicons-lucide/src/move-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-move-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-move-vertical.json"
+    },
+    {
+      "name": "music",
+      "path": "ui/_sources/animateicons-lucide/src/music.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-music.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-music.json"
+    },
+    {
+      "name": "navigation-2",
+      "path": "ui/_sources/animateicons-lucide/src/navigation-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-navigation-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-navigation-2.json"
+    },
+    {
+      "name": "navigation",
+      "path": "ui/_sources/animateicons-lucide/src/navigation.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-navigation.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-navigation.json"
+    },
+    {
+      "name": "package-check",
+      "path": "ui/_sources/animateicons-lucide/src/package-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package-check.json"
+    },
+    {
+      "name": "package",
+      "path": "ui/_sources/animateicons-lucide/src/package.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package.json"
+    },
+    {
+      "name": "package-open",
+      "path": "ui/_sources/animateicons-lucide/src/package-open.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package-open.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package-open.json"
+    },
+    {
+      "name": "package-plus",
+      "path": "ui/_sources/animateicons-lucide/src/package-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package-plus.json"
+    },
+    {
+      "name": "package-search",
+      "path": "ui/_sources/animateicons-lucide/src/package-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package-search.json"
+    },
+    {
+      "name": "package-x",
+      "path": "ui/_sources/animateicons-lucide/src/package-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-package-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-package-x.json"
+    },
+    {
+      "name": "paperclip",
+      "path": "ui/_sources/animateicons-lucide/src/paperclip.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-paperclip.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-paperclip.json"
+    },
+    {
+      "name": "pause",
+      "path": "ui/_sources/animateicons-lucide/src/pause.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pause.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pause.json"
+    },
+    {
+      "name": "pencil",
+      "path": "ui/_sources/animateicons-lucide/src/pencil.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pencil.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pencil.json"
+    },
+    {
+      "name": "philippine-peso",
+      "path": "ui/_sources/animateicons-lucide/src/philippine-peso.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-philippine-peso.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-philippine-peso.json"
+    },
+    {
+      "name": "phone-call",
+      "path": "ui/_sources/animateicons-lucide/src/phone-call.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-phone-call.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone-call.json"
+    },
+    {
+      "name": "phone-forwarded",
+      "path": "ui/_sources/animateicons-lucide/src/phone-forwarded.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-phone-forwarded.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone-forwarded.json"
+    },
+    {
+      "name": "phone",
+      "path": "ui/_sources/animateicons-lucide/src/phone.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-phone.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone.json"
+    },
+    {
+      "name": "phone-incoming",
+      "path": "ui/_sources/animateicons-lucide/src/phone-incoming.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-phone-incoming.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone-incoming.json"
+    },
+    {
+      "name": "phone-missed",
+      "path": "ui/_sources/animateicons-lucide/src/phone-missed.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-phone-missed.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone-missed.json"
+    },
+    {
+      "name": "piano",
+      "path": "ui/_sources/animateicons-lucide/src/piano.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-piano.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-piano.json"
+    },
+    {
+      "name": "piggy-bank",
+      "path": "ui/_sources/animateicons-lucide/src/piggy-bank.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-piggy-bank.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-piggy-bank.json"
+    },
+    {
+      "name": "pilcrow",
+      "path": "ui/_sources/animateicons-lucide/src/pilcrow.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pilcrow.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pilcrow.json"
+    },
+    {
+      "name": "pin",
+      "path": "ui/_sources/animateicons-lucide/src/pin.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pin.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pin.json"
+    },
+    {
+      "name": "pin-off",
+      "path": "ui/_sources/animateicons-lucide/src/pin-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pin-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pin-off.json"
+    },
+    {
+      "name": "play",
+      "path": "ui/_sources/animateicons-lucide/src/play.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-play.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-play.json"
+    },
+    {
+      "name": "plug-2",
+      "path": "ui/_sources/animateicons-lucide/src/plug-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-plug-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-plug-2.json"
+    },
+    {
+      "name": "plug",
+      "path": "ui/_sources/animateicons-lucide/src/plug.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-plug.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-plug.json"
+    },
+    {
+      "name": "plug-zap",
+      "path": "ui/_sources/animateicons-lucide/src/plug-zap.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-plug-zap.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-plug-zap.json"
+    },
+    {
+      "name": "plus",
+      "path": "ui/_sources/animateicons-lucide/src/plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-plus.json"
+    },
+    {
+      "name": "podcast",
+      "path": "ui/_sources/animateicons-lucide/src/podcast.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-podcast.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-podcast.json"
+    },
+    {
+      "name": "pound-sterling",
+      "path": "ui/_sources/animateicons-lucide/src/pound-sterling.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-pound-sterling.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pound-sterling.json"
+    },
+    {
+      "name": "printer",
+      "path": "ui/_sources/animateicons-lucide/src/printer.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-printer.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-printer.json"
+    },
+    {
+      "name": "qr-code",
+      "path": "ui/_sources/animateicons-lucide/src/qr-code.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-qr-code.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-qr-code.json"
+    },
+    {
+      "name": "quote",
+      "path": "ui/_sources/animateicons-lucide/src/quote.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-quote.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-quote.json"
+    },
+    {
+      "name": "rabbit",
+      "path": "ui/_sources/animateicons-lucide/src/rabbit.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-rabbit.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-rabbit.json"
+    },
+    {
+      "name": "radio",
+      "path": "ui/_sources/animateicons-lucide/src/radio.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-radio.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-radio.json"
+    },
+    {
+      "name": "rainbow",
+      "path": "ui/_sources/animateicons-lucide/src/rainbow.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-rainbow.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-rainbow.json"
+    },
+    {
+      "name": "receipt",
+      "path": "ui/_sources/animateicons-lucide/src/receipt.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-receipt.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-receipt.json"
+    },
+    {
+      "name": "receipt-text",
+      "path": "ui/_sources/animateicons-lucide/src/receipt-text.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-receipt-text.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-receipt-text.json"
+    },
+    {
+      "name": "refresh-cw",
+      "path": "ui/_sources/animateicons-lucide/src/refresh-cw.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-refresh-cw.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-refresh-cw.json"
+    },
+    {
+      "name": "repeat-1",
+      "path": "ui/_sources/animateicons-lucide/src/repeat-1.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-repeat-1.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-repeat-1.json"
+    },
+    {
+      "name": "repeat-2",
+      "path": "ui/_sources/animateicons-lucide/src/repeat-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-repeat-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-repeat-2.json"
+    },
+    {
+      "name": "repeat",
+      "path": "ui/_sources/animateicons-lucide/src/repeat.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-repeat.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-repeat.json"
+    },
+    {
+      "name": "reply-all",
+      "path": "ui/_sources/animateicons-lucide/src/reply-all.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-reply-all.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-reply-all.json"
+    },
+    {
+      "name": "reply",
+      "path": "ui/_sources/animateicons-lucide/src/reply.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-reply.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-reply.json"
+    },
+    {
+      "name": "rewind",
+      "path": "ui/_sources/animateicons-lucide/src/rewind.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-rewind.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-rewind.json"
+    },
+    {
+      "name": "rocket",
+      "path": "ui/_sources/animateicons-lucide/src/rocket.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-rocket.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-rocket.json"
+    },
+    {
+      "name": "route",
+      "path": "ui/_sources/animateicons-lucide/src/route.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-route.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-route.json"
+    },
+    {
+      "name": "route-off",
+      "path": "ui/_sources/animateicons-lucide/src/route-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-route-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-route-off.json"
+    },
+    {
+      "name": "router",
+      "path": "ui/_sources/animateicons-lucide/src/router.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-router.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-router.json"
+    },
+    {
+      "name": "russian-ruble",
+      "path": "ui/_sources/animateicons-lucide/src/russian-ruble.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-russian-ruble.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-russian-ruble.json"
+    },
+    {
+      "name": "saudi-riyal",
+      "path": "ui/_sources/animateicons-lucide/src/saudi-riyal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-saudi-riyal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-saudi-riyal.json"
+    },
+    {
+      "name": "save",
+      "path": "ui/_sources/animateicons-lucide/src/save.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-save.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-save.json"
+    },
+    {
+      "name": "scan",
+      "path": "ui/_sources/animateicons-lucide/src/scan.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-scan.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-scan.json"
+    },
+    {
+      "name": "scan-line",
+      "path": "ui/_sources/animateicons-lucide/src/scan-line.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-scan-line.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-scan-line.json"
+    },
+    {
+      "name": "scan-qr-code",
+      "path": "ui/_sources/animateicons-lucide/src/scan-qr-code.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-scan-qr-code.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-scan-qr-code.json"
+    },
+    {
+      "name": "search",
+      "path": "ui/_sources/animateicons-lucide/src/search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-search.json"
+    },
+    {
+      "name": "send-horizontal",
+      "path": "ui/_sources/animateicons-lucide/src/send-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-send-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-send-horizontal.json"
+    },
+    {
+      "name": "send",
+      "path": "ui/_sources/animateicons-lucide/src/send.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-send.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-send.json"
+    },
+    {
+      "name": "server",
+      "path": "ui/_sources/animateicons-lucide/src/server.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-server.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-server.json"
+    },
+    {
+      "name": "settings",
+      "path": "ui/_sources/animateicons-lucide/src/settings.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-settings.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-settings.json"
+    },
+    {
+      "name": "share",
+      "path": "ui/_sources/animateicons-lucide/src/share.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-share.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-share.json"
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/animateicons-lucide/src/shield-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shield-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shield-check.json"
+    },
+    {
+      "name": "shield-user",
+      "path": "ui/_sources/animateicons-lucide/src/shield-user.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shield-user.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shield-user.json"
+    },
+    {
+      "name": "shield-x",
+      "path": "ui/_sources/animateicons-lucide/src/shield-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shield-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shield-x.json"
+    },
+    {
+      "name": "shopping-bag",
+      "path": "ui/_sources/animateicons-lucide/src/shopping-bag.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shopping-bag.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shopping-bag.json"
+    },
+    {
+      "name": "shopping-basket",
+      "path": "ui/_sources/animateicons-lucide/src/shopping-basket.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shopping-basket.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shopping-basket.json"
+    },
+    {
+      "name": "shopping-cart",
+      "path": "ui/_sources/animateicons-lucide/src/shopping-cart.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shopping-cart.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shopping-cart.json"
+    },
+    {
+      "name": "shuffle",
+      "path": "ui/_sources/animateicons-lucide/src/shuffle.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-shuffle.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shuffle.json"
+    },
+    {
+      "name": "signal",
+      "path": "ui/_sources/animateicons-lucide/src/signal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-signal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-signal.json"
+    },
+    {
+      "name": "signpost-big",
+      "path": "ui/_sources/animateicons-lucide/src/signpost-big.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-signpost-big.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-signpost-big.json"
+    },
+    {
+      "name": "signpost",
+      "path": "ui/_sources/animateicons-lucide/src/signpost.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-signpost.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-signpost.json"
+    },
+    {
+      "name": "skip-back",
+      "path": "ui/_sources/animateicons-lucide/src/skip-back.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-skip-back.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-skip-back.json"
+    },
+    {
+      "name": "skip-forward",
+      "path": "ui/_sources/animateicons-lucide/src/skip-forward.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-skip-forward.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-skip-forward.json"
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "ui/_sources/animateicons-lucide/src/sliders-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sliders-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sliders-horizontal.json"
+    },
+    {
+      "name": "smartphone",
+      "path": "ui/_sources/animateicons-lucide/src/smartphone.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-smartphone.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-smartphone.json"
+    },
+    {
+      "name": "snowflake",
+      "path": "ui/_sources/animateicons-lucide/src/snowflake.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-snowflake.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-snowflake.json"
+    },
+    {
+      "name": "sparkles",
+      "path": "ui/_sources/animateicons-lucide/src/sparkles.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sparkles.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sparkles.json"
+    },
+    {
+      "name": "speaker",
+      "path": "ui/_sources/animateicons-lucide/src/speaker.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-speaker.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-speaker.json"
+    },
+    {
+      "name": "spray-can",
+      "path": "ui/_sources/animateicons-lucide/src/spray-can.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-spray-can.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-spray-can.json"
+    },
+    {
+      "name": "square-arrow-out-up-right",
+      "path": "ui/_sources/animateicons-lucide/src/square-arrow-out-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-square-arrow-out-up-right.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-square-arrow-out-up-right.json"
+    },
+    {
+      "name": "square-pause",
+      "path": "ui/_sources/animateicons-lucide/src/square-pause.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-square-pause.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-square-pause.json"
+    },
+    {
+      "name": "square-play",
+      "path": "ui/_sources/animateicons-lucide/src/square-play.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-square-play.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-square-play.json"
+    },
+    {
+      "name": "star",
+      "path": "ui/_sources/animateicons-lucide/src/star.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-star.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-star.json"
+    },
+    {
+      "name": "step-back",
+      "path": "ui/_sources/animateicons-lucide/src/step-back.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-step-back.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-step-back.json"
+    },
+    {
+      "name": "step-forward",
+      "path": "ui/_sources/animateicons-lucide/src/step-forward.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-step-forward.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-step-forward.json"
+    },
+    {
+      "name": "store",
+      "path": "ui/_sources/animateicons-lucide/src/store.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-store.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-store.json"
+    },
+    {
+      "name": "strikethrough",
+      "path": "ui/_sources/animateicons-lucide/src/strikethrough.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-strikethrough.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-strikethrough.json"
+    },
+    {
+      "name": "sun-dim",
+      "path": "ui/_sources/animateicons-lucide/src/sun-dim.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sun-dim.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sun-dim.json"
+    },
+    {
+      "name": "sun",
+      "path": "ui/_sources/animateicons-lucide/src/sun.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sun.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sun.json"
+    },
+    {
+      "name": "sun-medium",
+      "path": "ui/_sources/animateicons-lucide/src/sun-medium.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sun-medium.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sun-medium.json"
+    },
+    {
+      "name": "sun-snow",
+      "path": "ui/_sources/animateicons-lucide/src/sun-snow.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sun-snow.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sun-snow.json"
+    },
+    {
+      "name": "sunrise",
+      "path": "ui/_sources/animateicons-lucide/src/sunrise.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sunrise.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sunrise.json"
+    },
+    {
+      "name": "sunset",
+      "path": "ui/_sources/animateicons-lucide/src/sunset.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-sunset.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-sunset.json"
+    },
+    {
+      "name": "swiss-franc",
+      "path": "ui/_sources/animateicons-lucide/src/swiss-franc.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-swiss-franc.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-swiss-franc.json"
+    },
+    {
+      "name": "swords",
+      "path": "ui/_sources/animateicons-lucide/src/swords.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-swords.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-swords.json"
+    },
+    {
+      "name": "tablet",
+      "path": "ui/_sources/animateicons-lucide/src/tablet.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tablet.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tablet.json"
+    },
+    {
+      "name": "tag",
+      "path": "ui/_sources/animateicons-lucide/src/tag.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tag.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tag.json"
+    },
+    {
+      "name": "tags",
+      "path": "ui/_sources/animateicons-lucide/src/tags.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tags.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tags.json"
+    },
+    {
+      "name": "telescope",
+      "path": "ui/_sources/animateicons-lucide/src/telescope.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-telescope.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-telescope.json"
+    },
+    {
+      "name": "tent",
+      "path": "ui/_sources/animateicons-lucide/src/tent.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tent.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tent.json"
+    },
+    {
+      "name": "terminal",
+      "path": "ui/_sources/animateicons-lucide/src/terminal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-terminal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-terminal.json"
+    },
+    {
+      "name": "thermometer",
+      "path": "ui/_sources/animateicons-lucide/src/thermometer.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-thermometer.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-thermometer.json"
+    },
+    {
+      "name": "thermometer-sun",
+      "path": "ui/_sources/animateicons-lucide/src/thermometer-sun.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-thermometer-sun.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-thermometer-sun.json"
+    },
+    {
+      "name": "thumbs-down",
+      "path": "ui/_sources/animateicons-lucide/src/thumbs-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-thumbs-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-thumbs-down.json"
+    },
+    {
+      "name": "thumbs-up",
+      "path": "ui/_sources/animateicons-lucide/src/thumbs-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-thumbs-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-thumbs-up.json"
+    },
+    {
+      "name": "ticket",
+      "path": "ui/_sources/animateicons-lucide/src/ticket.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-ticket.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-ticket.json"
+    },
+    {
+      "name": "ticket-percent",
+      "path": "ui/_sources/animateicons-lucide/src/ticket-percent.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-ticket-percent.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-ticket-percent.json"
+    },
+    {
+      "name": "timer",
+      "path": "ui/_sources/animateicons-lucide/src/timer.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-timer.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-timer.json"
+    },
+    {
+      "name": "timer-off",
+      "path": "ui/_sources/animateicons-lucide/src/timer-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-timer-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-timer-off.json"
+    },
+    {
+      "name": "timer-reset",
+      "path": "ui/_sources/animateicons-lucide/src/timer-reset.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-timer-reset.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-timer-reset.json"
+    },
+    {
+      "name": "tornado",
+      "path": "ui/_sources/animateicons-lucide/src/tornado.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tornado.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tornado.json"
+    },
+    {
+      "name": "trash-2",
+      "path": "ui/_sources/animateicons-lucide/src/trash-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-trash-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-trash-2.json"
+    },
+    {
+      "name": "trash",
+      "path": "ui/_sources/animateicons-lucide/src/trash.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-trash.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-trash.json"
+    },
+    {
+      "name": "trending-down",
+      "path": "ui/_sources/animateicons-lucide/src/trending-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-trending-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-trending-down.json"
+    },
+    {
+      "name": "trending-up-down",
+      "path": "ui/_sources/animateicons-lucide/src/trending-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-trending-up-down.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-trending-up-down.json"
+    },
+    {
+      "name": "trending-up",
+      "path": "ui/_sources/animateicons-lucide/src/trending-up.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-trending-up.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-trending-up.json"
+    },
+    {
+      "name": "triangle-alert",
+      "path": "ui/_sources/animateicons-lucide/src/triangle-alert.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-triangle-alert.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-triangle-alert.json"
+    },
+    {
+      "name": "truck",
+      "path": "ui/_sources/animateicons-lucide/src/truck.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-truck.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-truck.json"
+    },
+    {
+      "name": "turkish-lira",
+      "path": "ui/_sources/animateicons-lucide/src/turkish-lira.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-turkish-lira.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-turkish-lira.json"
+    },
+    {
+      "name": "tv",
+      "path": "ui/_sources/animateicons-lucide/src/tv.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tv.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tv.json"
+    },
+    {
+      "name": "tv-minimal",
+      "path": "ui/_sources/animateicons-lucide/src/tv-minimal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-tv-minimal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tv-minimal.json"
+    },
+    {
+      "name": "twitter",
+      "path": "ui/_sources/animateicons-lucide/src/twitter.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-twitter.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-twitter.json"
+    },
+    {
+      "name": "type",
+      "path": "ui/_sources/animateicons-lucide/src/type.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-type.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-type.json"
+    },
+    {
+      "name": "umbrella",
+      "path": "ui/_sources/animateicons-lucide/src/umbrella.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-umbrella.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-umbrella.json"
+    },
+    {
+      "name": "underline",
+      "path": "ui/_sources/animateicons-lucide/src/underline.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-underline.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-underline.json"
+    },
+    {
+      "name": "unlink",
+      "path": "ui/_sources/animateicons-lucide/src/unlink.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-unlink.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-unlink.json"
+    },
+    {
+      "name": "upload",
+      "path": "ui/_sources/animateicons-lucide/src/upload.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-upload.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-upload.json"
+    },
+    {
+      "name": "usb",
+      "path": "ui/_sources/animateicons-lucide/src/usb.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-usb.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-usb.json"
+    },
+    {
+      "name": "user-check",
+      "path": "ui/_sources/animateicons-lucide/src/user-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-check.json"
+    },
+    {
+      "name": "user-cog",
+      "path": "ui/_sources/animateicons-lucide/src/user-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-cog.json"
+    },
+    {
+      "name": "user",
+      "path": "ui/_sources/animateicons-lucide/src/user.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user.json"
+    },
+    {
+      "name": "user-lock",
+      "path": "ui/_sources/animateicons-lucide/src/user-lock.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-lock.json"
+    },
+    {
+      "name": "user-minus",
+      "path": "ui/_sources/animateicons-lucide/src/user-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-minus.json"
+    },
+    {
+      "name": "user-pen",
+      "path": "ui/_sources/animateicons-lucide/src/user-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-pen.json"
+    },
+    {
+      "name": "user-plus",
+      "path": "ui/_sources/animateicons-lucide/src/user-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-plus.json"
+    },
+    {
+      "name": "user-round-check",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-check.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-check.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-check.json"
+    },
+    {
+      "name": "user-round-cog",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-cog.json"
+    },
+    {
+      "name": "user-round",
+      "path": "ui/_sources/animateicons-lucide/src/user-round.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round.json"
+    },
+    {
+      "name": "user-round-minus",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-minus.json"
+    },
+    {
+      "name": "user-round-pen",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-pen.json"
+    },
+    {
+      "name": "user-round-search",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-search.json"
+    },
+    {
+      "name": "user-round-x",
+      "path": "ui/_sources/animateicons-lucide/src/user-round-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-round-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-x.json"
+    },
+    {
+      "name": "user-search",
+      "path": "ui/_sources/animateicons-lucide/src/user-search.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-search.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-search.json"
+    },
+    {
+      "name": "user-star",
+      "path": "ui/_sources/animateicons-lucide/src/user-star.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-star.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-star.json"
+    },
+    {
+      "name": "user-x",
+      "path": "ui/_sources/animateicons-lucide/src/user-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-user-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-x.json"
+    },
+    {
+      "name": "users",
+      "path": "ui/_sources/animateicons-lucide/src/users.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-users.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-users.json"
+    },
+    {
+      "name": "users-round",
+      "path": "ui/_sources/animateicons-lucide/src/users-round.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-users-round.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-users-round.json"
+    },
+    {
+      "name": "utensils",
+      "path": "ui/_sources/animateicons-lucide/src/utensils.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-utensils.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-utensils.json"
+    },
+    {
+      "name": "venus",
+      "path": "ui/_sources/animateicons-lucide/src/venus.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-venus.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-venus.json"
+    },
+    {
+      "name": "video",
+      "path": "ui/_sources/animateicons-lucide/src/video.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-video.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-video.json"
+    },
+    {
+      "name": "volume-1",
+      "path": "ui/_sources/animateicons-lucide/src/volume-1.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-volume-1.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-volume-1.json"
+    },
+    {
+      "name": "volume-2",
+      "path": "ui/_sources/animateicons-lucide/src/volume-2.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-volume-2.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-volume-2.json"
+    },
+    {
+      "name": "volume",
+      "path": "ui/_sources/animateicons-lucide/src/volume.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-volume.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-volume.json"
+    },
+    {
+      "name": "volume-off",
+      "path": "ui/_sources/animateicons-lucide/src/volume-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-volume-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-volume-off.json"
+    },
+    {
+      "name": "volume-x",
+      "path": "ui/_sources/animateicons-lucide/src/volume-x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-volume-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-volume-x.json"
+    },
+    {
+      "name": "wallet-cards",
+      "path": "ui/_sources/animateicons-lucide/src/wallet-cards.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wallet-cards.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wallet-cards.json"
+    },
+    {
+      "name": "wallet",
+      "path": "ui/_sources/animateicons-lucide/src/wallet.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wallet.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wallet.json"
+    },
+    {
+      "name": "wallet-minimal",
+      "path": "ui/_sources/animateicons-lucide/src/wallet-minimal.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wallet-minimal.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wallet-minimal.json"
+    },
+    {
+      "name": "watch",
+      "path": "ui/_sources/animateicons-lucide/src/watch.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-watch.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-watch.json"
+    },
+    {
+      "name": "waypoints",
+      "path": "ui/_sources/animateicons-lucide/src/waypoints.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-waypoints.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-waypoints.json"
+    },
+    {
+      "name": "webcam",
+      "path": "ui/_sources/animateicons-lucide/src/webcam.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-webcam.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-webcam.json"
+    },
+    {
+      "name": "webhook",
+      "path": "ui/_sources/animateicons-lucide/src/webhook.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-webhook.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-webhook.json"
+    },
+    {
+      "name": "wifi-cog",
+      "path": "ui/_sources/animateicons-lucide/src/wifi-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wifi-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-cog.json"
+    },
+    {
+      "name": "wifi",
+      "path": "ui/_sources/animateicons-lucide/src/wifi.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wifi.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi.json"
+    },
+    {
+      "name": "wifi-off",
+      "path": "ui/_sources/animateicons-lucide/src/wifi-off.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wifi-off.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-off.json"
+    },
+    {
+      "name": "wifi-pen",
+      "path": "ui/_sources/animateicons-lucide/src/wifi-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wifi-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-pen.json"
+    },
+    {
+      "name": "wifi-sync",
+      "path": "ui/_sources/animateicons-lucide/src/wifi-sync.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wifi-sync.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-sync.json"
+    },
+    {
+      "name": "wind",
+      "path": "ui/_sources/animateicons-lucide/src/wind.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wind.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wind.json"
+    },
+    {
+      "name": "wrap-text",
+      "path": "ui/_sources/animateicons-lucide/src/wrap-text.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-wrap-text.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wrap-text.json"
+    },
+    {
+      "name": "x",
+      "path": "ui/_sources/animateicons-lucide/src/x.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-x.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-x.json"
+    },
+    {
+      "name": "zap",
+      "path": "ui/_sources/animateicons-lucide/src/zap.tsx",
+      "variants": [],
+      "registryUrl": "https://animateicons.in/r/lu-zap.json",
+      "command": "pnpm dlx shadcn@latest add https://animateicons.in/r/lu-zap.json"
+    }
+  ]
+}

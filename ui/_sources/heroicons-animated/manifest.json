@@ -1,0 +1,2224 @@
+{
+  "id": "heroicons-animated",
+  "repo": "heroicons-animated/heroicons-animated",
+  "commit": "d2380bdaf36b708b8c40fcefc0a965d25c322705",
+  "site": "https://www.heroicons-animated.com",
+  "license": "MIT",
+  "framework": "react",
+  "expected": 316,
+  "count": 316,
+  "icons": [
+    {
+      "name": "academic-cap",
+      "path": "ui/_sources/heroicons-animated/src/academic-cap.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/academic-cap.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/academic-cap"
+    },
+    {
+      "name": "adjustments-horizontal",
+      "path": "ui/_sources/heroicons-animated/src/adjustments-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/adjustments-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/adjustments-horizontal"
+    },
+    {
+      "name": "adjustments-vertical",
+      "path": "ui/_sources/heroicons-animated/src/adjustments-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/adjustments-vertical.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/adjustments-vertical"
+    },
+    {
+      "name": "archive-box-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/archive-box-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/archive-box-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/archive-box-arrow-down"
+    },
+    {
+      "name": "archive-box-x-mark",
+      "path": "ui/_sources/heroicons-animated/src/archive-box-x-mark.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/archive-box-x-mark.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/archive-box-x-mark"
+    },
+    {
+      "name": "archive-box",
+      "path": "ui/_sources/heroicons-animated/src/archive-box.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/archive-box.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/archive-box"
+    },
+    {
+      "name": "arrow-down-circle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-circle"
+    },
+    {
+      "name": "arrow-down-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-left"
+    },
+    {
+      "name": "arrow-down-on-square-stack",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-on-square-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-on-square-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-on-square-stack"
+    },
+    {
+      "name": "arrow-down-on-square",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-on-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-on-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-on-square"
+    },
+    {
+      "name": "arrow-down-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-right"
+    },
+    {
+      "name": "arrow-down-tray",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down-tray.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down-tray.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down-tray"
+    },
+    {
+      "name": "arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-down"
+    },
+    {
+      "name": "arrow-left-circle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-left-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-left-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-left-circle"
+    },
+    {
+      "name": "arrow-left-end-on-rectangle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-left-end-on-rectangle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-left-end-on-rectangle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-left-end-on-rectangle"
+    },
+    {
+      "name": "arrow-left-start-on-rectangle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-left-start-on-rectangle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-left-start-on-rectangle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-left-start-on-rectangle"
+    },
+    {
+      "name": "arrow-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-left"
+    },
+    {
+      "name": "arrow-long-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-long-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-long-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-long-down"
+    },
+    {
+      "name": "arrow-long-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-long-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-long-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-long-left"
+    },
+    {
+      "name": "arrow-long-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-long-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-long-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-long-right"
+    },
+    {
+      "name": "arrow-long-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-long-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-long-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-long-up"
+    },
+    {
+      "name": "arrow-path-rounded-square",
+      "path": "ui/_sources/heroicons-animated/src/arrow-path-rounded-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-path-rounded-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-path-rounded-square"
+    },
+    {
+      "name": "arrow-path",
+      "path": "ui/_sources/heroicons-animated/src/arrow-path.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-path.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-path"
+    },
+    {
+      "name": "arrow-right-circle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-right-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-right-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-right-circle"
+    },
+    {
+      "name": "arrow-right-end-on-rectangle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-right-end-on-rectangle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-right-end-on-rectangle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-right-end-on-rectangle"
+    },
+    {
+      "name": "arrow-right-start-on-rectangle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-right-start-on-rectangle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-right-start-on-rectangle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-right-start-on-rectangle"
+    },
+    {
+      "name": "arrow-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-right"
+    },
+    {
+      "name": "arrow-top-right-on-square",
+      "path": "ui/_sources/heroicons-animated/src/arrow-top-right-on-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-top-right-on-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-top-right-on-square"
+    },
+    {
+      "name": "arrow-trending-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-trending-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-trending-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-trending-down"
+    },
+    {
+      "name": "arrow-trending-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-trending-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-trending-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-trending-up"
+    },
+    {
+      "name": "arrow-turn-down-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-down-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-down-left"
+    },
+    {
+      "name": "arrow-turn-down-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-down-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-down-right"
+    },
+    {
+      "name": "arrow-turn-left-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-left-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-left-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-left-down"
+    },
+    {
+      "name": "arrow-turn-left-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-left-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-left-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-left-up"
+    },
+    {
+      "name": "arrow-turn-right-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-right-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-right-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-right-down"
+    },
+    {
+      "name": "arrow-turn-right-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-right-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-right-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-right-up"
+    },
+    {
+      "name": "arrow-turn-up-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-up-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-up-left"
+    },
+    {
+      "name": "arrow-turn-up-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-turn-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-turn-up-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-up-right"
+    },
+    {
+      "name": "arrow-up-circle",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-circle"
+    },
+    {
+      "name": "arrow-up-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-left"
+    },
+    {
+      "name": "arrow-up-on-square-stack",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-on-square-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-on-square-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-on-square-stack"
+    },
+    {
+      "name": "arrow-up-on-square",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-on-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-on-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-on-square"
+    },
+    {
+      "name": "arrow-up-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-right"
+    },
+    {
+      "name": "arrow-up-tray",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up-tray.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up-tray.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up-tray"
+    },
+    {
+      "name": "arrow-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-up"
+    },
+    {
+      "name": "arrow-uturn-down",
+      "path": "ui/_sources/heroicons-animated/src/arrow-uturn-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-uturn-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-uturn-down"
+    },
+    {
+      "name": "arrow-uturn-left",
+      "path": "ui/_sources/heroicons-animated/src/arrow-uturn-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-uturn-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-uturn-left"
+    },
+    {
+      "name": "arrow-uturn-right",
+      "path": "ui/_sources/heroicons-animated/src/arrow-uturn-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-uturn-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-uturn-right"
+    },
+    {
+      "name": "arrow-uturn-up",
+      "path": "ui/_sources/heroicons-animated/src/arrow-uturn-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrow-uturn-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrow-uturn-up"
+    },
+    {
+      "name": "arrows-pointing-in",
+      "path": "ui/_sources/heroicons-animated/src/arrows-pointing-in.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrows-pointing-in.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrows-pointing-in"
+    },
+    {
+      "name": "arrows-pointing-out",
+      "path": "ui/_sources/heroicons-animated/src/arrows-pointing-out.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrows-pointing-out.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrows-pointing-out"
+    },
+    {
+      "name": "arrows-right-left",
+      "path": "ui/_sources/heroicons-animated/src/arrows-right-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrows-right-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrows-right-left"
+    },
+    {
+      "name": "arrows-up-down",
+      "path": "ui/_sources/heroicons-animated/src/arrows-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/arrows-up-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/arrows-up-down"
+    },
+    {
+      "name": "at-symbol",
+      "path": "ui/_sources/heroicons-animated/src/at-symbol.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/at-symbol.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/at-symbol"
+    },
+    {
+      "name": "backspace",
+      "path": "ui/_sources/heroicons-animated/src/backspace.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/backspace.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/backspace"
+    },
+    {
+      "name": "backward",
+      "path": "ui/_sources/heroicons-animated/src/backward.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/backward.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/backward"
+    },
+    {
+      "name": "banknotes",
+      "path": "ui/_sources/heroicons-animated/src/banknotes.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/banknotes.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/banknotes"
+    },
+    {
+      "name": "bars-2",
+      "path": "ui/_sources/heroicons-animated/src/bars-2.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-2.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-2"
+    },
+    {
+      "name": "bars-3-bottom-left",
+      "path": "ui/_sources/heroicons-animated/src/bars-3-bottom-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-3-bottom-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-3-bottom-left"
+    },
+    {
+      "name": "bars-3-bottom-right",
+      "path": "ui/_sources/heroicons-animated/src/bars-3-bottom-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-3-bottom-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-3-bottom-right"
+    },
+    {
+      "name": "bars-3-center-left",
+      "path": "ui/_sources/heroicons-animated/src/bars-3-center-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-3-center-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-3-center-left"
+    },
+    {
+      "name": "bars-3",
+      "path": "ui/_sources/heroicons-animated/src/bars-3.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-3.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-3"
+    },
+    {
+      "name": "bars-4",
+      "path": "ui/_sources/heroicons-animated/src/bars-4.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-4.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-4"
+    },
+    {
+      "name": "bars-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/bars-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-arrow-down"
+    },
+    {
+      "name": "bars-arrow-up",
+      "path": "ui/_sources/heroicons-animated/src/bars-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bars-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bars-arrow-up"
+    },
+    {
+      "name": "battery-0",
+      "path": "ui/_sources/heroicons-animated/src/battery-0.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/battery-0.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/battery-0"
+    },
+    {
+      "name": "battery-100",
+      "path": "ui/_sources/heroicons-animated/src/battery-100.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/battery-100.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/battery-100"
+    },
+    {
+      "name": "battery-50",
+      "path": "ui/_sources/heroicons-animated/src/battery-50.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/battery-50.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/battery-50"
+    },
+    {
+      "name": "beaker",
+      "path": "ui/_sources/heroicons-animated/src/beaker.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/beaker.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/beaker"
+    },
+    {
+      "name": "bell-alert",
+      "path": "ui/_sources/heroicons-animated/src/bell-alert.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bell-alert.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bell-alert"
+    },
+    {
+      "name": "bell-slash",
+      "path": "ui/_sources/heroicons-animated/src/bell-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bell-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bell-slash"
+    },
+    {
+      "name": "bell-snooze",
+      "path": "ui/_sources/heroicons-animated/src/bell-snooze.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bell-snooze.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bell-snooze"
+    },
+    {
+      "name": "bell",
+      "path": "ui/_sources/heroicons-animated/src/bell.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bell.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bell"
+    },
+    {
+      "name": "bold",
+      "path": "ui/_sources/heroicons-animated/src/bold.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bold.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bold"
+    },
+    {
+      "name": "bolt-slash",
+      "path": "ui/_sources/heroicons-animated/src/bolt-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bolt-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bolt-slash"
+    },
+    {
+      "name": "bolt",
+      "path": "ui/_sources/heroicons-animated/src/bolt.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bolt.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bolt"
+    },
+    {
+      "name": "book-open",
+      "path": "ui/_sources/heroicons-animated/src/book-open.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/book-open.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/book-open"
+    },
+    {
+      "name": "bookmark-slash",
+      "path": "ui/_sources/heroicons-animated/src/bookmark-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bookmark-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bookmark-slash"
+    },
+    {
+      "name": "bookmark-square",
+      "path": "ui/_sources/heroicons-animated/src/bookmark-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bookmark-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bookmark-square"
+    },
+    {
+      "name": "bookmark",
+      "path": "ui/_sources/heroicons-animated/src/bookmark.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bookmark.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bookmark"
+    },
+    {
+      "name": "briefcase",
+      "path": "ui/_sources/heroicons-animated/src/briefcase.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/briefcase.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/briefcase"
+    },
+    {
+      "name": "bug-ant",
+      "path": "ui/_sources/heroicons-animated/src/bug-ant.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/bug-ant.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/bug-ant"
+    },
+    {
+      "name": "building-library",
+      "path": "ui/_sources/heroicons-animated/src/building-library.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/building-library.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/building-library"
+    },
+    {
+      "name": "building-office-2",
+      "path": "ui/_sources/heroicons-animated/src/building-office-2.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/building-office-2.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/building-office-2"
+    },
+    {
+      "name": "building-office",
+      "path": "ui/_sources/heroicons-animated/src/building-office.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/building-office.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/building-office"
+    },
+    {
+      "name": "building-storefront",
+      "path": "ui/_sources/heroicons-animated/src/building-storefront.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/building-storefront.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/building-storefront"
+    },
+    {
+      "name": "cake",
+      "path": "ui/_sources/heroicons-animated/src/cake.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cake.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cake"
+    },
+    {
+      "name": "calculator",
+      "path": "ui/_sources/heroicons-animated/src/calculator.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/calculator.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/calculator"
+    },
+    {
+      "name": "calendar-date-range",
+      "path": "ui/_sources/heroicons-animated/src/calendar-date-range.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/calendar-date-range.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/calendar-date-range"
+    },
+    {
+      "name": "calendar-days",
+      "path": "ui/_sources/heroicons-animated/src/calendar-days.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/calendar-days.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/calendar-days"
+    },
+    {
+      "name": "calendar",
+      "path": "ui/_sources/heroicons-animated/src/calendar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/calendar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/calendar"
+    },
+    {
+      "name": "camera",
+      "path": "ui/_sources/heroicons-animated/src/camera.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/camera.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/camera"
+    },
+    {
+      "name": "chart-bar-square",
+      "path": "ui/_sources/heroicons-animated/src/chart-bar-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chart-bar-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chart-bar-square"
+    },
+    {
+      "name": "chart-bar",
+      "path": "ui/_sources/heroicons-animated/src/chart-bar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chart-bar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chart-bar"
+    },
+    {
+      "name": "chart-pie",
+      "path": "ui/_sources/heroicons-animated/src/chart-pie.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chart-pie.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chart-pie"
+    },
+    {
+      "name": "chat-bubble-bottom-center-text",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-bottom-center-text.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-bottom-center-text.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-bottom-center-text"
+    },
+    {
+      "name": "chat-bubble-bottom-center",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-bottom-center.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-bottom-center.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-bottom-center"
+    },
+    {
+      "name": "chat-bubble-left-ellipsis",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-left-ellipsis.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-left-ellipsis.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-left-ellipsis"
+    },
+    {
+      "name": "chat-bubble-left-right",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-left-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-left-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-left-right"
+    },
+    {
+      "name": "chat-bubble-left",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-left"
+    },
+    {
+      "name": "chat-bubble-oval-left-ellipsis",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-oval-left-ellipsis.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-oval-left-ellipsis.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-oval-left-ellipsis"
+    },
+    {
+      "name": "chat-bubble-oval-left",
+      "path": "ui/_sources/heroicons-animated/src/chat-bubble-oval-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chat-bubble-oval-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chat-bubble-oval-left"
+    },
+    {
+      "name": "check-badge",
+      "path": "ui/_sources/heroicons-animated/src/check-badge.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/check-badge.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/check-badge"
+    },
+    {
+      "name": "check-circle",
+      "path": "ui/_sources/heroicons-animated/src/check-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/check-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/check-circle"
+    },
+    {
+      "name": "check",
+      "path": "ui/_sources/heroicons-animated/src/check.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/check.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/check"
+    },
+    {
+      "name": "chevron-double-down",
+      "path": "ui/_sources/heroicons-animated/src/chevron-double-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-double-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-double-down"
+    },
+    {
+      "name": "chevron-double-left",
+      "path": "ui/_sources/heroicons-animated/src/chevron-double-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-double-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-double-left"
+    },
+    {
+      "name": "chevron-double-right",
+      "path": "ui/_sources/heroicons-animated/src/chevron-double-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-double-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-double-right"
+    },
+    {
+      "name": "chevron-double-up",
+      "path": "ui/_sources/heroicons-animated/src/chevron-double-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-double-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-double-up"
+    },
+    {
+      "name": "chevron-down",
+      "path": "ui/_sources/heroicons-animated/src/chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-down"
+    },
+    {
+      "name": "chevron-left",
+      "path": "ui/_sources/heroicons-animated/src/chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-left"
+    },
+    {
+      "name": "chevron-right",
+      "path": "ui/_sources/heroicons-animated/src/chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-right"
+    },
+    {
+      "name": "chevron-up-down",
+      "path": "ui/_sources/heroicons-animated/src/chevron-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-up-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-up-down"
+    },
+    {
+      "name": "chevron-up",
+      "path": "ui/_sources/heroicons-animated/src/chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/chevron-up"
+    },
+    {
+      "name": "circle-stack",
+      "path": "ui/_sources/heroicons-animated/src/circle-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/circle-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/circle-stack"
+    },
+    {
+      "name": "clipboard-document-check",
+      "path": "ui/_sources/heroicons-animated/src/clipboard-document-check.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/clipboard-document-check.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/clipboard-document-check"
+    },
+    {
+      "name": "clipboard-document-list",
+      "path": "ui/_sources/heroicons-animated/src/clipboard-document-list.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/clipboard-document-list.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/clipboard-document-list"
+    },
+    {
+      "name": "clipboard-document",
+      "path": "ui/_sources/heroicons-animated/src/clipboard-document.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/clipboard-document.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/clipboard-document"
+    },
+    {
+      "name": "clipboard",
+      "path": "ui/_sources/heroicons-animated/src/clipboard.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/clipboard.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/clipboard"
+    },
+    {
+      "name": "clock",
+      "path": "ui/_sources/heroicons-animated/src/clock.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/clock.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/clock"
+    },
+    {
+      "name": "cloud-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/cloud-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cloud-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cloud-arrow-down"
+    },
+    {
+      "name": "cloud-arrow-up",
+      "path": "ui/_sources/heroicons-animated/src/cloud-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cloud-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cloud-arrow-up"
+    },
+    {
+      "name": "cloud",
+      "path": "ui/_sources/heroicons-animated/src/cloud.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cloud.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cloud"
+    },
+    {
+      "name": "code-bracket-square",
+      "path": "ui/_sources/heroicons-animated/src/code-bracket-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/code-bracket-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/code-bracket-square"
+    },
+    {
+      "name": "code-bracket",
+      "path": "ui/_sources/heroicons-animated/src/code-bracket.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/code-bracket.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/code-bracket"
+    },
+    {
+      "name": "cog-6-tooth",
+      "path": "ui/_sources/heroicons-animated/src/cog-6-tooth.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cog-6-tooth.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cog-6-tooth"
+    },
+    {
+      "name": "cog-8-tooth",
+      "path": "ui/_sources/heroicons-animated/src/cog-8-tooth.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cog-8-tooth.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cog-8-tooth"
+    },
+    {
+      "name": "cog",
+      "path": "ui/_sources/heroicons-animated/src/cog.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cog.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cog"
+    },
+    {
+      "name": "command-line",
+      "path": "ui/_sources/heroicons-animated/src/command-line.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/command-line.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/command-line"
+    },
+    {
+      "name": "computer-desktop",
+      "path": "ui/_sources/heroicons-animated/src/computer-desktop.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/computer-desktop.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/computer-desktop"
+    },
+    {
+      "name": "cpu-chip",
+      "path": "ui/_sources/heroicons-animated/src/cpu-chip.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cpu-chip.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cpu-chip"
+    },
+    {
+      "name": "credit-card",
+      "path": "ui/_sources/heroicons-animated/src/credit-card.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/credit-card.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/credit-card"
+    },
+    {
+      "name": "cube-transparent",
+      "path": "ui/_sources/heroicons-animated/src/cube-transparent.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cube-transparent.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cube-transparent"
+    },
+    {
+      "name": "cube",
+      "path": "ui/_sources/heroicons-animated/src/cube.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cube.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cube"
+    },
+    {
+      "name": "currency-bangladeshi",
+      "path": "ui/_sources/heroicons-animated/src/currency-bangladeshi.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-bangladeshi.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-bangladeshi"
+    },
+    {
+      "name": "currency-dollar",
+      "path": "ui/_sources/heroicons-animated/src/currency-dollar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-dollar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-dollar"
+    },
+    {
+      "name": "currency-euro",
+      "path": "ui/_sources/heroicons-animated/src/currency-euro.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-euro.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-euro"
+    },
+    {
+      "name": "currency-pound",
+      "path": "ui/_sources/heroicons-animated/src/currency-pound.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-pound.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-pound"
+    },
+    {
+      "name": "currency-rupee",
+      "path": "ui/_sources/heroicons-animated/src/currency-rupee.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-rupee.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-rupee"
+    },
+    {
+      "name": "currency-yen",
+      "path": "ui/_sources/heroicons-animated/src/currency-yen.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/currency-yen.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/currency-yen"
+    },
+    {
+      "name": "cursor-arrow-rays",
+      "path": "ui/_sources/heroicons-animated/src/cursor-arrow-rays.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cursor-arrow-rays.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cursor-arrow-rays"
+    },
+    {
+      "name": "cursor-arrow-ripple",
+      "path": "ui/_sources/heroicons-animated/src/cursor-arrow-ripple.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/cursor-arrow-ripple.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/cursor-arrow-ripple"
+    },
+    {
+      "name": "device-phone-mobile",
+      "path": "ui/_sources/heroicons-animated/src/device-phone-mobile.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/device-phone-mobile.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/device-phone-mobile"
+    },
+    {
+      "name": "device-tablet",
+      "path": "ui/_sources/heroicons-animated/src/device-tablet.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/device-tablet.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/device-tablet"
+    },
+    {
+      "name": "divide",
+      "path": "ui/_sources/heroicons-animated/src/divide.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/divide.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/divide"
+    },
+    {
+      "name": "document-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/document-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-arrow-down"
+    },
+    {
+      "name": "document-arrow-up",
+      "path": "ui/_sources/heroicons-animated/src/document-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-arrow-up"
+    },
+    {
+      "name": "document-chart-bar",
+      "path": "ui/_sources/heroicons-animated/src/document-chart-bar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-chart-bar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-chart-bar"
+    },
+    {
+      "name": "document-check",
+      "path": "ui/_sources/heroicons-animated/src/document-check.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-check.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-check"
+    },
+    {
+      "name": "document-currency-bangladeshi",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-bangladeshi.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-bangladeshi.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-bangladeshi"
+    },
+    {
+      "name": "document-currency-dollar",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-dollar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-dollar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-dollar"
+    },
+    {
+      "name": "document-currency-euro",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-euro.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-euro.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-euro"
+    },
+    {
+      "name": "document-currency-pound",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-pound.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-pound.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-pound"
+    },
+    {
+      "name": "document-currency-rupee",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-rupee.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-rupee.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-rupee"
+    },
+    {
+      "name": "document-currency-yen",
+      "path": "ui/_sources/heroicons-animated/src/document-currency-yen.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-currency-yen.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-currency-yen"
+    },
+    {
+      "name": "document-duplicate",
+      "path": "ui/_sources/heroicons-animated/src/document-duplicate.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-duplicate.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-duplicate"
+    },
+    {
+      "name": "document-magnifying-glass",
+      "path": "ui/_sources/heroicons-animated/src/document-magnifying-glass.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-magnifying-glass.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-magnifying-glass"
+    },
+    {
+      "name": "document-minus",
+      "path": "ui/_sources/heroicons-animated/src/document-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-minus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-minus"
+    },
+    {
+      "name": "document-plus",
+      "path": "ui/_sources/heroicons-animated/src/document-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-plus"
+    },
+    {
+      "name": "document-text",
+      "path": "ui/_sources/heroicons-animated/src/document-text.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document-text.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document-text"
+    },
+    {
+      "name": "document",
+      "path": "ui/_sources/heroicons-animated/src/document.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/document.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/document"
+    },
+    {
+      "name": "ellipsis-horizontal-circle",
+      "path": "ui/_sources/heroicons-animated/src/ellipsis-horizontal-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/ellipsis-horizontal-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/ellipsis-horizontal-circle"
+    },
+    {
+      "name": "ellipsis-horizontal",
+      "path": "ui/_sources/heroicons-animated/src/ellipsis-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/ellipsis-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/ellipsis-horizontal"
+    },
+    {
+      "name": "ellipsis-vertical",
+      "path": "ui/_sources/heroicons-animated/src/ellipsis-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/ellipsis-vertical.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/ellipsis-vertical"
+    },
+    {
+      "name": "envelope-open",
+      "path": "ui/_sources/heroicons-animated/src/envelope-open.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/envelope-open.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/envelope-open"
+    },
+    {
+      "name": "envelope",
+      "path": "ui/_sources/heroicons-animated/src/envelope.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/envelope.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/envelope"
+    },
+    {
+      "name": "equals",
+      "path": "ui/_sources/heroicons-animated/src/equals.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/equals.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/equals"
+    },
+    {
+      "name": "exclamation-circle",
+      "path": "ui/_sources/heroicons-animated/src/exclamation-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/exclamation-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/exclamation-circle"
+    },
+    {
+      "name": "exclamation-triangle",
+      "path": "ui/_sources/heroicons-animated/src/exclamation-triangle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/exclamation-triangle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/exclamation-triangle"
+    },
+    {
+      "name": "eye-dropper",
+      "path": "ui/_sources/heroicons-animated/src/eye-dropper.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/eye-dropper.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/eye-dropper"
+    },
+    {
+      "name": "eye-slash",
+      "path": "ui/_sources/heroicons-animated/src/eye-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/eye-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/eye-slash"
+    },
+    {
+      "name": "eye",
+      "path": "ui/_sources/heroicons-animated/src/eye.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/eye.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/eye"
+    },
+    {
+      "name": "face-frown",
+      "path": "ui/_sources/heroicons-animated/src/face-frown.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/face-frown.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/face-frown"
+    },
+    {
+      "name": "face-smile",
+      "path": "ui/_sources/heroicons-animated/src/face-smile.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/face-smile.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/face-smile"
+    },
+    {
+      "name": "film",
+      "path": "ui/_sources/heroicons-animated/src/film.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/film.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/film"
+    },
+    {
+      "name": "finger-print",
+      "path": "ui/_sources/heroicons-animated/src/finger-print.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/finger-print.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/finger-print"
+    },
+    {
+      "name": "fire",
+      "path": "ui/_sources/heroicons-animated/src/fire.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/fire.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/fire"
+    },
+    {
+      "name": "flag",
+      "path": "ui/_sources/heroicons-animated/src/flag.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/flag.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/flag"
+    },
+    {
+      "name": "folder-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/folder-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/folder-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/folder-arrow-down"
+    },
+    {
+      "name": "folder-minus",
+      "path": "ui/_sources/heroicons-animated/src/folder-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/folder-minus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/folder-minus"
+    },
+    {
+      "name": "folder-open",
+      "path": "ui/_sources/heroicons-animated/src/folder-open.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/folder-open.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/folder-open"
+    },
+    {
+      "name": "folder-plus",
+      "path": "ui/_sources/heroicons-animated/src/folder-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/folder-plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/folder-plus"
+    },
+    {
+      "name": "folder",
+      "path": "ui/_sources/heroicons-animated/src/folder.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/folder.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/folder"
+    },
+    {
+      "name": "forward",
+      "path": "ui/_sources/heroicons-animated/src/forward.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/forward.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/forward"
+    },
+    {
+      "name": "funnel",
+      "path": "ui/_sources/heroicons-animated/src/funnel.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/funnel.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/funnel"
+    },
+    {
+      "name": "gif",
+      "path": "ui/_sources/heroicons-animated/src/gif.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/gif.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/gif"
+    },
+    {
+      "name": "gift-top",
+      "path": "ui/_sources/heroicons-animated/src/gift-top.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/gift-top.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/gift-top"
+    },
+    {
+      "name": "gift",
+      "path": "ui/_sources/heroicons-animated/src/gift.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/gift.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/gift"
+    },
+    {
+      "name": "globe-alt",
+      "path": "ui/_sources/heroicons-animated/src/globe-alt.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/globe-alt.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/globe-alt"
+    },
+    {
+      "name": "globe-americas",
+      "path": "ui/_sources/heroicons-animated/src/globe-americas.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/globe-americas.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/globe-americas"
+    },
+    {
+      "name": "globe-asia-australia",
+      "path": "ui/_sources/heroicons-animated/src/globe-asia-australia.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/globe-asia-australia.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/globe-asia-australia"
+    },
+    {
+      "name": "globe-europe-africa",
+      "path": "ui/_sources/heroicons-animated/src/globe-europe-africa.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/globe-europe-africa.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/globe-europe-africa"
+    },
+    {
+      "name": "h1",
+      "path": "ui/_sources/heroicons-animated/src/h1.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/h1.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/h1"
+    },
+    {
+      "name": "h2",
+      "path": "ui/_sources/heroicons-animated/src/h2.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/h2.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/h2"
+    },
+    {
+      "name": "h3",
+      "path": "ui/_sources/heroicons-animated/src/h3.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/h3.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/h3"
+    },
+    {
+      "name": "hand-raised",
+      "path": "ui/_sources/heroicons-animated/src/hand-raised.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/hand-raised.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/hand-raised"
+    },
+    {
+      "name": "hand-thumb-down",
+      "path": "ui/_sources/heroicons-animated/src/hand-thumb-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/hand-thumb-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/hand-thumb-down"
+    },
+    {
+      "name": "hand-thumb-up",
+      "path": "ui/_sources/heroicons-animated/src/hand-thumb-up.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/hand-thumb-up.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/hand-thumb-up"
+    },
+    {
+      "name": "hashtag",
+      "path": "ui/_sources/heroicons-animated/src/hashtag.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/hashtag.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/hashtag"
+    },
+    {
+      "name": "heart",
+      "path": "ui/_sources/heroicons-animated/src/heart.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/heart.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/heart"
+    },
+    {
+      "name": "home-modern",
+      "path": "ui/_sources/heroicons-animated/src/home-modern.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/home-modern.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/home-modern"
+    },
+    {
+      "name": "home",
+      "path": "ui/_sources/heroicons-animated/src/home.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/home.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/home"
+    },
+    {
+      "name": "identification",
+      "path": "ui/_sources/heroicons-animated/src/identification.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/identification.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/identification"
+    },
+    {
+      "name": "inbox-arrow-down",
+      "path": "ui/_sources/heroicons-animated/src/inbox-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/inbox-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/inbox-arrow-down"
+    },
+    {
+      "name": "inbox-stack",
+      "path": "ui/_sources/heroicons-animated/src/inbox-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/inbox-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/inbox-stack"
+    },
+    {
+      "name": "inbox",
+      "path": "ui/_sources/heroicons-animated/src/inbox.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/inbox.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/inbox"
+    },
+    {
+      "name": "information-circle",
+      "path": "ui/_sources/heroicons-animated/src/information-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/information-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/information-circle"
+    },
+    {
+      "name": "italic",
+      "path": "ui/_sources/heroicons-animated/src/italic.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/italic.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/italic"
+    },
+    {
+      "name": "key",
+      "path": "ui/_sources/heroicons-animated/src/key.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/key.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/key"
+    },
+    {
+      "name": "language",
+      "path": "ui/_sources/heroicons-animated/src/language.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/language.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/language"
+    },
+    {
+      "name": "lifebuoy",
+      "path": "ui/_sources/heroicons-animated/src/lifebuoy.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/lifebuoy.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/lifebuoy"
+    },
+    {
+      "name": "light-bulb",
+      "path": "ui/_sources/heroicons-animated/src/light-bulb.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/light-bulb.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/light-bulb"
+    },
+    {
+      "name": "link-slash",
+      "path": "ui/_sources/heroicons-animated/src/link-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/link-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/link-slash"
+    },
+    {
+      "name": "link",
+      "path": "ui/_sources/heroicons-animated/src/link.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/link.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/link"
+    },
+    {
+      "name": "list-bullet",
+      "path": "ui/_sources/heroicons-animated/src/list-bullet.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/list-bullet.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/list-bullet"
+    },
+    {
+      "name": "lock-closed",
+      "path": "ui/_sources/heroicons-animated/src/lock-closed.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/lock-closed.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/lock-closed"
+    },
+    {
+      "name": "lock-open",
+      "path": "ui/_sources/heroicons-animated/src/lock-open.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/lock-open.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/lock-open"
+    },
+    {
+      "name": "magnifying-glass-circle",
+      "path": "ui/_sources/heroicons-animated/src/magnifying-glass-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/magnifying-glass-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/magnifying-glass-circle"
+    },
+    {
+      "name": "magnifying-glass-minus",
+      "path": "ui/_sources/heroicons-animated/src/magnifying-glass-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/magnifying-glass-minus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/magnifying-glass-minus"
+    },
+    {
+      "name": "magnifying-glass-plus",
+      "path": "ui/_sources/heroicons-animated/src/magnifying-glass-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/magnifying-glass-plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/magnifying-glass-plus"
+    },
+    {
+      "name": "magnifying-glass",
+      "path": "ui/_sources/heroicons-animated/src/magnifying-glass.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/magnifying-glass.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/magnifying-glass"
+    },
+    {
+      "name": "map-pin",
+      "path": "ui/_sources/heroicons-animated/src/map-pin.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/map-pin.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/map-pin"
+    },
+    {
+      "name": "map",
+      "path": "ui/_sources/heroicons-animated/src/map.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/map.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/map"
+    },
+    {
+      "name": "megaphone",
+      "path": "ui/_sources/heroicons-animated/src/megaphone.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/megaphone.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/megaphone"
+    },
+    {
+      "name": "microphone",
+      "path": "ui/_sources/heroicons-animated/src/microphone.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/microphone.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/microphone"
+    },
+    {
+      "name": "minus-circle",
+      "path": "ui/_sources/heroicons-animated/src/minus-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/minus-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/minus-circle"
+    },
+    {
+      "name": "minus",
+      "path": "ui/_sources/heroicons-animated/src/minus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/minus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/minus"
+    },
+    {
+      "name": "moon",
+      "path": "ui/_sources/heroicons-animated/src/moon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/moon.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/moon"
+    },
+    {
+      "name": "musical-note",
+      "path": "ui/_sources/heroicons-animated/src/musical-note.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/musical-note.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/musical-note"
+    },
+    {
+      "name": "newspaper",
+      "path": "ui/_sources/heroicons-animated/src/newspaper.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/newspaper.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/newspaper"
+    },
+    {
+      "name": "no-symbol",
+      "path": "ui/_sources/heroicons-animated/src/no-symbol.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/no-symbol.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/no-symbol"
+    },
+    {
+      "name": "numbered-list",
+      "path": "ui/_sources/heroicons-animated/src/numbered-list.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/numbered-list.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/numbered-list"
+    },
+    {
+      "name": "paint-brush",
+      "path": "ui/_sources/heroicons-animated/src/paint-brush.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/paint-brush.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/paint-brush"
+    },
+    {
+      "name": "paper-airplane",
+      "path": "ui/_sources/heroicons-animated/src/paper-airplane.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/paper-airplane.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/paper-airplane"
+    },
+    {
+      "name": "paper-clip",
+      "path": "ui/_sources/heroicons-animated/src/paper-clip.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/paper-clip.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/paper-clip"
+    },
+    {
+      "name": "pause-circle",
+      "path": "ui/_sources/heroicons-animated/src/pause-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/pause-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/pause-circle"
+    },
+    {
+      "name": "pause",
+      "path": "ui/_sources/heroicons-animated/src/pause.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/pause.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/pause"
+    },
+    {
+      "name": "pencil-square",
+      "path": "ui/_sources/heroicons-animated/src/pencil-square.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/pencil-square.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/pencil-square"
+    },
+    {
+      "name": "pencil",
+      "path": "ui/_sources/heroicons-animated/src/pencil.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/pencil.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/pencil"
+    },
+    {
+      "name": "percent-badge",
+      "path": "ui/_sources/heroicons-animated/src/percent-badge.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/percent-badge.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/percent-badge"
+    },
+    {
+      "name": "phone-arrow-down-left",
+      "path": "ui/_sources/heroicons-animated/src/phone-arrow-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/phone-arrow-down-left.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/phone-arrow-down-left"
+    },
+    {
+      "name": "phone-arrow-up-right",
+      "path": "ui/_sources/heroicons-animated/src/phone-arrow-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/phone-arrow-up-right.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/phone-arrow-up-right"
+    },
+    {
+      "name": "phone-x-mark",
+      "path": "ui/_sources/heroicons-animated/src/phone-x-mark.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/phone-x-mark.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/phone-x-mark"
+    },
+    {
+      "name": "phone",
+      "path": "ui/_sources/heroicons-animated/src/phone.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/phone.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/phone"
+    },
+    {
+      "name": "photo",
+      "path": "ui/_sources/heroicons-animated/src/photo.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/photo.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/photo"
+    },
+    {
+      "name": "play-circle",
+      "path": "ui/_sources/heroicons-animated/src/play-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/play-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/play-circle"
+    },
+    {
+      "name": "play-pause",
+      "path": "ui/_sources/heroicons-animated/src/play-pause.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/play-pause.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/play-pause"
+    },
+    {
+      "name": "play",
+      "path": "ui/_sources/heroicons-animated/src/play.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/play.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/play"
+    },
+    {
+      "name": "plus-circle",
+      "path": "ui/_sources/heroicons-animated/src/plus-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/plus-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/plus-circle"
+    },
+    {
+      "name": "plus",
+      "path": "ui/_sources/heroicons-animated/src/plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/plus"
+    },
+    {
+      "name": "power",
+      "path": "ui/_sources/heroicons-animated/src/power.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/power.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/power"
+    },
+    {
+      "name": "presentation-chart-bar",
+      "path": "ui/_sources/heroicons-animated/src/presentation-chart-bar.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/presentation-chart-bar.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/presentation-chart-bar"
+    },
+    {
+      "name": "presentation-chart-line",
+      "path": "ui/_sources/heroicons-animated/src/presentation-chart-line.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/presentation-chart-line.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/presentation-chart-line"
+    },
+    {
+      "name": "printer",
+      "path": "ui/_sources/heroicons-animated/src/printer.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/printer.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/printer"
+    },
+    {
+      "name": "puzzle-piece",
+      "path": "ui/_sources/heroicons-animated/src/puzzle-piece.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/puzzle-piece.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/puzzle-piece"
+    },
+    {
+      "name": "qr-code",
+      "path": "ui/_sources/heroicons-animated/src/qr-code.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/qr-code.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/qr-code"
+    },
+    {
+      "name": "question-mark-circle",
+      "path": "ui/_sources/heroicons-animated/src/question-mark-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/question-mark-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/question-mark-circle"
+    },
+    {
+      "name": "queue-list",
+      "path": "ui/_sources/heroicons-animated/src/queue-list.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/queue-list.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/queue-list"
+    },
+    {
+      "name": "radio",
+      "path": "ui/_sources/heroicons-animated/src/radio.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/radio.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/radio"
+    },
+    {
+      "name": "receipt-percent",
+      "path": "ui/_sources/heroicons-animated/src/receipt-percent.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/receipt-percent.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/receipt-percent"
+    },
+    {
+      "name": "receipt-refund",
+      "path": "ui/_sources/heroicons-animated/src/receipt-refund.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/receipt-refund.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/receipt-refund"
+    },
+    {
+      "name": "rectangle-group",
+      "path": "ui/_sources/heroicons-animated/src/rectangle-group.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/rectangle-group.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/rectangle-group"
+    },
+    {
+      "name": "rectangle-stack",
+      "path": "ui/_sources/heroicons-animated/src/rectangle-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/rectangle-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/rectangle-stack"
+    },
+    {
+      "name": "rocket-launch",
+      "path": "ui/_sources/heroicons-animated/src/rocket-launch.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/rocket-launch.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/rocket-launch"
+    },
+    {
+      "name": "rss",
+      "path": "ui/_sources/heroicons-animated/src/rss.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/rss.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/rss"
+    },
+    {
+      "name": "scale",
+      "path": "ui/_sources/heroicons-animated/src/scale.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/scale.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/scale"
+    },
+    {
+      "name": "scissors",
+      "path": "ui/_sources/heroicons-animated/src/scissors.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/scissors.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/scissors"
+    },
+    {
+      "name": "server-stack",
+      "path": "ui/_sources/heroicons-animated/src/server-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/server-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/server-stack"
+    },
+    {
+      "name": "server",
+      "path": "ui/_sources/heroicons-animated/src/server.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/server.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/server"
+    },
+    {
+      "name": "share",
+      "path": "ui/_sources/heroicons-animated/src/share.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/share.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/share"
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/heroicons-animated/src/shield-check.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/shield-check.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/shield-check"
+    },
+    {
+      "name": "shield-exclamation",
+      "path": "ui/_sources/heroicons-animated/src/shield-exclamation.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/shield-exclamation.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/shield-exclamation"
+    },
+    {
+      "name": "shopping-bag",
+      "path": "ui/_sources/heroicons-animated/src/shopping-bag.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/shopping-bag.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/shopping-bag"
+    },
+    {
+      "name": "shopping-cart",
+      "path": "ui/_sources/heroicons-animated/src/shopping-cart.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/shopping-cart.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/shopping-cart"
+    },
+    {
+      "name": "signal-slash",
+      "path": "ui/_sources/heroicons-animated/src/signal-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/signal-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/signal-slash"
+    },
+    {
+      "name": "signal",
+      "path": "ui/_sources/heroicons-animated/src/signal.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/signal.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/signal"
+    },
+    {
+      "name": "slash",
+      "path": "ui/_sources/heroicons-animated/src/slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/slash"
+    },
+    {
+      "name": "sparkles",
+      "path": "ui/_sources/heroicons-animated/src/sparkles.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/sparkles.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/sparkles"
+    },
+    {
+      "name": "speaker-wave",
+      "path": "ui/_sources/heroicons-animated/src/speaker-wave.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/speaker-wave.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/speaker-wave"
+    },
+    {
+      "name": "speaker-x-mark",
+      "path": "ui/_sources/heroicons-animated/src/speaker-x-mark.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/speaker-x-mark.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/speaker-x-mark"
+    },
+    {
+      "name": "square-2-stack",
+      "path": "ui/_sources/heroicons-animated/src/square-2-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/square-2-stack.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/square-2-stack"
+    },
+    {
+      "name": "square-3-stack-3d",
+      "path": "ui/_sources/heroicons-animated/src/square-3-stack-3d.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/square-3-stack-3d.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/square-3-stack-3d"
+    },
+    {
+      "name": "squares-2x2",
+      "path": "ui/_sources/heroicons-animated/src/squares-2x2.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/squares-2x2.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/squares-2x2"
+    },
+    {
+      "name": "squares-plus",
+      "path": "ui/_sources/heroicons-animated/src/squares-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/squares-plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/squares-plus"
+    },
+    {
+      "name": "star",
+      "path": "ui/_sources/heroicons-animated/src/star.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/star.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/star"
+    },
+    {
+      "name": "stop-circle",
+      "path": "ui/_sources/heroicons-animated/src/stop-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/stop-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/stop-circle"
+    },
+    {
+      "name": "stop",
+      "path": "ui/_sources/heroicons-animated/src/stop.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/stop.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/stop"
+    },
+    {
+      "name": "strikethrough",
+      "path": "ui/_sources/heroicons-animated/src/strikethrough.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/strikethrough.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/strikethrough"
+    },
+    {
+      "name": "sun",
+      "path": "ui/_sources/heroicons-animated/src/sun.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/sun.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/sun"
+    },
+    {
+      "name": "swatch",
+      "path": "ui/_sources/heroicons-animated/src/swatch.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/swatch.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/swatch"
+    },
+    {
+      "name": "table-cells",
+      "path": "ui/_sources/heroicons-animated/src/table-cells.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/table-cells.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/table-cells"
+    },
+    {
+      "name": "tag",
+      "path": "ui/_sources/heroicons-animated/src/tag.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/tag.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/tag"
+    },
+    {
+      "name": "ticket",
+      "path": "ui/_sources/heroicons-animated/src/ticket.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/ticket.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/ticket"
+    },
+    {
+      "name": "trash",
+      "path": "ui/_sources/heroicons-animated/src/trash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/trash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/trash"
+    },
+    {
+      "name": "trophy",
+      "path": "ui/_sources/heroicons-animated/src/trophy.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/trophy.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/trophy"
+    },
+    {
+      "name": "truck",
+      "path": "ui/_sources/heroicons-animated/src/truck.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/truck.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/truck"
+    },
+    {
+      "name": "tv",
+      "path": "ui/_sources/heroicons-animated/src/tv.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/tv.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/tv"
+    },
+    {
+      "name": "underline",
+      "path": "ui/_sources/heroicons-animated/src/underline.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/underline.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/underline"
+    },
+    {
+      "name": "user-circle",
+      "path": "ui/_sources/heroicons-animated/src/user-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/user-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/user-circle"
+    },
+    {
+      "name": "user-group",
+      "path": "ui/_sources/heroicons-animated/src/user-group.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/user-group.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/user-group"
+    },
+    {
+      "name": "user-minus",
+      "path": "ui/_sources/heroicons-animated/src/user-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/user-minus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/user-minus"
+    },
+    {
+      "name": "user-plus",
+      "path": "ui/_sources/heroicons-animated/src/user-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/user-plus.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/user-plus"
+    },
+    {
+      "name": "user",
+      "path": "ui/_sources/heroicons-animated/src/user.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/user.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/user"
+    },
+    {
+      "name": "users",
+      "path": "ui/_sources/heroicons-animated/src/users.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/users.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/users"
+    },
+    {
+      "name": "variable",
+      "path": "ui/_sources/heroicons-animated/src/variable.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/variable.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/variable"
+    },
+    {
+      "name": "video-camera-slash",
+      "path": "ui/_sources/heroicons-animated/src/video-camera-slash.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/video-camera-slash.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/video-camera-slash"
+    },
+    {
+      "name": "video-camera",
+      "path": "ui/_sources/heroicons-animated/src/video-camera.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/video-camera.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/video-camera"
+    },
+    {
+      "name": "view-columns",
+      "path": "ui/_sources/heroicons-animated/src/view-columns.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/view-columns.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/view-columns"
+    },
+    {
+      "name": "viewfinder-circle",
+      "path": "ui/_sources/heroicons-animated/src/viewfinder-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/viewfinder-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/viewfinder-circle"
+    },
+    {
+      "name": "wallet",
+      "path": "ui/_sources/heroicons-animated/src/wallet.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/wallet.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/wallet"
+    },
+    {
+      "name": "wifi",
+      "path": "ui/_sources/heroicons-animated/src/wifi.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/wifi.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/wifi"
+    },
+    {
+      "name": "window",
+      "path": "ui/_sources/heroicons-animated/src/window.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/window.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/window"
+    },
+    {
+      "name": "wrench-screwdriver",
+      "path": "ui/_sources/heroicons-animated/src/wrench-screwdriver.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/wrench-screwdriver.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/wrench-screwdriver"
+    },
+    {
+      "name": "wrench",
+      "path": "ui/_sources/heroicons-animated/src/wrench.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/wrench.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/wrench"
+    },
+    {
+      "name": "x-circle",
+      "path": "ui/_sources/heroicons-animated/src/x-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/x-circle.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/x-circle"
+    },
+    {
+      "name": "x-mark",
+      "path": "ui/_sources/heroicons-animated/src/x-mark.tsx",
+      "variants": [],
+      "registryUrl": "https://www.heroicons-animated.com/r/x-mark.json",
+      "command": "pnpm dlx shadcn@latest add @heroicons-animated/x-mark"
+    }
+  ]
+}

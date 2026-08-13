@@ -1,0 +1,3 @@
+# Use when
+
+Use the link animated icon from line-md.

@@ -16,7 +16,7 @@ export function Card({ entry, live, onPlay, onStop }: Props) {
   return (
     <article className="card" data-status={status}>
       <div className="card-stage">
-        {live ? (
+        {live && entry.bundled ? (
           <iframe className="card-frame" src={previewUrl(entry.id)} title={entry.id} />
         ) : entry.preview ? (
           <img className="card-shot" src={entry.preview} alt="" loading="lazy" />
@@ -30,7 +30,11 @@ export function Card({ entry, live, onPlay, onStop }: Props) {
       <header className="card-head">
         <h3>{entry.title}</h3>
         <div className="card-actions">
-          <button onClick={live ? onStop : onPlay}>{live ? "Stop" : "Play"}</button>
+          {entry.bundled ? (
+            <button onClick={live ? onStop : onPlay}>{live ? "Stop" : "Play"}</button>
+          ) : (
+            <span className="tag" title="Available after the next viewer deployment">preview pending</span>
+          )}
           <a href={`#/c/${encodeURIComponent(entry.id)}`}>Open</a>
         </div>
       </header>

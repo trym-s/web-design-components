@@ -1,0 +1,77 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 1000);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div class={className} aria-label="infinity" role="img" onmouseenter={handleMouseEnter}>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="infinity-icon"
+		class:animate
+	>
+		<path
+			d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"
+			class="line"
+		/>
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.infinity-icon {
+		overflow: visible;
+	}
+
+	.line {
+		stroke-dasharray: 28;
+		stroke-dashoffset: 0;
+		transition: stroke-dashoffset 1s ease-in-out;
+	}
+
+	.infinity-icon.animate .line {
+		animation: lineAnimation 1s ease-in-out;
+	}
+
+	@keyframes lineAnimation {
+		0% {
+			stroke-dashoffset: 28;
+		}
+		15% {
+			stroke-dashoffset: 28;
+		}
+		100% {
+			stroke-dashoffset: 56;
+		}
+	}
+</style>

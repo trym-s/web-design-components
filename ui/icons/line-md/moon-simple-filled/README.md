@@ -1,0 +1,15 @@
+# moon-simple-filled
+
+## Classification
+
+- Category: `icons` — interactive
+- Medium: svg
+- Entry point: `ui/icons/line-md/moon-simple-filled/src/moon-simple-filled.svg`
+- Nature: interactive
+- Framework: svg
+- Availability: public
+- Variants: default
+
+## Installation
+
+- Local source: `ui/icons/line-md/moon-simple-filled/src/moon-simple-filled.svg`

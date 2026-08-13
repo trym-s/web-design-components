@@ -30,8 +30,8 @@ export function useReported(id: string): Reported | undefined {
   return reported.get(id);
 }
 
-export function previewUrl(id: string) {
-  return VANILLA_PAGE(id) ?? `/dashboard/preview.html?id=${encodeURIComponent(id)}`;
+export function previewUrl(id: string, variant?: string) {
+  return VANILLA_PAGE(id) ?? `/dashboard/preview.html?id=${encodeURIComponent(id)}${variant ? `&variant=${encodeURIComponent(variant)}` : ""}`;
 }
 
 /** Play queue with a hard cap so a wall of WebGL cards cannot all run at once. */

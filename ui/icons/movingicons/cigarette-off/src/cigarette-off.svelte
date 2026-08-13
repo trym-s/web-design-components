@@ -1,0 +1,88 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 600);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div class={className} aria-label="cigarette-off" role="img" onmouseenter={handleMouseEnter}>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="cigarette-off"
+		class:animate
+	>
+		<path d="M12 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h13" />
+		<path d="M18 8c0-2.5-2-2.5-2-5" />
+		<path d="m2 2 20 20" />
+		<path d="M21 12a1 1 0 0 1 1 1v2a1 1 0 0 1-.5.866" />
+		<path d="M22 8c0-2.5-2-2.5-2-5" />
+		<path d="M7 12v4" />
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.cigarette-off {
+		overflow: visible;
+	}
+
+	.cigarette-off {
+		overflow: visible;
+		transform: translateX(0);
+		transition: transform 0.6s ease-in-out;
+	}
+
+	.cigarette-off.animate {
+		animation: groupShake 0.6s ease-in-out;
+	}
+
+	@keyframes groupShake {
+		0% {
+			transform: translateX(0);
+		}
+		16.67% {
+			transform: translateX(-7%);
+		}
+		33.33% {
+			transform: translateX(7%);
+		}
+		50% {
+			transform: translateX(-7%);
+		}
+		66.67% {
+			transform: translateX(7%);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+</style>

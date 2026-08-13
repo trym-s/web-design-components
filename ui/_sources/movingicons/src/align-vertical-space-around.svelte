@@ -1,0 +1,76 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		hoverAnimate = true;
+	}
+
+	function handleMouseLeave() {
+		hoverAnimate = false;
+	}
+</script>
+
+<div
+	class={className}
+	aria-label="align-vertical-space-around"
+	role="img"
+	onmouseenter={handleMouseEnter}
+	onmouseleave={handleMouseLeave}
+>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="align-vertical-icon"
+		class:animate
+	>
+		<rect class="rectangle" width={10} height={6} x={7} y={9} rx={2} />
+		<path class="top-line" d="M22 4H2" />
+		<path class="bottom-line" d="M22 20H2" />
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.align-vertical-icon {
+		overflow: visible;
+	}
+
+	.rectangle,
+	.top-line,
+	.bottom-line {
+		transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+		transform-origin: center;
+	}
+
+	.align-vertical-icon.animate .rectangle {
+		transform: scaleY(0.8);
+	}
+
+	.align-vertical-icon.animate .top-line {
+		transform: translateY(2px) scaleX(0.9);
+	}
+
+	.align-vertical-icon.animate .bottom-line {
+		transform: translateY(-2px) scaleX(0.9);
+	}
+</style>

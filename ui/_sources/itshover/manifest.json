@@ -1,0 +1,1853 @@
+{
+  "id": "itshover",
+  "repo": "itshover/itshover",
+  "commit": "65862bd1d31cbb438ee379c328bd13ddc6c319b3",
+  "site": "https://itshover.com/icons",
+  "license": "Apache-2.0",
+  "framework": "react",
+  "expected": 263,
+  "count": 263,
+  "icons": [
+    {
+      "name": "accessibility-icon",
+      "path": "ui/_sources/itshover/src/accessibility-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/accessibility-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/accessibility-icon.json"
+    },
+    {
+      "name": "airplane-icon",
+      "path": "ui/_sources/itshover/src/airplane-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/airplane-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/airplane-icon.json"
+    },
+    {
+      "name": "alarm-clock-plus-icon",
+      "path": "ui/_sources/itshover/src/alarm-clock-plus-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/alarm-clock-plus-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/alarm-clock-plus-icon.json"
+    },
+    {
+      "name": "align-center-icon",
+      "path": "ui/_sources/itshover/src/align-center-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/align-center-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/align-center-icon.json"
+    },
+    {
+      "name": "align-vertical-space-around-icon",
+      "path": "ui/_sources/itshover/src/align-vertical-space-around-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/align-vertical-space-around-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/align-vertical-space-around-icon.json"
+    },
+    {
+      "name": "ambulance-icon",
+      "path": "ui/_sources/itshover/src/ambulance-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/ambulance-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/ambulance-icon.json"
+    },
+    {
+      "name": "ampersand-icon",
+      "path": "ui/_sources/itshover/src/ampersand-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/ampersand-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/ampersand-icon.json"
+    },
+    {
+      "name": "angry-icon",
+      "path": "ui/_sources/itshover/src/angry-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/angry-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/angry-icon.json"
+    },
+    {
+      "name": "annoyed-icon",
+      "path": "ui/_sources/itshover/src/annoyed-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/annoyed-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/annoyed-icon.json"
+    },
+    {
+      "name": "apple-brand-logo",
+      "path": "ui/_sources/itshover/src/apple-brand-logo.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/apple-brand-logo.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/apple-brand-logo.json"
+    },
+    {
+      "name": "arrow-back-icon",
+      "path": "ui/_sources/itshover/src/arrow-back-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-back-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-back-icon.json"
+    },
+    {
+      "name": "arrow-back-up-icon",
+      "path": "ui/_sources/itshover/src/arrow-back-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-back-up-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-back-up-icon.json"
+    },
+    {
+      "name": "arrow-big-down-dash-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-down-dash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-down-dash-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-down-dash-icon.json"
+    },
+    {
+      "name": "arrow-big-down-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-down-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-down-icon.json"
+    },
+    {
+      "name": "arrow-big-left-dash-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-left-dash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-left-dash-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-left-dash-icon.json"
+    },
+    {
+      "name": "arrow-big-left-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-left-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-left-icon.json"
+    },
+    {
+      "name": "arrow-big-right-dash-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-right-dash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-right-dash-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-right-dash-icon.json"
+    },
+    {
+      "name": "arrow-big-right-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-right-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-right-icon.json"
+    },
+    {
+      "name": "arrow-big-up-dash-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-up-dash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-up-dash-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-up-dash-icon.json"
+    },
+    {
+      "name": "arrow-big-up-icon",
+      "path": "ui/_sources/itshover/src/arrow-big-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-big-up-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-big-up-icon.json"
+    },
+    {
+      "name": "arrow-down-0-1-icon",
+      "path": "ui/_sources/itshover/src/arrow-down-0-1-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-down-0-1-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-down-0-1-icon.json"
+    },
+    {
+      "name": "arrow-down-1-0-icon",
+      "path": "ui/_sources/itshover/src/arrow-down-1-0-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-down-1-0-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-down-1-0-icon.json"
+    },
+    {
+      "name": "arrow-down-a-z-icon",
+      "path": "ui/_sources/itshover/src/arrow-down-a-z-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-down-a-z-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-down-a-z-icon.json"
+    },
+    {
+      "name": "arrow-narrow-down-dashed-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-down-dashed-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-down-dashed-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-down-dashed-icon.json"
+    },
+    {
+      "name": "arrow-narrow-down-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-down-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-down-icon.json"
+    },
+    {
+      "name": "arrow-narrow-left-dashed-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-left-dashed-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-left-dashed-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-left-dashed-icon.json"
+    },
+    {
+      "name": "arrow-narrow-left-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-left-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-left-icon.json"
+    },
+    {
+      "name": "arrow-narrow-right-dashed-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-right-dashed-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-right-dashed-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-right-dashed-icon.json"
+    },
+    {
+      "name": "arrow-narrow-right-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-right-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-right-icon.json"
+    },
+    {
+      "name": "arrow-narrow-up-dashed-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-up-dashed-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-up-dashed-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-up-dashed-icon.json"
+    },
+    {
+      "name": "arrow-narrow-up-icon",
+      "path": "ui/_sources/itshover/src/arrow-narrow-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/arrow-narrow-up-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/arrow-narrow-up-icon.json"
+    },
+    {
+      "name": "at-sign-icon",
+      "path": "ui/_sources/itshover/src/at-sign-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/at-sign-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/at-sign-icon.json"
+    },
+    {
+      "name": "banana-icon",
+      "path": "ui/_sources/itshover/src/banana-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/banana-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/banana-icon.json"
+    },
+    {
+      "name": "battery-charging-icon",
+      "path": "ui/_sources/itshover/src/battery-charging-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/battery-charging-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/battery-charging-icon.json"
+    },
+    {
+      "name": "battery-icon",
+      "path": "ui/_sources/itshover/src/battery-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/battery-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/battery-icon.json"
+    },
+    {
+      "name": "battery-pause-icon",
+      "path": "ui/_sources/itshover/src/battery-pause-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/battery-pause-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/battery-pause-icon.json"
+    },
+    {
+      "name": "bell-off-icon",
+      "path": "ui/_sources/itshover/src/bell-off-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/bell-off-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/bell-off-icon.json"
+    },
+    {
+      "name": "bluetooth-connected-icon",
+      "path": "ui/_sources/itshover/src/bluetooth-connected-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/bluetooth-connected-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/bluetooth-connected-icon.json"
+    },
+    {
+      "name": "book-icon",
+      "path": "ui/_sources/itshover/src/book-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/book-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/book-icon.json"
+    },
+    {
+      "name": "bookmark-icon",
+      "path": "ui/_sources/itshover/src/bookmark-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/bookmark-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/bookmark-icon.json"
+    },
+    {
+      "name": "brain-circuit-icon",
+      "path": "ui/_sources/itshover/src/brain-circuit-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brain-circuit-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brain-circuit-icon.json"
+    },
+    {
+      "name": "brand-aistudio-icon",
+      "path": "ui/_sources/itshover/src/brand-aistudio-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-aistudio-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-aistudio-icon.json"
+    },
+    {
+      "name": "brand-anthropic-icon",
+      "path": "ui/_sources/itshover/src/brand-anthropic-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-anthropic-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-anthropic-icon.json"
+    },
+    {
+      "name": "brand-aws-icon",
+      "path": "ui/_sources/itshover/src/brand-aws-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-aws-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-aws-icon.json"
+    },
+    {
+      "name": "brand-bags-fm-icon",
+      "path": "ui/_sources/itshover/src/brand-bags-fm-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-bags-fm-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-bags-fm-icon.json"
+    },
+    {
+      "name": "brand-chrome-icon",
+      "path": "ui/_sources/itshover/src/brand-chrome-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-chrome-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-chrome-icon.json"
+    },
+    {
+      "name": "brand-cursor-icon",
+      "path": "ui/_sources/itshover/src/brand-cursor-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-cursor-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-cursor-icon.json"
+    },
+    {
+      "name": "brand-gemini-icon",
+      "path": "ui/_sources/itshover/src/brand-gemini-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-gemini-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-gemini-icon.json"
+    },
+    {
+      "name": "brand-google-icon",
+      "path": "ui/_sources/itshover/src/brand-google-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-google-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-google-icon.json"
+    },
+    {
+      "name": "brand-grok-icon",
+      "path": "ui/_sources/itshover/src/brand-grok-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-grok-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-grok-icon.json"
+    },
+    {
+      "name": "brand-lmstudio-icon",
+      "path": "ui/_sources/itshover/src/brand-lmstudio-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-lmstudio-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-lmstudio-icon.json"
+    },
+    {
+      "name": "brand-midjourney-icon",
+      "path": "ui/_sources/itshover/src/brand-midjourney-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-midjourney-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-midjourney-icon.json"
+    },
+    {
+      "name": "brand-nextjs-icon",
+      "path": "ui/_sources/itshover/src/brand-nextjs-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-nextjs-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-nextjs-icon.json"
+    },
+    {
+      "name": "brand-notion-icon",
+      "path": "ui/_sources/itshover/src/brand-notion-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-notion-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-notion-icon.json"
+    },
+    {
+      "name": "brand-ollama-icon",
+      "path": "ui/_sources/itshover/src/brand-ollama-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-ollama-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-ollama-icon.json"
+    },
+    {
+      "name": "brand-openai-icon",
+      "path": "ui/_sources/itshover/src/brand-openai-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-openai-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-openai-icon.json"
+    },
+    {
+      "name": "brand-paypal-icon",
+      "path": "ui/_sources/itshover/src/brand-paypal-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-paypal-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-paypal-icon.json"
+    },
+    {
+      "name": "brand-qwen-icon",
+      "path": "ui/_sources/itshover/src/brand-qwen-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-qwen-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-qwen-icon.json"
+    },
+    {
+      "name": "brand-railway-icon",
+      "path": "ui/_sources/itshover/src/brand-railway-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-railway-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-railway-icon.json"
+    },
+    {
+      "name": "brand-react-icon",
+      "path": "ui/_sources/itshover/src/brand-react-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-react-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-react-icon.json"
+    },
+    {
+      "name": "brand-react-native-icon",
+      "path": "ui/_sources/itshover/src/brand-react-native-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-react-native-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-react-native-icon.json"
+    },
+    {
+      "name": "brand-stripe-icon",
+      "path": "ui/_sources/itshover/src/brand-stripe-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-stripe-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-stripe-icon.json"
+    },
+    {
+      "name": "brand-telegram-icon",
+      "path": "ui/_sources/itshover/src/brand-telegram-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-telegram-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-telegram-icon.json"
+    },
+    {
+      "name": "brand-threads-icon",
+      "path": "ui/_sources/itshover/src/brand-threads-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-threads-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-threads-icon.json"
+    },
+    {
+      "name": "brand-twitch-icon",
+      "path": "ui/_sources/itshover/src/brand-twitch-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-twitch-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-twitch-icon.json"
+    },
+    {
+      "name": "brand-vercel-icon",
+      "path": "ui/_sources/itshover/src/brand-vercel-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-vercel-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-vercel-icon.json"
+    },
+    {
+      "name": "brand-windows-icon",
+      "path": "ui/_sources/itshover/src/brand-windows-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-windows-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-windows-icon.json"
+    },
+    {
+      "name": "brand-wordpress-icon",
+      "path": "ui/_sources/itshover/src/brand-wordpress-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-wordpress-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-wordpress-icon.json"
+    },
+    {
+      "name": "brand-xai-icon",
+      "path": "ui/_sources/itshover/src/brand-xai-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-xai-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-xai-icon.json"
+    },
+    {
+      "name": "brand-zoom-icon",
+      "path": "ui/_sources/itshover/src/brand-zoom-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brand-zoom-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brand-zoom-icon.json"
+    },
+    {
+      "name": "brightness-down-icon",
+      "path": "ui/_sources/itshover/src/brightness-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/brightness-down-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/brightness-down-icon.json"
+    },
+    {
+      "name": "bug-icon",
+      "path": "ui/_sources/itshover/src/bug-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/bug-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/bug-icon.json"
+    },
+    {
+      "name": "bulb-svg",
+      "path": "ui/_sources/itshover/src/bulb-svg.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/bulb-svg.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/bulb-svg.json"
+    },
+    {
+      "name": "camera-icon",
+      "path": "ui/_sources/itshover/src/camera-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/camera-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/camera-icon.json"
+    },
+    {
+      "name": "camera-off-icon",
+      "path": "ui/_sources/itshover/src/camera-off-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/camera-off-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/camera-off-icon.json"
+    },
+    {
+      "name": "candy-cane-icon",
+      "path": "ui/_sources/itshover/src/candy-cane-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/candy-cane-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/candy-cane-icon.json"
+    },
+    {
+      "name": "cart-icon",
+      "path": "ui/_sources/itshover/src/cart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/cart-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/cart-icon.json"
+    },
+    {
+      "name": "chart-bar-icon",
+      "path": "ui/_sources/itshover/src/chart-bar-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/chart-bar-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/chart-bar-icon.json"
+    },
+    {
+      "name": "chart-covariate-icon",
+      "path": "ui/_sources/itshover/src/chart-covariate-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/chart-covariate-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/chart-covariate-icon.json"
+    },
+    {
+      "name": "chart-histogram-icon",
+      "path": "ui/_sources/itshover/src/chart-histogram-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/chart-histogram-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/chart-histogram-icon.json"
+    },
+    {
+      "name": "chart-line-icon",
+      "path": "ui/_sources/itshover/src/chart-line-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/chart-line-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/chart-line-icon.json"
+    },
+    {
+      "name": "chart-pie-icon",
+      "path": "ui/_sources/itshover/src/chart-pie-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/chart-pie-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/chart-pie-icon.json"
+    },
+    {
+      "name": "checked-icon",
+      "path": "ui/_sources/itshover/src/checked-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/checked-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/checked-icon.json"
+    },
+    {
+      "name": "clock-icon",
+      "path": "ui/_sources/itshover/src/clock-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/clock-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/clock-icon.json"
+    },
+    {
+      "name": "cloud-1-icon",
+      "path": "ui/_sources/itshover/src/cloud-1-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/cloud-1-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/cloud-1-icon.json"
+    },
+    {
+      "name": "cloud-2-icon",
+      "path": "ui/_sources/itshover/src/cloud-2-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/cloud-2-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/cloud-2-icon.json"
+    },
+    {
+      "name": "cloud-3-icon",
+      "path": "ui/_sources/itshover/src/cloud-3-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/cloud-3-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/cloud-3-icon.json"
+    },
+    {
+      "name": "code-icon",
+      "path": "ui/_sources/itshover/src/code-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/code-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/code-icon.json"
+    },
+    {
+      "name": "code-xml-icon",
+      "path": "ui/_sources/itshover/src/code-xml-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/code-xml-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/code-xml-icon.json"
+    },
+    {
+      "name": "coffee-icon",
+      "path": "ui/_sources/itshover/src/coffee-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/coffee-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/coffee-icon.json"
+    },
+    {
+      "name": "coin-bitcoin-icon",
+      "path": "ui/_sources/itshover/src/coin-bitcoin-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/coin-bitcoin-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/coin-bitcoin-icon.json"
+    },
+    {
+      "name": "copy-icon",
+      "path": "ui/_sources/itshover/src/copy-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/copy-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/copy-icon.json"
+    },
+    {
+      "name": "copy-off-icon",
+      "path": "ui/_sources/itshover/src/copy-off-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/copy-off-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/copy-off-icon.json"
+    },
+    {
+      "name": "copyright-icon",
+      "path": "ui/_sources/itshover/src/copyright-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/copyright-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/copyright-icon.json"
+    },
+    {
+      "name": "cpu-icon",
+      "path": "ui/_sources/itshover/src/cpu-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/cpu-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/cpu-icon.json"
+    },
+    {
+      "name": "credit-card",
+      "path": "ui/_sources/itshover/src/credit-card.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/credit-card.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/credit-card.json"
+    },
+    {
+      "name": "currency-bitcoin-icon",
+      "path": "ui/_sources/itshover/src/currency-bitcoin-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/currency-bitcoin-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/currency-bitcoin-icon.json"
+    },
+    {
+      "name": "currency-dollar-icon",
+      "path": "ui/_sources/itshover/src/currency-dollar-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/currency-dollar-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/currency-dollar-icon.json"
+    },
+    {
+      "name": "currency-ethereum-icon",
+      "path": "ui/_sources/itshover/src/currency-ethereum-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/currency-ethereum-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/currency-ethereum-icon.json"
+    },
+    {
+      "name": "currency-euro-icon",
+      "path": "ui/_sources/itshover/src/currency-euro-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/currency-euro-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/currency-euro-icon.json"
+    },
+    {
+      "name": "currency-rupee-icon",
+      "path": "ui/_sources/itshover/src/currency-rupee-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/currency-rupee-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/currency-rupee-icon.json"
+    },
+    {
+      "name": "device-airpods-icon",
+      "path": "ui/_sources/itshover/src/device-airpods-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/device-airpods-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/device-airpods-icon.json"
+    },
+    {
+      "name": "dialpad-icon",
+      "path": "ui/_sources/itshover/src/dialpad-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/dialpad-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/dialpad-icon.json"
+    },
+    {
+      "name": "dino-icon",
+      "path": "ui/_sources/itshover/src/dino-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/dino-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/dino-icon.json"
+    },
+    {
+      "name": "discord-icon",
+      "path": "ui/_sources/itshover/src/discord-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/discord-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/discord-icon.json"
+    },
+    {
+      "name": "docker-icon",
+      "path": "ui/_sources/itshover/src/docker-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/docker-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/docker-icon.json"
+    },
+    {
+      "name": "dots-horizontal-icon",
+      "path": "ui/_sources/itshover/src/dots-horizontal-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/dots-horizontal-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/dots-horizontal-icon.json"
+    },
+    {
+      "name": "dots-vertical-icon",
+      "path": "ui/_sources/itshover/src/dots-vertical-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/dots-vertical-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/dots-vertical-icon.json"
+    },
+    {
+      "name": "double-check-icon",
+      "path": "ui/_sources/itshover/src/double-check-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/double-check-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/double-check-icon.json"
+    },
+    {
+      "name": "down-chevron",
+      "path": "ui/_sources/itshover/src/down-chevron.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/down-chevron.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/down-chevron.json"
+    },
+    {
+      "name": "download-icon",
+      "path": "ui/_sources/itshover/src/download-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/download-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/download-icon.json"
+    },
+    {
+      "name": "drum-icon",
+      "path": "ui/_sources/itshover/src/drum-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/drum-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/drum-icon.json"
+    },
+    {
+      "name": "expand-icon",
+      "path": "ui/_sources/itshover/src/expand-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/expand-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/expand-icon.json"
+    },
+    {
+      "name": "external-link-icon",
+      "path": "ui/_sources/itshover/src/external-link-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/external-link-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/external-link-icon.json"
+    },
+    {
+      "name": "eye-icon",
+      "path": "ui/_sources/itshover/src/eye-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/eye-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/eye-icon.json"
+    },
+    {
+      "name": "eye-off-icon",
+      "path": "ui/_sources/itshover/src/eye-off-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/eye-off-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/eye-off-icon.json"
+    },
+    {
+      "name": "facebook-icon",
+      "path": "ui/_sources/itshover/src/facebook-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/facebook-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/facebook-icon.json"
+    },
+    {
+      "name": "figma-icon",
+      "path": "ui/_sources/itshover/src/figma-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/figma-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/figma-icon.json"
+    },
+    {
+      "name": "file-description-icon",
+      "path": "ui/_sources/itshover/src/file-description-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/file-description-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/file-description-icon.json"
+    },
+    {
+      "name": "filled-bell-icon",
+      "path": "ui/_sources/itshover/src/filled-bell-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/filled-bell-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/filled-bell-icon.json"
+    },
+    {
+      "name": "filled-checked-icon",
+      "path": "ui/_sources/itshover/src/filled-checked-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/filled-checked-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/filled-checked-icon.json"
+    },
+    {
+      "name": "filter-icon",
+      "path": "ui/_sources/itshover/src/filter-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/filter-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/filter-icon.json"
+    },
+    {
+      "name": "flame-icon",
+      "path": "ui/_sources/itshover/src/flame-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/flame-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/flame-icon.json"
+    },
+    {
+      "name": "focus-icon",
+      "path": "ui/_sources/itshover/src/focus-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/focus-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/focus-icon.json"
+    },
+    {
+      "name": "gamepad-icon",
+      "path": "ui/_sources/itshover/src/gamepad-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/gamepad-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/gamepad-icon.json"
+    },
+    {
+      "name": "gauge-icon",
+      "path": "ui/_sources/itshover/src/gauge-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/gauge-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/gauge-icon.json"
+    },
+    {
+      "name": "gear-icon",
+      "path": "ui/_sources/itshover/src/gear-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/gear-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/gear-icon.json"
+    },
+    {
+      "name": "ghost-icon",
+      "path": "ui/_sources/itshover/src/ghost-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/ghost-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/ghost-icon.json"
+    },
+    {
+      "name": "github-copilot-icon",
+      "path": "ui/_sources/itshover/src/github-copilot-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/github-copilot-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/github-copilot-icon.json"
+    },
+    {
+      "name": "github-icon",
+      "path": "ui/_sources/itshover/src/github-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/github-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/github-icon.json"
+    },
+    {
+      "name": "gitlab-icon",
+      "path": "ui/_sources/itshover/src/gitlab-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/gitlab-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/gitlab-icon.json"
+    },
+    {
+      "name": "globe-icon",
+      "path": "ui/_sources/itshover/src/globe-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/globe-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/globe-icon.json"
+    },
+    {
+      "name": "gmail-icon",
+      "path": "ui/_sources/itshover/src/gmail-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/gmail-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/gmail-icon.json"
+    },
+    {
+      "name": "golang-icon",
+      "path": "ui/_sources/itshover/src/golang-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/golang-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/golang-icon.json"
+    },
+    {
+      "name": "hand-heart-icon",
+      "path": "ui/_sources/itshover/src/hand-heart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/hand-heart-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/hand-heart-icon.json"
+    },
+    {
+      "name": "hashtag-icon",
+      "path": "ui/_sources/itshover/src/hashtag-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/hashtag-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/hashtag-icon.json"
+    },
+    {
+      "name": "heart-icon",
+      "path": "ui/_sources/itshover/src/heart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/heart-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/heart-icon.json"
+    },
+    {
+      "name": "history-circle-icon",
+      "path": "ui/_sources/itshover/src/history-circle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/history-circle-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/history-circle-icon.json"
+    },
+    {
+      "name": "home-icon",
+      "path": "ui/_sources/itshover/src/home-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/home-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/home-icon.json"
+    },
+    {
+      "name": "hotel-icon",
+      "path": "ui/_sources/itshover/src/hotel-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/hotel-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/hotel-icon.json"
+    },
+    {
+      "name": "info-circle-icon",
+      "path": "ui/_sources/itshover/src/info-circle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/info-circle-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/info-circle-icon.json"
+    },
+    {
+      "name": "instagram-icon",
+      "path": "ui/_sources/itshover/src/instagram-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/instagram-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/instagram-icon.json"
+    },
+    {
+      "name": "javascript-icon",
+      "path": "ui/_sources/itshover/src/javascript-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/javascript-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/javascript-icon.json"
+    },
+    {
+      "name": "keyframes-icon",
+      "path": "ui/_sources/itshover/src/keyframes-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/keyframes-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/keyframes-icon.json"
+    },
+    {
+      "name": "layers-icon",
+      "path": "ui/_sources/itshover/src/layers-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/layers-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/layers-icon.json"
+    },
+    {
+      "name": "layout-bottombar-collapse-icon",
+      "path": "ui/_sources/itshover/src/layout-bottombar-collapse-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/layout-bottombar-collapse-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/layout-bottombar-collapse-icon.json"
+    },
+    {
+      "name": "layout-dashboard-icon",
+      "path": "ui/_sources/itshover/src/layout-dashboard-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/layout-dashboard-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/layout-dashboard-icon.json"
+    },
+    {
+      "name": "layout-sidebar-right-collapse-icon",
+      "path": "ui/_sources/itshover/src/layout-sidebar-right-collapse-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/layout-sidebar-right-collapse-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/layout-sidebar-right-collapse-icon.json"
+    },
+    {
+      "name": "layout-sidebar-right-icon",
+      "path": "ui/_sources/itshover/src/layout-sidebar-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/layout-sidebar-right-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/layout-sidebar-right-icon.json"
+    },
+    {
+      "name": "letter-a-icon",
+      "path": "ui/_sources/itshover/src/letter-a-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-a-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-a-icon.json"
+    },
+    {
+      "name": "letter-b-icon",
+      "path": "ui/_sources/itshover/src/letter-b-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-b-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-b-icon.json"
+    },
+    {
+      "name": "letter-c-icon",
+      "path": "ui/_sources/itshover/src/letter-c-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-c-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-c-icon.json"
+    },
+    {
+      "name": "letter-d-icon",
+      "path": "ui/_sources/itshover/src/letter-d-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-d-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-d-icon.json"
+    },
+    {
+      "name": "letter-e-icon",
+      "path": "ui/_sources/itshover/src/letter-e-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-e-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-e-icon.json"
+    },
+    {
+      "name": "letter-f-icon",
+      "path": "ui/_sources/itshover/src/letter-f-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-f-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-f-icon.json"
+    },
+    {
+      "name": "letter-g-icon",
+      "path": "ui/_sources/itshover/src/letter-g-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-g-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-g-icon.json"
+    },
+    {
+      "name": "letter-h-icon",
+      "path": "ui/_sources/itshover/src/letter-h-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-h-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-h-icon.json"
+    },
+    {
+      "name": "letter-i-icon",
+      "path": "ui/_sources/itshover/src/letter-i-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-i-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-i-icon.json"
+    },
+    {
+      "name": "letter-j-icon",
+      "path": "ui/_sources/itshover/src/letter-j-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-j-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-j-icon.json"
+    },
+    {
+      "name": "letter-k-icon",
+      "path": "ui/_sources/itshover/src/letter-k-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-k-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-k-icon.json"
+    },
+    {
+      "name": "letter-l-icon",
+      "path": "ui/_sources/itshover/src/letter-l-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-l-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-l-icon.json"
+    },
+    {
+      "name": "letter-m-icon",
+      "path": "ui/_sources/itshover/src/letter-m-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-m-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-m-icon.json"
+    },
+    {
+      "name": "letter-n-icon",
+      "path": "ui/_sources/itshover/src/letter-n-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-n-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-n-icon.json"
+    },
+    {
+      "name": "letter-o-icon",
+      "path": "ui/_sources/itshover/src/letter-o-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-o-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-o-icon.json"
+    },
+    {
+      "name": "letter-p-icon",
+      "path": "ui/_sources/itshover/src/letter-p-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-p-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-p-icon.json"
+    },
+    {
+      "name": "letter-q-icon",
+      "path": "ui/_sources/itshover/src/letter-q-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-q-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-q-icon.json"
+    },
+    {
+      "name": "letter-r-icon",
+      "path": "ui/_sources/itshover/src/letter-r-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-r-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-r-icon.json"
+    },
+    {
+      "name": "letter-s-icon",
+      "path": "ui/_sources/itshover/src/letter-s-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-s-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-s-icon.json"
+    },
+    {
+      "name": "letter-t-icon",
+      "path": "ui/_sources/itshover/src/letter-t-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-t-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-t-icon.json"
+    },
+    {
+      "name": "letter-u-icon",
+      "path": "ui/_sources/itshover/src/letter-u-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-u-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-u-icon.json"
+    },
+    {
+      "name": "letter-v-icon",
+      "path": "ui/_sources/itshover/src/letter-v-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-v-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-v-icon.json"
+    },
+    {
+      "name": "letter-w-icon",
+      "path": "ui/_sources/itshover/src/letter-w-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-w-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-w-icon.json"
+    },
+    {
+      "name": "letter-x-icon",
+      "path": "ui/_sources/itshover/src/letter-x-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-x-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-x-icon.json"
+    },
+    {
+      "name": "letter-y-icon",
+      "path": "ui/_sources/itshover/src/letter-y-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-y-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-y-icon.json"
+    },
+    {
+      "name": "letter-z-icon",
+      "path": "ui/_sources/itshover/src/letter-z-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/letter-z-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/letter-z-icon.json"
+    },
+    {
+      "name": "library-icon",
+      "path": "ui/_sources/itshover/src/library-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/library-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/library-icon.json"
+    },
+    {
+      "name": "like-icon",
+      "path": "ui/_sources/itshover/src/like-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/like-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/like-icon.json"
+    },
+    {
+      "name": "link-icon",
+      "path": "ui/_sources/itshover/src/link-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/link-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/link-icon.json"
+    },
+    {
+      "name": "linkedin-icon",
+      "path": "ui/_sources/itshover/src/linkedin-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/linkedin-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/linkedin-icon.json"
+    },
+    {
+      "name": "locate-icon",
+      "path": "ui/_sources/itshover/src/locate-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/locate-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/locate-icon.json"
+    },
+    {
+      "name": "lock-icon",
+      "path": "ui/_sources/itshover/src/lock-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/lock-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/lock-icon.json"
+    },
+    {
+      "name": "logout-icon",
+      "path": "ui/_sources/itshover/src/logout-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/logout-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/logout-icon.json"
+    },
+    {
+      "name": "magnifier-icon",
+      "path": "ui/_sources/itshover/src/magnifier-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/magnifier-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/magnifier-icon.json"
+    },
+    {
+      "name": "mail-filled-icon",
+      "path": "ui/_sources/itshover/src/mail-filled-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/mail-filled-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/mail-filled-icon.json"
+    },
+    {
+      "name": "map-pin-icon",
+      "path": "ui/_sources/itshover/src/map-pin-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/map-pin-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/map-pin-icon.json"
+    },
+    {
+      "name": "meh-icon",
+      "path": "ui/_sources/itshover/src/meh-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/meh-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/meh-icon.json"
+    },
+    {
+      "name": "message-circle-icon",
+      "path": "ui/_sources/itshover/src/message-circle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/message-circle-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/message-circle-icon.json"
+    },
+    {
+      "name": "moon-icon",
+      "path": "ui/_sources/itshover/src/moon-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/moon-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/moon-icon.json"
+    },
+    {
+      "name": "mouse-pointer-2-icon",
+      "path": "ui/_sources/itshover/src/mouse-pointer-2-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/mouse-pointer-2-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/mouse-pointer-2-icon.json"
+    },
+    {
+      "name": "mysql-icon",
+      "path": "ui/_sources/itshover/src/mysql-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/mysql-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/mysql-icon.json"
+    },
+    {
+      "name": "nodejs-icon",
+      "path": "ui/_sources/itshover/src/nodejs-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/nodejs-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/nodejs-icon.json"
+    },
+    {
+      "name": "paint-icon",
+      "path": "ui/_sources/itshover/src/paint-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/paint-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/paint-icon.json"
+    },
+    {
+      "name": "party-popper-icon",
+      "path": "ui/_sources/itshover/src/party-popper-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/party-popper-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/party-popper-icon.json"
+    },
+    {
+      "name": "passport-icon",
+      "path": "ui/_sources/itshover/src/passport-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/passport-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/passport-icon.json"
+    },
+    {
+      "name": "paw-print-icon",
+      "path": "ui/_sources/itshover/src/paw-print-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/paw-print-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/paw-print-icon.json"
+    },
+    {
+      "name": "pen-icon",
+      "path": "ui/_sources/itshover/src/pen-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/pen-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/pen-icon.json"
+    },
+    {
+      "name": "phone-volume",
+      "path": "ui/_sources/itshover/src/phone-volume.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/phone-volume.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/phone-volume.json"
+    },
+    {
+      "name": "pinterest-icon",
+      "path": "ui/_sources/itshover/src/pinterest-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/pinterest-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/pinterest-icon.json"
+    },
+    {
+      "name": "player-icon",
+      "path": "ui/_sources/itshover/src/player-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/player-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/player-icon.json"
+    },
+    {
+      "name": "plug-connected-icon",
+      "path": "ui/_sources/itshover/src/plug-connected-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/plug-connected-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/plug-connected-icon.json"
+    },
+    {
+      "name": "plug-connected-x-icon",
+      "path": "ui/_sources/itshover/src/plug-connected-x-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/plug-connected-x-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/plug-connected-x-icon.json"
+    },
+    {
+      "name": "python-icon",
+      "path": "ui/_sources/itshover/src/python-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/python-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/python-icon.json"
+    },
+    {
+      "name": "qrcode-icon",
+      "path": "ui/_sources/itshover/src/qrcode-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/qrcode-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/qrcode-icon.json"
+    },
+    {
+      "name": "question-mark",
+      "path": "ui/_sources/itshover/src/question-mark.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/question-mark.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/question-mark.json"
+    },
+    {
+      "name": "radio-icon",
+      "path": "ui/_sources/itshover/src/radio-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/radio-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/radio-icon.json"
+    },
+    {
+      "name": "rainbow-icon",
+      "path": "ui/_sources/itshover/src/rainbow-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/rainbow-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/rainbow-icon.json"
+    },
+    {
+      "name": "refresh-icon",
+      "path": "ui/_sources/itshover/src/refresh-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/refresh-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/refresh-icon.json"
+    },
+    {
+      "name": "right-chevron",
+      "path": "ui/_sources/itshover/src/right-chevron.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/right-chevron.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/right-chevron.json"
+    },
+    {
+      "name": "rocket-icon",
+      "path": "ui/_sources/itshover/src/rocket-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/rocket-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/rocket-icon.json"
+    },
+    {
+      "name": "rosette-discount-check-icon",
+      "path": "ui/_sources/itshover/src/rosette-discount-check-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/rosette-discount-check-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/rosette-discount-check-icon.json"
+    },
+    {
+      "name": "rosette-discount-icon",
+      "path": "ui/_sources/itshover/src/rosette-discount-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/rosette-discount-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/rosette-discount-icon.json"
+    },
+    {
+      "name": "router-icon",
+      "path": "ui/_sources/itshover/src/router-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/router-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/router-icon.json"
+    },
+    {
+      "name": "satellite-dish-icon",
+      "path": "ui/_sources/itshover/src/satellite-dish-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/satellite-dish-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/satellite-dish-icon.json"
+    },
+    {
+      "name": "save-icon",
+      "path": "ui/_sources/itshover/src/save-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/save-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/save-icon.json"
+    },
+    {
+      "name": "scan-barcode-icon",
+      "path": "ui/_sources/itshover/src/scan-barcode-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/scan-barcode-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/scan-barcode-icon.json"
+    },
+    {
+      "name": "scan-heart-icon",
+      "path": "ui/_sources/itshover/src/scan-heart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/scan-heart-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/scan-heart-icon.json"
+    },
+    {
+      "name": "send-horizontal-icon",
+      "path": "ui/_sources/itshover/src/send-horizontal-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/send-horizontal-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/send-horizontal-icon.json"
+    },
+    {
+      "name": "send-icon",
+      "path": "ui/_sources/itshover/src/send-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/send-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/send-icon.json"
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/itshover/src/shield-check.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/shield-check.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/shield-check.json"
+    },
+    {
+      "name": "shopping-cart-icon",
+      "path": "ui/_sources/itshover/src/shopping-cart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/shopping-cart-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/shopping-cart-icon.json"
+    },
+    {
+      "name": "simple-checked-icon",
+      "path": "ui/_sources/itshover/src/simple-checked-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/simple-checked-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/simple-checked-icon.json"
+    },
+    {
+      "name": "skull-emoji",
+      "path": "ui/_sources/itshover/src/skull-emoji.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/skull-emoji.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/skull-emoji.json"
+    },
+    {
+      "name": "slack-icon",
+      "path": "ui/_sources/itshover/src/slack-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/slack-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/slack-icon.json"
+    },
+    {
+      "name": "sliders-horizontal-icon",
+      "path": "ui/_sources/itshover/src/sliders-horizontal-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/sliders-horizontal-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/sliders-horizontal-icon.json"
+    },
+    {
+      "name": "snapchat-icon",
+      "path": "ui/_sources/itshover/src/snapchat-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/snapchat-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/snapchat-icon.json"
+    },
+    {
+      "name": "soup-icon",
+      "path": "ui/_sources/itshover/src/soup-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/soup-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/soup-icon.json"
+    },
+    {
+      "name": "sparkles-icon",
+      "path": "ui/_sources/itshover/src/sparkles-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/sparkles-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/sparkles-icon.json"
+    },
+    {
+      "name": "spotify-icon",
+      "path": "ui/_sources/itshover/src/spotify-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/spotify-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/spotify-icon.json"
+    },
+    {
+      "name": "stack-3-icon",
+      "path": "ui/_sources/itshover/src/stack-3-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/stack-3-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/stack-3-icon.json"
+    },
+    {
+      "name": "stack-icon",
+      "path": "ui/_sources/itshover/src/stack-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/stack-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/stack-icon.json"
+    },
+    {
+      "name": "star-icon",
+      "path": "ui/_sources/itshover/src/star-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/star-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/star-icon.json"
+    },
+    {
+      "name": "subscript-icon",
+      "path": "ui/_sources/itshover/src/subscript-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/subscript-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/subscript-icon.json"
+    },
+    {
+      "name": "target-icon",
+      "path": "ui/_sources/itshover/src/target-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/target-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/target-icon.json"
+    },
+    {
+      "name": "telephone-icon",
+      "path": "ui/_sources/itshover/src/telephone-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/telephone-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/telephone-icon.json"
+    },
+    {
+      "name": "terminal-icon",
+      "path": "ui/_sources/itshover/src/terminal-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/terminal-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/terminal-icon.json"
+    },
+    {
+      "name": "toggle-icon",
+      "path": "ui/_sources/itshover/src/toggle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/toggle-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/toggle-icon.json"
+    },
+    {
+      "name": "trash-icon",
+      "path": "ui/_sources/itshover/src/trash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/trash-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/trash-icon.json"
+    },
+    {
+      "name": "travel-bag",
+      "path": "ui/_sources/itshover/src/travel-bag.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/travel-bag.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/travel-bag.json"
+    },
+    {
+      "name": "triangle-alert-icon",
+      "path": "ui/_sources/itshover/src/triangle-alert-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/triangle-alert-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/triangle-alert-icon.json"
+    },
+    {
+      "name": "trophy-icon",
+      "path": "ui/_sources/itshover/src/trophy-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/trophy-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/trophy-icon.json"
+    },
+    {
+      "name": "truck-electric-icon",
+      "path": "ui/_sources/itshover/src/truck-electric-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/truck-electric-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/truck-electric-icon.json"
+    },
+    {
+      "name": "twitter-icon",
+      "path": "ui/_sources/itshover/src/twitter-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/twitter-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/twitter-icon.json"
+    },
+    {
+      "name": "twitter-x-icon",
+      "path": "ui/_sources/itshover/src/twitter-x-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/twitter-x-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/twitter-x-icon.json"
+    },
+    {
+      "name": "typescript-icon",
+      "path": "ui/_sources/itshover/src/typescript-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/typescript-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/typescript-icon.json"
+    },
+    {
+      "name": "unlink-icon",
+      "path": "ui/_sources/itshover/src/unlink-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/unlink-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/unlink-icon.json"
+    },
+    {
+      "name": "unordered-list-icon",
+      "path": "ui/_sources/itshover/src/unordered-list-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/unordered-list-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/unordered-list-icon.json"
+    },
+    {
+      "name": "upload-icon",
+      "path": "ui/_sources/itshover/src/upload-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/upload-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/upload-icon.json"
+    },
+    {
+      "name": "user-check-icon",
+      "path": "ui/_sources/itshover/src/user-check-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/user-check-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/user-check-icon.json"
+    },
+    {
+      "name": "user-icon",
+      "path": "ui/_sources/itshover/src/user-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/user-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/user-icon.json"
+    },
+    {
+      "name": "user-plus-icon",
+      "path": "ui/_sources/itshover/src/user-plus-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/user-plus-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/user-plus-icon.json"
+    },
+    {
+      "name": "users-group-icon",
+      "path": "ui/_sources/itshover/src/users-group-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/users-group-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/users-group-icon.json"
+    },
+    {
+      "name": "users-icon",
+      "path": "ui/_sources/itshover/src/users-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/users-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/users-icon.json"
+    },
+    {
+      "name": "vinyl-icon",
+      "path": "ui/_sources/itshover/src/vinyl-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/vinyl-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/vinyl-icon.json"
+    },
+    {
+      "name": "volume-2-icon",
+      "path": "ui/_sources/itshover/src/volume-2-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/volume-2-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/volume-2-icon.json"
+    },
+    {
+      "name": "volume-x-icon",
+      "path": "ui/_sources/itshover/src/volume-x-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/volume-x-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/volume-x-icon.json"
+    },
+    {
+      "name": "wallet-icon",
+      "path": "ui/_sources/itshover/src/wallet-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/wallet-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/wallet-icon.json"
+    },
+    {
+      "name": "washing-machine-icon",
+      "path": "ui/_sources/itshover/src/washing-machine-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/washing-machine-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/washing-machine-icon.json"
+    },
+    {
+      "name": "whatsapp-icon",
+      "path": "ui/_sources/itshover/src/whatsapp-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/whatsapp-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/whatsapp-icon.json"
+    },
+    {
+      "name": "wifi-icon",
+      "path": "ui/_sources/itshover/src/wifi-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/wifi-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/wifi-icon.json"
+    },
+    {
+      "name": "wifi-off-icon",
+      "path": "ui/_sources/itshover/src/wifi-off-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/wifi-off-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/wifi-off-icon.json"
+    },
+    {
+      "name": "world-icon",
+      "path": "ui/_sources/itshover/src/world-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/world-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/world-icon.json"
+    },
+    {
+      "name": "x-icon",
+      "path": "ui/_sources/itshover/src/x-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/x-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/x-icon.json"
+    },
+    {
+      "name": "youtube-icon",
+      "path": "ui/_sources/itshover/src/youtube-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://itshover.com/r/youtube-icon.json",
+      "command": "npx shadcn@latest add https://itshover.com/r/youtube-icon.json"
+    }
+  ]
+}

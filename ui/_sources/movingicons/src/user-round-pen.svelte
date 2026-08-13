@@ -1,0 +1,79 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 1000);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div class={className} aria-label="user-round-pen" role="img" onmouseenter={handleMouseEnter}>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="user-round-pen-icon"
+	>
+		<path d="M2 21a8 8 0 0 1 10.821-7.487" />
+		<path
+			d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"
+			class="pen"
+			class:animate
+		/>
+		<circle cx="10" cy="8" r="5" />
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.user-round-pen-icon {
+		overflow: visible;
+	}
+
+	.pen {
+		transform-origin: 21.378px 16.626px;
+		transition: transform 0.25s ease-in-out;
+	}
+
+	.pen.animate {
+		animation: penWiggle 0.5s ease-in-out 2;
+	}
+
+	@keyframes penWiggle {
+		0%,
+		100% {
+			transform: rotate(0deg) translate(0px, 0px);
+		}
+		25% {
+			transform: rotate(-0.5deg) translate(-1px, 1.5px);
+		}
+		75% {
+			transform: rotate(0.5deg) translate(1.5px, -1px);
+		}
+	}
+</style>

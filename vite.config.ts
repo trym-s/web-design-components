@@ -1,6 +1,8 @@
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
-import { existsSync } from "node:fs";
+import vue from "@vitejs/plugin-vue";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+import { existsSync, readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
 /**
@@ -48,11 +50,28 @@ function bankShims(): Plugin {
   };
 }
 
+function personalIcons(): Plugin {
+  const root = resolve(__dirname, ".cache/icon-bank/personal/react-useanimations/src");
+  return {
+    name: "personal-icons",
+    configureServer(server) {
+      server.middlewares.use("/__personal-icons", (req, res, next) => {
+        if (process.env.UI_BANK_PERSONAL !== "1") return next();
+        const name = decodeURIComponent((req.url ?? "").replace(/^\//, "")).replace(/\.json$/, "");
+        const path = resolve(root, `${name}.json`);
+        if (!path.startsWith(root + "/") || !existsSync(path)) return next();
+        res.setHeader("Content-Type", "application/json");
+        res.end(readFileSync(path));
+      });
+    },
+  };
+}
+
 // Root is the repo root so `ui/` is inside the served tree and import.meta.glob
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), react()],
+  plugins: [bankShims(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(
@@ -62,7 +81,10 @@ export default defineConfig({
   },
   // Some bank dependencies (liveline) ship their own React copy; without dedupe
   // a second copy loads and every hook call inside them throws.
-  resolve: { dedupe: ["react", "react-dom"] },
+  resolve: {
+    alias: { "@/lib/utils": resolve(__dirname, "dashboard/shims/cn.ts") },
+    dedupe: ["react", "react-dom"],
+  },
   server: {
     open: "/dashboard/index.html",
   },

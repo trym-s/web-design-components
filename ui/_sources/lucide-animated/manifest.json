@@ -1,0 +1,3274 @@
+{
+  "id": "lucide-animated",
+  "repo": "pqoqubbw/icons",
+  "commit": "61c4202489f898cccaa2aa64b6a2d5a1a713a32e",
+  "site": "https://lucide-animated.com",
+  "license": "MIT",
+  "framework": "react",
+  "expected": 466,
+  "count": 466,
+  "icons": [
+    {
+      "name": "a-arrow-down",
+      "path": "ui/_sources/lucide-animated/src/a-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/a-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/a-arrow-down.json"
+    },
+    {
+      "name": "a-arrow-up",
+      "path": "ui/_sources/lucide-animated/src/a-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/a-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/a-arrow-up.json"
+    },
+    {
+      "name": "accessibility",
+      "path": "ui/_sources/lucide-animated/src/accessibility.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/accessibility.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/accessibility.json"
+    },
+    {
+      "name": "activity",
+      "path": "ui/_sources/lucide-animated/src/activity.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/activity.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/activity.json"
+    },
+    {
+      "name": "air-vent",
+      "path": "ui/_sources/lucide-animated/src/air-vent.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/air-vent.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/air-vent.json"
+    },
+    {
+      "name": "airplane",
+      "path": "ui/_sources/lucide-animated/src/airplane.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/airplane.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/airplane.json"
+    },
+    {
+      "name": "airplay",
+      "path": "ui/_sources/lucide-animated/src/airplay.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/airplay.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/airplay.json"
+    },
+    {
+      "name": "alarm-clock-check",
+      "path": "ui/_sources/lucide-animated/src/alarm-clock-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/alarm-clock-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/alarm-clock-check.json"
+    },
+    {
+      "name": "alarm-clock-minus",
+      "path": "ui/_sources/lucide-animated/src/alarm-clock-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/alarm-clock-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/alarm-clock-minus.json"
+    },
+    {
+      "name": "alarm-clock-plus",
+      "path": "ui/_sources/lucide-animated/src/alarm-clock-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/alarm-clock-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/alarm-clock-plus.json"
+    },
+    {
+      "name": "alarm-clock",
+      "path": "ui/_sources/lucide-animated/src/alarm-clock.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/alarm-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/alarm-clock.json"
+    },
+    {
+      "name": "alarm-smoke",
+      "path": "ui/_sources/lucide-animated/src/alarm-smoke.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/alarm-smoke.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/alarm-smoke.json"
+    },
+    {
+      "name": "align-center",
+      "path": "ui/_sources/lucide-animated/src/align-center.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/align-center.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-center.json"
+    },
+    {
+      "name": "align-horizontal",
+      "path": "ui/_sources/lucide-animated/src/align-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/align-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-horizontal.json"
+    },
+    {
+      "name": "align-left",
+      "path": "ui/_sources/lucide-animated/src/align-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/align-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-left.json"
+    },
+    {
+      "name": "align-right",
+      "path": "ui/_sources/lucide-animated/src/align-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/align-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-right.json"
+    },
+    {
+      "name": "align-vertical",
+      "path": "ui/_sources/lucide-animated/src/align-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/align-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-vertical.json"
+    },
+    {
+      "name": "ambulance",
+      "path": "ui/_sources/lucide-animated/src/ambulance.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ambulance.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ambulance.json"
+    },
+    {
+      "name": "angry",
+      "path": "ui/_sources/lucide-animated/src/angry.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/angry.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/angry.json"
+    },
+    {
+      "name": "annoyed",
+      "path": "ui/_sources/lucide-animated/src/annoyed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/annoyed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/annoyed.json"
+    },
+    {
+      "name": "archive",
+      "path": "ui/_sources/lucide-animated/src/archive.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/archive.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/archive.json"
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-down-dash.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-down-dash.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-down-dash.json"
+    },
+    {
+      "name": "arrow-big-down",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-down.json"
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-left-dash.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-left-dash.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-left-dash.json"
+    },
+    {
+      "name": "arrow-big-left",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-left.json"
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-right-dash.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-right-dash.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-right-dash.json"
+    },
+    {
+      "name": "arrow-big-right",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-right.json"
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-up-dash.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-up-dash.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-up-dash.json"
+    },
+    {
+      "name": "arrow-big-up",
+      "path": "ui/_sources/lucide-animated/src/arrow-big-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-big-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-up.json"
+    },
+    {
+      "name": "arrow-down-0-1",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-0-1.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-0-1.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-0-1.json"
+    },
+    {
+      "name": "arrow-down-1-0",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-1-0.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-1-0.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-1-0.json"
+    },
+    {
+      "name": "arrow-down-a-z",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-a-z.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-a-z.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-a-z.json"
+    },
+    {
+      "name": "arrow-down-left",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-left.json"
+    },
+    {
+      "name": "arrow-down-right",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-right.json"
+    },
+    {
+      "name": "arrow-down-z-a",
+      "path": "ui/_sources/lucide-animated/src/arrow-down-z-a.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down-z-a.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-z-a.json"
+    },
+    {
+      "name": "arrow-down",
+      "path": "ui/_sources/lucide-animated/src/arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down.json"
+    },
+    {
+      "name": "arrow-left",
+      "path": "ui/_sources/lucide-animated/src/arrow-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-left.json"
+    },
+    {
+      "name": "arrow-right",
+      "path": "ui/_sources/lucide-animated/src/arrow-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-right.json"
+    },
+    {
+      "name": "arrow-up-left",
+      "path": "ui/_sources/lucide-animated/src/arrow-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-up-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-up-left.json"
+    },
+    {
+      "name": "arrow-up-right",
+      "path": "ui/_sources/lucide-animated/src/arrow-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-up-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-up-right.json"
+    },
+    {
+      "name": "arrow-up",
+      "path": "ui/_sources/lucide-animated/src/arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-up.json"
+    },
+    {
+      "name": "at-sign",
+      "path": "ui/_sources/lucide-animated/src/at-sign.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/at-sign.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/at-sign.json"
+    },
+    {
+      "name": "atom",
+      "path": "ui/_sources/lucide-animated/src/atom.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/atom.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/atom.json"
+    },
+    {
+      "name": "attach-file",
+      "path": "ui/_sources/lucide-animated/src/attach-file.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/attach-file.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/attach-file.json"
+    },
+    {
+      "name": "audio-lines",
+      "path": "ui/_sources/lucide-animated/src/audio-lines.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/audio-lines.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/audio-lines.json"
+    },
+    {
+      "name": "axe",
+      "path": "ui/_sources/lucide-animated/src/axe.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/axe.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/axe.json"
+    },
+    {
+      "name": "badge-alert",
+      "path": "ui/_sources/lucide-animated/src/badge-alert.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/badge-alert.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/badge-alert.json"
+    },
+    {
+      "name": "badge-percent",
+      "path": "ui/_sources/lucide-animated/src/badge-percent.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/badge-percent.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/badge-percent.json"
+    },
+    {
+      "name": "ban",
+      "path": "ui/_sources/lucide-animated/src/ban.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ban.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ban.json"
+    },
+    {
+      "name": "banana",
+      "path": "ui/_sources/lucide-animated/src/banana.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/banana.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/banana.json"
+    },
+    {
+      "name": "battery-charging",
+      "path": "ui/_sources/lucide-animated/src/battery-charging.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-charging.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-charging.json"
+    },
+    {
+      "name": "battery-full",
+      "path": "ui/_sources/lucide-animated/src/battery-full.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-full.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-full.json"
+    },
+    {
+      "name": "battery-low",
+      "path": "ui/_sources/lucide-animated/src/battery-low.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-low.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-low.json"
+    },
+    {
+      "name": "battery-medium",
+      "path": "ui/_sources/lucide-animated/src/battery-medium.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-medium.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-medium.json"
+    },
+    {
+      "name": "battery-plus",
+      "path": "ui/_sources/lucide-animated/src/battery-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-plus.json"
+    },
+    {
+      "name": "battery-warning",
+      "path": "ui/_sources/lucide-animated/src/battery-warning.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery-warning.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery-warning.json"
+    },
+    {
+      "name": "battery",
+      "path": "ui/_sources/lucide-animated/src/battery.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/battery.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/battery.json"
+    },
+    {
+      "name": "bell-electric",
+      "path": "ui/_sources/lucide-animated/src/bell-electric.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bell-electric.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bell-electric.json"
+    },
+    {
+      "name": "bell",
+      "path": "ui/_sources/lucide-animated/src/bell.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bell.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bell.json"
+    },
+    {
+      "name": "biceps-flexed",
+      "path": "ui/_sources/lucide-animated/src/biceps-flexed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/biceps-flexed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/biceps-flexed.json"
+    },
+    {
+      "name": "binary",
+      "path": "ui/_sources/lucide-animated/src/binary.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/binary.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/binary.json"
+    },
+    {
+      "name": "blocks",
+      "path": "ui/_sources/lucide-animated/src/blocks.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/blocks.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/blocks.json"
+    },
+    {
+      "name": "bluetooth-connected",
+      "path": "ui/_sources/lucide-animated/src/bluetooth-connected.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bluetooth-connected.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bluetooth-connected.json"
+    },
+    {
+      "name": "bluetooth-off",
+      "path": "ui/_sources/lucide-animated/src/bluetooth-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bluetooth-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bluetooth-off.json"
+    },
+    {
+      "name": "bluetooth-searching",
+      "path": "ui/_sources/lucide-animated/src/bluetooth-searching.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bluetooth-searching.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bluetooth-searching.json"
+    },
+    {
+      "name": "bluetooth",
+      "path": "ui/_sources/lucide-animated/src/bluetooth.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bluetooth.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bluetooth.json"
+    },
+    {
+      "name": "bold",
+      "path": "ui/_sources/lucide-animated/src/bold.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bold.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bold.json"
+    },
+    {
+      "name": "bone",
+      "path": "ui/_sources/lucide-animated/src/bone.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bone.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bone.json"
+    },
+    {
+      "name": "book-text",
+      "path": "ui/_sources/lucide-animated/src/book-text.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/book-text.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/book-text.json"
+    },
+    {
+      "name": "bookmark-check",
+      "path": "ui/_sources/lucide-animated/src/bookmark-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bookmark-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bookmark-check.json"
+    },
+    {
+      "name": "bookmark-minus",
+      "path": "ui/_sources/lucide-animated/src/bookmark-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bookmark-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bookmark-minus.json"
+    },
+    {
+      "name": "bookmark-plus",
+      "path": "ui/_sources/lucide-animated/src/bookmark-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bookmark-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bookmark-plus.json"
+    },
+    {
+      "name": "bookmark-x",
+      "path": "ui/_sources/lucide-animated/src/bookmark-x.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bookmark-x.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bookmark-x.json"
+    },
+    {
+      "name": "bookmark",
+      "path": "ui/_sources/lucide-animated/src/bookmark.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bookmark.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bookmark.json"
+    },
+    {
+      "name": "bot-message-square",
+      "path": "ui/_sources/lucide-animated/src/bot-message-square.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bot-message-square.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bot-message-square.json"
+    },
+    {
+      "name": "bot",
+      "path": "ui/_sources/lucide-animated/src/bot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/bot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/bot.json"
+    },
+    {
+      "name": "box",
+      "path": "ui/_sources/lucide-animated/src/box.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/box.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/box.json"
+    },
+    {
+      "name": "boxes",
+      "path": "ui/_sources/lucide-animated/src/boxes.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/boxes.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/boxes.json"
+    },
+    {
+      "name": "brain",
+      "path": "ui/_sources/lucide-animated/src/brain.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/brain.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/brain.json"
+    },
+    {
+      "name": "briefcase-business",
+      "path": "ui/_sources/lucide-animated/src/briefcase-business.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/briefcase-business.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/briefcase-business.json"
+    },
+    {
+      "name": "calendar-check-2",
+      "path": "ui/_sources/lucide-animated/src/calendar-check-2.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/calendar-check-2.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/calendar-check-2.json"
+    },
+    {
+      "name": "calendar-check",
+      "path": "ui/_sources/lucide-animated/src/calendar-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/calendar-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/calendar-check.json"
+    },
+    {
+      "name": "calendar-cog",
+      "path": "ui/_sources/lucide-animated/src/calendar-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/calendar-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/calendar-cog.json"
+    },
+    {
+      "name": "calendar-days",
+      "path": "ui/_sources/lucide-animated/src/calendar-days.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/calendar-days.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/calendar-days.json"
+    },
+    {
+      "name": "cart",
+      "path": "ui/_sources/lucide-animated/src/cart.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cart.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cart.json"
+    },
+    {
+      "name": "cast",
+      "path": "ui/_sources/lucide-animated/src/cast.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cast.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cast.json"
+    },
+    {
+      "name": "cctv",
+      "path": "ui/_sources/lucide-animated/src/cctv.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cctv.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cctv.json"
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "path": "ui/_sources/lucide-animated/src/chart-bar-decreasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-bar-decreasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-bar-decreasing.json"
+    },
+    {
+      "name": "chart-bar-increasing",
+      "path": "ui/_sources/lucide-animated/src/chart-bar-increasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-bar-increasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-bar-increasing.json"
+    },
+    {
+      "name": "chart-column-decreasing",
+      "path": "ui/_sources/lucide-animated/src/chart-column-decreasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-column-decreasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-column-decreasing.json"
+    },
+    {
+      "name": "chart-column-increasing",
+      "path": "ui/_sources/lucide-animated/src/chart-column-increasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-column-increasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-column-increasing.json"
+    },
+    {
+      "name": "chart-line",
+      "path": "ui/_sources/lucide-animated/src/chart-line.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-line.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-line.json"
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "path": "ui/_sources/lucide-animated/src/chart-no-axes-column-decreasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-no-axes-column-decreasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-no-axes-column-decreasing.json"
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "path": "ui/_sources/lucide-animated/src/chart-no-axes-column-increasing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-no-axes-column-increasing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-no-axes-column-increasing.json"
+    },
+    {
+      "name": "chart-pie",
+      "path": "ui/_sources/lucide-animated/src/chart-pie.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-pie.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-pie.json"
+    },
+    {
+      "name": "chart-scatter",
+      "path": "ui/_sources/lucide-animated/src/chart-scatter.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-scatter.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-scatter.json"
+    },
+    {
+      "name": "chart-spline",
+      "path": "ui/_sources/lucide-animated/src/chart-spline.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chart-spline.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-spline.json"
+    },
+    {
+      "name": "check-check",
+      "path": "ui/_sources/lucide-animated/src/check-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/check-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/check-check.json"
+    },
+    {
+      "name": "check",
+      "path": "ui/_sources/lucide-animated/src/check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/check.json"
+    },
+    {
+      "name": "chess-bishop",
+      "path": "ui/_sources/lucide-animated/src/chess-bishop.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chess-bishop.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-bishop.json"
+    },
+    {
+      "name": "chess-king",
+      "path": "ui/_sources/lucide-animated/src/chess-king.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chess-king.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-king.json"
+    },
+    {
+      "name": "chess-knight",
+      "path": "ui/_sources/lucide-animated/src/chess-knight.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chess-knight.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-knight.json"
+    },
+    {
+      "name": "chess-pawn",
+      "path": "ui/_sources/lucide-animated/src/chess-pawn.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chess-pawn.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-pawn.json"
+    },
+    {
+      "name": "chevron-down",
+      "path": "ui/_sources/lucide-animated/src/chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevron-down.json"
+    },
+    {
+      "name": "chevron-first",
+      "path": "ui/_sources/lucide-animated/src/chevron-first.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevron-first.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevron-first.json"
+    },
+    {
+      "name": "chevron-left",
+      "path": "ui/_sources/lucide-animated/src/chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevron-left.json"
+    },
+    {
+      "name": "chevron-right",
+      "path": "ui/_sources/lucide-animated/src/chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevron-right.json"
+    },
+    {
+      "name": "chevron-up",
+      "path": "ui/_sources/lucide-animated/src/chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevron-up.json"
+    },
+    {
+      "name": "chevrons-down-up",
+      "path": "ui/_sources/lucide-animated/src/chevrons-down-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevrons-down-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevrons-down-up.json"
+    },
+    {
+      "name": "chevrons-left-right",
+      "path": "ui/_sources/lucide-animated/src/chevrons-left-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevrons-left-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevrons-left-right.json"
+    },
+    {
+      "name": "chevrons-right-left",
+      "path": "ui/_sources/lucide-animated/src/chevrons-right-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevrons-right-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevrons-right-left.json"
+    },
+    {
+      "name": "chevrons-up-down",
+      "path": "ui/_sources/lucide-animated/src/chevrons-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chevrons-up-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevrons-up-down.json"
+    },
+    {
+      "name": "chrome",
+      "path": "ui/_sources/lucide-animated/src/chrome.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/chrome.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/chrome.json"
+    },
+    {
+      "name": "cigarette-off",
+      "path": "ui/_sources/lucide-animated/src/cigarette-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cigarette-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cigarette-off.json"
+    },
+    {
+      "name": "cigarette",
+      "path": "ui/_sources/lucide-animated/src/cigarette.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cigarette.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cigarette.json"
+    },
+    {
+      "name": "circle-check",
+      "path": "ui/_sources/lucide-animated/src/circle-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-check.json"
+    },
+    {
+      "name": "circle-chevron-down",
+      "path": "ui/_sources/lucide-animated/src/circle-chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-chevron-down.json"
+    },
+    {
+      "name": "circle-chevron-left",
+      "path": "ui/_sources/lucide-animated/src/circle-chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-chevron-left.json"
+    },
+    {
+      "name": "circle-chevron-right",
+      "path": "ui/_sources/lucide-animated/src/circle-chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-chevron-right.json"
+    },
+    {
+      "name": "circle-chevron-up",
+      "path": "ui/_sources/lucide-animated/src/circle-chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-chevron-up.json"
+    },
+    {
+      "name": "circle-dashed",
+      "path": "ui/_sources/lucide-animated/src/circle-dashed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-dashed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-dashed.json"
+    },
+    {
+      "name": "circle-dollar-sign",
+      "path": "ui/_sources/lucide-animated/src/circle-dollar-sign.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-dollar-sign.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-dollar-sign.json"
+    },
+    {
+      "name": "circle-gauge",
+      "path": "ui/_sources/lucide-animated/src/circle-gauge.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-gauge.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-gauge.json"
+    },
+    {
+      "name": "circle-help",
+      "path": "ui/_sources/lucide-animated/src/circle-help.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/circle-help.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/circle-help.json"
+    },
+    {
+      "name": "clap",
+      "path": "ui/_sources/lucide-animated/src/clap.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/clap.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/clap.json"
+    },
+    {
+      "name": "clipboard-check",
+      "path": "ui/_sources/lucide-animated/src/clipboard-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/clipboard-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/clipboard-check.json"
+    },
+    {
+      "name": "clock",
+      "path": "ui/_sources/lucide-animated/src/clock.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/clock.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/clock.json"
+    },
+    {
+      "name": "cloud-backup",
+      "path": "ui/_sources/lucide-animated/src/cloud-backup.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-backup.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-backup.json"
+    },
+    {
+      "name": "cloud-cog",
+      "path": "ui/_sources/lucide-animated/src/cloud-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-cog.json"
+    },
+    {
+      "name": "cloud-download",
+      "path": "ui/_sources/lucide-animated/src/cloud-download.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-download.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-download.json"
+    },
+    {
+      "name": "cloud-lightning",
+      "path": "ui/_sources/lucide-animated/src/cloud-lightning.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-lightning.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-lightning.json"
+    },
+    {
+      "name": "cloud-rain-wind",
+      "path": "ui/_sources/lucide-animated/src/cloud-rain-wind.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-rain-wind.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-rain-wind.json"
+    },
+    {
+      "name": "cloud-rain",
+      "path": "ui/_sources/lucide-animated/src/cloud-rain.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-rain.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-rain.json"
+    },
+    {
+      "name": "cloud-snow",
+      "path": "ui/_sources/lucide-animated/src/cloud-snow.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-snow.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-snow.json"
+    },
+    {
+      "name": "cloud-sun",
+      "path": "ui/_sources/lucide-animated/src/cloud-sun.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-sun.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-sun.json"
+    },
+    {
+      "name": "cloud-sync",
+      "path": "ui/_sources/lucide-animated/src/cloud-sync.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-sync.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-sync.json"
+    },
+    {
+      "name": "cloud-upload",
+      "path": "ui/_sources/lucide-animated/src/cloud-upload.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cloud-upload.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cloud-upload.json"
+    },
+    {
+      "name": "coffee",
+      "path": "ui/_sources/lucide-animated/src/coffee.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/coffee.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/coffee.json"
+    },
+    {
+      "name": "cog",
+      "path": "ui/_sources/lucide-animated/src/cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cog.json"
+    },
+    {
+      "name": "compass",
+      "path": "ui/_sources/lucide-animated/src/compass.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/compass.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/compass.json"
+    },
+    {
+      "name": "concierge-bell",
+      "path": "ui/_sources/lucide-animated/src/concierge-bell.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/concierge-bell.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/concierge-bell.json"
+    },
+    {
+      "name": "connect",
+      "path": "ui/_sources/lucide-animated/src/connect.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/connect.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/connect.json"
+    },
+    {
+      "name": "construction",
+      "path": "ui/_sources/lucide-animated/src/construction.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/construction.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/construction.json"
+    },
+    {
+      "name": "contrast",
+      "path": "ui/_sources/lucide-animated/src/contrast.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/contrast.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/contrast.json"
+    },
+    {
+      "name": "cooking-pot",
+      "path": "ui/_sources/lucide-animated/src/cooking-pot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cooking-pot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cooking-pot.json"
+    },
+    {
+      "name": "copy",
+      "path": "ui/_sources/lucide-animated/src/copy.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/copy.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/copy.json"
+    },
+    {
+      "name": "corner-down-left",
+      "path": "ui/_sources/lucide-animated/src/corner-down-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-down-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-down-left.json"
+    },
+    {
+      "name": "corner-down-right",
+      "path": "ui/_sources/lucide-animated/src/corner-down-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-down-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-down-right.json"
+    },
+    {
+      "name": "corner-left-down",
+      "path": "ui/_sources/lucide-animated/src/corner-left-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-left-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-left-down.json"
+    },
+    {
+      "name": "corner-left-up",
+      "path": "ui/_sources/lucide-animated/src/corner-left-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-left-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-left-up.json"
+    },
+    {
+      "name": "corner-right-down",
+      "path": "ui/_sources/lucide-animated/src/corner-right-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-right-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-right-down.json"
+    },
+    {
+      "name": "corner-right-up",
+      "path": "ui/_sources/lucide-animated/src/corner-right-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-right-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-right-up.json"
+    },
+    {
+      "name": "corner-up-left",
+      "path": "ui/_sources/lucide-animated/src/corner-up-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-up-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-up-left.json"
+    },
+    {
+      "name": "corner-up-right",
+      "path": "ui/_sources/lucide-animated/src/corner-up-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/corner-up-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/corner-up-right.json"
+    },
+    {
+      "name": "cpu",
+      "path": "ui/_sources/lucide-animated/src/cpu.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cpu.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cpu.json"
+    },
+    {
+      "name": "credit-card",
+      "path": "ui/_sources/lucide-animated/src/credit-card.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/credit-card.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/credit-card.json"
+    },
+    {
+      "name": "cup-soda",
+      "path": "ui/_sources/lucide-animated/src/cup-soda.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cup-soda.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cup-soda.json"
+    },
+    {
+      "name": "cursor-click",
+      "path": "ui/_sources/lucide-animated/src/cursor-click.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/cursor-click.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/cursor-click.json"
+    },
+    {
+      "name": "database-backup",
+      "path": "ui/_sources/lucide-animated/src/database-backup.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/database-backup.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/database-backup.json"
+    },
+    {
+      "name": "delete",
+      "path": "ui/_sources/lucide-animated/src/delete.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/delete.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/delete.json"
+    },
+    {
+      "name": "disc-3",
+      "path": "ui/_sources/lucide-animated/src/disc-3.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/disc-3.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/disc-3.json"
+    },
+    {
+      "name": "discord",
+      "path": "ui/_sources/lucide-animated/src/discord.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/discord.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/discord.json"
+    },
+    {
+      "name": "dollar-sign",
+      "path": "ui/_sources/lucide-animated/src/dollar-sign.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/dollar-sign.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/dollar-sign.json"
+    },
+    {
+      "name": "download",
+      "path": "ui/_sources/lucide-animated/src/download.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/download.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/download.json"
+    },
+    {
+      "name": "downvote",
+      "path": "ui/_sources/lucide-animated/src/downvote.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/downvote.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/downvote.json"
+    },
+    {
+      "name": "dribbble",
+      "path": "ui/_sources/lucide-animated/src/dribbble.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/dribbble.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/dribbble.json"
+    },
+    {
+      "name": "droplet",
+      "path": "ui/_sources/lucide-animated/src/droplet.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/droplet.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/droplet.json"
+    },
+    {
+      "name": "drum",
+      "path": "ui/_sources/lucide-animated/src/drum.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/drum.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/drum.json"
+    },
+    {
+      "name": "earth",
+      "path": "ui/_sources/lucide-animated/src/earth.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/earth.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/earth.json"
+    },
+    {
+      "name": "euro",
+      "path": "ui/_sources/lucide-animated/src/euro.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/euro.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/euro.json"
+    },
+    {
+      "name": "ev-charger",
+      "path": "ui/_sources/lucide-animated/src/ev-charger.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ev-charger.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ev-charger.json"
+    },
+    {
+      "name": "expand",
+      "path": "ui/_sources/lucide-animated/src/expand.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/expand.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/expand.json"
+    },
+    {
+      "name": "external-link",
+      "path": "ui/_sources/lucide-animated/src/external-link.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/external-link.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/external-link.json"
+    },
+    {
+      "name": "eye-off",
+      "path": "ui/_sources/lucide-animated/src/eye-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/eye-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/eye-off.json"
+    },
+    {
+      "name": "eye",
+      "path": "ui/_sources/lucide-animated/src/eye.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/eye.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/eye.json"
+    },
+    {
+      "name": "facebook",
+      "path": "ui/_sources/lucide-animated/src/facebook.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/facebook.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/facebook.json"
+    },
+    {
+      "name": "fan",
+      "path": "ui/_sources/lucide-animated/src/fan.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/fan.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/fan.json"
+    },
+    {
+      "name": "feather",
+      "path": "ui/_sources/lucide-animated/src/feather.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/feather.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/feather.json"
+    },
+    {
+      "name": "figma",
+      "path": "ui/_sources/lucide-animated/src/figma.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/figma.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/figma.json"
+    },
+    {
+      "name": "file-chart-line",
+      "path": "ui/_sources/lucide-animated/src/file-chart-line.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-chart-line.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-chart-line.json"
+    },
+    {
+      "name": "file-check-2",
+      "path": "ui/_sources/lucide-animated/src/file-check-2.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-check-2.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-check-2.json"
+    },
+    {
+      "name": "file-check",
+      "path": "ui/_sources/lucide-animated/src/file-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-check.json"
+    },
+    {
+      "name": "file-cog",
+      "path": "ui/_sources/lucide-animated/src/file-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-cog.json"
+    },
+    {
+      "name": "file-pen-line",
+      "path": "ui/_sources/lucide-animated/src/file-pen-line.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-pen-line.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-pen-line.json"
+    },
+    {
+      "name": "file-stack",
+      "path": "ui/_sources/lucide-animated/src/file-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-stack.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-stack.json"
+    },
+    {
+      "name": "file-text",
+      "path": "ui/_sources/lucide-animated/src/file-text.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/file-text.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-text.json"
+    },
+    {
+      "name": "fingerprint",
+      "path": "ui/_sources/lucide-animated/src/fingerprint.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/fingerprint.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/fingerprint.json"
+    },
+    {
+      "name": "fish-symbol",
+      "path": "ui/_sources/lucide-animated/src/fish-symbol.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/fish-symbol.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/fish-symbol.json"
+    },
+    {
+      "name": "flame",
+      "path": "ui/_sources/lucide-animated/src/flame.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/flame.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/flame.json"
+    },
+    {
+      "name": "flask",
+      "path": "ui/_sources/lucide-animated/src/flask.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/flask.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/flask.json"
+    },
+    {
+      "name": "folder-archive",
+      "path": "ui/_sources/lucide-animated/src/folder-archive.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-archive.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-archive.json"
+    },
+    {
+      "name": "folder-check",
+      "path": "ui/_sources/lucide-animated/src/folder-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-check.json"
+    },
+    {
+      "name": "folder-clock",
+      "path": "ui/_sources/lucide-animated/src/folder-clock.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-clock.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-clock.json"
+    },
+    {
+      "name": "folder-code",
+      "path": "ui/_sources/lucide-animated/src/folder-code.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-code.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-code.json"
+    },
+    {
+      "name": "folder-cog",
+      "path": "ui/_sources/lucide-animated/src/folder-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-cog.json"
+    },
+    {
+      "name": "folder-dot",
+      "path": "ui/_sources/lucide-animated/src/folder-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-dot.json"
+    },
+    {
+      "name": "folder-down",
+      "path": "ui/_sources/lucide-animated/src/folder-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-down.json"
+    },
+    {
+      "name": "folder-git-2",
+      "path": "ui/_sources/lucide-animated/src/folder-git-2.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-git-2.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-git-2.json"
+    },
+    {
+      "name": "folder-git",
+      "path": "ui/_sources/lucide-animated/src/folder-git.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-git.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-git.json"
+    },
+    {
+      "name": "folder-heart",
+      "path": "ui/_sources/lucide-animated/src/folder-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-heart.json"
+    },
+    {
+      "name": "folder-input",
+      "path": "ui/_sources/lucide-animated/src/folder-input.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-input.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-input.json"
+    },
+    {
+      "name": "folder-kanban",
+      "path": "ui/_sources/lucide-animated/src/folder-kanban.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-kanban.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-kanban.json"
+    },
+    {
+      "name": "folder-key",
+      "path": "ui/_sources/lucide-animated/src/folder-key.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-key.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-key.json"
+    },
+    {
+      "name": "folder-lock",
+      "path": "ui/_sources/lucide-animated/src/folder-lock.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-lock.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-lock.json"
+    },
+    {
+      "name": "folder-minus",
+      "path": "ui/_sources/lucide-animated/src/folder-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-minus.json"
+    },
+    {
+      "name": "folder-open",
+      "path": "ui/_sources/lucide-animated/src/folder-open.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-open.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-open.json"
+    },
+    {
+      "name": "folder-output",
+      "path": "ui/_sources/lucide-animated/src/folder-output.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-output.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-output.json"
+    },
+    {
+      "name": "folder-plus",
+      "path": "ui/_sources/lucide-animated/src/folder-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-plus.json"
+    },
+    {
+      "name": "folder-root",
+      "path": "ui/_sources/lucide-animated/src/folder-root.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-root.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-root.json"
+    },
+    {
+      "name": "folder-sync",
+      "path": "ui/_sources/lucide-animated/src/folder-sync.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-sync.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-sync.json"
+    },
+    {
+      "name": "folder-tree",
+      "path": "ui/_sources/lucide-animated/src/folder-tree.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-tree.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-tree.json"
+    },
+    {
+      "name": "folder-up",
+      "path": "ui/_sources/lucide-animated/src/folder-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-up.json"
+    },
+    {
+      "name": "folder-x",
+      "path": "ui/_sources/lucide-animated/src/folder-x.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folder-x.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-x.json"
+    },
+    {
+      "name": "folders",
+      "path": "ui/_sources/lucide-animated/src/folders.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/folders.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/folders.json"
+    },
+    {
+      "name": "frame",
+      "path": "ui/_sources/lucide-animated/src/frame.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/frame.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/frame.json"
+    },
+    {
+      "name": "frown",
+      "path": "ui/_sources/lucide-animated/src/frown.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/frown.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/frown.json"
+    },
+    {
+      "name": "gallery-horizontal-end",
+      "path": "ui/_sources/lucide-animated/src/gallery-horizontal-end.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gallery-horizontal-end.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gallery-horizontal-end.json"
+    },
+    {
+      "name": "gallery-thumbnails",
+      "path": "ui/_sources/lucide-animated/src/gallery-thumbnails.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gallery-thumbnails.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gallery-thumbnails.json"
+    },
+    {
+      "name": "gallery-vertical-end",
+      "path": "ui/_sources/lucide-animated/src/gallery-vertical-end.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gallery-vertical-end.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gallery-vertical-end.json"
+    },
+    {
+      "name": "gauge",
+      "path": "ui/_sources/lucide-animated/src/gauge.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gauge.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gauge.json"
+    },
+    {
+      "name": "gavel",
+      "path": "ui/_sources/lucide-animated/src/gavel.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gavel.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gavel.json"
+    },
+    {
+      "name": "georgian-lari",
+      "path": "ui/_sources/lucide-animated/src/georgian-lari.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/georgian-lari.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/georgian-lari.json"
+    },
+    {
+      "name": "git-branch",
+      "path": "ui/_sources/lucide-animated/src/git-branch.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-branch.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-branch.json"
+    },
+    {
+      "name": "git-commit-horizontal",
+      "path": "ui/_sources/lucide-animated/src/git-commit-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-commit-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-commit-horizontal.json"
+    },
+    {
+      "name": "git-commit-vertical",
+      "path": "ui/_sources/lucide-animated/src/git-commit-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-commit-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-commit-vertical.json"
+    },
+    {
+      "name": "git-compare-arrows",
+      "path": "ui/_sources/lucide-animated/src/git-compare-arrows.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-compare-arrows.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-compare-arrows.json"
+    },
+    {
+      "name": "git-compare",
+      "path": "ui/_sources/lucide-animated/src/git-compare.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-compare.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-compare.json"
+    },
+    {
+      "name": "git-fork",
+      "path": "ui/_sources/lucide-animated/src/git-fork.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-fork.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-fork.json"
+    },
+    {
+      "name": "git-graph",
+      "path": "ui/_sources/lucide-animated/src/git-graph.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-graph.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-graph.json"
+    },
+    {
+      "name": "git-merge",
+      "path": "ui/_sources/lucide-animated/src/git-merge.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-merge.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-merge.json"
+    },
+    {
+      "name": "git-pull-request-closed",
+      "path": "ui/_sources/lucide-animated/src/git-pull-request-closed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-pull-request-closed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-pull-request-closed.json"
+    },
+    {
+      "name": "git-pull-request-create",
+      "path": "ui/_sources/lucide-animated/src/git-pull-request-create.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-pull-request-create.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-pull-request-create.json"
+    },
+    {
+      "name": "git-pull-request",
+      "path": "ui/_sources/lucide-animated/src/git-pull-request.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/git-pull-request.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-pull-request.json"
+    },
+    {
+      "name": "github",
+      "path": "ui/_sources/lucide-animated/src/github.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/github.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/github.json"
+    },
+    {
+      "name": "gitlab",
+      "path": "ui/_sources/lucide-animated/src/gitlab.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/gitlab.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/gitlab.json"
+    },
+    {
+      "name": "graduation-cap",
+      "path": "ui/_sources/lucide-animated/src/graduation-cap.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/graduation-cap.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/graduation-cap.json"
+    },
+    {
+      "name": "grip-horizontal",
+      "path": "ui/_sources/lucide-animated/src/grip-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/grip-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/grip-horizontal.json"
+    },
+    {
+      "name": "grip-vertical",
+      "path": "ui/_sources/lucide-animated/src/grip-vertical.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/grip-vertical.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/grip-vertical.json"
+    },
+    {
+      "name": "grip",
+      "path": "ui/_sources/lucide-animated/src/grip.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/grip.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/grip.json"
+    },
+    {
+      "name": "hammer",
+      "path": "ui/_sources/lucide-animated/src/hammer.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hammer.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hammer.json"
+    },
+    {
+      "name": "hand-coins",
+      "path": "ui/_sources/lucide-animated/src/hand-coins.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-coins.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-coins.json"
+    },
+    {
+      "name": "hand-fist",
+      "path": "ui/_sources/lucide-animated/src/hand-fist.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-fist.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-fist.json"
+    },
+    {
+      "name": "hand-grab",
+      "path": "ui/_sources/lucide-animated/src/hand-grab.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-grab.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-grab.json"
+    },
+    {
+      "name": "hand-heart",
+      "path": "ui/_sources/lucide-animated/src/hand-heart.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-heart.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-heart.json"
+    },
+    {
+      "name": "hand-helping",
+      "path": "ui/_sources/lucide-animated/src/hand-helping.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-helping.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-helping.json"
+    },
+    {
+      "name": "hand-metal",
+      "path": "ui/_sources/lucide-animated/src/hand-metal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand-metal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-metal.json"
+    },
+    {
+      "name": "hand",
+      "path": "ui/_sources/lucide-animated/src/hand.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hand.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand.json"
+    },
+    {
+      "name": "hard-drive-download",
+      "path": "ui/_sources/lucide-animated/src/hard-drive-download.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hard-drive-download.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hard-drive-download.json"
+    },
+    {
+      "name": "hard-drive-upload",
+      "path": "ui/_sources/lucide-animated/src/hard-drive-upload.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hard-drive-upload.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hard-drive-upload.json"
+    },
+    {
+      "name": "hat-glasses",
+      "path": "ui/_sources/lucide-animated/src/hat-glasses.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hat-glasses.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hat-glasses.json"
+    },
+    {
+      "name": "heart-handshake",
+      "path": "ui/_sources/lucide-animated/src/heart-handshake.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/heart-handshake.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/heart-handshake.json"
+    },
+    {
+      "name": "heart-pulse",
+      "path": "ui/_sources/lucide-animated/src/heart-pulse.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/heart-pulse.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/heart-pulse.json"
+    },
+    {
+      "name": "heart",
+      "path": "ui/_sources/lucide-animated/src/heart.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/heart.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/heart.json"
+    },
+    {
+      "name": "history",
+      "path": "ui/_sources/lucide-animated/src/history.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/history.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/history.json"
+    },
+    {
+      "name": "home",
+      "path": "ui/_sources/lucide-animated/src/home.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/home.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/home.json"
+    },
+    {
+      "name": "hourglass",
+      "path": "ui/_sources/lucide-animated/src/hourglass.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/hourglass.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/hourglass.json"
+    },
+    {
+      "name": "id-card",
+      "path": "ui/_sources/lucide-animated/src/id-card.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/id-card.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/id-card.json"
+    },
+    {
+      "name": "indian-rupee",
+      "path": "ui/_sources/lucide-animated/src/indian-rupee.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/indian-rupee.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/indian-rupee.json"
+    },
+    {
+      "name": "instagram",
+      "path": "ui/_sources/lucide-animated/src/instagram.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/instagram.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/instagram.json"
+    },
+    {
+      "name": "italic",
+      "path": "ui/_sources/lucide-animated/src/italic.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/italic.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/italic.json"
+    },
+    {
+      "name": "japanese-yen",
+      "path": "ui/_sources/lucide-animated/src/japanese-yen.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/japanese-yen.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/japanese-yen.json"
+    },
+    {
+      "name": "key-circle",
+      "path": "ui/_sources/lucide-animated/src/key-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/key-circle.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/key-circle.json"
+    },
+    {
+      "name": "key-square",
+      "path": "ui/_sources/lucide-animated/src/key-square.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/key-square.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/key-square.json"
+    },
+    {
+      "name": "key",
+      "path": "ui/_sources/lucide-animated/src/key.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/key.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/key.json"
+    },
+    {
+      "name": "keyboard",
+      "path": "ui/_sources/lucide-animated/src/keyboard.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/keyboard.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/keyboard.json"
+    },
+    {
+      "name": "languages",
+      "path": "ui/_sources/lucide-animated/src/languages.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/languages.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/languages.json"
+    },
+    {
+      "name": "laptop-minimal-check",
+      "path": "ui/_sources/lucide-animated/src/laptop-minimal-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/laptop-minimal-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/laptop-minimal-check.json"
+    },
+    {
+      "name": "laugh",
+      "path": "ui/_sources/lucide-animated/src/laugh.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/laugh.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/laugh.json"
+    },
+    {
+      "name": "layers",
+      "path": "ui/_sources/lucide-animated/src/layers.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/layers.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/layers.json"
+    },
+    {
+      "name": "layout-grid",
+      "path": "ui/_sources/lucide-animated/src/layout-grid.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/layout-grid.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/layout-grid.json"
+    },
+    {
+      "name": "layout-panel-top",
+      "path": "ui/_sources/lucide-animated/src/layout-panel-top.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/layout-panel-top.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/layout-panel-top.json"
+    },
+    {
+      "name": "leaf",
+      "path": "ui/_sources/lucide-animated/src/leaf.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/leaf.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/leaf.json"
+    },
+    {
+      "name": "leafy-green",
+      "path": "ui/_sources/lucide-animated/src/leafy-green.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/leafy-green.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/leafy-green.json"
+    },
+    {
+      "name": "link-2",
+      "path": "ui/_sources/lucide-animated/src/link-2.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/link-2.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/link-2.json"
+    },
+    {
+      "name": "link",
+      "path": "ui/_sources/lucide-animated/src/link.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/link.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/link.json"
+    },
+    {
+      "name": "linkedin",
+      "path": "ui/_sources/lucide-animated/src/linkedin.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/linkedin.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/linkedin.json"
+    },
+    {
+      "name": "loader-circle",
+      "path": "ui/_sources/lucide-animated/src/loader-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/loader-circle.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/loader-circle.json"
+    },
+    {
+      "name": "loader-pinwheel",
+      "path": "ui/_sources/lucide-animated/src/loader-pinwheel.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/loader-pinwheel.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/loader-pinwheel.json"
+    },
+    {
+      "name": "loader",
+      "path": "ui/_sources/lucide-animated/src/loader.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/loader.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/loader.json"
+    },
+    {
+      "name": "lock-keyhole-open",
+      "path": "ui/_sources/lucide-animated/src/lock-keyhole-open.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/lock-keyhole-open.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/lock-keyhole-open.json"
+    },
+    {
+      "name": "lock-keyhole",
+      "path": "ui/_sources/lucide-animated/src/lock-keyhole.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/lock-keyhole.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/lock-keyhole.json"
+    },
+    {
+      "name": "lock-open",
+      "path": "ui/_sources/lucide-animated/src/lock-open.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/lock-open.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/lock-open.json"
+    },
+    {
+      "name": "lock",
+      "path": "ui/_sources/lucide-animated/src/lock.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/lock.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/lock.json"
+    },
+    {
+      "name": "login",
+      "path": "ui/_sources/lucide-animated/src/login.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/login.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/login.json"
+    },
+    {
+      "name": "logout",
+      "path": "ui/_sources/lucide-animated/src/logout.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/logout.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/logout.json"
+    },
+    {
+      "name": "mail-check",
+      "path": "ui/_sources/lucide-animated/src/mail-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/mail-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/mail-check.json"
+    },
+    {
+      "name": "mailbox",
+      "path": "ui/_sources/lucide-animated/src/mailbox.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/mailbox.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/mailbox.json"
+    },
+    {
+      "name": "map-pin-check-inside",
+      "path": "ui/_sources/lucide-animated/src/map-pin-check-inside.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-check-inside.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-check-inside.json"
+    },
+    {
+      "name": "map-pin-check",
+      "path": "ui/_sources/lucide-animated/src/map-pin-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-check.json"
+    },
+    {
+      "name": "map-pin-house",
+      "path": "ui/_sources/lucide-animated/src/map-pin-house.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-house.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-house.json"
+    },
+    {
+      "name": "map-pin-minus-inside",
+      "path": "ui/_sources/lucide-animated/src/map-pin-minus-inside.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-minus-inside.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-minus-inside.json"
+    },
+    {
+      "name": "map-pin-minus",
+      "path": "ui/_sources/lucide-animated/src/map-pin-minus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-minus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-minus.json"
+    },
+    {
+      "name": "map-pin-off",
+      "path": "ui/_sources/lucide-animated/src/map-pin-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-off.json"
+    },
+    {
+      "name": "map-pin-plus-inside",
+      "path": "ui/_sources/lucide-animated/src/map-pin-plus-inside.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-plus-inside.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-plus-inside.json"
+    },
+    {
+      "name": "map-pin-plus",
+      "path": "ui/_sources/lucide-animated/src/map-pin-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-plus.json"
+    },
+    {
+      "name": "map-pin-x-inside",
+      "path": "ui/_sources/lucide-animated/src/map-pin-x-inside.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin-x-inside.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin-x-inside.json"
+    },
+    {
+      "name": "map-pin",
+      "path": "ui/_sources/lucide-animated/src/map-pin.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/map-pin.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/map-pin.json"
+    },
+    {
+      "name": "maximize-2",
+      "path": "ui/_sources/lucide-animated/src/maximize-2.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/maximize-2.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/maximize-2.json"
+    },
+    {
+      "name": "maximize",
+      "path": "ui/_sources/lucide-animated/src/maximize.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/maximize.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/maximize.json"
+    },
+    {
+      "name": "meh",
+      "path": "ui/_sources/lucide-animated/src/meh.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/meh.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/meh.json"
+    },
+    {
+      "name": "menu",
+      "path": "ui/_sources/lucide-animated/src/menu.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/menu.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/menu.json"
+    },
+    {
+      "name": "message-circle-check",
+      "path": "ui/_sources/lucide-animated/src/message-circle-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle-check.json"
+    },
+    {
+      "name": "message-circle-dashed",
+      "path": "ui/_sources/lucide-animated/src/message-circle-dashed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle-dashed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle-dashed.json"
+    },
+    {
+      "name": "message-circle-more",
+      "path": "ui/_sources/lucide-animated/src/message-circle-more.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle-more.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle-more.json"
+    },
+    {
+      "name": "message-circle-plus",
+      "path": "ui/_sources/lucide-animated/src/message-circle-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle-plus.json"
+    },
+    {
+      "name": "message-circle-x",
+      "path": "ui/_sources/lucide-animated/src/message-circle-x.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle-x.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle-x.json"
+    },
+    {
+      "name": "message-circle",
+      "path": "ui/_sources/lucide-animated/src/message-circle.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-circle.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-circle.json"
+    },
+    {
+      "name": "message-square-check",
+      "path": "ui/_sources/lucide-animated/src/message-square-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-check.json"
+    },
+    {
+      "name": "message-square-dashed",
+      "path": "ui/_sources/lucide-animated/src/message-square-dashed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square-dashed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-dashed.json"
+    },
+    {
+      "name": "message-square-more",
+      "path": "ui/_sources/lucide-animated/src/message-square-more.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square-more.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-more.json"
+    },
+    {
+      "name": "message-square-plus",
+      "path": "ui/_sources/lucide-animated/src/message-square-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-plus.json"
+    },
+    {
+      "name": "message-square-x",
+      "path": "ui/_sources/lucide-animated/src/message-square-x.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square-x.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-x.json"
+    },
+    {
+      "name": "message-square",
+      "path": "ui/_sources/lucide-animated/src/message-square.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/message-square.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square.json"
+    },
+    {
+      "name": "mic-off",
+      "path": "ui/_sources/lucide-animated/src/mic-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/mic-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/mic-off.json"
+    },
+    {
+      "name": "mic",
+      "path": "ui/_sources/lucide-animated/src/mic.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/mic.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/mic.json"
+    },
+    {
+      "name": "minimize",
+      "path": "ui/_sources/lucide-animated/src/minimize.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/minimize.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/minimize.json"
+    },
+    {
+      "name": "monitor-check",
+      "path": "ui/_sources/lucide-animated/src/monitor-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/monitor-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/monitor-check.json"
+    },
+    {
+      "name": "monitor-cog",
+      "path": "ui/_sources/lucide-animated/src/monitor-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/monitor-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/monitor-cog.json"
+    },
+    {
+      "name": "moon",
+      "path": "ui/_sources/lucide-animated/src/moon.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/moon.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/moon.json"
+    },
+    {
+      "name": "nfc",
+      "path": "ui/_sources/lucide-animated/src/nfc.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/nfc.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/nfc.json"
+    },
+    {
+      "name": "panel-left-close",
+      "path": "ui/_sources/lucide-animated/src/panel-left-close.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/panel-left-close.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/panel-left-close.json"
+    },
+    {
+      "name": "panel-left-open",
+      "path": "ui/_sources/lucide-animated/src/panel-left-open.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/panel-left-open.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/panel-left-open.json"
+    },
+    {
+      "name": "panel-right-open",
+      "path": "ui/_sources/lucide-animated/src/panel-right-open.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/panel-right-open.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/panel-right-open.json"
+    },
+    {
+      "name": "party-popper",
+      "path": "ui/_sources/lucide-animated/src/party-popper.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/party-popper.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/party-popper.json"
+    },
+    {
+      "name": "pause",
+      "path": "ui/_sources/lucide-animated/src/pause.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/pause.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/pause.json"
+    },
+    {
+      "name": "pen-tool",
+      "path": "ui/_sources/lucide-animated/src/pen-tool.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/pen-tool.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/pen-tool.json"
+    },
+    {
+      "name": "philippine-peso",
+      "path": "ui/_sources/lucide-animated/src/philippine-peso.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/philippine-peso.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/philippine-peso.json"
+    },
+    {
+      "name": "phone-call",
+      "path": "ui/_sources/lucide-animated/src/phone-call.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone-call.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-call.json"
+    },
+    {
+      "name": "phone-forwarded",
+      "path": "ui/_sources/lucide-animated/src/phone-forwarded.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone-forwarded.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-forwarded.json"
+    },
+    {
+      "name": "phone-incoming",
+      "path": "ui/_sources/lucide-animated/src/phone-incoming.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone-incoming.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-incoming.json"
+    },
+    {
+      "name": "phone-missed",
+      "path": "ui/_sources/lucide-animated/src/phone-missed.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone-missed.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-missed.json"
+    },
+    {
+      "name": "phone-off",
+      "path": "ui/_sources/lucide-animated/src/phone-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-off.json"
+    },
+    {
+      "name": "phone",
+      "path": "ui/_sources/lucide-animated/src/phone.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/phone.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone.json"
+    },
+    {
+      "name": "pickaxe",
+      "path": "ui/_sources/lucide-animated/src/pickaxe.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/pickaxe.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/pickaxe.json"
+    },
+    {
+      "name": "plane-landing",
+      "path": "ui/_sources/lucide-animated/src/plane-landing.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/plane-landing.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/plane-landing.json"
+    },
+    {
+      "name": "plane-takeoff",
+      "path": "ui/_sources/lucide-animated/src/plane-takeoff.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/plane-takeoff.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/plane-takeoff.json"
+    },
+    {
+      "name": "play",
+      "path": "ui/_sources/lucide-animated/src/play.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/play.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/play.json"
+    },
+    {
+      "name": "plug-zap",
+      "path": "ui/_sources/lucide-animated/src/plug-zap.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/plug-zap.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/plug-zap.json"
+    },
+    {
+      "name": "plus",
+      "path": "ui/_sources/lucide-animated/src/plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/plus.json"
+    },
+    {
+      "name": "pound-sterling",
+      "path": "ui/_sources/lucide-animated/src/pound-sterling.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/pound-sterling.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/pound-sterling.json"
+    },
+    {
+      "name": "projector",
+      "path": "ui/_sources/lucide-animated/src/projector.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/projector.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/projector.json"
+    },
+    {
+      "name": "rabbit",
+      "path": "ui/_sources/lucide-animated/src/rabbit.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/rabbit.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/rabbit.json"
+    },
+    {
+      "name": "radio-tower",
+      "path": "ui/_sources/lucide-animated/src/radio-tower.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/radio-tower.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/radio-tower.json"
+    },
+    {
+      "name": "radio",
+      "path": "ui/_sources/lucide-animated/src/radio.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/radio.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/radio.json"
+    },
+    {
+      "name": "receipt-cent",
+      "path": "ui/_sources/lucide-animated/src/receipt-cent.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-cent.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-cent.json"
+    },
+    {
+      "name": "receipt-euro",
+      "path": "ui/_sources/lucide-animated/src/receipt-euro.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-euro.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-euro.json"
+    },
+    {
+      "name": "receipt-indian-rupee",
+      "path": "ui/_sources/lucide-animated/src/receipt-indian-rupee.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-indian-rupee.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-indian-rupee.json"
+    },
+    {
+      "name": "receipt-japanese-yen",
+      "path": "ui/_sources/lucide-animated/src/receipt-japanese-yen.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-japanese-yen.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-japanese-yen.json"
+    },
+    {
+      "name": "receipt-pound-sterling",
+      "path": "ui/_sources/lucide-animated/src/receipt-pound-sterling.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-pound-sterling.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-pound-sterling.json"
+    },
+    {
+      "name": "receipt-russian-ruble",
+      "path": "ui/_sources/lucide-animated/src/receipt-russian-ruble.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-russian-ruble.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-russian-ruble.json"
+    },
+    {
+      "name": "receipt-swiss-franc",
+      "path": "ui/_sources/lucide-animated/src/receipt-swiss-franc.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-swiss-franc.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-swiss-franc.json"
+    },
+    {
+      "name": "receipt-text",
+      "path": "ui/_sources/lucide-animated/src/receipt-text.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-text.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-text.json"
+    },
+    {
+      "name": "receipt-turkish-lira",
+      "path": "ui/_sources/lucide-animated/src/receipt-turkish-lira.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt-turkish-lira.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-turkish-lira.json"
+    },
+    {
+      "name": "receipt",
+      "path": "ui/_sources/lucide-animated/src/receipt.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/receipt.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt.json"
+    },
+    {
+      "name": "redo-dot",
+      "path": "ui/_sources/lucide-animated/src/redo-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/redo-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/redo-dot.json"
+    },
+    {
+      "name": "redo",
+      "path": "ui/_sources/lucide-animated/src/redo.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/redo.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/redo.json"
+    },
+    {
+      "name": "refresh-ccw-dot",
+      "path": "ui/_sources/lucide-animated/src/refresh-ccw-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/refresh-ccw-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/refresh-ccw-dot.json"
+    },
+    {
+      "name": "refresh-ccw",
+      "path": "ui/_sources/lucide-animated/src/refresh-ccw.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/refresh-ccw.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/refresh-ccw.json"
+    },
+    {
+      "name": "refresh-cw-off",
+      "path": "ui/_sources/lucide-animated/src/refresh-cw-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/refresh-cw-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/refresh-cw-off.json"
+    },
+    {
+      "name": "refresh-cw",
+      "path": "ui/_sources/lucide-animated/src/refresh-cw.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/refresh-cw.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/refresh-cw.json"
+    },
+    {
+      "name": "rocket",
+      "path": "ui/_sources/lucide-animated/src/rocket.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/rocket.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/rocket.json"
+    },
+    {
+      "name": "rocking-chair",
+      "path": "ui/_sources/lucide-animated/src/rocking-chair.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/rocking-chair.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/rocking-chair.json"
+    },
+    {
+      "name": "roller-coaster",
+      "path": "ui/_sources/lucide-animated/src/roller-coaster.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/roller-coaster.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/roller-coaster.json"
+    },
+    {
+      "name": "rotate-ccw",
+      "path": "ui/_sources/lucide-animated/src/rotate-ccw.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/rotate-ccw.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/rotate-ccw.json"
+    },
+    {
+      "name": "rotate-cw",
+      "path": "ui/_sources/lucide-animated/src/rotate-cw.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/rotate-cw.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/rotate-cw.json"
+    },
+    {
+      "name": "route",
+      "path": "ui/_sources/lucide-animated/src/route.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/route.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/route.json"
+    },
+    {
+      "name": "router",
+      "path": "ui/_sources/lucide-animated/src/router.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/router.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/router.json"
+    },
+    {
+      "name": "russian-ruble",
+      "path": "ui/_sources/lucide-animated/src/russian-ruble.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/russian-ruble.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/russian-ruble.json"
+    },
+    {
+      "name": "satellite-dish",
+      "path": "ui/_sources/lucide-animated/src/satellite-dish.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/satellite-dish.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/satellite-dish.json"
+    },
+    {
+      "name": "saudi-riyal",
+      "path": "ui/_sources/lucide-animated/src/saudi-riyal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/saudi-riyal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/saudi-riyal.json"
+    },
+    {
+      "name": "scan-face",
+      "path": "ui/_sources/lucide-animated/src/scan-face.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/scan-face.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/scan-face.json"
+    },
+    {
+      "name": "scan-text",
+      "path": "ui/_sources/lucide-animated/src/scan-text.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/scan-text.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/scan-text.json"
+    },
+    {
+      "name": "search",
+      "path": "ui/_sources/lucide-animated/src/search.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/search.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/search.json"
+    },
+    {
+      "name": "send",
+      "path": "ui/_sources/lucide-animated/src/send.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/send.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/send.json"
+    },
+    {
+      "name": "server-cog",
+      "path": "ui/_sources/lucide-animated/src/server-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/server-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/server-cog.json"
+    },
+    {
+      "name": "server-crash",
+      "path": "ui/_sources/lucide-animated/src/server-crash.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/server-crash.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/server-crash.json"
+    },
+    {
+      "name": "server",
+      "path": "ui/_sources/lucide-animated/src/server.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/server.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/server.json"
+    },
+    {
+      "name": "settings",
+      "path": "ui/_sources/lucide-animated/src/settings.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/settings.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/settings.json"
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/lucide-animated/src/shield-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/shield-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/shield-check.json"
+    },
+    {
+      "name": "ship-wheel",
+      "path": "ui/_sources/lucide-animated/src/ship-wheel.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ship-wheel.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ship-wheel.json"
+    },
+    {
+      "name": "ship",
+      "path": "ui/_sources/lucide-animated/src/ship.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ship.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ship.json"
+    },
+    {
+      "name": "shower-head",
+      "path": "ui/_sources/lucide-animated/src/shower-head.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/shower-head.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/shower-head.json"
+    },
+    {
+      "name": "shredder",
+      "path": "ui/_sources/lucide-animated/src/shredder.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/shredder.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/shredder.json"
+    },
+    {
+      "name": "shrink",
+      "path": "ui/_sources/lucide-animated/src/shrink.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/shrink.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/shrink.json"
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "ui/_sources/lucide-animated/src/sliders-horizontal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sliders-horizontal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sliders-horizontal.json"
+    },
+    {
+      "name": "smartphone-charging",
+      "path": "ui/_sources/lucide-animated/src/smartphone-charging.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/smartphone-charging.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/smartphone-charging.json"
+    },
+    {
+      "name": "smartphone-nfc",
+      "path": "ui/_sources/lucide-animated/src/smartphone-nfc.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/smartphone-nfc.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/smartphone-nfc.json"
+    },
+    {
+      "name": "smile-plus",
+      "path": "ui/_sources/lucide-animated/src/smile-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/smile-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/smile-plus.json"
+    },
+    {
+      "name": "smile",
+      "path": "ui/_sources/lucide-animated/src/smile.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/smile.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/smile.json"
+    },
+    {
+      "name": "snowflake",
+      "path": "ui/_sources/lucide-animated/src/snowflake.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/snowflake.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/snowflake.json"
+    },
+    {
+      "name": "soup",
+      "path": "ui/_sources/lucide-animated/src/soup.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/soup.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/soup.json"
+    },
+    {
+      "name": "sparkles",
+      "path": "ui/_sources/lucide-animated/src/sparkles.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sparkles.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sparkles.json"
+    },
+    {
+      "name": "spray-can",
+      "path": "ui/_sources/lucide-animated/src/spray-can.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/spray-can.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/spray-can.json"
+    },
+    {
+      "name": "square-activity",
+      "path": "ui/_sources/lucide-animated/src/square-activity.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-activity.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-activity.json"
+    },
+    {
+      "name": "square-arrow-down",
+      "path": "ui/_sources/lucide-animated/src/square-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-arrow-down.json"
+    },
+    {
+      "name": "square-arrow-left",
+      "path": "ui/_sources/lucide-animated/src/square-arrow-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-arrow-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-arrow-left.json"
+    },
+    {
+      "name": "square-arrow-right",
+      "path": "ui/_sources/lucide-animated/src/square-arrow-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-arrow-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-arrow-right.json"
+    },
+    {
+      "name": "square-arrow-up",
+      "path": "ui/_sources/lucide-animated/src/square-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-arrow-up.json"
+    },
+    {
+      "name": "square-chevron-down",
+      "path": "ui/_sources/lucide-animated/src/square-chevron-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-chevron-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-chevron-down.json"
+    },
+    {
+      "name": "square-chevron-left",
+      "path": "ui/_sources/lucide-animated/src/square-chevron-left.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-chevron-left.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-chevron-left.json"
+    },
+    {
+      "name": "square-chevron-right",
+      "path": "ui/_sources/lucide-animated/src/square-chevron-right.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-chevron-right.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-chevron-right.json"
+    },
+    {
+      "name": "square-chevron-up",
+      "path": "ui/_sources/lucide-animated/src/square-chevron-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-chevron-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-chevron-up.json"
+    },
+    {
+      "name": "square-pen",
+      "path": "ui/_sources/lucide-animated/src/square-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-pen.json"
+    },
+    {
+      "name": "square-stack",
+      "path": "ui/_sources/lucide-animated/src/square-stack.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/square-stack.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-stack.json"
+    },
+    {
+      "name": "stamp",
+      "path": "ui/_sources/lucide-animated/src/stamp.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/stamp.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/stamp.json"
+    },
+    {
+      "name": "stethoscope",
+      "path": "ui/_sources/lucide-animated/src/stethoscope.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/stethoscope.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/stethoscope.json"
+    },
+    {
+      "name": "sun-dim",
+      "path": "ui/_sources/lucide-animated/src/sun-dim.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sun-dim.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sun-dim.json"
+    },
+    {
+      "name": "sun-medium",
+      "path": "ui/_sources/lucide-animated/src/sun-medium.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sun-medium.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sun-medium.json"
+    },
+    {
+      "name": "sun-moon",
+      "path": "ui/_sources/lucide-animated/src/sun-moon.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sun-moon.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sun-moon.json"
+    },
+    {
+      "name": "sun",
+      "path": "ui/_sources/lucide-animated/src/sun.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sun.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sun.json"
+    },
+    {
+      "name": "sunset",
+      "path": "ui/_sources/lucide-animated/src/sunset.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/sunset.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/sunset.json"
+    },
+    {
+      "name": "swiss-franc",
+      "path": "ui/_sources/lucide-animated/src/swiss-franc.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/swiss-franc.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/swiss-franc.json"
+    },
+    {
+      "name": "switch-camera",
+      "path": "ui/_sources/lucide-animated/src/switch-camera.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/switch-camera.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/switch-camera.json"
+    },
+    {
+      "name": "syringe",
+      "path": "ui/_sources/lucide-animated/src/syringe.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/syringe.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/syringe.json"
+    },
+    {
+      "name": "telescope",
+      "path": "ui/_sources/lucide-animated/src/telescope.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/telescope.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/telescope.json"
+    },
+    {
+      "name": "terminal",
+      "path": "ui/_sources/lucide-animated/src/terminal.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/terminal.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/terminal.json"
+    },
+    {
+      "name": "thermometer",
+      "path": "ui/_sources/lucide-animated/src/thermometer.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/thermometer.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/thermometer.json"
+    },
+    {
+      "name": "ticket",
+      "path": "ui/_sources/lucide-animated/src/ticket.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/ticket.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/ticket.json"
+    },
+    {
+      "name": "timer",
+      "path": "ui/_sources/lucide-animated/src/timer.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/timer.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/timer.json"
+    },
+    {
+      "name": "tornado",
+      "path": "ui/_sources/lucide-animated/src/tornado.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/tornado.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/tornado.json"
+    },
+    {
+      "name": "train-track",
+      "path": "ui/_sources/lucide-animated/src/train-track.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/train-track.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/train-track.json"
+    },
+    {
+      "name": "tree-deciduous",
+      "path": "ui/_sources/lucide-animated/src/tree-deciduous.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/tree-deciduous.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/tree-deciduous.json"
+    },
+    {
+      "name": "tree-pine",
+      "path": "ui/_sources/lucide-animated/src/tree-pine.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/tree-pine.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/tree-pine.json"
+    },
+    {
+      "name": "trending-down",
+      "path": "ui/_sources/lucide-animated/src/trending-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/trending-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/trending-down.json"
+    },
+    {
+      "name": "trending-up-down",
+      "path": "ui/_sources/lucide-animated/src/trending-up-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/trending-up-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/trending-up-down.json"
+    },
+    {
+      "name": "trending-up",
+      "path": "ui/_sources/lucide-animated/src/trending-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/trending-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/trending-up.json"
+    },
+    {
+      "name": "truck",
+      "path": "ui/_sources/lucide-animated/src/truck.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/truck.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/truck.json"
+    },
+    {
+      "name": "turkish-lira",
+      "path": "ui/_sources/lucide-animated/src/turkish-lira.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/turkish-lira.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/turkish-lira.json"
+    },
+    {
+      "name": "twitch",
+      "path": "ui/_sources/lucide-animated/src/twitch.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/twitch.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/twitch.json"
+    },
+    {
+      "name": "twitter",
+      "path": "ui/_sources/lucide-animated/src/twitter.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/twitter.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/twitter.json"
+    },
+    {
+      "name": "underline",
+      "path": "ui/_sources/lucide-animated/src/underline.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/underline.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/underline.json"
+    },
+    {
+      "name": "undo-dot",
+      "path": "ui/_sources/lucide-animated/src/undo-dot.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/undo-dot.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/undo-dot.json"
+    },
+    {
+      "name": "undo",
+      "path": "ui/_sources/lucide-animated/src/undo.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/undo.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/undo.json"
+    },
+    {
+      "name": "upload",
+      "path": "ui/_sources/lucide-animated/src/upload.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/upload.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/upload.json"
+    },
+    {
+      "name": "upvote",
+      "path": "ui/_sources/lucide-animated/src/upvote.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/upvote.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/upvote.json"
+    },
+    {
+      "name": "user-check",
+      "path": "ui/_sources/lucide-animated/src/user-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user-check.json"
+    },
+    {
+      "name": "user-plus",
+      "path": "ui/_sources/lucide-animated/src/user-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user-plus.json"
+    },
+    {
+      "name": "user-round-check",
+      "path": "ui/_sources/lucide-animated/src/user-round-check.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user-round-check.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user-round-check.json"
+    },
+    {
+      "name": "user-round-cog",
+      "path": "ui/_sources/lucide-animated/src/user-round-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user-round-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user-round-cog.json"
+    },
+    {
+      "name": "user-round-plus",
+      "path": "ui/_sources/lucide-animated/src/user-round-plus.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user-round-plus.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user-round-plus.json"
+    },
+    {
+      "name": "user",
+      "path": "ui/_sources/lucide-animated/src/user.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/user.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/user.json"
+    },
+    {
+      "name": "users-round",
+      "path": "ui/_sources/lucide-animated/src/users-round.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/users-round.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/users-round.json"
+    },
+    {
+      "name": "users",
+      "path": "ui/_sources/lucide-animated/src/users.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/users.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/users.json"
+    },
+    {
+      "name": "vibrate",
+      "path": "ui/_sources/lucide-animated/src/vibrate.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/vibrate.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/vibrate.json"
+    },
+    {
+      "name": "volume",
+      "path": "ui/_sources/lucide-animated/src/volume.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/volume.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/volume.json"
+    },
+    {
+      "name": "wallet",
+      "path": "ui/_sources/lucide-animated/src/wallet.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wallet.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wallet.json"
+    },
+    {
+      "name": "washing-machine",
+      "path": "ui/_sources/lucide-animated/src/washing-machine.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/washing-machine.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/washing-machine.json"
+    },
+    {
+      "name": "waves-arrow-down",
+      "path": "ui/_sources/lucide-animated/src/waves-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/waves-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/waves-arrow-down.json"
+    },
+    {
+      "name": "waves-arrow-up",
+      "path": "ui/_sources/lucide-animated/src/waves-arrow-up.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/waves-arrow-up.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/waves-arrow-up.json"
+    },
+    {
+      "name": "waves-ladder",
+      "path": "ui/_sources/lucide-animated/src/waves-ladder.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/waves-ladder.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/waves-ladder.json"
+    },
+    {
+      "name": "waves",
+      "path": "ui/_sources/lucide-animated/src/waves.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/waves.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/waves.json"
+    },
+    {
+      "name": "waypoints",
+      "path": "ui/_sources/lucide-animated/src/waypoints.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/waypoints.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/waypoints.json"
+    },
+    {
+      "name": "webhook",
+      "path": "ui/_sources/lucide-animated/src/webhook.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/webhook.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/webhook.json"
+    },
+    {
+      "name": "wifi-cog",
+      "path": "ui/_sources/lucide-animated/src/wifi-cog.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wifi-cog.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wifi-cog.json"
+    },
+    {
+      "name": "wifi-low",
+      "path": "ui/_sources/lucide-animated/src/wifi-low.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wifi-low.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wifi-low.json"
+    },
+    {
+      "name": "wifi-pen",
+      "path": "ui/_sources/lucide-animated/src/wifi-pen.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wifi-pen.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wifi-pen.json"
+    },
+    {
+      "name": "wifi-sync",
+      "path": "ui/_sources/lucide-animated/src/wifi-sync.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wifi-sync.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wifi-sync.json"
+    },
+    {
+      "name": "wifi",
+      "path": "ui/_sources/lucide-animated/src/wifi.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wifi.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wifi.json"
+    },
+    {
+      "name": "wind-arrow-down",
+      "path": "ui/_sources/lucide-animated/src/wind-arrow-down.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wind-arrow-down.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wind-arrow-down.json"
+    },
+    {
+      "name": "wind",
+      "path": "ui/_sources/lucide-animated/src/wind.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wind.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wind.json"
+    },
+    {
+      "name": "workflow",
+      "path": "ui/_sources/lucide-animated/src/workflow.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/workflow.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/workflow.json"
+    },
+    {
+      "name": "wrench",
+      "path": "ui/_sources/lucide-animated/src/wrench.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/wrench.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/wrench.json"
+    },
+    {
+      "name": "x",
+      "path": "ui/_sources/lucide-animated/src/x.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/x.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/x.json"
+    },
+    {
+      "name": "youtube",
+      "path": "ui/_sources/lucide-animated/src/youtube.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/youtube.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/youtube.json"
+    },
+    {
+      "name": "zap-off",
+      "path": "ui/_sources/lucide-animated/src/zap-off.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/zap-off.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/zap-off.json"
+    },
+    {
+      "name": "zap",
+      "path": "ui/_sources/lucide-animated/src/zap.tsx",
+      "variants": [],
+      "registryUrl": "https://lucide-animated.com/r/zap.json",
+      "command": "pnpm dlx shadcn@latest add https://lucide-animated.com/r/zap.json"
+    }
+  ]
+}

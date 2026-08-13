@@ -21,6 +21,7 @@ const ROLE_BY_CATEGORY = {
   ai: ["structure", "behavior"], editor: ["structure", "behavior"], inspector: ["structure"],
   insights: ["structure"], content: ["structure", "behavior"], code: ["structure", "behavior"],
   "action-feedback": ["behavior"], search: ["structure", "behavior"],
+  icons: ["behavior", "visual"],
 };
 
 function walk(dir) {
@@ -49,6 +50,7 @@ function titleize(slug) {
 }
 
 function sourceOf(id, source, hasPrompt) {
+  if (id.startsWith("icons/")) return id.split("/")[1];
   if (id.startsWith("animation/transitions/")) return "transitions.dev";
   if (hasPrompt) return "arlan-vault";
   if (source.includes("www.interior.dev")) return "interior.dev";
@@ -89,14 +91,28 @@ function discover() {
     const evidence = status === "broken" ? "blocked" : status === "shim" ? "limited" : readme && preview ? "verified" : "review";
     const use = useWhen(text(ref));
     const medium = grab(readme, "Medium") ?? "unknown";
+    const framework = grab(readme, "Framework");
+    const availability = grab(readme, "Availability") ?? "public";
+    const variants = (grab(readme, "Variants") ?? "default").split(/,\s*/);
+    const command = readme.match(/^- Preferred install: `(.*)`$/m)?.[1];
+    const registryUrl = readme.match(/^- Registry: (.*)$/m)?.[1];
+    const fallbackPath = readme.match(/^- Local source(?: fallback)?: `(.*)`$/m)?.[1];
     const roles = nature === "decorative" ? ["visual"] : ROLE_BY_CATEGORY[category] ?? ["structure"];
+    const files = walk(dir)
+      .filter((path) => /\.(ts|tsx|js|jsx|css|html|md|vue|svelte|svg|json)$/.test(path))
+      .map((path) => relative(dir, path).split(sep).join("/"))
+      .sort();
     return {
       id, title: titleize(id.split("/").at(-1)), category,
       source: sourceOf(id, sourceDoc, existsSync(promptPath)), nature, roles,
       capabilities: capabilities(id, use, nature), useWhen: use, medium,
       entryPoint: grab(readme, "Entry point") ?? relative(dir, ref),
-      status, statusReason: curation[id]?.statusReason,
-      evidence,
+      status: availability === "personal-cache" ? "broken" : status,
+      statusReason: availability === "personal-cache" ? "Source is available only in the ignored personal cache." : curation[id]?.statusReason,
+      evidence: availability === "personal-cache" ? "blocked" : evidence,
+      framework, availability, variants,
+      files,
+      installation: { method: command ? "shadcn" : "source", command, registryUrl, fallbackPath },
       paths: {
         directory: relative(ROOT, dir), reference: relative(ROOT, ref),
         readme: existsSync(readmePath) ? relative(ROOT, readmePath) : null,

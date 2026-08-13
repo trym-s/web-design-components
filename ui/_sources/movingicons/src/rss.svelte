@@ -1,0 +1,87 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 700);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div class={className} aria-label="rss" role="img" onmouseenter={handleMouseEnter}>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="rss-icon"
+		class:animate
+	>
+		<path d="M4 11a9 9 0 0 1 9 9" class="rss-level rss-line-2" />
+		<path d="M4 4a16 16 0 0 1 16 16" class="rss-level rss-line-3" />
+		<circle cx="5" cy="19" r="1" class="rss-level rss-line-1" />
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	.rss-icon {
+		overflow: visible;
+	}
+
+	.rss-level {
+		opacity: 1;
+		transition: opacity 0.2s ease;
+	}
+
+	.rss-icon.animate .rss-level {
+		animation: fadeInSequence 0.6s ease forwards;
+	}
+
+	.rss-icon.animate .rss-line-1 {
+		opacity: 0;
+		animation-delay: 0.25s;
+	}
+
+	.rss-icon.animate .rss-line-2 {
+		opacity: 0;
+		animation-delay: 0.35s;
+	}
+
+	.rss-icon.animate .rss-line-3 {
+		opacity: 0;
+		animation-delay: 0.45s;
+	}
+
+	@keyframes fadeInSequence {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+</style>

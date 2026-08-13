@@ -1,0 +1,5434 @@
+{
+  "id": "lucide-motion-vue",
+  "repo": "respeak-io/lucide-motion-vue",
+  "commit": "ae8e3c2db33ab3c4b796963e087860a960fc0d7e",
+  "site": "https://respeak-io.github.io/lucide-motion-vue",
+  "license": "mixed: MIT, MIT + Commons Clause, ISC",
+  "framework": "vue",
+  "expected": 523,
+  "count": 523,
+  "icons": [
+    {
+      "name": "a-arrow-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/a-arrow-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "a-arrow-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/a-arrow-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "accessibility",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/accessibility.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "activity",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/activity.vue",
+      "variants": [
+        "default",
+        "default-return",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "air-vent",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/air-vent.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "airplane",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/airplane.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "airplay",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/airplay.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "alarm-clock-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/alarm-clock-2.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "alarm-clock",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/alarm-clock.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "align-center",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/align-center.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "align-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/align-horizontal.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "align-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/align-left.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "align-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/align-right.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "align-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/align-vertical.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "ambulance",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/ambulance.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "angry",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/angry.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "archive",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/archive.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-down-dash.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-left-dash.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-right-dash.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-up-dash.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-big-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-big-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-0-1",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-0-1.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-1-0",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-1-0.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-a-z",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-a-z.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down-z-a",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down-z-a.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-down.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-left.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-right.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-up-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-up-down.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "out"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-up-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-up-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-up-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-up-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "arrow-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/arrow-up.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "at-sign",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/at-sign.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "atom",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/atom.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "attach-file",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/attach-file.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "audio-lines",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/audio-lines.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "axe",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/axe.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "axis-3d",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/axis-3d.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "badge-alert",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/badge-alert.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "badge-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/badge-check.vue",
+      "variants": [
+        "default",
+        "check"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "badge-percent",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/badge-percent.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "banana",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/banana.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-charging",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-charging.vue",
+      "variants": [
+        "default",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-full",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-full.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-low",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-low.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-medium",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-medium.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-plus.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery-warning",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery-warning.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "battery",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/battery.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bell-electric",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bell-electric.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bell-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bell-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bell-ring",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bell-ring.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bell",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bell.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "between-horizontal-end",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/between-horizontal-end.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "between-horizontal-start",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/between-horizontal-start.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "between-vertical-end",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/between-vertical-end.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "between-vertical-start",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/between-vertical-start.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "binary",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/binary.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "blend",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/blend.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "blocks",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/blocks.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bluetooth-connected",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bluetooth-connected.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bluetooth-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bluetooth-off.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bluetooth-searching",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bluetooth-searching.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bluetooth",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bluetooth.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bold",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bold.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bone",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bone.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "book-text",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/book-text.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bookmark-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bookmark-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bookmark-minus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bookmark-minus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bookmark-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bookmark-plus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bookmark-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bookmark-x.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bookmark",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bookmark.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bot-message-square",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bot-message-square.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bot-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bot-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "bot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/bot.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "box",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/box.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "boxes",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/boxes.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "brain",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/brain.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "brush-cleaning",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/brush-cleaning.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "brush",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/brush.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "calendar-check-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/calendar-check-2.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "calendar-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/calendar-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "calendar-cog",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/calendar-cog.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "calendar-days",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/calendar-days.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cart.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cast",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cast.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cctv",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cctv.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-bar-decreasing.vue",
+      "variants": [
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-bar-increasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-bar-increasing.vue",
+      "variants": [
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-bar",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-bar.vue",
+      "variants": [
+        "increasing",
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-column-decreasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-column-decreasing.vue",
+      "variants": [
+        "increasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-column-increasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-column-increasing.vue",
+      "variants": [
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-column",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-column.vue",
+      "variants": [
+        "increasing",
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-line",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-line.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-no-axes-column-decreasing.vue",
+      "variants": [
+        "increasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-no-axes-column-increasing.vue",
+      "variants": [
+        "decreasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-no-axes-column",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-no-axes-column.vue",
+      "variants": [
+        "decreasing",
+        "increasing"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-pie",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-pie.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-scatter",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-scatter.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chart-spline",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chart-spline.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "check-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/check-check.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "check-line",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/check-line.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/check.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cherry",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cherry.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chess-bishop",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chess-bishop.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chess-king",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chess-king.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chess-knight",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chess-knight.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-down.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-first",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-first.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-left-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-left-right.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-left.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-right.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-up-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-up-down.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevron-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevron-up.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevrons-down-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevrons-down-up.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevrons-left-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevrons-left-right.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevrons-right-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevrons-right-left.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chevrons-up-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chevrons-up-down.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "chrome",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/chrome.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-check-big",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-check-big.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-check.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-chevron-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-chevron-down.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-chevron-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-chevron-left.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-chevron-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-chevron-right.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-chevron-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-chevron-up.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-dashed",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-dashed.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-dollar-sign",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-dollar-sign.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-help",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-help.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-plus.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circle-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circle-x.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "circuit-board",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/circuit-board.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clap",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clap.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clapperboard",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clapperboard.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clipboard-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clipboard-check.vue",
+      "variants": [
+        "default",
+        "check",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clipboard-list",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clipboard-list.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clipboard",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clipboard.vue",
+      "variants": [
+        "default",
+        "default-return"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-1",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-1.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-10",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-10.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-11",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-11.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-12",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-12.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-13",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-13.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-2.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-3",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-3.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-4",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-4.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-5",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-5.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-6",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-6.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-7",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-7.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-8",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-8.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock-9",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock-9.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "clock",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/clock.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-cog",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-cog.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-download",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-download.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-drizzle",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-drizzle.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-hail",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-hail.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-lightning",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-lightning.vue",
+      "variants": [
+        "default",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-moon-rain",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-moon-rain.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-moon",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-moon.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-rain-wind",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-rain-wind.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-rain",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-rain.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-snow",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-snow.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-sun-rain",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-sun-rain.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-sun",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-sun.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cloud-upload",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cloud-upload.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "coffee",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/coffee.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cog",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cog.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "compass",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/compass.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "concierge-bell",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/concierge-bell.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "connect",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/connect.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "construction",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/construction.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "contrast",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/contrast.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cooking-pot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cooking-pot.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "copy",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/copy.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-down-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-down-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-down-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-down-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-left-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-left-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-left-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-left-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-right-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-right-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-right-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-right-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-up-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-up-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "corner-up-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/corner-up-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cpu",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cpu.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "crop",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/crop.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cross",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cross.vue",
+      "variants": [
+        "default",
+        "x"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "cup-soda",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/cup-soda.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "database-backup",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/database-backup.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "delete",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/delete.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "disc-3",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/disc-3.vue",
+      "variants": [
+        "default",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "discord",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/discord.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "dollar-sign",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/dollar-sign.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "download",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/download.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "downvote",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/downvote.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "droplet",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/droplet.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "drum",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/drum.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "earth",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/earth.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "ellipsis-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/ellipsis-vertical.vue",
+      "variants": [
+        "default",
+        "horizontal",
+        "pulse"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "ellipsis",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/ellipsis.vue",
+      "variants": [
+        "default",
+        "vertical",
+        "jump",
+        "pulse"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "equal-not",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/equal-not.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "to-not"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "euro",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/euro.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "ev-charger",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/ev-charger.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "expand",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/expand.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "external-link",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/external-link.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "eye-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/eye-off.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "eye",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/eye.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "facebook",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/facebook.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "fan",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/fan.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "feather",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/feather.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "figma",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/figma.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-chart-line",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-chart-line.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-check-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-check-2.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-cog",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-cog.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-pen-line",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-pen-line.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-stack",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-stack.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "file-text",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/file-text.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "fingerprint",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/fingerprint.vue",
+      "variants": [
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "fish-symbol",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/fish-symbol.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "flame",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/flame.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "flask",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/flask.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-archive",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-archive.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-clock",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-clock.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-code",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-code.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-cog",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-cog.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-dot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-dot.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-git-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-git-2.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-git",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-git.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-heart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-heart.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-input",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-input.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-kanban",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-kanban.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-key",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-key.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-lock",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-lock.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-minus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-minus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-open.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-output",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-output.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-plus.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-root",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-root.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-sync",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-sync.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-tree",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-tree.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folder-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folder-x.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "folders",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/folders.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "forklift",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/forklift.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "frame",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/frame.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gallery-horizontal-end",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gallery-horizontal-end.vue",
+      "variants": [
+        "collapse",
+        "lucide-animated",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gallery-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gallery-horizontal.vue",
+      "variants": [
+        "collapse"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gallery-thumbnails",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gallery-thumbnails.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gallery-vertical-end",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gallery-vertical-end.vue",
+      "variants": [
+        "collapse",
+        "lucide-animated",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gallery-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gallery-vertical.vue",
+      "variants": [
+        "collapse"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gauge",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gauge.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gavel",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gavel.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "georgian-lari",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/georgian-lari.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-branch",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-branch.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-commit-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-commit-horizontal.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-commit-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-commit-vertical.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-compare-arrows",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-compare-arrows.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-compare",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-compare.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-fork",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-fork.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-graph",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-graph.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-merge",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-merge.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-pull-request-closed",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-pull-request-closed.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-pull-request-create",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-pull-request-create.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "git-pull-request",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/git-pull-request.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "gitlab",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/gitlab.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "graduation-cap",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/graduation-cap.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "grip-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/grip-horizontal.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "grip-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/grip-vertical.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "grip",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/grip.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hammer",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hammer.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-coins",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-coins.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-fist",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-fist.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-grab",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-grab.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-heart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-heart.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-helping",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-helping.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand-metal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand-metal.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hand",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hand.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hard-drive-download",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hard-drive-download.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hard-drive-upload",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hard-drive-upload.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "heart-handshake",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/heart-handshake.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "heart-pulse",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/heart-pulse.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "heart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/heart.vue",
+      "variants": [
+        "default",
+        "fill",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "history",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/history.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "home",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/home.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "hourglass",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/hourglass.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "house-wifi",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/house-wifi.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "id-card",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/id-card.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "indian-rupee",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/indian-rupee.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "italic",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/italic.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "japanese-yen",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/japanese-yen.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "kanban",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/kanban.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "key-circle",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/key-circle.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "key-square",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/key-square.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "key",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/key.vue",
+      "variants": [
+        "default",
+        "wiggle",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "laptop-minimal-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/laptop-minimal-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layers-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/layers-2.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layers",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/layers.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layout-dashboard",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/layout-dashboard.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layout-grid",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/layout-grid.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layout-panel-top",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/layout-panel-top.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lightbulb-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lightbulb-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lightbulb",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lightbulb.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "link-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/link-2.vue",
+      "variants": [
+        "default",
+        "unlink",
+        "unlink-loop",
+        "link"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "link",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/link.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "list",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/list.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "loader-circle",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/loader-circle.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "loader-pinwheel",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/loader-pinwheel.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "loader",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/loader.vue",
+      "variants": [
+        "spin",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lock-keyhole-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lock-keyhole-open.vue",
+      "variants": [
+        "default",
+        "lock",
+        "unlock",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lock-keyhole",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lock-keyhole.vue",
+      "variants": [
+        "default",
+        "unlock",
+        "lock",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lock-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lock-open.vue",
+      "variants": [
+        "default",
+        "lock",
+        "unlock",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "lock",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/lock.vue",
+      "variants": [
+        "default",
+        "unlock",
+        "lock",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "log-in",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/log-in.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "log-out",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/log-out.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "login",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/login.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "logout",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/logout.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "mail-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/mail-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "mailbox",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/mailbox.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-check-inside",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-check-inside.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-house",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-house.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-minus-inside",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-minus-inside.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-minus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-minus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-off.vue",
+      "variants": [
+        "default",
+        "off",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-plus-inside",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-plus-inside.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-plus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin-x-inside",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin-x-inside.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "map-pin",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/map-pin.vue",
+      "variants": [
+        "default",
+        "wiggle",
+        "rotate",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "maximize-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/maximize-2.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "maximize",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/maximize.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "menu",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/menu.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-code",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-code.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-dashed",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-dashed.vue",
+      "variants": [
+        "default",
+        "draw",
+        "lucide-animated",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-heart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-heart.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-more",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-more.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-plus.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-question",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-question.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-warning",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-warning.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle-x.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-circle",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-circle.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-code",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-code.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-dashed",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-dashed.vue",
+      "variants": [
+        "default",
+        "draw",
+        "lucide-animated",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-diff",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-diff.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-dot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-dot.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-heart",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-heart.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-more",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-more.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-plus.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-quote",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-quote.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-share",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-share.vue",
+      "variants": [
+        "default",
+        "arrow-up",
+        "arrow-up-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-text",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-text.vue",
+      "variants": [
+        "default",
+        "write"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-warning",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-warning.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square-x.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "message-square",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/message-square.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "mic-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/mic-off.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "mic",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/mic.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "minimize",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/minimize.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "monitor-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/monitor-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "moon-star",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/moon-star.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "moon",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/moon.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "move-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/move-down.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "move-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/move-left.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "move-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/move-right.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "move-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/move-up.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "pointing",
+        "pointing-loop",
+        "out"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "nfc",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/nfc.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "orbit",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/orbit.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "paintbrush",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/paintbrush.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-bottom-close",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-bottom-close.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-bottom-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-bottom-open.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-bottom",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-bottom.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-left-close",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-left-close.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-left-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-left-open.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-left.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-right-close",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-right-close.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-right-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-right-open.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-right.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-top-close",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-top-close.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-top-open",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-top-open.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "panel-top",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/panel-top.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "paperclip",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/paperclip.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "party-popper",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/party-popper.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pause",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pause.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pen-tool",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pen-tool.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "philippine-peso",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/philippine-peso.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "phone-call",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/phone-call.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pickaxe",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pickaxe.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pin-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pin-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pin",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pin.vue",
+      "variants": [
+        "default",
+        "wiggle",
+        "rotate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "play",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/play.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "plug-zap",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/plug-zap.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/plus.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "pound-sterling",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/pound-sterling.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rabbit",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rabbit.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "radio-tower",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/radio-tower.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "radio",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/radio.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "redo-dot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/redo-dot.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "redo",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/redo.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "refresh-ccw-dot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/refresh-ccw-dot.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "refresh-ccw",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/refresh-ccw.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "refresh-cw-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/refresh-cw-off.vue",
+      "variants": [
+        "default",
+        "off",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "refresh-cw",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/refresh-cw.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rocket",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rocket.vue",
+      "variants": [
+        "default",
+        "launch",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rocking-chair",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rocking-chair.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "roller-coaster",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/roller-coaster.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rotate-ccw-key",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rotate-ccw-key.vue",
+      "variants": [
+        "default",
+        "rotate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rotate-ccw",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rotate-ccw.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "rotate-cw",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/rotate-cw.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "route",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/route.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "router",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/router.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "russian-ruble",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/russian-ruble.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "saudi-riyal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/saudi-riyal.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "scissors-line-dashed",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/scissors-line-dashed.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "scissors",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/scissors.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "search",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/search.vue",
+      "variants": [
+        "default",
+        "find",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "send-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/send-horizontal.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "send",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/send.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "settings",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/settings.vue",
+      "variants": [
+        "default",
+        "rotate",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/shield-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "ship",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/ship.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "shower-head",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/shower-head.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "shrink",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/shrink.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "signal-high",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/signal-high.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "signal-low",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/signal-low.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "signal-medium",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/signal-medium.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "signal-zero",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/signal-zero.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "signal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/signal.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "siren",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/siren.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sliders-horizontal.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sliders-vertical",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sliders-vertical.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "smartphone-charging",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/smartphone-charging.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "snowflake",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/snowflake.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sparkle",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sparkle.vue",
+      "variants": [
+        "default",
+        "fill"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sparkles",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sparkles.vue",
+      "variants": [
+        "default",
+        "fill"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-activity",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-activity.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-down.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-left.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-out-down-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-out-down-left.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-out-down-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-out-down-right.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-out-up-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-out-up-left.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-out-up-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-out-up-right.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-right.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-arrow-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-arrow-up.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-chevron-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-chevron-down.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-chevron-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-chevron-left.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-chevron-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-chevron-right.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-chevron-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-chevron-up.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-dashed-kanban",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-dashed-kanban.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-kanban",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-kanban.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-pen",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-pen.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-plus.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-stack",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-stack.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "square-x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/square-x.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "star",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/star.vue",
+      "variants": [
+        "default",
+        "fill"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "stethoscope",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/stethoscope.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sun-dim",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sun-dim.vue",
+      "variants": [
+        "lucide-animated",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sun-medium",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sun-medium.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sun-moon",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sun-moon.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "sun",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/sun.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "swiss-franc",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/swiss-franc.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "syringe",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/syringe.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "telescope",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/telescope.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "terminal",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/terminal.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "thermometer",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/thermometer.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "thumbs-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/thumbs-down.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "thumbs-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/thumbs-up.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "timer-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/timer-2.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "timer-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/timer-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "timer",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/timer.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "toggle-left",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/toggle-left.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "toggle-right",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/toggle-right.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "tornado",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/tornado.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "train-track",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/train-track.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "trash-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/trash-2.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "trash",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/trash.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "trending-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/trending-down.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "trending-up-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/trending-up-down.vue",
+      "variants": [
+        "default",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "trending-up",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/trending-up.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "animate",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "truck",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/truck.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "turkish-lira",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/turkish-lira.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "twitter",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/twitter.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "umbrella",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/umbrella.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "underline",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/underline.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "undo-dot",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/undo-dot.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "undo",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/undo.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "unplug",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/unplug.vue",
+      "variants": [
+        "default",
+        "default-loop"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "upload",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/upload.vue",
+      "variants": [
+        "default",
+        "default-loop",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "upvote",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/upvote.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "user-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/user-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "user-round-check",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/user-round-check.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "user-round-plus",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/user-round-plus.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "user-round",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/user-round.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "user",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/user.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "users-round",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/users-round.vue",
+      "variants": [
+        "default",
+        "appear"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "users",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/users.vue",
+      "variants": [
+        "default",
+        "appear",
+        "lucide-animated",
+        "initial",
+        "animate",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "vibrate",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/vibrate.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "volume-1",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/volume-1.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "volume-2",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/volume-2.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "volume-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/volume-off.vue",
+      "variants": [
+        "default",
+        "off"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wand-sparkles",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wand-sparkles.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "washing-machine",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/washing-machine.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "waves-ladder",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/waves-ladder.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "waves",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/waves.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "waypoints",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/waypoints.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "webhook",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/webhook.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wifi-high",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wifi-high.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wifi-low",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wifi-low.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wifi-zero",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wifi-zero.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wifi",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wifi.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wind-arrow-down",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wind-arrow-down.vue",
+      "variants": [
+        "default"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wind",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wind.vue",
+      "variants": [
+        "default",
+        "lucide-animated"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "workflow",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/workflow.vue",
+      "variants": [
+        "default",
+        "initial"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "wrench",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/wrench.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "x",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/x.vue",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "zap-off",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/zap-off.vue",
+      "variants": [
+        "default",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "zap",
+      "path": "ui/_sources/lucide-motion-vue/src/icons/zap.vue",
+      "variants": [
+        "default",
+        "lucide-animated",
+        "initial",
+        "animate"
+      ],
+      "registryUrl": null,
+      "command": null
+    }
+  ]
+}

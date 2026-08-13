@@ -26,6 +26,13 @@ node tools/ui-bank.mjs show <reference-id>
 
 Inspect each serious candidate's `reference`, README, source, preview, and status paths returned by `show`. Search the selected source files and accompanying styles together. For Beautiful UI, search `ui/_sources/beautiful-ui/styles.css` for the selectors in the selected reference. For Arlan entries, pass `PROMPT.md` verbatim only when porting the whole effect; otherwise read `src/` for technique.
 
+For `icons/*` candidates, read `framework`, `availability`, `variants`, and `installation` from `show`:
+
+- When the target framework matches and `installation.method` is `shadcn`, recommend and use the exact `installation.command` first.
+- When shadcn is absent, incompatible, unavailable, or rejected by the user, copy and adapt `installation.fallbackPath`; it is the pinned source-of-truth fallback.
+- Treat `personal-cache` entries as local-only. They may be previewed with `npm run dev:personal`, but their source must not be copied into a public repository or build artifact.
+- Preserve the chosen icon's animation trigger, variants, reduced-motion behavior, license notices, and upstream attribution.
+
 Apply these gates:
 
 - `blocked`: exclude from proposals.

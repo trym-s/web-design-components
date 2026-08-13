@@ -4,3 +4,4 @@
 **/dist/
 **/dist-demo/
 **/.vite/
+.cache/icon-bank/

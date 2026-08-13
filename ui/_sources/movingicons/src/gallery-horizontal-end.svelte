@@ -1,0 +1,108 @@
+<script lang="ts">
+	import type { IconProps } from './types.js';
+
+	let {
+		color = 'currentColor',
+		size = 24,
+		strokeWidth = 2,
+		animate: animateProp = false,
+		class: className = ''
+	}: IconProps = $props();
+
+	let hoverAnimate = $state(false);
+	let resetTimer: ReturnType<typeof setTimeout> | undefined;
+	const animate = $derived(animateProp || hoverAnimate);
+
+	function handleMouseEnter() {
+		if (animate) return;
+		hoverAnimate = true;
+		resetTimer = setTimeout(() => {
+			hoverAnimate = false;
+		}, 600);
+	}
+
+	$effect(() => () => clearTimeout(resetTimer));
+</script>
+
+<div
+	class={className}
+	aria-label="gallery-horizontal-end"
+	role="img"
+	onmouseenter={handleMouseEnter}
+>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={size}
+		height={size}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke={color}
+		stroke-width={strokeWidth}
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	>
+		<path d="M2 7v10" class:animate data-custom="1" />
+		<path d="M6 5v14" class:animate data-custom="2" />
+		<rect width="12" height="18" x="10" y="3" rx="2" />
+	</svg>
+</div>
+
+<style>
+	div {
+		display: inline-block;
+	}
+	path {
+		transition:
+			transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+			opacity 0.3s ease;
+		transform-origin: center;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	path[data-custom='1'].animate {
+		animation: disappearThenAppear1 0.6s forwards;
+	}
+
+	path[data-custom='2'].animate {
+		animation: disappearThenAppear2 0.6s forwards;
+	}
+
+	@keyframes disappearThenAppear1 {
+		0% {
+			opacity: 0;
+			transform: translateX(3px);
+		}
+		60% {
+			opacity: 0;
+			transform: translateX(3px);
+		}
+		80% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	@keyframes disappearThenAppear2 {
+		0% {
+			opacity: 0;
+			transform: translateX(3px);
+		}
+		40% {
+			opacity: 0;
+			transform: translateX(3px);
+		}
+		60% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+</style>

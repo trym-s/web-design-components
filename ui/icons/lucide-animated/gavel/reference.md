@@ -1,0 +1,3 @@
+# Use when
+
+Use the gavel animated icon from lucide-animated.

@@ -1,0 +1,3897 @@
+{
+  "id": "movingicons",
+  "repo": "jis3r/icons",
+  "commit": "8009cd4aed11e4fa799afb1d61a930a65eda1910",
+  "site": "https://movingicons.dev/icons",
+  "license": "MIT",
+  "framework": "svelte",
+  "expected": 555,
+  "count": 555,
+  "icons": [
+    {
+      "name": "accessibility",
+      "path": "ui/_sources/movingicons/src/accessibility.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/accessibility",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/accessibility"
+    },
+    {
+      "name": "activity",
+      "path": "ui/_sources/movingicons/src/activity.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/activity",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/activity"
+    },
+    {
+      "name": "airplay",
+      "path": "ui/_sources/movingicons/src/airplay.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/airplay",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/airplay"
+    },
+    {
+      "name": "alarm-clock-check",
+      "path": "ui/_sources/movingicons/src/alarm-clock-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/alarm-clock-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/alarm-clock-check"
+    },
+    {
+      "name": "alarm-clock-off",
+      "path": "ui/_sources/movingicons/src/alarm-clock-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/alarm-clock-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/alarm-clock-off"
+    },
+    {
+      "name": "alarm-clock",
+      "path": "ui/_sources/movingicons/src/alarm-clock.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/alarm-clock",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/alarm-clock"
+    },
+    {
+      "name": "align-horizontal-space-around",
+      "path": "ui/_sources/movingicons/src/align-horizontal-space-around.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/align-horizontal-space-around",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/align-horizontal-space-around"
+    },
+    {
+      "name": "align-vertical-space-around",
+      "path": "ui/_sources/movingicons/src/align-vertical-space-around.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/align-vertical-space-around",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/align-vertical-space-around"
+    },
+    {
+      "name": "anvil",
+      "path": "ui/_sources/movingicons/src/anvil.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/anvil",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/anvil"
+    },
+    {
+      "name": "archive",
+      "path": "ui/_sources/movingicons/src/archive.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/archive",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/archive"
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "path": "ui/_sources/movingicons/src/arrow-big-down-dash.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-down-dash",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-down-dash"
+    },
+    {
+      "name": "arrow-big-down",
+      "path": "ui/_sources/movingicons/src/arrow-big-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-down"
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "path": "ui/_sources/movingicons/src/arrow-big-left-dash.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-left-dash",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-left-dash"
+    },
+    {
+      "name": "arrow-big-left",
+      "path": "ui/_sources/movingicons/src/arrow-big-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-left"
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "path": "ui/_sources/movingicons/src/arrow-big-right-dash.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-right-dash",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-right-dash"
+    },
+    {
+      "name": "arrow-big-right",
+      "path": "ui/_sources/movingicons/src/arrow-big-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-right"
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "path": "ui/_sources/movingicons/src/arrow-big-up-dash.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-up-dash",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-up-dash"
+    },
+    {
+      "name": "arrow-big-up",
+      "path": "ui/_sources/movingicons/src/arrow-big-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-big-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-big-up"
+    },
+    {
+      "name": "arrow-down-0-1",
+      "path": "ui/_sources/movingicons/src/arrow-down-0-1.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-0-1",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-0-1"
+    },
+    {
+      "name": "arrow-down-1-0",
+      "path": "ui/_sources/movingicons/src/arrow-down-1-0.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-1-0",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-1-0"
+    },
+    {
+      "name": "arrow-down-a-z",
+      "path": "ui/_sources/movingicons/src/arrow-down-a-z.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-a-z",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-a-z"
+    },
+    {
+      "name": "arrow-down-left",
+      "path": "ui/_sources/movingicons/src/arrow-down-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-left"
+    },
+    {
+      "name": "arrow-down-right",
+      "path": "ui/_sources/movingicons/src/arrow-down-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-right"
+    },
+    {
+      "name": "arrow-down-z-a",
+      "path": "ui/_sources/movingicons/src/arrow-down-z-a.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down-z-a",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-z-a"
+    },
+    {
+      "name": "arrow-down",
+      "path": "ui/_sources/movingicons/src/arrow-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down"
+    },
+    {
+      "name": "arrow-left-right",
+      "path": "ui/_sources/movingicons/src/arrow-left-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-left-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-left-right"
+    },
+    {
+      "name": "arrow-left",
+      "path": "ui/_sources/movingicons/src/arrow-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-left"
+    },
+    {
+      "name": "arrow-right-left",
+      "path": "ui/_sources/movingicons/src/arrow-right-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-right-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-right-left"
+    },
+    {
+      "name": "arrow-right",
+      "path": "ui/_sources/movingicons/src/arrow-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-right"
+    },
+    {
+      "name": "arrow-up-0-1",
+      "path": "ui/_sources/movingicons/src/arrow-up-0-1.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-0-1",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-0-1"
+    },
+    {
+      "name": "arrow-up-1-0",
+      "path": "ui/_sources/movingicons/src/arrow-up-1-0.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-1-0",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-1-0"
+    },
+    {
+      "name": "arrow-up-a-z",
+      "path": "ui/_sources/movingicons/src/arrow-up-a-z.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-a-z",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-a-z"
+    },
+    {
+      "name": "arrow-up-left",
+      "path": "ui/_sources/movingicons/src/arrow-up-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-left"
+    },
+    {
+      "name": "arrow-up-right",
+      "path": "ui/_sources/movingicons/src/arrow-up-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-right"
+    },
+    {
+      "name": "arrow-up-z-a",
+      "path": "ui/_sources/movingicons/src/arrow-up-z-a.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up-z-a",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up-z-a"
+    },
+    {
+      "name": "arrow-up",
+      "path": "ui/_sources/movingicons/src/arrow-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/arrow-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-up"
+    },
+    {
+      "name": "audio-lines",
+      "path": "ui/_sources/movingicons/src/audio-lines.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/audio-lines",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/audio-lines"
+    },
+    {
+      "name": "award",
+      "path": "ui/_sources/movingicons/src/award.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/award",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/award"
+    },
+    {
+      "name": "axe",
+      "path": "ui/_sources/movingicons/src/axe.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/axe",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/axe"
+    },
+    {
+      "name": "axis-3d",
+      "path": "ui/_sources/movingicons/src/axis-3d.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/axis-3d",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/axis-3d"
+    },
+    {
+      "name": "badge-alert",
+      "path": "ui/_sources/movingicons/src/badge-alert.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/badge-alert",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/badge-alert"
+    },
+    {
+      "name": "badge-check",
+      "path": "ui/_sources/movingicons/src/badge-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/badge-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/badge-check"
+    },
+    {
+      "name": "badge-question-mark",
+      "path": "ui/_sources/movingicons/src/badge-question-mark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/badge-question-mark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/badge-question-mark"
+    },
+    {
+      "name": "badge-x",
+      "path": "ui/_sources/movingicons/src/badge-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/badge-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/badge-x"
+    },
+    {
+      "name": "battery-charging",
+      "path": "ui/_sources/movingicons/src/battery-charging.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery-charging",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery-charging"
+    },
+    {
+      "name": "battery-full",
+      "path": "ui/_sources/movingicons/src/battery-full.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery-full",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery-full"
+    },
+    {
+      "name": "battery-low",
+      "path": "ui/_sources/movingicons/src/battery-low.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery-low",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery-low"
+    },
+    {
+      "name": "battery-medium",
+      "path": "ui/_sources/movingicons/src/battery-medium.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery-medium",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery-medium"
+    },
+    {
+      "name": "battery-warning",
+      "path": "ui/_sources/movingicons/src/battery-warning.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery-warning",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery-warning"
+    },
+    {
+      "name": "battery",
+      "path": "ui/_sources/movingicons/src/battery.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/battery",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/battery"
+    },
+    {
+      "name": "bean-off",
+      "path": "ui/_sources/movingicons/src/bean-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bean-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bean-off"
+    },
+    {
+      "name": "beer-off",
+      "path": "ui/_sources/movingicons/src/beer-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/beer-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/beer-off"
+    },
+    {
+      "name": "bell-off",
+      "path": "ui/_sources/movingicons/src/bell-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bell-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bell-off"
+    },
+    {
+      "name": "bell-ring",
+      "path": "ui/_sources/movingicons/src/bell-ring.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bell-ring",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bell-ring"
+    },
+    {
+      "name": "bell",
+      "path": "ui/_sources/movingicons/src/bell.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bell",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bell"
+    },
+    {
+      "name": "between-horizontal-end",
+      "path": "ui/_sources/movingicons/src/between-horizontal-end.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/between-horizontal-end",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/between-horizontal-end"
+    },
+    {
+      "name": "between-horizontal-start",
+      "path": "ui/_sources/movingicons/src/between-horizontal-start.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/between-horizontal-start",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/between-horizontal-start"
+    },
+    {
+      "name": "between-vertical-end",
+      "path": "ui/_sources/movingicons/src/between-vertical-end.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/between-vertical-end",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/between-vertical-end"
+    },
+    {
+      "name": "between-vertical-start",
+      "path": "ui/_sources/movingicons/src/between-vertical-start.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/between-vertical-start",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/between-vertical-start"
+    },
+    {
+      "name": "binary",
+      "path": "ui/_sources/movingicons/src/binary.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/binary",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/binary"
+    },
+    {
+      "name": "blend",
+      "path": "ui/_sources/movingicons/src/blend.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/blend",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/blend"
+    },
+    {
+      "name": "blocks",
+      "path": "ui/_sources/movingicons/src/blocks.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/blocks",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/blocks"
+    },
+    {
+      "name": "bluetooth-off",
+      "path": "ui/_sources/movingicons/src/bluetooth-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bluetooth-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bluetooth-off"
+    },
+    {
+      "name": "bold",
+      "path": "ui/_sources/movingicons/src/bold.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bold",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bold"
+    },
+    {
+      "name": "bolt",
+      "path": "ui/_sources/movingicons/src/bolt.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bolt",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bolt"
+    },
+    {
+      "name": "bone",
+      "path": "ui/_sources/movingicons/src/bone.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bone",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bone"
+    },
+    {
+      "name": "book-a",
+      "path": "ui/_sources/movingicons/src/book-a.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-a",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-a"
+    },
+    {
+      "name": "book-audio",
+      "path": "ui/_sources/movingicons/src/book-audio.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-audio",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-audio"
+    },
+    {
+      "name": "book-check",
+      "path": "ui/_sources/movingicons/src/book-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-check"
+    },
+    {
+      "name": "book-dashed",
+      "path": "ui/_sources/movingicons/src/book-dashed.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-dashed",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-dashed"
+    },
+    {
+      "name": "book-down",
+      "path": "ui/_sources/movingicons/src/book-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-down"
+    },
+    {
+      "name": "book-headphones",
+      "path": "ui/_sources/movingicons/src/book-headphones.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-headphones",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-headphones"
+    },
+    {
+      "name": "book-heart",
+      "path": "ui/_sources/movingicons/src/book-heart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-heart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-heart"
+    },
+    {
+      "name": "book-image",
+      "path": "ui/_sources/movingicons/src/book-image.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-image",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-image"
+    },
+    {
+      "name": "book-key",
+      "path": "ui/_sources/movingicons/src/book-key.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-key",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-key"
+    },
+    {
+      "name": "book-lock",
+      "path": "ui/_sources/movingicons/src/book-lock.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-lock",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-lock"
+    },
+    {
+      "name": "book-marked",
+      "path": "ui/_sources/movingicons/src/book-marked.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-marked",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-marked"
+    },
+    {
+      "name": "book-minus",
+      "path": "ui/_sources/movingicons/src/book-minus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-minus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-minus"
+    },
+    {
+      "name": "book-open-check",
+      "path": "ui/_sources/movingicons/src/book-open-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-open-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-open-check"
+    },
+    {
+      "name": "book-open-text",
+      "path": "ui/_sources/movingicons/src/book-open-text.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-open-text",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-open-text"
+    },
+    {
+      "name": "book-plus",
+      "path": "ui/_sources/movingicons/src/book-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-plus"
+    },
+    {
+      "name": "book-text",
+      "path": "ui/_sources/movingicons/src/book-text.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-text",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-text"
+    },
+    {
+      "name": "book-type",
+      "path": "ui/_sources/movingicons/src/book-type.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-type",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-type"
+    },
+    {
+      "name": "book-up-2",
+      "path": "ui/_sources/movingicons/src/book-up-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-up-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-up-2"
+    },
+    {
+      "name": "book-up",
+      "path": "ui/_sources/movingicons/src/book-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-up"
+    },
+    {
+      "name": "book-user",
+      "path": "ui/_sources/movingicons/src/book-user.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-user",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-user"
+    },
+    {
+      "name": "book-x",
+      "path": "ui/_sources/movingicons/src/book-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book-x"
+    },
+    {
+      "name": "book",
+      "path": "ui/_sources/movingicons/src/book.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/book",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/book"
+    },
+    {
+      "name": "bookmark-check",
+      "path": "ui/_sources/movingicons/src/bookmark-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bookmark-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-check"
+    },
+    {
+      "name": "bookmark-minus",
+      "path": "ui/_sources/movingicons/src/bookmark-minus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bookmark-minus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-minus"
+    },
+    {
+      "name": "bookmark-plus",
+      "path": "ui/_sources/movingicons/src/bookmark-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bookmark-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-plus"
+    },
+    {
+      "name": "bookmark-x",
+      "path": "ui/_sources/movingicons/src/bookmark-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bookmark-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-x"
+    },
+    {
+      "name": "bookmark",
+      "path": "ui/_sources/movingicons/src/bookmark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bookmark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark"
+    },
+    {
+      "name": "bot-off",
+      "path": "ui/_sources/movingicons/src/bot-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bot-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bot-off"
+    },
+    {
+      "name": "bot",
+      "path": "ui/_sources/movingicons/src/bot.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bot",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bot"
+    },
+    {
+      "name": "boxes",
+      "path": "ui/_sources/movingicons/src/boxes.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/boxes",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/boxes"
+    },
+    {
+      "name": "brain-cog",
+      "path": "ui/_sources/movingicons/src/brain-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/brain-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/brain-cog"
+    },
+    {
+      "name": "briefcase-business",
+      "path": "ui/_sources/movingicons/src/briefcase-business.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/briefcase-business",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/briefcase-business"
+    },
+    {
+      "name": "briefcase-conveyor-belt",
+      "path": "ui/_sources/movingicons/src/briefcase-conveyor-belt.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/briefcase-conveyor-belt",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/briefcase-conveyor-belt"
+    },
+    {
+      "name": "briefcase-medical",
+      "path": "ui/_sources/movingicons/src/briefcase-medical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/briefcase-medical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/briefcase-medical"
+    },
+    {
+      "name": "briefcase",
+      "path": "ui/_sources/movingicons/src/briefcase.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/briefcase",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/briefcase"
+    },
+    {
+      "name": "brush-cleaning",
+      "path": "ui/_sources/movingicons/src/brush-cleaning.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/brush-cleaning",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/brush-cleaning"
+    },
+    {
+      "name": "brush",
+      "path": "ui/_sources/movingicons/src/brush.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/brush",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/brush"
+    },
+    {
+      "name": "bug-off",
+      "path": "ui/_sources/movingicons/src/bug-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/bug-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/bug-off"
+    },
+    {
+      "name": "calendar-check-2",
+      "path": "ui/_sources/movingicons/src/calendar-check-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-check-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-check-2"
+    },
+    {
+      "name": "calendar-check",
+      "path": "ui/_sources/movingicons/src/calendar-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-check"
+    },
+    {
+      "name": "calendar-cog",
+      "path": "ui/_sources/movingicons/src/calendar-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-cog"
+    },
+    {
+      "name": "calendar-days",
+      "path": "ui/_sources/movingicons/src/calendar-days.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-days",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-days"
+    },
+    {
+      "name": "calendar-off",
+      "path": "ui/_sources/movingicons/src/calendar-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-off"
+    },
+    {
+      "name": "calendar-sync",
+      "path": "ui/_sources/movingicons/src/calendar-sync.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-sync",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-sync"
+    },
+    {
+      "name": "calendar-x-2",
+      "path": "ui/_sources/movingicons/src/calendar-x-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-x-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-x-2"
+    },
+    {
+      "name": "calendar-x",
+      "path": "ui/_sources/movingicons/src/calendar-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/calendar-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-x"
+    },
+    {
+      "name": "camera-off",
+      "path": "ui/_sources/movingicons/src/camera-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/camera-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/camera-off"
+    },
+    {
+      "name": "candy-off",
+      "path": "ui/_sources/movingicons/src/candy-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/candy-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/candy-off"
+    },
+    {
+      "name": "captions-off",
+      "path": "ui/_sources/movingicons/src/captions-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/captions-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/captions-off"
+    },
+    {
+      "name": "cast",
+      "path": "ui/_sources/movingicons/src/cast.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cast",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cast"
+    },
+    {
+      "name": "cctv",
+      "path": "ui/_sources/movingicons/src/cctv.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cctv",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cctv"
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "path": "ui/_sources/movingicons/src/chart-bar-decreasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-bar-decreasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-bar-decreasing"
+    },
+    {
+      "name": "chart-bar-increasing",
+      "path": "ui/_sources/movingicons/src/chart-bar-increasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-bar-increasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-bar-increasing"
+    },
+    {
+      "name": "chart-bar",
+      "path": "ui/_sources/movingicons/src/chart-bar.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-bar",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-bar"
+    },
+    {
+      "name": "chart-column-decreasing",
+      "path": "ui/_sources/movingicons/src/chart-column-decreasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-column-decreasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-column-decreasing"
+    },
+    {
+      "name": "chart-column-increasing",
+      "path": "ui/_sources/movingicons/src/chart-column-increasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-column-increasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-column-increasing"
+    },
+    {
+      "name": "chart-column",
+      "path": "ui/_sources/movingicons/src/chart-column.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-column",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-column"
+    },
+    {
+      "name": "chart-gantt",
+      "path": "ui/_sources/movingicons/src/chart-gantt.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-gantt",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-gantt"
+    },
+    {
+      "name": "chart-line",
+      "path": "ui/_sources/movingicons/src/chart-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-line"
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "path": "ui/_sources/movingicons/src/chart-no-axes-column-decreasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-no-axes-column-decreasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-no-axes-column-decreasing"
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "path": "ui/_sources/movingicons/src/chart-no-axes-column-increasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-no-axes-column-increasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-no-axes-column-increasing"
+    },
+    {
+      "name": "chart-no-axes-column",
+      "path": "ui/_sources/movingicons/src/chart-no-axes-column.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-no-axes-column",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-no-axes-column"
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "path": "ui/_sources/movingicons/src/chart-no-axes-combined.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-no-axes-combined",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-no-axes-combined"
+    },
+    {
+      "name": "chart-no-axes-gantt",
+      "path": "ui/_sources/movingicons/src/chart-no-axes-gantt.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-no-axes-gantt",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-no-axes-gantt"
+    },
+    {
+      "name": "chart-pie",
+      "path": "ui/_sources/movingicons/src/chart-pie.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-pie",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-pie"
+    },
+    {
+      "name": "chart-scatter",
+      "path": "ui/_sources/movingicons/src/chart-scatter.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-scatter",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-scatter"
+    },
+    {
+      "name": "chart-spline",
+      "path": "ui/_sources/movingicons/src/chart-spline.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chart-spline",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chart-spline"
+    },
+    {
+      "name": "check-check",
+      "path": "ui/_sources/movingicons/src/check-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/check-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/check-check"
+    },
+    {
+      "name": "check",
+      "path": "ui/_sources/movingicons/src/check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/check"
+    },
+    {
+      "name": "cherry",
+      "path": "ui/_sources/movingicons/src/cherry.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cherry",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cherry"
+    },
+    {
+      "name": "chevron-down",
+      "path": "ui/_sources/movingicons/src/chevron-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevron-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevron-down"
+    },
+    {
+      "name": "chevron-left",
+      "path": "ui/_sources/movingicons/src/chevron-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevron-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevron-left"
+    },
+    {
+      "name": "chevron-right",
+      "path": "ui/_sources/movingicons/src/chevron-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevron-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevron-right"
+    },
+    {
+      "name": "chevron-up",
+      "path": "ui/_sources/movingicons/src/chevron-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevron-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevron-up"
+    },
+    {
+      "name": "chevrons-down-up",
+      "path": "ui/_sources/movingicons/src/chevrons-down-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-down-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-down-up"
+    },
+    {
+      "name": "chevrons-down",
+      "path": "ui/_sources/movingicons/src/chevrons-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-down"
+    },
+    {
+      "name": "chevrons-left-right",
+      "path": "ui/_sources/movingicons/src/chevrons-left-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-left-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-left-right"
+    },
+    {
+      "name": "chevrons-left",
+      "path": "ui/_sources/movingicons/src/chevrons-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-left"
+    },
+    {
+      "name": "chevrons-right-left",
+      "path": "ui/_sources/movingicons/src/chevrons-right-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-right-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-right-left"
+    },
+    {
+      "name": "chevrons-right",
+      "path": "ui/_sources/movingicons/src/chevrons-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-right"
+    },
+    {
+      "name": "chevrons-up-down",
+      "path": "ui/_sources/movingicons/src/chevrons-up-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-up-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-up-down"
+    },
+    {
+      "name": "chevrons-up",
+      "path": "ui/_sources/movingicons/src/chevrons-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/chevrons-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/chevrons-up"
+    },
+    {
+      "name": "cigarette-off",
+      "path": "ui/_sources/movingicons/src/cigarette-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cigarette-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cigarette-off"
+    },
+    {
+      "name": "circle-alert",
+      "path": "ui/_sources/movingicons/src/circle-alert.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-alert",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-alert"
+    },
+    {
+      "name": "circle-arrow-down",
+      "path": "ui/_sources/movingicons/src/circle-arrow-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-down"
+    },
+    {
+      "name": "circle-arrow-left",
+      "path": "ui/_sources/movingicons/src/circle-arrow-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-left"
+    },
+    {
+      "name": "circle-arrow-out-down-left",
+      "path": "ui/_sources/movingicons/src/circle-arrow-out-down-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-out-down-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-out-down-left"
+    },
+    {
+      "name": "circle-arrow-out-down-right",
+      "path": "ui/_sources/movingicons/src/circle-arrow-out-down-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-out-down-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-out-down-right"
+    },
+    {
+      "name": "circle-arrow-out-up-left",
+      "path": "ui/_sources/movingicons/src/circle-arrow-out-up-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-out-up-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-out-up-left"
+    },
+    {
+      "name": "circle-arrow-out-up-right",
+      "path": "ui/_sources/movingicons/src/circle-arrow-out-up-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-out-up-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-out-up-right"
+    },
+    {
+      "name": "circle-arrow-right",
+      "path": "ui/_sources/movingicons/src/circle-arrow-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-right"
+    },
+    {
+      "name": "circle-arrow-up",
+      "path": "ui/_sources/movingicons/src/circle-arrow-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-arrow-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-up"
+    },
+    {
+      "name": "circle-check-big",
+      "path": "ui/_sources/movingicons/src/circle-check-big.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-check-big",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-check-big"
+    },
+    {
+      "name": "circle-check",
+      "path": "ui/_sources/movingicons/src/circle-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-check"
+    },
+    {
+      "name": "circle-chevron-down",
+      "path": "ui/_sources/movingicons/src/circle-chevron-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-chevron-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-chevron-down"
+    },
+    {
+      "name": "circle-chevron-left",
+      "path": "ui/_sources/movingicons/src/circle-chevron-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-chevron-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-chevron-left"
+    },
+    {
+      "name": "circle-chevron-right",
+      "path": "ui/_sources/movingicons/src/circle-chevron-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-chevron-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-chevron-right"
+    },
+    {
+      "name": "circle-chevron-up",
+      "path": "ui/_sources/movingicons/src/circle-chevron-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-chevron-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-chevron-up"
+    },
+    {
+      "name": "circle-off",
+      "path": "ui/_sources/movingicons/src/circle-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-off"
+    },
+    {
+      "name": "circle-parking-off",
+      "path": "ui/_sources/movingicons/src/circle-parking-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-parking-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-parking-off"
+    },
+    {
+      "name": "circle-plus",
+      "path": "ui/_sources/movingicons/src/circle-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-plus"
+    },
+    {
+      "name": "circle-question-mark",
+      "path": "ui/_sources/movingicons/src/circle-question-mark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-question-mark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-question-mark"
+    },
+    {
+      "name": "circle-x",
+      "path": "ui/_sources/movingicons/src/circle-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/circle-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/circle-x"
+    },
+    {
+      "name": "clapperboard",
+      "path": "ui/_sources/movingicons/src/clapperboard.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clapperboard",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clapperboard"
+    },
+    {
+      "name": "clipboard-check",
+      "path": "ui/_sources/movingicons/src/clipboard-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard-check"
+    },
+    {
+      "name": "clipboard-list",
+      "path": "ui/_sources/movingicons/src/clipboard-list.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard-list",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard-list"
+    },
+    {
+      "name": "clipboard-pen-line",
+      "path": "ui/_sources/movingicons/src/clipboard-pen-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard-pen-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard-pen-line"
+    },
+    {
+      "name": "clipboard-pen",
+      "path": "ui/_sources/movingicons/src/clipboard-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard-pen"
+    },
+    {
+      "name": "clipboard-x",
+      "path": "ui/_sources/movingicons/src/clipboard-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard-x"
+    },
+    {
+      "name": "clipboard",
+      "path": "ui/_sources/movingicons/src/clipboard.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clipboard",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clipboard"
+    },
+    {
+      "name": "clock-1",
+      "path": "ui/_sources/movingicons/src/clock-1.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-1",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-1"
+    },
+    {
+      "name": "clock-10",
+      "path": "ui/_sources/movingicons/src/clock-10.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-10",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-10"
+    },
+    {
+      "name": "clock-11",
+      "path": "ui/_sources/movingicons/src/clock-11.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-11",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-11"
+    },
+    {
+      "name": "clock-12",
+      "path": "ui/_sources/movingicons/src/clock-12.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-12",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-12"
+    },
+    {
+      "name": "clock-2",
+      "path": "ui/_sources/movingicons/src/clock-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-2"
+    },
+    {
+      "name": "clock-3",
+      "path": "ui/_sources/movingicons/src/clock-3.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-3",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-3"
+    },
+    {
+      "name": "clock-4",
+      "path": "ui/_sources/movingicons/src/clock-4.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-4",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-4"
+    },
+    {
+      "name": "clock-5",
+      "path": "ui/_sources/movingicons/src/clock-5.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-5",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-5"
+    },
+    {
+      "name": "clock-6",
+      "path": "ui/_sources/movingicons/src/clock-6.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-6",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-6"
+    },
+    {
+      "name": "clock-7",
+      "path": "ui/_sources/movingicons/src/clock-7.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-7",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-7"
+    },
+    {
+      "name": "clock-8",
+      "path": "ui/_sources/movingicons/src/clock-8.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-8",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-8"
+    },
+    {
+      "name": "clock-9",
+      "path": "ui/_sources/movingicons/src/clock-9.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock-9",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock-9"
+    },
+    {
+      "name": "clock",
+      "path": "ui/_sources/movingicons/src/clock.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/clock",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/clock"
+    },
+    {
+      "name": "cloud-cog",
+      "path": "ui/_sources/movingicons/src/cloud-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cloud-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-cog"
+    },
+    {
+      "name": "cloud-download",
+      "path": "ui/_sources/movingicons/src/cloud-download.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cloud-download",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-download"
+    },
+    {
+      "name": "cloud-moon",
+      "path": "ui/_sources/movingicons/src/cloud-moon.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cloud-moon",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-moon"
+    },
+    {
+      "name": "cloud-off",
+      "path": "ui/_sources/movingicons/src/cloud-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cloud-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-off"
+    },
+    {
+      "name": "cloud-upload",
+      "path": "ui/_sources/movingicons/src/cloud-upload.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cloud-upload",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-upload"
+    },
+    {
+      "name": "cog",
+      "path": "ui/_sources/movingicons/src/cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cog"
+    },
+    {
+      "name": "compass",
+      "path": "ui/_sources/movingicons/src/compass.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/compass",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/compass"
+    },
+    {
+      "name": "contrast",
+      "path": "ui/_sources/movingicons/src/contrast.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/contrast",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/contrast"
+    },
+    {
+      "name": "copy-check",
+      "path": "ui/_sources/movingicons/src/copy-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/copy-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/copy-check"
+    },
+    {
+      "name": "copy",
+      "path": "ui/_sources/movingicons/src/copy.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/copy",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/copy"
+    },
+    {
+      "name": "cpu",
+      "path": "ui/_sources/movingicons/src/cpu.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/cpu",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/cpu"
+    },
+    {
+      "name": "crop",
+      "path": "ui/_sources/movingicons/src/crop.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/crop",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/crop"
+    },
+    {
+      "name": "diamond-plus",
+      "path": "ui/_sources/movingicons/src/diamond-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/diamond-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/diamond-plus"
+    },
+    {
+      "name": "dice-1",
+      "path": "ui/_sources/movingicons/src/dice-1.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-1",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-1"
+    },
+    {
+      "name": "dice-2",
+      "path": "ui/_sources/movingicons/src/dice-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-2"
+    },
+    {
+      "name": "dice-3",
+      "path": "ui/_sources/movingicons/src/dice-3.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-3",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-3"
+    },
+    {
+      "name": "dice-4",
+      "path": "ui/_sources/movingicons/src/dice-4.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-4",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-4"
+    },
+    {
+      "name": "dice-5",
+      "path": "ui/_sources/movingicons/src/dice-5.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-5",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-5"
+    },
+    {
+      "name": "dice-6",
+      "path": "ui/_sources/movingicons/src/dice-6.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dice-6",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dice-6"
+    },
+    {
+      "name": "diff",
+      "path": "ui/_sources/movingicons/src/diff.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/diff",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/diff"
+    },
+    {
+      "name": "disc-3",
+      "path": "ui/_sources/movingicons/src/disc-3.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/disc-3",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/disc-3"
+    },
+    {
+      "name": "dna-off",
+      "path": "ui/_sources/movingicons/src/dna-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/dna-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/dna-off"
+    },
+    {
+      "name": "download",
+      "path": "ui/_sources/movingicons/src/download.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/download",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/download"
+    },
+    {
+      "name": "droplet-off",
+      "path": "ui/_sources/movingicons/src/droplet-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/droplet-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/droplet-off"
+    },
+    {
+      "name": "drum",
+      "path": "ui/_sources/movingicons/src/drum.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/drum",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/drum"
+    },
+    {
+      "name": "ear-off",
+      "path": "ui/_sources/movingicons/src/ear-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/ear-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/ear-off"
+    },
+    {
+      "name": "eclipse",
+      "path": "ui/_sources/movingicons/src/eclipse.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/eclipse",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/eclipse"
+    },
+    {
+      "name": "egg-off",
+      "path": "ui/_sources/movingicons/src/egg-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/egg-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/egg-off"
+    },
+    {
+      "name": "expand",
+      "path": "ui/_sources/movingicons/src/expand.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/expand",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/expand"
+    },
+    {
+      "name": "eye-off",
+      "path": "ui/_sources/movingicons/src/eye-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/eye-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/eye-off"
+    },
+    {
+      "name": "eye",
+      "path": "ui/_sources/movingicons/src/eye.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/eye",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/eye"
+    },
+    {
+      "name": "file-chart-column-increasing",
+      "path": "ui/_sources/movingicons/src/file-chart-column-increasing.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-chart-column-increasing",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-chart-column-increasing"
+    },
+    {
+      "name": "file-chart-column",
+      "path": "ui/_sources/movingicons/src/file-chart-column.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-chart-column",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-chart-column"
+    },
+    {
+      "name": "file-chart-line",
+      "path": "ui/_sources/movingicons/src/file-chart-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-chart-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-chart-line"
+    },
+    {
+      "name": "file-check-corner",
+      "path": "ui/_sources/movingicons/src/file-check-corner.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-check-corner",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-check-corner"
+    },
+    {
+      "name": "file-check",
+      "path": "ui/_sources/movingicons/src/file-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-check"
+    },
+    {
+      "name": "file-cog",
+      "path": "ui/_sources/movingicons/src/file-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-cog"
+    },
+    {
+      "name": "file-down",
+      "path": "ui/_sources/movingicons/src/file-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-down"
+    },
+    {
+      "name": "file-exclamation-point",
+      "path": "ui/_sources/movingicons/src/file-exclamation-point.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-exclamation-point",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-exclamation-point"
+    },
+    {
+      "name": "file-minus",
+      "path": "ui/_sources/movingicons/src/file-minus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-minus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-minus"
+    },
+    {
+      "name": "file-pen-line",
+      "path": "ui/_sources/movingicons/src/file-pen-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-pen-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-pen-line"
+    },
+    {
+      "name": "file-pen",
+      "path": "ui/_sources/movingicons/src/file-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-pen"
+    },
+    {
+      "name": "file-plus",
+      "path": "ui/_sources/movingicons/src/file-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-plus"
+    },
+    {
+      "name": "file-question-mark",
+      "path": "ui/_sources/movingicons/src/file-question-mark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-question-mark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-question-mark"
+    },
+    {
+      "name": "file-sliders",
+      "path": "ui/_sources/movingicons/src/file-sliders.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-sliders",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-sliders"
+    },
+    {
+      "name": "file-stack",
+      "path": "ui/_sources/movingicons/src/file-stack.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-stack",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-stack"
+    },
+    {
+      "name": "file-terminal",
+      "path": "ui/_sources/movingicons/src/file-terminal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-terminal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-terminal"
+    },
+    {
+      "name": "file-text",
+      "path": "ui/_sources/movingicons/src/file-text.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-text",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-text"
+    },
+    {
+      "name": "file-up",
+      "path": "ui/_sources/movingicons/src/file-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-up"
+    },
+    {
+      "name": "file-x-corner",
+      "path": "ui/_sources/movingicons/src/file-x-corner.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-x-corner",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-x-corner"
+    },
+    {
+      "name": "file-x",
+      "path": "ui/_sources/movingicons/src/file-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/file-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/file-x"
+    },
+    {
+      "name": "fish-off",
+      "path": "ui/_sources/movingicons/src/fish-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/fish-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/fish-off"
+    },
+    {
+      "name": "flag-off",
+      "path": "ui/_sources/movingicons/src/flag-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/flag-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/flag-off"
+    },
+    {
+      "name": "flashlight-off",
+      "path": "ui/_sources/movingicons/src/flashlight-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/flashlight-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/flashlight-off"
+    },
+    {
+      "name": "flask-conical-off",
+      "path": "ui/_sources/movingicons/src/flask-conical-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/flask-conical-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/flask-conical-off"
+    },
+    {
+      "name": "folder-check",
+      "path": "ui/_sources/movingicons/src/folder-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-check"
+    },
+    {
+      "name": "folder-cog",
+      "path": "ui/_sources/movingicons/src/folder-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-cog"
+    },
+    {
+      "name": "folder-down",
+      "path": "ui/_sources/movingicons/src/folder-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-down"
+    },
+    {
+      "name": "folder-kanban",
+      "path": "ui/_sources/movingicons/src/folder-kanban.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-kanban",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-kanban"
+    },
+    {
+      "name": "folder-pen",
+      "path": "ui/_sources/movingicons/src/folder-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-pen"
+    },
+    {
+      "name": "folder-plus",
+      "path": "ui/_sources/movingicons/src/folder-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-plus"
+    },
+    {
+      "name": "folder-sync",
+      "path": "ui/_sources/movingicons/src/folder-sync.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-sync",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-sync"
+    },
+    {
+      "name": "folder-up",
+      "path": "ui/_sources/movingicons/src/folder-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-up"
+    },
+    {
+      "name": "folder-x",
+      "path": "ui/_sources/movingicons/src/folder-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/folder-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/folder-x"
+    },
+    {
+      "name": "frame",
+      "path": "ui/_sources/movingicons/src/frame.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/frame",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/frame"
+    },
+    {
+      "name": "funnel-x",
+      "path": "ui/_sources/movingicons/src/funnel-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/funnel-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/funnel-x"
+    },
+    {
+      "name": "gallery-horizontal-end",
+      "path": "ui/_sources/movingicons/src/gallery-horizontal-end.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gallery-horizontal-end",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gallery-horizontal-end"
+    },
+    {
+      "name": "gallery-horizontal",
+      "path": "ui/_sources/movingicons/src/gallery-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gallery-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gallery-horizontal"
+    },
+    {
+      "name": "gallery-thumbnails",
+      "path": "ui/_sources/movingicons/src/gallery-thumbnails.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gallery-thumbnails",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gallery-thumbnails"
+    },
+    {
+      "name": "gallery-vertical-end",
+      "path": "ui/_sources/movingicons/src/gallery-vertical-end.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gallery-vertical-end",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gallery-vertical-end"
+    },
+    {
+      "name": "gallery-vertical",
+      "path": "ui/_sources/movingicons/src/gallery-vertical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gallery-vertical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gallery-vertical"
+    },
+    {
+      "name": "gauge",
+      "path": "ui/_sources/movingicons/src/gauge.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gauge",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gauge"
+    },
+    {
+      "name": "gavel",
+      "path": "ui/_sources/movingicons/src/gavel.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/gavel",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/gavel"
+    },
+    {
+      "name": "globe-x",
+      "path": "ui/_sources/movingicons/src/globe-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/globe-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/globe-x"
+    },
+    {
+      "name": "grid-2x2-check",
+      "path": "ui/_sources/movingicons/src/grid-2x2-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/grid-2x2-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/grid-2x2-check"
+    },
+    {
+      "name": "grip-horizontal",
+      "path": "ui/_sources/movingicons/src/grip-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/grip-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/grip-horizontal"
+    },
+    {
+      "name": "grip-vertical",
+      "path": "ui/_sources/movingicons/src/grip-vertical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/grip-vertical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/grip-vertical"
+    },
+    {
+      "name": "grip",
+      "path": "ui/_sources/movingicons/src/grip.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/grip",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/grip"
+    },
+    {
+      "name": "hammer",
+      "path": "ui/_sources/movingicons/src/hammer.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hammer",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hammer"
+    },
+    {
+      "name": "hand-coins",
+      "path": "ui/_sources/movingicons/src/hand-coins.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hand-coins",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hand-coins"
+    },
+    {
+      "name": "hand-heart",
+      "path": "ui/_sources/movingicons/src/hand-heart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hand-heart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hand-heart"
+    },
+    {
+      "name": "hard-drive-download",
+      "path": "ui/_sources/movingicons/src/hard-drive-download.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hard-drive-download",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hard-drive-download"
+    },
+    {
+      "name": "hard-drive-upload",
+      "path": "ui/_sources/movingicons/src/hard-drive-upload.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hard-drive-upload",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hard-drive-upload"
+    },
+    {
+      "name": "headphone-off",
+      "path": "ui/_sources/movingicons/src/headphone-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/headphone-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/headphone-off"
+    },
+    {
+      "name": "heart-off",
+      "path": "ui/_sources/movingicons/src/heart-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/heart-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/heart-off"
+    },
+    {
+      "name": "heart",
+      "path": "ui/_sources/movingicons/src/heart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/heart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/heart"
+    },
+    {
+      "name": "history",
+      "path": "ui/_sources/movingicons/src/history.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/history",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/history"
+    },
+    {
+      "name": "hop-off",
+      "path": "ui/_sources/movingicons/src/hop-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/hop-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/hop-off"
+    },
+    {
+      "name": "house-wifi",
+      "path": "ui/_sources/movingicons/src/house-wifi.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/house-wifi",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/house-wifi"
+    },
+    {
+      "name": "house",
+      "path": "ui/_sources/movingicons/src/house.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/house",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/house"
+    },
+    {
+      "name": "image-down",
+      "path": "ui/_sources/movingicons/src/image-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/image-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/image-down"
+    },
+    {
+      "name": "image-off",
+      "path": "ui/_sources/movingicons/src/image-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/image-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/image-off"
+    },
+    {
+      "name": "image-up",
+      "path": "ui/_sources/movingicons/src/image-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/image-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/image-up"
+    },
+    {
+      "name": "images",
+      "path": "ui/_sources/movingicons/src/images.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/images",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/images"
+    },
+    {
+      "name": "infinity",
+      "path": "ui/_sources/movingicons/src/infinity.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/infinity",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/infinity"
+    },
+    {
+      "name": "kanban",
+      "path": "ui/_sources/movingicons/src/kanban.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/kanban",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/kanban"
+    },
+    {
+      "name": "key-round",
+      "path": "ui/_sources/movingicons/src/key-round.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/key-round",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/key-round"
+    },
+    {
+      "name": "key-square",
+      "path": "ui/_sources/movingicons/src/key-square.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/key-square",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/key-square"
+    },
+    {
+      "name": "key",
+      "path": "ui/_sources/movingicons/src/key.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/key",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/key"
+    },
+    {
+      "name": "keyboard-off",
+      "path": "ui/_sources/movingicons/src/keyboard-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/keyboard-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/keyboard-off"
+    },
+    {
+      "name": "keyboard",
+      "path": "ui/_sources/movingicons/src/keyboard.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/keyboard",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/keyboard"
+    },
+    {
+      "name": "landmark",
+      "path": "ui/_sources/movingicons/src/landmark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/landmark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/landmark"
+    },
+    {
+      "name": "layers",
+      "path": "ui/_sources/movingicons/src/layers.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layers",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layers"
+    },
+    {
+      "name": "layout-dashboard",
+      "path": "ui/_sources/movingicons/src/layout-dashboard.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layout-dashboard",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layout-dashboard"
+    },
+    {
+      "name": "layout-grid",
+      "path": "ui/_sources/movingicons/src/layout-grid.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layout-grid",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layout-grid"
+    },
+    {
+      "name": "layout-panel-left",
+      "path": "ui/_sources/movingicons/src/layout-panel-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layout-panel-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layout-panel-left"
+    },
+    {
+      "name": "layout-panel-top",
+      "path": "ui/_sources/movingicons/src/layout-panel-top.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layout-panel-top",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layout-panel-top"
+    },
+    {
+      "name": "layout-template",
+      "path": "ui/_sources/movingicons/src/layout-template.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/layout-template",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/layout-template"
+    },
+    {
+      "name": "lightbulb-off",
+      "path": "ui/_sources/movingicons/src/lightbulb-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/lightbulb-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/lightbulb-off"
+    },
+    {
+      "name": "lightbulb",
+      "path": "ui/_sources/movingicons/src/lightbulb.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/lightbulb",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/lightbulb"
+    },
+    {
+      "name": "link-2-off",
+      "path": "ui/_sources/movingicons/src/link-2-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/link-2-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/link-2-off"
+    },
+    {
+      "name": "list-check",
+      "path": "ui/_sources/movingicons/src/list-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/list-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/list-check"
+    },
+    {
+      "name": "list-checks",
+      "path": "ui/_sources/movingicons/src/list-checks.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/list-checks",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/list-checks"
+    },
+    {
+      "name": "list-restart",
+      "path": "ui/_sources/movingicons/src/list-restart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/list-restart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/list-restart"
+    },
+    {
+      "name": "list-todo",
+      "path": "ui/_sources/movingicons/src/list-todo.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/list-todo",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/list-todo"
+    },
+    {
+      "name": "loader-pinwheel",
+      "path": "ui/_sources/movingicons/src/loader-pinwheel.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/loader-pinwheel",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/loader-pinwheel"
+    },
+    {
+      "name": "locate-off",
+      "path": "ui/_sources/movingicons/src/locate-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/locate-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/locate-off"
+    },
+    {
+      "name": "log-in",
+      "path": "ui/_sources/movingicons/src/log-in.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/log-in",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/log-in"
+    },
+    {
+      "name": "log-out",
+      "path": "ui/_sources/movingicons/src/log-out.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/log-out",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/log-out"
+    },
+    {
+      "name": "mail-check",
+      "path": "ui/_sources/movingicons/src/mail-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mail-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mail-check"
+    },
+    {
+      "name": "mail-x",
+      "path": "ui/_sources/movingicons/src/mail-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mail-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mail-x"
+    },
+    {
+      "name": "map-pin-check-inside",
+      "path": "ui/_sources/movingicons/src/map-pin-check-inside.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/map-pin-check-inside",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/map-pin-check-inside"
+    },
+    {
+      "name": "map-pin-check",
+      "path": "ui/_sources/movingicons/src/map-pin-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/map-pin-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/map-pin-check"
+    },
+    {
+      "name": "map-pin-off",
+      "path": "ui/_sources/movingicons/src/map-pin-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/map-pin-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/map-pin-off"
+    },
+    {
+      "name": "map-pin-x-inside",
+      "path": "ui/_sources/movingicons/src/map-pin-x-inside.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/map-pin-x-inside",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/map-pin-x-inside"
+    },
+    {
+      "name": "map-pin-x",
+      "path": "ui/_sources/movingicons/src/map-pin-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/map-pin-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/map-pin-x"
+    },
+    {
+      "name": "maximize-2",
+      "path": "ui/_sources/movingicons/src/maximize-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/maximize-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/maximize-2"
+    },
+    {
+      "name": "maximize",
+      "path": "ui/_sources/movingicons/src/maximize.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/maximize",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/maximize"
+    },
+    {
+      "name": "megaphone-off",
+      "path": "ui/_sources/movingicons/src/megaphone-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/megaphone-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/megaphone-off"
+    },
+    {
+      "name": "message-circle-code",
+      "path": "ui/_sources/movingicons/src/message-circle-code.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-code",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-code"
+    },
+    {
+      "name": "message-circle-dashed",
+      "path": "ui/_sources/movingicons/src/message-circle-dashed.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-dashed",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-dashed"
+    },
+    {
+      "name": "message-circle-heart",
+      "path": "ui/_sources/movingicons/src/message-circle-heart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-heart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-heart"
+    },
+    {
+      "name": "message-circle-more",
+      "path": "ui/_sources/movingicons/src/message-circle-more.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-more",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-more"
+    },
+    {
+      "name": "message-circle-off",
+      "path": "ui/_sources/movingicons/src/message-circle-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-off"
+    },
+    {
+      "name": "message-circle-question-mark",
+      "path": "ui/_sources/movingicons/src/message-circle-question-mark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-question-mark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-question-mark"
+    },
+    {
+      "name": "message-circle-warning",
+      "path": "ui/_sources/movingicons/src/message-circle-warning.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-warning",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-warning"
+    },
+    {
+      "name": "message-circle-x",
+      "path": "ui/_sources/movingicons/src/message-circle-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-x"
+    },
+    {
+      "name": "message-circle",
+      "path": "ui/_sources/movingicons/src/message-circle.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-circle",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle"
+    },
+    {
+      "name": "message-square-code",
+      "path": "ui/_sources/movingicons/src/message-square-code.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-code",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-code"
+    },
+    {
+      "name": "message-square-dashed",
+      "path": "ui/_sources/movingicons/src/message-square-dashed.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-dashed",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-dashed"
+    },
+    {
+      "name": "message-square-diff",
+      "path": "ui/_sources/movingicons/src/message-square-diff.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-diff",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-diff"
+    },
+    {
+      "name": "message-square-dot",
+      "path": "ui/_sources/movingicons/src/message-square-dot.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-dot",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-dot"
+    },
+    {
+      "name": "message-square-heart",
+      "path": "ui/_sources/movingicons/src/message-square-heart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-heart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-heart"
+    },
+    {
+      "name": "message-square-more",
+      "path": "ui/_sources/movingicons/src/message-square-more.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-more",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-more"
+    },
+    {
+      "name": "message-square-off",
+      "path": "ui/_sources/movingicons/src/message-square-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-off"
+    },
+    {
+      "name": "message-square-plus",
+      "path": "ui/_sources/movingicons/src/message-square-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-plus"
+    },
+    {
+      "name": "message-square-quote",
+      "path": "ui/_sources/movingicons/src/message-square-quote.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-quote",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-quote"
+    },
+    {
+      "name": "message-square-text",
+      "path": "ui/_sources/movingicons/src/message-square-text.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-text",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-text"
+    },
+    {
+      "name": "message-square-warning",
+      "path": "ui/_sources/movingicons/src/message-square-warning.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-warning",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-warning"
+    },
+    {
+      "name": "message-square-x",
+      "path": "ui/_sources/movingicons/src/message-square-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-x"
+    },
+    {
+      "name": "message-square",
+      "path": "ui/_sources/movingicons/src/message-square.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/message-square",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/message-square"
+    },
+    {
+      "name": "mic-off",
+      "path": "ui/_sources/movingicons/src/mic-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mic-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mic-off"
+    },
+    {
+      "name": "milk-off",
+      "path": "ui/_sources/movingicons/src/milk-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/milk-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/milk-off"
+    },
+    {
+      "name": "minimize-2",
+      "path": "ui/_sources/movingicons/src/minimize-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/minimize-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/minimize-2"
+    },
+    {
+      "name": "minimize",
+      "path": "ui/_sources/movingicons/src/minimize.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/minimize",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/minimize"
+    },
+    {
+      "name": "minus",
+      "path": "ui/_sources/movingicons/src/minus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/minus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/minus"
+    },
+    {
+      "name": "monitor-check",
+      "path": "ui/_sources/movingicons/src/monitor-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-check"
+    },
+    {
+      "name": "monitor-cog",
+      "path": "ui/_sources/movingicons/src/monitor-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-cog"
+    },
+    {
+      "name": "monitor-down",
+      "path": "ui/_sources/movingicons/src/monitor-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-down"
+    },
+    {
+      "name": "monitor-off",
+      "path": "ui/_sources/movingicons/src/monitor-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-off"
+    },
+    {
+      "name": "monitor-up",
+      "path": "ui/_sources/movingicons/src/monitor-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-up"
+    },
+    {
+      "name": "monitor-x",
+      "path": "ui/_sources/movingicons/src/monitor-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/monitor-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-x"
+    },
+    {
+      "name": "mouse-off",
+      "path": "ui/_sources/movingicons/src/mouse-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mouse-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mouse-off"
+    },
+    {
+      "name": "mouse-pointer-2",
+      "path": "ui/_sources/movingicons/src/mouse-pointer-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mouse-pointer-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mouse-pointer-2"
+    },
+    {
+      "name": "mouse-pointer",
+      "path": "ui/_sources/movingicons/src/mouse-pointer.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/mouse-pointer",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/mouse-pointer"
+    },
+    {
+      "name": "move-diagonal-2",
+      "path": "ui/_sources/movingicons/src/move-diagonal-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-diagonal-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-diagonal-2"
+    },
+    {
+      "name": "move-diagonal",
+      "path": "ui/_sources/movingicons/src/move-diagonal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-diagonal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-diagonal"
+    },
+    {
+      "name": "move-down-left",
+      "path": "ui/_sources/movingicons/src/move-down-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-down-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-down-left"
+    },
+    {
+      "name": "move-down-right",
+      "path": "ui/_sources/movingicons/src/move-down-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-down-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-down-right"
+    },
+    {
+      "name": "move-down",
+      "path": "ui/_sources/movingicons/src/move-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-down"
+    },
+    {
+      "name": "move-horizontal",
+      "path": "ui/_sources/movingicons/src/move-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-horizontal"
+    },
+    {
+      "name": "move-left",
+      "path": "ui/_sources/movingicons/src/move-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-left"
+    },
+    {
+      "name": "move-right",
+      "path": "ui/_sources/movingicons/src/move-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-right"
+    },
+    {
+      "name": "move-up-left",
+      "path": "ui/_sources/movingicons/src/move-up-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-up-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-up-left"
+    },
+    {
+      "name": "move-up-right",
+      "path": "ui/_sources/movingicons/src/move-up-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-up-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-up-right"
+    },
+    {
+      "name": "move-up",
+      "path": "ui/_sources/movingicons/src/move-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-up"
+    },
+    {
+      "name": "move-vertical",
+      "path": "ui/_sources/movingicons/src/move-vertical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/move-vertical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/move-vertical"
+    },
+    {
+      "name": "navigation-2-off",
+      "path": "ui/_sources/movingicons/src/navigation-2-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/navigation-2-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/navigation-2-off"
+    },
+    {
+      "name": "navigation-off",
+      "path": "ui/_sources/movingicons/src/navigation-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/navigation-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/navigation-off"
+    },
+    {
+      "name": "nfc",
+      "path": "ui/_sources/movingicons/src/nfc.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/nfc",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/nfc"
+    },
+    {
+      "name": "notebook-pen",
+      "path": "ui/_sources/movingicons/src/notebook-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/notebook-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/notebook-pen"
+    },
+    {
+      "name": "nut-off",
+      "path": "ui/_sources/movingicons/src/nut-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/nut-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/nut-off"
+    },
+    {
+      "name": "octagon-alert",
+      "path": "ui/_sources/movingicons/src/octagon-alert.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/octagon-alert",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/octagon-alert"
+    },
+    {
+      "name": "octagon-x",
+      "path": "ui/_sources/movingicons/src/octagon-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/octagon-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/octagon-x"
+    },
+    {
+      "name": "orbit",
+      "path": "ui/_sources/movingicons/src/orbit.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/orbit",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/orbit"
+    },
+    {
+      "name": "package-check",
+      "path": "ui/_sources/movingicons/src/package-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/package-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/package-check"
+    },
+    {
+      "name": "package-x",
+      "path": "ui/_sources/movingicons/src/package-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/package-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/package-x"
+    },
+    {
+      "name": "paintbrush",
+      "path": "ui/_sources/movingicons/src/paintbrush.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/paintbrush",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/paintbrush"
+    },
+    {
+      "name": "panel-bottom-close",
+      "path": "ui/_sources/movingicons/src/panel-bottom-close.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-bottom-close",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-bottom-close"
+    },
+    {
+      "name": "panel-bottom-open",
+      "path": "ui/_sources/movingicons/src/panel-bottom-open.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-bottom-open",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-bottom-open"
+    },
+    {
+      "name": "panel-bottom",
+      "path": "ui/_sources/movingicons/src/panel-bottom.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-bottom",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-bottom"
+    },
+    {
+      "name": "panel-left-close",
+      "path": "ui/_sources/movingicons/src/panel-left-close.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-left-close",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-left-close"
+    },
+    {
+      "name": "panel-left-open",
+      "path": "ui/_sources/movingicons/src/panel-left-open.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-left-open",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-left-open"
+    },
+    {
+      "name": "panel-left",
+      "path": "ui/_sources/movingicons/src/panel-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-left"
+    },
+    {
+      "name": "panel-right-close",
+      "path": "ui/_sources/movingicons/src/panel-right-close.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-right-close",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-right-close"
+    },
+    {
+      "name": "panel-right-open",
+      "path": "ui/_sources/movingicons/src/panel-right-open.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-right-open",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-right-open"
+    },
+    {
+      "name": "panel-right",
+      "path": "ui/_sources/movingicons/src/panel-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-right"
+    },
+    {
+      "name": "panel-top-close",
+      "path": "ui/_sources/movingicons/src/panel-top-close.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-top-close",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-top-close"
+    },
+    {
+      "name": "panel-top-open",
+      "path": "ui/_sources/movingicons/src/panel-top-open.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-top-open",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-top-open"
+    },
+    {
+      "name": "panel-top",
+      "path": "ui/_sources/movingicons/src/panel-top.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/panel-top",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/panel-top"
+    },
+    {
+      "name": "paperclip",
+      "path": "ui/_sources/movingicons/src/paperclip.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/paperclip",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/paperclip"
+    },
+    {
+      "name": "pen-line",
+      "path": "ui/_sources/movingicons/src/pen-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pen-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pen-line"
+    },
+    {
+      "name": "pen-off",
+      "path": "ui/_sources/movingicons/src/pen-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pen-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pen-off"
+    },
+    {
+      "name": "pen",
+      "path": "ui/_sources/movingicons/src/pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pen"
+    },
+    {
+      "name": "pencil-line",
+      "path": "ui/_sources/movingicons/src/pencil-line.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pencil-line",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pencil-line"
+    },
+    {
+      "name": "pencil-off",
+      "path": "ui/_sources/movingicons/src/pencil-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pencil-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pencil-off"
+    },
+    {
+      "name": "pencil",
+      "path": "ui/_sources/movingicons/src/pencil.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pencil",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pencil"
+    },
+    {
+      "name": "phone-call",
+      "path": "ui/_sources/movingicons/src/phone-call.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/phone-call",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/phone-call"
+    },
+    {
+      "name": "phone-off",
+      "path": "ui/_sources/movingicons/src/phone-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/phone-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/phone-off"
+    },
+    {
+      "name": "pickaxe",
+      "path": "ui/_sources/movingicons/src/pickaxe.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pickaxe",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pickaxe"
+    },
+    {
+      "name": "pin-off",
+      "path": "ui/_sources/movingicons/src/pin-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pin-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pin-off"
+    },
+    {
+      "name": "plane",
+      "path": "ui/_sources/movingicons/src/plane.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/plane",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/plane"
+    },
+    {
+      "name": "play",
+      "path": "ui/_sources/movingicons/src/play.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/play",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/play"
+    },
+    {
+      "name": "plus",
+      "path": "ui/_sources/movingicons/src/plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/plus"
+    },
+    {
+      "name": "pointer-off",
+      "path": "ui/_sources/movingicons/src/pointer-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/pointer-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/pointer-off"
+    },
+    {
+      "name": "power-off",
+      "path": "ui/_sources/movingicons/src/power-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/power-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/power-off"
+    },
+    {
+      "name": "printer-check",
+      "path": "ui/_sources/movingicons/src/printer-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/printer-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/printer-check"
+    },
+    {
+      "name": "rabbit",
+      "path": "ui/_sources/movingicons/src/rabbit.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rabbit",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rabbit"
+    },
+    {
+      "name": "radar",
+      "path": "ui/_sources/movingicons/src/radar.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/radar",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/radar"
+    },
+    {
+      "name": "radio-tower",
+      "path": "ui/_sources/movingicons/src/radio-tower.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/radio-tower",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/radio-tower"
+    },
+    {
+      "name": "radio",
+      "path": "ui/_sources/movingicons/src/radio.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/radio",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/radio"
+    },
+    {
+      "name": "rainbow",
+      "path": "ui/_sources/movingicons/src/rainbow.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rainbow",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rainbow"
+    },
+    {
+      "name": "redo-dot",
+      "path": "ui/_sources/movingicons/src/redo-dot.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/redo-dot",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/redo-dot"
+    },
+    {
+      "name": "redo",
+      "path": "ui/_sources/movingicons/src/redo.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/redo",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/redo"
+    },
+    {
+      "name": "refresh-ccw-dot",
+      "path": "ui/_sources/movingicons/src/refresh-ccw-dot.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/refresh-ccw-dot",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/refresh-ccw-dot"
+    },
+    {
+      "name": "refresh-ccw",
+      "path": "ui/_sources/movingicons/src/refresh-ccw.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/refresh-ccw",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/refresh-ccw"
+    },
+    {
+      "name": "refresh-cw-off",
+      "path": "ui/_sources/movingicons/src/refresh-cw-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/refresh-cw-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/refresh-cw-off"
+    },
+    {
+      "name": "refresh-cw",
+      "path": "ui/_sources/movingicons/src/refresh-cw.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/refresh-cw",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/refresh-cw"
+    },
+    {
+      "name": "rocket",
+      "path": "ui/_sources/movingicons/src/rocket.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rocket",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rocket"
+    },
+    {
+      "name": "rocking-chair",
+      "path": "ui/_sources/movingicons/src/rocking-chair.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rocking-chair",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rocking-chair"
+    },
+    {
+      "name": "rotate-ccw-key",
+      "path": "ui/_sources/movingicons/src/rotate-ccw-key.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rotate-ccw-key",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rotate-ccw-key"
+    },
+    {
+      "name": "rotate-ccw",
+      "path": "ui/_sources/movingicons/src/rotate-ccw.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rotate-ccw",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rotate-ccw"
+    },
+    {
+      "name": "rotate-cw",
+      "path": "ui/_sources/movingicons/src/rotate-cw.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rotate-cw",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rotate-cw"
+    },
+    {
+      "name": "route-off",
+      "path": "ui/_sources/movingicons/src/route-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/route-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/route-off"
+    },
+    {
+      "name": "route",
+      "path": "ui/_sources/movingicons/src/route.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/route",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/route"
+    },
+    {
+      "name": "rss",
+      "path": "ui/_sources/movingicons/src/rss.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/rss",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/rss"
+    },
+    {
+      "name": "satellite-dish",
+      "path": "ui/_sources/movingicons/src/satellite-dish.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/satellite-dish",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/satellite-dish"
+    },
+    {
+      "name": "save-off",
+      "path": "ui/_sources/movingicons/src/save-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/save-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/save-off"
+    },
+    {
+      "name": "scan-text",
+      "path": "ui/_sources/movingicons/src/scan-text.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/scan-text",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/scan-text"
+    },
+    {
+      "name": "scissors",
+      "path": "ui/_sources/movingicons/src/scissors.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/scissors",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/scissors"
+    },
+    {
+      "name": "search-check",
+      "path": "ui/_sources/movingicons/src/search-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/search-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/search-check"
+    },
+    {
+      "name": "search-x",
+      "path": "ui/_sources/movingicons/src/search-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/search-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/search-x"
+    },
+    {
+      "name": "search",
+      "path": "ui/_sources/movingicons/src/search.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/search",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/search"
+    },
+    {
+      "name": "send-horizontal",
+      "path": "ui/_sources/movingicons/src/send-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/send-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/send-horizontal"
+    },
+    {
+      "name": "send",
+      "path": "ui/_sources/movingicons/src/send.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/send",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/send"
+    },
+    {
+      "name": "server-cog",
+      "path": "ui/_sources/movingicons/src/server-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/server-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/server-cog"
+    },
+    {
+      "name": "server-off",
+      "path": "ui/_sources/movingicons/src/server-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/server-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/server-off"
+    },
+    {
+      "name": "settings",
+      "path": "ui/_sources/movingicons/src/settings.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/settings",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/settings"
+    },
+    {
+      "name": "shield-alert",
+      "path": "ui/_sources/movingicons/src/shield-alert.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-alert",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-alert"
+    },
+    {
+      "name": "shield-check",
+      "path": "ui/_sources/movingicons/src/shield-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-check"
+    },
+    {
+      "name": "shield-off",
+      "path": "ui/_sources/movingicons/src/shield-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-off"
+    },
+    {
+      "name": "shield-plus",
+      "path": "ui/_sources/movingicons/src/shield-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-plus"
+    },
+    {
+      "name": "shield-question-mark",
+      "path": "ui/_sources/movingicons/src/shield-question-mark.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-question-mark",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-question-mark"
+    },
+    {
+      "name": "shield-x",
+      "path": "ui/_sources/movingicons/src/shield-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shield-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shield-x"
+    },
+    {
+      "name": "ship-wheel",
+      "path": "ui/_sources/movingicons/src/ship-wheel.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/ship-wheel",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/ship-wheel"
+    },
+    {
+      "name": "ship",
+      "path": "ui/_sources/movingicons/src/ship.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/ship",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/ship"
+    },
+    {
+      "name": "shopping-cart",
+      "path": "ui/_sources/movingicons/src/shopping-cart.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shopping-cart",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shopping-cart"
+    },
+    {
+      "name": "shovel",
+      "path": "ui/_sources/movingicons/src/shovel.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shovel",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shovel"
+    },
+    {
+      "name": "shower-head",
+      "path": "ui/_sources/movingicons/src/shower-head.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shower-head",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shower-head"
+    },
+    {
+      "name": "shrink",
+      "path": "ui/_sources/movingicons/src/shrink.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/shrink",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/shrink"
+    },
+    {
+      "name": "signal-high",
+      "path": "ui/_sources/movingicons/src/signal-high.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signal-high",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signal-high"
+    },
+    {
+      "name": "signal-low",
+      "path": "ui/_sources/movingicons/src/signal-low.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signal-low",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signal-low"
+    },
+    {
+      "name": "signal-medium",
+      "path": "ui/_sources/movingicons/src/signal-medium.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signal-medium",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signal-medium"
+    },
+    {
+      "name": "signal-zero",
+      "path": "ui/_sources/movingicons/src/signal-zero.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signal-zero",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signal-zero"
+    },
+    {
+      "name": "signal",
+      "path": "ui/_sources/movingicons/src/signal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signal"
+    },
+    {
+      "name": "signature",
+      "path": "ui/_sources/movingicons/src/signature.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/signature",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/signature"
+    },
+    {
+      "name": "sliders-horizontal",
+      "path": "ui/_sources/movingicons/src/sliders-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sliders-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sliders-horizontal"
+    },
+    {
+      "name": "sliders-vertical",
+      "path": "ui/_sources/movingicons/src/sliders-vertical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sliders-vertical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sliders-vertical"
+    },
+    {
+      "name": "smartphone-nfc",
+      "path": "ui/_sources/movingicons/src/smartphone-nfc.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/smartphone-nfc",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/smartphone-nfc"
+    },
+    {
+      "name": "snowflake",
+      "path": "ui/_sources/movingicons/src/snowflake.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/snowflake",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/snowflake"
+    },
+    {
+      "name": "sparkle",
+      "path": "ui/_sources/movingicons/src/sparkle.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sparkle",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sparkle"
+    },
+    {
+      "name": "sparkles",
+      "path": "ui/_sources/movingicons/src/sparkles.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sparkles",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sparkles"
+    },
+    {
+      "name": "speech",
+      "path": "ui/_sources/movingicons/src/speech.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/speech",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/speech"
+    },
+    {
+      "name": "spell-check",
+      "path": "ui/_sources/movingicons/src/spell-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/spell-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/spell-check"
+    },
+    {
+      "name": "square-arrow-down-left",
+      "path": "ui/_sources/movingicons/src/square-arrow-down-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-down-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-down-left"
+    },
+    {
+      "name": "square-arrow-down-right",
+      "path": "ui/_sources/movingicons/src/square-arrow-down-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-down-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-down-right"
+    },
+    {
+      "name": "square-arrow-down",
+      "path": "ui/_sources/movingicons/src/square-arrow-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-down"
+    },
+    {
+      "name": "square-arrow-left",
+      "path": "ui/_sources/movingicons/src/square-arrow-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-left"
+    },
+    {
+      "name": "square-arrow-out-down-left",
+      "path": "ui/_sources/movingicons/src/square-arrow-out-down-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-out-down-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-out-down-left"
+    },
+    {
+      "name": "square-arrow-out-down-right",
+      "path": "ui/_sources/movingicons/src/square-arrow-out-down-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-out-down-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-out-down-right"
+    },
+    {
+      "name": "square-arrow-out-up-left",
+      "path": "ui/_sources/movingicons/src/square-arrow-out-up-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-out-up-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-out-up-left"
+    },
+    {
+      "name": "square-arrow-out-up-right",
+      "path": "ui/_sources/movingicons/src/square-arrow-out-up-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-out-up-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-out-up-right"
+    },
+    {
+      "name": "square-arrow-right",
+      "path": "ui/_sources/movingicons/src/square-arrow-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-right"
+    },
+    {
+      "name": "square-arrow-up-left",
+      "path": "ui/_sources/movingicons/src/square-arrow-up-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-up-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-up-left"
+    },
+    {
+      "name": "square-arrow-up-right",
+      "path": "ui/_sources/movingicons/src/square-arrow-up-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-up-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-up-right"
+    },
+    {
+      "name": "square-arrow-up",
+      "path": "ui/_sources/movingicons/src/square-arrow-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-arrow-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-up"
+    },
+    {
+      "name": "square-chart-gantt",
+      "path": "ui/_sources/movingicons/src/square-chart-gantt.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-chart-gantt",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-chart-gantt"
+    },
+    {
+      "name": "square-check-big",
+      "path": "ui/_sources/movingicons/src/square-check-big.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-check-big",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-check-big"
+    },
+    {
+      "name": "square-check",
+      "path": "ui/_sources/movingicons/src/square-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-check"
+    },
+    {
+      "name": "square-chevron-down",
+      "path": "ui/_sources/movingicons/src/square-chevron-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-chevron-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-chevron-down"
+    },
+    {
+      "name": "square-chevron-left",
+      "path": "ui/_sources/movingicons/src/square-chevron-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-chevron-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-chevron-left"
+    },
+    {
+      "name": "square-chevron-right",
+      "path": "ui/_sources/movingicons/src/square-chevron-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-chevron-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-chevron-right"
+    },
+    {
+      "name": "square-chevron-up",
+      "path": "ui/_sources/movingicons/src/square-chevron-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-chevron-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-chevron-up"
+    },
+    {
+      "name": "square-dashed-kanban",
+      "path": "ui/_sources/movingicons/src/square-dashed-kanban.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-dashed-kanban",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-dashed-kanban"
+    },
+    {
+      "name": "square-kanban",
+      "path": "ui/_sources/movingicons/src/square-kanban.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-kanban",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-kanban"
+    },
+    {
+      "name": "square-parking-off",
+      "path": "ui/_sources/movingicons/src/square-parking-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-parking-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-parking-off"
+    },
+    {
+      "name": "square-pen",
+      "path": "ui/_sources/movingicons/src/square-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-pen"
+    },
+    {
+      "name": "square-plus",
+      "path": "ui/_sources/movingicons/src/square-plus.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-plus",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-plus"
+    },
+    {
+      "name": "square-scissors",
+      "path": "ui/_sources/movingicons/src/square-scissors.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-scissors",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-scissors"
+    },
+    {
+      "name": "square-stack",
+      "path": "ui/_sources/movingicons/src/square-stack.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-stack",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-stack"
+    },
+    {
+      "name": "square-terminal",
+      "path": "ui/_sources/movingicons/src/square-terminal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-terminal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-terminal"
+    },
+    {
+      "name": "square-x",
+      "path": "ui/_sources/movingicons/src/square-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/square-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/square-x"
+    },
+    {
+      "name": "star-off",
+      "path": "ui/_sources/movingicons/src/star-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/star-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/star-off"
+    },
+    {
+      "name": "star",
+      "path": "ui/_sources/movingicons/src/star.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/star",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/star"
+    },
+    {
+      "name": "sun",
+      "path": "ui/_sources/movingicons/src/sun.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sun",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sun"
+    },
+    {
+      "name": "sword",
+      "path": "ui/_sources/movingicons/src/sword.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/sword",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/sword"
+    },
+    {
+      "name": "tag",
+      "path": "ui/_sources/movingicons/src/tag.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/tag",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/tag"
+    },
+    {
+      "name": "telescope",
+      "path": "ui/_sources/movingicons/src/telescope.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/telescope",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/telescope"
+    },
+    {
+      "name": "terminal",
+      "path": "ui/_sources/movingicons/src/terminal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/terminal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/terminal"
+    },
+    {
+      "name": "text-align-center",
+      "path": "ui/_sources/movingicons/src/text-align-center.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/text-align-center",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/text-align-center"
+    },
+    {
+      "name": "text-cursor-input",
+      "path": "ui/_sources/movingicons/src/text-cursor-input.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/text-cursor-input",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/text-cursor-input"
+    },
+    {
+      "name": "text-cursor",
+      "path": "ui/_sources/movingicons/src/text-cursor.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/text-cursor",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/text-cursor"
+    },
+    {
+      "name": "text-search",
+      "path": "ui/_sources/movingicons/src/text-search.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/text-search",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/text-search"
+    },
+    {
+      "name": "thermometer",
+      "path": "ui/_sources/movingicons/src/thermometer.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/thermometer",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/thermometer"
+    },
+    {
+      "name": "thumbs-down",
+      "path": "ui/_sources/movingicons/src/thumbs-down.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/thumbs-down",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/thumbs-down"
+    },
+    {
+      "name": "thumbs-up",
+      "path": "ui/_sources/movingicons/src/thumbs-up.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/thumbs-up",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/thumbs-up"
+    },
+    {
+      "name": "ticket-check",
+      "path": "ui/_sources/movingicons/src/ticket-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/ticket-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/ticket-check"
+    },
+    {
+      "name": "ticket-x",
+      "path": "ui/_sources/movingicons/src/ticket-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/ticket-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/ticket-x"
+    },
+    {
+      "name": "timer-off",
+      "path": "ui/_sources/movingicons/src/timer-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/timer-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/timer-off"
+    },
+    {
+      "name": "timer",
+      "path": "ui/_sources/movingicons/src/timer.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/timer",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/timer"
+    },
+    {
+      "name": "toggle-left",
+      "path": "ui/_sources/movingicons/src/toggle-left.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/toggle-left",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/toggle-left"
+    },
+    {
+      "name": "toggle-right",
+      "path": "ui/_sources/movingicons/src/toggle-right.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/toggle-right",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/toggle-right"
+    },
+    {
+      "name": "tornado",
+      "path": "ui/_sources/movingicons/src/tornado.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/tornado",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/tornado"
+    },
+    {
+      "name": "touchpad-off",
+      "path": "ui/_sources/movingicons/src/touchpad-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/touchpad-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/touchpad-off"
+    },
+    {
+      "name": "trash-2",
+      "path": "ui/_sources/movingicons/src/trash-2.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/trash-2",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/trash-2"
+    },
+    {
+      "name": "trash",
+      "path": "ui/_sources/movingicons/src/trash.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/trash",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/trash"
+    },
+    {
+      "name": "triangle-alert",
+      "path": "ui/_sources/movingicons/src/triangle-alert.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/triangle-alert",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/triangle-alert"
+    },
+    {
+      "name": "umbrella-off",
+      "path": "ui/_sources/movingicons/src/umbrella-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/umbrella-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/umbrella-off"
+    },
+    {
+      "name": "undo-dot",
+      "path": "ui/_sources/movingicons/src/undo-dot.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/undo-dot",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/undo-dot"
+    },
+    {
+      "name": "undo",
+      "path": "ui/_sources/movingicons/src/undo.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/undo",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/undo"
+    },
+    {
+      "name": "unfold-horizontal",
+      "path": "ui/_sources/movingicons/src/unfold-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/unfold-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/unfold-horizontal"
+    },
+    {
+      "name": "unfold-vertical",
+      "path": "ui/_sources/movingicons/src/unfold-vertical.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/unfold-vertical",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/unfold-vertical"
+    },
+    {
+      "name": "unplug",
+      "path": "ui/_sources/movingicons/src/unplug.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/unplug",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/unplug"
+    },
+    {
+      "name": "upload",
+      "path": "ui/_sources/movingicons/src/upload.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/upload",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/upload"
+    },
+    {
+      "name": "user-check",
+      "path": "ui/_sources/movingicons/src/user-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-check"
+    },
+    {
+      "name": "user-cog",
+      "path": "ui/_sources/movingicons/src/user-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-cog"
+    },
+    {
+      "name": "user-pen",
+      "path": "ui/_sources/movingicons/src/user-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-pen"
+    },
+    {
+      "name": "user-round-check",
+      "path": "ui/_sources/movingicons/src/user-round-check.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-round-check",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-round-check"
+    },
+    {
+      "name": "user-round-cog",
+      "path": "ui/_sources/movingicons/src/user-round-cog.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-round-cog",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-round-cog"
+    },
+    {
+      "name": "user-round-pen",
+      "path": "ui/_sources/movingicons/src/user-round-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-round-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-round-pen"
+    },
+    {
+      "name": "user-round-x",
+      "path": "ui/_sources/movingicons/src/user-round-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-round-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-round-x"
+    },
+    {
+      "name": "user-round",
+      "path": "ui/_sources/movingicons/src/user-round.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-round",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-round"
+    },
+    {
+      "name": "user-x",
+      "path": "ui/_sources/movingicons/src/user-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user-x"
+    },
+    {
+      "name": "user",
+      "path": "ui/_sources/movingicons/src/user.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/user",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/user"
+    },
+    {
+      "name": "users-round",
+      "path": "ui/_sources/movingicons/src/users-round.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/users-round",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/users-round"
+    },
+    {
+      "name": "users",
+      "path": "ui/_sources/movingicons/src/users.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/users",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/users"
+    },
+    {
+      "name": "vault",
+      "path": "ui/_sources/movingicons/src/vault.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/vault",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/vault"
+    },
+    {
+      "name": "vibrate-off",
+      "path": "ui/_sources/movingicons/src/vibrate-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/vibrate-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/vibrate-off"
+    },
+    {
+      "name": "vibrate",
+      "path": "ui/_sources/movingicons/src/vibrate.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/vibrate",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/vibrate"
+    },
+    {
+      "name": "video-off",
+      "path": "ui/_sources/movingicons/src/video-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/video-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/video-off"
+    },
+    {
+      "name": "volume-off",
+      "path": "ui/_sources/movingicons/src/volume-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/volume-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/volume-off"
+    },
+    {
+      "name": "volume-x",
+      "path": "ui/_sources/movingicons/src/volume-x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/volume-x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/volume-x"
+    },
+    {
+      "name": "vote",
+      "path": "ui/_sources/movingicons/src/vote.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/vote",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/vote"
+    },
+    {
+      "name": "washing-machine",
+      "path": "ui/_sources/movingicons/src/washing-machine.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/washing-machine",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/washing-machine"
+    },
+    {
+      "name": "waves-horizontal",
+      "path": "ui/_sources/movingicons/src/waves-horizontal.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/waves-horizontal",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/waves-horizontal"
+    },
+    {
+      "name": "webhook-off",
+      "path": "ui/_sources/movingicons/src/webhook-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/webhook-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/webhook-off"
+    },
+    {
+      "name": "wheat-off",
+      "path": "ui/_sources/movingicons/src/wheat-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wheat-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wheat-off"
+    },
+    {
+      "name": "wifi-high",
+      "path": "ui/_sources/movingicons/src/wifi-high.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi-high",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-high"
+    },
+    {
+      "name": "wifi-low",
+      "path": "ui/_sources/movingicons/src/wifi-low.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi-low",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-low"
+    },
+    {
+      "name": "wifi-off",
+      "path": "ui/_sources/movingicons/src/wifi-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-off"
+    },
+    {
+      "name": "wifi-pen",
+      "path": "ui/_sources/movingicons/src/wifi-pen.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi-pen",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-pen"
+    },
+    {
+      "name": "wifi-zero",
+      "path": "ui/_sources/movingicons/src/wifi-zero.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi-zero",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-zero"
+    },
+    {
+      "name": "wifi",
+      "path": "ui/_sources/movingicons/src/wifi.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wifi",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wifi"
+    },
+    {
+      "name": "wine-off",
+      "path": "ui/_sources/movingicons/src/wine-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/wine-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/wine-off"
+    },
+    {
+      "name": "x",
+      "path": "ui/_sources/movingicons/src/x.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/x",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/x"
+    },
+    {
+      "name": "zap-off",
+      "path": "ui/_sources/movingicons/src/zap-off.svelte",
+      "variants": [],
+      "registryUrl": "https://movingicons.dev/r/zap-off",
+      "command": "npx shadcn-svelte@latest add https://movingicons.dev/r/zap-off"
+    }
+  ]
+}

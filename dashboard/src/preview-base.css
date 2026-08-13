@@ -9,6 +9,10 @@ body {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
+.pv-icon { min-height: 100vh; display: grid; place-items: center; color: #ececf1; }
+.pv-icon > * { display: grid; place-items: center; }
+.icon-preview-svg svg, .icon-preview-lottie { width: 64px; height: 64px; }
+
 .pv-stage {
   display: flex;
   align-items: center;

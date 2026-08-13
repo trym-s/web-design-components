@@ -1,31 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
 import lottie from "lottie-web";
-import type { Entry } from "./registry";
+import { iconLoader, iconPath, pickIconComponent, type IconRef } from "./iconModules";
 
-const reactIcons = import.meta.glob("/ui/_sources/{lucide-animated,animateicons-lucide,heroicons-animated,itshover}/src/*.tsx");
-const vueIcons = import.meta.glob("/ui/_sources/lucide-motion-vue/src/icons/*.vue");
-const svelteIcons = import.meta.glob("/ui/_sources/movingicons/src/*.svelte");
-const svgIcons = import.meta.glob("/ui/_sources/line-md/src/*.svg", { query: "?raw", import: "default" });
-
-const ext = { react: "tsx", vue: "vue", svelte: "svelte", svg: "svg" } as const;
-
-function pathOf(entry: Entry) {
-  return `/ui/_sources/${entry.source}/src/${entry.framework === "vue" ? "icons/" : ""}${entry.name}.${ext[entry.framework as keyof typeof ext]}`;
-}
-
-function exported(mod: Record<string, unknown>) {
-  if (typeof mod.default === "function" || typeof mod.default === "object") return mod.default;
-  return Object.entries(mod).find(([name, value]) => /^[A-Z]/.test(name) && (typeof value === "function" || typeof value === "object"))?.[1];
-}
-
-export function IconPreview({ entry, variant }: { entry: Entry; variant?: string }) {
+export function IconPreview({ entry, variant }: { entry: IconRef; variant?: string }) {
   const [loaded, setLoaded] = useState<unknown>();
   const [error, setError] = useState<string>();
-  const key = entry.framework === "lottie" ? entry.name : pathOf(entry);
+  const key = entry.framework === "lottie" ? entry.name : iconPath(entry);
 
   useEffect(() => {
     let alive = true;
-    const loader = entry.framework === "react" ? reactIcons[key] : entry.framework === "vue" ? vueIcons[key] : entry.framework === "svelte" ? svelteIcons[key] : entry.framework === "svg" ? svgIcons[key] : undefined;
+    const loader = iconLoader(entry);
     const promise = entry.framework === "lottie"
       ? fetch(`/__personal-icons/${encodeURIComponent(entry.name)}.json`).then((response) => {
           if (!response.ok) throw new Error("Personal cache is unavailable. Run npm run dev:personal.");
@@ -42,7 +26,7 @@ export function IconPreview({ entry, variant }: { entry: Entry; variant?: string
   if (entry.framework === "svg") return <div className="icon-preview-svg" dangerouslySetInnerHTML={{ __html: loaded as string }} />;
   if (entry.framework === "lottie") return <LottieIcon data={loaded} />;
 
-  const Component = exported(loaded as Record<string, unknown>) as any;
+  const Component = pickIconComponent(loaded as Record<string, unknown>) as any;
   if (!Component) return <div className="pv-error">Module exports no icon.</div>;
   return <Component size={64} animate animateOnHover animation={variant === "default" ? undefined : variant} />;
 }

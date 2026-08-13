@@ -87,9 +87,19 @@ export default defineConfig({
   },
   server: {
     open: "/dashboard/index.html",
+    watch: {
+      // The personal icon cache holds tens of thousands of files. Watching it
+      // exhausts the inotify limit and the dev server dies with ENOSPC; nothing
+      // under it is imported directly, so it never needs to trigger a reload.
+      ignored: ["**/.cache/**", "**/dist/**"],
+    },
   },
   build: {
     outDir: "dist",
+    // The icon sets emit ~19.5k assets. Gzipping every one of them to print a
+    // size table is the peak-memory step of the whole build (it OOMs on a 4 GB
+    // machine) and the table is unreadable at that length.
+    reportCompressedSize: false,
     rollupOptions: {
       input: {
         home: resolve(__dirname, "index.html"),

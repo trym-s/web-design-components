@@ -3,6 +3,8 @@ import { Component, type ReactNode } from "react";
 interface Props {
   children: ReactNode;
   onError?: (message: string) => void;
+  /** Compact replacement for contexts too small for the full error block. */
+  fallback?: ReactNode;
 }
 
 export class ErrorBoundary extends Component<Props, { message: string | null }> {
@@ -18,6 +20,7 @@ export class ErrorBoundary extends Component<Props, { message: string | null }> 
 
   render() {
     if (this.state.message) {
+      if (this.props.fallback !== undefined) return this.props.fallback;
       return (
         <div className="pv-error">
           <strong>needs shim</strong>

@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>UI Reference Bank</title>
+    <script>
+      // Applied before first paint so the shell never flashes the wrong scheme.
+      document.documentElement.dataset.theme = localStorage.getItem("ui-bank-theme") || "dark";
+    </script>
+    <style>
+      html[data-theme="dark"] body { background: #17181a; }
+      body { background: #fafafb; margin: 0; }
+    </style>
   </head>
   <body>
     <div id="root"></div>

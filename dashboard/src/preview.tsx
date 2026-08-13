@@ -5,17 +5,20 @@
  * what keeps the three incompatible CSS worlds (the captured Tailwind snapshot,
  * the transitions.dev `.t-*` sheets, the dashboard shell) from colliding, and
  * what makes stopping a card genuinely tear down its rAF loops.
+ *
+ * It resolves its entry from `previewEntry.ts` rather than the shell registry so
+ * that opening a preview does not pull the 5.9 MB catalog into the iframe.
  */
 import { StrictMode, Suspense, useEffect, useState, type ComponentType } from "react";
 import { createRoot } from "react-dom/client";
-import { BY_ID } from "./registry";
 import { ErrorBoundary } from "./ErrorBoundary";
 import { DEMO_COMPONENTS, DEMO_PROPS } from "./demos";
 import { IconPreview } from "./IconPreview";
+import { resolvePreview } from "./previewEntry";
 import "./preview-base.css";
 
 const id = new URLSearchParams(location.search).get("id") ?? "";
-const entry = BY_ID.get(id);
+const entry = resolvePreview(id);
 const variant = new URLSearchParams(location.search).get("variant") ?? undefined;
 
 function report(status: "ok" | "broken", reason?: string) {
@@ -73,7 +76,13 @@ function Preview() {
       </div>
     );
   }
-  if (entry?.category === "icons") return <div className="pv-stage pv-icon"><IconPreview entry={entry} variant={variant} /></div>;
+  if (entry?.category === "icons") {
+    return (
+      <div className="pv-stage pv-icon">
+        <IconPreview entry={entry} variant={variant} />
+      </div>
+    );
+  }
   if (!Comp) return <div className="pv-loading">loading…</div>;
   const Demo = DEMO_COMPONENTS[id];
   return (

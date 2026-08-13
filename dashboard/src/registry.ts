@@ -50,8 +50,12 @@ const RAW_ROOT = "https://raw.githubusercontent.com/trym-s/web-design-components
 const raw = (path: string) => `${RAW_ROOT}${path}`;
 
 const refLoaders = import.meta.glob("/ui/**/reference.tsx");
-const refRaw = import.meta.glob("/ui/**/reference.{tsx,md}", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
-const docsRaw = import.meta.glob("/ui/**/{README,SOURCE,PROMPT}.md", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
+// The icon sets are 97% of the bank and their reference/README files are
+// three-line boilerplate the catalog already carries. Loading them eagerly
+// costs ~12k module requests before first paint, so the eager text globs stop
+// at the icon boundary and icon entries are built from catalog metadata below.
+const refRaw = import.meta.glob(["/ui/**/reference.{tsx,md}", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
+const docsRaw = import.meta.glob(["/ui/**/{README,SOURCE,PROMPT}.md", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const previews = import.meta.glob("/ui/**/preview.png", { query: "?url", import: "default", eager: true }) as Record<string, string>;
 const srcRaw = import.meta.glob("/ui/**/{src,registry}/**/*.{ts,tsx,js,jsx,css,html,md,vue,svelte,svg,json}", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 
@@ -94,11 +98,45 @@ function sourceOf(dir: string, has: (f: string) => boolean): SourceName {
   return "beautiful-ui";
 }
 
+/** Icon entries come straight from the catalog; only their sources load lazily. */
+function fromCatalog(metadata: CatalogEntry): Entry {
+  const dir = `/${metadata.paths.directory}`;
+  return {
+    id: metadata.id,
+    dir,
+    category: metadata.category,
+    name: metadata.id.split("/").at(-1)!,
+    title: metadata.title,
+    source: metadata.source,
+    useWhen: metadata.useWhen,
+    nature: metadata.nature,
+    medium: metadata.medium,
+    entryPoint: metadata.entryPoint,
+    files: Object.keys(srcRaw)
+      .filter((path) => path.startsWith(`${dir}/`))
+      .sort()
+      .map((path) => ({ path: path.slice(dir.length + 1), load: srcRaw[path] })),
+    cssProfile: "none",
+    kind: "react",
+    status: metadata.status as Status,
+    statusReason: metadata.statusReason,
+    evidence: metadata.evidence as Entry["evidence"],
+    roles: metadata.roles as Entry["roles"],
+    framework: metadata.framework,
+    availability: metadata.availability,
+    variants: metadata.variants,
+    installation: metadata.installation,
+    bundled: true,
+  };
+}
+
 function build(): Entry[] {
   const dirs = new Set<string>();
   for (const p of Object.keys(refRaw)) dirs.add(dirOf(p));
 
-  const entries: Entry[] = [];
+  const entries: Entry[] = catalog.entries
+    .filter((metadata) => metadata.category === "icons")
+    .map(fromCatalog);
   for (const dir of dirs) {
     const has = (f: string) => `${dir}/${f}` in docsRaw || `${dir}/${f}` in previews;
     const readme = docsRaw[`${dir}/README.md`];
@@ -126,7 +164,9 @@ function build(): Entry[] {
       category: seg[0],
       name,
       title: titleize(name),
-      source: src,
+      // The catalog is authoritative for provenance; the path heuristic below is
+      // only a fallback for a directory the catalog build has not seen yet.
+      source: metadata.source ?? src,
       useWhen: useWhenOf(raw, dir),
       ...readClassification(readme),
       readme,

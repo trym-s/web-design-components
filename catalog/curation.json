@@ -1,0 +1,22 @@
+{
+  "effects/arcade-pixel": {
+    "status": "broken",
+    "statusReason": "The upstream capture omits arcade/cycle.ts, so the full engine is incomplete."
+  },
+  "animation/hover-video-button": {
+    "status": "shim",
+    "statusReason": "The demo requires upstream media over the network."
+  },
+  "effects/emboss": {
+    "status": "shim",
+    "statusReason": "The demo requires upstream textures over the network."
+  },
+  "data-visualization/dither-kit": {
+    "status": "shim",
+    "statusReason": "The dashboard does not compile the Tailwind utilities required by this snapshot."
+  },
+  "typography/ransom-note": {
+    "status": "broken",
+    "statusReason": "The upstream capture omits the sprite manifest and images."
+  }
+}

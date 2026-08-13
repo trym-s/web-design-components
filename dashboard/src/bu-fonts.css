@@ -1,0 +1,12 @@
+/* The captured Beautiful UI sheet declares @font-face sources under
+   /_next/static/media/*, which 404 locally. Point its font stacks at system
+   faces instead — the snapshot itself stays byte-identical to upstream. */
+:root,
+body,
+html {
+  --font-inter: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}

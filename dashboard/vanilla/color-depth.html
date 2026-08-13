@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>color-depth preview</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: flex-start;
+        background: #101014;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The bank file is a markup fragment, not a page: inject it, then load the
+         bank's own CSS and its optional cursor-reactive script unchanged. -->
+    <script type="module">
+      import markup from "/ui/surface/color-depth/src/color-depth/standalone/color-depth.html?raw";
+      import cssUrl from "/ui/surface/color-depth/src/color-depth/standalone/color-depth.css?url";
+      import jsUrl from "/ui/surface/color-depth/src/color-depth/standalone/color-depth.js?url";
+
+      // Drop the fragment's own relative <link>/<script> tags; we wire them here.
+      document.body.insertAdjacentHTML(
+        "beforeend",
+        markup.replace(/<link[^>]*>|<script[^>]*><\/script>/g, ""),
+      );
+
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = cssUrl;
+      document.head.append(link);
+
+      const script = document.createElement("script");
+      script.src = jsUrl;
+      document.body.append(script);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Bank"
+  short_description: "Select and adapt UI references for a target project"
+  default_prompt: "Use $ui-bank to design and implement this interface from the local UI reference bank."

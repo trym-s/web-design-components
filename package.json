@@ -1,0 +1,35 @@
+{
+  "name": "ui-reference-bank-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog:build": "node tools/ui-bank.mjs build",
+    "catalog:check": "node tools/ui-bank.mjs check",
+    "catalog:test": "node --test tools/ui-bank.test.mjs",
+    "skill:install": "node tools/install-ui-bank-skill.mjs",
+    "dev": "node node_modules/vite/bin/vite.js",
+    "build": "npm run catalog:check && node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "d3-scale": "^4.0.2",
+    "d3-shape": "^3.2.0",
+    "glimm": "*",
+    "iconoir-react": "^7.11.0",
+    "liveline": "*",
+    "motion": "^11.15.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.171.0",
+    "tinted": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

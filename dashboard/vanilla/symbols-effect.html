@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>symbols-effect preview</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #101014;
+      }
+      canvas {
+        width: min(100%, 720px);
+        aspect-ratio: 16 / 10;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="stage"></canvas>
+    <!-- SymbolsEffect is a plain Three.js class with no bundled demo. Feed it a
+         local image from the bank so the preview needs no network. -->
+    <script type="module">
+      import { SymbolsEffect } from "/ui/effects/symbols-effect/src/sandbox/standalone/SymbolsEffect.ts";
+
+      const fx = new SymbolsEffect(document.getElementById("stage"), {
+        cell: 12,
+        bandColors: ["#101014", "#3b4a8c", "#7aa2ff", "#f4f4f8"],
+        bandStops: [0, 0.28, 0.55, 0.78, 1],
+        bandGlyphs: [0, 3, 6, 9],
+        bg: "#101014",
+      });
+      fx.setImage("/ui/effects/ascii-swirl/preview.png");
+      addEventListener("resize", () => fx.render());
+    </script>
+  </body>
+</html>

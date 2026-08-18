@@ -24,6 +24,7 @@ export interface Chip {
 export interface Query {
   mode: Mode;
   group: string;
+  source: string;
   chip: string;
   text: string;
 }
@@ -76,9 +77,20 @@ export function useCatalogView(entries: Entry[], query: Query) {
 
     const grouped = query.group === ALL ? pool : pool.filter((entry) => groupOf(entry) === query.group);
 
-    const chipCounts = tally(grouped, (entry) => chipOf(entry, query.mode));
+    const sourceCounts = tally(grouped, (entry) => [entry.source]);
+    const sources: Chip[] = [
+      { key: ALL, label: "All sources", count: grouped.length },
+      ...[...sourceCounts.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([key, count]) => ({ key, label: key, count })),
+    ];
+    const sourced = query.mode === "components" && query.source !== ALL
+      ? grouped.filter((entry) => entry.source === query.source)
+      : grouped;
+
+    const chipCounts = tally(sourced, (entry) => chipOf(entry, query.mode));
     const chips: Chip[] = [
-      { key: ALL, label: "All", count: grouped.length },
+      { key: ALL, label: "All", count: sourced.length },
       ...[...chipCounts.entries()]
         .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
         .map(([key, count]) => ({ key, label: label(key), count, tone: TONES[key] })),
@@ -86,8 +98,8 @@ export function useCatalogView(entries: Entry[], query: Query) {
 
     const chipped =
       query.chip === ALL
-        ? grouped
-        : grouped.filter((entry) => chipOf(entry, query.mode).includes(query.chip));
+        ? sourced
+        : sourced.filter((entry) => chipOf(entry, query.mode).includes(query.chip));
 
     // Free text reuses the palette's ranking so the sidebar filter and ⌘K agree
     // on what "matches" means, instead of one being substring and the other fuzzy.
@@ -105,8 +117,8 @@ export function useCatalogView(entries: Entry[], query: Query) {
         ? [...chipped].sort(newestFirst)
         : chipped;
 
-    return { groups, chips, results, poolSize: pool.length };
-  }, [entries, query.mode, query.group, query.chip, query.text]);
+    return { groups, sources, chips, results, poolSize: pool.length };
+  }, [entries, query.mode, query.group, query.source, query.chip, query.text]);
 }
 
 /** Every reference, ranked by the palette across both modes. */

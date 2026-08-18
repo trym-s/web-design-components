@@ -8,6 +8,7 @@ A perspective image gallery with card selection, keyboard navigation, and option
 - Medium: React + TypeScript + CSS transforms
 - Entry point: `src/coverflow-gallery.tsx`
 - Nature: interactive; reuse the card hierarchy, perspective treatment, and keyboard controls.
+- Added: 2026-08-18T11:23:07+03:00
 
 ## Files
 

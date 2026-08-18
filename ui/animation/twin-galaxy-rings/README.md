@@ -8,6 +8,7 @@ A pointer-reactive two-color particle galaxy with scroll-like spiral motion.
 - Medium: React + TypeScript + Canvas 2D
 - Entry point: `src/twin-galaxy-rings.tsx`
 - Nature: interactive; reuse its particle-field visual treatment and pointer response.
+- Added: 2026-08-18T11:42:20+03:00
 
 ## Files
 

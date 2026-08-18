@@ -24,7 +24,8 @@
 - Use nearby `preview.png` as visual grounding; it is captured from the original reference site.
 - Current source sites: `https://beautiful-ui-five.vercel.app/` and `https://www.arlan.me/vault` (see `ui/_sources/arlan-vault/SOURCE.md`).
 - Every reference README carries a `## Classification` block: category, medium, entry point, and
-  nature (`decorative` visual-only vs `structural` / `interactive` / `functional`). Decorative
+  nature (`decorative` visual-only vs `structural` / `interactive` / `functional`), plus an
+  ISO-8601 `Added` timestamp for newest-first browsing. Decorative
   entries supply look-and-feel only — never lift their layout or interaction as a UX pattern.
 - Arlan vault entries ship a `PROMPT.md`: the upstream agent prompt with the whole source inline.
   Pass it verbatim to an agent that must port the effect; read `src/` when you only need technique.

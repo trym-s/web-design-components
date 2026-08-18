@@ -8,6 +8,7 @@ Nested rotating torus rings with a draggable overall orientation and hover-speed
 - Medium: React + TypeScript + Three.js
 - Entry point: `src/gyro-rings.tsx`
 - Nature: interactive; reuse its kinetic ornament treatment and pointer interaction.
+- Added: 2026-08-18T11:42:20+03:00
 
 ## Files
 

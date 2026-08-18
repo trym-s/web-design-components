@@ -36,6 +36,7 @@ export interface Entry {
   framework?: string;
   availability?: "public" | "personal-cache";
   variants?: string[];
+  addedAt?: string;
   installation?: {
     method: "shadcn" | "source";
     command?: string;
@@ -125,6 +126,7 @@ function fromCatalog(metadata: CatalogEntry): Entry {
     framework: metadata.framework,
     availability: metadata.availability,
     variants: metadata.variants,
+    addedAt: metadata.addedAt,
     installation: metadata.installation,
     bundled: true,
   };
@@ -184,6 +186,7 @@ function build(): Entry[] {
       framework: metadata.framework,
       availability: metadata.availability,
       variants: metadata.variants,
+      addedAt: metadata.addedAt,
       installation: metadata.installation,
       bundled: true,
     });
@@ -231,6 +234,7 @@ export async function loadLiveCatalog() {
     framework: metadata.framework,
     availability: metadata.availability,
     variants: metadata.variants,
+    addedAt: metadata.addedAt,
     installation: metadata.installation,
     bundled: false,
   });

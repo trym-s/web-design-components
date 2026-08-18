@@ -106,6 +106,7 @@ function discover() {
       id, title: titleize(id.split("/").at(-1)), category,
       source: sourceOf(id, sourceDoc, existsSync(promptPath)), nature, roles,
       capabilities: capabilities(id, use, nature), useWhen: use, medium,
+      addedAt: grab(readme, "Added"),
       entryPoint: grab(readme, "Entry point") ?? relative(dir, ref),
       status: availability === "personal-cache" ? "broken" : status,
       statusReason: availability === "personal-cache" ? "Source is available only in the ignored personal cache." : curation[id]?.statusReason,
@@ -134,6 +135,7 @@ function validate(entries) {
     if (!NATURES.has(entry.nature)) errors.push(`invalid nature: ${entry.id}`);
     if (!STATUSES.has(entry.status)) errors.push(`invalid status: ${entry.id}`);
     if (!EVIDENCE.has(entry.evidence)) errors.push(`invalid evidence: ${entry.id}`);
+    if (entry.addedAt && Number.isNaN(Date.parse(entry.addedAt))) errors.push(`invalid Added date: ${entry.id}`);
     for (const [name, path] of Object.entries(entry.paths)) {
       if (path && !existsSync(join(ROOT, path))) errors.push(`missing ${name}: ${entry.id} -> ${path}`);
     }

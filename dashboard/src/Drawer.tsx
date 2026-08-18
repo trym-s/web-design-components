@@ -25,7 +25,7 @@ const WIDTHS = [
 export function Drawer({ entry, onClose }: { entry: Entry; onClose: () => void }) {
   const [tab, setTab] = useState<Tab>("preview");
   const [width, setWidth] = useState(0);
-  const [shot, setShot] = useState(false);
+  const [shot, setShot] = useState(!entry.bundled && Boolean(entry.preview));
   const [variant, setVariant] = useState(entry.variants?.[0] ?? "default");
   const [file, setFile] = useState(entry.files[0]?.path ?? null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -33,7 +33,7 @@ export function Drawer({ entry, onClose }: { entry: Entry; onClose: () => void }
 
   useEffect(() => {
     setTab("preview");
-    setShot(false);
+    setShot(!entry.bundled && Boolean(entry.preview));
     setVariant(entry.variants?.[0] ?? "default");
     setFile(entry.files[0]?.path ?? null);
     closeRef.current?.focus({ preventScroll: true });

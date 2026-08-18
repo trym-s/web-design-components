@@ -5,6 +5,7 @@
 - After adding or changing a reference, run `npm run catalog:build`; CI/build uses
   `npm run catalog:check` to reject a stale or inconsistent `catalog/catalog.json`.
 - After adding a component reference, commit and push its completed capture to the configured remote.
+- Treat a user-provided code block as a request to add that component to this UI reference bank unless they state another intent.
 - Query agent-facing candidates with `node tools/ui-bank.mjs search ...`; inspect a candidate with
   `node tools/ui-bank.mjs show <id>` before adapting it.
 - Install the user-invoked `$ui-bank` workflow on a cloned host with `npm run skill:install`. It

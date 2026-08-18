@@ -11,6 +11,7 @@ const CURATION = join(ROOT, "catalog", "curation.json");
 const NATURES = new Set(["decorative", "structural", "interactive", "functional", "unknown"]);
 const STATUSES = new Set(["ok", "shim", "broken"]);
 const EVIDENCE = new Set(["verified", "review", "limited", "blocked"]);
+const CURATIONS = new Set(["pending", "curated"]);
 
 const ROLE_BY_CATEGORY = {
   animation: ["visual", "behavior"], effects: ["visual"], typography: ["visual"], surface: ["visual"],
@@ -37,6 +38,18 @@ function text(path) {
 
 function grab(readme, label) {
   return readme.match(new RegExp(`^- ${label}: (.*)$`, "m"))?.[1]?.replaceAll("`", "").trim();
+}
+
+function selectionOf(readme, fallbackCategory, fallbackUseWhen) {
+  return {
+    category: grab(readme, "Category")?.split("—")[0].trim() ?? fallbackCategory,
+    curation: grab(readme, "Curation")?.toLowerCase() ?? "pending",
+    useWhen: grab(readme, "Use when") ?? fallbackUseWhen,
+    avoidWhen: grab(readme, "Avoid when"),
+    chooseOver: grab(readme, "Choose over"),
+    provides: grab(readme, "Provides"),
+    requires: grab(readme, "Requires"),
+  };
 }
 
 function useWhen(raw) {
@@ -78,7 +91,7 @@ function discover() {
   return refs.map((ref) => {
     const dir = dirname(ref);
     const id = relative(UI, dir).split(sep).join("/");
-    const category = id.split("/")[0];
+    const pathCategory = id.split("/")[0];
     const readmePath = join(dir, "README.md");
     const sourcePath = join(dir, "SOURCE.md");
     const promptPath = join(dir, "PROMPT.md");
@@ -89,7 +102,8 @@ function discover() {
     const status = curation[id]?.status ?? "ok";
     const preview = existsSync(previewPath);
     const evidence = status === "broken" ? "blocked" : status === "shim" ? "limited" : readme && preview ? "verified" : "review";
-    const use = useWhen(text(ref));
+    const selection = selectionOf(readme, pathCategory, useWhen(text(ref)));
+    const { category, curation: curationState, useWhen: use, avoidWhen, chooseOver, provides, requires } = selection;
     const medium = grab(readme, "Medium") ?? "unknown";
     const framework = grab(readme, "Framework");
     const availability = grab(readme, "Availability") ?? "public";
@@ -104,8 +118,9 @@ function discover() {
       .sort();
     return {
       id, title: titleize(id.split("/").at(-1)), category,
-      source: sourceOf(id, sourceDoc, existsSync(promptPath)), nature, roles,
+      source: sourceOf(id, sourceDoc, existsSync(promptPath)), nature, roles, curation: curationState,
       capabilities: capabilities(id, use, nature), useWhen: use, medium,
+      avoidWhen, chooseOver, provides, requires,
       addedAt: grab(readme, "Added"),
       entryPoint: grab(readme, "Entry point") ?? relative(dir, ref),
       status: availability === "personal-cache" ? "broken" : status,
@@ -132,6 +147,11 @@ function validate(entries) {
     if (ids.has(entry.id)) errors.push(`duplicate id: ${entry.id}`);
     ids.add(entry.id);
     if (!entry.useWhen) errors.push(`missing Use when: ${entry.id}`);
+    if (!CURATIONS.has(entry.curation)) errors.push(`invalid Curation: ${entry.id}`);
+    if (!(entry.category in ROLE_BY_CATEGORY)) errors.push(`invalid Category: ${entry.id}`);
+    if (entry.curation === "curated" && !grab(text(join(ROOT, entry.paths.readme ?? "")), "Use when")) {
+      errors.push(`curated reference needs README Use when: ${entry.id}`);
+    }
     if (!NATURES.has(entry.nature)) errors.push(`invalid nature: ${entry.id}`);
     if (!STATUSES.has(entry.status)) errors.push(`invalid status: ${entry.id}`);
     if (!EVIDENCE.has(entry.evidence)) errors.push(`invalid evidence: ${entry.id}`);
@@ -154,7 +174,7 @@ function loadCatalog() {
 }
 
 function search(entries, args) {
-  const options = { limit: 8, includeBlocked: false, terms: [] };
+  const options = { limit: 8, includeBlocked: false, includePending: false, terms: [] };
   for (let index = 0; index < args.length; index++) {
     const value = args[index];
     if (value === "--role") options.role = args[++index];
@@ -163,11 +183,13 @@ function search(entries, args) {
     else if (value === "--medium") options.medium = args[++index];
     else if (value === "--limit") options.limit = Number(args[++index]);
     else if (value === "--include-blocked") options.includeBlocked = true;
+    else if (value === "--include-pending") options.includePending = true;
     else options.terms.push(value.toLowerCase());
   }
   const evidenceScore = { verified: 12, review: 5, limited: -8, blocked: -100 };
   return entries.flatMap((entry) => {
     if (!options.includeBlocked && entry.evidence === "blocked") return [];
+    if (!options.includePending && entry.curation !== "curated") return [];
     if (options.role && !entry.roles.includes(options.role)) return [];
     if (options.nature && entry.nature !== options.nature) return [];
     if (options.category && entry.category !== options.category) return [];
@@ -209,8 +231,11 @@ try {
     const entry = loadCatalog().find((candidate) => candidate.id === args[0]);
     if (!entry) throw new Error(`unknown reference: ${args[0] ?? "<missing>"}`);
     console.log(JSON.stringify(entry, null, 2));
+  } else if (command === "next") {
+    const entry = loadCatalog().find((candidate) => candidate.category !== "icons" && candidate.curation === "pending");
+    console.log(JSON.stringify(entry ? { ...entry, curationPath: `${entry.paths.directory}/README.md` } : null, null, 2));
   } else {
-    console.log("usage: node tools/ui-bank.mjs build|check|search [terms] [--role visual|structure|behavior] [--nature value] [--category value] [--medium value] [--limit n] [--include-blocked]|show <id>");
+    console.log("usage: node tools/ui-bank.mjs build|check|next|search [terms] [--role visual|structure|behavior] [--nature value] [--category value] [--medium value] [--limit n] [--include-blocked] [--include-pending]|show <id>");
   }
 } catch (error) {
   console.error(error.message);

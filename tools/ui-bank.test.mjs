@@ -16,14 +16,27 @@ test("decorative references are visual-only", () => {
 });
 
 test("structural search excludes decorative and blocked references", () => {
-  const results = run("search", "dashboard", "table", "--role", "structure", "--limit", "20");
+  const results = run("search", "dashboard", "table", "--role", "structure", "--include-pending", "--limit", "20");
   assert.ok(results.length > 0);
   assert.ok(results.every((entry) => entry.nature !== "decorative" && entry.evidence !== "blocked"));
 });
 
 test("blocked references require explicit inclusion", () => {
   assert.equal(run("search", "arcade-pixel").length, 0);
-  assert.equal(run("search", "arcade-pixel", "--include-blocked")[0].evidence, "blocked");
+  assert.equal(run("search", "arcade-pixel", "--include-blocked", "--include-pending")[0].evidence, "blocked");
+});
+
+test("search only returns human-curated references", () => {
+  const results = run("search", "button", "--include-pending", "--limit", "200");
+  assert.ok(results.some((entry) => entry.curation === "pending"));
+  assert.ok(run("search", "button", "--limit", "200").every((entry) => entry.curation === "curated"));
+});
+
+test("next returns one pending non-icon reference", () => {
+  const entry = run("next");
+  assert.equal(entry.curation, "pending");
+  assert.notEqual(entry.category, "icons");
+  assert.equal(entry.curationPath, `${entry.paths.directory}/README.md`);
 });
 
 test("animated icon inventories and installation metadata are complete", () => {

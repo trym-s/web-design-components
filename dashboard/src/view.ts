@@ -58,6 +58,9 @@ export const label = (key: string) =>
     .map((word) => WORDS[word] ?? word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
+export const newestFirst = (a: Entry, b: Entry) =>
+  (b.addedAt ?? "").localeCompare(a.addedAt ?? "") || a.id.localeCompare(b.id);
+
 export function useCatalogView(entries: Entry[], query: Query) {
   return useMemo(() => {
     const pool = entries.filter((entry) => (query.mode === "icons" ? isIcon(entry) : !isIcon(entry)));
@@ -98,7 +101,9 @@ export function useCatalogView(entries: Entry[], query: Query) {
           })),
           query.text,
         ).map((item) => item.entry)
-      : chipped;
+      : query.mode === "components"
+        ? [...chipped].sort(newestFirst)
+        : chipped;
 
     return { groups, chips, results, poolSize: pool.length };
   }, [entries, query.mode, query.group, query.chip, query.text]);

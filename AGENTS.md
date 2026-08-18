@@ -4,6 +4,8 @@
 
 - After adding or changing a reference, run `npm run catalog:build`; CI/build uses
   `npm run catalog:check` to reject a stale or inconsistent `catalog/catalog.json`.
+- After adding a component reference, commit and push its completed capture to the configured remote.
+- Treat a user-provided code block as a request to add that component to this UI reference bank unless they state another intent.
 - Query agent-facing candidates with `node tools/ui-bank.mjs search ...`; inspect a candidate with
   `node tools/ui-bank.mjs show <id>` before adapting it.
 - Install the user-invoked `$ui-bank` workflow on a cloned host with `npm run skill:install`. It
@@ -22,7 +24,8 @@
 - Use nearby `preview.png` as visual grounding; it is captured from the original reference site.
 - Current source sites: `https://beautiful-ui-five.vercel.app/` and `https://www.arlan.me/vault` (see `ui/_sources/arlan-vault/SOURCE.md`).
 - Every reference README carries a `## Classification` block: category, medium, entry point, and
-  nature (`decorative` visual-only vs `structural` / `interactive` / `functional`). Decorative
+  nature (`decorative` visual-only vs `structural` / `interactive` / `functional`), plus an
+  ISO-8601 `Added` timestamp for newest-first browsing. Decorative
   entries supply look-and-feel only — never lift their layout or interaction as a UX pattern.
 - Arlan vault entries ship a `PROMPT.md`: the upstream agent prompt with the whole source inline.
   Pass it verbatim to an agent that must port the effect; read `src/` when you only need technique.

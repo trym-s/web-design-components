@@ -24,10 +24,12 @@ export function scoreOne(text: string, query: string): number {
   let cursor = 0;
   let total = 0;
   let streak = 0;
+  let first = -1;
 
   for (let i = 0; i < query.length; i++) {
     const at = t.indexOf(query[i], cursor);
     if (at < 0) return -1;
+    if (first < 0) first = at;
     streak = at === cursor && i > 0 ? streak + 1 : 0;
     total += 2 + streak * 4;
     if (at === 0) total += 12;
@@ -35,7 +37,15 @@ export function scoreOne(text: string, query: string): number {
     cursor = at + 1;
   }
 
-  return total;
+  return cursor - first > query.length + 2 ? -1 : total;
+}
+
+function scoreKeywords(text: string, query: string): number {
+  if (text.toLowerCase().includes(query)) return scoreOne(text, query);
+  return Math.max(
+    -1,
+    ...text.split(/[^a-z0-9]+/i).map((word) => scoreOne(word, query)),
+  );
 }
 
 export function rank<T extends Command>(items: T[], query: string, limit = Infinity): T[] {
@@ -46,7 +56,7 @@ export function rank<T extends Command>(items: T[], query: string, limit = Infin
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
     const direct = scoreOne(item.label, q);
-    const aliased = item.keywords ? scoreOne(item.keywords, q) - 3 : -1;
+    const aliased = item.keywords ? scoreKeywords(item.keywords, q) - 3 : -1;
     const best = Math.max(direct, aliased);
     if (best < 0) continue;
     scored.push({ item, score: best - item.label.length * 0.05, order: i });

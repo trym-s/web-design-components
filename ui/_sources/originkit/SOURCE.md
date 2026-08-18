@@ -9,3 +9,5 @@
 Static image assets supplied by the component's original URLs, localized for offline playback.
 
 Also contains the Framer-hosted polished-metal matcap used by Gyro Rings.
+
+Interactive Grid's ten Cloudflare Images assets are localized under `interactive-grid/`.

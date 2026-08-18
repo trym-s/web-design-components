@@ -7,3 +7,5 @@
 - License: not supplied
 
 Static image assets supplied by the component's original URLs, localized for offline playback.
+
+Also contains the Framer-hosted polished-metal matcap used by Gyro Rings.

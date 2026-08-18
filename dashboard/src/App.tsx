@@ -41,6 +41,7 @@ export function App() {
   const [theme, toggleTheme] = useTheme();
   const [mode, setMode] = useState<Mode>(() => (CATEGORIES.length > 1 ? "components" : "icons"));
   const [group, setGroup] = useState(ALL);
+  const [source, setSource] = useState(ALL);
   const [chip, setChip] = useState(ALL);
   const [text, setText] = useState("");
   const [paletteOpen, setPaletteOpen] = useState(false);
@@ -48,7 +49,7 @@ export function App() {
   const searchRef = useRef<HTMLInputElement>(null);
   const { live, play, stop } = useLiveQueue();
 
-  const view = useCatalogView(ENTRIES, { mode, group, chip, text });
+  const view = useCatalogView(ENTRIES, { mode, group, source, chip, text });
   const commands = useCommands(ENTRIES);
 
   const totals = useMemo(() => {
@@ -85,11 +86,13 @@ export function App() {
   const switchMode = (next: Mode) => {
     setMode(next);
     setGroup(ALL);
+    setSource(ALL);
     setChip(ALL);
   };
 
   const clearAll = () => {
     setGroup(ALL);
+    setSource(ALL);
     setChip(ALL);
     setText("");
   };
@@ -139,10 +142,16 @@ export function App() {
         <Results
           mode={mode}
           entries={view.results}
+          sources={view.sources}
+          source={source}
+          onSource={(key) => {
+            setSource(key);
+            setChip(ALL);
+          }}
           chips={view.chips}
           chip={chip}
           onChip={setChip}
-          resetKey={`${mode}|${group}|${chip}|${text}`}
+          resetKey={`${mode}|${group}|${source}|${chip}|${text}`}
           onOpen={open}
           live={live}
           onPlay={play}

@@ -18,6 +18,9 @@ const PAGE = { components: 24, icons: 90 } as const;
 interface Props {
   mode: Mode;
   entries: Entry[];
+  sources: Chip[];
+  source: string;
+  onSource: (key: string) => void;
   chips: Chip[];
   chip: string;
   onChip: (key: string) => void;
@@ -32,6 +35,9 @@ interface Props {
 export function Results({
   mode,
   entries,
+  sources,
+  source,
+  onSource,
   chips,
   chip,
   onChip,
@@ -50,6 +56,22 @@ export function Results({
 
   return (
     <div className="results">
+      {mode === "components" && (
+        <div className="chips" role="group" aria-label="Source">
+          {sources.map((item) => (
+            <button
+              key={item.key}
+              className="chip"
+              aria-pressed={source === item.key}
+              data-on={source === item.key}
+              onClick={() => onSource(source === item.key && item.key !== ALL ? ALL : item.key)}
+            >
+              {item.label}
+              <span className="count">{item.count}</span>
+            </button>
+          ))}
+        </div>
+      )}
       <div className="chips" role="group" aria-label={mode === "icons" ? "Framework" : "Role"}>
         {chips.map((item) => {
           const active = chip === item.key;

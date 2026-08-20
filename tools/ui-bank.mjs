@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const UI = join(ROOT, "ui");
+const BANS = join(ROOT, "bans");
 const OUTPUT = join(ROOT, "catalog", "catalog.json");
 const CURATION = join(ROOT, "catalog", "curation.json");
 const NATURES = new Set(["decorative", "structural", "interactive", "functional", "unknown"]);
@@ -140,6 +141,35 @@ function discover() {
   }).sort((a, b) => a.id.localeCompare(b.id));
 }
 
+/** Bans are output rules for adapted interfaces; `bans/` is their only source of truth. */
+function discoverBans() {
+  if (!existsSync(BANS)) return [];
+  return readdirSync(BANS).filter((file) => file.endsWith(".md")).sort().map((file) => {
+    const raw = text(join(BANS, file));
+    const front = raw.match(/^---\n([\s\S]*?)\n---\n/);
+    const body = front ? raw.slice(front[0].length) : raw;
+    const field = (name) => front?.[1].match(new RegExp(`^${name}: (.*)$`, "m"))?.[1].trim() ?? "";
+    const section = (name) => body.match(new RegExp(`^## ${name}\\s+([\\s\\S]*?)(?=\\n## |$)`, "m"))?.[1].replace(/\s+/g, " ").trim() ?? "";
+    return { id: field("id"), file: relative(ROOT, join(BANS, file)), title: field("title"), rule: section("Rule"), instead: section("Instead") };
+  });
+}
+
+function validateBans(bans) {
+  const errors = [];
+  const ids = new Set();
+  for (const ban of bans) {
+    const slug = ban.file.split("/").pop().replace(/\.md$/, "");
+    if (!ban.id) errors.push(`ban missing id: ${ban.file}`);
+    else if (ban.id !== slug) errors.push(`ban id must match filename: ${ban.file} -> ${ban.id}`);
+    if (ids.has(ban.id)) errors.push(`duplicate ban id: ${ban.id}`);
+    ids.add(ban.id);
+    for (const part of ["title", "rule", "instead"]) {
+      if (!ban[part]) errors.push(`ban missing ${part}: ${ban.file}`);
+    }
+  }
+  return errors;
+}
+
 function validate(entries) {
   const errors = [];
   const ids = new Set();
@@ -170,7 +200,7 @@ function validate(entries) {
 
 function loadCatalog() {
   if (!existsSync(OUTPUT)) throw new Error("catalog/catalog.json missing; run `npm run catalog:build`");
-  return JSON.parse(text(OUTPUT)).entries;
+  return JSON.parse(text(OUTPUT));
 }
 
 function search(entries, args) {
@@ -214,28 +244,35 @@ const [command = "help", ...args] = process.argv.slice(2);
 try {
   if (command === "build") {
     const entries = discover();
-    const errors = validate(entries);
+    const bans = discoverBans();
+    const errors = [...validate(entries), ...validateBans(bans)];
     if (errors.length) throw new Error(errors.join("\n"));
-    writeFileSync(OUTPUT, `${JSON.stringify({ schemaVersion: 1, generatedFrom: "ui/", entries }, null, 2)}\n`);
-    console.log(`wrote ${relative(ROOT, OUTPUT)} (${entries.length} references)`);
+    writeFileSync(OUTPUT, `${JSON.stringify({ schemaVersion: 2, generatedFrom: "ui/", bans, entries }, null, 2)}\n`);
+    console.log(`wrote ${relative(ROOT, OUTPUT)} (${entries.length} references, ${bans.length} bans)`);
   } else if (command === "check") {
     const discovered = discover();
-    const errors = validate(discovered);
+    const bans = discoverBans();
+    const errors = [...validate(discovered), ...validateBans(bans)];
     const current = loadCatalog();
-    if (JSON.stringify(discovered) !== JSON.stringify(current)) errors.push("catalog/catalog.json is stale; run `npm run catalog:build`");
+    if (JSON.stringify(discovered) !== JSON.stringify(current.entries)) errors.push("catalog/catalog.json is stale; run `npm run catalog:build`");
+    if (JSON.stringify(bans) !== JSON.stringify(current.bans ?? [])) errors.push("catalog/catalog.json bans are stale; run `npm run catalog:build`");
     if (errors.length) throw new Error(errors.join("\n"));
-    console.log(`catalog valid (${current.length} references)`);
+    console.log(`catalog valid (${current.entries.length} references, ${bans.length} bans)`);
   } else if (command === "search") {
-    console.log(JSON.stringify(search(loadCatalog(), args), null, 2));
+    const catalog = loadCatalog();
+    console.log(JSON.stringify({ bans: catalog.bans ?? [], results: search(catalog.entries, args) }, null, 2));
   } else if (command === "show") {
-    const entry = loadCatalog().find((candidate) => candidate.id === args[0]);
+    const catalog = loadCatalog();
+    const entry = catalog.entries.find((candidate) => candidate.id === args[0]);
     if (!entry) throw new Error(`unknown reference: ${args[0] ?? "<missing>"}`);
-    console.log(JSON.stringify(entry, null, 2));
+    console.log(JSON.stringify({ bans: catalog.bans ?? [], reference: entry }, null, 2));
   } else if (command === "next") {
-    const entry = loadCatalog().find((candidate) => candidate.category !== "icons" && candidate.curation === "pending");
+    const entry = loadCatalog().entries.find((candidate) => candidate.category !== "icons" && candidate.curation === "pending");
     console.log(JSON.stringify(entry ? { ...entry, curationPath: `${entry.paths.directory}/README.md` } : null, null, 2));
+  } else if (command === "bans") {
+    console.log(JSON.stringify(loadCatalog().bans ?? [], null, 2));
   } else {
-    console.log("usage: node tools/ui-bank.mjs build|check|next|search [terms] [--role visual|structure|behavior] [--nature value] [--category value] [--medium value] [--limit n] [--include-blocked] [--include-pending]|show <id>");
+    console.log("usage: node tools/ui-bank.mjs build|check|next|bans|search [terms] [--role visual|structure|behavior] [--nature value] [--category value] [--medium value] [--limit n] [--include-blocked] [--include-pending]|show <id>");
   }
 } catch (error) {
   console.error(error.message);

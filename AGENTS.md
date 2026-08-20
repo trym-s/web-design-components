@@ -1,5 +1,19 @@
 # UI Reference Bank
 
+## Agent skills
+
+### Issue tracker
+
+Issues live as GitHub issues in `trym-s/web-design-components`, driven with the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical triage labels are used under their default names. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
 ## Agent selection workflow
 
 - After adding or changing a reference, run `npm run catalog:build`; CI/build uses
@@ -31,6 +45,12 @@
   Pass it verbatim to an agent that must port the effect; read `src/` when you only need technique.
 - Reuse visual hierarchy, spacing, color, radius, shadow, and interaction decisions.
 - Translate the reference into the target project's framework and conventions.
+- Bans live in `bans/`, one Markdown file per ban, and are compiled into `catalog/catalog.json` by
+  `npm run catalog:build`. Every `search` and `show` payload carries them, and
+  `node tools/ui-bank.mjs bans` prints them. They govern the interface produced from the bank, not
+  the bank itself: a pinned snapshot may contain a banned pattern and stay a valid reference. Add a
+  ban by adding a file with `id`/`title` front matter and `## Rule` / `## Instead` sections; never
+  restate its text anywhere else.
 - Do not invent missing design values or combine conflicting references.
 - Treat every retained `src/` or `registry/` tree as a pinned source snapshot, not an installable package.
 

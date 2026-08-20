@@ -7,6 +7,12 @@ description: Autonomously design and implement a target project's interface from
 
 Use the bank as design evidence, not as an installable component package. Keep `ui/` read-only.
 
+## Bans
+
+The bank carries house bans: patterns that must not appear in the interface you produce. They are rules about your output, not about the references — a reference may contain a banned pattern and still be a valid source for everything else in it. Adapt around the banned part; never reproduce it.
+
+Bans are binding, not preferences to weigh. Every `search` and `show` payload carries the current list in its `bans` field, so read it there; `node tools/ui-bank.mjs bans` prints it on its own. The registry in `bans/` is the only source of truth — no other file restates a ban's text.
+
 ## 1. Derive UI requirements
 
 Read the target project's instructions, product language, interface, design tokens, framework,
@@ -20,8 +26,18 @@ Completion criterion: every material interface need is represented by a UI requi
 
 ## 2. Select references
 
-Locate this skill's repository root by walking upward until `tools/ui-bank.mjs` and
-`catalog/catalog.json` exist. Run `npm run catalog:check`, then query:
+This skill runs from a symlink (`<agent-home>/skills/ui-bank`) into the bank repository; the target project you're working in is not that repository, so do not look for `tools/ui-bank.mjs` by walking up from the target project's working directory — it won't be an ancestor. Resolve the bank root from the symlink's real path instead:
+
+```bash
+SKILL_LINK="$(realpath "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/skills/ui-bank" 2>/dev/null \
+  || realpath "${CODEX_HOME:-$HOME/.codex}/skills/ui-bank" 2>/dev/null \
+  || realpath "${HERMES_HOME:-$HOME/.hermes}/skills/ui-bank" 2>/dev/null \
+  || realpath "${ANTIGRAVITY_HOME:-$HOME/.gemini}/skills/ui-bank" 2>/dev/null \
+  || realpath "${AGENTS_HOME:-$HOME/.agents}/skills/ui-bank" 2>/dev/null)"
+BANK_ROOT="$(cd "$SKILL_LINK/../../.." && pwd)"
+```
+
+If none of those paths exist, ask the user for the bank repository's location on this host — it must be cloned locally (it is not fetched over the network) — then run `npm run skill:install` there to (re)create the symlink. Once `BANK_ROOT` is known, `cd "$BANK_ROOT"`, confirm `tools/ui-bank.mjs` and `catalog/catalog.json` exist, run `npm run catalog:check`, then query:
 
 ```bash
 node tools/ui-bank.mjs search <need terms> --role structure --limit 8
@@ -55,6 +71,10 @@ Implement the selected composition in the target project's framework, tokens, ac
 patterns, and domain language. Preserve useful behavior and hierarchy, not snapshot-specific layout
 or literal copy. Do not add the bank as a runtime dependency or edit its snapshots.
 
+Apply every ban from the `bans` field to what you produce, even when the selected reference uses a
+banned pattern. Replace the banned part with that ban's `instead` guidance and note the substitution
+in the decision record.
+
 Cover the states the target needs: loading, empty, error, permission, overflow, keyboard, reduced
 motion, and mobile. Avoid fabricating backend behavior.
 
@@ -69,4 +89,4 @@ Write `docs/ui-decisions/<dashboard-slug>.md` using
 
 Completion criterion: every UI requirement is implemented or explicitly unsupported by the
 curated bank, validation passes, screenshots were inspected, and the decision record names selected
-references and remaining limitations.
+references, any ban substitutions, and remaining limitations.

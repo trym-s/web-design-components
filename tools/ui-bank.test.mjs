@@ -16,20 +16,20 @@ test("decorative references are visual-only", () => {
 });
 
 test("structural search excludes decorative and blocked references", () => {
-  const results = run("search", "dashboard", "table", "--role", "structure", "--include-pending", "--limit", "20");
+  const { results } = run("search", "dashboard", "table", "--role", "structure", "--include-pending", "--limit", "20");
   assert.ok(results.length > 0);
   assert.ok(results.every((entry) => entry.nature !== "decorative" && entry.evidence !== "blocked"));
 });
 
 test("blocked references require explicit inclusion", () => {
-  assert.equal(run("search", "arcade-pixel").length, 0);
-  assert.equal(run("search", "arcade-pixel", "--include-blocked", "--include-pending")[0].evidence, "blocked");
+  assert.equal(run("search", "arcade-pixel").results.length, 0);
+  assert.equal(run("search", "arcade-pixel", "--include-blocked", "--include-pending").results[0].evidence, "blocked");
 });
 
 test("search only returns human-curated references", () => {
-  const results = run("search", "button", "--include-pending", "--limit", "200");
+  const { results } = run("search", "button", "--include-pending", "--limit", "200");
   assert.ok(results.some((entry) => entry.curation === "pending"));
-  assert.ok(run("search", "button", "--limit", "200").every((entry) => entry.curation === "curated"));
+  assert.ok(run("search", "button", "--limit", "200").results.every((entry) => entry.curation === "curated"));
 });
 
 test("next returns one pending non-icon reference", () => {
@@ -37,6 +37,15 @@ test("next returns one pending non-icon reference", () => {
   assert.equal(entry.curation, "pending");
   assert.notEqual(entry.category, "icons");
   assert.equal(entry.curationPath, `${entry.paths.directory}/README.md`);
+});
+
+test("bans are complete and reach every selection surface", () => {
+  assert.ok(catalog.bans.length > 0);
+  assert.ok(catalog.bans.every((ban) => ban.id && ban.title && ban.rule && ban.instead));
+  const ids = catalog.bans.map((ban) => ban.id);
+  assert.deepEqual(run("bans").map((ban) => ban.id), ids);
+  assert.deepEqual(run("search", "copy", "--limit", "1").bans.map((ban) => ban.id), ids);
+  assert.deepEqual(run("show", "action-feedback/copy-button").bans.map((ban) => ban.id), ids);
 });
 
 test("animated icon inventories and installation metadata are complete", () => {

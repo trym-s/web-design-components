@@ -13,6 +13,10 @@
 
 <Target-project tokens, components, copy, data, and accessibility changes.>
 
+## Ban substitutions
+
+<Each banned pattern found in a selected reference and what replaced it, or "none".>
+
 ## Alternative considered
 
 <The rejected composition and the decisive reason.>

@@ -22,6 +22,8 @@ A minimal button with corner dash accents that expand on hover.
 
 ## How an agent uses this reference
 
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (Next.js removed; it imports only allowlisted packages);
+  `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
 - **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/focus-button.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
@@ -36,8 +38,26 @@ A minimal button with corner dash accents that expand on hover.
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `upstream/examples/focus-button-demo.tsx` — the site's demo
 - `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/buttons/focus-button
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--foreground`, `--border`, …).
+It imports only `react`, `clsx`, `tailwind-merge`. `src/LICENSE` is Chamaac UI's MIT licence (Copyright (c) 2026 Amarnath); keep it with the files.
+`src/demo.tsx` is sample data and wiring only. Colours without a shadcn equivalent are
+props or CSS variables whose defaults are the upstream values; fonts come from the target project.
+
+### FocusButton — `focus-button.tsx`
+
+A square-cornered outlined button (`--border` frame, `--foreground` text) with two small `--foreground` corner brackets, top-right and bottom-left.
+
+- Props: `children`, `dashColor` (bracket colour, default `--foreground`), `className`, every `<button>` attribute.
+- States: hover or keyboard focus — both brackets grow over 300 ms to cover the whole frame.
+- Interactions: hover.
+- Keyboard: native button (Tab, Enter/Space); `:focus-visible` shows the grown-frame state.
+- Reduced motion: the bracket transition is removed (`motion-reduce:transition-none`).

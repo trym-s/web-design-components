@@ -1,0 +1,19 @@
+/* Hover hierarchy from Originkit's Interactive Grid; colours are the variables declared on the root. */
+.interactive-grid-card { transition: all 200ms; }
+.interactive-grid-shadow {
+  box-shadow: 2px 2px 5px var(--interactive-grid-shadow), 3px 3px 10px var(--interactive-grid-shadow), 6px 6px 20px var(--interactive-grid-shadow);
+}
+.interactive-grid-card > .interactive-grid-content { opacity: 0.7; transition: all 200ms; }
+.interactive-grid-card:hover > .interactive-grid-content { opacity: 1; }
+.interactive-grid-small { transform: scale(1.05) translate(-5px, -5px) translateZ(0); }
+.interactive-grid-big { transform: scale(1.15) translate(-20px, -20px) translateZ(15px); }
+.interactive-grid-glow-big { animation: interactive-grid-glow 1.5s ease-in-out infinite alternate; }
+.interactive-grid-glow-small { animation: interactive-grid-glow-small 1.5s ease-in-out infinite alternate; }
+@keyframes interactive-grid-glow {
+  from { filter: drop-shadow(0 0 2px var(--interactive-grid-glow-start)); }
+  to { filter: drop-shadow(0 1px var(--interactive-grid-glow-blur) var(--interactive-grid-glow-end)); }
+}
+@keyframes interactive-grid-glow-small {
+  from { filter: drop-shadow(0 0 2px var(--interactive-grid-glow-start)); }
+  to { filter: drop-shadow(0 1px var(--interactive-grid-glow-blur-small) var(--interactive-grid-glow-start)); }
+}

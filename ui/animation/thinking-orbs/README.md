@@ -85,3 +85,27 @@ All other `<canvas>` props (`className`, `style`, `data-*`, …) pass through.
 ## License
 
 MIT © Jakub Antalik
+
+## Files
+
+- `src/` — copy-paste component, hand-derived from `upstream/`
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens. It imports only `react`; `src/engine/` and
+`presets.ts` are the unchanged thinking-orbs 0.2.0 draw modes (MIT, `src/LICENSE`) except that dots are mixed between the
+theme's `--foreground` and `--background` instead of fixed grey, so the upstream `theme` prop and its dark/light detection
+are gone. `src/demo.tsx` shows all nine states at both sizes.
+
+### ThinkingOrb — `thinking-orb.tsx`
+
+- Props: `state` (`working` | `searching` | `solving` | `listening` | `connecting` | `weaving` | `composing` | `breathing` |
+  `shaping`), `size` (64 or 20 — two separately tuned presets), `speed` (×1), `paused`, `aria-label` (defaults to "Working…",
+  "Searching…", … "Thinking…" for breathing), plus any canvas attribute and `style`.
+- Structure: one `role="img"` canvas, `size`×`size` CSS px (DPR ≤ 2). Each state draws depth-sorted dots (and, for
+  connecting, lines) whose ink value maps near → `--foreground`, far → `--background`; see `types.ts` for what each state
+  draws (orbits, scanned globe, scrambling bands, waveform rings, constellation, braid, sash, breathing ring, morphing shape).
+- Motion: time comes from a shared `performance.now()` clock so all orbs stay in phase; the loop pauses offscreen
+  (IntersectionObserver) and on hidden tabs; `prefers-reduced-motion` renders one static frame. Theme changes (class,
+  `data-theme`, `style` on any element, or the OS scheme) re-read the tokens.
+- Keyboard: none (status indicator; give it a meaningful `aria-label`).

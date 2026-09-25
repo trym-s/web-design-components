@@ -378,6 +378,11 @@ for (const ref of refs) {
       if (!target) continue;
       const local = target.startsWith(join(SRC, "packages")) ? join(srcDir, "support", basename(target)) : join(srcDir, "stories", basename(target));
       await copySource(target, dirname(local), dirname(target));
+      // Story helpers pull in their own siblings (useDataset -> datasets).
+      if (!target.startsWith(join(SRC, "packages"))) for (const [, p] of readFileSync(target, "utf8").matchAll(/from '(\.\/[^']+)'/g)) {
+        const dep = ["", ".ts", ".tsx"].map((e) => resolve(STORIES, p + e)).find((q) => existsSync(q) && statSync(q).isFile());
+        if (dep) await copySource(dep, dirname(local), STORIES);
+      }
       code = code.replace(m[0], `from '${rel(join(srcDir, "stories"), local).replace(/\.tsx?$/, "")}'`);
     }
     // The monorepo aliases lab subpaths the published package does not export.

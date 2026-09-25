@@ -3,6 +3,7 @@
  * styles.css). Not part of the snapshot; the examples themselves are verbatim.
  */
 import { Component, useState, type ComponentType, type ReactNode } from "react";
+import { Tooltip } from "radix-ui";
 import "./styles.css";
 
 export type Example = { name: string; title: string; component: ComponentType };
@@ -27,7 +28,7 @@ export function ShadcnFrame({ examples, page = false }: { examples: Example[]; p
         </select>
       )}
       <div data-bank-example={examples[current]?.name} className={page ? "" : "flex min-h-[320px] w-full items-center justify-center"}>
-        <Guard key={current}>{Example ? <Example /> : null}</Guard>
+        <Tooltip.Provider><Guard key={current}>{Example ? <Example /> : null}</Guard></Tooltip.Provider>
       </div>
     </div>
   );

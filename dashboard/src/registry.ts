@@ -47,8 +47,14 @@ export interface Entry {
 }
 
 type CatalogEntry = (typeof catalog.entries)[number] & { files?: string[] };
-const RAW_ROOT = "https://raw.githubusercontent.com/trym-s/web-design-components/main/";
+// `VITE_RAW_ROOT` points the viewer at another ref (e.g. a branch under review); main by default.
+const RAW_ROOT = import.meta.env.VITE_RAW_ROOT ?? "https://raw.githubusercontent.com/trym-s/web-design-components/main/";
 const raw = (path: string) => `${RAW_ROOT}${path}`;
+const fetchText = (path: string) => () =>
+  fetch(raw(path)).then((result) => {
+    if (!result.ok) throw new Error(`${result.status} ${result.statusText}`);
+    return result.text();
+  });
 
 const refLoaders = import.meta.glob("/ui/**/reference.tsx");
 // The icon sets are 97% of the bank and their reference/README files are
@@ -58,7 +64,14 @@ const refLoaders = import.meta.glob("/ui/**/reference.tsx");
 const refRaw = import.meta.glob(["/ui/**/reference.{tsx,md}", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const docsRaw = import.meta.glob(["/ui/**/{README,SOURCE,PROMPT}.md", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const previews = import.meta.glob("/ui/**/preview.png", { query: "?url", import: "default", eager: true }) as Record<string, string>;
-const srcRaw = import.meta.glob("/ui/**/{src,upstream,registry}/**/*.{ts,tsx,js,jsx,css,html,md,vue,svelte,svg,json}", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
+// Source panes fetch file text from GitHub Raw on demand instead of bundling it: a lazy `?raw` glob
+// emits one chunk per file, and the bank's source trees would push the deploy past Cloudflare Pages'
+// 20k-file limit. The catalog lists every entry's files.
+const SOURCE_TREE = /^(src|upstream|registry)\//;
+const sourceFiles = (metadata: CatalogEntry) =>
+  (metadata.files ?? [])
+    .filter((path) => SOURCE_TREE.test(path))
+    .map((path) => ({ path, load: fetchText(`${metadata.paths.directory}/${path}`) }));
 
 const dirOf = (p: string) => p.slice(0, p.lastIndexOf("/"));
 
@@ -113,10 +126,7 @@ function fromCatalog(metadata: CatalogEntry): Entry {
     nature: metadata.nature,
     medium: metadata.medium,
     entryPoint: metadata.entryPoint,
-    files: Object.keys(srcRaw)
-      .filter((path) => path.startsWith(`${dir}/`))
-      .sort()
-      .map((path) => ({ path: path.slice(dir.length + 1), load: srcRaw[path] })),
+    files: sourceFiles(metadata),
     cssProfile: "none",
     kind: "react",
     status: metadata.status as Status,
@@ -152,10 +162,7 @@ function build(): Entry[] {
     const metadata = catalog.entries.find((entry) => entry.id === id);
     if (!metadata) throw new Error(`Catalog metadata missing for ${id}`);
 
-    const files = Object.keys(srcRaw)
-      .filter((p) => p.startsWith(dir + "/"))
-      .sort()
-      .map((p) => ({ path: p.slice(dir.length + 1), load: srcRaw[p] }));
+    const files: Entry["files"] = sourceFiles(metadata);
     if (refRaw[`${dir}/reference.tsx`]) {
       files.unshift({ path: "reference.tsx", code: refRaw[`${dir}/reference.tsx`] });
     }
@@ -218,13 +225,7 @@ export async function loadLiveCatalog() {
     medium: metadata.medium,
     entryPoint: metadata.entryPoint,
     preview: metadata.paths.preview ? raw(metadata.paths.preview) : undefined,
-    files: (metadata.files ?? []).map((path) => ({
-      path,
-      load: () => fetch(raw(`${metadata.paths.directory}/${path}`)).then((result) => {
-        if (!result.ok) throw new Error(`${result.status} ${result.statusText}`);
-        return result.text();
-      }),
-    })),
+    files: (metadata.files ?? []).map((path) => ({ path, load: fetchText(`${metadata.paths.directory}/${path}`) })),
     cssProfile: "none",
     kind: "react",
     status: metadata.status,

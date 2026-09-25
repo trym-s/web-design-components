@@ -10,14 +10,11 @@
 import { OVERRIDES } from "./overrides";
 
 export const refLoaders = import.meta.glob("/ui/**/reference.tsx");
-// Lazy globs hand back a path→loader map without fetching anything, so this is
-// a directory listing, not a download.
-// Icons are excluded because they are always `none`, and because a glob over
-// their directories would emit a chunk per file — ~8k of them.
-const docPaths = import.meta.glob(["/ui/**/{README,SOURCE}.md", "!/ui/icons/**"], {
-  query: "?raw",
-  import: "default",
-});
+// Directories with a README.md or SOURCE.md, listed at build time by the `bank-index` Vite plugin.
+// (A lazy glob would also give the list, but it emits one chunk per matched file.)
+import documentedDirs from "virtual:documented-dirs";
+
+const documentedSet = new Set<string>(documentedDirs);
 
 const SOURCE_FRAMEWORK: Record<string, string> = {
   "line-md": "svg",
@@ -48,7 +45,7 @@ export function resolvePreview(id: string): PreviewEntry | null {
   const load = refLoaders[`${dir}/reference.tsx`];
   const category = segments[0];
   const source = category === "icons" ? segments[1] : "";
-  const documented = `${dir}/README.md` in docPaths || `${dir}/SOURCE.md` in docPaths;
+  const documented = documentedSet.has(dir);
 
   if (category !== "icons" && !load && !OVERRIDES[id]) return null;
 

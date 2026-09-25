@@ -2,7 +2,7 @@ import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import vue from "@vitejs/plugin-vue";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
 /**
@@ -94,6 +94,29 @@ function astryxStylex(): Plugin {
   };
 }
 
+/** `virtual:documented-dirs`: every non-icon entry directory holding a README.md or SOURCE.md. */
+function bankIndex(): Plugin {
+  const ID = "virtual:documented-dirs";
+  const list = () => {
+    const found: string[] = [];
+    const walk = (dir: string, rel: string) => {
+      for (const d of readdirSync(dir, { withFileTypes: true })) {
+        if (!d.isDirectory() || ["_sources", "icons", "node_modules", "upstream", "src", "static", "registry"].includes(d.name)) continue;
+        const path = resolve(dir, d.name);
+        if (existsSync(resolve(path, "README.md")) || existsSync(resolve(path, "SOURCE.md"))) found.push(`${rel}/${d.name}`);
+        walk(path, `${rel}/${d.name}`);
+      }
+    };
+    walk(resolve(__dirname, "ui"), "/ui");
+    return found.sort();
+  };
+  return {
+    name: "bank-index",
+    resolveId: (id) => (id === ID ? `\0${ID}` : null),
+    load: (id) => (id === `\0${ID}` ? `export default ${JSON.stringify(list())};` : null),
+  };
+}
+
 function personalIcons(): Plugin {
   const root = resolve(__dirname, ".cache/icon-bank/personal/react-useanimations/src");
   return {
@@ -115,7 +138,7 @@ function personalIcons(): Plugin {
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), newerPeers(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
+  plugins: [bankShims(), newerPeers(), astryxStylex(), bankIndex(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(

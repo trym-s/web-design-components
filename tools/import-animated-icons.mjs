@@ -11,6 +11,9 @@ const UI = join(ROOT, "ui/icons");
 const CHECK = process.argv.includes("--check");
 const CAPTURED = "2026-08-13";
 
+// Chamaac icons whose files ship but that its registry does not publish (no install command).
+const CHAMAAC_UNPUBLISHED = new Set(["edit-icon", "info-icon", "mic-icon", "user-icon"]);
+
 const SOURCES = [
   { id: "lucide-animated", repo: "pqoqubbw/icons", commit: "61c4202489f898cccaa2aa64b6a2d5a1a713a32e", site: "https://lucide-animated.com", license: "MIT", framework: "react", pattern: /^icons\/(.+)\.tsx$/, expected: 466, registry: (n) => `https://lucide-animated.com/r/${n}.json`, command: (n) => `pnpm dlx shadcn@latest add https://lucide-animated.com/r/${n}.json` },
   { id: "animateicons-lucide", repo: "Avijit07x/animateicons", commit: "2ec6bc6c0b4eba9ce1ba13e31ded8c16ef8a69a3", site: "https://animateicons.in/icons/lucide", license: "MIT", framework: "react", pattern: /^icons\/lucide\/(.+)-icon\.tsx$/, expected: 509, registry: (n) => `https://animateicons.in/r/lu-${n}.json`, command: (n) => `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-${n}.json` },
@@ -19,6 +22,7 @@ const SOURCES = [
   { id: "lucide-motion-vue", repo: "respeak-io/lucide-motion-vue", commit: "ae8e3c2db33ab3c4b796963e087860a960fc0d7e", site: "https://respeak-io.github.io/lucide-motion-vue", license: "mixed: MIT, MIT + Commons Clause, ISC", framework: "vue", pattern: /^src\/icons\/(.+)\.vue$/, expected: 523 },
   { id: "line-md", repo: "cyberalien/line-md", commit: "2ed22555cee9c1e50d4269865681d01ee8cffd7c", site: "https://icon-sets.iconify.design/line-md", license: "MIT", framework: "svg", pattern: /^svg\/([^/]+)\.svg$/, expected: 1218 },
   { id: "movingicons", repo: "jis3r/icons", commit: "8009cd4aed11e4fa799afb1d61a930a65eda1910", site: "https://movingicons.dev/icons", license: "MIT", framework: "svelte", pattern: /^src\/lib\/icons\/(.+)\.svelte$/, reject: new Set(["types"]), expected: 555, registry: (n) => `https://movingicons.dev/r/${n}`, command: (n) => `npx shadcn-svelte@latest add https://movingicons.dev/r/${n}` },
+  { id: "chamaac-icons", repo: "amarnathdhumal/chamaacui", commit: "345d79b1b1d4c89c2394a5c23ac12a9861c383c2", site: "https://www.chamaac.com/components/animated-icons", license: "MIT", framework: "react", pattern: /^registry\/chamaac\/animated-icons\/(.+)\.tsx$/, expected: 67, registry: (n) => (CHAMAAC_UNPUBLISHED.has(n) ? null : `https://www.chamaac.com/r/${n}.json`), command: (n) => (CHAMAAC_UNPUBLISHED.has(n) ? null : `npx shadcn@latest add https://www.chamaac.com/r/${n}.json`) },
   { id: "itshover", repo: "itshover/itshover", commit: "65862bd1d31cbb438ee379c328bd13ddc6c319b3", site: "https://itshover.com/icons", license: "Apache-2.0", framework: "react", pattern: /^icons\/(.+)\.tsx$/, reject: new Set(["types"]), expected: 263, registry: (n) => `https://itshover.com/r/${n}.json`, command: (n) => `npx shadcn@latest add https://itshover.com/r/${n}.json` },
 ];
 

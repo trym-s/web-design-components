@@ -5,7 +5,7 @@
  */
 
 export const reactIcons = import.meta.glob(
-  "/ui/_sources/{lucide-animated,animateicons-lucide,heroicons-animated,itshover}/src/*.tsx",
+  "/ui/_sources/{lucide-animated,animateicons-lucide,heroicons-animated,itshover,chamaac-icons}/src/*.tsx",
 );
 export const vueIcons = import.meta.glob("/ui/_sources/lucide-motion-vue/src/icons/*.vue");
 export const svelteIcons = import.meta.glob("/ui/_sources/movingicons/src/*.svelte");

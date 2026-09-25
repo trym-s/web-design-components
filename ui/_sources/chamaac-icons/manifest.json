@@ -1,0 +1,481 @@
+{
+  "id": "chamaac-icons",
+  "repo": "amarnathdhumal/chamaacui",
+  "commit": "345d79b1b1d4c89c2394a5c23ac12a9861c383c2",
+  "site": "https://www.chamaac.com/components/animated-icons",
+  "license": "MIT",
+  "framework": "react",
+  "expected": 67,
+  "count": 67,
+  "icons": [
+    {
+      "name": "activity-icon",
+      "path": "ui/_sources/chamaac-icons/src/activity-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/activity-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/activity-icon.json"
+    },
+    {
+      "name": "adjustments-icon",
+      "path": "ui/_sources/chamaac-icons/src/adjustments-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/adjustments-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/adjustments-icon.json"
+    },
+    {
+      "name": "alert-circle-icon",
+      "path": "ui/_sources/chamaac-icons/src/alert-circle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/alert-circle-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/alert-circle-icon.json"
+    },
+    {
+      "name": "arrow-down-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-down-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-icon.json"
+    },
+    {
+      "name": "arrow-down-left-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-down-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-down-left-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-left-icon.json"
+    },
+    {
+      "name": "arrow-down-right-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-down-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-down-right-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-right-icon.json"
+    },
+    {
+      "name": "arrow-left-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-left-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-left-icon.json"
+    },
+    {
+      "name": "arrow-right-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-right-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-right-icon.json"
+    },
+    {
+      "name": "arrow-up-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-up-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-icon.json"
+    },
+    {
+      "name": "arrow-up-left-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-up-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-up-left-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-left-icon.json"
+    },
+    {
+      "name": "arrow-up-right-icon",
+      "path": "ui/_sources/chamaac-icons/src/arrow-up-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/arrow-up-right-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-right-icon.json"
+    },
+    {
+      "name": "battery-icon",
+      "path": "ui/_sources/chamaac-icons/src/battery-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/battery-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/battery-icon.json"
+    },
+    {
+      "name": "bell-icon",
+      "path": "ui/_sources/chamaac-icons/src/bell-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/bell-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/bell-icon.json"
+    },
+    {
+      "name": "calendar-icon",
+      "path": "ui/_sources/chamaac-icons/src/calendar-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/calendar-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/calendar-icon.json"
+    },
+    {
+      "name": "cart-icon",
+      "path": "ui/_sources/chamaac-icons/src/cart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/cart-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/cart-icon.json"
+    },
+    {
+      "name": "check-icon",
+      "path": "ui/_sources/chamaac-icons/src/check-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/check-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/check-icon.json"
+    },
+    {
+      "name": "chevron-down-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevron-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevron-down-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-down-icon.json"
+    },
+    {
+      "name": "chevron-left-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevron-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevron-left-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-left-icon.json"
+    },
+    {
+      "name": "chevron-right-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevron-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevron-right-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-right-icon.json"
+    },
+    {
+      "name": "chevron-up-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevron-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevron-up-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-up-icon.json"
+    },
+    {
+      "name": "chevrons-down-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevrons-down-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevrons-down-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-down-icon.json"
+    },
+    {
+      "name": "chevrons-left-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevrons-left-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevrons-left-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-left-icon.json"
+    },
+    {
+      "name": "chevrons-right-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevrons-right-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevrons-right-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-right-icon.json"
+    },
+    {
+      "name": "chevrons-up-icon",
+      "path": "ui/_sources/chamaac-icons/src/chevrons-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/chevrons-up-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-up-icon.json"
+    },
+    {
+      "name": "clock-icon",
+      "path": "ui/_sources/chamaac-icons/src/clock-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/clock-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/clock-icon.json"
+    },
+    {
+      "name": "close-icon",
+      "path": "ui/_sources/chamaac-icons/src/close-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/close-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/close-icon.json"
+    },
+    {
+      "name": "cloud-icon",
+      "path": "ui/_sources/chamaac-icons/src/cloud-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/cloud-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/cloud-icon.json"
+    },
+    {
+      "name": "copy-icon",
+      "path": "ui/_sources/chamaac-icons/src/copy-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/copy-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/copy-icon.json"
+    },
+    {
+      "name": "credit-card-icon",
+      "path": "ui/_sources/chamaac-icons/src/credit-card-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/credit-card-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/credit-card-icon.json"
+    },
+    {
+      "name": "crown-icon",
+      "path": "ui/_sources/chamaac-icons/src/crown-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/crown-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/crown-icon.json"
+    },
+    {
+      "name": "download-icon",
+      "path": "ui/_sources/chamaac-icons/src/download-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/download-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/download-icon.json"
+    },
+    {
+      "name": "edit-icon",
+      "path": "ui/_sources/chamaac-icons/src/edit-icon.tsx",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "external-link-icon",
+      "path": "ui/_sources/chamaac-icons/src/external-link-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/external-link-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/external-link-icon.json"
+    },
+    {
+      "name": "eye-icon",
+      "path": "ui/_sources/chamaac-icons/src/eye-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/eye-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/eye-icon.json"
+    },
+    {
+      "name": "gift-icon",
+      "path": "ui/_sources/chamaac-icons/src/gift-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/gift-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/gift-icon.json"
+    },
+    {
+      "name": "globe-icon",
+      "path": "ui/_sources/chamaac-icons/src/globe-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/globe-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/globe-icon.json"
+    },
+    {
+      "name": "heart-icon",
+      "path": "ui/_sources/chamaac-icons/src/heart-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/heart-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/heart-icon.json"
+    },
+    {
+      "name": "hourglass-icon",
+      "path": "ui/_sources/chamaac-icons/src/hourglass-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/hourglass-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/hourglass-icon.json"
+    },
+    {
+      "name": "info-icon",
+      "path": "ui/_sources/chamaac-icons/src/info-icon.tsx",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "layers-icon",
+      "path": "ui/_sources/chamaac-icons/src/layers-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/layers-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/layers-icon.json"
+    },
+    {
+      "name": "lightbulb-icon",
+      "path": "ui/_sources/chamaac-icons/src/lightbulb-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/lightbulb-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/lightbulb-icon.json"
+    },
+    {
+      "name": "location-icon",
+      "path": "ui/_sources/chamaac-icons/src/location-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/location-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/location-icon.json"
+    },
+    {
+      "name": "lock-icon",
+      "path": "ui/_sources/chamaac-icons/src/lock-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/lock-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/lock-icon.json"
+    },
+    {
+      "name": "mail-icon",
+      "path": "ui/_sources/chamaac-icons/src/mail-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/mail-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/mail-icon.json"
+    },
+    {
+      "name": "menu-icon",
+      "path": "ui/_sources/chamaac-icons/src/menu-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/menu-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/menu-icon.json"
+    },
+    {
+      "name": "message-icon",
+      "path": "ui/_sources/chamaac-icons/src/message-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/message-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/message-icon.json"
+    },
+    {
+      "name": "mic-icon",
+      "path": "ui/_sources/chamaac-icons/src/mic-icon.tsx",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "moon-icon",
+      "path": "ui/_sources/chamaac-icons/src/moon-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/moon-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/moon-icon.json"
+    },
+    {
+      "name": "music-icon",
+      "path": "ui/_sources/chamaac-icons/src/music-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/music-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/music-icon.json"
+    },
+    {
+      "name": "refresh-icon",
+      "path": "ui/_sources/chamaac-icons/src/refresh-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/refresh-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/refresh-icon.json"
+    },
+    {
+      "name": "rocket-icon",
+      "path": "ui/_sources/chamaac-icons/src/rocket-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/rocket-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/rocket-icon.json"
+    },
+    {
+      "name": "scan-icon",
+      "path": "ui/_sources/chamaac-icons/src/scan-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/scan-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/scan-icon.json"
+    },
+    {
+      "name": "search-icon",
+      "path": "ui/_sources/chamaac-icons/src/search-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/search-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/search-icon.json"
+    },
+    {
+      "name": "send-icon",
+      "path": "ui/_sources/chamaac-icons/src/send-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/send-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/send-icon.json"
+    },
+    {
+      "name": "settings-icon",
+      "path": "ui/_sources/chamaac-icons/src/settings-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/settings-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/settings-icon.json"
+    },
+    {
+      "name": "shield-icon",
+      "path": "ui/_sources/chamaac-icons/src/shield-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/shield-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/shield-icon.json"
+    },
+    {
+      "name": "sparkle-icon",
+      "path": "ui/_sources/chamaac-icons/src/sparkle-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/sparkle-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/sparkle-icon.json"
+    },
+    {
+      "name": "star-icon",
+      "path": "ui/_sources/chamaac-icons/src/star-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/star-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/star-icon.json"
+    },
+    {
+      "name": "sun-icon",
+      "path": "ui/_sources/chamaac-icons/src/sun-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/sun-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/sun-icon.json"
+    },
+    {
+      "name": "thumbs-up-icon",
+      "path": "ui/_sources/chamaac-icons/src/thumbs-up-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/thumbs-up-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/thumbs-up-icon.json"
+    },
+    {
+      "name": "trash-icon",
+      "path": "ui/_sources/chamaac-icons/src/trash-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/trash-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/trash-icon.json"
+    },
+    {
+      "name": "upload-icon",
+      "path": "ui/_sources/chamaac-icons/src/upload-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/upload-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/upload-icon.json"
+    },
+    {
+      "name": "user-icon",
+      "path": "ui/_sources/chamaac-icons/src/user-icon.tsx",
+      "variants": [],
+      "registryUrl": null,
+      "command": null
+    },
+    {
+      "name": "volume-icon",
+      "path": "ui/_sources/chamaac-icons/src/volume-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/volume-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/volume-icon.json"
+    },
+    {
+      "name": "wavy-icon",
+      "path": "ui/_sources/chamaac-icons/src/wavy-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/wavy-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/wavy-icon.json"
+    },
+    {
+      "name": "wifi-icon",
+      "path": "ui/_sources/chamaac-icons/src/wifi-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/wifi-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/wifi-icon.json"
+    },
+    {
+      "name": "zap-icon",
+      "path": "ui/_sources/chamaac-icons/src/zap-icon.tsx",
+      "variants": [],
+      "registryUrl": "https://www.chamaac.com/r/zap-icon.json",
+      "command": "npx shadcn@latest add https://www.chamaac.com/r/zap-icon.json"
+    }
+  ]
+}

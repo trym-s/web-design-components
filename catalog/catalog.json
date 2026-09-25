@@ -693,6 +693,432 @@
       }
     },
     {
+      "id": "action-feedback/chamaac-focus-button",
+      "title": "Chamaac Focus Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "accents",
+        "action",
+        "button",
+        "chamaac",
+        "corner",
+        "dash",
+        "expand",
+        "feedback",
+        "focus",
+        "hover",
+        "interactive",
+        "minimal",
+        "that",
+        "with"
+      ],
+      "useWhen": "A minimal button with corner dash accents that expand on hover.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Focus Button",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/focus-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/focus-button-demo.tsx",
+        "static/focus-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/focus-button.json",
+        "registryUrl": "https://www.chamaac.com/r/focus-button.json",
+        "fallbackPath": "src/examples/focus-button-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-focus-button",
+        "reference": "ui/action-feedback/chamaac-focus-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-focus-button/README.md",
+        "source": "ui/action-feedback/chamaac-focus-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-focus-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-glowing-border-button",
+      "title": "Chamaac Glowing Border Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "and",
+        "border",
+        "button",
+        "chamaac",
+        "effects",
+        "feedback",
+        "glowing",
+        "gradient",
+        "interactive",
+        "stylish",
+        "with"
+      ],
+      "useWhen": "A stylish glowing border button with a gradient border and glowing effects.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Glowing Border Button",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/glowing-border-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/glowing-border-button-demo.tsx",
+        "static/glowing-border-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/glowing-border-button.json",
+        "registryUrl": "https://www.chamaac.com/r/glowing-border-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/glowing-border-button/glowing-border-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-glowing-border-button",
+        "reference": "ui/action-feedback/chamaac-glowing-border-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-glowing-border-button/README.md",
+        "source": "ui/action-feedback/chamaac-glowing-border-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-glowing-border-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-hover-arrow-button",
+      "title": "Chamaac Hover Arrow Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "animation",
+        "arrow",
+        "button",
+        "chamaac",
+        "feedback",
+        "hover",
+        "interactive",
+        "smooth",
+        "swap",
+        "with"
+      ],
+      "useWhen": "A button with a smooth hover arrow swap animation.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Hover Arrow Button",
+      "requires": "motion, clsx, tailwind-merge, @tabler/icons-react",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/hover-arrow-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/hover-arrow-button-demo.tsx",
+        "static/hover-arrow-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/hover-arrow-button.json",
+        "registryUrl": "https://www.chamaac.com/r/hover-arrow-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/hover-arrow-button/hover-arrow-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-hover-arrow-button",
+        "reference": "ui/action-feedback/chamaac-hover-arrow-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-hover-arrow-button/README.md",
+        "source": "ui/action-feedback/chamaac-hover-arrow-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-hover-arrow-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-neo-brutalist-button",
+      "title": "Chamaac Neo Brutalist Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "and",
+        "bold",
+        "brutalist",
+        "button",
+        "chamaac",
+        "design",
+        "effect",
+        "feedback",
+        "interactive",
+        "neo",
+        "offset",
+        "retro",
+        "shadow",
+        "shimmer",
+        "skewed",
+        "styled",
+        "with"
+      ],
+      "useWhen": "A bold, retro-styled button with skewed design, offset shadow, and shimmer effect.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Neo Brutalist Button",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/neo-brutalist-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/neo-brutalist-button-demo.tsx",
+        "static/neo-brutalist-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/neo-brutalist-button.json",
+        "registryUrl": "https://www.chamaac.com/r/neo-brutalist-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/neo-brutalist-button/neo-brutalist-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-neo-brutalist-button",
+        "reference": "ui/action-feedback/chamaac-neo-brutalist-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-neo-brutalist-button/README.md",
+        "source": "ui/action-feedback/chamaac-neo-brutalist-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-neo-brutalist-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-premium-button",
+      "title": "Chamaac Premium Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "animation",
+        "arrow",
+        "button",
+        "chamaac",
+        "dynamic",
+        "feedback",
+        "high",
+        "interactive",
+        "premium",
+        "quality",
+        "with"
+      ],
+      "useWhen": "A high-quality button with a dynamic arrow animation.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Premium Button",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/premium-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/premium-button-demo.tsx",
+        "static/premium-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/premium-button.json",
+        "registryUrl": "https://www.chamaac.com/r/premium-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/premium-button/premium-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-premium-button",
+        "reference": "ui/action-feedback/chamaac-premium-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-premium-button/README.md",
+        "source": "ui/action-feedback/chamaac-premium-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-premium-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-shimmer-button",
+      "title": "Chamaac Shimmer Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "animation",
+        "button",
+        "chamaac",
+        "effect",
+        "feedback",
+        "interactive",
+        "shimmer",
+        "shimmering",
+        "text",
+        "with"
+      ],
+      "useWhen": "A button with a shimmering text animation effect.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Shimmer Button",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/shimmer-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/shimmer-button-demo.tsx",
+        "static/shimmer-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/shimmer-button.json",
+        "registryUrl": "https://www.chamaac.com/r/shimmer-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/shimmer-button/shimmer-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-shimmer-button",
+        "reference": "ui/action-feedback/chamaac-shimmer-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-shimmer-button/README.md",
+        "source": "ui/action-feedback/chamaac-shimmer-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-shimmer-button/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/chamaac-slideup-button",
+      "title": "Chamaac Slideup Button",
+      "category": "action-feedback",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "animated",
+        "button",
+        "chamaac",
+        "effect",
+        "feedback",
+        "hover",
+        "interactive",
+        "slide",
+        "slideup",
+        "text",
+        "with"
+      ],
+      "useWhen": "An animated button with a slide-up text effect on hover.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Slide Up Button",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/slide-up-button-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/slide-up-button-demo.tsx",
+        "static/slideup-button.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/slideup-button.json",
+        "registryUrl": "https://www.chamaac.com/r/slideup-button.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/slideup-button/slideup-button.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/chamaac-slideup-button",
+        "reference": "ui/action-feedback/chamaac-slideup-button/reference.tsx",
+        "readme": "ui/action-feedback/chamaac-slideup-button/README.md",
+        "source": "ui/action-feedback/chamaac-slideup-button/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/chamaac-slideup-button/preview.png"
+      }
+    },
+    {
       "id": "action-feedback/copy-button",
       "title": "Copy Button",
       "category": "action-feedback",
@@ -2127,6 +2553,69 @@
       }
     },
     {
+      "id": "ai/chamaac-ai-input",
+      "title": "Chamaac Ai Input",
+      "category": "ai",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "animations",
+        "chamaac",
+        "component",
+        "file",
+        "input",
+        "interactive",
+        "model",
+        "polished",
+        "selection",
+        "smooth",
+        "tools",
+        "uploads",
+        "with"
+      ],
+      "useWhen": "A polished AI input component with model selection, tools, file uploads, and smooth animations.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "AI Input",
+      "requires": "motion, clsx, tailwind-merge, lucide-react",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/ai-input-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/ai-input-demo.tsx",
+        "static/ai-input.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/ai-input.json",
+        "registryUrl": "https://www.chamaac.com/r/ai-input.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/ai-input/ai-input.tsx"
+      },
+      "paths": {
+        "directory": "ui/ai/chamaac-ai-input",
+        "reference": "ui/ai/chamaac-ai-input/reference.tsx",
+        "readme": "ui/ai/chamaac-ai-input/README.md",
+        "source": "ui/ai/chamaac-ai-input/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/ai/chamaac-ai-input/preview.png"
+      }
+    },
+    {
       "id": "ai/chat/chat-composer",
       "title": "Chat Composer",
       "category": "ai",
@@ -2974,6 +3463,292 @@
         "source": "ui/animation/border-beam/SOURCE.md",
         "prompt": null,
         "preview": "ui/animation/border-beam/preview.png"
+      }
+    },
+    {
+      "id": "animation/chamaac-dancing-letters",
+      "title": "Chamaac Dancing Letters",
+      "category": "animation",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "animations",
+        "based",
+        "chamaac",
+        "dancing",
+        "decorative",
+        "interactive",
+        "letters",
+        "physics",
+        "text"
+      ],
+      "useWhen": "Physics-based interactive text animations.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Dancing Letters",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/dancing-letters-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/dancing-letters-demo.tsx",
+        "static/dancing-letters.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/dancing-letters.json",
+        "registryUrl": "https://www.chamaac.com/r/dancing-letters.json",
+        "fallbackPath": "src/examples/dancing-letters-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/animation/chamaac-dancing-letters",
+        "reference": "ui/animation/chamaac-dancing-letters/reference.tsx",
+        "readme": "ui/animation/chamaac-dancing-letters/README.md",
+        "source": "ui/animation/chamaac-dancing-letters/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/animation/chamaac-dancing-letters/preview.png"
+      }
+    },
+    {
+      "id": "animation/chamaac-gif-text",
+      "title": "Chamaac Gif Text",
+      "category": "animation",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "chamaac",
+        "color",
+        "decorative",
+        "effect",
+        "fill",
+        "gif",
+        "stunning",
+        "text",
+        "that",
+        "the",
+        "uses"
+      ],
+      "useWhen": "A stunning text effect that uses a GIF as the fill color.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Gif Text",
+      "requires": "clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/gif-text-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/gif-text-demo.tsx",
+        "static/gif-text.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/gif-text.json",
+        "registryUrl": "https://www.chamaac.com/r/gif-text.json",
+        "fallbackPath": "src/examples/gif-text-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/animation/chamaac-gif-text",
+        "reference": "ui/animation/chamaac-gif-text/reference.tsx",
+        "readme": "ui/animation/chamaac-gif-text/README.md",
+        "source": "ui/animation/chamaac-gif-text/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/animation/chamaac-gif-text/preview.png"
+      }
+    },
+    {
+      "id": "animation/chamaac-orbiting-icons",
+      "title": "Chamaac Orbiting Icons",
+      "category": "animation",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "chamaac",
+        "decorative",
+        "icons",
+        "orbiting",
+        "progress",
+        "repository",
+        "the",
+        "work"
+      ],
+      "useWhen": "Orbiting Icons (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Orbiting Icons",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/orbiting-icons-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/orbiting-icons-demo.tsx",
+        "static/orbiting-icons.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/orbiting-icons-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/animation/chamaac-orbiting-icons",
+        "reference": "ui/animation/chamaac-orbiting-icons/reference.tsx",
+        "readme": "ui/animation/chamaac-orbiting-icons/README.md",
+        "source": "ui/animation/chamaac-orbiting-icons/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/animation/chamaac-orbiting-icons/preview.png"
+      }
+    },
+    {
+      "id": "animation/chamaac-svg-animation",
+      "title": "Chamaac Svg Animation",
+      "category": "animation",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "chamaac",
+        "decorative",
+        "progress",
+        "repository",
+        "svg",
+        "the",
+        "work"
+      ],
+      "useWhen": "Svg Animation (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Svg Animation",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/svg-animation-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/svg-animation-demo.tsx",
+        "static/svg-animation.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/svg-animation-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/animation/chamaac-svg-animation",
+        "reference": "ui/animation/chamaac-svg-animation/reference.tsx",
+        "readme": "ui/animation/chamaac-svg-animation/README.md",
+        "source": "ui/animation/chamaac-svg-animation/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/animation/chamaac-svg-animation/preview.png"
+      }
+    },
+    {
+      "id": "animation/chamaac-text-loop",
+      "title": "Chamaac Text Loop",
+      "category": "animation",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "animated",
+        "animation",
+        "chamaac",
+        "decorative",
+        "effect",
+        "gradient",
+        "loop",
+        "text",
+        "typewriter",
+        "with"
+      ],
+      "useWhen": "An animated text loop with typewriter and gradient effect.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Text Loop",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/text-loop-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/text-loop-demo.tsx",
+        "static/text-loop.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/text-loop.json",
+        "registryUrl": "https://www.chamaac.com/r/text-loop.json",
+        "fallbackPath": "src/examples/text-loop-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/animation/chamaac-text-loop",
+        "reference": "ui/animation/chamaac-text-loop/reference.tsx",
+        "readme": "ui/animation/chamaac-text-loop/README.md",
+        "source": "ui/animation/chamaac-text-loop/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/animation/chamaac-text-loop/preview.png"
       }
     },
     {
@@ -8530,6 +9305,69 @@
       }
     },
     {
+      "id": "content/chamaac-carousel",
+      "title": "Chamaac Carousel",
+      "category": "content",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animations",
+        "auto",
+        "carousel",
+        "chamaac",
+        "component",
+        "content",
+        "framer",
+        "interactive",
+        "layout",
+        "motion",
+        "playing",
+        "smooth",
+        "using",
+        "with"
+      ],
+      "useWhen": "A smooth, auto-playing 3D carousel component with layout animations using Framer Motion.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Carousel",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/coursel-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/coursel-demo.tsx",
+        "static/carousel.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/carousel.json",
+        "registryUrl": "https://www.chamaac.com/r/carousel.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/carousel/carousel.tsx"
+      },
+      "paths": {
+        "directory": "ui/content/chamaac-carousel",
+        "reference": "ui/content/chamaac-carousel/reference.tsx",
+        "readme": "ui/content/chamaac-carousel/README.md",
+        "source": "ui/content/chamaac-carousel/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/content/chamaac-carousel/preview.png"
+      }
+    },
+    {
       "id": "content/logo-marquee",
       "title": "Logo Marquee",
       "category": "content",
@@ -11116,6 +11954,122 @@
       }
     },
     {
+      "id": "data-display/chamaac-invoice-card",
+      "title": "Chamaac Invoice Card",
+      "category": "data-display",
+      "source": "chamaac",
+      "nature": "structural",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "card",
+        "chamaac",
+        "data",
+        "display",
+        "invoice",
+        "progress",
+        "repository",
+        "structural",
+        "the",
+        "work"
+      ],
+      "useWhen": "Invoice Card (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Invoice Card",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/invoice-card-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/invoice-card-demo.tsx",
+        "static/invoice-card.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/invoice-card-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/chamaac-invoice-card",
+        "reference": "ui/data-display/chamaac-invoice-card/reference.tsx",
+        "readme": "ui/data-display/chamaac-invoice-card/README.md",
+        "source": "ui/data-display/chamaac-invoice-card/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/chamaac-invoice-card/preview.png"
+      }
+    },
+    {
+      "id": "data-display/chamaac-stats-cards",
+      "title": "Chamaac Stats Cards",
+      "category": "data-display",
+      "source": "chamaac",
+      "nature": "structural",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "cards",
+        "chamaac",
+        "data",
+        "display",
+        "effects",
+        "hover",
+        "set",
+        "statistic",
+        "stats",
+        "structural",
+        "with"
+      ],
+      "useWhen": "A set of animated statistic cards with hover effects.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Stats Cards",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/stats-cards-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/stats-cards-demo.tsx",
+        "static/stats-cards.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/stats-cards.json",
+        "registryUrl": "https://www.chamaac.com/r/stats-cards.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/stats-cards/stats-cards.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/chamaac-stats-cards",
+        "reference": "ui/data-display/chamaac-stats-cards/reference.tsx",
+        "readme": "ui/data-display/chamaac-stats-cards/README.md",
+        "source": "ui/data-display/chamaac-stats-cards/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/chamaac-stats-cards/preview.png"
+      }
+    },
+    {
       "id": "data-display/diff-table",
       "title": "Diff Table",
       "category": "data-display",
@@ -12992,6 +13946,70 @@
         "source": "ui/data-visualization/astryx-lab-three-d-surface/SOURCE.md",
         "prompt": null,
         "preview": "ui/data-visualization/astryx-lab-three-d-surface/preview.png"
+      }
+    },
+    {
+      "id": "data-visualization/chamaac-gauge",
+      "title": "Chamaac Gauge",
+      "category": "data-visualization",
+      "source": "chamaac",
+      "nature": "structural",
+      "roles": [
+        "structure",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "chamaac",
+        "circular",
+        "component",
+        "customizable",
+        "data",
+        "for",
+        "gauge",
+        "metrics",
+        "performance",
+        "scores",
+        "semi",
+        "structural",
+        "visualization",
+        "visualizing"
+      ],
+      "useWhen": "A customizable semi-circular gauge component for visualizing metrics and performance scores.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Gauge",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/gauge-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/gauge-demo.tsx",
+        "static/gauge.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/gauge.json",
+        "registryUrl": "https://www.chamaac.com/r/gauge.json",
+        "fallbackPath": "src/examples/gauge-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-visualization/chamaac-gauge",
+        "reference": "ui/data-visualization/chamaac-gauge/reference.tsx",
+        "readme": "ui/data-visualization/chamaac-gauge/README.md",
+        "source": "ui/data-visualization/chamaac-gauge/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-visualization/chamaac-gauge/preview.png"
       }
     },
     {
@@ -17527,6 +18545,1071 @@
         "source": "ui/effects/ascii-swirl/SOURCE.md",
         "prompt": "ui/effects/ascii-swirl/PROMPT.md",
         "preview": "ui/effects/ascii-swirl/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-astral-flow",
+      "title": "Chamaac Astral Flow",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "animation",
+        "astral",
+        "beautiful",
+        "breathing",
+        "chamaac",
+        "constantly",
+        "continuous",
+        "cosmic",
+        "decorative",
+        "deep",
+        "effects",
+        "flow",
+        "flowing",
+        "majestic",
+        "radial",
+        "shader",
+        "wisps",
+        "with"
+      ],
+      "useWhen": "A majestic, constantly breathing radial shader with deep cosmic wisps and a beautiful flowing continuous animation.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Astral Flow",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/astral-flow-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/astral-flow-demo.tsx",
+        "static/astral-flow.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/astral-flow.json",
+        "registryUrl": "https://www.chamaac.com/r/astral-flow.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/astral-flow/astral-flow.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-astral-flow",
+        "reference": "ui/effects/chamaac-astral-flow/reference.tsx",
+        "readme": "ui/effects/chamaac-astral-flow/README.md",
+        "source": "ui/effects/chamaac-astral-flow/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-astral-flow/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-bokeh-grid",
+      "title": "Chamaac Bokeh Grid",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "bokeh",
+        "chamaac",
+        "decorative",
+        "effects",
+        "grid",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "source",
+        "the"
+      ],
+      "useWhen": "Bokeh Grid shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Bokeh Grid",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/bokeh-grid/bokeh-grid.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/bokeh-grid.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/bokeh-grid/bokeh-grid.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-bokeh-grid",
+        "reference": "ui/effects/chamaac-bokeh-grid/reference.tsx",
+        "readme": "ui/effects/chamaac-bokeh-grid/README.md",
+        "source": "ui/effects/chamaac-bokeh-grid/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-bokeh-grid/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-deform-tunnel",
+      "title": "Chamaac Deform Tunnel",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "chamaac",
+        "decorative",
+        "deform",
+        "effects",
+        "progress",
+        "repository",
+        "the",
+        "tunnel",
+        "work"
+      ],
+      "useWhen": "Deform Tunnel (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Deform Tunnel",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/deform-tunnel-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/deform-tunnel-demo.tsx",
+        "static/deform-tunnel.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/deform-tunnel-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-deform-tunnel",
+        "reference": "ui/effects/chamaac-deform-tunnel/reference.tsx",
+        "readme": "ui/effects/chamaac-deform-tunnel/README.md",
+        "source": "ui/effects/chamaac-deform-tunnel/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-deform-tunnel/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-electric-mist",
+      "title": "Chamaac Electric Mist",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "chamaac",
+        "decorative",
+        "effects",
+        "electric",
+        "energy",
+        "glowing",
+        "high",
+        "lightning",
+        "mist",
+        "shader",
+        "smoke",
+        "waves",
+        "with"
+      ],
+      "useWhen": "A high-energy glowing lightning shader with waves and smoke effects.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Electric Mist",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/electric-mist-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/electric-mist-demo.tsx",
+        "static/electric-mist.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/electric-mist.json",
+        "registryUrl": "https://www.chamaac.com/r/electric-mist.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/electric-mist/electric-mist.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-electric-mist",
+        "reference": "ui/effects/chamaac-electric-mist/reference.tsx",
+        "readme": "ui/effects/chamaac-electric-mist/README.md",
+        "source": "ui/effects/chamaac-electric-mist/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-electric-mist/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-glassy-boxes",
+      "title": "Chamaac Glassy Boxes",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "boxes",
+        "chamaac",
+        "decorative",
+        "effects",
+        "glassy",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "source",
+        "the"
+      ],
+      "useWhen": "Glassy Boxes shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Glassy Boxes",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/glassy-boxes/glassy-boxes.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/glassy-boxes.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/glassy-boxes/glassy-boxes.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-glassy-boxes",
+        "reference": "ui/effects/chamaac-glassy-boxes/reference.tsx",
+        "readme": "ui/effects/chamaac-glassy-boxes/README.md",
+        "source": "ui/effects/chamaac-glassy-boxes/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-glassy-boxes/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-grid-bloom",
+      "title": "Chamaac Grid Bloom",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "across",
+        "animated",
+        "background",
+        "bloom",
+        "chamaac",
+        "create",
+        "decorative",
+        "driven",
+        "dual",
+        "effects",
+        "grid",
+        "interference",
+        "mesmerizing",
+        "origins",
+        "patterns",
+        "pulsing",
+        "rotating",
+        "shader",
+        "that",
+        "wave",
+        "with"
+      ],
+      "useWhen": "A mesmerizing, shader-driven background with dual pulsing wave origins that create interference patterns across an animated rotating grid.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Grid Bloom",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/grid-bloom-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/grid-bloom-demo.tsx",
+        "static/grid-bloom.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/grid-bloom.json",
+        "registryUrl": "https://www.chamaac.com/r/grid-bloom.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/grid-bloom/grid-bloom.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-grid-bloom",
+        "reference": "ui/effects/chamaac-grid-bloom/reference.tsx",
+        "readme": "ui/effects/chamaac-grid-bloom/README.md",
+        "source": "ui/effects/chamaac-grid-bloom/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-grid-bloom/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-interactive-grid",
+      "title": "Chamaac Interactive Grid",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "decorative",
+        "effects",
+        "grid",
+        "highly",
+        "interactive",
+        "mouse",
+        "sensitive"
+      ],
+      "useWhen": "A highly interactive, mouse-sensitive grid background.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Interactive Grid Background",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/interactive-grid-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/interactive-grid-demo.tsx",
+        "static/interactive-grid.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/interactive-grid-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-interactive-grid",
+        "reference": "ui/effects/chamaac-interactive-grid/reference.tsx",
+        "readme": "ui/effects/chamaac-interactive-grid/README.md",
+        "source": "ui/effects/chamaac-interactive-grid/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-interactive-grid/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-iridescent-windows",
+      "title": "Chamaac Iridescent Windows",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "decorative",
+        "effects",
+        "iridescent",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "source",
+        "the",
+        "windows"
+      ],
+      "useWhen": "Iridescent Windows shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Iridescent Windows",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/iridescent-windows/iridescent-windows.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/iridescent-windows.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/iridescent-windows/iridescent-windows.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-iridescent-windows",
+        "reference": "ui/effects/chamaac-iridescent-windows/reference.tsx",
+        "readme": "ui/effects/chamaac-iridescent-windows/README.md",
+        "source": "ui/effects/chamaac-iridescent-windows/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-iridescent-windows/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-light-speed",
+      "title": "Chamaac Light Speed",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "blender",
+        "chamaac",
+        "decorative",
+        "ducky3d",
+        "effects",
+        "hyperspace",
+        "inspired",
+        "light",
+        "speed",
+        "the",
+        "tutorial",
+        "warp"
+      ],
+      "useWhen": "A Warp/Light-Speed hyperspace animation inspired by the Ducky3D Blender tutorial.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Light Speed",
+      "requires": "three, @react-three/fiber, @react-three/postprocessing, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/light-speed-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/light-speed-demo.tsx",
+        "static/light-speed.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/light-speed.json",
+        "registryUrl": "https://www.chamaac.com/r/light-speed.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/light-speed/light-speed.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-light-speed",
+        "reference": "ui/effects/chamaac-light-speed/reference.tsx",
+        "readme": "ui/effects/chamaac-light-speed/README.md",
+        "source": "ui/effects/chamaac-light-speed/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-light-speed/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-liquid-chrome",
+      "title": "Chamaac Liquid Chrome",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "chamaac",
+        "chrome",
+        "decorative",
+        "effect",
+        "effects",
+        "liquid",
+        "metal",
+        "shader",
+        "smooth"
+      ],
+      "useWhen": "A smooth, liquid metal shader effect.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Liquid Chrome",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/liquid-chrome-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/liquid-chrome-demo.tsx",
+        "static/liquid-chrome.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/liquid-chrome.json",
+        "registryUrl": "https://www.chamaac.com/r/liquid-chrome.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/liquid-chrome/liquid-chrome.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-liquid-chrome",
+        "reference": "ui/effects/chamaac-liquid-chrome/reference.tsx",
+        "readme": "ui/effects/chamaac-liquid-chrome/README.md",
+        "source": "ui/effects/chamaac-liquid-chrome/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-liquid-chrome/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-liquid-morph",
+      "title": "Chamaac Liquid Morph",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "decorative",
+        "effects",
+        "liquid",
+        "morph",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "source",
+        "the"
+      ],
+      "useWhen": "Liquid Morph shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Liquid Morph",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/liquid-morph/liquid-morph.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/liquid-morph.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/liquid-morph/liquid-morph.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-liquid-morph",
+        "reference": "ui/effects/chamaac-liquid-morph/reference.tsx",
+        "readme": "ui/effects/chamaac-liquid-morph/README.md",
+        "source": "ui/effects/chamaac-liquid-morph/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-liquid-morph/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-modern-smoke",
+      "title": "Chamaac Modern Smoke",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "decorative",
+        "effects",
+        "modern",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "smoke",
+        "source",
+        "the"
+      ],
+      "useWhen": "Modern Smoke shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Modern Smoke",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/modern-smoke/page.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/modern-smoke.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/modern-smoke/page.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-modern-smoke",
+        "reference": "ui/effects/chamaac-modern-smoke/reference.tsx",
+        "readme": "ui/effects/chamaac-modern-smoke/README.md",
+        "source": "ui/effects/chamaac-modern-smoke/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-modern-smoke/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-nebula",
+      "title": "Chamaac Nebula",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "chamaac",
+        "decorative",
+        "deep",
+        "domain",
+        "driven",
+        "effect",
+        "effects",
+        "for",
+        "mesmerizing",
+        "nebula",
+        "shader",
+        "space",
+        "using",
+        "warping"
+      ],
+      "useWhen": "A mesmerizing, shader-driven nebula animation using domain warping for a deep space effect.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Nebula",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/nebula-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/nebula-demo.tsx",
+        "static/nebula.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/nebula.json",
+        "registryUrl": "https://www.chamaac.com/r/nebula.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/nebula/nebula.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-nebula",
+        "reference": "ui/effects/chamaac-nebula/reference.tsx",
+        "readme": "ui/effects/chamaac-nebula/README.md",
+        "source": "ui/effects/chamaac-nebula/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-nebula/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-reveal-card",
+      "title": "Chamaac Reveal Card",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "card",
+        "chamaac",
+        "decorative",
+        "effects",
+        "progress",
+        "repository",
+        "reveal",
+        "the",
+        "work"
+      ],
+      "useWhen": "Reveal Card (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Reveal Card",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/reveal-card-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/reveal-card-demo.tsx",
+        "static/reveal-card.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/reveal-card-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-reveal-card",
+        "reference": "ui/effects/chamaac-reveal-card/reference.tsx",
+        "readme": "ui/effects/chamaac-reveal-card/README.md",
+        "source": "ui/effects/chamaac-reveal-card/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-reveal-card/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-shader-test",
+      "title": "Chamaac Shader Test",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "decorative",
+        "effects",
+        "not",
+        "registry",
+        "shader",
+        "site",
+        "source",
+        "test",
+        "the"
+      ],
+      "useWhen": "Shader Test shader background (in the Chamaac registry source, not on the site).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Shader Test",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "ui/_sources/chamaac/registry/chamaac/shader-test/page.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "static/shader-test.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/shader-test/page.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-shader-test",
+        "reference": "ui/effects/chamaac-shader-test/reference.tsx",
+        "readme": "ui/effects/chamaac-shader-test/README.md",
+        "source": "ui/effects/chamaac-shader-test/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-shader-test/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-synthesis",
+      "title": "Chamaac Synthesis",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "background",
+        "chamaac",
+        "cosmic",
+        "customization",
+        "decorative",
+        "effects",
+        "extensive",
+        "flow",
+        "layered",
+        "multi",
+        "professional",
+        "synthesis",
+        "warping",
+        "with"
+      ],
+      "useWhen": "A professional, multi-layered cosmic flow background with extensive warping customization.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Synthesis",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/synthesis-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/synthesis-demo.tsx",
+        "static/synthesis.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/synthesis.json",
+        "registryUrl": "https://www.chamaac.com/r/synthesis.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/synthesis/synthesis.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-synthesis",
+        "reference": "ui/effects/chamaac-synthesis/reference.tsx",
+        "readme": "ui/effects/chamaac-synthesis/README.md",
+        "source": "ui/effects/chamaac-synthesis/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-synthesis/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-water-caustic",
+      "title": "Chamaac Water Caustic",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "caustic",
+        "chamaac",
+        "decorative",
+        "effects",
+        "interference",
+        "lighting",
+        "shader",
+        "stunning",
+        "tileable",
+        "using",
+        "water",
+        "wave"
+      ],
+      "useWhen": "A stunning, tileable water caustic lighting shader using wave interference.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Water Caustic",
+      "requires": "three, @react-three/fiber, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/water-caustic-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/water-caustic-demo.tsx",
+        "static/water-caustic.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/water-caustic.json",
+        "registryUrl": "https://www.chamaac.com/r/water-caustic.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/water-caustic/water-caustic.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-water-caustic",
+        "reference": "ui/effects/chamaac-water-caustic/reference.tsx",
+        "readme": "ui/effects/chamaac-water-caustic/README.md",
+        "source": "ui/effects/chamaac-water-caustic/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-water-caustic/preview.png"
+      }
+    },
+    {
+      "id": "effects/chamaac-waves",
+      "title": "Chamaac Waves",
+      "category": "effects",
+      "source": "chamaac",
+      "nature": "decorative",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animation",
+        "based",
+        "chamaac",
+        "component",
+        "decorative",
+        "effects",
+        "shader",
+        "smooth",
+        "wave",
+        "waves"
+      ],
+      "useWhen": "A smooth, shader-based wave animation component.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML",
+      "provides": "Waves",
+      "requires": "three, @react-three/fiber, @react-three/drei, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/waves-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/waves-demo.tsx",
+        "static/waves.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/waves.json",
+        "registryUrl": "https://www.chamaac.com/r/waves.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/waves/waves.tsx"
+      },
+      "paths": {
+        "directory": "ui/effects/chamaac-waves",
+        "reference": "ui/effects/chamaac-waves/reference.tsx",
+        "readme": "ui/effects/chamaac-waves/README.md",
+        "source": "ui/effects/chamaac-waves/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/effects/chamaac-waves/preview.png"
       }
     },
     {
@@ -48774,6 +50857,3567 @@
         "reference": "ui/icons/animateicons-lucide/zap/reference.md",
         "readme": "ui/icons/animateicons-lucide/zap/README.md",
         "source": "ui/icons/animateicons-lucide/zap/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/activity-icon",
+      "title": "Activity Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "activity",
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the activity-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/activity-icon/src/activity-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/activity-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/activity-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/activity-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/activity-icon/src/activity-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/activity-icon",
+        "reference": "ui/icons/chamaac-icons/activity-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/activity-icon/README.md",
+        "source": "ui/icons/chamaac-icons/activity-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/adjustments-icon",
+      "title": "Adjustments Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "adjustments",
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the adjustments-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/adjustments-icon/src/adjustments-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/adjustments-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/adjustments-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/adjustments-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/adjustments-icon/src/adjustments-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/adjustments-icon",
+        "reference": "ui/icons/chamaac-icons/adjustments-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/adjustments-icon/README.md",
+        "source": "ui/icons/chamaac-icons/adjustments-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/alert-circle-icon",
+      "title": "Alert Circle Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "alert",
+        "animated",
+        "chamaac",
+        "circle",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the alert-circle-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/alert-circle-icon/src/alert-circle-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/alert-circle-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/alert-circle-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/alert-circle-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/alert-circle-icon/src/alert-circle-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/alert-circle-icon",
+        "reference": "ui/icons/chamaac-icons/alert-circle-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/alert-circle-icon/README.md",
+        "source": "ui/icons/chamaac-icons/alert-circle-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-down-icon",
+      "title": "Arrow Down Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "down",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-down-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-down-icon/src/arrow-down-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-down-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-down-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-down-icon/src/arrow-down-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-down-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-down-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-down-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-down-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-down-left-icon",
+      "title": "Arrow Down Left Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "down",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "left",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-down-left-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-down-left-icon/src/arrow-down-left-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-down-left-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-left-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-down-left-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-down-left-icon/src/arrow-down-left-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-down-left-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-down-left-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-down-left-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-down-left-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-down-right-icon",
+      "title": "Arrow Down Right Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "down",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "right",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-down-right-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-down-right-icon/src/arrow-down-right-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-down-right-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-down-right-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-down-right-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-down-right-icon/src/arrow-down-right-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-down-right-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-down-right-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-down-right-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-down-right-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-left-icon",
+      "title": "Arrow Left Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "left",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-left-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-left-icon/src/arrow-left-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-left-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-left-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-left-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-left-icon/src/arrow-left-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-left-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-left-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-left-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-left-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-right-icon",
+      "title": "Arrow Right Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "right",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-right-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-right-icon/src/arrow-right-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-right-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-right-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-right-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-right-icon/src/arrow-right-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-right-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-right-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-right-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-right-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-up-icon",
+      "title": "Arrow Up Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-up-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-up-icon/src/arrow-up-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-up-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-up-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-up-icon/src/arrow-up-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-up-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-up-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-up-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-up-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-up-left-icon",
+      "title": "Arrow Up Left Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "left",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-up-left-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-up-left-icon/src/arrow-up-left-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-up-left-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-left-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-up-left-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-up-left-icon/src/arrow-up-left-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-up-left-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-up-left-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-up-left-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-up-left-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/arrow-up-right-icon",
+      "title": "Arrow Up Right Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "arrow",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "right",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the arrow-up-right-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/arrow-up-right-icon/src/arrow-up-right-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/arrow-up-right-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/arrow-up-right-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/arrow-up-right-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/arrow-up-right-icon/src/arrow-up-right-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/arrow-up-right-icon",
+        "reference": "ui/icons/chamaac-icons/arrow-up-right-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/arrow-up-right-icon/README.md",
+        "source": "ui/icons/chamaac-icons/arrow-up-right-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/battery-icon",
+      "title": "Battery Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "battery",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the battery-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/battery-icon/src/battery-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/battery-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/battery-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/battery-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/battery-icon/src/battery-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/battery-icon",
+        "reference": "ui/icons/chamaac-icons/battery-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/battery-icon/README.md",
+        "source": "ui/icons/chamaac-icons/battery-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/bell-icon",
+      "title": "Bell Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "bell",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the bell-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/bell-icon/src/bell-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/bell-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/bell-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/bell-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/bell-icon/src/bell-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/bell-icon",
+        "reference": "ui/icons/chamaac-icons/bell-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/bell-icon/README.md",
+        "source": "ui/icons/chamaac-icons/bell-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/calendar-icon",
+      "title": "Calendar Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "calendar",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the calendar-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/calendar-icon/src/calendar-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/calendar-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/calendar-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/calendar-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/calendar-icon/src/calendar-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/calendar-icon",
+        "reference": "ui/icons/chamaac-icons/calendar-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/calendar-icon/README.md",
+        "source": "ui/icons/chamaac-icons/calendar-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/cart-icon",
+      "title": "Cart Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "cart",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the cart-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/cart-icon/src/cart-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/cart-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/cart-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/cart-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/cart-icon/src/cart-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/cart-icon",
+        "reference": "ui/icons/chamaac-icons/cart-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/cart-icon/README.md",
+        "source": "ui/icons/chamaac-icons/cart-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/check-icon",
+      "title": "Check Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "check",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the check-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/check-icon/src/check-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/check-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/check-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/check-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/check-icon/src/check-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/check-icon",
+        "reference": "ui/icons/chamaac-icons/check-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/check-icon/README.md",
+        "source": "ui/icons/chamaac-icons/check-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevron-down-icon",
+      "title": "Chevron Down Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevron",
+        "down",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevron-down-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevron-down-icon/src/chevron-down-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevron-down-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-down-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevron-down-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevron-down-icon/src/chevron-down-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevron-down-icon",
+        "reference": "ui/icons/chamaac-icons/chevron-down-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevron-down-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevron-down-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevron-left-icon",
+      "title": "Chevron Left Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevron",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "left",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevron-left-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevron-left-icon/src/chevron-left-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevron-left-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-left-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevron-left-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevron-left-icon/src/chevron-left-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevron-left-icon",
+        "reference": "ui/icons/chamaac-icons/chevron-left-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevron-left-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevron-left-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevron-right-icon",
+      "title": "Chevron Right Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevron",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "right",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevron-right-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevron-right-icon/src/chevron-right-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevron-right-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-right-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevron-right-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevron-right-icon/src/chevron-right-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevron-right-icon",
+        "reference": "ui/icons/chamaac-icons/chevron-right-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevron-right-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevron-right-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevron-up-icon",
+      "title": "Chevron Up Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevron",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevron-up-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevron-up-icon/src/chevron-up-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevron-up-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevron-up-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevron-up-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevron-up-icon/src/chevron-up-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevron-up-icon",
+        "reference": "ui/icons/chamaac-icons/chevron-up-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevron-up-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevron-up-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevrons-down-icon",
+      "title": "Chevrons Down Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevrons",
+        "down",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevrons-down-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevrons-down-icon/src/chevrons-down-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevrons-down-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-down-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevrons-down-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevrons-down-icon/src/chevrons-down-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevrons-down-icon",
+        "reference": "ui/icons/chamaac-icons/chevrons-down-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevrons-down-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevrons-down-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevrons-left-icon",
+      "title": "Chevrons Left Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevrons",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "left",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevrons-left-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevrons-left-icon/src/chevrons-left-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevrons-left-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-left-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevrons-left-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevrons-left-icon/src/chevrons-left-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevrons-left-icon",
+        "reference": "ui/icons/chamaac-icons/chevrons-left-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevrons-left-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevrons-left-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevrons-right-icon",
+      "title": "Chevrons Right Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevrons",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "right",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevrons-right-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevrons-right-icon/src/chevrons-right-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevrons-right-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-right-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevrons-right-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevrons-right-icon/src/chevrons-right-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevrons-right-icon",
+        "reference": "ui/icons/chamaac-icons/chevrons-right-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevrons-right-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevrons-right-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/chevrons-up-icon",
+      "title": "Chevrons Up Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "chevrons",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the chevrons-up-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/chevrons-up-icon/src/chevrons-up-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/chevrons-up-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/chevrons-up-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/chevrons-up-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/chevrons-up-icon/src/chevrons-up-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/chevrons-up-icon",
+        "reference": "ui/icons/chamaac-icons/chevrons-up-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/chevrons-up-icon/README.md",
+        "source": "ui/icons/chamaac-icons/chevrons-up-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/clock-icon",
+      "title": "Clock Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "clock",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the clock-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/clock-icon/src/clock-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/clock-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/clock-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/clock-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/clock-icon/src/clock-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/clock-icon",
+        "reference": "ui/icons/chamaac-icons/clock-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/clock-icon/README.md",
+        "source": "ui/icons/chamaac-icons/clock-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/close-icon",
+      "title": "Close Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "close",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the close-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/close-icon/src/close-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/close-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/close-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/close-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/close-icon/src/close-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/close-icon",
+        "reference": "ui/icons/chamaac-icons/close-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/close-icon/README.md",
+        "source": "ui/icons/chamaac-icons/close-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/cloud-icon",
+      "title": "Cloud Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "cloud",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the cloud-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/cloud-icon/src/cloud-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/cloud-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/cloud-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/cloud-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/cloud-icon/src/cloud-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/cloud-icon",
+        "reference": "ui/icons/chamaac-icons/cloud-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/cloud-icon/README.md",
+        "source": "ui/icons/chamaac-icons/cloud-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/copy-icon",
+      "title": "Copy Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "copy",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the copy-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/copy-icon/src/copy-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/copy-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/copy-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/copy-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/copy-icon/src/copy-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/copy-icon",
+        "reference": "ui/icons/chamaac-icons/copy-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/copy-icon/README.md",
+        "source": "ui/icons/chamaac-icons/copy-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/credit-card-icon",
+      "title": "Credit Card Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "card",
+        "chamaac",
+        "credit",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the credit-card-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/credit-card-icon/src/credit-card-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/credit-card-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/credit-card-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/credit-card-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/credit-card-icon/src/credit-card-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/credit-card-icon",
+        "reference": "ui/icons/chamaac-icons/credit-card-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/credit-card-icon/README.md",
+        "source": "ui/icons/chamaac-icons/credit-card-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/crown-icon",
+      "title": "Crown Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "crown",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the crown-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/crown-icon/src/crown-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/crown-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/crown-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/crown-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/crown-icon/src/crown-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/crown-icon",
+        "reference": "ui/icons/chamaac-icons/crown-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/crown-icon/README.md",
+        "source": "ui/icons/chamaac-icons/crown-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/download-icon",
+      "title": "Download Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "download",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the download-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/download-icon/src/download-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/download-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/download-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/download-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/download-icon/src/download-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/download-icon",
+        "reference": "ui/icons/chamaac-icons/download-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/download-icon/README.md",
+        "source": "ui/icons/chamaac-icons/download-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/edit-icon",
+      "title": "Edit Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "edit",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the edit-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/edit-icon/src/edit-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/edit-icon.tsx"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/icons/chamaac-icons/edit-icon/src/edit-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/edit-icon",
+        "reference": "ui/icons/chamaac-icons/edit-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/edit-icon/README.md",
+        "source": "ui/icons/chamaac-icons/edit-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/external-link-icon",
+      "title": "External Link Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "external",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "link",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the external-link-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/external-link-icon/src/external-link-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/external-link-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/external-link-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/external-link-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/external-link-icon/src/external-link-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/external-link-icon",
+        "reference": "ui/icons/chamaac-icons/external-link-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/external-link-icon/README.md",
+        "source": "ui/icons/chamaac-icons/external-link-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/eye-icon",
+      "title": "Eye Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "eye",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the eye-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/eye-icon/src/eye-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/eye-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/eye-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/eye-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/eye-icon/src/eye-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/eye-icon",
+        "reference": "ui/icons/chamaac-icons/eye-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/eye-icon/README.md",
+        "source": "ui/icons/chamaac-icons/eye-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/gift-icon",
+      "title": "Gift Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "gift",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the gift-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/gift-icon/src/gift-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/gift-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/gift-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/gift-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/gift-icon/src/gift-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/gift-icon",
+        "reference": "ui/icons/chamaac-icons/gift-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/gift-icon/README.md",
+        "source": "ui/icons/chamaac-icons/gift-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/globe-icon",
+      "title": "Globe Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "globe",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the globe-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/globe-icon/src/globe-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/globe-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/globe-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/globe-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/globe-icon/src/globe-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/globe-icon",
+        "reference": "ui/icons/chamaac-icons/globe-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/globe-icon/README.md",
+        "source": "ui/icons/chamaac-icons/globe-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/heart-icon",
+      "title": "Heart Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "heart",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the heart-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/heart-icon/src/heart-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/heart-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/heart-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/heart-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/heart-icon/src/heart-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/heart-icon",
+        "reference": "ui/icons/chamaac-icons/heart-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/heart-icon/README.md",
+        "source": "ui/icons/chamaac-icons/heart-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/hourglass-icon",
+      "title": "Hourglass Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "hourglass",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the hourglass-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/hourglass-icon/src/hourglass-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/hourglass-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/hourglass-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/hourglass-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/hourglass-icon/src/hourglass-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/hourglass-icon",
+        "reference": "ui/icons/chamaac-icons/hourglass-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/hourglass-icon/README.md",
+        "source": "ui/icons/chamaac-icons/hourglass-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/info-icon",
+      "title": "Info Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "info",
+        "interactive",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the info-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/info-icon/src/info-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/info-icon.tsx"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/icons/chamaac-icons/info-icon/src/info-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/info-icon",
+        "reference": "ui/icons/chamaac-icons/info-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/info-icon/README.md",
+        "source": "ui/icons/chamaac-icons/info-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/layers-icon",
+      "title": "Layers Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "layers",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the layers-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/layers-icon/src/layers-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/layers-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/layers-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/layers-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/layers-icon/src/layers-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/layers-icon",
+        "reference": "ui/icons/chamaac-icons/layers-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/layers-icon/README.md",
+        "source": "ui/icons/chamaac-icons/layers-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/lightbulb-icon",
+      "title": "Lightbulb Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "lightbulb",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the lightbulb-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/lightbulb-icon/src/lightbulb-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/lightbulb-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/lightbulb-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/lightbulb-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/lightbulb-icon/src/lightbulb-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/lightbulb-icon",
+        "reference": "ui/icons/chamaac-icons/lightbulb-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/lightbulb-icon/README.md",
+        "source": "ui/icons/chamaac-icons/lightbulb-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/location-icon",
+      "title": "Location Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "location",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the location-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/location-icon/src/location-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/location-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/location-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/location-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/location-icon/src/location-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/location-icon",
+        "reference": "ui/icons/chamaac-icons/location-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/location-icon/README.md",
+        "source": "ui/icons/chamaac-icons/location-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/lock-icon",
+      "title": "Lock Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "lock",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the lock-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/lock-icon/src/lock-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/lock-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/lock-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/lock-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/lock-icon/src/lock-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/lock-icon",
+        "reference": "ui/icons/chamaac-icons/lock-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/lock-icon/README.md",
+        "source": "ui/icons/chamaac-icons/lock-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/mail-icon",
+      "title": "Mail Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "mail",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the mail-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/mail-icon/src/mail-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/mail-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/mail-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/mail-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/mail-icon/src/mail-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/mail-icon",
+        "reference": "ui/icons/chamaac-icons/mail-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/mail-icon/README.md",
+        "source": "ui/icons/chamaac-icons/mail-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/menu-icon",
+      "title": "Menu Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "menu",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the menu-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/menu-icon/src/menu-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/menu-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/menu-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/menu-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/menu-icon/src/menu-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/menu-icon",
+        "reference": "ui/icons/chamaac-icons/menu-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/menu-icon/README.md",
+        "source": "ui/icons/chamaac-icons/menu-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/message-icon",
+      "title": "Message Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "message",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the message-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/message-icon/src/message-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/message-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/message-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/message-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/message-icon/src/message-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/message-icon",
+        "reference": "ui/icons/chamaac-icons/message-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/message-icon/README.md",
+        "source": "ui/icons/chamaac-icons/message-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/mic-icon",
+      "title": "Mic Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "mic",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the mic-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/mic-icon/src/mic-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/mic-icon.tsx"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/icons/chamaac-icons/mic-icon/src/mic-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/mic-icon",
+        "reference": "ui/icons/chamaac-icons/mic-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/mic-icon/README.md",
+        "source": "ui/icons/chamaac-icons/mic-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/moon-icon",
+      "title": "Moon Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "moon",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the moon-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/moon-icon/src/moon-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/moon-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/moon-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/moon-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/moon-icon/src/moon-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/moon-icon",
+        "reference": "ui/icons/chamaac-icons/moon-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/moon-icon/README.md",
+        "source": "ui/icons/chamaac-icons/moon-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/music-icon",
+      "title": "Music Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "music",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the music-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/music-icon/src/music-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/music-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/music-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/music-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/music-icon/src/music-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/music-icon",
+        "reference": "ui/icons/chamaac-icons/music-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/music-icon/README.md",
+        "source": "ui/icons/chamaac-icons/music-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/refresh-icon",
+      "title": "Refresh Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "refresh",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the refresh-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/refresh-icon/src/refresh-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/refresh-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/refresh-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/refresh-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/refresh-icon/src/refresh-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/refresh-icon",
+        "reference": "ui/icons/chamaac-icons/refresh-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/refresh-icon/README.md",
+        "source": "ui/icons/chamaac-icons/refresh-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/rocket-icon",
+      "title": "Rocket Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "rocket",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the rocket-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/rocket-icon/src/rocket-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/rocket-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/rocket-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/rocket-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/rocket-icon/src/rocket-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/rocket-icon",
+        "reference": "ui/icons/chamaac-icons/rocket-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/rocket-icon/README.md",
+        "source": "ui/icons/chamaac-icons/rocket-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/scan-icon",
+      "title": "Scan Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "scan",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the scan-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/scan-icon/src/scan-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/scan-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/scan-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/scan-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/scan-icon/src/scan-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/scan-icon",
+        "reference": "ui/icons/chamaac-icons/scan-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/scan-icon/README.md",
+        "source": "ui/icons/chamaac-icons/scan-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/search-icon",
+      "title": "Search Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "search",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the search-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/search-icon/src/search-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/search-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/search-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/search-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/search-icon/src/search-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/search-icon",
+        "reference": "ui/icons/chamaac-icons/search-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/search-icon/README.md",
+        "source": "ui/icons/chamaac-icons/search-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/send-icon",
+      "title": "Send Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "send",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the send-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/send-icon/src/send-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/send-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/send-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/send-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/send-icon/src/send-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/send-icon",
+        "reference": "ui/icons/chamaac-icons/send-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/send-icon/README.md",
+        "source": "ui/icons/chamaac-icons/send-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/settings-icon",
+      "title": "Settings Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "settings",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the settings-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/settings-icon/src/settings-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/settings-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/settings-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/settings-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/settings-icon/src/settings-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/settings-icon",
+        "reference": "ui/icons/chamaac-icons/settings-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/settings-icon/README.md",
+        "source": "ui/icons/chamaac-icons/settings-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/shield-icon",
+      "title": "Shield Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "shield",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the shield-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/shield-icon/src/shield-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/shield-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/shield-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/shield-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/shield-icon/src/shield-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/shield-icon",
+        "reference": "ui/icons/chamaac-icons/shield-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/shield-icon/README.md",
+        "source": "ui/icons/chamaac-icons/shield-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/sparkle-icon",
+      "title": "Sparkle Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "sparkle",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the sparkle-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/sparkle-icon/src/sparkle-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/sparkle-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/sparkle-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/sparkle-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/sparkle-icon/src/sparkle-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/sparkle-icon",
+        "reference": "ui/icons/chamaac-icons/sparkle-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/sparkle-icon/README.md",
+        "source": "ui/icons/chamaac-icons/sparkle-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/star-icon",
+      "title": "Star Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "star",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the star-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/star-icon/src/star-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/star-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/star-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/star-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/star-icon/src/star-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/star-icon",
+        "reference": "ui/icons/chamaac-icons/star-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/star-icon/README.md",
+        "source": "ui/icons/chamaac-icons/star-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/sun-icon",
+      "title": "Sun Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "sun",
+        "the",
+        "use"
+      ],
+      "useWhen": "Use the sun-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/sun-icon/src/sun-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/sun-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/sun-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/sun-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/sun-icon/src/sun-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/sun-icon",
+        "reference": "ui/icons/chamaac-icons/sun-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/sun-icon/README.md",
+        "source": "ui/icons/chamaac-icons/sun-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/thumbs-up-icon",
+      "title": "Thumbs Up Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "thumbs",
+        "use"
+      ],
+      "useWhen": "Use the thumbs-up-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/thumbs-up-icon/src/thumbs-up-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/thumbs-up-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/thumbs-up-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/thumbs-up-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/thumbs-up-icon/src/thumbs-up-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/thumbs-up-icon",
+        "reference": "ui/icons/chamaac-icons/thumbs-up-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/thumbs-up-icon/README.md",
+        "source": "ui/icons/chamaac-icons/thumbs-up-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/trash-icon",
+      "title": "Trash Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "trash",
+        "use"
+      ],
+      "useWhen": "Use the trash-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/trash-icon/src/trash-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/trash-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/trash-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/trash-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/trash-icon/src/trash-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/trash-icon",
+        "reference": "ui/icons/chamaac-icons/trash-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/trash-icon/README.md",
+        "source": "ui/icons/chamaac-icons/trash-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/upload-icon",
+      "title": "Upload Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "upload",
+        "use"
+      ],
+      "useWhen": "Use the upload-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/upload-icon/src/upload-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/upload-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/upload-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/upload-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/upload-icon/src/upload-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/upload-icon",
+        "reference": "ui/icons/chamaac-icons/upload-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/upload-icon/README.md",
+        "source": "ui/icons/chamaac-icons/upload-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/user-icon",
+      "title": "User Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use",
+        "user"
+      ],
+      "useWhen": "Use the user-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/user-icon/src/user-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/user-icon.tsx"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "ui/icons/chamaac-icons/user-icon/src/user-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/user-icon",
+        "reference": "ui/icons/chamaac-icons/user-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/user-icon/README.md",
+        "source": "ui/icons/chamaac-icons/user-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/volume-icon",
+      "title": "Volume Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use",
+        "volume"
+      ],
+      "useWhen": "Use the volume-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/volume-icon/src/volume-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/volume-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/volume-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/volume-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/volume-icon/src/volume-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/volume-icon",
+        "reference": "ui/icons/chamaac-icons/volume-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/volume-icon/README.md",
+        "source": "ui/icons/chamaac-icons/volume-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/wavy-icon",
+      "title": "Wavy Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use",
+        "wavy"
+      ],
+      "useWhen": "Use the wavy-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/wavy-icon/src/wavy-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/wavy-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/wavy-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/wavy-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/wavy-icon/src/wavy-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/wavy-icon",
+        "reference": "ui/icons/chamaac-icons/wavy-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/wavy-icon/README.md",
+        "source": "ui/icons/chamaac-icons/wavy-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/wifi-icon",
+      "title": "Wifi Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use",
+        "wifi"
+      ],
+      "useWhen": "Use the wifi-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/wifi-icon/src/wifi-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/wifi-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/wifi-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/wifi-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/wifi-icon/src/wifi-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/wifi-icon",
+        "reference": "ui/icons/chamaac-icons/wifi-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/wifi-icon/README.md",
+        "source": "ui/icons/chamaac-icons/wifi-icon/SOURCE.md",
+        "prompt": null,
+        "preview": null
+      }
+    },
+    {
+      "id": "icons/chamaac-icons/zap-icon",
+      "title": "Zap Icon",
+      "category": "icons",
+      "source": "chamaac-icons",
+      "nature": "interactive",
+      "roles": [
+        "behavior",
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "animated",
+        "chamaac",
+        "from",
+        "icon",
+        "icons",
+        "interactive",
+        "the",
+        "use",
+        "zap"
+      ],
+      "useWhen": "Use the zap-icon animated icon from chamaac-icons.",
+      "medium": "react",
+      "entryPoint": "ui/icons/chamaac-icons/zap-icon/src/zap-icon.tsx",
+      "status": "ok",
+      "evidence": "review",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.md",
+        "src/zap-icon.tsx"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/zap-icon.json",
+        "registryUrl": "https://www.chamaac.com/r/zap-icon.json",
+        "fallbackPath": "ui/icons/chamaac-icons/zap-icon/src/zap-icon.tsx"
+      },
+      "paths": {
+        "directory": "ui/icons/chamaac-icons/zap-icon",
+        "reference": "ui/icons/chamaac-icons/zap-icon/reference.md",
+        "readme": "ui/icons/chamaac-icons/zap-icon/README.md",
+        "source": "ui/icons/chamaac-icons/zap-icon/SOURCE.md",
         "prompt": null,
         "preview": null
       }
@@ -242098,6 +247742,69 @@
       }
     },
     {
+      "id": "navigation/chamaac-dock",
+      "title": "Chamaac Dock",
+      "category": "navigation",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "animated",
+        "chamaac",
+        "component",
+        "dock",
+        "dropdown",
+        "effects",
+        "hover",
+        "image",
+        "interactive",
+        "menus",
+        "navigation",
+        "previews",
+        "with"
+      ],
+      "useWhen": "A dock navigation component with animated dropdown menus, hover effects, and image previews.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Dock",
+      "requires": "motion, clsx, tailwind-merge, lucide-react, next-themes",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/dock-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/dock-demo.tsx",
+        "static/dock.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/dock.json",
+        "registryUrl": "https://www.chamaac.com/r/dock.json",
+        "fallbackPath": "src/examples/dock-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/navigation/chamaac-dock",
+        "reference": "ui/navigation/chamaac-dock/reference.tsx",
+        "readme": "ui/navigation/chamaac-dock/README.md",
+        "source": "ui/navigation/chamaac-dock/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/navigation/chamaac-dock/preview.png"
+      }
+    },
+    {
       "id": "navigation/gooey-plus-menu",
       "title": "Gooey Plus Menu",
       "category": "navigation",
@@ -252013,6 +257720,130 @@
       }
     },
     {
+      "id": "page/chamaac-feature-steps",
+      "title": "Chamaac Feature Steps",
+      "category": "page",
+      "source": "chamaac",
+      "nature": "structural",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "auto",
+        "chamaac",
+        "component",
+        "dynamic",
+        "feature",
+        "image",
+        "page",
+        "playing",
+        "showcase",
+        "steps",
+        "structural",
+        "synchronized",
+        "transitions",
+        "with"
+      ],
+      "useWhen": "A dynamic feature showcase component with auto-playing steps and synchronized image transitions.",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Feature Steps",
+      "requires": "motion, clsx, tailwind-merge",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/feature-steps-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/feature-steps-demo.tsx",
+        "static/feature-steps.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/feature-steps.json",
+        "registryUrl": "https://www.chamaac.com/r/feature-steps.json",
+        "fallbackPath": "src/examples/feature-steps-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/page/chamaac-feature-steps",
+        "reference": "ui/page/chamaac-feature-steps/reference.tsx",
+        "readme": "ui/page/chamaac-feature-steps/README.md",
+        "source": "ui/page/chamaac-feature-steps/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/page/chamaac-feature-steps/preview.png"
+      }
+    },
+    {
+      "id": "page/chamaac-how-it-works",
+      "title": "Chamaac How It Works",
+      "category": "page",
+      "source": "chamaac",
+      "nature": "structural",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "cards",
+        "chamaac",
+        "connecting",
+        "flow",
+        "how",
+        "lines",
+        "page",
+        "process",
+        "step",
+        "structural",
+        "with",
+        "works"
+      ],
+      "useWhen": "A 5-step process flow with cards and connecting lines.",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "How It Works",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/how-it-works-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/how-it-works-demo.tsx",
+        "static/how-it-works.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add https://www.chamaac.com/r/how-it-works.json",
+        "registryUrl": "https://www.chamaac.com/r/how-it-works.json",
+        "fallbackPath": "ui/_sources/chamaac/registry/chamaac/how-it-works/how-it-works.tsx"
+      },
+      "paths": {
+        "directory": "ui/page/chamaac-how-it-works",
+        "reference": "ui/page/chamaac-how-it-works/reference.tsx",
+        "readme": "ui/page/chamaac-how-it-works/README.md",
+        "source": "ui/page/chamaac-how-it-works/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/page/chamaac-how-it-works/preview.png"
+      }
+    },
+    {
       "id": "page/shadcn-dashboard-01",
       "title": "Shadcn Dashboard 01",
       "category": "page",
@@ -252635,6 +258466,60 @@
         "source": "ui/page/shadcn-signup-05/SOURCE.md",
         "prompt": null,
         "preview": "ui/page/shadcn-signup-05/preview.png"
+      }
+    },
+    {
+      "id": "scroll/chamaac-stack-scroll",
+      "title": "Chamaac Stack Scroll",
+      "category": "scroll",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "chamaac",
+        "interactive",
+        "progress",
+        "repository",
+        "scroll",
+        "stack",
+        "the",
+        "work"
+      ],
+      "useWhen": "Stack Scroll (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4 + Motion; static HTML",
+      "provides": "Stack Scroll",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/stack-scroll-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/stack-scroll-demo.tsx",
+        "static/stack-scroll.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/stack-scroll-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/scroll/chamaac-stack-scroll",
+        "reference": "ui/scroll/chamaac-stack-scroll/reference.tsx",
+        "readme": "ui/scroll/chamaac-stack-scroll/README.md",
+        "source": "ui/scroll/chamaac-stack-scroll/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/scroll/chamaac-stack-scroll/preview.png"
       }
     },
     {
@@ -253486,6 +259371,61 @@
         "source": "ui/surface/astryx-selectable-card/SOURCE.md",
         "prompt": null,
         "preview": "ui/surface/astryx-selectable-card/preview.png"
+      }
+    },
+    {
+      "id": "surface/chamaac-tilt-card",
+      "title": "Chamaac Tilt Card",
+      "category": "surface",
+      "source": "chamaac",
+      "nature": "interactive",
+      "roles": [
+        "visual"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "card",
+        "chamaac",
+        "interactive",
+        "progress",
+        "repository",
+        "surface",
+        "the",
+        "tilt",
+        "work"
+      ],
+      "useWhen": "Tilt Card (work in progress in the Chamaac repository).",
+      "medium": "React + TypeScript + Tailwind CSS v4; static HTML",
+      "provides": "Tilt Card",
+      "requires": "React and Tailwind v4",
+      "addedAt": "2026-09-25T08:24:04Z",
+      "entryPoint": "src/examples/tilt-card-demo.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "default"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/tilt-card-demo.tsx",
+        "static/tilt-card.html"
+      ],
+      "installation": {
+        "method": "source",
+        "fallbackPath": "src/examples/tilt-card-demo.tsx"
+      },
+      "paths": {
+        "directory": "ui/surface/chamaac-tilt-card",
+        "reference": "ui/surface/chamaac-tilt-card/reference.tsx",
+        "readme": "ui/surface/chamaac-tilt-card/README.md",
+        "source": "ui/surface/chamaac-tilt-card/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/surface/chamaac-tilt-card/preview.png"
       }
     },
     {

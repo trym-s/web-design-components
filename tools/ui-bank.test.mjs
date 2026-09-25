@@ -50,12 +50,12 @@ test("bans are complete and reach every selection surface", () => {
 
 test("animated icon inventories and installation metadata are complete", () => {
   const icons = catalog.entries.filter((entry) => entry.category === "icons");
-  assert.equal(icons.length, 3929);
-  assert.equal(icons.filter((entry) => entry.availability === "public").length, 3850);
+  assert.equal(icons.length, 3996);
+  assert.equal(icons.filter((entry) => entry.availability === "public").length, 3917);
   assert.equal(icons.filter((entry) => entry.availability === "personal-cache").length, 79);
   assert.deepEqual(
     Object.fromEntries([...new Set(icons.map((entry) => entry.source))].sort().map((source) => [source, icons.filter((entry) => entry.source === source).length])),
-    { "animateicons-lucide": 509, "heroicons-animated": 316, itshover: 263, "line-md": 1218, "lucide-animated": 466, "lucide-motion-vue": 523, movingicons: 555, "react-useanimations": 79 },
+    { "animateicons-lucide": 509, "chamaac-icons": 67, "heroicons-animated": 316, itshover: 263, "line-md": 1218, "lucide-animated": 466, "lucide-motion-vue": 523, movingicons: 555, "react-useanimations": 79 },
   );
   for (const entry of icons.filter((candidate) => candidate.installation.method === "shadcn")) {
     assert.ok(entry.installation.command);

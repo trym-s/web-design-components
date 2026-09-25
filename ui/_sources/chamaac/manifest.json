@@ -1,0 +1,406 @@
+{
+  "commit": "345d79b1b1d4c89c2394a5c23ac12a9861c383c2",
+  "captured": "2026-09-25T08:24:04Z",
+  "entries": [
+    {
+      "id": "effects/chamaac-astral-flow",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "astral-flow"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-electric-mist",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "electric-mist"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-grid-bloom",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "grid-bloom"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-interactive-grid",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "interactive-grid"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-light-speed",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "light-speed"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-liquid-chrome",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "liquid-chrome"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-nebula",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "nebula"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-synthesis",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "synthesis"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "effects/chamaac-waves",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "waves"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-focus-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "focus-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-glowing-border-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "glowing-border-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-hover-arrow-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "hover-arrow-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-neo-brutalist-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "neo-brutalist-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-premium-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "premium-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-shimmer-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "shimmer-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "action-feedback/chamaac-slideup-button",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "slideup-button"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "content/chamaac-carousel",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "carousel"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "ai/chamaac-ai-input",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "ai-input"
+      ],
+      "kind": "published",
+      "preview": "bank"
+    },
+    {
+      "id": "navigation/chamaac-dock",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "dock"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "page/chamaac-feature-steps",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "feature-steps"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "data-visualization/chamaac-gauge",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "gauge"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "page/chamaac-how-it-works",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "how-it-works"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "data-display/chamaac-stats-cards",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "stats-cards"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "animation/chamaac-dancing-letters",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "dancing-letters"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "animation/chamaac-gif-text",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "gif-text"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "animation/chamaac-text-loop",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "text-loop"
+      ],
+      "kind": "published",
+      "preview": "site"
+    },
+    {
+      "id": "scroll/chamaac-stack-scroll",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "stack-scroll"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-deform-tunnel",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "deform-tunnel"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "data-display/chamaac-invoice-card",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "invoice-card"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "animation/chamaac-orbiting-icons",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "orbiting-icons"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-reveal-card",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "reveal-card"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "animation/chamaac-svg-animation",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "svg-animation"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "surface/chamaac-tilt-card",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "tilt-card"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-water-caustic",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "water-caustic"
+      ],
+      "kind": "in-progress",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-bokeh-grid",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "bokeh-grid"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-glassy-boxes",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "glassy-boxes"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-iridescent-windows",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "iridescent-windows"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-liquid-morph",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "liquid-morph"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-modern-smoke",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "modern-smoke"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    },
+    {
+      "id": "effects/chamaac-shader-test",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "shader-test"
+      ],
+      "kind": "source-only",
+      "preview": "bank"
+    }
+  ]
+}

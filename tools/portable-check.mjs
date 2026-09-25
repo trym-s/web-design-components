@@ -16,7 +16,8 @@ import { execFile, execFileSync } from "node:child_process";
 import { promisify } from "node:util";
 
 const ROOT = resolve(import.meta.dirname, "..");
-const FIXTURE = join(ROOT, "tools/portable-fixture");
+// PORTABLE_FIXTURE: a copy of the fixture (e.g. under .cache/) so parallel checks do not share `entry/`.
+const FIXTURE = resolve(ROOT, process.env.PORTABLE_FIXTURE ?? "tools/portable-fixture");
 const OUT = join(ROOT, ".cache/portable");
 const CHROMIUM = process.env.CHROMIUM ?? "chromium";
 const args = process.argv.slice(2);

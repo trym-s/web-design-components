@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/document-report/src/document-report.svg`
+- Entry point: `ui/icons/line-md/document-report/upstream/document-report.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/document-report/src/document-report.svg`
+- Local source: `ui/icons/line-md/document-report/upstream/document-report.svg`

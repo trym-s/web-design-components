@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/logout/src/logout.svg`
+- Entry point: `ui/icons/line-md/logout/upstream/logout.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/logout/src/logout.svg`
+- Local source: `ui/icons/line-md/logout/upstream/logout.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/car-light-dimmed/src/car-light-dimmed.svg`
+- Entry point: `ui/icons/line-md/car-light-dimmed/upstream/car-light-dimmed.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/car-light-dimmed/src/car-light-dimmed.svg`
+- Local source: `ui/icons/line-md/car-light-dimmed/upstream/car-light-dimmed.svg`

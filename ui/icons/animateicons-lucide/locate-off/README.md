@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/locate-off/src/locate-off.tsx`
+- Entry point: `ui/icons/animateicons-lucide/locate-off/upstream/locate-off.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-locate-off.json`
 - Registry: https://animateicons.in/r/lu-locate-off.json
-- Local source fallback: `ui/icons/animateicons-lucide/locate-off/src/locate-off.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/locate-off/upstream/locate-off.tsx`

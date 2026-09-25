@@ -123,21 +123,21 @@ export function ValueFlash({
 
   const tone = flashing
     ? direction === "up"
-      ? "text-emerald-600 dark:text-emerald-400"
-      : "text-red-600 dark:text-red-400"
-    : "text-stone-700 dark:text-stone-200";
+      ? "text-(--success)"
+      : "text-destructive"
+    : "text-foreground";
 
   const tint =
     direction === "up"
-      ? "bg-emerald-500/[0.12] dark:bg-emerald-400/[0.14]"
-      : "bg-red-500/[0.12] dark:bg-red-400/[0.14]";
+      ? "bg-(--success)/12"
+      : "bg-destructive/12";
 
   return (
     <motion.span
       initial={false}
       animate={{ scale: reduced ? 1 : flashing ? 1.05 : 1 }}
       transition={reduced ? STILL : flashing ? LIFT : SETTLE}
-      className={`relative inline-grid grid-flow-col items-center gap-1.5 rounded-[6px] px-1.5 py-[3px] text-[13px] font-medium tabular-nums transition-colors duration-200 ${tone} ${className}`}
+      className={`relative inline-grid [--success:oklch(0.596_0.145_163.2)] dark:[--success:oklch(0.765_0.177_163.2)] grid-flow-col items-center gap-1.5 rounded-[calc(var(--radius)-4px)] px-1.5 py-[3px] text-[13px] font-medium tabular-nums transition-colors duration-200 ${tone} ${className}`}
     >
       {direction ? (
         <motion.span
@@ -145,7 +145,7 @@ export function ValueFlash({
           initial={{ opacity: 0 }}
           animate={{ opacity: flashing ? 1 : 0 }}
           transition={reduced ? STILL : flashing ? CELL : CLEAR}
-          className={`pointer-events-none absolute inset-0 rounded-[6px] ${tint}`}
+          className={`pointer-events-none absolute inset-0 rounded-[calc(var(--radius)-4px)] ${tint}`}
         />
       ) : null}
 

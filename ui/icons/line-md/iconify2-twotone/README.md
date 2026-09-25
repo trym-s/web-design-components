@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/iconify2-twotone/src/iconify2-twotone.svg`
+- Entry point: `ui/icons/line-md/iconify2-twotone/upstream/iconify2-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/iconify2-twotone/src/iconify2-twotone.svg`
+- Local source: `ui/icons/line-md/iconify2-twotone/upstream/iconify2-twotone.svg`

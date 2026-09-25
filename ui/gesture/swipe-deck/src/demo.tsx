@@ -31,7 +31,7 @@ const QUEUE: Lead[] = [
   },
 ];
 
-export function SwipeDeckDemo() {
+export default function SwipeDeckDemo() {
   return (
     <div className="grid w-full place-items-center">
       <div className="w-full max-w-[360px]">
@@ -47,11 +47,11 @@ export function SwipeDeckDemo() {
         >
           {(lead) => (
             <div className="flex h-full flex-col justify-end gap-1 p-3.5">
-              <p className="text-[13px] font-medium text-ink">{lead.name}</p>
-              <p className="text-[12px] leading-relaxed text-ink-2">
+              <p className="text-[13px] font-medium text-foreground">{lead.name}</p>
+              <p className="text-[12px] leading-relaxed text-muted-foreground">
                 {lead.note}
               </p>
-              <p className="text-[11.5px] text-ink-3">{lead.role}</p>
+              <p className="text-[11.5px] text-muted-foreground">{lead.role}</p>
             </div>
           )}
         </SwipeDeck>

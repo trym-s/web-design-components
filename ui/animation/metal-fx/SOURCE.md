@@ -6,4 +6,4 @@
 - Version: `1.0.4`
 - License: MIT; see `LICENSE`
 - Runtime: React 18+ and WebGL
-- Retained source: `src/`
+- Retained source: `upstream/`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/lock-open/src/lock-open.tsx`
+- Entry point: `ui/icons/heroicons-animated/lock-open/upstream/lock-open.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/lock-open`
 - Registry: https://www.heroicons-animated.com/r/lock-open.json
-- Local source fallback: `ui/icons/heroicons-animated/lock-open/src/lock-open.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/lock-open/upstream/lock-open.tsx`

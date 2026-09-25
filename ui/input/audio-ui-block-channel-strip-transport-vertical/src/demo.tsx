@@ -1,10 +1,11 @@
-import E0 from "./examples/block-channel-strip-transport-vertical";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-transport-vertical", title: "Block Channel Strip Transport Vertical", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripTransportVertical } from "./block-channel-strip-transport-vertical";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [time, setTime] = useState(35);
+  return (
+    <div className="w-full max-w-md">
+      <BlockChannelStripTransportVertical bufferedTime={63} currentTime={time} duration={102} onSeek={setTime} title="Track 1" />
+    </div>
+  );
 }

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chevrons-left-right/src/chevrons-left-right.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chevrons-left-right/upstream/chevrons-left-right.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chevrons-left-right/src/chevrons-left-right.vue`
+- Local source: `ui/icons/lucide-motion-vue/chevrons-left-right/upstream/chevrons-left-right.vue`

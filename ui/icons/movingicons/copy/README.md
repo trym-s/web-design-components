@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/copy/src/copy.svelte`
+- Entry point: `ui/icons/movingicons/copy/upstream/copy.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/copy`
 - Registry: https://movingicons.dev/r/copy
-- Local source fallback: `ui/icons/movingicons/copy/src/copy.svelte`
+- Local source fallback: `ui/icons/movingicons/copy/upstream/copy.svelte`

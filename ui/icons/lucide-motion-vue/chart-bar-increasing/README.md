@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chart-bar-increasing/src/chart-bar-increasing.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chart-bar-increasing/upstream/chart-bar-increasing.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chart-bar-increasing/src/chart-bar-increasing.vue`
+- Local source: `ui/icons/lucide-motion-vue/chart-bar-increasing/upstream/chart-bar-increasing.vue`

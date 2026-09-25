@@ -7,7 +7,7 @@ TimeInput uses a browser/OS time picker on coarse pointers by default and Astryx
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TimeInput.tsx`
+- Entry point: `upstream/TimeInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ TimeInput uses a browser/OS time picker on coarse pointers by default and Astryx
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ TimeInput uses a browser/OS time picker on coarse pointers by default and Astryx
 
 ## Examples
 
-- `src/examples/TimeInputShowcase.tsx` — Time Input: A time input that uses the browser/OS picker on touch by default and Astryx typed entry on fine pointers. · static: `static/TimeInputShowcase.html`
-- `src/examples/TimeInputConstrained.tsx` — TimeInput — Constrained: Time inputs with min/max constraints limiting selection to specific windows. Use to prevent out-of-bounds selections for appointments, reservations, or shift scheduling. · static: `static/TimeInputConstrained.html`
-- `src/examples/TimeInputFormats.tsx` — TimeInput — Formats: 12-hour, 24-hour, and seconds formats side by side. Use 12h for US-centric UIs, 24h for international or technical contexts, and seconds for precise timing. · static: `static/TimeInputFormats.html`
-- `src/examples/TimeInputIncrement.tsx` — TimeInput — Increment: Time input with a custom step increment. Arrow keys jump by the specified interval (e.g. 15 minutes) for quick slot-based scheduling. · static: `static/TimeInputIncrement.html`
-- `src/examples/TimeInputStates.tsx` — TimeInput — States: Default, disabled, error, warning, and success states. Use status messages to give users clear feedback about their time selection. · static: `static/TimeInputStates.html`
+- `upstream/examples/TimeInputShowcase.tsx` — Time Input: A time input that uses the browser/OS picker on touch by default and Astryx typed entry on fine pointers. · static: `static/TimeInputShowcase.html`
+- `upstream/examples/TimeInputConstrained.tsx` — TimeInput — Constrained: Time inputs with min/max constraints limiting selection to specific windows. Use to prevent out-of-bounds selections for appointments, reservations, or shift scheduling. · static: `static/TimeInputConstrained.html`
+- `upstream/examples/TimeInputFormats.tsx` — TimeInput — Formats: 12-hour, 24-hour, and seconds formats side by side. Use 12h for US-centric UIs, 24h for international or technical contexts, and seconds for precise timing. · static: `static/TimeInputFormats.html`
+- `upstream/examples/TimeInputIncrement.tsx` — TimeInput — Increment: Time input with a custom step increment. Arrow keys jump by the specified interval (e.g. 15 minutes) for quick slot-based scheduling. · static: `static/TimeInputIncrement.html`
+- `upstream/examples/TimeInputStates.tsx` — TimeInput — States: Default, disabled, error, warning, and success states. Use status messages to give users clear feedback about their time selection. · static: `static/TimeInputStates.html`
 
 ## Documentation
 
@@ -159,9 +159,9 @@ Styling hook class: `.astryx-time-input`
 
 ## Files
 
-- `src/TimeInput.doc.mjs`
-- `src/TimeInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/TimeInput.doc.mjs`
+- `upstream/TimeInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TimeInput

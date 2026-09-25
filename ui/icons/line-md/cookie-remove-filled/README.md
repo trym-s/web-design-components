@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cookie-remove-filled/src/cookie-remove-filled.svg`
+- Entry point: `ui/icons/line-md/cookie-remove-filled/upstream/cookie-remove-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cookie-remove-filled/src/cookie-remove-filled.svg`
+- Local source: `ui/icons/line-md/cookie-remove-filled/upstream/cookie-remove-filled.svg`

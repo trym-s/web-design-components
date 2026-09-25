@@ -7,7 +7,7 @@ CodeBlock renders syntax-highlighted code with line numbers, a copy button, and 
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/CodeBlock.tsx`
+- Entry point: `upstream/CodeBlock.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ CodeBlock renders syntax-highlighted code with line numbers, a copy button, and 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,16 +33,16 @@ CodeBlock renders syntax-highlighted code with line numbers, a copy button, and 
 
 ## Examples
 
-- `src/examples/CodeBlockShowcase.tsx` — Code Block: A syntax-highlighted TypeScript code block with line numbers, a title bar, and a copy button. · static: `static/CodeBlockShowcase.html`
-- `src/examples/CodeShowcase.tsx` — Code: Inline code snippets inside a sentence showing how Code renders alongside body text. · static: `static/CodeShowcase.html`
-- `src/examples/CodeAcrossTextSizes.tsx` — Code — Text Sizes: Inline code rendered inside heading, body, supporting, and label text. Code automatically matches the font size of its parent text element. · static: `static/CodeAcrossTextSizes.html`
-- `src/examples/CodeBlockBashCommand.tsx` — Code — Snippet: Short terminal commands with a copy button and no line numbers. Use for install instructions or one-liner commands that readers will paste directly. · static: `static/CodeBlockBashCommand.html`
-- `src/examples/CodeBlockHighlightedLines.tsx` — Code — Highlighted: TypeScript code with specific lines highlighted to draw attention to a key section. Use highlightLines to call out new or important code in tutorials and changelogs. · static: `static/CodeBlockHighlightedLines.html`
-- `src/examples/CodeBlockJSONConfig.tsx` — Code — Config: A JSON configuration file with a title bar and line numbers. The title prop adds a filename label in the header so readers know which file the code belongs to. · static: `static/CodeBlockJSONConfig.html`
-- `src/examples/CodeBlockScrollableBlock.tsx` — Code — Scrollable: A long code block with a max height that enables vertical scrolling. Use maxHeight to keep the block from dominating the page when displaying large files. · static: `static/CodeBlockScrollableBlock.html`
-- `src/examples/CodeBlockTerminal.tsx` — Code — Terminal: A dark terminal-style command block: a bash CodeBlock wrapped in SyntaxTheme with the GitHub Dark preset, copy button on, and no line numbers. Use for shell sessions or CLI output that should read as a terminal even on light pages. Reach for a dark syntax preset instead of hand-rolling a dark box with custom CSS. · static: `static/CodeBlockTerminal.html`
-- `src/examples/CodeInlineInParagraph.tsx` — Code — Inline: Inline code references mixed within a paragraph of body text. Use Code to mark up function names, hooks, or API terms so they stand out from surrounding prose. · static: `static/CodeInlineInParagraph.html`
-- `src/examples/CodeVariousContent.tsx` — Code — Content Types: Inline code used for variables, terminal commands, CSS properties, file paths, and keyboard shortcuts. Shows how Code adapts to different kinds of technical content. · static: `static/CodeVariousContent.html`
+- `upstream/examples/CodeBlockShowcase.tsx` — Code Block: A syntax-highlighted TypeScript code block with line numbers, a title bar, and a copy button. · static: `static/CodeBlockShowcase.html`
+- `upstream/examples/CodeShowcase.tsx` — Code: Inline code snippets inside a sentence showing how Code renders alongside body text. · static: `static/CodeShowcase.html`
+- `upstream/examples/CodeAcrossTextSizes.tsx` — Code — Text Sizes: Inline code rendered inside heading, body, supporting, and label text. Code automatically matches the font size of its parent text element. · static: `static/CodeAcrossTextSizes.html`
+- `upstream/examples/CodeBlockBashCommand.tsx` — Code — Snippet: Short terminal commands with a copy button and no line numbers. Use for install instructions or one-liner commands that readers will paste directly. · static: `static/CodeBlockBashCommand.html`
+- `upstream/examples/CodeBlockHighlightedLines.tsx` — Code — Highlighted: TypeScript code with specific lines highlighted to draw attention to a key section. Use highlightLines to call out new or important code in tutorials and changelogs. · static: `static/CodeBlockHighlightedLines.html`
+- `upstream/examples/CodeBlockJSONConfig.tsx` — Code — Config: A JSON configuration file with a title bar and line numbers. The title prop adds a filename label in the header so readers know which file the code belongs to. · static: `static/CodeBlockJSONConfig.html`
+- `upstream/examples/CodeBlockScrollableBlock.tsx` — Code — Scrollable: A long code block with a max height that enables vertical scrolling. Use maxHeight to keep the block from dominating the page when displaying large files. · static: `static/CodeBlockScrollableBlock.html`
+- `upstream/examples/CodeBlockTerminal.tsx` — Code — Terminal: A dark terminal-style command block: a bash CodeBlock wrapped in SyntaxTheme with the GitHub Dark preset, copy button on, and no line numbers. Use for shell sessions or CLI output that should read as a terminal even on light pages. Reach for a dark syntax preset instead of hand-rolling a dark box with custom CSS. · static: `static/CodeBlockTerminal.html`
+- `upstream/examples/CodeInlineInParagraph.tsx` — Code — Inline: Inline code references mixed within a paragraph of body text. Use Code to mark up function names, hooks, or API terms so they stand out from surrounding prose. · static: `static/CodeInlineInParagraph.html`
+- `upstream/examples/CodeVariousContent.tsx` — Code — Content Types: Inline code used for variables, terminal commands, CSS properties, file paths, and keyboard shortcuts. Shows how Code adapts to different kinds of technical content. · static: `static/CodeVariousContent.html`
 
 ## Documentation
 
@@ -116,10 +116,10 @@ Styling hook class: `.astryx-code`, `.astryx-code-block`, `.astryx-code-block-he
 
 ## Files
 
-- `src/Code.doc.mjs`
-- `src/CodeBlock.doc.mjs`
-- `src/CodeBlock.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Code.doc.mjs`
+- `upstream/CodeBlock.doc.mjs`
+- `upstream/CodeBlock.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/CodeBlock

@@ -7,7 +7,7 @@ Smooths bursty streamed text into a steady character-by-character reveal using r
 - Category: `hooks` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/useStreamingText.ts`
+- Entry point: `upstream/useStreamingText.ts`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Smooths bursty streamed text into a steady character-by-character reveal using r
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -34,7 +34,7 @@ Smooths bursty streamed text into a steady character-by-character reveal using r
 
 ## Examples
 
-- `src/examples/useStreamingTextHookUsage.tsx` — useStreamingText — Streaming Response: Smooth bursty generated text into a steady reveal with useStreamingText. · static: `static/useStreamingTextHookUsage.html`
+- `upstream/examples/useStreamingTextHookUsage.tsx` — useStreamingText — Streaming Response: Smooth bursty generated text into a steady reveal with useStreamingText. · static: `static/useStreamingTextHookUsage.html`
 
 ## Documentation
 
@@ -77,9 +77,9 @@ Smooths bursty streamed text into a steady character-by-character reveal using r
 
 ## Files
 
-- `src/useStreamingText.doc.mjs`
-- `src/useStreamingText.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/useStreamingText.doc.mjs`
+- `upstream/useStreamingText.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/useStreamingText

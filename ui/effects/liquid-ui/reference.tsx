@@ -2,7 +2,7 @@
 
 "use client";
 
-import { LiquidPlayground } from "./src/liquid/playground";
+import { LiquidPlayground } from "./upstream/liquid/playground";
 
 export default function Reference() {
   return <LiquidPlayground />;

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-twotone-off/src/chat-twotone-off.svg`
+- Entry point: `ui/icons/line-md/chat-twotone-off/upstream/chat-twotone-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-twotone-off/src/chat-twotone-off.svg`
+- Local source: `ui/icons/line-md/chat-twotone-off/upstream/chat-twotone-off.svg`

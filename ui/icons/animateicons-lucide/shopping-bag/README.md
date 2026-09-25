@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/shopping-bag/src/shopping-bag.tsx`
+- Entry point: `ui/icons/animateicons-lucide/shopping-bag/upstream/shopping-bag.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shopping-bag.json`
 - Registry: https://animateicons.in/r/lu-shopping-bag.json
-- Local source fallback: `ui/icons/animateicons-lucide/shopping-bag/src/shopping-bag.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/shopping-bag/upstream/shopping-bag.tsx`

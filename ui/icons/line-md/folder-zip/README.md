@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-zip/src/folder-zip.svg`
+- Entry point: `ui/icons/line-md/folder-zip/upstream/folder-zip.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-zip/src/folder-zip.svg`
+- Local source: `ui/icons/line-md/folder-zip/upstream/folder-zip.svg`

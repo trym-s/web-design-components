@@ -7,7 +7,7 @@ Thumbnail displays a compact, square preview of an image attachment. It shows a 
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Thumbnail.tsx`
+- Entry point: `upstream/Thumbnail.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Thumbnail displays a compact, square preview of an image attachment. It shows a 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ Thumbnail displays a compact, square preview of an image attachment. It shows a 
 
 ## Examples
 
-- `src/examples/ThumbnailShowcase.tsx` — Thumbnail: A thumbnail with an image and label. · static: `static/ThumbnailShowcase.html`
-- `src/examples/ThumbnailDisabled.tsx` — Thumbnail — Disabled: Thumbnails in the disabled state with reduced opacity. The remove button and click handler are suppressed when disabled. · static: `static/ThumbnailDisabled.html`
-- `src/examples/ThumbnailGallery.tsx` — Thumbnail — Gallery: A row of clickable thumbnails with labels that open a detail view. Use for image attachment lists where users need to preview and manage uploads. · static: `static/ThumbnailGallery.html`
-- `src/examples/ThumbnailRemovable.tsx` — Thumbnail — Removable: Thumbnails with a remove button overlay. The close button uses APCA luminance detection to stay visible on both dark and light images. · static: `static/ThumbnailRemovable.html`
-- `src/examples/ThumbnailStates.tsx` — Thumbnail — States: All visual states side by side: image loaded, placeholder, skeleton loading, and upload overlay. Demonstrates the full lifecycle of a thumbnail from empty to loaded. · static: `static/ThumbnailStates.html`
+- `upstream/examples/ThumbnailShowcase.tsx` — Thumbnail: A thumbnail with an image and label. · static: `static/ThumbnailShowcase.html`
+- `upstream/examples/ThumbnailDisabled.tsx` — Thumbnail — Disabled: Thumbnails in the disabled state with reduced opacity. The remove button and click handler are suppressed when disabled. · static: `static/ThumbnailDisabled.html`
+- `upstream/examples/ThumbnailGallery.tsx` — Thumbnail — Gallery: A row of clickable thumbnails with labels that open a detail view. Use for image attachment lists where users need to preview and manage uploads. · static: `static/ThumbnailGallery.html`
+- `upstream/examples/ThumbnailRemovable.tsx` — Thumbnail — Removable: Thumbnails with a remove button overlay. The close button uses APCA luminance detection to stay visible on both dark and light images. · static: `static/ThumbnailRemovable.html`
+- `upstream/examples/ThumbnailStates.tsx` — Thumbnail — States: All visual states side by side: image loaded, placeholder, skeleton loading, and upload overlay. Demonstrates the full lifecycle of a thumbnail from empty to loaded. · static: `static/ThumbnailStates.html`
 
 ## Documentation
 
@@ -85,9 +85,9 @@ Styling hook class: `.astryx-thumbnail`
 
 ## Files
 
-- `src/Thumbnail.doc.mjs`
-- `src/Thumbnail.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Thumbnail.doc.mjs`
+- `upstream/Thumbnail.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Thumbnail

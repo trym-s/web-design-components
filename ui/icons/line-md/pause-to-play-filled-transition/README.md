@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/pause-to-play-filled-transition/src/pause-to-play-filled-transition.svg`
+- Entry point: `ui/icons/line-md/pause-to-play-filled-transition/upstream/pause-to-play-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/pause-to-play-filled-transition/src/pause-to-play-filled-transition.svg`
+- Local source: `ui/icons/line-md/pause-to-play-filled-transition/upstream/pause-to-play-filled-transition.svg`

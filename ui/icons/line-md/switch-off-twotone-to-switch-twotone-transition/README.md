@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/switch-off-twotone-to-switch-twotone-transition/src/switch-off-twotone-to-switch-twotone-transition.svg`
+- Entry point: `ui/icons/line-md/switch-off-twotone-to-switch-twotone-transition/upstream/switch-off-twotone-to-switch-twotone-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/switch-off-twotone-to-switch-twotone-transition/src/switch-off-twotone-to-switch-twotone-transition.svg`
+- Local source: `ui/icons/line-md/switch-off-twotone-to-switch-twotone-transition/upstream/switch-off-twotone-to-switch-twotone-transition.svg`

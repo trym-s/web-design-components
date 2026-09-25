@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cherry/src/cherry.svelte`
+- Entry point: `ui/icons/movingicons/cherry/upstream/cherry.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cherry`
 - Registry: https://movingicons.dev/r/cherry
-- Local source fallback: `ui/icons/movingicons/cherry/src/cherry.svelte`
+- Local source fallback: `ui/icons/movingicons/cherry/upstream/cherry.svelte`

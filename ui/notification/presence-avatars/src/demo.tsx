@@ -1,27 +1,23 @@
-"use client";
-
 import { useState } from "react";
 import {
   PresenceAvatars,
   type PresencePerson,
 } from "./presence-avatars";
 
-const face = (n: number) => `/ui/_sources/interior-dev/avatars/${n}.jpg`;
-
 const POOL: PresencePerson[] = [
-  { id: "ana", name: "Ana Ruiz", src: face(47) },
-  { id: "ivo", name: "Ivo Bergman", src: face(12) },
-  { id: "noor", name: "Noor Haddad", src: face(32) },
-  { id: "kei", name: "Kei Tanaka", src: face(60) },
-  { id: "sam", name: "Sam Okonkwo", src: face(15) },
-  { id: "lila", name: "Lila Fontaine", src: face(26) },
-  { id: "gus", name: "Gus Martel", src: face(68) },
-  { id: "mira", name: "Mira Sandoval", src: face(5) },
+  { id: "ana", name: "Ana Ruiz" },
+  { id: "ivo", name: "Ivo Bergman" },
+  { id: "noor", name: "Noor Haddad" },
+  { id: "kei", name: "Kei Tanaka" },
+  { id: "sam", name: "Sam Okonkwo" },
+  { id: "lila", name: "Lila Fontaine" },
+  { id: "gus", name: "Gus Martel" },
+  { id: "mira", name: "Mira Sandoval" },
 ];
 
-const cap = "mat-cap press h-8 rounded-[7px] px-2.5 text-[12px] font-medium text-ink-2";
+const cap = "h-8 rounded-[calc(var(--radius)-3px)] border border-border bg-card px-2.5 text-[12px] font-medium text-foreground shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px";
 
-export function PresenceAvatarsDemo() {
+export default function PresenceAvatarsDemo() {
   const [here, setHere] = useState<string[]>(["ana", "ivo", "noor"]);
   const people = here
     .map((id) => POOL.find((p) => p.id === id))

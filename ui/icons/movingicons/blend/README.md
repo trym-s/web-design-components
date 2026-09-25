@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/blend/src/blend.svelte`
+- Entry point: `ui/icons/movingicons/blend/upstream/blend.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/blend`
 - Registry: https://movingicons.dev/r/blend
-- Local source fallback: `ui/icons/movingicons/blend/src/blend.svelte`
+- Local source fallback: `ui/icons/movingicons/blend/upstream/blend.svelte`

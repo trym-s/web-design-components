@@ -8,7 +8,7 @@ const TOTAL = 40;
 const PAGE = 8;
 const EASE = [0.23, 1, 0.32, 1] as const;
 
-export function LoadMoreDemo() {
+export default function LoadMoreDemo() {
   const [count, setCount] = useState(PAGE);
   const scroller = useRef<HTMLDivElement>(null);
   const loaded = useRef(PAGE);
@@ -50,7 +50,7 @@ export function LoadMoreDemo() {
               ease: EASE,
               delay: (i % PAGE) * 0.03,
             }}
-            className="mat-panel rounded-[9px] px-3 py-2.5 text-[12.5px] text-ink"
+            className="border bg-card shadow-xs rounded-[calc(var(--radius)-1px)] px-3 py-2.5 text-[12.5px] text-foreground"
           >
             Item {String(i + 1).padStart(2, "0")}
           </motion.li>

@@ -2,10 +2,10 @@
  * searching, solving, listening, connecting, weaving, composing,
  * breathing, or shaping states.
  *
- * Upstream source lives beside this wrapper in `src/`.
+ * Upstream source lives beside this wrapper in `upstream/`.
  */
 
-import { ThinkingOrb } from "./src";
+import { ThinkingOrb } from "./upstream";
 
 export default function ThinkingOrbsReference() {
   return (

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cellphone-arrow-down-twotone/src/cellphone-arrow-down-twotone.svg`
+- Entry point: `ui/icons/line-md/cellphone-arrow-down-twotone/upstream/cellphone-arrow-down-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cellphone-arrow-down-twotone/src/cellphone-arrow-down-twotone.svg`
+- Local source: `ui/icons/line-md/cellphone-arrow-down-twotone/upstream/cellphone-arrow-down-twotone.svg`

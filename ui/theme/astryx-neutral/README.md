@@ -7,18 +7,18 @@ Restrained warm grays. Minimal and quiet, so the content stays the focus.
 - Category: `theme` — decorative
 - Medium: CSS custom properties (built) + TypeScript theme source
 - Framework: css
-- Entry point: `src/theme.css`
+- Entry point: `upstream/theme.css`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
 - Use when: Restrained warm grays.
 - Provides: color, typography, radius, elevation and motion tokens scoped to `[data-astryx-theme="neutral"]`
-- Requires: `src/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="neutral"` ancestor
+- Requires: `upstream/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="neutral"` ancestor
 - Variants: default
 
 ## How an agent uses this reference
 
-- Any stack: link `src/theme.css` (or `ui/_sources/astryx/css/themes/neutral.css`) and put
+- Any stack: link `upstream/theme.css` (or `ui/_sources/astryx/css/themes/neutral.css`) and put
   `data-astryx-theme="neutral"` on the root; every Astryx token (`--color-*`, `--text-*`, `--radius-*`,
   `--shadow-*`) resolves to this theme. To take the palette only, copy the token values.
 - React: `<Theme theme={neutralTheme}>` from `@astryxdesign/theme-neutral/built`.
@@ -37,14 +37,14 @@ Restrained warm grays. Minimal and quiet, so the content stays the focus.
 
 ## Files
 
-- `src/icons.tsx`
-- `src/neutralPaletteRefs.generated.ts`
-- `src/neutralPalettes.generated.receipt.json`
-- `src/neutralPalettes.generated.ts`
-- `src/neutralPalettes.ts`
-- `src/neutralTheme.ts`
-- `src/palette.config.json`
-- `src/theme.css`
-- `src/demo.tsx` — the Theme Showcase template rendered in this theme
+- `upstream/icons.tsx`
+- `upstream/neutralPaletteRefs.generated.ts`
+- `upstream/neutralPalettes.generated.receipt.json`
+- `upstream/neutralPalettes.generated.ts`
+- `upstream/neutralPalettes.ts`
+- `upstream/neutralTheme.ts`
+- `upstream/palette.config.json`
+- `upstream/theme.css`
+- `upstream/demo.tsx` — the Theme Showcase template rendered in this theme
 
 Upstream page: https://astryx.atmeta.com/themes?theme=neutral

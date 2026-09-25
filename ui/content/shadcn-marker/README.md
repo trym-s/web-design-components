@@ -7,7 +7,7 @@ Displays an inline status, system note, bordered row, or labeled separator in a 
 - Category: `content` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/marker.tsx`
+- Entry point: `upstream/ui/marker.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays an inline status, system note, bordered row, or labeled separator in a 
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays an inline status, system note, bordered row, or labeled separator in a 
 
 ## Documentation
 
-> Example `marker-demo` (radix-rhea) — `src/examples/marker-demo.tsx`, `static/marker-demo.html`
+> Example `marker-demo` (radix-rhea) — `upstream/examples/marker-demo.tsx`, `static/marker-demo.html`
 
 The `Marker` component displays inline conversation markers such as status updates, system notes, bordered rows, and labeled separators. Compose it with [`Message`](/docs/components/message) in a conversation thread.
 
@@ -83,7 +83,7 @@ Marker
 
 Use `variant` to switch between an inline marker, bordered row, and labeled separator.
 
-> Example `marker-variants` (radix-rhea) — `src/examples/marker-variants.tsx`, `static/marker-variants.html`
+> Example `marker-variants` (radix-rhea) — `upstream/examples/marker-variants.tsx`, `static/marker-variants.html`
 
 | Variant     | Description                                          |
 | ----------- | ---------------------------------------------------- |
@@ -95,37 +95,37 @@ Use `variant` to switch between an inline marker, bordered row, and labeled sepa
 
 Set `role="status"` and include a [`Spinner`](/docs/components/spinner) for streaming or in-progress markers so updates are announced.
 
-> Example `marker-status` (radix-rhea) — `src/examples/marker-status.tsx`, `static/marker-status.html`
+> Example `marker-status` (radix-rhea) — `upstream/examples/marker-status.tsx`, `static/marker-status.html`
 
 ## Shimmer
 
 Add the [`shimmer`](/docs/utils/shimmer) utility class to `MarkerContent` for an animated streaming-text effect. The utility ships with the `shadcn` package — see the shimmer docs for installation.
 
-> Example `marker-shimmer` (radix-rhea) — `src/examples/marker-shimmer.tsx`, `static/marker-shimmer.html`
+> Example `marker-shimmer` (radix-rhea) — `upstream/examples/marker-shimmer.tsx`, `static/marker-shimmer.html`
 
 ## Separator
 
 Use the `separator` variant for labeled dividers, such as dates or section breaks, in a conversation.
 
-> Example `marker-separator` (radix-rhea) — `src/examples/marker-separator.tsx`, `static/marker-separator.html`
+> Example `marker-separator` (radix-rhea) — `upstream/examples/marker-separator.tsx`, `static/marker-separator.html`
 
 ## Border
 
 Use the `border` variant for status rows that should keep the default marker alignment while separating the next row.
 
-> Example `marker-border` (radix-rhea) — `src/examples/marker-border.tsx`, `static/marker-border.html`
+> Example `marker-border` (radix-rhea) — `upstream/examples/marker-border.tsx`, `static/marker-border.html`
 
 ## With Icon
 
 Use `MarkerIcon` to render an icon alongside the content. Use `flex-col` to stack the icon above the content.
 
-> Example `marker-icon` (radix-rhea) — `src/examples/marker-icon.tsx`, `static/marker-icon.html`
+> Example `marker-icon` (radix-rhea) — `upstream/examples/marker-icon.tsx`, `static/marker-icon.html`
 
 ## Links and Buttons
 
 Turn a marker into a link or button with the `asChild` prop on `Marker`.
 
-> Example `marker-link-button` (radix-rhea) — `src/examples/marker-link-button.tsx`, `static/marker-link-button.html`
+> Example `marker-link-button` (radix-rhea) — `upstream/examples/marker-link-button.tsx`, `static/marker-link-button.html`
 
 ```tsx showLineNumbers
 import { Marker, MarkerContent } from "@/components/ui/marker"
@@ -244,16 +244,16 @@ The marker text content.
 
 ## Files
 
-- `src/ui/marker.tsx` — the ui file as the registry installs it
-- `src/examples/marker-demo.tsx`
-- `src/examples/marker-variants.tsx`
-- `src/examples/marker-status.tsx`
-- `src/examples/marker-shimmer.tsx`
-- `src/examples/marker-separator.tsx`
-- `src/examples/marker-border.tsx`
-- `src/examples/marker-icon.tsx`
-- `src/examples/marker-link-button.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/marker.tsx` — the ui file as the registry installs it
+- `upstream/examples/marker-demo.tsx`
+- `upstream/examples/marker-variants.tsx`
+- `upstream/examples/marker-status.tsx`
+- `upstream/examples/marker-shimmer.tsx`
+- `upstream/examples/marker-separator.tsx`
+- `upstream/examples/marker-border.tsx`
+- `upstream/examples/marker-icon.tsx`
+- `upstream/examples/marker-link-button.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/marker

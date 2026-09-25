@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/bold/src/bold.tsx`
+- Entry point: `ui/icons/animateicons-lucide/bold/upstream/bold.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bold.json`
 - Registry: https://animateicons.in/r/lu-bold.json
-- Local source fallback: `ui/icons/animateicons-lucide/bold/src/bold.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/bold/upstream/bold.tsx`

@@ -2,7 +2,7 @@
 
 import { Ripple } from "./ripple";
 
-export function RippleDemo() {
+export default function RippleDemo() {
   return (
     <div className="flex justify-center">
       <Ripple className="h-11 px-6">Tap anywhere on me</Ripple>

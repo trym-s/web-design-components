@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cloud-download/src/cloud-download.svelte`
+- Entry point: `ui/icons/movingicons/cloud-download/upstream/cloud-download.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-download`
 - Registry: https://movingicons.dev/r/cloud-download
-- Local source fallback: `ui/icons/movingicons/cloud-download/src/cloud-download.svelte`
+- Local source fallback: `ui/icons/movingicons/cloud-download/upstream/cloud-download.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/calculator/src/calculator.tsx`
+- Entry point: `ui/icons/animateicons-lucide/calculator/upstream/calculator.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calculator.json`
 - Registry: https://animateicons.in/r/lu-calculator.json
-- Local source fallback: `ui/icons/animateicons-lucide/calculator/src/calculator.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/calculator/upstream/calculator.tsx`

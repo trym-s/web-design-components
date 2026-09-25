@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/receipt/src/receipt.tsx`
+- Entry point: `ui/icons/lucide-animated/receipt/upstream/receipt.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt.json`
 - Registry: https://lucide-animated.com/r/receipt.json
-- Local source fallback: `ui/icons/lucide-animated/receipt/src/receipt.tsx`
+- Local source fallback: `ui/icons/lucide-animated/receipt/upstream/receipt.tsx`

@@ -7,7 +7,7 @@ Citations display inline references to external sources. Use them to attribute i
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Citation.tsx`
+- Entry point: `upstream/Citation.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -21,7 +21,7 @@ Citations display inline references to external sources. Use them to attribute i
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -32,9 +32,9 @@ Citations display inline references to external sources. Use them to attribute i
 
 ## Examples
 
-- `src/examples/CitationShowcase.tsx` — Citation — Showcase: All citation variants at a glance: label chips and numbered badges, with and without icons and links. · static: `static/CitationShowcase.html`
-- `src/examples/CitationInlineText.tsx` — Citation — Inline Text: Citations embedded within a paragraph of text, showing how they flow inline with surrounding content. · static: `static/CitationInlineText.html`
-- `src/examples/CitationSourceList.tsx` — Citation — Source List: A list of citation sources with icons, as you might show at the end of an AI-generated response or article footer. · static: `static/CitationSourceList.html`
+- `upstream/examples/CitationShowcase.tsx` — Citation — Showcase: All citation variants at a glance: label chips and numbered badges, with and without icons and links. · static: `static/CitationShowcase.html`
+- `upstream/examples/CitationInlineText.tsx` — Citation — Inline Text: Citations embedded within a paragraph of text, showing how they flow inline with surrounding content. · static: `static/CitationInlineText.html`
+- `upstream/examples/CitationSourceList.tsx` — Citation — Source List: A list of citation sources with icons, as you might show at the end of an AI-generated response or article footer. · static: `static/CitationSourceList.html`
 
 ## Documentation
 
@@ -70,9 +70,9 @@ Styling hook class: `.astryx-citation`
 
 ## Files
 
-- `src/Citation.doc.mjs`
-- `src/Citation.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Citation.doc.mjs`
+- `upstream/Citation.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Citation

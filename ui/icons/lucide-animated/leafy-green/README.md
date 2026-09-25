@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/leafy-green/src/leafy-green.tsx`
+- Entry point: `ui/icons/lucide-animated/leafy-green/upstream/leafy-green.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/leafy-green.json`
 - Registry: https://lucide-animated.com/r/leafy-green.json
-- Local source fallback: `ui/icons/lucide-animated/leafy-green/src/leafy-green.tsx`
+- Local source fallback: `ui/icons/lucide-animated/leafy-green/upstream/leafy-green.tsx`

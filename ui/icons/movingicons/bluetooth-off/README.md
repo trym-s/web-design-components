@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bluetooth-off/src/bluetooth-off.svelte`
+- Entry point: `ui/icons/movingicons/bluetooth-off/upstream/bluetooth-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bluetooth-off`
 - Registry: https://movingicons.dev/r/bluetooth-off
-- Local source fallback: `ui/icons/movingicons/bluetooth-off/src/bluetooth-off.svelte`
+- Local source fallback: `ui/icons/movingicons/bluetooth-off/upstream/bluetooth-off.svelte`

@@ -1,10 +1,7 @@
-import E0 from "./examples/block-channel-strip-xypad-filter";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-xypad-filter", title: "Block Channel Strip Xypad Filter", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripXypadFilter } from "./block-channel-strip-xypad-filter";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [pad, setPad] = useState({ x: 30, y: 70 });
+  return <BlockChannelStripXypadFilter onValueChange={setPad} value={pad} />;
 }

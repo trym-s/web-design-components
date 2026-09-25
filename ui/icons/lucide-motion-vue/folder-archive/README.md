@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/folder-archive/src/folder-archive.vue`
+- Entry point: `ui/icons/lucide-motion-vue/folder-archive/upstream/folder-archive.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/folder-archive/src/folder-archive.vue`
+- Local source: `ui/icons/lucide-motion-vue/folder-archive/upstream/folder-archive.vue`

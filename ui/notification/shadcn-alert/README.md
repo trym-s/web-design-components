@@ -7,7 +7,7 @@ Displays a callout for user attention.
 - Category: `notification` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/alert.tsx`
+- Entry point: `upstream/ui/alert.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a callout for user attention.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a callout for user attention.
 
 ## Documentation
 
-> Example `alert-demo` — `src/examples/alert-demo.tsx`, `static/alert-demo.html`
+> Example `alert-demo` — `upstream/examples/alert-demo.tsx`, `static/alert-demo.html`
 
 ## Installation
 
@@ -84,31 +84,31 @@ Alert
 
 A basic alert with an icon, title and description.
 
-> Example `alert-basic` — `src/examples/alert-basic.tsx`, `static/alert-basic.html`
+> Example `alert-basic` — `upstream/examples/alert-basic.tsx`, `static/alert-basic.html`
 
 ## Destructive
 
 Use `variant="destructive"` to create a destructive alert.
 
-> Example `alert-destructive` — `src/examples/alert-destructive.tsx`, `static/alert-destructive.html`
+> Example `alert-destructive` — `upstream/examples/alert-destructive.tsx`, `static/alert-destructive.html`
 
 ## Action
 
 Use `AlertAction` to add a button or other action element to the alert.
 
-> Example `alert-action` — `src/examples/alert-action.tsx`, `static/alert-action.html`
+> Example `alert-action` — `upstream/examples/alert-action.tsx`, `static/alert-action.html`
 
 ## Custom Colors
 
 You can customize the alert colors by adding custom classes such as `bg-amber-50 dark:bg-amber-950` to the `Alert` component.
 
-> Example `alert-colors` — `src/examples/alert-colors.tsx`, `static/alert-colors.html`
+> Example `alert-colors` — `upstream/examples/alert-colors.tsx`, `static/alert-colors.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `alert-rtl` — `src/examples/alert-rtl.tsx`, `static/alert-rtl.html`
+> Example `alert-rtl` — `upstream/examples/alert-rtl.tsx`, `static/alert-rtl.html`
 
 ## API Reference
 
@@ -146,13 +146,13 @@ The `AlertAction` component displays an action element (like a button) positione
 
 ## Files
 
-- `src/ui/alert.tsx` — the ui file as the registry installs it
-- `src/examples/alert-demo.tsx`
-- `src/examples/alert-basic.tsx`
-- `src/examples/alert-destructive.tsx`
-- `src/examples/alert-action.tsx`
-- `src/examples/alert-colors.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/alert.tsx` — the ui file as the registry installs it
+- `upstream/examples/alert-demo.tsx`
+- `upstream/examples/alert-basic.tsx`
+- `upstream/examples/alert-destructive.tsx`
+- `upstream/examples/alert-action.tsx`
+- `upstream/examples/alert-colors.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/alert

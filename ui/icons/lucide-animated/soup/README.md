@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/soup/src/soup.tsx`
+- Entry point: `ui/icons/lucide-animated/soup/upstream/soup.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/soup.json`
 - Registry: https://lucide-animated.com/r/soup.json
-- Local source fallback: `ui/icons/lucide-animated/soup/src/soup.tsx`
+- Local source fallback: `ui/icons/lucide-animated/soup/upstream/soup.tsx`

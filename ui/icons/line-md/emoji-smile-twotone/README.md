@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-smile-twotone/src/emoji-smile-twotone.svg`
+- Entry point: `ui/icons/line-md/emoji-smile-twotone/upstream/emoji-smile-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-smile-twotone/src/emoji-smile-twotone.svg`
+- Local source: `ui/icons/line-md/emoji-smile-twotone/upstream/emoji-smile-twotone.svg`

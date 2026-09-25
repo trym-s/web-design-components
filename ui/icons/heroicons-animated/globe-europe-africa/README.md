@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/globe-europe-africa/src/globe-europe-africa.tsx`
+- Entry point: `ui/icons/heroicons-animated/globe-europe-africa/upstream/globe-europe-africa.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/globe-europe-africa`
 - Registry: https://www.heroicons-animated.com/r/globe-europe-africa.json
-- Local source fallback: `ui/icons/heroicons-animated/globe-europe-africa/src/globe-europe-africa.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/globe-europe-africa/upstream/globe-europe-africa.tsx`

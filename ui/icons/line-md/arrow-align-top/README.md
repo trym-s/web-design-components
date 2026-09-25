@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-align-top/src/arrow-align-top.svg`
+- Entry point: `ui/icons/line-md/arrow-align-top/upstream/arrow-align-top.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-align-top/src/arrow-align-top.svg`
+- Local source: `ui/icons/line-md/arrow-align-top/upstream/arrow-align-top.svg`

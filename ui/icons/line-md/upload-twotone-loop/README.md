@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/upload-twotone-loop/src/upload-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/upload-twotone-loop/upstream/upload-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/upload-twotone-loop/src/upload-twotone-loop.svg`
+- Local source: `ui/icons/line-md/upload-twotone-loop/upstream/upload-twotone-loop.svg`

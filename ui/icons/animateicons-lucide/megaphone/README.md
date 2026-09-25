@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/megaphone/src/megaphone.tsx`
+- Entry point: `ui/icons/animateicons-lucide/megaphone/upstream/megaphone.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-megaphone.json`
 - Registry: https://animateicons.in/r/lu-megaphone.json
-- Local source fallback: `ui/icons/animateicons-lucide/megaphone/src/megaphone.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/megaphone/upstream/megaphone.tsx`

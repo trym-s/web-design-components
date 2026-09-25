@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/clipboard-check/src/clipboard-check.svg`
+- Entry point: `ui/icons/line-md/clipboard-check/upstream/clipboard-check.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/clipboard-check/src/clipboard-check.svg`
+- Local source: `ui/icons/line-md/clipboard-check/upstream/clipboard-check.svg`

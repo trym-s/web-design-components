@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-network/src/chart-network.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-network/upstream/chart-network.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-network.json`
 - Registry: https://animateicons.in/r/lu-chart-network.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-network/src/chart-network.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-network/upstream/chart-network.tsx`

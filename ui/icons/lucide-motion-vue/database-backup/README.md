@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/database-backup/src/database-backup.vue`
+- Entry point: `ui/icons/lucide-motion-vue/database-backup/upstream/database-backup.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/database-backup/src/database-backup.vue`
+- Local source: `ui/icons/lucide-motion-vue/database-backup/upstream/database-backup.vue`

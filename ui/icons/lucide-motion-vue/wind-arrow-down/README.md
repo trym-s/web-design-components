@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/wind-arrow-down/src/wind-arrow-down.vue`
+- Entry point: `ui/icons/lucide-motion-vue/wind-arrow-down/upstream/wind-arrow-down.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/wind-arrow-down/src/wind-arrow-down.vue`
+- Local source: `ui/icons/lucide-motion-vue/wind-arrow-down/upstream/wind-arrow-down.vue`

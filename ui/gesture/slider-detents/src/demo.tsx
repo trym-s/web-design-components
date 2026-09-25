@@ -12,7 +12,7 @@ const PRESETS = [
 
 const speed = (v: number) => `${v.toFixed(2)}×`;
 
-export function SliderDetentsDemo() {
+export default function SliderDetentsDemo() {
   const [value, setValue] = useState(1.35);
 
   return (

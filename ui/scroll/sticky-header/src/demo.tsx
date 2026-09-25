@@ -1,5 +1,3 @@
-"use client";
-
 import { StickyHeader } from "./sticky-header";
 
 const messages = [
@@ -13,17 +11,17 @@ const messages = [
   { id: "8", from: "Ines Cardoso", line: "Two questions about the audit" },
 ];
 
-export function StickyHeaderDemo() {
+export default function StickyHeaderDemo() {
   return (
     <div className="mx-auto w-full max-w-[440px]">
       <StickyHeader title="Inbox" subtitle={`${messages.length} messages`}>
         <ul className="px-2 pb-2">
           {messages.map((m) => (
             <li key={m.id} className="min-w-0 px-2 py-2">
-              <span className="block truncate text-[13px] font-medium text-ink">
+              <span className="block truncate text-[13px] font-medium text-foreground">
                 {m.from}
               </span>
-              <span className="block truncate text-[11.5px] text-ink-3">
+              <span className="block truncate text-[11.5px] text-muted-foreground">
                 {m.line}
               </span>
             </li>

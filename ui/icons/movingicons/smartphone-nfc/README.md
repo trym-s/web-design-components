@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/smartphone-nfc/src/smartphone-nfc.svelte`
+- Entry point: `ui/icons/movingicons/smartphone-nfc/upstream/smartphone-nfc.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/smartphone-nfc`
 - Registry: https://movingicons.dev/r/smartphone-nfc
-- Local source fallback: `ui/icons/movingicons/smartphone-nfc/src/smartphone-nfc.svelte`
+- Local source fallback: `ui/icons/movingicons/smartphone-nfc/upstream/smartphone-nfc.svelte`

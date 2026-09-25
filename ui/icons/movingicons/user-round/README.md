@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/user-round/src/user-round.svelte`
+- Entry point: `ui/icons/movingicons/user-round/upstream/user-round.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/user-round`
 - Registry: https://movingicons.dev/r/user-round
-- Local source fallback: `ui/icons/movingicons/user-round/src/user-round.svelte`
+- Local source fallback: `ui/icons/movingicons/user-round/upstream/user-round.svelte`

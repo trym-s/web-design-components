@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/atom/src/atom.tsx`
+- Entry point: `ui/icons/lucide-animated/atom/upstream/atom.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/atom.json`
 - Registry: https://lucide-animated.com/r/atom.json
-- Local source fallback: `ui/icons/lucide-animated/atom/src/atom.tsx`
+- Local source fallback: `ui/icons/lucide-animated/atom/upstream/atom.tsx`

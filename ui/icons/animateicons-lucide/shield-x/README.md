@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/shield-x/src/shield-x.tsx`
+- Entry point: `ui/icons/animateicons-lucide/shield-x/upstream/shield-x.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shield-x.json`
 - Registry: https://animateicons.in/r/lu-shield-x.json
-- Local source fallback: `ui/icons/animateicons-lucide/shield-x/src/shield-x.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/shield-x/upstream/shield-x.tsx`

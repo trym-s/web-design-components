@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   AnimatePresence,
@@ -68,7 +66,7 @@ export function usePresence({
     }
     return people
       .slice()
-      .toSorted((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0));
+      .sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0));
   }, [people]);
 
   const slots = Math.max(1, max);
@@ -95,9 +93,9 @@ export function usePresence({
 }
 
 const TILE =
-  "absolute left-0 top-0 select-none rounded-[10px] bg-stone-200 p-[3px] dark:bg-stone-700";
+  "absolute left-0 top-0 select-none rounded-lg bg-foreground/10 p-[3px]";
 const WELL =
-  "relative grid size-full place-items-center overflow-hidden rounded-[7px] bg-stone-100 font-medium leading-none text-stone-500 dark:bg-white/10 dark:text-stone-300";
+  "relative grid size-full place-items-center overflow-hidden rounded-[calc(var(--radius)-3px)] bg-muted font-medium leading-none text-muted-foreground";
 
 type TileProps = {
   person: PresencePerson;
@@ -243,7 +241,7 @@ export function PresenceAvatars({
     transition: reduced ? INSTANT : SLOT,
   };
   const chipClass =
-    "absolute left-0 top-0 grid place-items-center rounded-[9px] border border-stone-200 bg-white font-mono text-[10.5px] leading-none tabular-nums text-stone-500 outline-none ring-2 ring-white dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-400 dark:ring-stone-900";
+    "absolute left-0 top-0 grid place-items-center rounded-[calc(var(--radius)-1px)] border border-border bg-card font-mono text-[10.5px] leading-none tabular-nums text-muted-foreground outline-none ring-2 ring-card";
 
   return (
     <div role="group" aria-label={label} className={`inline-flex items-center ${className}`}>
@@ -275,7 +273,7 @@ export function PresenceAvatars({
                 onClick={() => onOverflowSelect(hidden)}
                 aria-label={`Show ${overflow} more`}
                 style={{ width: chip, height: size, zIndex: 0 }}
-                className={`${chipClass} focus-visible:border-[#4568FF] dark:focus-visible:border-[#93B0FF]`}
+                className={`${chipClass} focus-visible:border-primary`}
                 {...chipMotion}
               >
                 <span aria-hidden>{chipCount}</span>

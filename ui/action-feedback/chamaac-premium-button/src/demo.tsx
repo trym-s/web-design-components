@@ -1,8 +1,9 @@
-import Example from "./examples/premium-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "premium-button", title: "Premium Button", component: Example }];
+import PremiumButton from "./premium-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center bg-background">
+      <PremiumButton />
+    </div>
+  );
 }

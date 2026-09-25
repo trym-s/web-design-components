@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/loader-pinwheel/src/loader-pinwheel.svelte`
+- Entry point: `ui/icons/movingicons/loader-pinwheel/upstream/loader-pinwheel.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/loader-pinwheel`
 - Registry: https://movingicons.dev/r/loader-pinwheel
-- Local source fallback: `ui/icons/movingicons/loader-pinwheel/src/loader-pinwheel.svelte`
+- Local source fallback: `ui/icons/movingicons/loader-pinwheel/upstream/loader-pinwheel.svelte`

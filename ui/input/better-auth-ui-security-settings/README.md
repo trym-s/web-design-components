@@ -7,7 +7,7 @@ A container component that wraps security-related settings like password managem
 - Category: `input` — interactive
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/security-settings.tsx`
+- Entry point: `upstream/examples/security-settings.tsx`
 - Nature: interactive; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ A container component that wraps security-related settings like password managem
 
 ## Files
 
-- `src/examples/security-settings.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/security-settings.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/components/settings/security/security-settings

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/book/src/book.svelte`
+- Entry point: `ui/icons/movingicons/book/upstream/book.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/book`
 - Registry: https://movingicons.dev/r/book
-- Local source fallback: `ui/icons/movingicons/book/src/book.svelte`
+- Local source fallback: `ui/icons/movingicons/book/upstream/book.svelte`

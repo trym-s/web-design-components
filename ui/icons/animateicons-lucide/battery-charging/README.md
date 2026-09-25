@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/battery-charging/src/battery-charging.tsx`
+- Entry point: `ui/icons/animateicons-lucide/battery-charging/upstream/battery-charging.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery-charging.json`
 - Registry: https://animateicons.in/r/lu-battery-charging.json
-- Local source fallback: `ui/icons/animateicons-lucide/battery-charging/src/battery-charging.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/battery-charging/upstream/battery-charging.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/monitor-small-filled/src/monitor-small-filled.svg`
+- Entry point: `ui/icons/line-md/monitor-small-filled/upstream/monitor-small-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/monitor-small-filled/src/monitor-small-filled.svg`
+- Local source: `ui/icons/line-md/monitor-small-filled/upstream/monitor-small-filled.svg`

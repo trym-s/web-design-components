@@ -7,7 +7,7 @@ Stack arranges items in a row or column with consistent spacing. Use the gap pro
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Stack.tsx`
+- Entry point: `upstream/Stack.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Stack arranges items in a row or column with consistent spacing. Use the gap pro
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ Stack arranges items in a row or column with consistent spacing. Use the gap pro
 
 ## Examples
 
-- `src/examples/HStackShowcase.tsx` — H Stack: Demonstrates HStack arranging items horizontally with different gaps and alignments. · static: `static/HStackShowcase.html`
-- `src/examples/StackItemShowcase.tsx` — Stack Item: StackItem can be used within HStack or VStack for more granular control over individual item sizing and alignment, but is optional; stack children work without it. · static: `static/StackItemShowcase.html`
-- `src/examples/VStackShowcase.tsx` — V Stack: Demonstrates VStack arranging items vertically with different gaps. · static: `static/VStackShowcase.html`
-- `src/examples/HStackBasic.tsx` — HStack — Basic: Items arranged in a horizontal row with a consistent gap and centered vertical alignment. Use HStack whenever siblings should sit side by side. · static: `static/HStackBasic.html`
-- `src/examples/StackAlignment.tsx` — Stack — Alignment: Buttons positioned at the start, center, and end of a row. · static: `static/StackAlignment.html`
-- `src/examples/StackDirections.tsx` — Stack — Directions: Badges arranged horizontally and vertically in side-by-side cards. · static: `static/StackDirections.html`
-- `src/examples/StackFillItem.tsx` — Stack — Fill Item: An avatar, text, and button in a row; the text stretches to fill the available space. · static: `static/StackFillItem.html`
-- `src/examples/StackItemFill.tsx` — StackItem — Fill: A static-width item next to one that fills the remaining space. Wrap stack children in StackItem when an item needs explicit sizing control. · static: `static/StackItemFill.html`
-- `src/examples/VStackBasic.tsx` — VStack — Basic: A heading and paragraphs stacked vertically with a consistent gap. Use VStack whenever siblings should flow top to bottom with even spacing. · static: `static/VStackBasic.html`
+- `upstream/examples/HStackShowcase.tsx` — H Stack: Demonstrates HStack arranging items horizontally with different gaps and alignments. · static: `static/HStackShowcase.html`
+- `upstream/examples/StackItemShowcase.tsx` — Stack Item: StackItem can be used within HStack or VStack for more granular control over individual item sizing and alignment, but is optional; stack children work without it. · static: `static/StackItemShowcase.html`
+- `upstream/examples/VStackShowcase.tsx` — V Stack: Demonstrates VStack arranging items vertically with different gaps. · static: `static/VStackShowcase.html`
+- `upstream/examples/HStackBasic.tsx` — HStack — Basic: Items arranged in a horizontal row with a consistent gap and centered vertical alignment. Use HStack whenever siblings should sit side by side. · static: `static/HStackBasic.html`
+- `upstream/examples/StackAlignment.tsx` — Stack — Alignment: Buttons positioned at the start, center, and end of a row. · static: `static/StackAlignment.html`
+- `upstream/examples/StackDirections.tsx` — Stack — Directions: Badges arranged horizontally and vertically in side-by-side cards. · static: `static/StackDirections.html`
+- `upstream/examples/StackFillItem.tsx` — Stack — Fill Item: An avatar, text, and button in a row; the text stretches to fill the available space. · static: `static/StackFillItem.html`
+- `upstream/examples/StackItemFill.tsx` — StackItem — Fill: A static-width item next to one that fills the remaining space. Wrap stack children in StackItem when an item needs explicit sizing control. · static: `static/StackItemFill.html`
+- `upstream/examples/VStackBasic.tsx` — VStack — Basic: A heading and paragraphs stacked vertically with a consistent gap. Use VStack whenever siblings should flow top to bottom with even spacing. · static: `static/VStackBasic.html`
 
 ## Documentation
 
@@ -89,11 +89,11 @@ Styling hook class: `.astryx-stack`, `.astryx-stack-item`
 
 ## Files
 
-- `src/Stack.doc.mjs`
-- `src/Stack.spec.md`
-- `src/Stack.tsx`
-- `src/StackItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Stack.doc.mjs`
+- `upstream/Stack.spec.md`
+- `upstream/Stack.tsx`
+- `upstream/StackItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Stack

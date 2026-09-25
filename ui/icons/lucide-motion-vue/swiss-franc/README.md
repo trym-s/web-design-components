@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/swiss-franc/src/swiss-franc.vue`
+- Entry point: `ui/icons/lucide-motion-vue/swiss-franc/upstream/swiss-franc.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/swiss-franc/src/swiss-franc.vue`
+- Local source: `ui/icons/lucide-motion-vue/swiss-franc/upstream/swiss-franc.vue`

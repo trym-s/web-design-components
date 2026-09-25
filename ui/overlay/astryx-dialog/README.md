@@ -7,7 +7,7 @@ Dialog displays a modal overlay that blocks interaction with the page until the 
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Dialog.tsx`
+- Entry point: `upstream/Dialog.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Dialog displays a modal overlay that blocks interaction with the page until the 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ Dialog displays a modal overlay that blocks interaction with the page until the 
 
 ## Examples
 
-- `src/examples/DialogHeaderShowcase.tsx` — Dialog Header: DialogHeader provides a structured header for dialogs with slots for title, subtitle, close button, and optional start or end content. · static: `static/DialogHeaderShowcase.html`
-- `src/examples/DialogShowcase.tsx` — Dialog: Modal dialog with a header, body content, and close button. · static: `static/DialogShowcase.html`
-- `src/examples/DialogAdaptivePresentation.tsx` — Dialog — Adaptive presentation: Opt-in recipe for an AdaptiveDialog wrapper: Dialog remains the default everywhere, while touchPresentation="bottom-sheet" switches only at lg and below when pointer is coarse and hover is unavailable. Includes a deterministic presentation override for tests/unusual environments and notes that BottomSheet purpose controls swipe and scrim dismissal. Usage examples: touchPresentation="dialog" keeps Dialog, "fullscreen" chooses fullscreen Dialog, and "bottom-sheet" chooses BottomSheet only for the touch-oriented range. Keep presentation as the deterministic override. Do not use this by default for AlertDialog or destructive confirmations. · static: `static/DialogAdaptivePresentation.html`
-- `src/examples/DialogConfirmationDialog.tsx` — Dialog — Confirmation: Asks the user to confirm a destructive action before it happens. Use before deleting projects, removing team members, revoking API keys, or any irreversible operation. · static: `static/DialogConfirmationDialog.html`
-- `src/examples/DialogFormDialog.tsx` — Dialog — Form: Collects user input without navigating away from the page. Uses purpose="form" so clicking the backdrop won't close it. Use for editing profiles, creating items, or updating settings inline. · static: `static/DialogFormDialog.html`
-- `src/examples/DialogFullscreenDialog.tsx` — Dialog — Fullscreen: Takes over the entire viewport for content that needs maximum space. Use for documentation viewers, rich text editors, multi-step wizards, or media previews where the standard dialog width is too narrow. · static: `static/DialogFullscreenDialog.html`
-- `src/examples/DialogHeaderBasic.tsx` — DialogHeader — Basic: A DialogHeader with a title, subtitle, and close button, placed in the header slot of a Dialog Layout. Pass onOpenChange to render the close button. · static: `static/DialogHeaderBasic.html`
-- `src/examples/DialogScrollingContent.tsx` — Dialog — Scrollable: Constrains the dialog height and scrolls the body when content overflows. Use for terms and conditions, license agreements, changelogs, or any long-form content the user needs to review before accepting. · static: `static/DialogScrollingContent.html`
-- `src/examples/DialogWithSubtitle.tsx` — Dialog — Required: Cannot be dismissed by Escape or backdrop click; the user must explicitly choose an action. Uses purpose="required". Use for ownership transfers, legal acknowledgements, or critical decisions where skipping is not an option. · static: `static/DialogWithSubtitle.html`
+- `upstream/examples/DialogHeaderShowcase.tsx` — Dialog Header: DialogHeader provides a structured header for dialogs with slots for title, subtitle, close button, and optional start or end content. · static: `static/DialogHeaderShowcase.html`
+- `upstream/examples/DialogShowcase.tsx` — Dialog: Modal dialog with a header, body content, and close button. · static: `static/DialogShowcase.html`
+- `upstream/examples/DialogAdaptivePresentation.tsx` — Dialog — Adaptive presentation: Opt-in recipe for an AdaptiveDialog wrapper: Dialog remains the default everywhere, while touchPresentation="bottom-sheet" switches only at lg and below when pointer is coarse and hover is unavailable. Includes a deterministic presentation override for tests/unusual environments and notes that BottomSheet purpose controls swipe and scrim dismissal. Usage examples: touchPresentation="dialog" keeps Dialog, "fullscreen" chooses fullscreen Dialog, and "bottom-sheet" chooses BottomSheet only for the touch-oriented range. Keep presentation as the deterministic override. Do not use this by default for AlertDialog or destructive confirmations. · static: `static/DialogAdaptivePresentation.html`
+- `upstream/examples/DialogConfirmationDialog.tsx` — Dialog — Confirmation: Asks the user to confirm a destructive action before it happens. Use before deleting projects, removing team members, revoking API keys, or any irreversible operation. · static: `static/DialogConfirmationDialog.html`
+- `upstream/examples/DialogFormDialog.tsx` — Dialog — Form: Collects user input without navigating away from the page. Uses purpose="form" so clicking the backdrop won't close it. Use for editing profiles, creating items, or updating settings inline. · static: `static/DialogFormDialog.html`
+- `upstream/examples/DialogFullscreenDialog.tsx` — Dialog — Fullscreen: Takes over the entire viewport for content that needs maximum space. Use for documentation viewers, rich text editors, multi-step wizards, or media previews where the standard dialog width is too narrow. · static: `static/DialogFullscreenDialog.html`
+- `upstream/examples/DialogHeaderBasic.tsx` — DialogHeader — Basic: A DialogHeader with a title, subtitle, and close button, placed in the header slot of a Dialog Layout. Pass onOpenChange to render the close button. · static: `static/DialogHeaderBasic.html`
+- `upstream/examples/DialogScrollingContent.tsx` — Dialog — Scrollable: Constrains the dialog height and scrolls the body when content overflows. Use for terms and conditions, license agreements, changelogs, or any long-form content the user needs to review before accepting. · static: `static/DialogScrollingContent.html`
+- `upstream/examples/DialogWithSubtitle.tsx` — Dialog — Required: Cannot be dismissed by Escape or backdrop click; the user must explicitly choose an action. Uses purpose="required". Use for ownership transfers, legal acknowledgements, or critical decisions where skipping is not an option. · static: `static/DialogWithSubtitle.html`
 
 ## Documentation
 
@@ -207,16 +207,16 @@ Styling hook class: `.astryx-dialog-header`, `.astryx-dialog-header-start-conten
 
 ## Files
 
-- `src/Dialog.doc.mjs`
-- `src/Dialog.spec.md`
-- `src/Dialog.tsx`
-- `src/DialogContext.ts`
-- `src/DialogHeader.doc.mjs`
-- `src/DialogHeader.tsx`
-- `src/modules/DialogHeader.spec.md`
-- `src/useImperativeDialog.doc.mjs`
-- `src/useImperativeDialog.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Dialog.doc.mjs`
+- `upstream/Dialog.spec.md`
+- `upstream/Dialog.tsx`
+- `upstream/DialogContext.ts`
+- `upstream/DialogHeader.doc.mjs`
+- `upstream/DialogHeader.tsx`
+- `upstream/modules/DialogHeader.spec.md`
+- `upstream/useImperativeDialog.doc.mjs`
+- `upstream/useImperativeDialog.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Dialog

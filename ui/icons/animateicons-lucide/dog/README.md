@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/dog/src/dog.tsx`
+- Entry point: `ui/icons/animateicons-lucide/dog/upstream/dog.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-dog.json`
 - Registry: https://animateicons.in/r/lu-dog.json
-- Local source fallback: `ui/icons/animateicons-lucide/dog/src/dog.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/dog/upstream/dog.tsx`

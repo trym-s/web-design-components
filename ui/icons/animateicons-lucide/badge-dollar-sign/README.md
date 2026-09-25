@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/badge-dollar-sign/src/badge-dollar-sign.tsx`
+- Entry point: `ui/icons/animateicons-lucide/badge-dollar-sign/upstream/badge-dollar-sign.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-badge-dollar-sign.json`
 - Registry: https://animateicons.in/r/lu-badge-dollar-sign.json
-- Local source fallback: `ui/icons/animateicons-lucide/badge-dollar-sign/src/badge-dollar-sign.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/badge-dollar-sign/upstream/badge-dollar-sign.tsx`

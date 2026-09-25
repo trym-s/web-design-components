@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef } from "react";
 import { LiveActivity, useLiveActivity } from "./live-activity";
 
@@ -8,7 +6,7 @@ const TICK = 140;
 
 const LINES = ["w-[88%]", "w-[64%]", "w-[76%]", "w-[52%]", "w-[70%]"];
 
-export function LiveActivityDemo() {
+export default function LiveActivityDemo() {
   const pod = useLiveActivity();
   const runs = useRef(0);
   const ticker = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -43,10 +41,15 @@ export function LiveActivityDemo() {
     }, TICK);
   };
 
-  useEffect(() => stop, []);
+  // Show a run in progress on mount so the pod is visible without a click; Deploy plays the full timeline.
+  useEffect(() => {
+    pod.start({ title: "Deploying site", detail: "interior-dev · production", progress: 0.62 });
+    return stop;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
-    <div className="relative h-full min-h-[280px] w-full">
+    <div className="relative h-full min-h-[280px] w-full max-w-[440px]">
       <div className="pointer-events-none absolute inset-x-0 top-4 z-10">
         <LiveActivity activity={pod.activity} onDismiss={pod.dismiss} />
       </div>
@@ -55,7 +58,7 @@ export function LiveActivityDemo() {
         {LINES.map((width) => (
           <div
             key={width}
-            className={`h-2.5 rounded-[2px] bg-stone-800/[0.06] dark:bg-white/[0.05] ${width}`}
+            className={`h-2.5 rounded-[calc(var(--radius)-8px)] bg-foreground/[0.06] ${width}`}
           />
         ))}
       </div>
@@ -64,7 +67,7 @@ export function LiveActivityDemo() {
         <button
           type="button"
           onClick={deploy}
-          className="inline-flex h-8 select-none items-center rounded-[9px] border border-stone-200 bg-white px-3 text-[12.5px] font-medium text-stone-700 shadow-[inset_0_1.5px_0_rgba(255,255,255,0.95),inset_0_-1px_0_rgba(28,25,23,0.06),0_1px_2px_rgba(28,25,23,0.08)] outline-none transition-[background-color,border-color,box-shadow] duration-150 hover:bg-stone-50 focus-visible:border-[#4568FF] focus-visible:shadow-[0_1px_2px_rgba(28,25,23,0.08),0_10px_20px_-14px_rgba(69,104,255,0.6)] active:translate-y-px dark:border-white/[0.16] dark:bg-[#252522] dark:text-stone-200 dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.07),0_1px_2px_rgba(0,0,0,0.4)] dark:hover:bg-[#2A2A27] dark:focus-visible:border-[#93B0FF] dark:focus-visible:shadow-[0_10px_20px_-14px_rgba(147,176,255,0.5)]"
+          className="inline-flex h-8 select-none items-center rounded-[calc(var(--radius)-1px)] border border-border bg-card px-3 text-[12.5px] font-medium text-foreground shadow-sm outline-none transition-[background-color,border-color,box-shadow] duration-150 hover:bg-accent focus-visible:border-primary focus-visible:shadow-md active:translate-y-px"
         >
           Deploy
         </button>

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/cog/src/cog.tsx`
+- Entry point: `ui/icons/lucide-animated/cog/upstream/cog.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/cog.json`
 - Registry: https://lucide-animated.com/r/cog.json
-- Local source fallback: `ui/icons/lucide-animated/cog/src/cog.tsx`
+- Local source fallback: `ui/icons/lucide-animated/cog/upstream/cog.tsx`

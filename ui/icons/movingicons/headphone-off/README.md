@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/headphone-off/src/headphone-off.svelte`
+- Entry point: `ui/icons/movingicons/headphone-off/upstream/headphone-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/headphone-off`
 - Registry: https://movingicons.dev/r/headphone-off
-- Local source fallback: `ui/icons/movingicons/headphone-off/src/headphone-off.svelte`
+- Local source fallback: `ui/icons/movingicons/headphone-off/upstream/headphone-off.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/letter-h-icon/src/letter-h-icon.tsx`
+- Entry point: `ui/icons/itshover/letter-h-icon/upstream/letter-h-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/letter-h-icon.json`
 - Registry: https://itshover.com/r/letter-h-icon.json
-- Local source fallback: `ui/icons/itshover/letter-h-icon/src/letter-h-icon.tsx`
+- Local source fallback: `ui/icons/itshover/letter-h-icon/upstream/letter-h-icon.tsx`

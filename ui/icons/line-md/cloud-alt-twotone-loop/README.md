@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-twotone-loop/src/cloud-alt-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-twotone-loop/upstream/cloud-alt-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-twotone-loop/src/cloud-alt-twotone-loop.svg`
+- Local source: `ui/icons/line-md/cloud-alt-twotone-loop/upstream/cloud-alt-twotone-loop.svg`

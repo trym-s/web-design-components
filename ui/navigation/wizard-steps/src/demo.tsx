@@ -1,10 +1,8 @@
-"use client";
-
 import { useState } from "react";
 import { WizardSteps } from "./wizard-steps";
 
 const row =
-  "flex items-center justify-between gap-3 rounded-[9px] bg-sub px-3 py-2 text-[12.5px]";
+  "flex items-center justify-between gap-3 rounded-[calc(var(--radius)-1px)] bg-muted px-3 py-2 text-[12.5px]";
 
 const steps = [
   {
@@ -18,8 +16,8 @@ const steps = [
           ["Scale", "unlimited"],
         ].map(([name, seats]) => (
           <li key={name} className={row}>
-            <span className="text-ink">{name}</span>
-            <span className="text-ink-3">{seats}</span>
+            <span className="text-foreground">{name}</span>
+            <span className="text-muted-foreground">{seats}</span>
           </li>
         ))}
       </ul>
@@ -36,8 +34,8 @@ const steps = [
           ["VAT number", "Not set"],
         ].map(([field, value]) => (
           <li key={field} className={row}>
-            <span className="text-ink">{field}</span>
-            <span className="text-ink-3">{value}</span>
+            <span className="text-foreground">{field}</span>
+            <span className="text-muted-foreground">{value}</span>
           </li>
         ))}
       </ul>
@@ -54,8 +52,8 @@ const steps = [
           ["Charged to", "•••• 4242"],
         ].map(([field, value]) => (
           <li key={field} className={row}>
-            <span className="text-ink">{field}</span>
-            <span className="text-ink-3">{value}</span>
+            <span className="text-foreground">{field}</span>
+            <span className="text-muted-foreground">{value}</span>
           </li>
         ))}
       </ul>
@@ -63,8 +61,8 @@ const steps = [
   },
 ];
 
-export function WizardStepsDemo() {
-  const [index, setIndex] = useState(0);
+export default function WizardStepsDemo() {
+  const [index, setIndex] = useState(1);
   const [done, setDone] = useState(false);
 
   return (

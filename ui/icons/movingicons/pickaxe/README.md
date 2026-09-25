@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/pickaxe/src/pickaxe.svelte`
+- Entry point: `ui/icons/movingicons/pickaxe/upstream/pickaxe.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/pickaxe`
 - Registry: https://movingicons.dev/r/pickaxe
-- Local source fallback: `ui/icons/movingicons/pickaxe/src/pickaxe.svelte`
+- Local source fallback: `ui/icons/movingicons/pickaxe/upstream/pickaxe.svelte`

@@ -1,18 +1,210 @@
-import E0 from "./examples/player-demo";
-import E1 from "./examples/player-queue-demo";
-import E2 from "./examples/player-variant-demo";
-import E3 from "./examples/player-size-demo";
-import E4 from "./examples/player-stacked-demo";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
+import * as React from "react";
+import { AudioPlayer, AudioPlayerControlBar, AudioPlayerControlGroup, AudioPlayerPlay, AudioPlayerProvider, AudioPlayerSeekBar, AudioPlayerSkipBack, AudioPlayerSkipForward, AudioPlayerTimeDisplay, AudioPlayerVolume, AudioQueue, type AudioPlayerState, type Track } from "./player";
+
+const tracks: Track[] = [
+  { album: "Pixabay Music", artist: "Flavio Concini", duration: 146, id: "1", title: "Beautiful Loop" },
+  { album: "Pixabay Music", artist: "Aliabbas Abasov", duration: 122, id: "2", title: "Type" },
+  { artist: "Audio UI", id: "4", live: true, title: "Live Radio" },
+];
+
+/** Stand-in for your audio engine: holds the player state and advances the clock while playing. */
+function useDemoPlayer(initial: Track[]) {
+  const [state, setState] = React.useState<AudioPlayerState>({
+    bufferedTime: 0,
+    currentIndex: 0,
+    currentTime: 0,
+    duration: initial[0]?.duration ?? 0,
+    insertMode: "last",
+    isPlaying: false,
+    muted: false,
+    playbackRate: 1,
+    queue: initial,
+    repeatMode: "none",
+    shuffle: false,
+    volume: 0.8,
+  });
+  const load = (index: number) =>
+    setState((s) => {
+      const track = s.queue[index];
+      if (!track) return s;
+      return { ...s, bufferedTime: 0, currentIndex: index, currentTime: 0, duration: track.live ? Number.POSITIVE_INFINITY : (track.duration ?? 0), isPlaying: true };
+    });
+  const step = (by: number) =>
+    setState((s) => {
+      const next = s.currentIndex + by;
+      const index = s.repeatMode === "all" ? (next + s.queue.length) % s.queue.length : next;
+      const track = s.queue[index];
+      if (!track) return { ...s, isPlaying: false };
+      return { ...s, bufferedTime: 0, currentIndex: index, currentTime: 0, duration: track.live ? Number.POSITIVE_INFINITY : (track.duration ?? 0) };
+    });
+  React.useEffect(() => {
+    if (!state.isPlaying) return;
+    const timer = setInterval(() => {
+      setState((s) => {
+        if (!Number.isFinite(s.duration)) return s;
+        const currentTime = s.currentTime + 0.25 * s.playbackRate;
+        if (currentTime < s.duration) return { ...s, bufferedTime: Math.min(s.duration, currentTime + 30), currentTime };
+        if (s.repeatMode === "one") return { ...s, currentTime: 0 };
+        const index = s.currentIndex + 1 < s.queue.length ? s.currentIndex + 1 : s.repeatMode === "all" ? 0 : -1;
+        const track = s.queue[index];
+        return track ? { ...s, currentIndex: index, currentTime: 0, duration: track.live ? Number.POSITIVE_INFINITY : (track.duration ?? 0) } : { ...s, currentTime: 0, isPlaying: false };
+      });
+    }, 250);
+    return () => clearInterval(timer);
+  }, [state.isPlaying]);
+  return {
+    onClearQueue: () => setState((s) => ({ ...s, currentIndex: -1, isPlaying: false, queue: [] })),
+    onInsertModeChange: (insertMode: AudioPlayerState["insertMode"]) => setState((s) => ({ ...s, insertMode })),
+    onMutedChange: (muted: boolean) => setState((s) => ({ ...s, muted })),
+    onNext: () => step(1),
+    onPlayPause: () => setState((s) => ({ ...s, isPlaying: !s.isPlaying })),
+    onPlaybackRateChange: (playbackRate: number) => setState((s) => ({ ...s, playbackRate })),
+    onPlayTrack: load,
+    onPrevious: () => step(-1),
+    onRemoveTrack: (id: string) =>
+      setState((s) => {
+        const queue = s.queue.filter((t) => t.id !== id);
+        return { ...s, currentIndex: queue.findIndex((t) => t.id === s.queue[s.currentIndex]?.id), queue };
+      }),
+    onReorder: (queue: Track[]) => setState((s) => ({ ...s, currentIndex: queue.findIndex((t) => t.id === s.queue[s.currentIndex]?.id), queue })),
+    onRepeatModeChange: (repeatMode: AudioPlayerState["repeatMode"]) => setState((s) => ({ ...s, repeatMode })),
+    onSeek: (currentTime: number) => setState((s) => ({ ...s, currentTime })),
+    onShuffleChange: (shuffle: boolean) => setState((s) => ({ ...s, shuffle })),
+    onVolumeChange: (volume: number) => setState((s) => ({ ...s, muted: false, volume })),
+    state,
+  };
+}
+
+function AudioDemoPlayer() {
+  return (
+    <AudioPlayer>
+      <AudioPlayerControlBar>
+        <AudioPlayerPlay />
+        <AudioPlayerSeekBar />
+        <AudioPlayerTimeDisplay />
+        <AudioPlayerVolume />
+      </AudioPlayerControlBar>
+    </AudioPlayer>
+  );
+}
+
+function AudioPlayerQueueDemo() {
+  return (
+    <AudioPlayer>
+      <AudioPlayerControlBar variant="stacked">
+        <AudioPlayerControlGroup>
+          <AudioPlayerTimeDisplay />
+          <AudioPlayerSeekBar />
+          <AudioPlayerTimeDisplay remaining />
+        </AudioPlayerControlGroup>
+        <AudioPlayerControlGroup>
+          <AudioPlayerControlGroup>
+            <AudioPlayerSkipBack />
+            <AudioPlayerPlay />
+            <AudioPlayerSkipForward />
+          </AudioPlayerControlGroup>
+          <AudioPlayerVolume />
+          <AudioQueue />
+        </AudioPlayerControlGroup>
+      </AudioPlayerControlBar>
+    </AudioPlayer>
+  );
+}
+
+function AudioPlayerVariantDemo() {
+  const controls = (
+    <AudioPlayerControlBar>
+      <AudioPlayerPlay />
+      <AudioPlayerSeekBar />
+      <AudioPlayerTimeDisplay />
+      <AudioPlayerVolume />
+    </AudioPlayerControlBar>
+  );
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <AudioPlayer variant="default">{controls}</AudioPlayer>
+        <p className="text-center text-muted-foreground text-xs">default</p>
+      </div>
+      <div className="flex flex-col gap-2">
+        <AudioPlayer variant="ghost">{controls}</AudioPlayer>
+        <p className="text-center text-muted-foreground text-xs">ghost</p>
+      </div>
+    </div>
+  );
+}
+
+function AudioPlayerSizeDemo() {
+  const controls = (
+    <AudioPlayerControlBar>
+      <AudioPlayerPlay />
+      <AudioPlayerSeekBar />
+      <AudioPlayerTimeDisplay />
+      <AudioPlayerVolume />
+    </AudioPlayerControlBar>
+  );
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <AudioPlayer size="sm">{controls}</AudioPlayer>
+        <p className="text-center text-muted-foreground text-xs">sm</p>
+      </div>
+      <div className="flex flex-col gap-2">
+        <AudioPlayer size="default">{controls}</AudioPlayer>
+        <p className="text-center text-muted-foreground text-xs">default</p>
+      </div>
+    </div>
+  );
+}
+
+function AudioPlayerStackedDemo() {
+  return (
+    <AudioPlayer>
+      <AudioPlayerControlBar variant="stacked">
+        <AudioPlayerControlGroup>
+          <AudioPlayerTimeDisplay />
+          <AudioPlayerSeekBar />
+          <AudioPlayerTimeDisplay remaining />
+        </AudioPlayerControlGroup>
+        <AudioPlayerControlGroup>
+          <AudioPlayerControlGroup className="justify-between md:justify-start">
+            <AudioPlayerSkipBack />
+            <AudioPlayerPlay />
+            <AudioPlayerSkipForward />
+          </AudioPlayerControlGroup>
+          <AudioPlayerVolume />
+        </AudioPlayerControlGroup>
+      </AudioPlayerControlBar>
+    </AudioPlayer>
+  );
+}
 
 const examples = [
-  { name: "player-demo", title: "Demo", component: E0 },
-  { name: "player-queue-demo", title: "Queue", component: E1 },
-  { name: "player-variant-demo", title: "Variant", component: E2 },
-  { name: "player-size-demo", title: "Size", component: E3 },
-  { name: "player-stacked-demo", title: "Stacked", component: E4 },
+  { component: AudioDemoPlayer, title: "Demo" },
+  { component: AudioPlayerQueueDemo, title: "Queue" },
+  { component: AudioPlayerVariantDemo, title: "Variant" },
+  { component: AudioPlayerSizeDemo, title: "Size" },
+  { component: AudioPlayerStackedDemo, title: "Stacked" },
 ];
 
 export default function Demo() {
-  return <AudioFrame examples={examples} tracks />;
+  const player = useDemoPlayer(tracks);
+  return (
+    <AudioPlayerProvider {...player}>
+      <div className="flex w-full max-w-2xl justify-center">
+        <div className="flex w-full max-w-2xl flex-col gap-6">
+          {examples.map(({ title, component: Example }) => (
+            <section className="flex flex-col gap-3" key={title}>
+              <h3 className="text-muted-foreground text-xs">{title}</h3>
+              <div className="flex min-h-40 items-center justify-center rounded-xl border p-6">
+                <Example />
+              </div>
+            </section>
+          ))}
+        </div>
+      </div>
+    </AudioPlayerProvider>
+  );
 }

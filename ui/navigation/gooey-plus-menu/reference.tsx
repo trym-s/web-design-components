@@ -2,7 +2,7 @@
 
 import "../../_sources/liquid-gooey/styles.css";
 import "../../_sources/liquid-gooey/demo.css";
-import { PlusMenu } from "./src/demo";
+import { PlusMenu } from "./upstream/demo";
 
 const shadow = "0 0 0 1px rgba(255,255,255,.04) inset, 0 2px 6px rgba(0,0,0,.24)";
 

@@ -1,7 +1,7 @@
 /* The docs site's shadcn stylesheet (tokens, theme, base) over this snapshot. */
 @import "tailwindcss";
 @source "./app/**/*.{ts,tsx}";
-@source "../../**/better-auth-ui-*/src/**/*.{ts,tsx}";
+@source "../../**/better-auth-ui-*/{src,upstream}/**/*.{ts,tsx}";
 
 @import "tw-animate-css";
 @import "../shadcn/shadcn-tailwind.css";

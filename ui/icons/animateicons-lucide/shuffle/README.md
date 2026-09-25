@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/shuffle/src/shuffle.tsx`
+- Entry point: `ui/icons/animateicons-lucide/shuffle/upstream/shuffle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-shuffle.json`
 - Registry: https://animateicons.in/r/lu-shuffle.json
-- Local source fallback: `ui/icons/animateicons-lucide/shuffle/src/shuffle.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/shuffle/upstream/shuffle.tsx`

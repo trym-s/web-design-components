@@ -2,7 +2,7 @@
 
 "use client";
 
-import { SwirlPlayground } from "./src/swirl/playground";
+import { SwirlPlayground } from "./upstream/swirl/playground";
 
 export default function Reference() {
   return <SwirlPlayground />;

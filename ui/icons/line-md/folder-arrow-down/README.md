@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-arrow-down/src/folder-arrow-down.svg`
+- Entry point: `ui/icons/line-md/folder-arrow-down/upstream/folder-arrow-down.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-arrow-down/src/folder-arrow-down.svg`
+- Local source: `ui/icons/line-md/folder-arrow-down/upstream/folder-arrow-down.svg`

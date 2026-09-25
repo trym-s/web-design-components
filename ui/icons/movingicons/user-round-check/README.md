@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/user-round-check/src/user-round-check.svelte`
+- Entry point: `ui/icons/movingicons/user-round-check/upstream/user-round-check.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/user-round-check`
 - Registry: https://movingicons.dev/r/user-round-check
-- Local source fallback: `ui/icons/movingicons/user-round-check/src/user-round-check.svelte`
+- Local source fallback: `ui/icons/movingicons/user-round-check/upstream/user-round-check.svelte`

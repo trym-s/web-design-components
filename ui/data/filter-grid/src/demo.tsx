@@ -31,7 +31,7 @@ const FILTERS: FilterDefinition<Asset>[] = [
   { id: "doc", label: "Docs", match: (a) => a.kind === "doc" },
 ];
 
-export function FilterGridDemo() {
+export default function FilterGridDemo() {
   return (
     <div className="mx-auto w-full max-w-[440px]">
       <FilterGrid
@@ -43,10 +43,10 @@ export function FilterGridDemo() {
         rowHeight={64}
         renderItem={(a) => (
           <div className="flex h-full flex-col justify-between">
-            <p className="truncate text-[12.5px] font-medium text-ink">
+            <p className="truncate text-[12.5px] font-medium text-foreground">
               {a.name}
             </p>
-            <p className="meta text-ink-3">{a.size}</p>
+            <p className="font-mono text-[10.5px] leading-none tracking-[0.06em] tabular-nums text-muted-foreground">{a.size}</p>
           </div>
         )}
       />

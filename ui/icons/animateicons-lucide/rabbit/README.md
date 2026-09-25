@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/rabbit/src/rabbit.tsx`
+- Entry point: `ui/icons/animateicons-lucide/rabbit/upstream/rabbit.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-rabbit.json`
 - Registry: https://animateicons.in/r/lu-rabbit.json
-- Local source fallback: `ui/icons/animateicons-lucide/rabbit/src/rabbit.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/rabbit/upstream/rabbit.tsx`

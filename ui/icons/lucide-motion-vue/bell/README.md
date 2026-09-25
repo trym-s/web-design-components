@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/bell/src/bell.vue`
+- Entry point: `ui/icons/lucide-motion-vue/bell/upstream/bell.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/bell/src/bell.vue`
+- Local source: `ui/icons/lucide-motion-vue/bell/upstream/bell.vue`

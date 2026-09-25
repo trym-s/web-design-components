@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/archive-box-x-mark/src/archive-box-x-mark.tsx`
+- Entry point: `ui/icons/heroicons-animated/archive-box-x-mark/upstream/archive-box-x-mark.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/archive-box-x-mark`
 - Registry: https://www.heroicons-animated.com/r/archive-box-x-mark.json
-- Local source fallback: `ui/icons/heroicons-animated/archive-box-x-mark/src/archive-box-x-mark.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/archive-box-x-mark/upstream/archive-box-x-mark.tsx`

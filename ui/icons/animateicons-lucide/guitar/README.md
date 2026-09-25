@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/guitar/src/guitar.tsx`
+- Entry point: `ui/icons/animateicons-lucide/guitar/upstream/guitar.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-guitar.json`
 - Registry: https://animateicons.in/r/lu-guitar.json
-- Local source fallback: `ui/icons/animateicons-lucide/guitar/src/guitar.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/guitar/upstream/guitar.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/layout-dashboard/src/layout-dashboard.vue`
+- Entry point: `ui/icons/lucide-motion-vue/layout-dashboard/upstream/layout-dashboard.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/layout-dashboard/src/layout-dashboard.vue`
+- Local source: `ui/icons/lucide-motion-vue/layout-dashboard/upstream/layout-dashboard.vue`

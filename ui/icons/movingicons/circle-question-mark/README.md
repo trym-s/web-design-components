@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/circle-question-mark/src/circle-question-mark.svelte`
+- Entry point: `ui/icons/movingicons/circle-question-mark/upstream/circle-question-mark.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/circle-question-mark`
 - Registry: https://movingicons.dev/r/circle-question-mark
-- Local source fallback: `ui/icons/movingicons/circle-question-mark/src/circle-question-mark.svelte`
+- Local source fallback: `ui/icons/movingicons/circle-question-mark/upstream/circle-question-mark.svelte`

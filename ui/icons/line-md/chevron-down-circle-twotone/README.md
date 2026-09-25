@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chevron-down-circle-twotone/src/chevron-down-circle-twotone.svg`
+- Entry point: `ui/icons/line-md/chevron-down-circle-twotone/upstream/chevron-down-circle-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chevron-down-circle-twotone/src/chevron-down-circle-twotone.svg`
+- Local source: `ui/icons/line-md/chevron-down-circle-twotone/upstream/chevron-down-circle-twotone.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/copy-off-icon/src/copy-off-icon.tsx`
+- Entry point: `ui/icons/itshover/copy-off-icon/upstream/copy-off-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/copy-off-icon.json`
 - Registry: https://itshover.com/r/copy-off-icon.json
-- Local source fallback: `ui/icons/itshover/copy-off-icon/src/copy-off-icon.tsx`
+- Local source fallback: `ui/icons/itshover/copy-off-icon/upstream/copy-off-icon.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-arrow-right/src/folder-arrow-right.svg`
+- Entry point: `ui/icons/line-md/folder-arrow-right/upstream/folder-arrow-right.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-arrow-right/src/folder-arrow-right.svg`
+- Local source: `ui/icons/line-md/folder-arrow-right/upstream/folder-arrow-right.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/user-plus-icon/src/user-plus-icon.tsx`
+- Entry point: `ui/icons/itshover/user-plus-icon/upstream/user-plus-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/user-plus-icon.json`
 - Registry: https://itshover.com/r/user-plus-icon.json
-- Local source fallback: `ui/icons/itshover/user-plus-icon/src/user-plus-icon.tsx`
+- Local source fallback: `ui/icons/itshover/user-plus-icon/upstream/user-plus-icon.tsx`

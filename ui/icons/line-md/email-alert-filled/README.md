@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-alert-filled/src/email-alert-filled.svg`
+- Entry point: `ui/icons/line-md/email-alert-filled/upstream/email-alert-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-alert-filled/src/email-alert-filled.svg`
+- Local source: `ui/icons/line-md/email-alert-filled/upstream/email-alert-filled.svg`

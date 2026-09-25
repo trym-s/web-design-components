@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/menu-unfold-right/src/menu-unfold-right.svg`
+- Entry point: `ui/icons/line-md/menu-unfold-right/upstream/menu-unfold-right.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/menu-unfold-right/src/menu-unfold-right.svg`
+- Local source: `ui/icons/line-md/menu-unfold-right/upstream/menu-unfold-right.svg`

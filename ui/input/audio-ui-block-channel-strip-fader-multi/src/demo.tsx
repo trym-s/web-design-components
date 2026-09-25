@@ -1,10 +1,15 @@
-import E0 from "./examples/block-channel-strip-fader-multi";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
+import { useState } from "react";
+import { BlockChannelStripFaderMulti } from "./block-channel-strip-fader-multi";
 
-const examples = [
-  { name: "block-channel-strip-fader-multi", title: "Block Channel Strip Fader Multi", component: E0 },
-];
+const labels = ["CH1", "CH2", "CH3", "CH4"];
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [values, setValues] = useState(() => labels.map((label) => ({ id: label, label, value: 50 })));
+  return (
+    <BlockChannelStripFaderMulti
+      channels={values}
+      footer="Output"
+      onValueChange={(id, value) => setValues((current) => current.map((item) => (item.id === id ? { ...item, value } : item)))}
+    />
+  );
 }

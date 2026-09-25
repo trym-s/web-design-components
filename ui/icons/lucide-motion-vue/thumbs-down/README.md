@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/thumbs-down/src/thumbs-down.vue`
+- Entry point: `ui/icons/lucide-motion-vue/thumbs-down/upstream/thumbs-down.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/thumbs-down/src/thumbs-down.vue`
+- Local source: `ui/icons/lucide-motion-vue/thumbs-down/upstream/thumbs-down.vue`

@@ -1,3 +1,3 @@
 /* Use when: Queue controls */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

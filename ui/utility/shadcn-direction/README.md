@@ -7,7 +7,7 @@ A provider component that sets the text direction for your application.
 - Category: `utility` — functional
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/direction.tsx`
+- Entry point: `upstream/ui/direction.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A provider component that sets the text direction for your application.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -34,7 +34,7 @@ The `DirectionProvider` component is used to set the text direction (`ltr` or `r
 
 Here's a preview of the component in RTL mode. Use the language selector to switch the language. To see more examples, look for the RTL section on components pages.
 
-> Example `card-rtl` — `src/examples/card-rtl.tsx`, `static/card-rtl.html`
+> Example `card-rtl` — `upstream/examples/card-rtl.tsx`, `static/card-rtl.html`
 
 ## Installation
 
@@ -85,8 +85,8 @@ function MyComponent() {
 
 ## Files
 
-- `src/ui/direction.tsx` — the ui file as the registry installs it
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/direction.tsx` — the ui file as the registry installs it
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/direction

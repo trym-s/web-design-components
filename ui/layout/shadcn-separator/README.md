@@ -7,7 +7,7 @@ Visually or semantically separates content.
 - Category: `layout` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/separator.tsx`
+- Entry point: `upstream/ui/separator.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Visually or semantically separates content.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Visually or semantically separates content.
 
 ## Documentation
 
-> Example `separator-demo` — `src/examples/separator-demo.tsx`, `static/separator-demo.html`
+> Example `separator-demo` — `upstream/examples/separator-demo.tsx`, `static/separator-demo.html`
 
 ## Installation
 
@@ -64,25 +64,25 @@ import { Separator } from "@/components/ui/separator"
 
 Use `orientation="vertical"` for a vertical separator.
 
-> Example `separator-vertical` — `src/examples/separator-vertical.tsx`, `static/separator-vertical.html`
+> Example `separator-vertical` — `upstream/examples/separator-vertical.tsx`, `static/separator-vertical.html`
 
 ## Menu
 
 Vertical separators between menu items with descriptions.
 
-> Example `separator-menu` — `src/examples/separator-menu.tsx`, `static/separator-menu.html`
+> Example `separator-menu` — `upstream/examples/separator-menu.tsx`, `static/separator-menu.html`
 
 ## List
 
 Horizontal separators between list items.
 
-> Example `separator-list` — `src/examples/separator-list.tsx`, `static/separator-list.html`
+> Example `separator-list` — `upstream/examples/separator-list.tsx`, `static/separator-list.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `separator-rtl` — `src/examples/separator-rtl.tsx`, `static/separator-rtl.html`
+> Example `separator-rtl` — `upstream/examples/separator-rtl.tsx`, `static/separator-rtl.html`
 
 ## API Reference
 
@@ -90,12 +90,12 @@ See the [Radix UI Separator](https://www.radix-ui.com/docs/primitives/components
 
 ## Files
 
-- `src/ui/separator.tsx` — the ui file as the registry installs it
-- `src/examples/separator-demo.tsx`
-- `src/examples/separator-vertical.tsx`
-- `src/examples/separator-menu.tsx`
-- `src/examples/separator-list.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/separator.tsx` — the ui file as the registry installs it
+- `upstream/examples/separator-demo.tsx`
+- `upstream/examples/separator-vertical.tsx`
+- `upstream/examples/separator-menu.tsx`
+- `upstream/examples/separator-list.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/separator

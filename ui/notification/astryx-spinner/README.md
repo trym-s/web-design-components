@@ -7,7 +7,7 @@ An animated loading indicator for processes with unknown duration, such as data 
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Spinner.tsx`
+- Entry point: `upstream/Spinner.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ An animated loading indicator for processes with unknown duration, such as data 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ An animated loading indicator for processes with unknown duration, such as data 
 
 ## Examples
 
-- `src/examples/SpinnerShowcase.tsx` — Spinner: A large spinner indicator. · static: `static/SpinnerShowcase.html`
-- `src/examples/SpinnerOnMedia.tsx` — Spinner — On Media Shade: Default and onMedia shade spinners for light and dark backgrounds. · static: `static/SpinnerOnMedia.html`
-- `src/examples/SpinnerSizes.tsx` — Spinner — Sizes: All spinner sizes displayed side by side. · static: `static/SpinnerSizes.html`
-- `src/examples/SpinnerWithLabel.tsx` — Spinner — With Label: Spinners with text and rich multi-line labels. · static: `static/SpinnerWithLabel.html`
+- `upstream/examples/SpinnerShowcase.tsx` — Spinner: A large spinner indicator. · static: `static/SpinnerShowcase.html`
+- `upstream/examples/SpinnerOnMedia.tsx` — Spinner — On Media Shade: Default and onMedia shade spinners for light and dark backgrounds. · static: `static/SpinnerOnMedia.html`
+- `upstream/examples/SpinnerSizes.tsx` — Spinner — Sizes: All spinner sizes displayed side by side. · static: `static/SpinnerSizes.html`
+- `upstream/examples/SpinnerWithLabel.tsx` — Spinner — With Label: Spinners with text and rich multi-line labels. · static: `static/SpinnerWithLabel.html`
 
 ## Documentation
 
@@ -110,9 +110,9 @@ Styling hook class: `.astryx-spinner`
 
 ## Files
 
-- `src/Spinner.doc.mjs`
-- `src/Spinner.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Spinner.doc.mjs`
+- `upstream/Spinner.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Spinner

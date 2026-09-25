@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-off-filled/src/cloud-off-filled.svg`
+- Entry point: `ui/icons/line-md/cloud-off-filled/upstream/cloud-off-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-off-filled/src/cloud-off-filled.svg`
+- Local source: `ui/icons/line-md/cloud-off-filled/upstream/cloud-off-filled.svg`

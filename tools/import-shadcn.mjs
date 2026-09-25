@@ -365,7 +365,7 @@ export default function Demo() {
 const agentUse = `## How an agent uses this reference
 
 - **React + Tailwind v4 target** — \`npx shadcn@latest add\` installs the same code; or copy the ui file
-  and the example from \`src/\`, changing only the \`@/…\` import paths.
+  and the example from \`upstream/\`, changing only the \`@/…\` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open \`static/<example>.html\`: the rendered DOM
   of each example; every class resolves through \`ui/_sources/shadcn/styles.css\` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the \`--background\`/\`--primary\`/… tokens;
@@ -379,7 +379,7 @@ for (const ref of refs) {
   const category = CATEGORY[ref.name];
   if (!category) throw new Error(`no bank category for ${ref.name}`);
   const dir = join(UI, category, `shadcn-${ref.name}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   // The component's own ui file(s): the docs' ComponentSource names, else the page name.
   const uiNames = (ref.sources.length ? ref.sources : [ref.name]).filter((n) => !/-example$|-demo$/.test(n));
   const uiFiles = [];
@@ -408,14 +408,14 @@ for (const ref of refs) {
   const use = firstSentence(description);
   if (examples.length) {
     write(join(srcDir, "demo.tsx"), demoModule(examples, srcDir));
-    write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+    write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   } else {
     // Nothing on the page renders (a provider, or a page that only redirects): documentation only.
     excluded.push({ example: ref.name, reason: "documentation only; the page embeds no renderable example" });
     write(join(dir, "reference.md"), `# Use when\n\n${use}\n`);
   }
   const nature = NATURE[category];
-  const docs = mdxToMarkdown(ref.mdx, (name, style) => `> Example \`${name}\`${style && style !== "radix-nova" ? ` (${style})` : ""} — \`src/examples/${name}.tsx\`, \`static/${name}.html\``);
+  const docs = mdxToMarkdown(ref.mdx, (name, style) => `> Example \`${name}\`${style && style !== "radix-nova" ? ` (${style})` : ""} — \`upstream/examples/${name}.tsx\`, \`static/${name}.html\``);
   write(join(dir, "README.md"), `# ${ref.fm.title ?? titleize(ref.name)}
 
 ${md(description)}
@@ -425,7 +425,7 @@ ${md(description)}
 - Category: \`${category}\` — ${nature}
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: \`${uiFiles[0] ?? `src/examples/${examples[0]?.name}.tsx`}\`
+- Entry point: \`${uiFiles[0] ?? `upstream/examples/${examples[0]?.name}.tsx`}\`
 - Nature: ${nature}; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: ${ADDED}
 - Curation: pending
@@ -444,8 +444,8 @@ ${ref.undocumented ? "Not yet documented on the site; the examples below are the
 
 ## Files
 
-${[...uiFiles.map((f) => `- \`${f}\` — the ui file as the registry installs it`), ...examples.map((e) => `- \`src/examples/${e.name}.tsx\``)].join("\n")}
-- \`src/demo.tsx\` — bank harness mounting every example
+${[...uiFiles.map((f) => `- \`${f}\` — the ui file as the registry installs it`), ...examples.map((e) => `- \`upstream/examples/${e.name}.tsx\``)].join("\n")}
+- \`upstream/demo.tsx\` — bank harness mounting every example
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${ref.undocumented ? `${REPO}/tree/main/apps/v4/examples/radix (not yet on the docs site)` : `${SITE}/docs/components/radix/${ref.name}`}
@@ -484,7 +484,7 @@ for (const block of blocksIndex) {
   if (!existsSync(srcRoot)) { excluded.push({ example: `block ${block.name}`, reason: "homepage showcase; exists only as untransformed radix style-slot source, never published as an installable block" }); continue; }
   const category = block.name.startsWith("sidebar-") ? "layout" : "page";
   const dir = join(UI, category, `shadcn-${block.name}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   blockRoot = srcDir;
   const files = walk(srcRoot);
   for (const f of files) {
@@ -498,7 +498,7 @@ for (const block of blocksIndex) {
   const examples = [{ name: block.name, title: titleize(block.name), local: pageFile, exportName: exportedComponent(pageCode, "page") }];
   write(join(srcDir, "demo.tsx"), demoModule(examples, srcDir, true));
   const use = firstSentence(block.description ?? titleize(block.name));
-  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./upstream/demo";\n`);
   write(join(dir, "README.md"), `# ${titleize(block.name)}
 
 ${md(block.description)}
@@ -508,7 +508,7 @@ ${md(block.description)}
 - Category: \`${category}\` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (new-york-v4); static HTML + compiled CSS snapshot
 - Framework: react
-- Entry point: \`src/page.tsx\`
+- Entry point: \`upstream/page.tsx\`
 - Nature: structural; reuse the page composition, hierarchy and density, not its sample data.
 - Added: ${ADDED}
 - Curation: pending
@@ -523,8 +523,8 @@ ${md(block.description)}
 ${agentUse}
 ## Files
 
-${files.map((f) => `- \`src/${posix(relative(srcRoot, f))}\``).join("\n")}
-- \`src/demo.tsx\` — bank harness
+${files.map((f) => `- \`upstream/${posix(relative(srcRoot, f))}\``).join("\n")}
+- \`upstream/demo.tsx\` — bank harness
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${SITE}/view/new-york-v4/${block.name}
@@ -540,7 +540,7 @@ const CHARTS = join(V4, "registry/new-york-v4/charts");
 for (const f of readdirSync(CHARTS).filter((f) => /^chart-.*\.tsx$/.test(f))) {
   const name = f.replace(/\.tsx$/, "");
   const dir = join(UI, "data-visualization", `shadcn-${name}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   const code = readFileSync(join(CHARTS, f), "utf8");
   const dest = join(srcDir, f);
   write(dest, await localize(code, dest));
@@ -548,7 +548,7 @@ for (const f of readdirSync(CHARTS).filter((f) => /^chart-.*\.tsx$/.test(f))) {
   const description = code.match(/export const description = "([^"]+)"/)?.[1] ?? `${titleize(name)}.`;
   write(join(srcDir, "demo.tsx"), demoModule([{ name, title: titleize(name), local: dest, exportName: exportedComponent(code, name) }], srcDir));
   const use = firstSentence(description.replace(/\.?$/, "."));
-  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./upstream/demo";\n`);
   write(join(dir, "README.md"), `# ${titleize(name)}
 
 ${md(description)}
@@ -558,7 +558,7 @@ ${md(description)}
 - Category: \`data-visualization\` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 + Recharts (new-york-v4 \`chart\` and \`card\`); static HTML + compiled CSS
 - Framework: react
-- Entry point: \`src/${f}\`
+- Entry point: \`upstream/${f}\`
 - Nature: structural; reuse the chart form, encoding and card framing, not the sample data.
 - Added: ${ADDED}
 - Curation: pending
@@ -573,8 +573,8 @@ ${md(description)}
 ${agentUse}
 ## Files
 
-- \`src/${f}\`
-- \`src/demo.tsx\` — bank harness
+- \`upstream/${f}\`
+- \`upstream/demo.tsx\` — bank harness
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${SITE}/charts/${type}#${name}
@@ -588,8 +588,8 @@ Upstream page: ${SITE}/charts/${type}#${name}
 const styleEntries = [];
 for (const s of STYLES) {
   const dir = join(UI, "theme", `shadcn-style-${s}`);
-  cpSync(join(OUT, "styles", `style-${s}.css`), join(dir, "src", `style-${s}.css`));
-  const css = readFileSync(join(dir, "src", `style-${s}.css`), "utf8");
+  cpSync(join(OUT, "styles", `style-${s}.css`), join(dir, "upstream", `style-${s}.css`));
+  const css = readFileSync(join(dir, "upstream", `style-${s}.css`), "utf8");
   const sample = (cls) => css.match(new RegExp(`\\.${cls} \\{\\s*@apply ([^;]+);`))?.[1];
   write(join(dir, "reference.md"), `# Use when\n\nThe ${titleize(s)} visual style of shadcn/ui: the same components with its own radius, density, borders and focus treatment.\n`);
   write(join(dir, "README.md"), `# shadcn/ui ${titleize(s)} style
@@ -601,7 +601,7 @@ ${s === "nova" ? "The style the shadcn docs render by default; every `shadcn-*` 
 - Category: \`theme\` — decorative
 - Medium: CSS (\`@apply\` map from \`cn-*\` component slots to Tailwind utilities)
 - Framework: css
-- Entry point: \`src/style-${s}.css\`
+- Entry point: \`upstream/style-${s}.css\`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: ${ADDED}
 - Curation: pending
@@ -618,7 +618,7 @@ ${s === "nova" ? "The style the shadcn docs render by default; every `shadcn-*` 
 
 ## Files
 
-- \`src/style-${s}.css\`
+- \`upstream/style-${s}.css\`
 
 Upstream page: ${SITE}/create
 `);
@@ -633,7 +633,7 @@ Upstream page: ${SITE}/create
     .replace(/^@import "\.\/legacy-themes\.css";\n/m, "")
     .replace(/^@import "shadcn\/tailwind\.css";$/m, '@import "./shadcn-tailwind.css";')
     .replace(/^@source .*\n/gm, "");
-  const sources = `@source "../../**/shadcn-*/src/**/*.{ts,tsx}";\n@source "./**/*.{ts,tsx}";\n`;
+  const sources = `@source "../../**/shadcn-*/{src,upstream}/**/*.{ts,tsx}";\n@source "./**/*.{ts,tsx}";\n`;
   write(join(OUT, "tailwind.css"), `/* The docsite globals (tokens, theme, base layer) with the bank snapshot as the only source. */\n${globals.replace(/(@import "\.\/shadcn-tailwind\.css";)/, `$1\n${sources}`)}\n/* The site sets these with next/font; the bank ships the same families locally. */\n:root { --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif; --font-mono: "Geist Mono", ui-monospace, monospace; --font-heading: var(--font-sans); }\n@import "./fonts.css";\n`);
   let fonts = "";
   const ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36";

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/sliders-horizontal/src/sliders-horizontal.svelte`
+- Entry point: `ui/icons/movingicons/sliders-horizontal/upstream/sliders-horizontal.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/sliders-horizontal`
 - Registry: https://movingicons.dev/r/sliders-horizontal
-- Local source fallback: `ui/icons/movingicons/sliders-horizontal/src/sliders-horizontal.svelte`
+- Local source fallback: `ui/icons/movingicons/sliders-horizontal/upstream/sliders-horizontal.svelte`

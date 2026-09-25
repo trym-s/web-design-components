@@ -7,7 +7,7 @@ Timestamp formats a date or time value into human-readable text. Use it to show 
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Timestamp.tsx`
+- Entry point: `upstream/Timestamp.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Timestamp formats a date or time value into human-readable text. Use it to show 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ Timestamp formats a date or time value into human-readable text. Use it to show 
 
 ## Examples
 
-- `src/examples/TimestampShowcase.tsx` — Timestamp · static: `static/TimestampShowcase.html`
-- `src/examples/TimestampAutoFormat.tsx` — Timestamp — Auto: Auto format that shows relative time for recent dates and switches to the full date for older ones. The default choice for most use cases. · static: `static/TimestampAutoFormat.html`
-- `src/examples/TimestampColors.tsx` — Timestamp — Colors: Timestamp rendered in each available color variant: primary, secondary, disabled, and active. · static: `static/TimestampColors.html`
-- `src/examples/TimestampFormats.tsx` — Timestamp — Formats: All display formats side by side: date, date_time, time, and their system equivalents. Use date and date_time for user-facing UI, system variants for logs and dev tools. · static: `static/TimestampFormats.html`
-- `src/examples/TimestampRelativeFormat.tsx` — Timestamp — Relative: Relative time labels from seconds to months ago, with hover tooltips showing the full date. Use in feeds, comment threads, and activity logs. · static: `static/TimestampRelativeFormat.html`
-- `src/examples/TimestampTimezone.tsx` — Timestamp — Timezone: Timestamps with the timezone abbreviation appended. Enable isTimezoneShown for audiences across time zones, like audit logs or team calendars. · static: `static/TimestampTimezone.html`
-- `src/examples/TimestampTooltipTimezones.tsx` — Timestamp — Tooltip time zones: Hover tooltips that show one instant across several time zones or formats. Use tooltipEntries when readers must compare zones, like an incident log carrying both the reader's time and the event's origin zone. · static: `static/TimestampTooltipTimezones.html`
+- `upstream/examples/TimestampShowcase.tsx` — Timestamp · static: `static/TimestampShowcase.html`
+- `upstream/examples/TimestampAutoFormat.tsx` — Timestamp — Auto: Auto format that shows relative time for recent dates and switches to the full date for older ones. The default choice for most use cases. · static: `static/TimestampAutoFormat.html`
+- `upstream/examples/TimestampColors.tsx` — Timestamp — Colors: Timestamp rendered in each available color variant: primary, secondary, disabled, and active. · static: `static/TimestampColors.html`
+- `upstream/examples/TimestampFormats.tsx` — Timestamp — Formats: All display formats side by side: date, date_time, time, and their system equivalents. Use date and date_time for user-facing UI, system variants for logs and dev tools. · static: `static/TimestampFormats.html`
+- `upstream/examples/TimestampRelativeFormat.tsx` — Timestamp — Relative: Relative time labels from seconds to months ago, with hover tooltips showing the full date. Use in feeds, comment threads, and activity logs. · static: `static/TimestampRelativeFormat.html`
+- `upstream/examples/TimestampTimezone.tsx` — Timestamp — Timezone: Timestamps with the timezone abbreviation appended. Enable isTimezoneShown for audiences across time zones, like audit logs or team calendars. · static: `static/TimestampTimezone.html`
+- `upstream/examples/TimestampTooltipTimezones.tsx` — Timestamp — Tooltip time zones: Hover tooltips that show one instant across several time zones or formats. Use tooltipEntries when readers must compare zones, like an incident log carrying both the reader's time and the event's origin zone. · static: `static/TimestampTooltipTimezones.html`
 
 ## Documentation
 
@@ -92,10 +92,10 @@ Styling hook class: `.astryx-timestamp`, `.astryx-timestamp-copy-button`
 
 ## Files
 
-- `src/Timestamp.doc.mjs`
-- `src/Timestamp.tsx`
-- `src/TimestampHoverCard.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Timestamp.doc.mjs`
+- `upstream/Timestamp.tsx`
+- `upstream/TimestampHoverCard.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Timestamp

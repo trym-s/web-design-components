@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/users-round/src/users-round.tsx`
+- Entry point: `ui/icons/animateicons-lucide/users-round/upstream/users-round.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-users-round.json`
 - Registry: https://animateicons.in/r/lu-users-round.json
-- Local source fallback: `ui/icons/animateicons-lucide/users-round/src/users-round.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/users-round/upstream/users-round.tsx`

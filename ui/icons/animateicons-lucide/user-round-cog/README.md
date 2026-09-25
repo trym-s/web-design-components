@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/user-round-cog/src/user-round-cog.tsx`
+- Entry point: `ui/icons/animateicons-lucide/user-round-cog/upstream/user-round-cog.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-cog.json`
 - Registry: https://animateicons.in/r/lu-user-round-cog.json
-- Local source fallback: `ui/icons/animateicons-lucide/user-round-cog/src/user-round-cog.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/user-round-cog/upstream/user-round-cog.tsx`

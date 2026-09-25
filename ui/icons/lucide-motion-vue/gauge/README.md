@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/gauge/src/gauge.vue`
+- Entry point: `ui/icons/lucide-motion-vue/gauge/upstream/gauge.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/gauge/src/gauge.vue`
+- Local source: `ui/icons/lucide-motion-vue/gauge/upstream/gauge.vue`

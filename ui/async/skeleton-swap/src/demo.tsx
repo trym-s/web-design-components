@@ -6,7 +6,7 @@ import { SkeletonSwap } from "./skeleton-swap";
 const BIO =
   "Ships the last twenty percent. Writes about the half-second after a click, and about the three things that always go missing before a component is actually done.";
 
-export function SkeletonSwapDemo() {
+export default function SkeletonSwapDemo() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export function SkeletonSwapDemo() {
         className="w-full max-w-[400px]"
       >
         {ready ? (
-          <p className="text-[13.5px] leading-[21px] text-ink-2">{BIO}</p>
+          <p className="text-[13.5px] leading-[21px] text-muted-foreground">{BIO}</p>
         ) : null}
       </SkeletonSwap>
     </div>

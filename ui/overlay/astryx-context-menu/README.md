@@ -7,7 +7,7 @@ A right-click context menu that appears at the cursor position. Use to provide c
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ContextMenu.tsx`
+- Entry point: `upstream/ContextMenu.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A right-click context menu that appears at the cursor position. Use to provide c
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A right-click context menu that appears at the cursor position. Use to provide c
 
 ## Examples
 
-- `src/examples/ContextMenuItemShowcase.tsx` — Context Menu Item: Context menu with custom-rendered items using ContextMenuItem for icons and descriptions. · static: `static/ContextMenuItemShowcase.html`
-- `src/examples/ContextMenuShowcase.tsx` — Context Menu: An adaptive context area that supports long-press on compact touch screens and right-click elsewhere. · static: `static/ContextMenuShowcase.html`
-- `src/examples/ContextMenuBasic.tsx` — ContextMenu — Basic: An adaptive context area: long-press opens a BottomSheet on compact touch screens, while right-click opens a cursor-positioned menu elsewhere. · static: `static/ContextMenuBasic.html`
-- `src/examples/ContextMenuBottomSheet.tsx` — ContextMenu — Bottom Sheet: A ContextMenu using the explicit BottomSheet presentation. Long-press the target on touch devices or right-click it with a pointer. Keep a visible menu trigger for important mobile actions. · static: `static/ContextMenuBottomSheet.html`
-- `src/examples/ContextMenuItemBasic.tsx` — ContextMenuItem — Basic: Context menu items with labels and secondary descriptions. Use ContextMenuItem to render custom menu entries with consistent styling. · static: `static/ContextMenuItemBasic.html`
+- `upstream/examples/ContextMenuItemShowcase.tsx` — Context Menu Item: Context menu with custom-rendered items using ContextMenuItem for icons and descriptions. · static: `static/ContextMenuItemShowcase.html`
+- `upstream/examples/ContextMenuShowcase.tsx` — Context Menu: An adaptive context area that supports long-press on compact touch screens and right-click elsewhere. · static: `static/ContextMenuShowcase.html`
+- `upstream/examples/ContextMenuBasic.tsx` — ContextMenu — Basic: An adaptive context area: long-press opens a BottomSheet on compact touch screens, while right-click opens a cursor-positioned menu elsewhere. · static: `static/ContextMenuBasic.html`
+- `upstream/examples/ContextMenuBottomSheet.tsx` — ContextMenu — Bottom Sheet: A ContextMenu using the explicit BottomSheet presentation. Long-press the target on touch devices or right-click it with a pointer. Keep a visible menu trigger for important mobile actions. · static: `static/ContextMenuBottomSheet.html`
+- `upstream/examples/ContextMenuItemBasic.tsx` — ContextMenuItem — Basic: Context menu items with labels and secondary descriptions. Use ContextMenuItem to render custom menu entries with consistent styling. · static: `static/ContextMenuItemBasic.html`
 
 ## Documentation
 
@@ -112,11 +112,11 @@ Styling hook class: `.astryx-context-menu`
 
 ## Files
 
-- `src/ContextMenu.doc.mjs`
-- `src/ContextMenu.spec.md`
-- `src/ContextMenu.tsx`
-- `src/ContextMenuItem.doc.mjs`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ContextMenu.doc.mjs`
+- `upstream/ContextMenu.spec.md`
+- `upstream/ContextMenu.tsx`
+- `upstream/ContextMenuItem.doc.mjs`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ContextMenu

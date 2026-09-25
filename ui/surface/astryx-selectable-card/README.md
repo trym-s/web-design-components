@@ -7,7 +7,7 @@ A card that toggles between selected and unselected states with an accent border
 - Category: `surface` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/SelectableCard.tsx`
+- Entry point: `upstream/SelectableCard.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A card that toggles between selected and unselected states with an accent border
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ A card that toggles between selected and unselected states with an accent border
 
 ## Examples
 
-- `src/examples/SelectableCardShowcase.tsx` — Selectable Card: A plan picker with single-select radio behavior. Cards show an accent border when selected. · static: `static/SelectableCardShowcase.html`
-- `src/examples/SelectableCardElevated.tsx` — Selectable Card — Elevated: Raised selectable cards with `elevation="low"`. The inset selection ring composes on top of the shadow, so a selected card keeps its elevation. · static: `static/SelectableCardElevated.html`
-- `src/examples/SelectableCardMulti.tsx` — Selectable Card — Multi-select: Multi-select tag picker using color variant selectable cards with color-matched selection borders. · static: `static/SelectableCardMulti.html`
+- `upstream/examples/SelectableCardShowcase.tsx` — Selectable Card: A plan picker with single-select radio behavior. Cards show an accent border when selected. · static: `static/SelectableCardShowcase.html`
+- `upstream/examples/SelectableCardElevated.tsx` — Selectable Card — Elevated: Raised selectable cards with `elevation="low"`. The inset selection ring composes on top of the shadow, so a selected card keeps its elevation. · static: `static/SelectableCardElevated.html`
+- `upstream/examples/SelectableCardMulti.tsx` — Selectable Card — Multi-select: Multi-select tag picker using color variant selectable cards with color-matched selection borders. · static: `static/SelectableCardMulti.html`
 
 ## Documentation
 
@@ -83,9 +83,9 @@ Styling hook class: `.astryx-selectable-card`
 
 ## Files
 
-- `src/SelectableCard.doc.mjs`
-- `src/SelectableCard.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/SelectableCard.doc.mjs`
+- `upstream/SelectableCard.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/SelectableCard

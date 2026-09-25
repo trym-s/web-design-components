@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/calendar-cog/src/calendar-cog.svelte`
+- Entry point: `ui/icons/movingicons/calendar-cog/upstream/calendar-cog.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-cog`
 - Registry: https://movingicons.dev/r/calendar-cog
-- Local source fallback: `ui/icons/movingicons/calendar-cog/src/calendar-cog.svelte`
+- Local source fallback: `ui/icons/movingicons/calendar-cog/upstream/calendar-cog.svelte`

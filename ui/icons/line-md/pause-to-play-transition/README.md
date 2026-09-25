@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/pause-to-play-transition/src/pause-to-play-transition.svg`
+- Entry point: `ui/icons/line-md/pause-to-play-transition/upstream/pause-to-play-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/pause-to-play-transition/src/pause-to-play-transition.svg`
+- Local source: `ui/icons/line-md/pause-to-play-transition/upstream/pause-to-play-transition.svg`

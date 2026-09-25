@@ -7,7 +7,7 @@ Display and manage linked social accounts with the ability to link and unlink pr
 - Category: `data-display` — structural
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/linked-accounts.tsx`
+- Entry point: `upstream/examples/linked-accounts.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ Display and manage linked social accounts with the ability to link and unlink pr
 
 ## Files
 
-- `src/examples/linked-accounts.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/linked-accounts.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/components/settings/security/linked-accounts

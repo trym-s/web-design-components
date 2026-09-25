@@ -1,10 +1,11 @@
-import E0 from "./examples/block-channel-strip-fader-slider";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-fader-slider", title: "Block Channel Strip Fader Slider", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripFaderSlider } from "./block-channel-strip-fader-slider";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [value, setValue] = useState(72);
+  return (
+    <div className="w-full max-w-md">
+      <BlockChannelStripFaderSlider label="Fader" onValueChange={setValue} value={value} />
+    </div>
+  );
 }

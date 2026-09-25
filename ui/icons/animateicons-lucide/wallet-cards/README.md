@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/wallet-cards/src/wallet-cards.tsx`
+- Entry point: `ui/icons/animateicons-lucide/wallet-cards/upstream/wallet-cards.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wallet-cards.json`
 - Registry: https://animateicons.in/r/lu-wallet-cards.json
-- Local source fallback: `ui/icons/animateicons-lucide/wallet-cards/src/wallet-cards.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/wallet-cards/upstream/wallet-cards.tsx`

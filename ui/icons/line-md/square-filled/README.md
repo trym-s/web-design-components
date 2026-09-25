@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/square-filled/src/square-filled.svg`
+- Entry point: `ui/icons/line-md/square-filled/upstream/square-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/square-filled/src/square-filled.svg`
+- Local source: `ui/icons/line-md/square-filled/upstream/square-filled.svg`

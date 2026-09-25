@@ -1,0 +1,25 @@
+/* The glossy neutral material shared by every squircle part, declared on each part's root
+   (`.squircle-material`). Defaults are the upstream values in oklch; override any of them in the
+   target's CSS or with a class such as `[--sq-ink-top:var(--foreground)]`. */
+.squircle-material {
+  --sq-hi: oklch(1 0 0);                    /* highlight: sheens, glints, rims */
+  --sq-lo: oklch(0 0 0);                    /* shade: vignette, occlusion, contact ring */
+  --sq-face-top: oklch(1 0 0);              /* glossy body gradient */
+  --sq-face-mid: oklch(0.967 0.001 286.4);
+  --sq-face-bottom: oklch(0.943 0.001 286.4);
+  --sq-bevel-top: oklch(0.875 0.008 260.7); /* tri-stop bevel border */
+  --sq-bevel-mid: oklch(0.779 0.009 264.5);
+  --sq-bevel-bottom: oklch(0.606 0.01 264.5);
+  --sq-ground: oklch(0.864 0 0);            /* colour-burn grounding shadow */
+  --sq-ink-top: oklch(0.197 0.01 276.5);    /* debossed label ink */
+  --sq-ink-bottom: oklch(0.329 0.011 271.1);
+  --sq-well-top: oklch(0.937 0.003 264.5);  /* segmented-control track */
+  --sq-well-bottom: oklch(0.967 0.002 247.8);
+  --sq-switch-on-top: oklch(0.42 0.009 268.4);
+  --sq-switch-on-bottom: oklch(0.356 0.009 268.4);
+  --sq-switch-off-top: oklch(0.925 0.003 264.5);
+  --sq-switch-off-bottom: oklch(0.954 0.003 228.8);
+  --sq-field-top: oklch(0.973 0.002 247.8); /* recessed input / menu well */
+  --sq-field-bottom: oklch(1 0 0);
+  --sq-field-border: oklch(0.838 0.006 255.5);
+}

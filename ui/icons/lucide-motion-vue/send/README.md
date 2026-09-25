@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/send/src/send.vue`
+- Entry point: `ui/icons/lucide-motion-vue/send/upstream/send.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/send/src/send.vue`
+- Local source: `ui/icons/lucide-motion-vue/send/upstream/send.vue`

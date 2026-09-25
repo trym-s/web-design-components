@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/calendar-cog/src/calendar-cog.vue`
+- Entry point: `ui/icons/lucide-motion-vue/calendar-cog/upstream/calendar-cog.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/calendar-cog/src/calendar-cog.vue`
+- Local source: `ui/icons/lucide-motion-vue/calendar-cog/upstream/calendar-cog.vue`

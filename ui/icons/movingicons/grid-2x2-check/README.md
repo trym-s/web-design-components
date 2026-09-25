@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/grid-2x2-check/src/grid-2x2-check.svelte`
+- Entry point: `ui/icons/movingicons/grid-2x2-check/upstream/grid-2x2-check.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/grid-2x2-check`
 - Registry: https://movingicons.dev/r/grid-2x2-check
-- Local source fallback: `ui/icons/movingicons/grid-2x2-check/src/grid-2x2-check.svelte`
+- Local source fallback: `ui/icons/movingicons/grid-2x2-check/upstream/grid-2x2-check.svelte`

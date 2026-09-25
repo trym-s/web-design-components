@@ -2,7 +2,8 @@ import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import vue from "@vitejs/plugin-vue";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
-import { existsSync, readFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
 /**
@@ -27,11 +28,11 @@ function bankShims(): Plugin {
     [/(^|\/)\.\/use-compact$/, shim("liquid-use-compact.ts")],
     [/(^|\/)\.\/cycle$/, shim("arcade-cycle.ts")],
     [/public\/vault\/ransom\/manifest\.json$/, shim("ransom-manifest.json")],
-    // These two DO exist in the bank — just under a different entry's src tree.
-    [/(^|\/)\.\.\/swirl\/controls$/, bank("effects/ascii-swirl/src/swirl/controls.tsx")],
+    // These two DO exist in the bank — just under a different entry's upstream tree.
+    [/(^|\/)\.\.\/swirl\/controls$/, bank("effects/ascii-swirl/upstream/swirl/controls.tsx")],
     [
       /(^|\/)\.\.\/\.\.\/lib\/video-sources$/,
-      bank("animation/hover-video-button/src/app/lib/video-sources.ts"),
+      bank("animation/hover-video-button/upstream/app/lib/video-sources.ts"),
     ],
   ];
 
@@ -94,6 +95,29 @@ function astryxStylex(): Plugin {
   };
 }
 
+/** `virtual:documented-dirs`: every non-icon entry directory holding a README.md or SOURCE.md. */
+function bankIndex(): Plugin {
+  const ID = "virtual:documented-dirs";
+  const list = () => {
+    const found: string[] = [];
+    const walk = (dir: string, rel: string) => {
+      for (const d of readdirSync(dir, { withFileTypes: true })) {
+        if (!d.isDirectory() || ["_sources", "icons", "node_modules", "upstream", "src", "static", "registry"].includes(d.name)) continue;
+        const path = resolve(dir, d.name);
+        if (existsSync(resolve(path, "README.md")) || existsSync(resolve(path, "SOURCE.md"))) found.push(`${rel}/${d.name}`);
+        walk(path, `${rel}/${d.name}`);
+      }
+    };
+    walk(resolve(__dirname, "ui"), "/ui");
+    return found.sort();
+  };
+  return {
+    name: "bank-index",
+    resolveId: (id) => (id === ID ? `\0${ID}` : null),
+    load: (id) => (id === `\0${ID}` ? `export default ${JSON.stringify(list())};` : null),
+  };
+}
+
 function personalIcons(): Plugin {
   const root = resolve(__dirname, ".cache/icon-bank/personal/react-useanimations/src");
   return {
@@ -111,11 +135,16 @@ function personalIcons(): Plugin {
   };
 }
 
+// Source panes read GitHub Raw at the exact commit being built (CI: GITHUB_SHA). VITE_RAW_ROOT overrides.
+process.env.VITE_RAW_ROOT ??= `https://raw.githubusercontent.com/trym-s/web-design-components/${
+  process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: __dirname, encoding: "utf8" }).trim()
+}/`;
+
 // Root is the repo root so `ui/` is inside the served tree and import.meta.glob
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), newerPeers(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
+  plugins: [bankShims(), newerPeers(), astryxStylex(), bankIndex(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(

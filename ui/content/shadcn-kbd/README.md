@@ -7,7 +7,7 @@ Used to display textual user input from keyboard.
 - Category: `content` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/kbd.tsx`
+- Entry point: `upstream/ui/kbd.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Used to display textual user input from keyboard.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Used to display textual user input from keyboard.
 
 ## Documentation
 
-> Example `kbd-demo` — `src/examples/kbd-demo.tsx`, `static/kbd-demo.html`
+> Example `kbd-demo` — `upstream/examples/kbd-demo.tsx`, `static/kbd-demo.html`
 
 ## Installation
 
@@ -69,31 +69,31 @@ KbdGroup
 
 Use the `KbdGroup` component to group keyboard keys together.
 
-> Example `kbd-group` — `src/examples/kbd-group.tsx`, `static/kbd-group.html`
+> Example `kbd-group` — `upstream/examples/kbd-group.tsx`, `static/kbd-group.html`
 
 ## Button
 
 Use the `Kbd` component inside a `Button` component to display a keyboard key inside a button.
 
-> Example `kbd-button` — `src/examples/kbd-button.tsx`, `static/kbd-button.html`
+> Example `kbd-button` — `upstream/examples/kbd-button.tsx`, `static/kbd-button.html`
 
 ## Tooltip
 
 You can use the `Kbd` component inside a `Tooltip` component to display a tooltip with a keyboard key.
 
-> Example `kbd-tooltip` — `src/examples/kbd-tooltip.tsx`, `static/kbd-tooltip.html`
+> Example `kbd-tooltip` — `upstream/examples/kbd-tooltip.tsx`, `static/kbd-tooltip.html`
 
 ## Input Group
 
 You can use the `Kbd` component inside a `InputGroupAddon` component to display a keyboard key inside an input group.
 
-> Example `kbd-input-group` — `src/examples/kbd-input-group.tsx`, `static/kbd-input-group.html`
+> Example `kbd-input-group` — `upstream/examples/kbd-input-group.tsx`, `static/kbd-input-group.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `kbd-rtl` — `src/examples/kbd-rtl.tsx`, `static/kbd-rtl.html`
+> Example `kbd-rtl` — `upstream/examples/kbd-rtl.tsx`, `static/kbd-rtl.html`
 
 ## API Reference
 
@@ -126,13 +126,13 @@ Use the `KbdGroup` component to group `Kbd` components together.
 
 ## Files
 
-- `src/ui/kbd.tsx` — the ui file as the registry installs it
-- `src/examples/kbd-demo.tsx`
-- `src/examples/kbd-group.tsx`
-- `src/examples/kbd-button.tsx`
-- `src/examples/kbd-tooltip.tsx`
-- `src/examples/kbd-input-group.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/kbd.tsx` — the ui file as the registry installs it
+- `upstream/examples/kbd-demo.tsx`
+- `upstream/examples/kbd-group.tsx`
+- `upstream/examples/kbd-button.tsx`
+- `upstream/examples/kbd-tooltip.tsx`
+- `upstream/examples/kbd-input-group.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/kbd

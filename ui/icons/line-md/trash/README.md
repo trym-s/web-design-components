@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/trash/src/trash.svg`
+- Entry point: `ui/icons/line-md/trash/upstream/trash.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/trash/src/trash.svg`
+- Local source: `ui/icons/line-md/trash/upstream/trash.svg`

@@ -1,10 +1,7 @@
-import E0 from "./examples/block-channel-strip-fader";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-fader", title: "Block Channel Strip Fader", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripFader } from "./block-channel-strip-fader";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [value, setValue] = useState(64);
+  return <BlockChannelStripFader label="Fader" onValueChange={setValue} value={value} />;
 }

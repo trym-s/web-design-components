@@ -7,7 +7,7 @@ Button triggers an action when clicked. Use it for form submissions, confirmatio
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Button.tsx`
+- Entry point: `upstream/Button.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Button triggers an action when clicked. Use it for form submissions, confirmatio
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Button triggers an action when clicked. Use it for form submissions, confirmatio
 
 ## Examples
 
-- `src/examples/ButtonShowcase.tsx` — Button — Variants: All four button variants side by side: primary, secondary, ghost, and destructive. A quick visual reference for choosing the right variant. · static: `static/ButtonShowcase.html`
-- `src/examples/ButtonFloating.tsx` — Button — Floating: A floating action button raised with `elevation="med"`. Use elevation for buttons that hover above content, like a FAB. · static: `static/ButtonFloating.html`
-- `src/examples/ButtonSizeVariants.tsx` — Button — Sizes: Small, medium, and large buttons side by side. Use small in dense UIs like toolbars, medium for most cases, and large for prominent CTAs. · static: `static/ButtonSizeVariants.html`
-- `src/examples/ButtonVariants.tsx` — Button — Variants: All 4 button variants in default, disabled, and loading states. Use primary for the main action, secondary for most others, ghost for low-emphasis, and destructive for dangerous actions. · static: `static/ButtonVariants.html`
-- `src/examples/ButtonWithEndSlot.tsx` — Button — End Slot: Buttons with a trailing badge showing a count or status. Use for notification counts, unread messages, or any button that needs a visual indicator. · static: `static/ButtonWithEndSlot.html`
-- `src/examples/ButtonWithIcon.tsx` — Button — Icon: Buttons with a leading icon that reinforces the label. Use when the icon helps the user identify the action faster, like a plus for "New" or a trash can for "Delete". · static: `static/ButtonWithIcon.html`
+- `upstream/examples/ButtonShowcase.tsx` — Button — Variants: All four button variants side by side: primary, secondary, ghost, and destructive. A quick visual reference for choosing the right variant. · static: `static/ButtonShowcase.html`
+- `upstream/examples/ButtonFloating.tsx` — Button — Floating: A floating action button raised with `elevation="med"`. Use elevation for buttons that hover above content, like a FAB. · static: `static/ButtonFloating.html`
+- `upstream/examples/ButtonSizeVariants.tsx` — Button — Sizes: Small, medium, and large buttons side by side. Use small in dense UIs like toolbars, medium for most cases, and large for prominent CTAs. · static: `static/ButtonSizeVariants.html`
+- `upstream/examples/ButtonVariants.tsx` — Button — Variants: All 4 button variants in default, disabled, and loading states. Use primary for the main action, secondary for most others, ghost for low-emphasis, and destructive for dangerous actions. · static: `static/ButtonVariants.html`
+- `upstream/examples/ButtonWithEndSlot.tsx` — Button — End Slot: Buttons with a trailing badge showing a count or status. Use for notification counts, unread messages, or any button that needs a visual indicator. · static: `static/ButtonWithEndSlot.html`
+- `upstream/examples/ButtonWithIcon.tsx` — Button — Icon: Buttons with a leading icon that reinforces the label. Use when the icon helps the user identify the action faster, like a plus for "New" or a trash can for "Delete". · static: `static/ButtonWithIcon.html`
 
 ## Documentation
 
@@ -166,9 +166,9 @@ Styling hook class: `.astryx-button`
 
 ## Files
 
-- `src/Button.doc.mjs`
-- `src/Button.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Button.doc.mjs`
+- `upstream/Button.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Button

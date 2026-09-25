@@ -192,7 +192,7 @@ export function BetterAuthFrame({ examples, bare = false }: { examples: Example[
 }
 `;
 
-const sources = (flavour) => `@source "./app/**/*.{ts,tsx}";\n@source "../../**/${PREFIX[flavour]}*/src/**/*.{ts,tsx}";\n`;
+const sources = (flavour) => `@source "./app/**/*.{ts,tsx}";\n@source "../../**/${PREFIX[flavour]}*/{src,upstream}/**/*.{ts,tsx}";\n`;
 const shadcnCss = readFileSync(join(DSRC, "styles/shadcn.css"), "utf8")
   // app.css is the docs chrome (fumadocs); the demos need only the tokens below it.
   .replace(/^@import "\.\/app\.css";\n/m, "")
@@ -252,7 +252,7 @@ const agentUse = (flavour) => flavour === "shadcn"
   : `## How an agent uses this reference
 
 - **React + HeroUI target** — \`npm i @better-auth-ui/heroui@${VERSION} @heroui/react @heroui/styles\` and render the
-  same component inside its \`AuthProvider\`; \`src/examples/\` shows the exact usage.
+  same component inside its \`AuthProvider\`; \`upstream/examples/\` shows the exact usage.
 - **Any other stack** — open \`static/<example>.html\`: the rendered DOM; every class resolves through
   \`ui/_sources/better-auth-ui/heroui.css\` (HeroUI's styles plus Tailwind utilities).
 - The demo data comes from the docs' mock client (\`ui/_sources/better-auth-ui/app/lib/auth-client.tsx\`), not a server.
@@ -266,7 +266,7 @@ for (const demo of demos) {
   const category = categoryOf(demo);
   const nature = NATURE[category];
   const dir = join(UI, category, `${PREFIX[demo.flavour]}${demo.slug}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   const id = `${category}/${PREFIX[demo.flavour]}${demo.slug}`;
   const email = category === "content";
   const title = page?.title?.replace(/^<(.+) \/>$/, "$1") ?? titleize(demo.slug);
@@ -278,7 +278,7 @@ for (const demo of demos) {
   if (email) {
     // The docs demo renders the template once, at module load, and shows it in an iframe.
     const { srcDoc, className } = await renderEmail(demo);
-    const images = new Map(); // path as written in static/ → path from src/
+    const images = new Map(); // path as written in static/ → path from upstream/
     const html = srcDoc.replace(/(["'(])\/(favicon[^"')\s]*\.png)/g, (all, q, p) => {
       if (!existsSync(join(DOCS, "public", p))) return all;
       cpSync(join(DOCS, "public", p), join(OUT, "public", p));
@@ -313,7 +313,7 @@ export default function Demo() {
 }
 `);
   }
-  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   const css = `_sources/better-auth-ui/${email ? "none" : `${demo.flavour}.css`}`;
   write(join(dir, "README.md"), `# ${title}${demo.flavour === "heroui" ? " (HeroUI)" : ""}
 
@@ -324,7 +324,7 @@ ${md(description)}
 - Category: \`${category}\` — ${nature}
 - Medium: ${email ? "HTML email (React Email template, rendered)" : `React + TypeScript + ${demo.flavour === "shadcn" ? "shadcn/ui (Tailwind CSS v4, radix-ui)" : "HeroUI v3 (Tailwind CSS v4)"}`}; static HTML
 - Framework: react
-- Entry point: \`src/examples/${basename(demo.file)}\`
+- Entry point: \`upstream/examples/${basename(demo.file)}\`
 - Nature: ${nature}; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: ${ADDED}
 - Curation: pending
@@ -337,12 +337,12 @@ ${email ? "" : `- Local source fallback: \`ui/_sources/better-auth-ui/app/\`\n`}
 ${email ? `## How an agent uses this reference
 
 - **Any stack** — \`static/${demo.slug}.html\` is the finished email (table layout, inline styles).
-- **React** — render the template from \`@better-auth-ui/${demo.flavour === "shadcn" ? "react" : "heroui"}/email\` with \`@react-email/render\`; \`src/examples/\` has the props.
+- **React** — render the template from \`@better-auth-ui/${demo.flavour === "shadcn" ? "react" : "heroui"}/email\` with \`@react-email/render\`; \`upstream/examples/\` has the props.
 ` : agentUse(demo.flavour)}
 ## Files
 
-- \`src/examples/${basename(demo.file)}\` — the docs demo${email ? "" : ", imports pointed at the snapshot"}
-- \`src/demo.tsx\` — bank harness
+- \`upstream/examples/${basename(demo.file)}\` — the docs demo${email ? "" : ", imports pointed at the snapshot"}
+- \`upstream/demo.tsx\` — bank harness
 - \`reference.tsx\` — dashboard entry point
 ${email ? `- \`static/${demo.slug}.html\` — the rendered email\n` : ""}
 Upstream page: ${page?.url ?? SITE}

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/bookmark/src/bookmark.tsx`
+- Entry point: `ui/icons/animateicons-lucide/bookmark/upstream/bookmark.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark.json`
 - Registry: https://animateicons.in/r/lu-bookmark.json
-- Local source fallback: `ui/icons/animateicons-lucide/bookmark/src/bookmark.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/bookmark/upstream/bookmark.tsx`

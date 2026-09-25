@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-round-dots-filled/src/chat-round-dots-filled.svg`
+- Entry point: `ui/icons/line-md/chat-round-dots-filled/upstream/chat-round-dots-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-round-dots-filled/src/chat-round-dots-filled.svg`
+- Local source: `ui/icons/line-md/chat-round-dots-filled/upstream/chat-round-dots-filled.svg`

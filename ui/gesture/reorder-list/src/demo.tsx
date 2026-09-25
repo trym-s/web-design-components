@@ -12,7 +12,7 @@ const SETLIST: Track[] = [
   { id: "d", title: "Open questions", length: "10 min" },
 ];
 
-export function ReorderListDemo() {
+export default function ReorderListDemo() {
   const [agenda, setAgenda] = useState(SETLIST);
 
   return (
@@ -27,10 +27,10 @@ export function ReorderListDemo() {
       >
         {(t) => (
           <div className="flex items-baseline justify-between gap-3">
-            <p className="truncate text-[13px] font-medium text-stone-700 dark:text-stone-200">
+            <p className="truncate text-[13px] font-medium text-foreground">
               {t.title}
             </p>
-            <p className="shrink-0 font-mono text-[10.5px] tabular-nums text-stone-500 dark:text-stone-400">
+            <p className="shrink-0 font-mono text-[10.5px] tabular-nums text-muted-foreground">
               {t.length}
             </p>
           </div>

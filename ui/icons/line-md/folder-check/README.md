@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-check/src/folder-check.svg`
+- Entry point: `ui/icons/line-md/folder-check/upstream/folder-check.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-check/src/folder-check.svg`
+- Local source: `ui/icons/line-md/folder-check/upstream/folder-check.svg`

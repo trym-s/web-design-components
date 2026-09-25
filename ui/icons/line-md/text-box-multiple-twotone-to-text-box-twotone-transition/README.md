@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/text-box-multiple-twotone-to-text-box-twotone-transition/src/text-box-multiple-twotone-to-text-box-twotone-transition.svg`
+- Entry point: `ui/icons/line-md/text-box-multiple-twotone-to-text-box-twotone-transition/upstream/text-box-multiple-twotone-to-text-box-twotone-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/text-box-multiple-twotone-to-text-box-twotone-transition/src/text-box-multiple-twotone-to-text-box-twotone-transition.svg`
+- Local source: `ui/icons/line-md/text-box-multiple-twotone-to-text-box-twotone-transition/upstream/text-box-multiple-twotone-to-text-box-twotone-transition.svg`

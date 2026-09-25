@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chevron-small-double-left/src/chevron-small-double-left.svg`
+- Entry point: `ui/icons/line-md/chevron-small-double-left/upstream/chevron-small-double-left.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chevron-small-double-left/src/chevron-small-double-left.svg`
+- Local source: `ui/icons/line-md/chevron-small-double-left/upstream/chevron-small-double-left.svg`

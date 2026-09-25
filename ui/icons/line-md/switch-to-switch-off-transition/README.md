@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/switch-to-switch-off-transition/src/switch-to-switch-off-transition.svg`
+- Entry point: `ui/icons/line-md/switch-to-switch-off-transition/upstream/switch-to-switch-off-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/switch-to-switch-off-transition/src/switch-to-switch-off-transition.svg`
+- Local source: `ui/icons/line-md/switch-to-switch-off-transition/upstream/switch-to-switch-off-transition.svg`

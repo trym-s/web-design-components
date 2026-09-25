@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/currency-bangladeshi/src/currency-bangladeshi.tsx`
+- Entry point: `ui/icons/heroicons-animated/currency-bangladeshi/upstream/currency-bangladeshi.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/currency-bangladeshi`
 - Registry: https://www.heroicons-animated.com/r/currency-bangladeshi.json
-- Local source fallback: `ui/icons/heroicons-animated/currency-bangladeshi/src/currency-bangladeshi.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/currency-bangladeshi/upstream/currency-bangladeshi.tsx`

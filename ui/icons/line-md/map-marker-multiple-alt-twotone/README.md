@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/map-marker-multiple-alt-twotone/src/map-marker-multiple-alt-twotone.svg`
+- Entry point: `ui/icons/line-md/map-marker-multiple-alt-twotone/upstream/map-marker-multiple-alt-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/map-marker-multiple-alt-twotone/src/map-marker-multiple-alt-twotone.svg`
+- Local source: `ui/icons/line-md/map-marker-multiple-alt-twotone/upstream/map-marker-multiple-alt-twotone.svg`

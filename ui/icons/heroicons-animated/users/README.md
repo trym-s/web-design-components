@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/users/src/users.tsx`
+- Entry point: `ui/icons/heroicons-animated/users/upstream/users.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/users`
 - Registry: https://www.heroicons-animated.com/r/users.json
-- Local source fallback: `ui/icons/heroicons-animated/users/src/users.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/users/upstream/users.tsx`

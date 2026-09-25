@@ -1,10 +1,20 @@
-import E0 from "./examples/transport-demo";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
+import { useState } from "react";
+import { Transport } from "./transport";
 
-const examples = [
-  { name: "transport-demo", title: "Transport", component: E0 },
-];
+
+function TransportDemo() {
+  const [value, setValue] = useState(42);
+
+  return (
+    <Transport
+      aria-label="Playback position"
+      bufferedValue={78}
+      onSeek={setValue}
+      value={value}
+    />
+  );
+}
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  return <TransportDemo />;
 }

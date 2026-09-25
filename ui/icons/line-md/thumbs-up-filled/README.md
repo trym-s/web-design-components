@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/thumbs-up-filled/src/thumbs-up-filled.svg`
+- Entry point: `ui/icons/line-md/thumbs-up-filled/upstream/thumbs-up-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/thumbs-up-filled/src/thumbs-up-filled.svg`
+- Local source: `ui/icons/line-md/thumbs-up-filled/upstream/thumbs-up-filled.svg`

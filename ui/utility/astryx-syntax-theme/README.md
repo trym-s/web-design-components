@@ -7,7 +7,7 @@ Applies syntax highlighting colors to CodeBlock and any code component in the su
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/syntax/SyntaxTheme.tsx`
+- Entry point: `upstream/syntax/SyntaxTheme.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -21,7 +21,7 @@ Applies syntax highlighting colors to CodeBlock and any code component in the su
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -32,9 +32,9 @@ Applies syntax highlighting colors to CodeBlock and any code component in the su
 
 ## Examples
 
-- `src/examples/SyntaxThemeShowcase.tsx` — SyntaxTheme — Compact Preset: A concise code block rendered with the One Dark Pro syntax preset to show how SyntaxTheme changes highlighting colors without making the page long. · static: `static/SyntaxThemeShowcase.html`
-- `src/examples/SyntaxThemeDarkPreset.tsx` — SyntaxTheme — Dark Preset: Wrap a code block in SyntaxTheme to apply a dark syntax preset such as Dracula. · static: `static/SyntaxThemeDarkPreset.html`
-- `src/examples/SyntaxThemeLightPreset.tsx` — SyntaxTheme — Light Preset: Use a light syntax preset for code examples that need to sit on light documentation surfaces. · static: `static/SyntaxThemeLightPreset.html`
+- `upstream/examples/SyntaxThemeShowcase.tsx` — SyntaxTheme — Compact Preset: A concise code block rendered with the One Dark Pro syntax preset to show how SyntaxTheme changes highlighting colors without making the page long. · static: `static/SyntaxThemeShowcase.html`
+- `upstream/examples/SyntaxThemeDarkPreset.tsx` — SyntaxTheme — Dark Preset: Wrap a code block in SyntaxTheme to apply a dark syntax preset such as Dracula. · static: `static/SyntaxThemeDarkPreset.html`
+- `upstream/examples/SyntaxThemeLightPreset.tsx` — SyntaxTheme — Light Preset: Use a light syntax preset for code examples that need to sit on light documentation surfaces. · static: `static/SyntaxThemeLightPreset.html`
 
 ## Documentation
 
@@ -61,9 +61,9 @@ Applies syntax highlighting colors to CodeBlock and any code component in the su
 
 ## Files
 
-- `src/SyntaxTheme.doc.mjs`
-- `src/syntax/SyntaxTheme.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/SyntaxTheme.doc.mjs`
+- `upstream/syntax/SyntaxTheme.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/SyntaxTheme

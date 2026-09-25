@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/key-square/src/key-square.svelte`
+- Entry point: `ui/icons/movingicons/key-square/upstream/key-square.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/key-square`
 - Registry: https://movingicons.dev/r/key-square
-- Local source fallback: `ui/icons/movingicons/key-square/src/key-square.svelte`
+- Local source fallback: `ui/icons/movingicons/key-square/upstream/key-square.svelte`

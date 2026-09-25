@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/contrast/src/contrast.tsx`
+- Entry point: `ui/icons/lucide-animated/contrast/upstream/contrast.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/contrast.json`
 - Registry: https://lucide-animated.com/r/contrast.json
-- Local source fallback: `ui/icons/lucide-animated/contrast/src/contrast.tsx`
+- Local source fallback: `ui/icons/lucide-animated/contrast/upstream/contrast.tsx`

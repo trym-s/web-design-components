@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-arrow-out-up-left/src/square-arrow-out-up-left.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-arrow-out-up-left/upstream/square-arrow-out-up-left.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-arrow-out-up-left/src/square-arrow-out-up-left.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-arrow-out-up-left/upstream/square-arrow-out-up-left.vue`

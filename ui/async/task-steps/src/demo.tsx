@@ -10,7 +10,7 @@ const STEPS = [
   { id: "deploy", label: "Deploying", meta: "5.0s" },
 ];
 
-export function TaskStepsDemo() {
+export default function TaskStepsDemo() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

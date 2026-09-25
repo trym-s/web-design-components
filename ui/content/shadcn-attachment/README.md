@@ -7,7 +7,7 @@ Displays a file or image attachment with media, metadata, upload state, and acti
 - Category: `content` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/attachment.tsx`
+- Entry point: `upstream/ui/attachment.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a file or image attachment with media, metadata, upload state, and acti
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a file or image attachment with media, metadata, upload state, and acti
 
 ## Documentation
 
-> Example `attachment-demo` (radix-rhea) — `src/examples/attachment-demo.tsx`, `static/attachment-demo.html`
+> Example `attachment-demo` (radix-rhea) — `upstream/examples/attachment-demo.tsx`, `static/attachment-demo.html`
 
 The `Attachment` component displays a file or image attachment, its media, name, and metadata, with optional actions and upload state. Use it for files and images in chat composers, message threads, and upload lists.
 
@@ -119,31 +119,31 @@ AttachmentGroup
 
 Set `variant="image"` on `AttachmentMedia` and render an `<img>` inside it. Use `orientation="vertical"` to stack the media above the content.
 
-> Example `attachment-image` (radix-rhea) — `src/examples/attachment-image.tsx`, `static/attachment-image.html`
+> Example `attachment-image` (radix-rhea) — `upstream/examples/attachment-image.tsx`, `static/attachment-image.html`
 
 ## States
 
 Set `state` to reflect the upload lifecycle. `uploading` and `processing` shimmer the title, and `error` switches to a destructive treatment.
 
-> Example `attachment-states` (radix-rhea) — `src/examples/attachment-states.tsx`, `static/attachment-states.html`
+> Example `attachment-states` (radix-rhea) — `upstream/examples/attachment-states.tsx`, `static/attachment-states.html`
 
 ## Sizes
 
 Use `size` to switch between `default`, `sm`, and `xs`.
 
-> Example `attachment-sizes` (radix-rhea) — `src/examples/attachment-sizes.tsx`, `static/attachment-sizes.html`
+> Example `attachment-sizes` (radix-rhea) — `upstream/examples/attachment-sizes.tsx`, `static/attachment-sizes.html`
 
 ## Group
 
 Wrap attachments in `AttachmentGroup` to lay them out in a horizontally scrollable, snapping row with an edge fade.
 
-> Example `attachment-group` (radix-rhea) — `src/examples/attachment-group.tsx`, `static/attachment-group.html`
+> Example `attachment-group` (radix-rhea) — `upstream/examples/attachment-group.tsx`, `static/attachment-group.html`
 
 ## Trigger
 
 Add an `AttachmentTrigger` to make the whole card open a link or dialog. It fills the card behind the actions, so the actions stay clickable.
 
-> Example `attachment-trigger` (radix-rhea) — `src/examples/attachment-trigger.tsx`, `static/attachment-trigger.html`
+> Example `attachment-trigger` (radix-rhea) — `upstream/examples/attachment-trigger.tsx`, `static/attachment-trigger.html`
 
 ```tsx showLineNumbers
 <Dialog>
@@ -278,14 +278,14 @@ Lays out attachments in a horizontally scrollable, snapping row.
 
 ## Files
 
-- `src/ui/attachment.tsx` — the ui file as the registry installs it
-- `src/examples/attachment-demo.tsx`
-- `src/examples/attachment-image.tsx`
-- `src/examples/attachment-states.tsx`
-- `src/examples/attachment-sizes.tsx`
-- `src/examples/attachment-group.tsx`
-- `src/examples/attachment-trigger.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/attachment.tsx` — the ui file as the registry installs it
+- `upstream/examples/attachment-demo.tsx`
+- `upstream/examples/attachment-image.tsx`
+- `upstream/examples/attachment-states.tsx`
+- `upstream/examples/attachment-sizes.tsx`
+- `upstream/examples/attachment-group.tsx`
+- `upstream/examples/attachment-trigger.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/attachment

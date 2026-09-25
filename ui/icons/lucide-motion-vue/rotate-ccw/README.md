@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/rotate-ccw/src/rotate-ccw.vue`
+- Entry point: `ui/icons/lucide-motion-vue/rotate-ccw/upstream/rotate-ccw.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/rotate-ccw/src/rotate-ccw.vue`
+- Local source: `ui/icons/lucide-motion-vue/rotate-ccw/upstream/rotate-ccw.vue`

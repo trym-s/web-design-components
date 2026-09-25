@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/log-out/src/log-out.svelte`
+- Entry point: `ui/icons/movingicons/log-out/upstream/log-out.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/log-out`
 - Registry: https://movingicons.dev/r/log-out
-- Local source fallback: `ui/icons/movingicons/log-out/src/log-out.svelte`
+- Local source fallback: `ui/icons/movingicons/log-out/upstream/log-out.svelte`

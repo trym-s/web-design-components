@@ -1,5 +1,3 @@
-"use client";
-
 import { Accordion } from "./accordion";
 
 const SIZES = [
@@ -31,7 +29,7 @@ const items = [
     content: (
       <p>
         Send anything back unworn within 30 days.{" "}
-        <a href="#returns" className="text-ink underline underline-offset-2">
+        <a href="#returns" className="text-foreground underline underline-offset-2">
           Read the full policy
         </a>
       </p>
@@ -51,7 +49,7 @@ const items = [
   },
 ];
 
-export function AccordionDemo() {
+export default function AccordionDemo() {
   return (
     <div className="mx-auto flex h-[248px] w-full max-w-[440px] items-start">
       <Accordion

@@ -1,10 +1,8 @@
-import E0 from "./examples/block-channel-strip-xypad-reverb";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-xypad-reverb", title: "Block Channel Strip Xypad Reverb", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripXypadReverb } from "./block-channel-strip-xypad-reverb";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [morph, setMorph] = useState({ x: 60, y: 20 });
+  const [wet, setWet] = useState(60);
+  return <BlockChannelStripXypadReverb morph={morph} onMorphChange={setMorph} onWetChange={setWet} wet={wet} />;
 }

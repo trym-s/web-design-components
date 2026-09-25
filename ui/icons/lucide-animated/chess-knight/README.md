@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/chess-knight/src/chess-knight.tsx`
+- Entry point: `ui/icons/lucide-animated/chess-knight/upstream/chess-knight.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-knight.json`
 - Registry: https://lucide-animated.com/r/chess-knight.json
-- Local source fallback: `ui/icons/lucide-animated/chess-knight/src/chess-knight.tsx`
+- Local source fallback: `ui/icons/lucide-animated/chess-knight/upstream/chess-knight.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/layers/src/layers.vue`
+- Entry point: `ui/icons/lucide-motion-vue/layers/upstream/layers.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/layers/src/layers.vue`
+- Local source: `ui/icons/lucide-motion-vue/layers/upstream/layers.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/panel-left-open/src/panel-left-open.vue`
+- Entry point: `ui/icons/lucide-motion-vue/panel-left-open/upstream/panel-left-open.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/panel-left-open/src/panel-left-open.vue`
+- Local source: `ui/icons/lucide-motion-vue/panel-left-open/upstream/panel-left-open.vue`

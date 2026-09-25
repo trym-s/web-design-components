@@ -1,0 +1,45 @@
+/**
+ * Vendored from @audio-ui/react 0.1.2 — https://github.com/ouestlabs/audio-ui/blob/aeba2d5efaa0ffbc21e334bac0817cc3060289ef/packages/ui/src/primitives/internal/data-attributes.ts
+ * MIT License, Copyright (c) 2025 Ouest Labs (full text: ./LICENSE).
+ * Changes: `@audio-ui/utils` imports point at ./utils.
+ */
+export function getDataAttributes(
+  component: string,
+  options: {
+    part?: string;
+    orientation?: "horizontal" | "vertical";
+    disabled?: boolean;
+    [key: string]: string | boolean | undefined;
+  } = {}
+): Record<string, string | undefined> {
+  const attrs: Record<string, string | undefined> = {};
+
+  if (options.part) {
+    attrs[`data-${options.part}`] = "";
+  } else {
+    attrs[`data-${component}`] = "";
+  }
+
+  if (options.orientation) {
+    attrs["data-orientation"] = options.orientation;
+  }
+
+  if (options.disabled) {
+    attrs["data-disabled"] = "true";
+  }
+
+  for (const key of Object.keys(options)) {
+    if (
+      key !== "part" &&
+      key !== "orientation" &&
+      key !== "disabled" &&
+      options[key] !== undefined
+    ) {
+      const value = options[key];
+      attrs[`data-${key}`] =
+        typeof value === "boolean" ? String(value) : String(value);
+    }
+  }
+
+  return attrs;
+}

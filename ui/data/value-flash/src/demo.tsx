@@ -8,7 +8,7 @@ const STEPS = [-120, -17, +25, +140] as const;
 const label = (step: number) =>
   `${step > 0 ? "+" : "−"}${Math.abs(step).toLocaleString("en-US")}`;
 
-export function ValueFlashDemo() {
+export default function ValueFlashDemo() {
   const [value, setValue] = useState(1284);
 
   return (
@@ -27,7 +27,7 @@ export function ValueFlashDemo() {
             onClick={() =>
               setValue((v) => Math.min(9600, Math.max(1002, v + step)))
             }
-            className="mat-cap press h-8 rounded-[6px] px-2.5 text-[12px] font-medium tabular-nums text-ink-2 transition-colors duration-150 hover:text-ink"
+            className="border bg-card shadow-xs transition-[transform,background-color,color] duration-150 active:translate-y-px h-8 rounded-[calc(var(--radius)-4px)] px-2.5 text-[12px] font-medium tabular-nums text-muted-foreground hover:text-foreground"
           >
             {label(step)}
           </button>

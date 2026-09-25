@@ -2,7 +2,7 @@
 
 import { HoldToConfirm } from "./hold-to-confirm";
 
-export function HoldToConfirmDemo() {
+export default function HoldToConfirmDemo() {
   return (
     <div className="flex justify-center">
       <HoldToConfirm

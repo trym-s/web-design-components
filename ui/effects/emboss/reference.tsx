@@ -2,7 +2,7 @@
 
 "use client";
 
-import { EmbossPlayground_ } from "./src/emboss/playground";
+import { EmbossPlayground_ } from "./upstream/emboss/playground";
 
 export default function Reference() {
   return <EmbossPlayground_ />;

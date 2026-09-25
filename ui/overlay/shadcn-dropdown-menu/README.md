@@ -7,7 +7,7 @@ Displays a menu to the user — such as a set of actions or functions — trigge
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/dropdown-menu.tsx`
+- Entry point: `upstream/ui/dropdown-menu.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a menu to the user — such as a set of actions or functions — trigge
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a menu to the user — such as a set of actions or functions — trigge
 
 ## Documentation
 
-> Example `dropdown-menu-demo` — `src/examples/dropdown-menu-demo.tsx`, `static/dropdown-menu-demo.html`
+> Example `dropdown-menu-demo` — `upstream/examples/dropdown-menu-demo.tsx`, `static/dropdown-menu-demo.html`
 
 ## Installation
 
@@ -121,73 +121,73 @@ DropdownMenu
 
 A basic dropdown menu with labels and separators.
 
-> Example `dropdown-menu-basic` — `src/examples/dropdown-menu-basic.tsx`, `static/dropdown-menu-basic.html`
+> Example `dropdown-menu-basic` — `upstream/examples/dropdown-menu-basic.tsx`, `static/dropdown-menu-basic.html`
 
 ## Submenu
 
 Use `DropdownMenuSub` to nest secondary actions.
 
-> Example `dropdown-menu-submenu` — `src/examples/dropdown-menu-submenu.tsx`, `static/dropdown-menu-submenu.html`
+> Example `dropdown-menu-submenu` — `upstream/examples/dropdown-menu-submenu.tsx`, `static/dropdown-menu-submenu.html`
 
 ## Shortcuts
 
 Add `DropdownMenuShortcut` to show keyboard hints.
 
-> Example `dropdown-menu-shortcuts` — `src/examples/dropdown-menu-shortcuts.tsx`, `static/dropdown-menu-shortcuts.html`
+> Example `dropdown-menu-shortcuts` — `upstream/examples/dropdown-menu-shortcuts.tsx`, `static/dropdown-menu-shortcuts.html`
 
 ## Icons
 
 Combine icons with labels for quick scanning.
 
-> Example `dropdown-menu-icons` — `src/examples/dropdown-menu-icons.tsx`, `static/dropdown-menu-icons.html`
+> Example `dropdown-menu-icons` — `upstream/examples/dropdown-menu-icons.tsx`, `static/dropdown-menu-icons.html`
 
 ## Checkboxes
 
 Use `DropdownMenuCheckboxItem` for toggles.
 
-> Example `dropdown-menu-checkboxes` — `src/examples/dropdown-menu-checkboxes.tsx`, `static/dropdown-menu-checkboxes.html`
+> Example `dropdown-menu-checkboxes` — `upstream/examples/dropdown-menu-checkboxes.tsx`, `static/dropdown-menu-checkboxes.html`
 
 ## Checkboxes Icons
 
 Add icons to checkbox items.
 
-> Example `dropdown-menu-checkboxes-icons` — `src/examples/dropdown-menu-checkboxes-icons.tsx`, `static/dropdown-menu-checkboxes-icons.html`
+> Example `dropdown-menu-checkboxes-icons` — `upstream/examples/dropdown-menu-checkboxes-icons.tsx`, `static/dropdown-menu-checkboxes-icons.html`
 
 ## Radio Group
 
 Use `DropdownMenuRadioGroup` for exclusive choices.
 
-> Example `dropdown-menu-radio-group` — `src/examples/dropdown-menu-radio-group.tsx`, `static/dropdown-menu-radio-group.html`
+> Example `dropdown-menu-radio-group` — `upstream/examples/dropdown-menu-radio-group.tsx`, `static/dropdown-menu-radio-group.html`
 
 ## Radio Icons
 
 Show radio options with icons.
 
-> Example `dropdown-menu-radio-icons` — `src/examples/dropdown-menu-radio-icons.tsx`, `static/dropdown-menu-radio-icons.html`
+> Example `dropdown-menu-radio-icons` — `upstream/examples/dropdown-menu-radio-icons.tsx`, `static/dropdown-menu-radio-icons.html`
 
 ## Destructive
 
 Use `variant="destructive"` for irreversible actions.
 
-> Example `dropdown-menu-destructive` — `src/examples/dropdown-menu-destructive.tsx`, `static/dropdown-menu-destructive.html`
+> Example `dropdown-menu-destructive` — `upstream/examples/dropdown-menu-destructive.tsx`, `static/dropdown-menu-destructive.html`
 
 ## Avatar
 
 An account switcher dropdown triggered by an avatar.
 
-> Example `dropdown-menu-avatar` — `src/examples/dropdown-menu-avatar.tsx`, `static/dropdown-menu-avatar.html`
+> Example `dropdown-menu-avatar` — `upstream/examples/dropdown-menu-avatar.tsx`, `static/dropdown-menu-avatar.html`
 
 ## Complex
 
 A richer example combining groups, icons, and submenus.
 
-> Example `dropdown-menu-complex` — `src/examples/dropdown-menu-complex.tsx`, `static/dropdown-menu-complex.html`
+> Example `dropdown-menu-complex` — `upstream/examples/dropdown-menu-complex.tsx`, `static/dropdown-menu-complex.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `dropdown-menu-rtl` — `src/examples/dropdown-menu-rtl.tsx`, `static/dropdown-menu-rtl.html`
+> Example `dropdown-menu-rtl` — `upstream/examples/dropdown-menu-rtl.tsx`, `static/dropdown-menu-rtl.html`
 
 ## API Reference
 
@@ -195,20 +195,20 @@ See the [Radix UI documentation](https://www.radix-ui.com/docs/primitives/compon
 
 ## Files
 
-- `src/ui/dropdown-menu.tsx` — the ui file as the registry installs it
-- `src/examples/dropdown-menu-demo.tsx`
-- `src/examples/dropdown-menu-basic.tsx`
-- `src/examples/dropdown-menu-submenu.tsx`
-- `src/examples/dropdown-menu-shortcuts.tsx`
-- `src/examples/dropdown-menu-icons.tsx`
-- `src/examples/dropdown-menu-checkboxes.tsx`
-- `src/examples/dropdown-menu-checkboxes-icons.tsx`
-- `src/examples/dropdown-menu-radio-group.tsx`
-- `src/examples/dropdown-menu-radio-icons.tsx`
-- `src/examples/dropdown-menu-destructive.tsx`
-- `src/examples/dropdown-menu-avatar.tsx`
-- `src/examples/dropdown-menu-complex.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/dropdown-menu.tsx` — the ui file as the registry installs it
+- `upstream/examples/dropdown-menu-demo.tsx`
+- `upstream/examples/dropdown-menu-basic.tsx`
+- `upstream/examples/dropdown-menu-submenu.tsx`
+- `upstream/examples/dropdown-menu-shortcuts.tsx`
+- `upstream/examples/dropdown-menu-icons.tsx`
+- `upstream/examples/dropdown-menu-checkboxes.tsx`
+- `upstream/examples/dropdown-menu-checkboxes-icons.tsx`
+- `upstream/examples/dropdown-menu-radio-group.tsx`
+- `upstream/examples/dropdown-menu-radio-icons.tsx`
+- `upstream/examples/dropdown-menu-destructive.tsx`
+- `upstream/examples/dropdown-menu-avatar.tsx`
+- `upstream/examples/dropdown-menu-complex.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/dropdown-menu

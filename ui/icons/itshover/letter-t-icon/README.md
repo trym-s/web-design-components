@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/letter-t-icon/src/letter-t-icon.tsx`
+- Entry point: `ui/icons/itshover/letter-t-icon/upstream/letter-t-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/letter-t-icon.json`
 - Registry: https://itshover.com/r/letter-t-icon.json
-- Local source fallback: `ui/icons/itshover/letter-t-icon/src/letter-t-icon.tsx`
+- Local source fallback: `ui/icons/itshover/letter-t-icon/upstream/letter-t-icon.tsx`

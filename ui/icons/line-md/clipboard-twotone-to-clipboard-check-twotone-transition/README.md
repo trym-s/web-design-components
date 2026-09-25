@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/clipboard-twotone-to-clipboard-check-twotone-transition/src/clipboard-twotone-to-clipboard-check-twotone-transition.svg`
+- Entry point: `ui/icons/line-md/clipboard-twotone-to-clipboard-check-twotone-transition/upstream/clipboard-twotone-to-clipboard-check-twotone-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/clipboard-twotone-to-clipboard-check-twotone-transition/src/clipboard-twotone-to-clipboard-check-twotone-transition.svg`
+- Local source: `ui/icons/line-md/clipboard-twotone-to-clipboard-check-twotone-transition/upstream/clipboard-twotone-to-clipboard-check-twotone-transition.svg`

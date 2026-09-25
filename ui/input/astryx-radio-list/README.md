@@ -7,7 +7,7 @@ A group of options where only one can be selected at a time. All options are vis
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/RadioList.tsx`
+- Entry point: `upstream/RadioList.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A group of options where only one can be selected at a time. All options are vis
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ A group of options where only one can be selected at a time. All options are vis
 
 ## Examples
 
-- `src/examples/RadioListItemShowcase.tsx` — Radio List Item: Radio list items with labels, descriptions, and different states including disabled. · static: `static/RadioListItemShowcase.html`
-- `src/examples/RadioListShowcase.tsx` — Radio List · static: `static/RadioListShowcase.html`
-- `src/examples/RadioListHorizontalLayout.tsx` — RadioList — Horizontal Layout: Radio list with horizontal orientation for compact selections. · static: `static/RadioListHorizontalLayout.html`
-- `src/examples/RadioListItemBasic.tsx` — RadioListItem — Basic: Radio items with labels and descriptions inside a controlled RadioList. Use for single-choice option groups like shipping methods. · static: `static/RadioListItemBasic.html`
-- `src/examples/RadioListPricingTier.tsx` — RadioList — Pricing Tier: Radio list with pricing info in end content for plan selection. · static: `static/RadioListPricingTier.html`
-- `src/examples/RadioListWithDescriptions.tsx` — RadioList — With Descriptions: Radio list with descriptions on the group and each item. · static: `static/RadioListWithDescriptions.html`
-- `src/examples/RadioListWithValidation.tsx` — RadioList — With Validation: Required radio list with an error message when nothing is selected. · static: `static/RadioListWithValidation.html`
+- `upstream/examples/RadioListItemShowcase.tsx` — Radio List Item: Radio list items with labels, descriptions, and different states including disabled. · static: `static/RadioListItemShowcase.html`
+- `upstream/examples/RadioListShowcase.tsx` — Radio List · static: `static/RadioListShowcase.html`
+- `upstream/examples/RadioListHorizontalLayout.tsx` — RadioList — Horizontal Layout: Radio list with horizontal orientation for compact selections. · static: `static/RadioListHorizontalLayout.html`
+- `upstream/examples/RadioListItemBasic.tsx` — RadioListItem — Basic: Radio items with labels and descriptions inside a controlled RadioList. Use for single-choice option groups like shipping methods. · static: `static/RadioListItemBasic.html`
+- `upstream/examples/RadioListPricingTier.tsx` — RadioList — Pricing Tier: Radio list with pricing info in end content for plan selection. · static: `static/RadioListPricingTier.html`
+- `upstream/examples/RadioListWithDescriptions.tsx` — RadioList — With Descriptions: Radio list with descriptions on the group and each item. · static: `static/RadioListWithDescriptions.html`
+- `upstream/examples/RadioListWithValidation.tsx` — RadioList — With Validation: Required radio list with an error message when nothing is selected. · static: `static/RadioListWithValidation.html`
 
 ## Documentation
 
@@ -126,11 +126,11 @@ Styling hook class: `.astryx-radio-list`, `.astryx-radio-list-item`, `.astryx-ra
 
 ## Files
 
-- `src/RadioList.doc.mjs`
-- `src/RadioList.tsx`
-- `src/RadioListItem.doc.mjs`
-- `src/RadioListItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/RadioList.doc.mjs`
+- `upstream/RadioList.tsx`
+- `upstream/RadioListItem.doc.mjs`
+- `upstream/RadioListItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/RadioList

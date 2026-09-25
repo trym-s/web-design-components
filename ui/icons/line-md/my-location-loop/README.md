@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/my-location-loop/src/my-location-loop.svg`
+- Entry point: `ui/icons/line-md/my-location-loop/upstream/my-location-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/my-location-loop/src/my-location-loop.svg`
+- Local source: `ui/icons/line-md/my-location-loop/upstream/my-location-loop.svg`

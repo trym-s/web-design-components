@@ -1,3 +1,3 @@
 /* Use when: Renders content in the accessibility tree while hiding it visually. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

@@ -7,7 +7,7 @@ A horizontal bar showing the completion progress of a task. Use it for operation
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ProgressBar.tsx`
+- Entry point: `upstream/ProgressBar.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A horizontal bar showing the completion progress of a task. Use it for operation
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A horizontal bar showing the completion progress of a task. Use it for operation
 
 ## Examples
 
-- `src/examples/ProgressBarShowcase.tsx` — Progress Bar: A progress bar filled to 60%. · static: `static/ProgressBarShowcase.html`
-- `src/examples/ProgressBarCustomFormat.tsx` — ProgressBar — Custom Format: Progress bar with a custom value label showing disk usage in GB. · static: `static/ProgressBarCustomFormat.html`
-- `src/examples/ProgressBarIndeterminate.tsx` — ProgressBar — Indeterminate: Indeterminate progress bar for operations with unknown duration. · static: `static/ProgressBarIndeterminate.html`
-- `src/examples/ProgressBarSemanticVariants.tsx` — ProgressBar — Semantic Variants: All semantic color variants stacked vertically. · static: `static/ProgressBarSemanticVariants.html`
-- `src/examples/ProgressBarWithValueLabel.tsx` — ProgressBar — With Value Label: Progress bar with its current percentage displayed. · static: `static/ProgressBarWithValueLabel.html`
+- `upstream/examples/ProgressBarShowcase.tsx` — Progress Bar: A progress bar filled to 60%. · static: `static/ProgressBarShowcase.html`
+- `upstream/examples/ProgressBarCustomFormat.tsx` — ProgressBar — Custom Format: Progress bar with a custom value label showing disk usage in GB. · static: `static/ProgressBarCustomFormat.html`
+- `upstream/examples/ProgressBarIndeterminate.tsx` — ProgressBar — Indeterminate: Indeterminate progress bar for operations with unknown duration. · static: `static/ProgressBarIndeterminate.html`
+- `upstream/examples/ProgressBarSemanticVariants.tsx` — ProgressBar — Semantic Variants: All semantic color variants stacked vertically. · static: `static/ProgressBarSemanticVariants.html`
+- `upstream/examples/ProgressBarWithValueLabel.tsx` — ProgressBar — With Value Label: Progress bar with its current percentage displayed. · static: `static/ProgressBarWithValueLabel.html`
 
 ## Documentation
 
@@ -129,11 +129,11 @@ Styling hook class: `.astryx-progress-bar`, `.astryx-progress-bar-fill`, `.astry
 
 ## Files
 
-- `src/ProgressBar.doc.mjs`
-- `src/ProgressBar.spec.md`
-- `src/ProgressBar.tsx`
-- `src/ProgressBarMarkTooltip.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ProgressBar.doc.mjs`
+- `upstream/ProgressBar.spec.md`
+- `upstream/ProgressBar.tsx`
+- `upstream/ProgressBarMarkTooltip.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ProgressBar

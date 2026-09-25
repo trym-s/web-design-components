@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/align-vertical-space-around/src/align-vertical-space-around.svelte`
+- Entry point: `ui/icons/movingicons/align-vertical-space-around/upstream/align-vertical-space-around.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/align-vertical-space-around`
 - Registry: https://movingicons.dev/r/align-vertical-space-around
-- Local source fallback: `ui/icons/movingicons/align-vertical-space-around/src/align-vertical-space-around.svelte`
+- Local source fallback: `ui/icons/movingicons/align-vertical-space-around/upstream/align-vertical-space-around.svelte`

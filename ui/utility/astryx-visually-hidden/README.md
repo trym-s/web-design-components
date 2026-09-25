@@ -7,7 +7,7 @@ Renders content in the accessibility tree while hiding it visually. Use for acce
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/VisuallyHidden.tsx`
+- Entry point: `upstream/VisuallyHidden.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Renders content in the accessibility tree while hiding it visually. Use for acce
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Renders content in the accessibility tree while hiding it visually. Use for acce
 
 ## Examples
 
-- `src/examples/VisuallyHiddenShowcase.tsx` — VisuallyHidden · static: `static/VisuallyHiddenShowcase.html`
-- `src/examples/VisuallyHiddenLiveRegion.tsx` — VisuallyHidden — Live Region: A polite aria-live region announces visual-only state changes to assistive technology. · static: `static/VisuallyHiddenLiveRegion.html`
-- `src/examples/VisuallyHiddenStructuralHeading.tsx` — VisuallyHidden — Structural Heading: Give a visually implicit section an accessible name so screen-reader users can navigate to it. · static: `static/VisuallyHiddenStructuralHeading.html`
-- `src/examples/VisuallyHiddenSupplementaryContext.tsx` — VisuallyHidden — Supplementary Context: Add screen-reader-only context to terse visual data, like spelling out what a trend arrow means. · static: `static/VisuallyHiddenSupplementaryContext.html`
+- `upstream/examples/VisuallyHiddenShowcase.tsx` — VisuallyHidden · static: `static/VisuallyHiddenShowcase.html`
+- `upstream/examples/VisuallyHiddenLiveRegion.tsx` — VisuallyHidden — Live Region: A polite aria-live region announces visual-only state changes to assistive technology. · static: `static/VisuallyHiddenLiveRegion.html`
+- `upstream/examples/VisuallyHiddenStructuralHeading.tsx` — VisuallyHidden — Structural Heading: Give a visually implicit section an accessible name so screen-reader users can navigate to it. · static: `static/VisuallyHiddenStructuralHeading.html`
+- `upstream/examples/VisuallyHiddenSupplementaryContext.tsx` — VisuallyHidden — Supplementary Context: Add screen-reader-only context to terse visual data, like spelling out what a trend arrow means. · static: `static/VisuallyHiddenSupplementaryContext.html`
 
 ## Documentation
 
@@ -84,9 +84,9 @@ Renders content in the accessibility tree while hiding it visually. Use for acce
 
 ## Files
 
-- `src/VisuallyHidden.doc.mjs`
-- `src/VisuallyHidden.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/VisuallyHidden.doc.mjs`
+- `upstream/VisuallyHidden.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/VisuallyHidden

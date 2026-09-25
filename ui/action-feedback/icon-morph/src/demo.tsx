@@ -2,7 +2,7 @@
 
 import { IconMorph } from "./icon-morph";
 
-export function IconMorphDemo() {
+export default function IconMorphDemo() {
   return (
     <div className="flex items-center justify-center gap-3">
       <IconMorph preset="play-pause" semantics="pressed" />

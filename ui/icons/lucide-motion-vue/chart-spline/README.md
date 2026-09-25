@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chart-spline/src/chart-spline.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chart-spline/upstream/chart-spline.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chart-spline/src/chart-spline.vue`
+- Local source: `ui/icons/lucide-motion-vue/chart-spline/upstream/chart-spline.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cellphone-arrow-down/src/cellphone-arrow-down.svg`
+- Entry point: `ui/icons/line-md/cellphone-arrow-down/upstream/cellphone-arrow-down.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cellphone-arrow-down/src/cellphone-arrow-down.svg`
+- Local source: `ui/icons/line-md/cellphone-arrow-down/upstream/cellphone-arrow-down.svg`

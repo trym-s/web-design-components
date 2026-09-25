@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/numbered-list/src/numbered-list.tsx`
+- Entry point: `ui/icons/heroicons-animated/numbered-list/upstream/numbered-list.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/numbered-list`
 - Registry: https://www.heroicons-animated.com/r/numbered-list.json
-- Local source fallback: `ui/icons/heroicons-animated/numbered-list/src/numbered-list.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/numbered-list/upstream/numbered-list.tsx`

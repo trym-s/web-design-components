@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/axe/src/axe.vue`
+- Entry point: `ui/icons/lucide-motion-vue/axe/upstream/axe.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/axe/src/axe.vue`
+- Local source: `ui/icons/lucide-motion-vue/axe/upstream/axe.vue`

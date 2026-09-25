@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/circle-alert/src/circle-alert.svelte`
+- Entry point: `ui/icons/movingicons/circle-alert/upstream/circle-alert.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/circle-alert`
 - Registry: https://movingicons.dev/r/circle-alert
-- Local source fallback: `ui/icons/movingicons/circle-alert/src/circle-alert.svelte`
+- Local source fallback: `ui/icons/movingicons/circle-alert/upstream/circle-alert.svelte`

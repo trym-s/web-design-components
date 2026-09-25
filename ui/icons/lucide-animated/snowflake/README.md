@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/snowflake/src/snowflake.tsx`
+- Entry point: `ui/icons/lucide-animated/snowflake/upstream/snowflake.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/snowflake.json`
 - Registry: https://lucide-animated.com/r/snowflake.json
-- Local source fallback: `ui/icons/lucide-animated/snowflake/src/snowflake.tsx`
+- Local source fallback: `ui/icons/lucide-animated/snowflake/upstream/snowflake.tsx`

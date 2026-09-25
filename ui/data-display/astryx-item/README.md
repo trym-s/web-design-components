@@ -7,7 +7,7 @@ A single, flexible item primitive that unifies the "start content + label + desc
 - Category: `data-display` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Item.tsx`
+- Entry point: `upstream/Item.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A single, flexible item primitive that unifies the "start content + label + desc
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A single, flexible item primitive that unifies the "start content + label + desc
 
 ## Examples
 
-- `src/examples/ItemShowcase.tsx` — Item · static: `static/ItemShowcase.html`
-- `src/examples/ItemBasicItem.tsx` — Item — Basic: A basic item with a label, supporting description, and end-aligned timestamp. Use this for simple rows that need consistent text alignment and spacing. · static: `static/ItemBasicItem.html`
-- `src/examples/ItemWithMedia.tsx` — Item — Start Content: Items with leading avatars and icons in the startContent slot. Keep start content small so the row stays compact and easy to scan. · static: `static/ItemWithMedia.html`
-- `src/examples/ItemWithMetadata.tsx` — Item — Metadata: Items with end-aligned metadata and badges. Use the endContent slot for counts, status, timestamps, and other secondary row information. · static: `static/ItemWithMetadata.html`
+- `upstream/examples/ItemShowcase.tsx` — Item · static: `static/ItemShowcase.html`
+- `upstream/examples/ItemBasicItem.tsx` — Item — Basic: A basic item with a label, supporting description, and end-aligned timestamp. Use this for simple rows that need consistent text alignment and spacing. · static: `static/ItemBasicItem.html`
+- `upstream/examples/ItemWithMedia.tsx` — Item — Start Content: Items with leading avatars and icons in the startContent slot. Keep start content small so the row stays compact and easy to scan. · static: `static/ItemWithMedia.html`
+- `upstream/examples/ItemWithMetadata.tsx` — Item — Metadata: Items with end-aligned metadata and badges. Use the endContent slot for counts, status, timestamps, and other secondary row information. · static: `static/ItemWithMetadata.html`
 
 ## Documentation
 
@@ -69,10 +69,10 @@ Styling hook class: `.astryx-item`
 
 ## Files
 
-- `src/Item.doc.mjs`
-- `src/Item.tsx`
-- `src/ItemDescriptionContext.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Item.doc.mjs`
+- `upstream/Item.tsx`
+- `upstream/ItemDescriptionContext.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Item

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/circle-twotone-to-confirm-circle-transition/src/circle-twotone-to-confirm-circle-transition.svg`
+- Entry point: `ui/icons/line-md/circle-twotone-to-confirm-circle-transition/upstream/circle-twotone-to-confirm-circle-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/circle-twotone-to-confirm-circle-transition/src/circle-twotone-to-confirm-circle-transition.svg`
+- Local source: `ui/icons/line-md/circle-twotone-to-confirm-circle-transition/upstream/circle-twotone-to-confirm-circle-transition.svg`

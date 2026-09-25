@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/document-list-twotone/src/document-list-twotone.svg`
+- Entry point: `ui/icons/line-md/document-list-twotone/upstream/document-list-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/document-list-twotone/src/document-list-twotone.svg`
+- Local source: `ui/icons/line-md/document-list-twotone/upstream/document-list-twotone.svg`

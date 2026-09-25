@@ -7,7 +7,7 @@ Tokenizer is a multi-select input that lets users search, select, and manage mul
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Tokenizer.tsx`
+- Entry point: `upstream/Tokenizer.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Tokenizer is a multi-select input that lets users search, select, and manage mul
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,14 +33,14 @@ Tokenizer is a multi-select input that lets users search, select, and manage mul
 
 ## Examples
 
-- `src/examples/TokenizerShowcase.tsx` — Tokenizer: A tokenizer with preset tags and search source. · static: `static/TokenizerShowcase.html`
-- `src/examples/TokenizerClear.tsx` — Tokenizer — Clear: Tokenizer with a built-in clear-all button for bulk removal of all selected tokens. · static: `static/TokenizerClear.html`
-- `src/examples/TokenizerCreatable.tsx` — Tokenizer — Creatable: Free-text tokenizer for creating custom tags and a combined create-or-search pattern. Use when users need to enter values that may not exist in a predefined list. · static: `static/TokenizerCreatable.html`
-- `src/examples/TokenizerEndContent.tsx` — Tokenizer — End Content: Tokenizer with an action button in the end slot. Use for inline actions like applying selections alongside the input. · static: `static/TokenizerEndContent.html`
-- `src/examples/TokenizerIcon.tsx` — Tokenizer — Icon: Tokenizer with a leading search icon to visually reinforce the search behavior. · static: `static/TokenizerIcon.html`
-- `src/examples/TokenizerMaxEntries.tsx` — Tokenizer — Max Entries: Tokenizer with a maximum selection limit. The input hides automatically when the limit is reached, preventing further additions. · static: `static/TokenizerMaxEntries.html`
-- `src/examples/TokenizerOverflow.tsx` — Tokenizer — Overflow: Tokenizer with overflow truncation when unfocused. Inline mode pushes content down on expand; layer mode overlays without shifting layout. · static: `static/TokenizerOverflow.html`
-- `src/examples/TokenizerStates.tsx` — Tokenizer — States: Tokenizer in disabled, error, warning, and success states. Use to communicate validation feedback or lock a selection from editing. · static: `static/TokenizerStates.html`
+- `upstream/examples/TokenizerShowcase.tsx` — Tokenizer: A tokenizer with preset tags and search source. · static: `static/TokenizerShowcase.html`
+- `upstream/examples/TokenizerClear.tsx` — Tokenizer — Clear: Tokenizer with a built-in clear-all button for bulk removal of all selected tokens. · static: `static/TokenizerClear.html`
+- `upstream/examples/TokenizerCreatable.tsx` — Tokenizer — Creatable: Free-text tokenizer for creating custom tags and a combined create-or-search pattern. Use when users need to enter values that may not exist in a predefined list. · static: `static/TokenizerCreatable.html`
+- `upstream/examples/TokenizerEndContent.tsx` — Tokenizer — End Content: Tokenizer with an action button in the end slot. Use for inline actions like applying selections alongside the input. · static: `static/TokenizerEndContent.html`
+- `upstream/examples/TokenizerIcon.tsx` — Tokenizer — Icon: Tokenizer with a leading search icon to visually reinforce the search behavior. · static: `static/TokenizerIcon.html`
+- `upstream/examples/TokenizerMaxEntries.tsx` — Tokenizer — Max Entries: Tokenizer with a maximum selection limit. The input hides automatically when the limit is reached, preventing further additions. · static: `static/TokenizerMaxEntries.html`
+- `upstream/examples/TokenizerOverflow.tsx` — Tokenizer — Overflow: Tokenizer with overflow truncation when unfocused. Inline mode pushes content down on expand; layer mode overlays without shifting layout. · static: `static/TokenizerOverflow.html`
+- `upstream/examples/TokenizerStates.tsx` — Tokenizer — States: Tokenizer in disabled, error, warning, and success states. Use to communicate validation feedback or lock a selection from editing. · static: `static/TokenizerStates.html`
 
 ## Documentation
 
@@ -185,10 +185,10 @@ Styling hook class: `.astryx-tokenizer`
 
 ## Files
 
-- `src/Tokenizer.doc.mjs`
-- `src/Tokenizer.spec.md`
-- `src/Tokenizer.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Tokenizer.doc.mjs`
+- `upstream/Tokenizer.spec.md`
+- `upstream/Tokenizer.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Tokenizer

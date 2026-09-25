@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/map-marker-multiple-off/src/map-marker-multiple-off.svg`
+- Entry point: `ui/icons/line-md/map-marker-multiple-off/upstream/map-marker-multiple-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/map-marker-multiple-off/src/map-marker-multiple-off.svg`
+- Local source: `ui/icons/line-md/map-marker-multiple-off/upstream/map-marker-multiple-off.svg`

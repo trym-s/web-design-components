@@ -1,7 +1,7 @@
 /* The docs site's HeroUI stylesheet without its docs chrome, over this snapshot. */
 @import "tailwindcss";
 @source "./app/**/*.{ts,tsx}";
-@source "../../**/better-auth-ui-heroui-*/src/**/*.{ts,tsx}";
+@source "../../**/better-auth-ui-heroui-*/{src,upstream}/**/*.{ts,tsx}";
 @import "@heroui/styles";
 @import "@better-auth-ui/heroui/styles";
 @import "./fonts.css";

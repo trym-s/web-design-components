@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/watch-off-loop/src/watch-off-loop.svg`
+- Entry point: `ui/icons/line-md/watch-off-loop/upstream/watch-off-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/watch-off-loop/src/watch-off-loop.svg`
+- Local source: `ui/icons/line-md/watch-off-loop/upstream/watch-off-loop.svg`

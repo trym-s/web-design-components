@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/loader-pinwheel/src/loader-pinwheel.tsx`
+- Entry point: `ui/icons/lucide-animated/loader-pinwheel/upstream/loader-pinwheel.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/loader-pinwheel.json`
 - Registry: https://lucide-animated.com/r/loader-pinwheel.json
-- Local source fallback: `ui/icons/lucide-animated/loader-pinwheel/src/loader-pinwheel.tsx`
+- Local source fallback: `ui/icons/lucide-animated/loader-pinwheel/upstream/loader-pinwheel.tsx`

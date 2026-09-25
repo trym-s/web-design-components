@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/heart-off/src/heart-off.svelte`
+- Entry point: `ui/icons/movingicons/heart-off/upstream/heart-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/heart-off`
 - Registry: https://movingicons.dev/r/heart-off
-- Local source fallback: `ui/icons/movingicons/heart-off/src/heart-off.svelte`
+- Local source fallback: `ui/icons/movingicons/heart-off/upstream/heart-off.svelte`

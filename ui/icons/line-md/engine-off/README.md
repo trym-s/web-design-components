@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/engine-off/src/engine-off.svg`
+- Entry point: `ui/icons/line-md/engine-off/upstream/engine-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/engine-off/src/engine-off.svg`
+- Local source: `ui/icons/line-md/engine-off/upstream/engine-off.svg`

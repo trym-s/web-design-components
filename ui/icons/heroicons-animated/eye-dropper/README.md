@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/eye-dropper/src/eye-dropper.tsx`
+- Entry point: `ui/icons/heroicons-animated/eye-dropper/upstream/eye-dropper.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/eye-dropper`
 - Registry: https://www.heroicons-animated.com/r/eye-dropper.json
-- Local source fallback: `ui/icons/heroicons-animated/eye-dropper/src/eye-dropper.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/eye-dropper/upstream/eye-dropper.tsx`

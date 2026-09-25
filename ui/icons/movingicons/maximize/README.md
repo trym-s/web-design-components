@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/maximize/src/maximize.svelte`
+- Entry point: `ui/icons/movingicons/maximize/upstream/maximize.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/maximize`
 - Registry: https://movingicons.dev/r/maximize
-- Local source fallback: `ui/icons/movingicons/maximize/src/maximize.svelte`
+- Local source fallback: `ui/icons/movingicons/maximize/upstream/maximize.svelte`

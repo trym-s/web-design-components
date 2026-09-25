@@ -7,7 +7,7 @@ A vertical collection of items with consistent spacing, dividers, and optional m
 - Category: `data-display` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/List.tsx`
+- Entry point: `upstream/List.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A vertical collection of items with consistent spacing, dividers, and optional m
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ A vertical collection of items with consistent spacing, dividers, and optional m
 
 ## Examples
 
-- `src/examples/ListItemShowcase.tsx` — List Item: List items with icons, descriptions, and end content slots demonstrating the full ListItem API. · static: `static/ListItemShowcase.html`
-- `src/examples/ListShowcase.tsx` — List · static: `static/ListShowcase.html`
-- `src/examples/ListBasicList.tsx` — List — Basic: Simple list with labels and descriptions for settings-style layouts. · static: `static/ListBasicList.html`
-- `src/examples/ListBulletedFeatures.tsx` — List — Bulleted Features: Bulleted list of feature highlights using disc markers. · static: `static/ListBulletedFeatures.html`
-- `src/examples/ListItemBasicItem.tsx` — List Item — Basic: Basic list items with labels and descriptions. Use this structure for settings, navigation summaries, and other simple collections. · static: `static/ListItemBasicItem.html`
-- `src/examples/ListItemWithMedia.tsx` — List Item — Media: List items with leading avatars and icons. Use startContent for compact visual identifiers that help users scan the collection. · static: `static/ListItemWithMedia.html`
-- `src/examples/ListItemWithMetadata.tsx` — List Item — Metadata: List items with end-aligned metadata. Use endContent for badges, counts, timestamps, and compact status details. · static: `static/ListItemWithMetadata.html`
-- `src/examples/ListMessageList.tsx` — List — Message List: Chat-style message list with avatars, preview text, and unread badges. · static: `static/ListMessageList.html`
-- `src/examples/ListOrderedSteps.tsx` — List — Ordered Steps: Numbered step-by-step instructions using decimal list markers. · static: `static/ListOrderedSteps.html`
+- `upstream/examples/ListItemShowcase.tsx` — List Item: List items with icons, descriptions, and end content slots demonstrating the full ListItem API. · static: `static/ListItemShowcase.html`
+- `upstream/examples/ListShowcase.tsx` — List · static: `static/ListShowcase.html`
+- `upstream/examples/ListBasicList.tsx` — List — Basic: Simple list with labels and descriptions for settings-style layouts. · static: `static/ListBasicList.html`
+- `upstream/examples/ListBulletedFeatures.tsx` — List — Bulleted Features: Bulleted list of feature highlights using disc markers. · static: `static/ListBulletedFeatures.html`
+- `upstream/examples/ListItemBasicItem.tsx` — List Item — Basic: Basic list items with labels and descriptions. Use this structure for settings, navigation summaries, and other simple collections. · static: `static/ListItemBasicItem.html`
+- `upstream/examples/ListItemWithMedia.tsx` — List Item — Media: List items with leading avatars and icons. Use startContent for compact visual identifiers that help users scan the collection. · static: `static/ListItemWithMedia.html`
+- `upstream/examples/ListItemWithMetadata.tsx` — List Item — Metadata: List items with end-aligned metadata. Use endContent for badges, counts, timestamps, and compact status details. · static: `static/ListItemWithMetadata.html`
+- `upstream/examples/ListMessageList.tsx` — List — Message List: Chat-style message list with avatars, preview text, and unread badges. · static: `static/ListMessageList.html`
+- `upstream/examples/ListOrderedSteps.tsx` — List — Ordered Steps: Numbered step-by-step instructions using decimal list markers. · static: `static/ListOrderedSteps.html`
 
 ## Documentation
 
@@ -121,13 +121,13 @@ Styling hook class: `.astryx-list`, `.astryx-list-item`
 
 ## Files
 
-- `src/List.doc.mjs`
-- `src/List.spec.md`
-- `src/List.tsx`
-- `src/ListContext.tsx`
-- `src/ListItem.doc.mjs`
-- `src/ListItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/List.doc.mjs`
+- `upstream/List.spec.md`
+- `upstream/List.tsx`
+- `upstream/ListContext.tsx`
+- `upstream/ListItem.doc.mjs`
+- `upstream/ListItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/List

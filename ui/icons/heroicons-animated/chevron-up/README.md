@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/chevron-up/src/chevron-up.tsx`
+- Entry point: `ui/icons/heroicons-animated/chevron-up/upstream/chevron-up.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/chevron-up`
 - Registry: https://www.heroicons-animated.com/r/chevron-up.json
-- Local source fallback: `ui/icons/heroicons-animated/chevron-up/src/chevron-up.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/chevron-up/upstream/chevron-up.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-off/src/chat-off.svg`
+- Entry point: `ui/icons/line-md/chat-off/upstream/chat-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-off/src/chat-off.svg`
+- Local source: `ui/icons/line-md/chat-off/upstream/chat-off.svg`

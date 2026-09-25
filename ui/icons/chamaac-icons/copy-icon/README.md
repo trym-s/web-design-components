@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/chamaac-icons/copy-icon/src/copy-icon.tsx`
+- Entry point: `ui/icons/chamaac-icons/copy-icon/upstream/copy-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/copy-icon.json`
 - Registry: https://www.chamaac.com/r/copy-icon.json
-- Local source fallback: `ui/icons/chamaac-icons/copy-icon/src/copy-icon.tsx`
+- Local source fallback: `ui/icons/chamaac-icons/copy-icon/upstream/copy-icon.tsx`

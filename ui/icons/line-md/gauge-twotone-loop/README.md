@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/gauge-twotone-loop/src/gauge-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/gauge-twotone-loop/upstream/gauge-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/gauge-twotone-loop/src/gauge-twotone-loop.svg`
+- Local source: `ui/icons/line-md/gauge-twotone-loop/upstream/gauge-twotone-loop.svg`

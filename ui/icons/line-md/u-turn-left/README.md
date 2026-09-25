@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/u-turn-left/src/u-turn-left.svg`
+- Entry point: `ui/icons/line-md/u-turn-left/upstream/u-turn-left.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/u-turn-left/src/u-turn-left.svg`
+- Local source: `ui/icons/line-md/u-turn-left/upstream/u-turn-left.svg`

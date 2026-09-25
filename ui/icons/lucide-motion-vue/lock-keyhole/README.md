@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/lock-keyhole/src/lock-keyhole.vue`
+- Entry point: `ui/icons/lucide-motion-vue/lock-keyhole/upstream/lock-keyhole.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/lock-keyhole/src/lock-keyhole.vue`
+- Local source: `ui/icons/lucide-motion-vue/lock-keyhole/upstream/lock-keyhole.vue`

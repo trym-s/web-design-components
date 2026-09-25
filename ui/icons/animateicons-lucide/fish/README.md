@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/fish/src/fish.tsx`
+- Entry point: `ui/icons/animateicons-lucide/fish/upstream/fish.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-fish.json`
 - Registry: https://animateicons.in/r/lu-fish.json
-- Local source fallback: `ui/icons/animateicons-lucide/fish/src/fish.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/fish/upstream/fish.tsx`

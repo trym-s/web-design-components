@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/log-in/src/log-in.svelte`
+- Entry point: `ui/icons/movingicons/log-in/upstream/log-in.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/log-in`
 - Registry: https://movingicons.dev/r/log-in
-- Local source fallback: `ui/icons/movingicons/log-in/src/log-in.svelte`
+- Local source fallback: `ui/icons/movingicons/log-in/upstream/log-in.svelte`

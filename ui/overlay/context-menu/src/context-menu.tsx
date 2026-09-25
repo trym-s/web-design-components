@@ -1,5 +1,3 @@
-"use client";
-
 import {
   useCallback,
   useEffect,
@@ -424,7 +422,7 @@ export function ContextMenu({
         {...triggerProps}
         aria-controls={isOpen ? menuId : undefined}
         aria-describedby={`${uid}-hint`}
-        className={`outline-none focus-visible:bg-[#4568FF]/[0.06] focus-visible:shadow-[inset_0_0_0_1px_#4568FF] dark:focus-visible:bg-[#93B0FF]/[0.08] dark:focus-visible:shadow-[inset_0_0_0_1px_#93B0FF] ${className}`}
+        className={`outline-none focus-visible:bg-primary/[0.06] focus-visible:shadow-[inset_0_0_0_1px_var(--primary)] ${className}`}
       >
         {children}
         <span id={`${uid}-hint`} className="sr-only">
@@ -457,12 +455,12 @@ export function ContextMenu({
               transformOrigin: placement.transformOrigin,
               zIndex: 60,
             }}
-            className="overflow-y-auto overscroll-contain rounded-[14px] border border-stone-200 bg-white p-[5px] shadow-[0_1px_2px_rgba(28,25,23,0.06),0_16px_36px_-18px_rgba(28,25,23,0.5)] outline-none dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
+            className="overflow-y-auto overscroll-contain rounded-[calc(var(--radius)+4px)] border border-border bg-popover p-[5px] shadow-lg outline-none"
           >
             {items.map((item, index) =>
               item.type === "separator" ? (
                 <div key={item.id} className="px-1 py-1">
-                  <hr className="h-px border-0 bg-stone-200 dark:bg-white/10" />
+                  <hr className="h-px border-0 bg-border" />
                 </div>
               ) : (
                 <button
@@ -470,16 +468,16 @@ export function ContextMenu({
                   type="button"
                   aria-disabled={item.disabled || undefined}
                   {...getItemProps(index)}
-                  className={`flex h-[32px] w-full cursor-default select-none items-center gap-2 rounded-[7px] px-2.5 text-left text-[13px] outline-none ${
+                  className={`flex h-[32px] w-full cursor-default select-none items-center gap-2 rounded-[calc(var(--radius)-3px)] px-2.5 text-left text-[13px] outline-none ${
                     item.disabled
-                      ? "text-stone-400 dark:text-stone-500"
-                      : "text-stone-700 dark:text-stone-200"
-                  } ${active === index ? "bg-stone-100 dark:bg-white/10" : ""}`}
+                      ? "text-muted-foreground/60"
+                      : "text-foreground"
+                  } ${active === index ? "bg-accent" : ""}`}
                 >
                   {hasIcons ? (
                     <span
                       aria-hidden
-                      className="grid size-4 shrink-0 place-items-center text-stone-500 dark:text-stone-400"
+                      className="grid size-4 shrink-0 place-items-center text-muted-foreground"
                     >
                       {item.icon}
                     </span>
@@ -489,7 +487,7 @@ export function ContextMenu({
                   {item.shortcut ? (
                     <span
                       aria-hidden
-                      className="shrink-0 font-mono text-[10.5px] tabular-nums text-stone-500 dark:text-stone-400"
+                      className="shrink-0 font-mono text-[10.5px] tabular-nums text-muted-foreground"
                     >
                       {item.shortcut}
                     </span>

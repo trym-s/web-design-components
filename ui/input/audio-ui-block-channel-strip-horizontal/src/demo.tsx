@@ -1,10 +1,7 @@
-import E0 from "./examples/block-channel-strip-horizontal";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-horizontal", title: "Block Channel Strip Horizontal", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripHorizontal } from "./block-channel-strip-horizontal";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [volume, setVolume] = useState(72);
+  return <BlockChannelStripHorizontal footer="Output" label="Volume" onValueChange={setVolume} title="Channel 1" value={volume} />;
 }

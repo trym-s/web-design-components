@@ -7,7 +7,7 @@ PowerSearch is a structured filter bar where each token represents a field, oper
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/PowerSearch.tsx`
+- Entry point: `upstream/PowerSearch.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ PowerSearch is a structured filter bar where each token represents a field, oper
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ PowerSearch is a structured filter bar where each token represents a field, oper
 
 ## Examples
 
-- `src/examples/PowerSearchShowcase.tsx` — Power Search: Token-based filter bar with enum and text fields, pre-populated with sample filters. · static: `static/PowerSearchShowcase.html`
-- `src/examples/PowerSearchContentSearch.tsx` — PowerSearch — Content Search: Power search with contentSearchFieldKey so free-text input maps to a title field automatically. · static: `static/PowerSearchContentSearch.html`
-- `src/examples/PowerSearchFullFeatured.tsx` — PowerSearch — Full Featured: Power search with multiple field types: enum, multi-select, entity, and text filters. · static: `static/PowerSearchFullFeatured.html`
-- `src/examples/PowerSearchPresetFilters.tsx` — PowerSearch — Preset Filters: Power search initialized with pre-set filter tokens for status and priority. · static: `static/PowerSearchPresetFilters.html`
-- `src/examples/PowerSearchSearchWithTable.tsx` — PowerSearch — Search with Table: Composition of PowerSearch with Table using usePowerSearchConfig to auto-generate config and filter data. · static: `static/PowerSearchSearchWithTable.html`
+- `upstream/examples/PowerSearchShowcase.tsx` — Power Search: Token-based filter bar with enum and text fields, pre-populated with sample filters. · static: `static/PowerSearchShowcase.html`
+- `upstream/examples/PowerSearchContentSearch.tsx` — PowerSearch — Content Search: Power search with contentSearchFieldKey so free-text input maps to a title field automatically. · static: `static/PowerSearchContentSearch.html`
+- `upstream/examples/PowerSearchFullFeatured.tsx` — PowerSearch — Full Featured: Power search with multiple field types: enum, multi-select, entity, and text filters. · static: `static/PowerSearchFullFeatured.html`
+- `upstream/examples/PowerSearchPresetFilters.tsx` — PowerSearch — Preset Filters: Power search initialized with pre-set filter tokens for status and priority. · static: `static/PowerSearchPresetFilters.html`
+- `upstream/examples/PowerSearchSearchWithTable.tsx` — PowerSearch — Search with Table: Composition of PowerSearch with Table using usePowerSearchConfig to auto-generate config and filter data. · static: `static/PowerSearchSearchWithTable.html`
 
 ## Documentation
 
@@ -138,14 +138,14 @@ PowerSearch is a structured filter bar where each token represents a field, oper
 
 ## Files
 
-- `src/PowerSearch.doc.mjs`
-- `src/PowerSearch.spec.md`
-- `src/PowerSearch.tsx`
-- `src/PowerSearchEditPopover.tsx`
-- `src/PowerSearchFilterEditor.tsx`
-- `src/PowerSearchToken.tsx`
-- `src/PowerSearchValueEditor.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/PowerSearch.doc.mjs`
+- `upstream/PowerSearch.spec.md`
+- `upstream/PowerSearch.tsx`
+- `upstream/PowerSearchEditPopover.tsx`
+- `upstream/PowerSearchFilterEditor.tsx`
+- `upstream/PowerSearchToken.tsx`
+- `upstream/PowerSearchValueEditor.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/PowerSearch

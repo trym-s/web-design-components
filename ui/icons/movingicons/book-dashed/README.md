@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/book-dashed/src/book-dashed.svelte`
+- Entry point: `ui/icons/movingicons/book-dashed/upstream/book-dashed.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/book-dashed`
 - Registry: https://movingicons.dev/r/book-dashed
-- Local source fallback: `ui/icons/movingicons/book-dashed/src/book-dashed.svelte`
+- Local source fallback: `ui/icons/movingicons/book-dashed/upstream/book-dashed.svelte`

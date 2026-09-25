@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/panel-left-open/src/panel-left-open.svelte`
+- Entry point: `ui/icons/movingicons/panel-left-open/upstream/panel-left-open.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/panel-left-open`
 - Registry: https://movingicons.dev/r/panel-left-open
-- Local source fallback: `ui/icons/movingicons/panel-left-open/src/panel-left-open.svelte`
+- Local source fallback: `ui/icons/movingicons/panel-left-open/upstream/panel-left-open.svelte`

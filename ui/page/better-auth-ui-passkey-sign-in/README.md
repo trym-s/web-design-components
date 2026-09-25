@@ -7,7 +7,7 @@ Add passwordless passkey sign-in and device management to your authentication fl
 - Category: `page` — structural
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/passkey-sign-in.tsx`
+- Entry point: `upstream/examples/passkey-sign-in.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ Add passwordless passkey sign-in and device management to your authentication fl
 
 ## Files
 
-- `src/examples/passkey-sign-in.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/passkey-sign-in.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/plugins/passkey

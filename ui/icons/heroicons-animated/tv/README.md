@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/tv/src/tv.tsx`
+- Entry point: `ui/icons/heroicons-animated/tv/upstream/tv.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/tv`
 - Registry: https://www.heroicons-animated.com/r/tv.json
-- Local source fallback: `ui/icons/heroicons-animated/tv/src/tv.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/tv/upstream/tv.tsx`

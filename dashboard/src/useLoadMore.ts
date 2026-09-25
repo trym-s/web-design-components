@@ -1,7 +1,7 @@
 /**
  * Sentinel-driven progressive reveal.
  *
- * Adapted from `ui/async/load-more/src/load-more.tsx`. The behaviour that
+ * Adapted from `ui/async/load-more/upstream/load-more.tsx`. The behaviour that
  * matters here is preserved: an IntersectionObserver sentinel that fires ahead
  * of the viewport edge, and a `maxAutoLoads` ceiling that pauses the run and
  * hands control back to an explicit button so an endless list cannot scroll the

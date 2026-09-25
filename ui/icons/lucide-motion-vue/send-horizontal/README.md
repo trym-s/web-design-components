@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/send-horizontal/src/send-horizontal.vue`
+- Entry point: `ui/icons/lucide-motion-vue/send-horizontal/upstream/send-horizontal.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/send-horizontal/src/send-horizontal.vue`
+- Local source: `ui/icons/lucide-motion-vue/send-horizontal/upstream/send-horizontal.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/star/src/star.svelte`
+- Entry point: `ui/icons/movingicons/star/upstream/star.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/star`
 - Registry: https://movingicons.dev/r/star
-- Local source fallback: `ui/icons/movingicons/star/src/star.svelte`
+- Local source fallback: `ui/icons/movingicons/star/upstream/star.svelte`

@@ -1,8 +1,9 @@
-import Example from "./examples/gauge-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "gauge", title: "Gauge", component: Example }];
+import Gauge from "./gauge";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[400px] w-full items-center justify-center">
+      <Gauge value={75} size={400} gap={4} />
+    </div>
+  );
 }

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/circle-dashed/src/circle-dashed.vue`
+- Entry point: `ui/icons/lucide-motion-vue/circle-dashed/upstream/circle-dashed.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/circle-dashed/src/circle-dashed.vue`
+- Local source: `ui/icons/lucide-motion-vue/circle-dashed/upstream/circle-dashed.vue`

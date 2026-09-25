@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/window/src/window.tsx`
+- Entry point: `ui/icons/heroicons-animated/window/upstream/window.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/window`
 - Registry: https://www.heroicons-animated.com/r/window.json
-- Local source fallback: `ui/icons/heroicons-animated/window/src/window.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/window/upstream/window.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/viewfinder-circle/src/viewfinder-circle.tsx`
+- Entry point: `ui/icons/heroicons-animated/viewfinder-circle/upstream/viewfinder-circle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/viewfinder-circle`
 - Registry: https://www.heroicons-animated.com/r/viewfinder-circle.json
-- Local source fallback: `ui/icons/heroicons-animated/viewfinder-circle/src/viewfinder-circle.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/viewfinder-circle/upstream/viewfinder-circle.tsx`

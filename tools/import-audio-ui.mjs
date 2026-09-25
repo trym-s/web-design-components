@@ -92,11 +92,18 @@ for (const { name, categories: cats } of listed) {
 }
 
 // ---------------------------------------------------------------- clean slate (captures survive)
+// `src/` (the copy-paste component) and the README's `## Usage` section are hand-derived from
+// `upstream/` (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+const KEEP = new Set(["static", "preview.png", "src"]);
+const usage = new Map();
 for (const cat of readdirSync(UI)) {
   if (cat === "_sources" || cat === "icons" || !statSync(join(UI, cat)).isDirectory()) continue;
   for (const d of readdirSync(join(UI, cat))) {
     if (!d.startsWith("audio-ui-")) continue;
-    for (const f of readdirSync(join(UI, cat, d))) if (f !== "static" && f !== "preview.png") rmSync(join(UI, cat, d, f), { recursive: true });
+    const readme = join(UI, cat, d, "README.md");
+    const section = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    if (section) usage.set(d, `${section.trimEnd()}\n`);
+    for (const f of readdirSync(join(UI, cat, d))) if (!KEEP.has(f)) rmSync(join(UI, cat, d, f), { recursive: true });
   }
 }
 rmSync(OUT, { recursive: true, force: true });
@@ -216,7 +223,7 @@ export function AudioFrame({ examples, tracks = false }: { examples: Example[]; 
     }
   }
   write(join(OUT, "fonts.css"), `/* Bricolage Grotesque, Instrument Serif, Geist Mono (OFL), latin subset, localized. */\n${fonts}`);
-  const sources = `@source "./**/*.{ts,tsx}";\n@source "../../**/audio-ui-*/src/**/*.{ts,tsx}";\n`;
+  const sources = `@source "./**/*.{ts,tsx}";\n@source "../../**/audio-ui-*/{src,upstream}/**/*.{ts,tsx}";\n`;
   write(join(OUT, "tailwind.css"), `/* The site's styles/globals.css (Nova only) over this snapshot. */\n${globals.replace(/(@import "tailwindcss";)/, `$1\n${sources}@import "./fonts.css";`)}`);
 }
 
@@ -224,7 +231,7 @@ export function AudioFrame({ examples, tracks = false }: { examples: Example[]; 
 const entries = [];
 for (const ref of refs.values()) {
   const dir = join(UI, ref.category, `audio-ui-${ref.slug}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   const id = `${ref.category}/audio-ui-${ref.slug}`;
   const nature = NATURE[ref.category];
   const use = firstSentence(ref.description ?? ref.title);
@@ -247,7 +254,7 @@ export default function Demo() {
   return <AudioFrame examples={examples}${ref.cats.some((c) => STORE_CATEGORIES.has(c)) ? " tracks" : ""} />;
 }
 `);
-  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   const element = elements.get(ELEMENT[ref.family]);
   const elementFiles = (element?.files ?? []).map((f) => `ui/_sources/audio-ui/registry-audio/bases/base/${f.path}`).filter((f) => existsSync(join(ROOT, f)));
   const install = ref.block ? ref.slug : ELEMENT[ref.family];
@@ -260,7 +267,7 @@ ${md(ref.description)}
 - Category: \`${ref.category}\` — ${nature}
 - Medium: React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, \`@audio-ui/react\` primitives); static HTML
 - Framework: react
-- Entry point: \`${ref.block ? `src/examples/${basename(examples[0].file)}` : elementFiles[0] ?? `src/examples/${basename(examples[0].file)}`}\`
+- Entry point: \`${ref.block ? `upstream/examples/${basename(examples[0].file)}` : elementFiles[0] ?? `upstream/examples/${basename(examples[0].file)}`}\`
 - Nature: ${nature}; reuse the control, its interaction model and layout, adapt literal values to the target project.
 - Added: ${ADDED}
 - Curation: pending
@@ -270,26 +277,28 @@ ${md(ref.description)}
 - Variants: ${examples.map((e) => e.name).join(", ")}
 - Upstream: Audio UI · ${ref.cats.join(", ")}
 - Preferred install: \`npx shadcn@latest add @audio/${install}\`
-- Local source fallback: \`${elementFiles[0] ?? `ui/${ref.category}/audio-ui-${ref.slug}/src/examples/${basename(examples[0].file)}`}\`
+- Local source fallback: \`${elementFiles[0] ?? `ui/${ref.category}/audio-ui-${ref.slug}/upstream/examples/${basename(examples[0].file)}`}\`
 
 ## How an agent uses this reference
-
+${existsSync(join(dir, "src")) ? `
+- **React + Tailwind v4 + shadcn tokens** — copy \`src/\` as-is (it vendors the \`@audio-ui/react\` primitives it needs and
+  imports only allowlisted packages); \`src/demo.tsx\` shows the wiring with sample data. See \`## Usage\`.` : ""}
 - **React + shadcn target** — add the \`@audio\` registry (\`${SITE}/docs/registry\`) and install as above; the demos in
-  \`src/examples/\` show the exact usage. The elements live in \`ui/_sources/audio-ui/registry-audio/bases/base/audio/\`.
+  \`upstream/examples/\` show the exact usage. The elements live in \`ui/_sources/audio-ui/registry-audio/bases/base/audio/\`.
 - **Any other stack** — \`static/<example>.html\` is the rendered DOM against \`ui/_sources/audio-ui/styles.css\` (the
   site's Tailwind build with the Nova style); keep the markup, re-implement drag/keyboard behavior from the docs.
 
 ## Examples
 
-${examples.map((e) => `- \`src/examples/${basename(e.file)}\` — ${md(e.description ?? e.title)} · static: \`static/${e.name}.html\``).join("\n")}
+${examples.map((e) => `- \`upstream/examples/${basename(e.file)}\` — ${md(e.description ?? e.title)} · static: \`static/${e.name}.html\``).join("\n")}
 
 ## Files
 
-${elementFiles.map((f) => `- \`${f}\` — the element as the registry installs it`).join("\n")}${elementFiles.length ? "\n" : ""}- \`src/demo.tsx\` — bank harness mounting every example
+${existsSync(join(dir, "src")) ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}${elementFiles.map((f) => `- \`${f}\` — the element as the registry installs it`).join("\n")}${elementFiles.length ? "\n" : ""}- \`upstream/demo.tsx\` — bank harness mounting every example
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${ref.page ?? `${REPO}/tree/main/apps/www/src/registry-audio/bases/base/${posix(relative(join(BASES, "base"), examples[0].file))}`}
-`);
+${usage.has(`audio-ui-${ref.slug}`) ? `\n${usage.get(`audio-ui-${ref.slug}`)}` : ""}`);
   write(join(dir, "SOURCE.md"), `# Source
 
 - Site: ${ref.page ?? SITE}

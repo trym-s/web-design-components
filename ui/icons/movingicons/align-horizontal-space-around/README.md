@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/align-horizontal-space-around/src/align-horizontal-space-around.svelte`
+- Entry point: `ui/icons/movingicons/align-horizontal-space-around/upstream/align-horizontal-space-around.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/align-horizontal-space-around`
 - Registry: https://movingicons.dev/r/align-horizontal-space-around
-- Local source fallback: `ui/icons/movingicons/align-horizontal-space-around/src/align-horizontal-space-around.svelte`
+- Local source fallback: `ui/icons/movingicons/align-horizontal-space-around/upstream/align-horizontal-space-around.svelte`

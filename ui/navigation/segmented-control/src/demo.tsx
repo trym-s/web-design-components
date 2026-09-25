@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { SegmentedControl } from "./segmented-control";
 
@@ -10,7 +8,7 @@ const RANGES = [
   { value: "quarter", label: "Quarter" },
 ];
 
-export function SegmentedControlDemo() {
+export default function SegmentedControlDemo() {
   const [range, setRange] = useState("day");
 
   return (

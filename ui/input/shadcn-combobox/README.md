@@ -7,7 +7,7 @@ Autocomplete input with a list of suggestions.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/combobox.tsx`
+- Entry point: `upstream/ui/combobox.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Autocomplete input with a list of suggestions.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Autocomplete input with a list of suggestions.
 
 ## Documentation
 
-> Example `combobox-demo` (base-nova) — `src/examples/combobox-demo.tsx`, `static/combobox-demo.html`
+> Example `combobox-demo` (base-nova) — `upstream/examples/combobox-demo.tsx`, `static/combobox-demo.html`
 
 ## Installation
 
@@ -249,67 +249,67 @@ export function ExampleComboboxMultiple() {
 
 A simple combobox with a list of frameworks.
 
-> Example `combobox-basic` (base-nova) — `src/examples/combobox-basic.tsx`, `static/combobox-basic.html`
+> Example `combobox-basic` (base-nova) — `upstream/examples/combobox-basic.tsx`, `static/combobox-basic.html`
 
 ## Multiple
 
 A combobox with multiple selection using `multiple` and `ComboboxChips`.
 
-> Example `combobox-multiple` (base-nova) — `src/examples/combobox-multiple.tsx`, `static/combobox-multiple.html`
+> Example `combobox-multiple` (base-nova) — `upstream/examples/combobox-multiple.tsx`, `static/combobox-multiple.html`
 
 ## Clear Button
 
 Use the `showClear` prop to show a clear button.
 
-> Example `combobox-clear` (base-nova) — `src/examples/combobox-clear.tsx`, `static/combobox-clear.html`
+> Example `combobox-clear` (base-nova) — `upstream/examples/combobox-clear.tsx`, `static/combobox-clear.html`
 
 ## Groups
 
 Use `ComboboxGroup` and `ComboboxSeparator` to group items.
 
-> Example `combobox-groups` (base-nova) — `src/examples/combobox-groups.tsx`, `static/combobox-groups.html`
+> Example `combobox-groups` (base-nova) — `upstream/examples/combobox-groups.tsx`, `static/combobox-groups.html`
 
 ## Custom Items
 
 You can render a custom component inside `ComboboxItem`.
 
-> Example `combobox-custom` (base-nova) — `src/examples/combobox-custom.tsx`, `static/combobox-custom.html`
+> Example `combobox-custom` (base-nova) — `upstream/examples/combobox-custom.tsx`, `static/combobox-custom.html`
 
 ## Invalid
 
 Use the `aria-invalid` prop to make the combobox invalid.
 
-> Example `combobox-invalid` (base-nova) — `src/examples/combobox-invalid.tsx`, `static/combobox-invalid.html`
+> Example `combobox-invalid` (base-nova) — `upstream/examples/combobox-invalid.tsx`, `static/combobox-invalid.html`
 
 ## Disabled
 
 Use the `disabled` prop to disable the combobox.
 
-> Example `combobox-disabled` (base-nova) — `src/examples/combobox-disabled.tsx`, `static/combobox-disabled.html`
+> Example `combobox-disabled` (base-nova) — `upstream/examples/combobox-disabled.tsx`, `static/combobox-disabled.html`
 
 ## Auto Highlight
 
 Use the `autoHighlight` prop to automatically highlight the first item on filter.
 
-> Example `combobox-auto-highlight` (base-nova) — `src/examples/combobox-auto-highlight.tsx`, `static/combobox-auto-highlight.html`
+> Example `combobox-auto-highlight` (base-nova) — `upstream/examples/combobox-auto-highlight.tsx`, `static/combobox-auto-highlight.html`
 
 ## Popup
 
 You can trigger the combobox from a button or any other component by using the `render` prop. Move the `ComboboxInput` inside the `ComboboxContent`.
 
-> Example `combobox-popup` (base-nova) — `src/examples/combobox-popup.tsx`, `static/combobox-popup.html`
+> Example `combobox-popup` (base-nova) — `upstream/examples/combobox-popup.tsx`, `static/combobox-popup.html`
 
 ## Input Group
 
 You can add an addon to the combobox by using the `InputGroupAddon` component inside the `ComboboxInput`.
 
-> Example `combobox-input-group` — `src/examples/combobox-input-group.tsx`, `static/combobox-input-group.html`
+> Example `combobox-input-group` — `upstream/examples/combobox-input-group.tsx`, `static/combobox-input-group.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `combobox-rtl` — `src/examples/combobox-rtl.tsx`, `static/combobox-rtl.html`
+> Example `combobox-rtl` — `upstream/examples/combobox-rtl.tsx`, `static/combobox-rtl.html`
 
 ## API Reference
 
@@ -317,29 +317,29 @@ See the [Base UI](https://base-ui.com/react/components/combobox#api-reference) d
 
 ## Files
 
-- `src/ui/combobox.tsx` — the ui file as the registry installs it
-- `src/examples/combobox-demo.tsx`
-- `src/examples/combobox-basic.tsx`
-- `src/examples/combobox-multiple.tsx`
-- `src/examples/combobox-clear.tsx`
-- `src/examples/combobox-groups.tsx`
-- `src/examples/combobox-custom.tsx`
-- `src/examples/combobox-invalid.tsx`
-- `src/examples/combobox-disabled.tsx`
-- `src/examples/combobox-auto-highlight.tsx`
-- `src/examples/combobox-popup.tsx`
-- `src/examples/combobox-input-group.tsx`
-- `src/examples/combobox-auto-highlight.tsx`
-- `src/examples/combobox-basic.tsx`
-- `src/examples/combobox-clear.tsx`
-- `src/examples/combobox-custom.tsx`
-- `src/examples/combobox-demo.tsx`
-- `src/examples/combobox-disabled.tsx`
-- `src/examples/combobox-groups.tsx`
-- `src/examples/combobox-invalid.tsx`
-- `src/examples/combobox-multiple.tsx`
-- `src/examples/combobox-popup.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/combobox.tsx` — the ui file as the registry installs it
+- `upstream/examples/combobox-demo.tsx`
+- `upstream/examples/combobox-basic.tsx`
+- `upstream/examples/combobox-multiple.tsx`
+- `upstream/examples/combobox-clear.tsx`
+- `upstream/examples/combobox-groups.tsx`
+- `upstream/examples/combobox-custom.tsx`
+- `upstream/examples/combobox-invalid.tsx`
+- `upstream/examples/combobox-disabled.tsx`
+- `upstream/examples/combobox-auto-highlight.tsx`
+- `upstream/examples/combobox-popup.tsx`
+- `upstream/examples/combobox-input-group.tsx`
+- `upstream/examples/combobox-auto-highlight.tsx`
+- `upstream/examples/combobox-basic.tsx`
+- `upstream/examples/combobox-clear.tsx`
+- `upstream/examples/combobox-custom.tsx`
+- `upstream/examples/combobox-demo.tsx`
+- `upstream/examples/combobox-disabled.tsx`
+- `upstream/examples/combobox-groups.tsx`
+- `upstream/examples/combobox-invalid.tsx`
+- `upstream/examples/combobox-multiple.tsx`
+- `upstream/examples/combobox-popup.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/combobox

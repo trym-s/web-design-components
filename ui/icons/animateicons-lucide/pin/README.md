@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/pin/src/pin.tsx`
+- Entry point: `ui/icons/animateicons-lucide/pin/upstream/pin.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pin.json`
 - Registry: https://animateicons.in/r/lu-pin.json
-- Local source fallback: `ui/icons/animateicons-lucide/pin/src/pin.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/pin/upstream/pin.tsx`

@@ -7,7 +7,7 @@ A control that allows the user to toggle between checked and not checked.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/checkbox.tsx`
+- Entry point: `upstream/ui/checkbox.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A control that allows the user to toggle between checked and not checked.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A control that allows the user to toggle between checked and not checked.
 
 ## Documentation
 
-> Example `checkbox-demo` — `src/examples/checkbox-demo.tsx`, `static/checkbox-demo.html`
+> Example `checkbox-demo` — `upstream/examples/checkbox-demo.tsx`, `static/checkbox-demo.html`
 
 ## Installation
 
@@ -80,41 +80,41 @@ export function Example() {
 Set `aria-invalid` on the checkbox and `data-invalid` on the field wrapper to
 show the invalid styles.
 
-> Example `checkbox-invalid` — `src/examples/checkbox-invalid.tsx`, `static/checkbox-invalid.html`
+> Example `checkbox-invalid` — `upstream/examples/checkbox-invalid.tsx`, `static/checkbox-invalid.html`
 
 ## Basic
 
 Pair the checkbox with `Field` and `FieldLabel` for proper layout and labeling.
 
-> Example `checkbox-basic` — `src/examples/checkbox-basic.tsx`, `static/checkbox-basic.html`
+> Example `checkbox-basic` — `upstream/examples/checkbox-basic.tsx`, `static/checkbox-basic.html`
 
 ## Description
 
 Use `FieldContent` and `FieldDescription` for helper text.
 
-> Example `checkbox-description` — `src/examples/checkbox-description.tsx`, `static/checkbox-description.html`
+> Example `checkbox-description` — `upstream/examples/checkbox-description.tsx`, `static/checkbox-description.html`
 
 ## Disabled
 
 Use the `disabled` prop to prevent interaction and add the `data-disabled` attribute to the `<Field>` component for disabled styles.
 
-> Example `checkbox-disabled` — `src/examples/checkbox-disabled.tsx`, `static/checkbox-disabled.html`
+> Example `checkbox-disabled` — `upstream/examples/checkbox-disabled.tsx`, `static/checkbox-disabled.html`
 
 ## Group
 
 Use multiple fields to create a checkbox list.
 
-> Example `checkbox-group` — `src/examples/checkbox-group.tsx`, `static/checkbox-group.html`
+> Example `checkbox-group` — `upstream/examples/checkbox-group.tsx`, `static/checkbox-group.html`
 
 ## Table
 
-> Example `checkbox-table` — `src/examples/checkbox-table.tsx`, `static/checkbox-table.html`
+> Example `checkbox-table` — `upstream/examples/checkbox-table.tsx`, `static/checkbox-table.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `checkbox-rtl` — `src/examples/checkbox-rtl.tsx`, `static/checkbox-rtl.html`
+> Example `checkbox-rtl` — `upstream/examples/checkbox-rtl.tsx`, `static/checkbox-rtl.html`
 
 ## API Reference
 
@@ -122,15 +122,15 @@ See the [Radix UI](https://www.radix-ui.com/docs/primitives/components/checkbox#
 
 ## Files
 
-- `src/ui/checkbox.tsx` — the ui file as the registry installs it
-- `src/examples/checkbox-demo.tsx`
-- `src/examples/checkbox-invalid.tsx`
-- `src/examples/checkbox-basic.tsx`
-- `src/examples/checkbox-description.tsx`
-- `src/examples/checkbox-disabled.tsx`
-- `src/examples/checkbox-group.tsx`
-- `src/examples/checkbox-table.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/checkbox.tsx` — the ui file as the registry installs it
+- `upstream/examples/checkbox-demo.tsx`
+- `upstream/examples/checkbox-invalid.tsx`
+- `upstream/examples/checkbox-basic.tsx`
+- `upstream/examples/checkbox-description.tsx`
+- `upstream/examples/checkbox-disabled.tsx`
+- `upstream/examples/checkbox-group.tsx`
+- `upstream/examples/checkbox-table.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/checkbox

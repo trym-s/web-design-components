@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/map-pin-check-inside/src/map-pin-check-inside.vue`
+- Entry point: `ui/icons/lucide-motion-vue/map-pin-check-inside/upstream/map-pin-check-inside.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/map-pin-check-inside/src/map-pin-check-inside.vue`
+- Local source: `ui/icons/lucide-motion-vue/map-pin-check-inside/upstream/map-pin-check-inside.vue`

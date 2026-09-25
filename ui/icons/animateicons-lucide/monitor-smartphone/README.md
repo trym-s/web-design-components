@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/monitor-smartphone/src/monitor-smartphone.tsx`
+- Entry point: `ui/icons/animateicons-lucide/monitor-smartphone/upstream/monitor-smartphone.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-monitor-smartphone.json`
 - Registry: https://animateicons.in/r/lu-monitor-smartphone.json
-- Local source fallback: `ui/icons/animateicons-lucide/monitor-smartphone/src/monitor-smartphone.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/monitor-smartphone/upstream/monitor-smartphone.tsx`

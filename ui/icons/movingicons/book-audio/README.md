@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/book-audio/src/book-audio.svelte`
+- Entry point: `ui/icons/movingicons/book-audio/upstream/book-audio.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/book-audio`
 - Registry: https://movingicons.dev/r/book-audio
-- Local source fallback: `ui/icons/movingicons/book-audio/src/book-audio.svelte`
+- Local source fallback: `ui/icons/movingicons/book-audio/upstream/book-audio.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-braces-loop/src/cloud-alt-braces-loop.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-braces-loop/upstream/cloud-alt-braces-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-braces-loop/src/cloud-alt-braces-loop.svg`
+- Local source: `ui/icons/line-md/cloud-alt-braces-loop/upstream/cloud-alt-braces-loop.svg`

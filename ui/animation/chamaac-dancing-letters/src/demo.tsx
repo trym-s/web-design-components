@@ -1,8 +1,9 @@
-import Example from "./examples/dancing-letters-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "dancing-letters", title: "Dancing Letters", component: Example }];
+import DancingLetters from "./dancing-letters";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex flex-col items-center justify-center gap-8">
+      <DancingLetters text="ANIMATE" />
+    </div>
+  );
 }

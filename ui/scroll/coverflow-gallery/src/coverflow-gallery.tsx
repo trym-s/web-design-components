@@ -1,83 +1,101 @@
-"use client";
+/**
+ * Coverflow Gallery — Originkit (source supplied by the user). Cards fan out in perspective around the
+ * active one; click or arrow keys move, optional autoplay. Colours are the `--coverflow-*` variables
+ * declared on the root with the upstream values.
+ */
+import { useCallback, useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 
-import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
-import ameliaFoster from "../../../_sources/originkit/media/amelia-foster.png";
-import benjaminHarris from "../../../_sources/originkit/media/benjamin-harris.png";
-import concreteForm from "../../../_sources/originkit/media/concrete-form.png";
-import jamesWalker from "../../../_sources/originkit/media/james-walker.png";
-import lucasMartin from "../../../_sources/originkit/media/lucas-martin.png";
-import metalMinimal from "../../../_sources/originkit/media/metal-minimal.png";
-import oliviaCarter from "../../../_sources/originkit/media/olivia-carter.png";
-import steelClean from "../../../_sources/originkit/media/steel-clean.png";
-
-interface Slide {
-  image?: { src?: string; srcSet?: string; alt?: string };
+export type CoverflowSlide = {
+  image?: { src: string; srcSet?: string; alt?: string };
+  /** Rendered instead of an image (e.g. a placeholder or any card content). */
+  content?: ReactNode;
+  /** Shown over the card; `\n` breaks lines. */
   title?: string;
-}
-
+};
 type AutoplayDir = "leftToRight" | "rightToLeft";
 type TitleCorner = "topLeft" | "topRight" | "bottomLeft" | "bottomRight";
 
-export interface CoverflowGalleryProps {
-  slides?: Slide[];
+export type CoverflowGalleryProps = {
+  slides: CoverflowSlide[];
+  /** Controlled active index (else internal, starting at `defaultActive`). */
+  active?: number;
+  defaultActive?: number;
+  onActiveChange?: (index: number) => void;
   cardWidth?: number;
   cardHeight?: number;
+  /** 0–20 → 0 … half the shorter card side. */
   radius?: number;
   tilt?: number;
   sideTilt?: number;
   gap?: number;
+  /** Dimming of inactive cards, 0–100. */
   opacity?: number;
   transition?: { duration?: number; delay?: number; ease?: string | number[] };
   autoplay?: boolean;
   autoplayDirection?: AutoplayDir;
   showTitle?: boolean;
-  titleFont?: CSSProperties;
-  titleColor?: string;
+  titleStyle?: CSSProperties;
   titlePosition?: { position?: TitleCorner; paddingLeft?: number; paddingRight?: number; paddingTop?: number; paddingBottom?: number };
+  className?: string;
   style?: CSSProperties;
-}
-
-const DEFAULT_SLIDES: Slide[] = [
-  { image: { src: metalMinimal }, title: "For Sitting\nMetal\nMinimal" },
-  { image: { src: concreteForm }, title: "For Living\nConcrete\nForm" },
-  { image: { src: steelClean }, title: "For Working\nSteel\nClean" },
-];
+};
 
 const PERSPECTIVE = 1600;
 const SCALE_STEP = 0.16;
 const MAX_VISIBLE = 2;
 const DEPTH = 240;
+const VARS = "[--coverflow-card:oklch(0.218_0_0)] [--coverflow-scrim:oklch(0_0_0)] [--coverflow-title:oklch(1_0_0)]";
 
 function cssTransition(t: CoverflowGalleryProps["transition"]) {
   const dur = t?.duration ?? 0.6;
   const e = t?.ease;
-  const ease = Array.isArray(e) && e.length === 4
-    ? `cubic-bezier(${e.join(", ")})`
-    : typeof e === "string"
-      ? ({ linear: "linear", easeIn: "ease-in", easeOut: "ease-out", easeInOut: "ease-in-out" }[e] || "ease")
-      : "cubic-bezier(0.22, 1, 0.36, 1)";
+  const ease =
+    Array.isArray(e) && e.length === 4
+      ? `cubic-bezier(${e.join(", ")})`
+      : typeof e === "string"
+        ? ({ linear: "linear", easeIn: "ease-in", easeOut: "ease-out", easeInOut: "ease-in-out" } as Record<string, string>)[e] || "ease"
+        : "cubic-bezier(0.22, 1, 0.36, 1)";
   return { dur, ease };
 }
 
-export default function CoverflowGallery(props: CoverflowGalleryProps) {
-  const { slides = DEFAULT_SLIDES, cardWidth = 400, cardHeight = 400, radius = 3, tilt = 12, sideTilt = 8, gap = 8, opacity = 60, transition, autoplay = false, autoplayDirection = "rightToLeft", showTitle = true, titleFont, titleColor = "#ffffff", titlePosition, style } = { ...COMPONENT_DEFAULTS, ...props };
-  const list = slides.length ? slides : DEFAULT_SLIDES;
-  const n = list.length;
-  const [active, setActive] = useState(0);
+export function CoverflowGallery({
+  slides, active: activeProp, defaultActive = 0, onActiveChange, cardWidth = 400, cardHeight = 400, radius = 3, tilt = 12,
+  sideTilt = 8, gap = 8, opacity = 60, transition, autoplay = false, autoplayDirection = "rightToLeft", showTitle = true,
+  titleStyle, titlePosition, className, style,
+}: CoverflowGalleryProps) {
+  const n = slides.length;
+  const [inner, setInner] = useState(defaultActive);
+  const active = activeProp ?? inner;
+  const activeRef = useRef(active);
+  activeRef.current = active;
   const lockRef = useRef(false);
   const moveDur = transition?.duration ?? 0.6;
 
-  useEffect(() => setActive((a) => Math.max(0, Math.min(n - 1, a))), [n]);
+  const go = useCallback(
+    (index: number) => {
+      setInner(index);
+      onActiveChange?.(index);
+    },
+    [onActiveChange],
+  );
+  useEffect(() => {
+    if (n && active > n - 1) go(n - 1);
+  }, [n, active, go]);
 
   const lock = useCallback(() => {
     lockRef.current = true;
-    window.setTimeout(() => { lockRef.current = false; }, Math.max(50, moveDur * 1000));
+    window.setTimeout(() => {
+      lockRef.current = false;
+    }, Math.max(50, moveDur * 1000));
   }, [moveDur]);
-  const step = useCallback((dir: number) => {
-    if (lockRef.current) return;
-    lock();
-    setActive((a) => (((a + dir) % n) + n) % n);
-  }, [lock, n]);
+  const step = useCallback(
+    (dir: number) => {
+      if (lockRef.current || !n) return;
+      lock();
+      go((((activeRef.current + dir) % n) + n) % n);
+    },
+    [lock, n, go],
+  );
 
   const delay = transition?.delay ?? 2.5;
   useEffect(() => {
@@ -93,35 +111,98 @@ export default function CoverflowGallery(props: CoverflowGalleryProps) {
   const corner = titlePosition?.position ?? "bottomLeft";
   const isTop = corner === "topLeft" || corner === "topRight";
   const isRight = corner === "topRight" || corner === "bottomRight";
+  const pad = titlePosition ?? {};
 
   return (
     <div
-      style={{ ...style, position: "relative", width: "100%", height: "100%", minWidth: 320, minHeight: 360, display: "flex", alignItems: "center", justifyContent: "center", perspective: `${PERSPECTIVE}px`, overflow: "hidden", outline: "none" }}
+      className={[VARS, "relative flex size-full min-h-[360px] min-w-[320px] items-center justify-center overflow-hidden outline-none", className].filter(Boolean).join(" ")}
+      style={{ ...style, perspective: `${PERSPECTIVE}px` }}
       tabIndex={0}
       role="group"
       aria-roledescription="carousel"
-      onKeyDown={(e) => { if (e.key === "ArrowRight") { e.preventDefault(); step(1); } else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); } }}
+      onKeyDown={(e) => {
+        if (e.key === "ArrowRight") {
+          e.preventDefault();
+          step(1);
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          step(-1);
+        }
+      }}
     >
-      <div style={{ position: "relative", width: cardWidth, height: cardHeight, transformStyle: "preserve-3d" }}>
-        {list.map((slide, i) => {
+      <div className="relative" style={{ width: cardWidth, height: cardHeight, transformStyle: "preserve-3d" }}>
+        {slides.map((slide, i) => {
           let rel = i - active;
           if (rel > n / 2) rel -= n;
           if (rel < -n / 2) rel += n;
           const distance = Math.abs(rel);
           const visible = distance <= MAX_VISIBLE;
           const isActive = rel === 0;
-          const pad = titlePosition ?? {};
           return (
             <div
               key={i}
-              onClick={() => { if (!autoplay && !lockRef.current) { lock(); setActive((a) => i === a ? (a + 1) % n : i); } }}
+              onClick={() => {
+                if (!autoplay && !lockRef.current) {
+                  lock();
+                  go(i === active ? (active + 1) % n : i);
+                }
+              }}
               aria-label={slide.title}
               aria-hidden={!visible}
-              style={{ position: "absolute", left: "50%", top: "50%", width: cardWidth, height: cardHeight, borderRadius: effectiveRadius, overflow: "hidden", transformStyle: "preserve-3d", transform: `translate(-50%, -50%) translateX(${rel * gap * 30}px) translateZ(${-distance * DEPTH}px) rotateY(${-rel * tilt}deg) rotateZ(${rel * sideTilt}deg) scale(${Math.max(0.4, 1 - distance * SCALE_STEP)})`, transition: transitionCss, opacity: visible ? 1 : 0, cursor: autoplay || isActive ? "default" : "pointer", pointerEvents: visible && !autoplay ? "auto" : "none", background: "#1a1a1a" }}
+              className="absolute top-1/2 left-1/2 overflow-hidden bg-(--coverflow-card)"
+              style={{
+                width: cardWidth,
+                height: cardHeight,
+                borderRadius: effectiveRadius,
+                transformStyle: "preserve-3d",
+                transform: `translate(-50%, -50%) translateX(${rel * gap * 30}px) translateZ(${-distance * DEPTH}px) rotateY(${-rel * tilt}deg) rotateZ(${rel * sideTilt}deg) scale(${Math.max(0.4, 1 - distance * SCALE_STEP)})`,
+                transition: transitionCss,
+                opacity: visible ? 1 : 0,
+                cursor: autoplay || isActive ? "default" : "pointer",
+                pointerEvents: visible && !autoplay ? "auto" : "none",
+              }}
             >
-              {slide.image?.src && <img src={slide.image.src} alt={slide.image.alt || slide.title || ""} draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block", userSelect: "none" }} />}
-              {showTitle && <><div style={{ position: "absolute", inset: 0, background: isTop ? "linear-gradient(0deg, transparent 35%, rgba(0,0,0,.7))" : "linear-gradient(180deg, transparent 35%, rgba(0,0,0,.7))", pointerEvents: "none" }} /><div style={{ position: "absolute", left: pad.paddingLeft ?? 22, right: pad.paddingRight ?? 22, [isTop ? "top" : "bottom"]: isTop ? pad.paddingTop ?? 24 : pad.paddingBottom ?? 24, textAlign: isRight ? "right" : "left", pointerEvents: "none" }}><span style={{ color: titleColor, fontSize: 28, fontWeight: 700, lineHeight: "1.1em", letterSpacing: "-0.02em", whiteSpace: "pre-line", textShadow: "0 2px 10px rgba(0,0,0,.4)", ...titleFont }}>{slide.title}</span></div></>}
-              <div style={{ position: "absolute", inset: 0, background: "#000", opacity: isActive ? 0 : dim, transition: `opacity ${dur}s ${ease}`, pointerEvents: "none" }} />
+              {slide.image ? (
+                <img
+                  src={slide.image.src}
+                  srcSet={slide.image.srcSet}
+                  alt={slide.image.alt || slide.title || ""}
+                  draggable={false}
+                  className="absolute inset-0 block size-full select-none object-cover"
+                />
+              ) : (
+                <div className="absolute inset-0">{slide.content}</div>
+              )}
+              {showTitle && slide.title && (
+                <>
+                  <div
+                    className="pointer-events-none absolute inset-0"
+                    style={{
+                      background: `linear-gradient(${isTop ? "0deg" : "180deg"}, transparent 35%, color-mix(in oklab, var(--coverflow-scrim) 70%, transparent))`,
+                    }}
+                  />
+                  <div
+                    className="pointer-events-none absolute"
+                    style={{
+                      left: pad.paddingLeft ?? 22,
+                      right: pad.paddingRight ?? 22,
+                      [isTop ? "top" : "bottom"]: isTop ? pad.paddingTop ?? 24 : pad.paddingBottom ?? 24,
+                      textAlign: isRight ? "right" : "left",
+                    }}
+                  >
+                    <span
+                      className="whitespace-pre-line font-sans text-[28px] font-bold leading-[1.1em] tracking-[-0.02em] text-(--coverflow-title) [text-shadow:0_2px_10px_color-mix(in_oklab,var(--coverflow-scrim)_40%,transparent)]"
+                      style={titleStyle}
+                    >
+                      {slide.title}
+                    </span>
+                  </div>
+                </>
+              )}
+              <div
+                className="pointer-events-none absolute inset-0 bg-(--coverflow-scrim)"
+                style={{ opacity: isActive ? 0 : dim, transition: `opacity ${dur}s ${ease}` }}
+              />
             </div>
           );
         })}
@@ -129,27 +210,3 @@ export default function CoverflowGallery(props: CoverflowGalleryProps) {
     </div>
   );
 }
-
-export const COMPONENT_DEFAULTS = {
-  slides: [
-    { image: { src: jamesWalker }, title: "James Walker" },
-    { image: { src: oliviaCarter }, title: "Olivia Carter" },
-    { image: { src: ameliaFoster }, title: "Amelia Foster" },
-    { image: { src: benjaminHarris }, title: "Benjamin Harris" },
-    { image: { src: lucasMartin }, title: "Lucas Martin" },
-  ],
-  cardWidth: 400,
-  cardHeight: 400,
-  radius: 3,
-  tilt: 12,
-  sideTilt: 8,
-  gap: 8,
-  opacity: 60,
-  autoplay: false,
-  autoplayDirection: "rightToLeft" as AutoplayDir,
-  transition: { duration: 0.6, delay: 2.5, ease: [0.22, 1, 0.36, 1] },
-  showTitle: true,
-  titleFont: { fontFamily: "Inter", fontSize: "28px", letterSpacing: "-0.02em", lineHeight: "1.1em" },
-  titleColor: "#ffffff",
-  titlePosition: { position: "bottomLeft" as TitleCorner, paddingLeft: 22, paddingRight: 22, paddingTop: 24, paddingBottom: 24 },
-};

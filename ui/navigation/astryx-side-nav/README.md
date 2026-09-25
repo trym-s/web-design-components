@@ -7,7 +7,7 @@ A sidebar navigation component for organizing application pages with sections, n
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/SideNav.tsx`
+- Entry point: `upstream/SideNav.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A sidebar navigation component for organizing application pages with sections, n
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,18 +33,18 @@ A sidebar navigation component for organizing application pages with sections, n
 
 ## Examples
 
-- `src/examples/SideNavCollapseButtonShowcase.tsx` — Side Nav Collapse Button: Demonstrates SideNavCollapseButton inside a collapsible SideNav. · static: `static/SideNavCollapseButtonShowcase.html`
-- `src/examples/SideNavHeadingShowcase.tsx` — Side Nav Heading: Demonstrates SideNavHeading with an app name, logo icon, superheading, and subheading. · static: `static/SideNavHeadingShowcase.html`
-- `src/examples/SideNavItemShowcase.tsx` — Side Nav Item: Demonstrates SideNavItem with selected, icon, disabled, and nested states. · static: `static/SideNavItemShowcase.html`
-- `src/examples/SideNavSectionShowcase.tsx` — Side Nav Section: Demonstrates SideNavSection with titled groups of navigation items. · static: `static/SideNavSectionShowcase.html`
-- `src/examples/SideNavShowcase.tsx` — Side Nav · static: `static/SideNavShowcase.html`
-- `src/examples/SideNavCollapseButtonBasic.tsx` — SideNavCollapseButton — Basic: Place a collapse button in the SideNav footer to let users toggle the rail between expanded and collapsed states. Disable the built-in button via collapsible={{hasButton: false}} when positioning it yourself. · static: `static/SideNavCollapseButtonBasic.html`
-- `src/examples/SideNavEndContent.tsx` — SideNav — End Content: Side navigation items with badges, counts, and context menus as trailing content. · static: `static/SideNavEndContent.html`
-- `src/examples/SideNavHeadingBasic.tsx` — SideNavHeading — Basic: A SideNav header with an app icon and a linked title. Pass it to the SideNav header prop to identify the product or workspace at the top of the navigation rail. · static: `static/SideNavHeadingBasic.html`
-- `src/examples/SideNavItemBasic.tsx` — SideNavItem — Basic: Navigation links inside a SideNav, each with a label, an icon, and an href. Mark the item for the current page with isSelected. · static: `static/SideNavItemBasic.html`
-- `src/examples/SideNavNestedItems.tsx` — SideNav — Nested Items: Side navigation with collapsible nested items for settings or hierarchical menus. · static: `static/SideNavNestedItems.html`
-- `src/examples/SideNavSectionBasic.tsx` — SideNavSection — Basic: Group related SideNavItems under titled sections. Use sections to organize longer navigation lists into scannable clusters like Overview and Account. · static: `static/SideNavSectionBasic.html`
-- `src/examples/SideNavWithHeaderMenu.tsx` — SideNav — Header with Menu: Side navigation with an account switcher dropdown in the header for multi-account apps. · static: `static/SideNavWithHeaderMenu.html`
+- `upstream/examples/SideNavCollapseButtonShowcase.tsx` — Side Nav Collapse Button: Demonstrates SideNavCollapseButton inside a collapsible SideNav. · static: `static/SideNavCollapseButtonShowcase.html`
+- `upstream/examples/SideNavHeadingShowcase.tsx` — Side Nav Heading: Demonstrates SideNavHeading with an app name, logo icon, superheading, and subheading. · static: `static/SideNavHeadingShowcase.html`
+- `upstream/examples/SideNavItemShowcase.tsx` — Side Nav Item: Demonstrates SideNavItem with selected, icon, disabled, and nested states. · static: `static/SideNavItemShowcase.html`
+- `upstream/examples/SideNavSectionShowcase.tsx` — Side Nav Section: Demonstrates SideNavSection with titled groups of navigation items. · static: `static/SideNavSectionShowcase.html`
+- `upstream/examples/SideNavShowcase.tsx` — Side Nav · static: `static/SideNavShowcase.html`
+- `upstream/examples/SideNavCollapseButtonBasic.tsx` — SideNavCollapseButton — Basic: Place a collapse button in the SideNav footer to let users toggle the rail between expanded and collapsed states. Disable the built-in button via collapsible={{hasButton: false}} when positioning it yourself. · static: `static/SideNavCollapseButtonBasic.html`
+- `upstream/examples/SideNavEndContent.tsx` — SideNav — End Content: Side navigation items with badges, counts, and context menus as trailing content. · static: `static/SideNavEndContent.html`
+- `upstream/examples/SideNavHeadingBasic.tsx` — SideNavHeading — Basic: A SideNav header with an app icon and a linked title. Pass it to the SideNav header prop to identify the product or workspace at the top of the navigation rail. · static: `static/SideNavHeadingBasic.html`
+- `upstream/examples/SideNavItemBasic.tsx` — SideNavItem — Basic: Navigation links inside a SideNav, each with a label, an icon, and an href. Mark the item for the current page with isSelected. · static: `static/SideNavItemBasic.html`
+- `upstream/examples/SideNavNestedItems.tsx` — SideNav — Nested Items: Side navigation with collapsible nested items for settings or hierarchical menus. · static: `static/SideNavNestedItems.html`
+- `upstream/examples/SideNavSectionBasic.tsx` — SideNavSection — Basic: Group related SideNavItems under titled sections. Use sections to organize longer navigation lists into scannable clusters like Overview and Account. · static: `static/SideNavSectionBasic.html`
+- `upstream/examples/SideNavWithHeaderMenu.tsx` — SideNav — Header with Menu: Side navigation with an account switcher dropdown in the header for multi-account apps. · static: `static/SideNavWithHeaderMenu.html`
 
 ## Documentation
 
@@ -218,19 +218,19 @@ Styling hook class: `.astryx-side-nav`, `.astryx-side-nav-heading`, `.astryx-sid
 
 ## Files
 
-- `src/SideNav.doc.mjs`
-- `src/SideNav.tsx`
-- `src/SideNavCollapseButton.doc.mjs`
-- `src/SideNavCollapseButton.tsx`
-- `src/SideNavCollapseContext.ts`
-- `src/SideNavHeading.doc.mjs`
-- `src/SideNavHeading.tsx`
-- `src/SideNavItem.doc.mjs`
-- `src/SideNavItem.tsx`
-- `src/SideNavRenderContext.ts`
-- `src/SideNavSection.doc.mjs`
-- `src/SideNavSection.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/SideNav.doc.mjs`
+- `upstream/SideNav.tsx`
+- `upstream/SideNavCollapseButton.doc.mjs`
+- `upstream/SideNavCollapseButton.tsx`
+- `upstream/SideNavCollapseContext.ts`
+- `upstream/SideNavHeading.doc.mjs`
+- `upstream/SideNavHeading.tsx`
+- `upstream/SideNavItem.doc.mjs`
+- `upstream/SideNavItem.tsx`
+- `upstream/SideNavRenderContext.ts`
+- `upstream/SideNavSection.doc.mjs`
+- `upstream/SideNavSection.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/SideNav

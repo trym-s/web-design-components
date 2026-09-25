@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/play/src/play.tsx`
+- Entry point: `ui/icons/heroicons-animated/play/upstream/play.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/play`
 - Registry: https://www.heroicons-animated.com/r/play.json
-- Local source fallback: `ui/icons/heroicons-animated/play/src/play.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/play/upstream/play.tsx`

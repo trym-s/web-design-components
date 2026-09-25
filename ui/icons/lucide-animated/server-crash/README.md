@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/server-crash/src/server-crash.tsx`
+- Entry point: `ui/icons/lucide-animated/server-crash/upstream/server-crash.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/server-crash.json`
 - Registry: https://lucide-animated.com/r/server-crash.json
-- Local source fallback: `ui/icons/lucide-animated/server-crash/src/server-crash.tsx`
+- Local source fallback: `ui/icons/lucide-animated/server-crash/upstream/server-crash.tsx`

@@ -30,8 +30,8 @@
     </div>
 
     <script type="module">
-      import "/ui/typography/typer/src/typer/standalone/typer.css";
-      import { TyperGroup } from "/ui/typography/typer/src/typer/standalone/typer.ts";
+      import "/ui/typography/typer/upstream/typer/standalone/typer.css";
+      import { TyperGroup } from "/ui/typography/typer/upstream/typer/standalone/typer.ts";
 
       const lines = [...document.querySelectorAll("[data-typer]")];
       const group = new TyperGroup(lines, { fps: 20, cycles: 3 }, 0.15);

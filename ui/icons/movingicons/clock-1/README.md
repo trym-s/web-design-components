@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/clock-1/src/clock-1.svelte`
+- Entry point: `ui/icons/movingicons/clock-1/upstream/clock-1.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/clock-1`
 - Registry: https://movingicons.dev/r/clock-1
-- Local source fallback: `ui/icons/movingicons/clock-1/src/clock-1.svelte`
+- Local source fallback: `ui/icons/movingicons/clock-1/upstream/clock-1.svelte`

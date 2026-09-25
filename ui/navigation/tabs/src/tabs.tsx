@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import type { KeyboardEvent, ReactNode } from "react";
 import { motion, useReducedMotion } from "motion/react";
@@ -216,35 +214,35 @@ export function Tabs({
 
   return (
     <div
-      className={`w-full overflow-hidden rounded-[12px] border border-stone-200 bg-white shadow-[0_1px_2px_rgba(28,25,23,0.06),0_4px_10px_-8px_rgba(28,25,23,0.45)] dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:shadow-[0_1px_6px_rgba(0,0,0,0.45)] ${className}`}
+      className={`w-full overflow-hidden rounded-[calc(var(--radius)+2px)] border border-border bg-card shadow-sm ${className}`}
     >
       <div
         {...tabs.tabListProps}
         ref={rowRef}
         aria-label={label}
-        className="relative flex w-full gap-1 border-b border-stone-200 bg-stone-50 px-1 pt-1 dark:border-white/[0.16] dark:bg-[#1D1D1A]"
+        className="relative flex w-full gap-1 border-b border-border bg-muted px-1 pt-1"
       >
         <motion.span
           layout
           aria-hidden
           style={{
-            borderTopLeftRadius: 8,
-            borderTopRightRadius: 8,
+            borderTopLeftRadius: "calc(var(--radius) - 2px)",
+            borderTopRightRadius: "calc(var(--radius) - 2px)",
             borderBottomLeftRadius: 0,
             borderBottomRightRadius: 0,
             left: plateau.x,
             width: plateau.width,
             opacity: plateau.ready ? 1 : 0,
           }}
-          className="absolute bottom-[-1px] top-1 bg-white dark:bg-[#1D1D1A]"
+          className="absolute bottom-[-1px] top-1 bg-card"
           transition={reduced ? { duration: 0 } : INDICATOR}
         >
           <motion.span
             layout
             aria-hidden
-            style={{ borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
+            style={{ borderTopLeftRadius: "calc(var(--radius) - 2px)", borderTopRightRadius: "calc(var(--radius) - 2px)" }}
             transition={reduced ? { duration: 0 } : INDICATOR}
-            className="absolute inset-0 border border-b-0 border-stone-200 dark:border-white/[0.16]"
+            className="absolute inset-0 border border-b-0 border-border"
           />
         </motion.span>
 
@@ -257,12 +255,12 @@ export function Tabs({
               ref={(node) => {
                 tabRefs.current[index] = node;
               }}
-              className={`relative flex h-8 shrink-0 items-center justify-center rounded-t-[8px] px-3.5 text-[12.5px] outline-none transition-colors duration-150 after:pointer-events-none after:absolute after:inset-0 after:rounded-t-[8px] after:content-[''] focus-visible:after:shadow-[inset_0_0_0_1px_#4568FF] dark:focus-visible:after:shadow-[inset_0_0_0_1px_#93B0FF] ${
+              className={`relative flex h-8 shrink-0 items-center justify-center rounded-t-md px-3.5 text-[12.5px] outline-none transition-colors duration-150 after:pointer-events-none after:absolute after:inset-0 after:rounded-t-md after:content-[''] focus-visible:after:shadow-[inset_0_0_0_1px_var(--primary)] ${
                 item.disabled
-                  ? "cursor-default text-stone-400 dark:text-stone-500"
+                  ? "cursor-default text-muted-foreground"
                   : selected
-                    ? "text-stone-800 dark:text-stone-100"
-                    : "text-stone-500 hover:bg-stone-200/50 hover:text-stone-700 dark:text-stone-400 dark:hover:bg-white/[0.05] dark:hover:text-stone-200"
+                    ? "text-foreground"
+                    : "text-muted-foreground hover:bg-accent hover:text-foreground"
               }`}
             >
               <span className="relative grid place-items-center leading-[1.4]">
@@ -288,7 +286,7 @@ export function Tabs({
           initial={reduced ? false : { opacity: 0, x: tabs.direction * 12 }}
           animate={{ opacity: 1, x: 0 }}
           transition={reduced ? { duration: 0 } : PANEL}
-          className={`rounded-[11px] text-[13.5px] leading-relaxed text-stone-700 outline-none focus-visible:shadow-[inset_0_0_0_1px_#4568FF] dark:text-stone-200 dark:focus-visible:shadow-[inset_0_0_0_1px_#93B0FF] ${panelClassName}`}
+          className={`rounded-[calc(var(--radius)+1px)] text-[13.5px] leading-relaxed text-foreground outline-none focus-visible:shadow-[inset_0_0_0_1px_var(--primary)] ${panelClassName}`}
         >
           {renderPanel(tabs.value)}
         </motion.div>

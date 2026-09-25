@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-qwen-icon/src/brand-qwen-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-qwen-icon/upstream/brand-qwen-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-qwen-icon.json`
 - Registry: https://itshover.com/r/brand-qwen-icon.json
-- Local source fallback: `ui/icons/itshover/brand-qwen-icon/src/brand-qwen-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-qwen-icon/upstream/brand-qwen-icon.tsx`

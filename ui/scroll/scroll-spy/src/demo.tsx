@@ -1,6 +1,4 @@
-"use client";
-
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { ScrollSpy } from "./scroll-spy";
 
 const SECTIONS = [
@@ -54,8 +52,14 @@ const SECTIONS = [
   },
 ];
 
-export function ScrollSpyDemo() {
+export default function ScrollSpyDemo() {
   const box = useRef<HTMLDivElement>(null);
+
+  // Start part-way down so a middle section is lit.
+  useEffect(() => {
+    const el = box.current;
+    if (el) el.scrollTop = (el.scrollHeight - el.clientHeight) * 0.35;
+  }, []);
 
   return (
     <div className="mx-auto w-full max-w-[440px]">
@@ -65,18 +69,18 @@ export function ScrollSpyDemo() {
         ref={box}
         role="region"
         aria-label="Article body"
-        className="mat-well no-bar h-[220px] overflow-y-auto overscroll-contain rounded-[11px] px-3.5 py-3"
+        className="border border-border bg-card inset-shadow-xs [scrollbar-width:none] h-[220px] overflow-y-auto overscroll-contain rounded-[calc(var(--radius)+1px)] px-3.5 py-3"
       >
         {SECTIONS.map((section) => (
           <section key={section.id} className="pb-5 last:pb-0">
             <h3
               id={section.id}
-              className="text-[13px] font-medium text-ink outline-none"
+              className="text-[13px] font-medium text-foreground outline-none"
             >
               {section.label}
             </h3>
             {section.lines.map((line) => (
-              <p key={line} className="mt-1.5 text-[12.5px] text-ink-3">
+              <p key={line} className="mt-1.5 text-[12.5px] text-muted-foreground">
                 {line}
               </p>
             ))}

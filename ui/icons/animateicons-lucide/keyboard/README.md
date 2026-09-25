@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/keyboard/src/keyboard.tsx`
+- Entry point: `ui/icons/animateicons-lucide/keyboard/upstream/keyboard.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-keyboard.json`
 - Registry: https://animateicons.in/r/lu-keyboard.json
-- Local source fallback: `ui/icons/animateicons-lucide/keyboard/src/keyboard.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/keyboard/upstream/keyboard.tsx`

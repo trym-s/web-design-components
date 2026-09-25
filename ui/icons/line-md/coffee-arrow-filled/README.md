@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/coffee-arrow-filled/src/coffee-arrow-filled.svg`
+- Entry point: `ui/icons/line-md/coffee-arrow-filled/upstream/coffee-arrow-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/coffee-arrow-filled/src/coffee-arrow-filled.svg`
+- Local source: `ui/icons/line-md/coffee-arrow-filled/upstream/coffee-arrow-filled.svg`

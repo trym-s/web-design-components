@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cloud-upload/src/cloud-upload.svelte`
+- Entry point: `ui/icons/movingicons/cloud-upload/upstream/cloud-upload.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-upload`
 - Registry: https://movingicons.dev/r/cloud-upload
-- Local source fallback: `ui/icons/movingicons/cloud-upload/src/cloud-upload.svelte`
+- Local source fallback: `ui/icons/movingicons/cloud-upload/upstream/cloud-upload.svelte`

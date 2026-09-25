@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-open-up/src/arrow-open-up.svg`
+- Entry point: `ui/icons/line-md/arrow-open-up/upstream/arrow-open-up.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-open-up/src/arrow-open-up.svg`
+- Local source: `ui/icons/line-md/arrow-open-up/upstream/arrow-open-up.svg`

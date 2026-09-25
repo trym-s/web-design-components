@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { Dropdown } from "./dropdown";
 
@@ -10,16 +8,17 @@ const VISIBILITY = [
   { value: "public", label: "Public on the web" },
 ];
 
-export function DropdownDemo() {
+export default function DropdownDemo() {
   const [visibility, setVisibility] = useState("private");
 
   return (
-    <div className="grid w-full place-items-center pb-[96px]">
+    <div className="grid w-full place-items-center pb-[160px]">
       <Dropdown
         label="Visibility"
         items={VISIBILITY}
         value={visibility}
         onChange={setVisibility}
+        defaultOpen
       />
     </div>
   );

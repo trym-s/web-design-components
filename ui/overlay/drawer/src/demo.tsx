@@ -1,23 +1,21 @@
-"use client";
-
 import { useState } from "react";
 import { Drawer } from "./drawer";
 
 const FIELD =
-  "h-10 w-full rounded-[10px] border-2 border-stone-200 bg-stone-100/70 px-3 text-[13px] text-stone-700 shadow-[inset_0_1px_2px_rgba(28,25,23,0.07)] outline-none transition-[border-color,background-color,box-shadow] duration-150 placeholder:text-stone-400 focus:border-[#4568FF] focus:bg-white focus:shadow-none dark:border-white/[0.08] dark:bg-[#1D1D1A] dark:text-stone-200 dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.45)] dark:placeholder:text-stone-500 dark:focus:border-[#93B0FF] dark:focus:bg-[#252522]";
+  "h-10 w-full rounded-lg border-2 border-border bg-muted/70 px-3 text-[13px] text-foreground inset-shadow-xs outline-none transition-[border-color,background-color,box-shadow] duration-150 placeholder:text-muted-foreground focus:border-primary focus:bg-card focus:shadow-none";
 
 const LABEL =
-  "block text-[11px] font-medium uppercase tracking-[0.06em] text-stone-400 dark:text-stone-500";
+  "block text-[11px] font-medium uppercase tracking-[0.06em] text-muted-foreground";
 
-export function DrawerDemo() {
-  const [open, setOpen] = useState(false);
+export default function DrawerDemo() {
+  const [open, setOpen] = useState(true);
 
   return (
     <div className="grid w-full place-items-center">
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="mat-cap press h-9 rounded-[9px] px-3.5 text-[13px] font-medium text-ink"
+        className="border border-border bg-card shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px h-9 rounded-[calc(var(--radius)-1px)] px-3.5 text-[13px] font-medium text-foreground"
       >
         Edit profile
       </button>
@@ -32,14 +30,14 @@ export function DrawerDemo() {
             <button
               type="button"
               onClick={() => setOpen(false)}
-              className="h-8 rounded-[8px] border border-stone-200 px-3 text-[12.5px] font-medium text-stone-700 outline-none transition-colors duration-150 hover:bg-stone-100 focus-visible:border-[#4568FF] dark:border-white/[0.16] dark:text-stone-200 dark:hover:bg-white/10 dark:focus-visible:border-[#93B0FF]"
+              className="h-8 rounded-[calc(var(--radius)-2px)] border border-border px-3 text-[12.5px] font-medium text-foreground outline-none transition-colors duration-150 hover:bg-accent focus-visible:border-primary"
             >
               Cancel
             </button>
             <button
               type="button"
               onClick={() => setOpen(false)}
-              className="h-8 rounded-[8px] bg-stone-800 px-3 text-[12.5px] font-medium text-white outline-none transition-colors duration-150 hover:bg-stone-700 dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white"
+              className="h-8 rounded-[calc(var(--radius)-2px)] bg-primary px-3 text-[12.5px] font-medium text-primary-foreground outline-none transition-colors duration-150 hover:bg-primary/90"
             >
               Save changes
             </button>
@@ -89,11 +87,11 @@ export function DrawerDemo() {
               className={`${FIELD} h-auto resize-none py-2.5 leading-relaxed`}
             />
           </div>
-          <label className="flex cursor-pointer items-center gap-2.5 text-[12.5px] text-stone-600 dark:text-stone-300">
+          <label className="flex cursor-pointer items-center gap-2.5 text-[12.5px] text-muted-foreground">
             <input
               type="checkbox"
               defaultChecked
-              className="size-3.5 rounded-[5px] accent-[#4568FF]"
+              className="size-3.5 rounded-[calc(var(--radius)-5px)] accent-primary"
             />
             Show my local time to teammates
           </label>

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/keyframes-icon/src/keyframes-icon.tsx`
+- Entry point: `ui/icons/itshover/keyframes-icon/upstream/keyframes-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/keyframes-icon.json`
 - Registry: https://itshover.com/r/keyframes-icon.json
-- Local source fallback: `ui/icons/itshover/keyframes-icon/src/keyframes-icon.tsx`
+- Local source fallback: `ui/icons/itshover/keyframes-icon/upstream/keyframes-icon.tsx`

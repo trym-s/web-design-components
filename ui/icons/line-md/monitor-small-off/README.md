@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/monitor-small-off/src/monitor-small-off.svg`
+- Entry point: `ui/icons/line-md/monitor-small-off/upstream/monitor-small-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/monitor-small-off/src/monitor-small-off.svg`
+- Local source: `ui/icons/line-md/monitor-small-off/upstream/monitor-small-off.svg`

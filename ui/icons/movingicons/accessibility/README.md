@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/accessibility/src/accessibility.svelte`
+- Entry point: `ui/icons/movingicons/accessibility/upstream/accessibility.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/accessibility`
 - Registry: https://movingicons.dev/r/accessibility
-- Local source fallback: `ui/icons/movingicons/accessibility/src/accessibility.svelte`
+- Local source fallback: `ui/icons/movingicons/accessibility/upstream/accessibility.svelte`

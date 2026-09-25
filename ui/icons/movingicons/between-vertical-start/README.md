@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/between-vertical-start/src/between-vertical-start.svelte`
+- Entry point: `ui/icons/movingicons/between-vertical-start/upstream/between-vertical-start.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/between-vertical-start`
 - Registry: https://movingicons.dev/r/between-vertical-start
-- Local source fallback: `ui/icons/movingicons/between-vertical-start/src/between-vertical-start.svelte`
+- Local source fallback: `ui/icons/movingicons/between-vertical-start/upstream/between-vertical-start.svelte`

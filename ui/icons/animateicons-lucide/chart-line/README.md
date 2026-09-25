@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-line/src/chart-line.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-line/upstream/chart-line.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-line.json`
 - Registry: https://animateicons.in/r/lu-chart-line.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-line/src/chart-line.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-line/upstream/chart-line.tsx`

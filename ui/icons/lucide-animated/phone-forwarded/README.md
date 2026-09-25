@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/phone-forwarded/src/phone-forwarded.tsx`
+- Entry point: `ui/icons/lucide-animated/phone-forwarded/upstream/phone-forwarded.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/phone-forwarded.json`
 - Registry: https://lucide-animated.com/r/phone-forwarded.json
-- Local source fallback: `ui/icons/lucide-animated/phone-forwarded/src/phone-forwarded.tsx`
+- Local source fallback: `ui/icons/lucide-animated/phone-forwarded/upstream/phone-forwarded.tsx`

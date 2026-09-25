@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cellphone-screenshot-twotone/src/cellphone-screenshot-twotone.svg`
+- Entry point: `ui/icons/line-md/cellphone-screenshot-twotone/upstream/cellphone-screenshot-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cellphone-screenshot-twotone/src/cellphone-screenshot-twotone.svg`
+- Local source: `ui/icons/line-md/cellphone-screenshot-twotone/upstream/cellphone-screenshot-twotone.svg`

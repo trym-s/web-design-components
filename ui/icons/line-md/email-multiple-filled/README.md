@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-multiple-filled/src/email-multiple-filled.svg`
+- Entry point: `ui/icons/line-md/email-multiple-filled/upstream/email-multiple-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-multiple-filled/src/email-multiple-filled.svg`
+- Local source: `ui/icons/line-md/email-multiple-filled/upstream/email-multiple-filled.svg`

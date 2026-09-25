@@ -7,7 +7,7 @@ Coordinates a multi-step bottom-sheet flow in one shared dialog; set activeSheet
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/BottomSheetSwitcher.tsx`
+- Entry point: `upstream/BottomSheetSwitcher.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Coordinates a multi-step bottom-sheet flow in one shared dialog; set activeSheet
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,8 +33,8 @@ Coordinates a multi-step bottom-sheet flow in one shared dialog; set activeSheet
 
 ## Examples
 
-- `src/examples/BottomSheetSwitcherShowcase.tsx` — Bottom Sheet Switcher: A three-step flow that transitions between content-hugging sheets of different heights inside one shared dialog. · static: `static/BottomSheetSwitcherShowcase.html`
-- `src/examples/BottomSheetSwitcherReviewFlow.tsx` — Bottom Sheet Switcher — Review flow: A two-step form flow that lets a person review settings, confirm them, or move back without replacing the shared dialog. · static: `static/BottomSheetSwitcherReviewFlow.html`
+- `upstream/examples/BottomSheetSwitcherShowcase.tsx` — Bottom Sheet Switcher: A three-step flow that transitions between content-hugging sheets of different heights inside one shared dialog. · static: `static/BottomSheetSwitcherShowcase.html`
+- `upstream/examples/BottomSheetSwitcherReviewFlow.tsx` — Bottom Sheet Switcher — Review flow: A two-step form flow that lets a person review settings, confirm them, or move back without replacing the shared dialog. · static: `static/BottomSheetSwitcherReviewFlow.html`
 
 ## Documentation
 
@@ -99,11 +99,11 @@ const [activeSheet, setActiveSheet] = useState(null);
 
 ## Files
 
-- `src/BottomSheetSwitcher.doc.mjs`
-- `src/BottomSheetSwitcher.spec.md`
-- `src/BottomSheetSwitcher.tsx`
-- `src/BottomSheetSwitcherContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/BottomSheetSwitcher.doc.mjs`
+- `upstream/BottomSheetSwitcher.spec.md`
+- `upstream/BottomSheetSwitcher.tsx`
+- `upstream/BottomSheetSwitcherContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/BottomSheetSwitcher

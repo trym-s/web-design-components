@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/washing-machine/src/washing-machine.vue`
+- Entry point: `ui/icons/lucide-motion-vue/washing-machine/upstream/washing-machine.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/washing-machine/src/washing-machine.vue`
+- Local source: `ui/icons/lucide-motion-vue/washing-machine/upstream/washing-machine.vue`

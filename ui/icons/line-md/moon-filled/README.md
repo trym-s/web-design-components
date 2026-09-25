@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-filled/src/moon-filled.svg`
+- Entry point: `ui/icons/line-md/moon-filled/upstream/moon-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-filled/src/moon-filled.svg`
+- Local source: `ui/icons/line-md/moon-filled/upstream/moon-filled.svg`

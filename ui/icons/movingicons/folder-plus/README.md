@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/folder-plus/src/folder-plus.svelte`
+- Entry point: `ui/icons/movingicons/folder-plus/upstream/folder-plus.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/folder-plus`
 - Registry: https://movingicons.dev/r/folder-plus
-- Local source fallback: `ui/icons/movingicons/folder-plus/src/folder-plus.svelte`
+- Local source fallback: `ui/icons/movingicons/folder-plus/upstream/folder-plus.svelte`

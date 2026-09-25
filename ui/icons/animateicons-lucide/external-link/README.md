@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/external-link/src/external-link.tsx`
+- Entry point: `ui/icons/animateicons-lucide/external-link/upstream/external-link.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-external-link.json`
 - Registry: https://animateicons.in/r/lu-external-link.json
-- Local source fallback: `ui/icons/animateicons-lucide/external-link/src/external-link.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/external-link/upstream/external-link.tsx`

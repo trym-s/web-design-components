@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { InlineValidation } from "./inline-validation";
 
@@ -11,7 +9,7 @@ const checkEmail = (v: string) => {
   return null;
 };
 
-export function InlineValidationDemo() {
+export default function InlineValidationDemo() {
   const [email, setEmail] = useState("");
 
   return (

@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { Tabs } from "./tabs";
 
@@ -24,7 +22,7 @@ const panels: Record<string, { title: string; lines: string[] }> = {
   },
 };
 
-export function TabsDemo() {
+export default function TabsDemo() {
   const [tab, setTab] = useState("overview");
 
   return (
@@ -36,10 +34,10 @@ export function TabsDemo() {
         label="Workspace sections"
         panelClassName="mt-3"
         renderPanel={(value) => (
-          <div className="flex h-[86px] flex-col justify-center rounded-[11px] bg-sub px-3.5">
-            <p className="text-[13px] font-medium text-ink">{panels[value].title}</p>
+          <div className="flex h-[86px] flex-col justify-center rounded-[calc(var(--radius)+1px)] bg-muted px-3.5">
+            <p className="text-[13px] font-medium text-foreground">{panels[value].title}</p>
             {panels[value].lines.map((line) => (
-              <p key={line} className="mt-1 text-[12.5px] text-ink-2">
+              <p key={line} className="mt-1 text-[12.5px] text-foreground">
                 {line}
               </p>
             ))}

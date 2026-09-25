@@ -1,3 +1,3 @@
 /* Use when: A left and right sidebar. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

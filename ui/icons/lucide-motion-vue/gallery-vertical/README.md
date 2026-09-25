@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/gallery-vertical/src/gallery-vertical.vue`
+- Entry point: `ui/icons/lucide-motion-vue/gallery-vertical/upstream/gallery-vertical.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/gallery-vertical/src/gallery-vertical.vue`
+- Local source: `ui/icons/lucide-motion-vue/gallery-vertical/upstream/gallery-vertical.vue`

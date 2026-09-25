@@ -141,7 +141,7 @@ Remaining limitations:
 - `dashboard/src/registry.ts` still imports the 5.9 MB catalog statically as the
   offline fallback for the live fetch, which is most of the 6.5 MB shell chunk.
   Splitting a components-only slice out of the catalog build would remove it.
-- The icon sources exist twice on disk (`ui/icons/<set>/<name>/src/` and
+- The icon sources exist twice on disk (`ui/icons/<set>/<name>/upstream/` and
   `ui/_sources/<set>/src/`), so the viewer emits a chunk for each tree: one for
   the Files pane's raw text, one for the mountable module. Deduplicating belongs
   in the importer, not the viewer.

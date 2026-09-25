@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useMemo, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 
@@ -108,10 +106,10 @@ export type PasswordStrengthProps = {
 };
 
 const TONES = {
-  none: { bar: "bg-stone-300 dark:bg-white/20", text: "text-stone-500 dark:text-stone-400" },
-  danger: { bar: "bg-red-500", text: "text-red-600 dark:text-red-400" },
-  caution: { bar: "bg-amber-500", text: "text-amber-600 dark:text-amber-400" },
-  safe: { bar: "bg-emerald-500", text: "text-emerald-600 dark:text-emerald-400" },
+  none: { bar: "bg-foreground/15", text: "text-muted-foreground" },
+  danger: { bar: "bg-destructive", text: "text-destructive" },
+  caution: { bar: "bg-(--warning)", text: "text-(--warning)" },
+  safe: { bar: "bg-(--success)", text: "text-(--success)" },
 } as const;
 
 function toneFor(score: number, max: number) {
@@ -142,7 +140,9 @@ export function PasswordStrength({
   const tone = toneFor(score, max);
 
   return (
-    <div className={`w-full ${className}`}>
+    <div
+      className={`w-full [--success:oklch(0.596_0.145_163.2)] [--warning:oklch(0.666_0.179_58.3)] dark:[--success:oklch(0.765_0.177_163.2)] dark:[--warning:oklch(0.828_0.189_84.4)] ${className}`}
+    >
       <div
         role="meter"
         aria-label="Password strength"
@@ -156,10 +156,10 @@ export function PasswordStrength({
         {Array.from({ length: max }, (_, i) => (
           <div
             key={i}
-            className="relative h-1.5 overflow-hidden rounded-[2px] bg-stone-200 dark:bg-white/12"
+            className="relative h-1.5 overflow-hidden rounded-[calc(var(--radius)-8px)] bg-foreground/10"
           >
             <motion.span
-              className={`absolute inset-0 origin-left rounded-[2px] transition-colors duration-200 ${tone.bar}`}
+              className={`absolute inset-0 origin-left rounded-[calc(var(--radius)-8px)] transition-colors duration-200 ${tone.bar}`}
               initial={false}
               animate={{ scaleX: i < score ? 1 : 0 }}
               transition={
@@ -188,7 +188,7 @@ export function PasswordStrength({
 
         <motion.span
           aria-hidden
-          className="whitespace-nowrap text-[11.5px] leading-5 text-amber-600 dark:text-amber-400"
+          className="whitespace-nowrap text-[11.5px] leading-5 text-(--warning)"
           initial={false}
           animate={{ opacity: guessable ? 1 : 0 }}
           transition={reduced ? INSTANT : CROSSFADE}
@@ -201,9 +201,9 @@ export function PasswordStrength({
         <ul className="mt-3 grid gap-1.5">
           {evaluated.map((rule) => (
             <li key={rule.id} className="flex items-center gap-2">
-              <span className="relative grid size-[14px] shrink-0 place-items-center rounded-[4px] border border-stone-200 text-white dark:border-white/[0.16] dark:text-stone-900">
+              <span className="relative grid size-[14px] shrink-0 place-items-center rounded-[calc(var(--radius)-6px)] border border-border text-white">
                 <motion.span
-                  className="absolute inset-0 rounded-[3px] bg-emerald-500"
+                  className="absolute inset-0 rounded-[calc(var(--radius)-7px)] bg-(--success)"
                   initial={false}
                   animate={{ opacity: rule.met ? 1 : 0 }}
                   transition={reduced ? INSTANT : CROSSFADE}
@@ -229,8 +229,8 @@ export function PasswordStrength({
               <span
                 className={`text-[12.5px] leading-5 transition-colors duration-200 ${
                   rule.met
-                    ? "text-stone-700 dark:text-stone-200"
-                    : "text-stone-500 dark:text-stone-400"
+                    ? "text-foreground"
+                    : "text-muted-foreground"
                 }`}
               >
                 {rule.label}

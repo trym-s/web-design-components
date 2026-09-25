@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/circle-arrow-left/src/circle-arrow-left.svelte`
+- Entry point: `ui/icons/movingicons/circle-arrow-left/upstream/circle-arrow-left.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-left`
 - Registry: https://movingicons.dev/r/circle-arrow-left
-- Local source fallback: `ui/icons/movingicons/circle-arrow-left/src/circle-arrow-left.svelte`
+- Local source fallback: `ui/icons/movingicons/circle-arrow-left/upstream/circle-arrow-left.svelte`

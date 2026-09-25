@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/switch/src/switch.svg`
+- Entry point: `ui/icons/line-md/switch/upstream/switch.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/switch/src/switch.svg`
+- Local source: `ui/icons/line-md/switch/upstream/switch.svg`

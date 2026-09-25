@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/grip-vertical/src/grip-vertical.svelte`
+- Entry point: `ui/icons/movingicons/grip-vertical/upstream/grip-vertical.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/grip-vertical`
 - Registry: https://movingicons.dev/r/grip-vertical
-- Local source fallback: `ui/icons/movingicons/grip-vertical/src/grip-vertical.svelte`
+- Local source fallback: `ui/icons/movingicons/grip-vertical/upstream/grip-vertical.svelte`

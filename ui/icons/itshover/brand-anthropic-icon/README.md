@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-anthropic-icon/src/brand-anthropic-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-anthropic-icon/upstream/brand-anthropic-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-anthropic-icon.json`
 - Registry: https://itshover.com/r/brand-anthropic-icon.json
-- Local source fallback: `ui/icons/itshover/brand-anthropic-icon/src/brand-anthropic-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-anthropic-icon/upstream/brand-anthropic-icon.tsx`

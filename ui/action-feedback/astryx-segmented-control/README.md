@@ -7,7 +7,7 @@ A segmented button group that allows users to make a single selection from a sma
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/SegmentedControl.tsx`
+- Entry point: `upstream/SegmentedControl.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A segmented button group that allows users to make a single selection from a sma
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ A segmented button group that allows users to make a single selection from a sma
 
 ## Examples
 
-- `src/examples/SegmentedControlItemShowcase.tsx` — Segmented Control Item: Segmented control items with text labels and icons, including a disabled item. · static: `static/SegmentedControlItemShowcase.html`
-- `src/examples/SegmentedControlShowcase.tsx` — Segmented Control · static: `static/SegmentedControlShowcase.html`
-- `src/examples/SegmentedControlDisabledItem.tsx` — SegmentedControl — Disabled Item: Segmented control with an individually disabled option for unavailable choices. · static: `static/SegmentedControlDisabledItem.html`
-- `src/examples/SegmentedControlFillLayout.tsx` — SegmentedControl — Fill Layout: Segmented control that stretches segments equally to fill the available width, useful for fixed-width containers. · static: `static/SegmentedControlFillLayout.html`
-- `src/examples/SegmentedControlIconOnly.tsx` — SegmentedControl — Icon Only: Compact segmented control with hidden labels, showing only icons for space-constrained layouts. · static: `static/SegmentedControlIconOnly.html`
-- `src/examples/SegmentedControlItemBasic.tsx` — SegmentedControlItem — Basic: Label-only options inside a SegmentedControl. Each item declares a value; the parent control holds the selected value and change handler. · static: `static/SegmentedControlItemBasic.html`
-- `src/examples/SegmentedControlWithIcons.tsx` — SegmentedControl — With Icons: Segmented control with icon and label pairs for a view mode switcher. · static: `static/SegmentedControlWithIcons.html`
+- `upstream/examples/SegmentedControlItemShowcase.tsx` — Segmented Control Item: Segmented control items with text labels and icons, including a disabled item. · static: `static/SegmentedControlItemShowcase.html`
+- `upstream/examples/SegmentedControlShowcase.tsx` — Segmented Control · static: `static/SegmentedControlShowcase.html`
+- `upstream/examples/SegmentedControlDisabledItem.tsx` — SegmentedControl — Disabled Item: Segmented control with an individually disabled option for unavailable choices. · static: `static/SegmentedControlDisabledItem.html`
+- `upstream/examples/SegmentedControlFillLayout.tsx` — SegmentedControl — Fill Layout: Segmented control that stretches segments equally to fill the available width, useful for fixed-width containers. · static: `static/SegmentedControlFillLayout.html`
+- `upstream/examples/SegmentedControlIconOnly.tsx` — SegmentedControl — Icon Only: Compact segmented control with hidden labels, showing only icons for space-constrained layouts. · static: `static/SegmentedControlIconOnly.html`
+- `upstream/examples/SegmentedControlItemBasic.tsx` — SegmentedControlItem — Basic: Label-only options inside a SegmentedControl. Each item declares a value; the parent control holds the selected value and change handler. · static: `static/SegmentedControlItemBasic.html`
+- `upstream/examples/SegmentedControlWithIcons.tsx` — SegmentedControl — With Icons: Segmented control with icon and label pairs for a view mode switcher. · static: `static/SegmentedControlWithIcons.html`
 
 ## Documentation
 
@@ -108,13 +108,13 @@ Styling hook class: `.astryx-segmented-control`, `.astryx-segmented-control-item
 
 ## Files
 
-- `src/SegmentedControl.doc.mjs`
-- `src/SegmentedControl.spec.md`
-- `src/SegmentedControl.tsx`
-- `src/SegmentedControlContext.ts`
-- `src/SegmentedControlItem.doc.mjs`
-- `src/SegmentedControlItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/SegmentedControl.doc.mjs`
+- `upstream/SegmentedControl.spec.md`
+- `upstream/SegmentedControl.tsx`
+- `upstream/SegmentedControlContext.ts`
+- `upstream/SegmentedControlItem.doc.mjs`
+- `upstream/SegmentedControlItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/SegmentedControl

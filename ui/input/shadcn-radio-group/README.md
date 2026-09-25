@@ -7,7 +7,7 @@ A set of checkable buttons—known as radio buttons—where no more than one of 
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/radio-group.tsx`
+- Entry point: `upstream/ui/radio-group.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A set of checkable buttons—known as radio buttons—where no more than one of 
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A set of checkable buttons—known as radio buttons—where no more than one of 
 
 ## Documentation
 
-> Example `radio-group-demo` — `src/examples/radio-group-demo.tsx`, `static/radio-group-demo.html`
+> Example `radio-group-demo` — `upstream/examples/radio-group-demo.tsx`, `static/radio-group-demo.html`
 
 ## Installation
 
@@ -84,37 +84,37 @@ RadioGroup
 
 Radio group items with a description using the `Field` component.
 
-> Example `radio-group-description` — `src/examples/radio-group-description.tsx`, `static/radio-group-description.html`
+> Example `radio-group-description` — `upstream/examples/radio-group-description.tsx`, `static/radio-group-description.html`
 
 ## Choice Card
 
 Use `FieldLabel` to wrap the entire `Field` for a clickable card-style selection.
 
-> Example `radio-group-choice-card` — `src/examples/radio-group-choice-card.tsx`, `static/radio-group-choice-card.html`
+> Example `radio-group-choice-card` — `upstream/examples/radio-group-choice-card.tsx`, `static/radio-group-choice-card.html`
 
 ## Fieldset
 
 Use `FieldSet` and `FieldLegend` to group radio items with a label and description.
 
-> Example `radio-group-fieldset` — `src/examples/radio-group-fieldset.tsx`, `static/radio-group-fieldset.html`
+> Example `radio-group-fieldset` — `upstream/examples/radio-group-fieldset.tsx`, `static/radio-group-fieldset.html`
 
 ## Disabled
 
 Use the `disabled` prop on `RadioGroupItem` to disable individual items.
 
-> Example `radio-group-disabled` — `src/examples/radio-group-disabled.tsx`, `static/radio-group-disabled.html`
+> Example `radio-group-disabled` — `upstream/examples/radio-group-disabled.tsx`, `static/radio-group-disabled.html`
 
 ## Invalid
 
 Use `aria-invalid` on `RadioGroupItem` and `data-invalid` on `Field` to show validation errors.
 
-> Example `radio-group-invalid` — `src/examples/radio-group-invalid.tsx`, `static/radio-group-invalid.html`
+> Example `radio-group-invalid` — `upstream/examples/radio-group-invalid.tsx`, `static/radio-group-invalid.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `radio-group-rtl` — `src/examples/radio-group-rtl.tsx`, `static/radio-group-rtl.html`
+> Example `radio-group-rtl` — `upstream/examples/radio-group-rtl.tsx`, `static/radio-group-rtl.html`
 
 ## API Reference
 
@@ -122,14 +122,14 @@ See the [Radix UI Radio Group](https://www.radix-ui.com/docs/primitives/componen
 
 ## Files
 
-- `src/ui/radio-group.tsx` — the ui file as the registry installs it
-- `src/examples/radio-group-demo.tsx`
-- `src/examples/radio-group-description.tsx`
-- `src/examples/radio-group-choice-card.tsx`
-- `src/examples/radio-group-fieldset.tsx`
-- `src/examples/radio-group-disabled.tsx`
-- `src/examples/radio-group-invalid.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/radio-group.tsx` — the ui file as the registry installs it
+- `upstream/examples/radio-group-demo.tsx`
+- `upstream/examples/radio-group-description.tsx`
+- `upstream/examples/radio-group-choice-card.tsx`
+- `upstream/examples/radio-group-fieldset.tsx`
+- `upstream/examples/radio-group-disabled.tsx`
+- `upstream/examples/radio-group-invalid.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/radio-group

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-frown-open/src/emoji-frown-open.svg`
+- Entry point: `ui/icons/line-md/emoji-frown-open/upstream/emoji-frown-open.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-frown-open/src/emoji-frown-open.svg`
+- Local source: `ui/icons/line-md/emoji-frown-open/upstream/emoji-frown-open.svg`

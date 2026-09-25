@@ -57,7 +57,7 @@ const NEAR_HOME = 1.02;
 const SNAP_HOME = 1.05;
 
 const CHROME_BUTTON =
-  "grid size-8 place-items-center rounded-[9px] border border-stone-200 bg-white text-stone-500 outline-none transition-[border-color,color,box-shadow] duration-150 hover:border-stone-300 hover:text-stone-700 focus-visible:border-[#4568FF] focus-visible:shadow-[0_1px_2px_rgba(28,25,23,0.08),0_10px_20px_-14px_rgba(69,104,255,0.6)] dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-400 dark:hover:border-white/20 dark:hover:text-stone-200 dark:focus-visible:border-[#93B0FF] dark:focus-visible:shadow-[0_10px_20px_-14px_rgba(147,176,255,0.5)]";
+  "grid size-8 place-items-center rounded-[calc(var(--radius)-1px)] border border-border bg-card text-muted-foreground outline-none transition-[border-color,color,box-shadow] duration-150 hover:border-border hover:text-foreground focus-visible:border-primary focus-visible:ring-[3px] focus-visible:ring-primary/20";
 
 type Spring = {
   type: "spring";
@@ -584,7 +584,7 @@ function Stage({
           transition: reduced ? { duration: 0 } : { duration: 0.3, ease: EASE },
         }}
         transition={reduced ? { duration: 0 } : VEIL}
-        className="absolute inset-0 bg-stone-950/80"
+        className="absolute inset-0 bg-black/80"
       />
       <div
         ref={frameRef}
@@ -594,7 +594,7 @@ function Stage({
         aria-labelledby={titleId}
         aria-describedby={hintId}
         style={{ touchAction: "none", WebkitTouchCallout: "none" }}
-        className={`absolute inset-0 overflow-hidden outline-none select-none focus-visible:shadow-[inset_0_0_0_1px_#93B0FF] ${
+        className={`absolute inset-0 overflow-hidden outline-none select-none focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-ring ${
           zoomed ? "cursor-grab active:cursor-grabbing" : "cursor-zoom-in"
         }`}
         {...bind}
@@ -635,7 +635,7 @@ function Stage({
       >
         <p
           id={titleId}
-          className="pointer-events-auto max-w-[65%] truncate rounded-[9px] border border-stone-200 bg-white px-2.5 py-1.5 text-[12.5px] text-stone-700 dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-200"
+          className="pointer-events-auto max-w-[65%] truncate rounded-[calc(var(--radius)-1px)] border border-border bg-card px-2.5 py-1.5 text-[12.5px] text-foreground"
         >
           {caption ?? alt}
         </p>

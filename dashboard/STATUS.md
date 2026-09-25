@@ -51,10 +51,10 @@ and only when the real file is genuinely absent, so a future fuller capture wins
 | `./use-compact` | `dashboard/shims/liquid-use-compact.ts` — reimplemented against the captured `scenes.tsx` |
 | `./cycle` (arcade) | `dashboard/shims/arcade-cycle.ts` — **deliberate failure marker**, see below |
 | `.../ransom/manifest.json` | `dashboard/shims/ransom-manifest.json` — `{}` (sprite data not captured) |
-| `../swirl/controls` | **real file**: `ui/effects/ascii-swirl/src/swirl/controls.tsx` |
-| `../../lib/video-sources` | **real file**: `ui/animation/hover-video-button/src/app/lib/video-sources.ts` |
+| `../swirl/controls` | **real file**: `ui/effects/ascii-swirl/upstream/swirl/controls.tsx` |
+| `../../lib/video-sources` | **real file**: `ui/animation/hover-video-button/upstream/app/lib/video-sources.ts` |
 
-The last two are not shims — those modules exist in the bank, just under a different entry's `src/`.
+The last two are not shims — those modules exist in the bank, just under a different entry's `upstream/`.
 
 `arcade/cycle.ts` carries the entire phase sequence of the arcade-pixel engine and was never
 published. It cannot be faked honestly, so the shim exports throwing stubs: the card fails loudly
@@ -63,7 +63,7 @@ and gets a "needs shim" badge instead of pretending to work.
 ### The app
 
 - `dashboard/src/registry.ts` — zero manual registry. Globs `reference.tsx` / `reference.md`,
-  `README/SOURCE/PROMPT.md`, `preview.png`, and every `src/`+`registry/` file as raw text.
+  `README/SOURCE/PROMPT.md`, `preview.png`, and lists every `src/`+`upstream/`+`registry/` file; source panes fetch them on demand (GitHub Raw at the built commit, the working tree in dev).
   Derives id, category, title, `Use when:` line, and the arlan `## Classification` block
   (nature / medium / entry point). Source is inferred: transitions path → `transitions.dev`,
   has `PROMPT.md` → `arlan-vault`, has README/SOURCE → `standalone`, else `beautiful-ui`.
@@ -99,7 +99,7 @@ Only files I generated in the previous extraction step, never upstream source:
   export; the captured components use named exports (`ArcadePlayground`, `HoloCard`, …).
   `ghosty-reveal`, `hover-video-button`, and `vector-editor` now carry real demo usage
   (an inline SVG feather mask, the `/vault/amo` clip base, a parsed starting path).
-- Nothing under any `src/` or `registry/` tree was touched.
+- Nothing under any `upstream/` (then `src/`) or `registry/` tree was touched.
 
 ## Verification
 
@@ -144,5 +144,5 @@ expected unresolved captured Next.js font URLs and large registry chunk warning.
    Thinking Orbs shows five semantic states at both tuned sizes.
 3. Added a `reference` view to every detail page with a capture, preserving the full 1200×900 frame
    and linking it to the original-resolution image.
-4. Kept every retained `src/` and `registry/` snapshot untouched.
+4. Kept every retained `upstream/` (then `src/`) and `registry/` snapshot untouched.
 5. Rechecked the four repaired scenes at 640×480 and card size; `npm run build` passes.

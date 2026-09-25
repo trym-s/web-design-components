@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { ProgressBar } from "./progress-bar";
 
-export function ProgressBarDemo() {
+export default function ProgressBarDemo() {
   const [value, setValue] = useState<number | null>(null);
 
   useEffect(() => {

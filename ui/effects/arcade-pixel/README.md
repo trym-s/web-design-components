@@ -7,21 +7,21 @@
 
 - Category: `effects` — decorative
 - Medium: WebGL canvas
-- Entry point: `src/arcade/playground.tsx`
+- Entry point: `upstream/arcade/playground.tsx`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/arcade/params.ts`
-- `src/arcade/text-mask.ts`
-- `src/arcade/shaders.ts`
-- `src/arcade/engine.ts`
-- `src/arcade/playground.tsx`
+- `upstream/arcade/params.ts`
+- `upstream/arcade/text-mask.ts`
+- `upstream/arcade/shaders.ts`
+- `upstream/arcade/engine.ts`
+- `upstream/arcade/playground.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/arcade-pixel

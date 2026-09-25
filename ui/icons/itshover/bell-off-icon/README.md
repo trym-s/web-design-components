@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/bell-off-icon/src/bell-off-icon.tsx`
+- Entry point: `ui/icons/itshover/bell-off-icon/upstream/bell-off-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/bell-off-icon.json`
 - Registry: https://itshover.com/r/bell-off-icon.json
-- Local source fallback: `ui/icons/itshover/bell-off-icon/src/bell-off-icon.tsx`
+- Local source fallback: `ui/icons/itshover/bell-off-icon/upstream/bell-off-icon.tsx`

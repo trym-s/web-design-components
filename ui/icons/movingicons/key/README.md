@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/key/src/key.svelte`
+- Entry point: `ui/icons/movingicons/key/upstream/key.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/key`
 - Registry: https://movingicons.dev/r/key
-- Local source fallback: `ui/icons/movingicons/key/src/key.svelte`
+- Local source fallback: `ui/icons/movingicons/key/upstream/key.svelte`

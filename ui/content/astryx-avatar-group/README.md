@@ -7,7 +7,7 @@ AvatarGroup displays multiple avatars in an overlapping row with an optional ove
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/AvatarGroup.tsx`
+- Entry point: `upstream/AvatarGroup.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ AvatarGroup displays multiple avatars in an overlapping row with an optional ove
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ AvatarGroup displays multiple avatars in an overlapping row with an optional ove
 
 ## Examples
 
-- `src/examples/AvatarGroupOverflowShowcase.tsx` — Avatar Group Overflow: Overflow indicators for hidden avatars, including the default +N label and custom count text. · static: `static/AvatarGroupOverflowShowcase.html`
-- `src/examples/AvatarGroupShowcase.tsx` — Avatar Group: Overlapping avatar rows with a sliced visible set and a server-side overflow count. Shows team members in a compact facepile layout. · static: `static/AvatarGroupShowcase.html`
-- `src/examples/AvatarGroup.tsx` — Avatar — Group: Overlap multiple avatars in a row to represent a group of people. Use for team lists, PR reviewers, or participant counts where you want to show faces without taking up much space. · static: `static/AvatarGroup.html`
-- `src/examples/AvatarGroupInteractive.tsx` — Avatar Group — Interactive: A facepile whose avatars link to profiles, with an overflow indicator that opens the full member list. The whole group is one Tab stop; arrow keys move between the avatars and the overflow button. · static: `static/AvatarGroupInteractive.html`
-- `src/examples/AvatarGroupOverflowCustomText.tsx` — Avatar Group Overflow — Custom Text: Provide short custom children such as 12+ when the overflow count needs compact product-specific formatting. · static: `static/AvatarGroupOverflowCustomText.html`
-- `src/examples/AvatarGroupOverflowDefault.tsx` — Avatar Group Overflow — Default Count: Use AvatarGroupOverflow without children to render the standard +N overflow count. · static: `static/AvatarGroupOverflowDefault.html`
+- `upstream/examples/AvatarGroupOverflowShowcase.tsx` — Avatar Group Overflow: Overflow indicators for hidden avatars, including the default +N label and custom count text. · static: `static/AvatarGroupOverflowShowcase.html`
+- `upstream/examples/AvatarGroupShowcase.tsx` — Avatar Group: Overlapping avatar rows with a sliced visible set and a server-side overflow count. Shows team members in a compact facepile layout. · static: `static/AvatarGroupShowcase.html`
+- `upstream/examples/AvatarGroup.tsx` — Avatar — Group: Overlap multiple avatars in a row to represent a group of people. Use for team lists, PR reviewers, or participant counts where you want to show faces without taking up much space. · static: `static/AvatarGroup.html`
+- `upstream/examples/AvatarGroupInteractive.tsx` — Avatar Group — Interactive: A facepile whose avatars link to profiles, with an overflow indicator that opens the full member list. The whole group is one Tab stop; arrow keys move between the avatars and the overflow button. · static: `static/AvatarGroupInteractive.html`
+- `upstream/examples/AvatarGroupOverflowCustomText.tsx` — Avatar Group Overflow — Custom Text: Provide short custom children such as 12+ when the overflow count needs compact product-specific formatting. · static: `static/AvatarGroupOverflowCustomText.html`
+- `upstream/examples/AvatarGroupOverflowDefault.tsx` — Avatar Group Overflow — Default Count: Use AvatarGroupOverflow without children to render the standard +N overflow count. · static: `static/AvatarGroupOverflowDefault.html`
 
 ## Documentation
 
@@ -164,13 +164,13 @@ AvatarGroupOverflow 显示在 AvatarGroup 末尾，用来汇总未单独展示�
 
 ## Files
 
-- `src/AvatarGroup.doc.mjs`
-- `src/AvatarGroup.tsx`
-- `src/AvatarGroupContext.ts`
-- `src/AvatarGroupOverflow.doc.mjs`
-- `src/AvatarGroupOverflow.spec.md`
-- `src/AvatarGroupOverflow.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/AvatarGroup.doc.mjs`
+- `upstream/AvatarGroup.tsx`
+- `upstream/AvatarGroupContext.ts`
+- `upstream/AvatarGroupOverflow.doc.mjs`
+- `upstream/AvatarGroupOverflow.spec.md`
+- `upstream/AvatarGroupOverflow.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/AvatarGroup

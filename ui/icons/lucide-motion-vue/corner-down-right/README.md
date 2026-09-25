@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/corner-down-right/src/corner-down-right.vue`
+- Entry point: `ui/icons/lucide-motion-vue/corner-down-right/upstream/corner-down-right.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/corner-down-right/src/corner-down-right.vue`
+- Local source: `ui/icons/lucide-motion-vue/corner-down-right/upstream/corner-down-right.vue`

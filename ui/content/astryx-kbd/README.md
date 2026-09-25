@@ -7,7 +7,7 @@ Renders a keyboard shortcut as styled key badges. Use Kbd in tooltips, menus, an
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Kbd.tsx`
+- Entry point: `upstream/Kbd.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Renders a keyboard shortcut as styled key badges. Use Kbd in tooltips, menus, an
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Renders a keyboard shortcut as styled key badges. Use Kbd in tooltips, menus, an
 
 ## Examples
 
-- `src/examples/KbdShowcase.tsx` — Kbd · static: `static/KbdShowcase.html`
-- `src/examples/KbdInlineInstructions.tsx` — Kbd — Inline Instructions: Keyboard shortcuts rendered inline within instructional text · static: `static/KbdInlineInstructions.html`
-- `src/examples/KbdMenuShortcuts.tsx` — Kbd — Menu Shortcuts: Menu-style list pairing action labels with their keyboard shortcuts · static: `static/KbdMenuShortcuts.html`
-- `src/examples/KbdModifierCombos.tsx` — Kbd — Modifier Combinations: Modifier combinations and special keys rendered as shortcut badges · static: `static/KbdModifierCombos.html`
+- `upstream/examples/KbdShowcase.tsx` — Kbd · static: `static/KbdShowcase.html`
+- `upstream/examples/KbdInlineInstructions.tsx` — Kbd — Inline Instructions: Keyboard shortcuts rendered inline within instructional text · static: `static/KbdInlineInstructions.html`
+- `upstream/examples/KbdMenuShortcuts.tsx` — Kbd — Menu Shortcuts: Menu-style list pairing action labels with their keyboard shortcuts · static: `static/KbdMenuShortcuts.html`
+- `upstream/examples/KbdModifierCombos.tsx` — Kbd — Modifier Combinations: Modifier combinations and special keys rendered as shortcut badges · static: `static/KbdModifierCombos.html`
 
 ## Documentation
 
@@ -100,10 +100,10 @@ Styling hook class: `.astryx-kbd`
 
 ## Files
 
-- `src/Kbd.doc.mjs`
-- `src/Kbd.spec.md`
-- `src/Kbd.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Kbd.doc.mjs`
+- `upstream/Kbd.spec.md`
+- `upstream/Kbd.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Kbd

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-tags-filled/src/cloud-alt-tags-filled.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-tags-filled/upstream/cloud-alt-tags-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-tags-filled/src/cloud-alt-tags-filled.svg`
+- Local source: `ui/icons/line-md/cloud-alt-tags-filled/upstream/cloud-alt-tags-filled.svg`

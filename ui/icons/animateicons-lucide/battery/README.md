@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/battery/src/battery.tsx`
+- Entry point: `ui/icons/animateicons-lucide/battery/upstream/battery.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-battery.json`
 - Registry: https://animateicons.in/r/lu-battery.json
-- Local source fallback: `ui/icons/animateicons-lucide/battery/src/battery.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/battery/upstream/battery.tsx`

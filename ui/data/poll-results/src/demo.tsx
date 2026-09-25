@@ -10,7 +10,7 @@ const SEED: PollOption[] = [
   { id: "concrete", label: "Concrete, sealed", votes: 9 },
 ];
 
-export function PollResultsDemo() {
+export default function PollResultsDemo() {
   const [options, setOptions] = useState(SEED);
 
   return (

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-export-filled/src/file-export-filled.svg`
+- Entry point: `ui/icons/line-md/file-export-filled/upstream/file-export-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-export-filled/src/file-export-filled.svg`
+- Local source: `ui/icons/line-md/file-export-filled/upstream/file-export-filled.svg`

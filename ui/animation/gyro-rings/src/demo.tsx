@@ -1,5 +1,9 @@
-import GyroRings from "./gyro-rings";
+import { GyroRings } from "./gyro-rings";
 
-export function GyroRingsDemo() {
-  return <div style={{ width: "100%", height: 480 }}><GyroRings /></div>;
+export default function Demo() {
+  return (
+    <div className="h-[480px] w-full max-w-3xl">
+      <GyroRings />
+    </div>
+  );
 }

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/unfold-horizontal/src/unfold-horizontal.svelte`
+- Entry point: `ui/icons/movingicons/unfold-horizontal/upstream/unfold-horizontal.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/unfold-horizontal`
 - Registry: https://movingicons.dev/r/unfold-horizontal
-- Local source fallback: `ui/icons/movingicons/unfold-horizontal/src/unfold-horizontal.svelte`
+- Local source fallback: `ui/icons/movingicons/unfold-horizontal/upstream/unfold-horizontal.svelte`

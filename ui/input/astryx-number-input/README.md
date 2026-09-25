@@ -7,7 +7,7 @@ A form input for numeric values with built-in validation, min/max constraints, a
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/NumberInput.tsx`
+- Entry point: `upstream/NumberInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A form input for numeric values with built-in validation, min/max constraints, a
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A form input for numeric values with built-in validation, min/max constraints, a
 
 ## Examples
 
-- `src/examples/NumberInputShowcase.tsx` — Number Input: A number input for quantity entry. · static: `static/NumberInputShowcase.html`
-- `src/examples/NumberInputClearableNumberInput.tsx` — NumberInput — Clearable: Number input with a clear button, unit suffix, and min/max constraint · static: `static/NumberInputClearableNumberInput.html`
-- `src/examples/NumberInputRangeNumberInput.tsx` — NumberInput — Range Constrained: Number input with min/max boundaries and a helper description · static: `static/NumberInputRangeNumberInput.html`
-- `src/examples/NumberInputStatuses.tsx` — NumberInput — Status Variants: Number inputs showing error, warning, and success validation states · static: `static/NumberInputStatuses.html`
-- `src/examples/NumberInputWithUnits.tsx` — NumberInput — With Units: Number input with a percentage unit suffix and valid range · static: `static/NumberInputWithUnits.html`
+- `upstream/examples/NumberInputShowcase.tsx` — Number Input: A number input for quantity entry. · static: `static/NumberInputShowcase.html`
+- `upstream/examples/NumberInputClearableNumberInput.tsx` — NumberInput — Clearable: Number input with a clear button, unit suffix, and min/max constraint · static: `static/NumberInputClearableNumberInput.html`
+- `upstream/examples/NumberInputRangeNumberInput.tsx` — NumberInput — Range Constrained: Number input with min/max boundaries and a helper description · static: `static/NumberInputRangeNumberInput.html`
+- `upstream/examples/NumberInputStatuses.tsx` — NumberInput — Status Variants: Number inputs showing error, warning, and success validation states · static: `static/NumberInputStatuses.html`
+- `upstream/examples/NumberInputWithUnits.tsx` — NumberInput — With Units: Number input with a percentage unit suffix and valid range · static: `static/NumberInputWithUnits.html`
 
 ## Documentation
 
@@ -173,9 +173,9 @@ Styling hook class: `.astryx-number-input`
 
 ## Files
 
-- `src/NumberInput.doc.mjs`
-- `src/NumberInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/NumberInput.doc.mjs`
+- `upstream/NumberInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/NumberInput

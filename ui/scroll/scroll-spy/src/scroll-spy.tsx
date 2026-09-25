@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 
@@ -255,7 +253,7 @@ export function ScrollSpy({
 
   return (
     <nav aria-label={label} className={`w-full ${className}`}>
-      <div className="rounded-[10px] bg-stone-100/80 p-1 shadow-[inset_0_1px_2px_rgba(28,25,23,0.07)] dark:bg-[#1D1D1A] dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.45)]">
+      <div className="rounded-lg bg-muted/80 p-1 inset-shadow-xs">
         <ol className="flex gap-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {sections.map((section) => {
             const active = section.id === activeId;
@@ -273,13 +271,13 @@ export function ScrollSpy({
                     layoutId={reduced ? undefined : thumbId}
                     aria-hidden
                     transition={CELL}
-                    className="absolute inset-0 rounded-[6px] bg-stone-800 dark:bg-stone-100"
+                    className="absolute inset-0 rounded-[calc(var(--radius)-4px)] bg-primary"
                   />
                 ) : null}
 
                 <a
                   {...getLinkProps(section.id)}
-                  className="group relative flex h-7 w-full items-center justify-center rounded-[6px] px-2.5 text-[12.5px] outline-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[6px] focus-visible:after:bg-[#4568FF]/[0.06] focus-visible:after:shadow-[inset_0_0_0_1px_#4568FF] dark:focus-visible:after:bg-[#93B0FF]/[0.1] dark:focus-visible:after:shadow-[inset_0_0_0_1px_#93B0FF]"
+                  className="group relative flex h-7 w-full items-center justify-center rounded-[calc(var(--radius)-4px)] px-2.5 text-[12.5px] outline-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[calc(var(--radius)-4px)] focus-visible:after:bg-primary/[0.06] focus-visible:after:shadow-[inset_0_0_0_1px_var(--primary)]"
                 >
                   <span className="relative grid">
                     <span
@@ -291,8 +289,8 @@ export function ScrollSpy({
                     <span
                       className={`col-start-1 row-start-1 whitespace-nowrap transition-colors duration-150 ${
                         active
-                          ? "font-medium text-white dark:text-stone-900"
-                          : "text-stone-500 group-hover:text-stone-700 dark:text-stone-400 dark:group-hover:text-stone-200"
+                          ? "font-medium text-primary-foreground"
+                          : "text-muted-foreground group-hover:text-foreground"
                       }`}
                     >
                       {section.label}

@@ -7,7 +7,7 @@ Icons are small visual symbols that represent actions, objects, or concepts. The
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Icon.tsx`
+- Entry point: `upstream/Icon.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Icons are small visual symbols that represent actions, objects, or concepts. The
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ Icons are small visual symbols that represent actions, objects, or concepts. The
 
 ## Examples
 
-- `src/examples/IconShowcase.tsx` — Icon · static: `static/IconShowcase.html`
-- `src/examples/IconNonSemanticColors.tsx` — Icon — Non-Semantic Colors: Non-semantic color palette for icons. · static: `static/IconNonSemanticColors.html`
-- `src/examples/IconSemanticColors.tsx` — Icon — Semantic Colors: All semantic icon color variants with labels. · static: `static/IconSemanticColors.html`
-- `src/examples/IconSizes.tsx` — Icon — Size Variants: All icon sizes from extra-small to large. · static: `static/IconSizes.html`
-- `src/examples/IconStatusIcons.tsx` — Icon — Status Indicators: Status list using semantic icons for success, warning, error, and info. · static: `static/IconStatusIcons.html`
+- `upstream/examples/IconShowcase.tsx` — Icon · static: `static/IconShowcase.html`
+- `upstream/examples/IconNonSemanticColors.tsx` — Icon — Non-Semantic Colors: Non-semantic color palette for icons. · static: `static/IconNonSemanticColors.html`
+- `upstream/examples/IconSemanticColors.tsx` — Icon — Semantic Colors: All semantic icon color variants with labels. · static: `static/IconSemanticColors.html`
+- `upstream/examples/IconSizes.tsx` — Icon — Size Variants: All icon sizes from extra-small to large. · static: `static/IconSizes.html`
+- `upstream/examples/IconStatusIcons.tsx` — Icon — Status Indicators: Status list using semantic icons for success, warning, error, and info. · static: `static/IconStatusIcons.html`
 
 ## Documentation
 
@@ -111,12 +111,12 @@ Styling hook class: `.astryx-icon`
 
 ## Files
 
-- `src/Icon.doc.mjs`
-- `src/Icon.spec.md`
-- `src/Icon.tsx`
-- `src/IconDefaultSizeContext.ts`
-- `src/IconSize.stylex.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Icon.doc.mjs`
+- `upstream/Icon.spec.md`
+- `upstream/Icon.tsx`
+- `upstream/IconDefaultSizeContext.ts`
+- `upstream/IconSize.stylex.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Icon

@@ -2,9 +2,9 @@
 
 import { ShowMore } from "./show-more";
 
-export function ShowMoreDemo() {
+export default function ShowMoreDemo() {
   return (
-    <div className="mat-panel mx-auto w-full max-w-[440px] rounded-[14px] p-4">
+    <div className="border bg-card shadow-xs mx-auto w-full max-w-[440px] rounded-[calc(var(--radius)+4px)] p-4">
       <ShowMore lines={3} maxHeight={168} label="Release notes">
         <p>
           The scheduler no longer re-queues a job that was cancelled while its

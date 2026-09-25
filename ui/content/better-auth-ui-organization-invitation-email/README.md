@@ -7,7 +7,7 @@ Email template component that invites a user to join an organization.
 - Category: `content` — structural
 - Medium: HTML email (React Email template, rendered); static HTML
 - Framework: react
-- Entry point: `src/examples/organization-invitation-email.tsx`
+- Entry point: `upstream/examples/organization-invitation-email.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -20,12 +20,12 @@ Email template component that invites a user to join an organization.
 ## How an agent uses this reference
 
 - **Any stack** — `static/organization-invitation-email.html` is the finished email (table layout, inline styles).
-- **React** — render the template from `@better-auth-ui/react/email` with `@react-email/render`; `src/examples/` has the props.
+- **React** — render the template from `@better-auth-ui/react/email` with `@react-email/render`; `upstream/examples/` has the props.
 
 ## Files
 
-- `src/examples/organization-invitation-email.tsx` — the docs demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/organization-invitation-email.tsx` — the docs demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 - `static/organization-invitation-email.html` — the rendered email
 

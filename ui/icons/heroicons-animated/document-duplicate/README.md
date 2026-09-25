@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/document-duplicate/src/document-duplicate.tsx`
+- Entry point: `ui/icons/heroicons-animated/document-duplicate/upstream/document-duplicate.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/document-duplicate`
 - Registry: https://www.heroicons-animated.com/r/document-duplicate.json
-- Local source fallback: `ui/icons/heroicons-animated/document-duplicate/src/document-duplicate.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/document-duplicate/upstream/document-duplicate.tsx`

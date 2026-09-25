@@ -7,7 +7,7 @@ A side panel that floats above page content for inspectors and detail views: the
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Drawer.tsx`
+- Entry point: `upstream/Drawer.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A side panel that floats above page content for inspectors and detail views: the
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,7 +33,7 @@ A side panel that floats above page content for inspectors and detail views: the
 
 ## Examples
 
-- `src/stories/Drawer.stories.tsx` — Storybook — Drawer
+- `upstream/stories/Drawer.stories.tsx` — Storybook — Drawer
 
 ## Documentation
 
@@ -111,10 +111,10 @@ const [lineItem, setLineItem] = useState(null);
 
 ## Files
 
-- `src/Drawer.doc.mjs`
-- `src/Drawer.spec.md`
-- `src/Drawer.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Drawer.doc.mjs`
+- `upstream/Drawer.spec.md`
+- `upstream/Drawer.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://facebook.github.io/astryx/storybook/

@@ -2,7 +2,7 @@
 
 "use client";
 
-import { DiaGradient } from "./src/dia-gradient/standalone/DiaGradient";
+import { DiaGradient } from "./upstream/dia-gradient/standalone/DiaGradient";
 
 export default function Reference() {
   return <DiaGradient />;

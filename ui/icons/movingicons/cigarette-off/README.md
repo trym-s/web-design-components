@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cigarette-off/src/cigarette-off.svelte`
+- Entry point: `ui/icons/movingicons/cigarette-off/upstream/cigarette-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cigarette-off`
 - Registry: https://movingicons.dev/r/cigarette-off
-- Local source fallback: `ui/icons/movingicons/cigarette-off/src/cigarette-off.svelte`
+- Local source fallback: `ui/icons/movingicons/cigarette-off/upstream/cigarette-off.svelte`

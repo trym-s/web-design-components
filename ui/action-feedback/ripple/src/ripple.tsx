@@ -198,7 +198,7 @@ export function Ripple({
   onPress,
   disabled = false,
   max = 4,
-  tintClassName = "bg-stone-800/15 dark:bg-white/20",
+  tintClassName = "bg-primary/15",
   className = "",
 }: RippleProps) {
   const { bind, ripples, fadeDuration } = useRipple({ disabled, max });
@@ -210,7 +210,7 @@ export function Ripple({
       disabled={disabled}
       onClick={onPress}
       style={{ touchAction: "manipulation", WebkitTapHighlightColor: "transparent" }}
-      className={`relative isolate inline-flex select-none items-center justify-center gap-2 rounded-[9px] border border-stone-200 bg-white px-3.5 py-2 text-[13px] font-medium text-stone-700 outline-none focus-visible:ring-2 focus-visible:ring-stone-400 disabled:opacity-50 dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-200 dark:focus-visible:ring-white/25 ${className}`}
+      className={`relative isolate inline-flex select-none items-center justify-center gap-2 rounded-[calc(var(--radius)-1px)] border border-border bg-card px-3.5 py-2 text-[13px] font-medium text-foreground outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 ${className}`}
       {...bind}
     >
       <span

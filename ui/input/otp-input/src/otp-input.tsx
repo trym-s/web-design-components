@@ -1,5 +1,3 @@
-"use client";
-
 import {
   useCallback,
   useEffect,
@@ -361,13 +359,15 @@ export function OtpInput({
 
   const message = error ? errorMessage : success ? successMessage : hint;
   const messageTone = error
-    ? "text-red-600 dark:text-red-400"
+    ? "text-destructive"
     : success
-      ? "text-emerald-600 dark:text-emerald-400"
-      : "text-stone-500 dark:text-stone-400";
+      ? "text-(--success)"
+      : "text-muted-foreground";
 
   return (
-    <div className={`inline-flex flex-col ${className}`}>
+    <div
+      className={`inline-flex flex-col [--success:oklch(0.596_0.145_163.2)] dark:[--success:oklch(0.765_0.177_163.2)] ${className}`}
+    >
       <motion.div
         role="group"
         aria-label={label}
@@ -392,16 +392,16 @@ export function OtpInput({
                 aria-label={`${label}, character ${i + 1} of ${length}`}
                 aria-invalid={error || undefined}
                 aria-describedby={hasStatus ? statusId : undefined}
-                className={`h-12 w-10 rounded-[10px] border-2 text-center text-[15px] text-transparent caret-transparent outline-none transition-[background-color,border-color,box-shadow] duration-150 selection:bg-transparent focus-visible:outline-none disabled:opacity-50 ${
+                className={`h-12 w-10 rounded-lg border-2 text-center text-[15px] text-transparent caret-transparent outline-none transition-[background-color,border-color,box-shadow] duration-150 selection:bg-transparent focus-visible:outline-none disabled:opacity-50 ${
                   error
-                    ? "border-red-500 bg-white dark:border-red-400 dark:bg-[#252522]"
+                    ? "border-destructive bg-card"
                     : success
-                      ? "border-emerald-500 bg-white dark:border-emerald-400 dark:bg-[#252522]"
+                      ? "border-(--success) bg-card"
                       : active
-                        ? "border-[#4568FF] bg-white dark:border-[#93B0FF] dark:bg-[#252522]"
+                        ? "border-primary bg-card"
                         : char
-                          ? "border-stone-300 bg-white dark:border-white/20 dark:bg-[#252522]"
-                          : "border-stone-200 bg-stone-100/70 shadow-[inset_0_1px_2px_rgba(28,25,23,0.07)] dark:border-white/[0.08] dark:bg-[#1D1D1A] dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.45)]"
+                          ? "border-border bg-card"
+                          : "border-border bg-muted/70 inset-shadow-xs"
                 }`}
               />
 
@@ -425,7 +425,7 @@ export function OtpInput({
                           : { opacity: 0, scale: 0.98, y: -6, filter: "blur(3px)" }
                       }
                       transition={enter}
-                      className="col-start-1 row-start-1 font-mono text-[15px] tabular-nums text-stone-700 dark:text-stone-200"
+                      className="col-start-1 row-start-1 font-mono text-[15px] tabular-nums text-foreground"
                     >
                       {char}
                     </motion.span>
@@ -434,7 +434,7 @@ export function OtpInput({
 
                 {active && !char && !disabled ? (
                   <motion.span
-                    className="col-start-1 row-start-1 block h-[17px] w-[1.5px] rounded-[1px] bg-stone-700 dark:bg-stone-200"
+                    className="col-start-1 row-start-1 block h-[17px] w-[1.5px] rounded-[calc(var(--radius)-9px)] bg-foreground"
                     initial={{ opacity: 1 }}
                     animate={reduced ? { opacity: 1 } : { opacity: [1, 1, 0, 0] }}
                     transition={

@@ -1,8 +1,9 @@
-import Example from "./examples/text-loop-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "text-loop", title: "Text Loop", component: Example }];
+import TextLoop from "./text-loop";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-full w-full items-center justify-center rounded-md bg-background p-10">
+      <TextLoop />
+    </div>
+  );
 }

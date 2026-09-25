@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/blocks/src/blocks.tsx`
+- Entry point: `ui/icons/lucide-animated/blocks/upstream/blocks.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/blocks.json`
 - Registry: https://lucide-animated.com/r/blocks.json
-- Local source fallback: `ui/icons/lucide-animated/blocks/src/blocks.tsx`
+- Local source fallback: `ui/icons/lucide-animated/blocks/upstream/blocks.tsx`

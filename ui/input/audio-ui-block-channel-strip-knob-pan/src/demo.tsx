@@ -1,10 +1,7 @@
-import E0 from "./examples/block-channel-strip-knob-pan";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
-
-const examples = [
-  { name: "block-channel-strip-knob-pan", title: "Block Channel Strip Knob Pan", component: E0 },
-];
+import { useState } from "react";
+import { BlockChannelStripKnobPan } from "./block-channel-strip-knob-pan";
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [value, setValue] = useState(0);
+  return <BlockChannelStripKnobPan footer="Output" label="Pan" onValueChange={setValue} title="Channel 1" value={value} />;
 }

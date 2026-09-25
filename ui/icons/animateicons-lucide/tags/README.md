@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/tags/src/tags.tsx`
+- Entry point: `ui/icons/animateicons-lucide/tags/upstream/tags.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tags.json`
 - Registry: https://animateicons.in/r/lu-tags.json
-- Local source fallback: `ui/icons/animateicons-lucide/tags/src/tags.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/tags/upstream/tags.tsx`

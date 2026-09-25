@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/double-arrow-horizontal/src/double-arrow-horizontal.svg`
+- Entry point: `ui/icons/line-md/double-arrow-horizontal/upstream/double-arrow-horizontal.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/double-arrow-horizontal/src/double-arrow-horizontal.svg`
+- Local source: `ui/icons/line-md/double-arrow-horizontal/upstream/double-arrow-horizontal.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/map-marker-multiple-loop/src/map-marker-multiple-loop.svg`
+- Entry point: `ui/icons/line-md/map-marker-multiple-loop/upstream/map-marker-multiple-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/map-marker-multiple-loop/src/map-marker-multiple-loop.svg`
+- Local source: `ui/icons/line-md/map-marker-multiple-loop/upstream/map-marker-multiple-loop.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/indian-rupee/src/indian-rupee.vue`
+- Entry point: `ui/icons/lucide-motion-vue/indian-rupee/upstream/indian-rupee.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/indian-rupee/src/indian-rupee.vue`
+- Local source: `ui/icons/lucide-motion-vue/indian-rupee/upstream/indian-rupee.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/peanut/src/peanut.svg`
+- Entry point: `ui/icons/line-md/peanut/upstream/peanut.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/peanut/src/peanut.svg`
+- Local source: `ui/icons/line-md/peanut/upstream/peanut.svg`

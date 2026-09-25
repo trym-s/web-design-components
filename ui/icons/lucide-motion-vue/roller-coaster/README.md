@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/roller-coaster/src/roller-coaster.vue`
+- Entry point: `ui/icons/lucide-motion-vue/roller-coaster/upstream/roller-coaster.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/roller-coaster/src/roller-coaster.vue`
+- Local source: `ui/icons/lucide-motion-vue/roller-coaster/upstream/roller-coaster.vue`

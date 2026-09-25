@@ -157,7 +157,7 @@ All effect layers are absolutely positioned and use `pointer-events: none`, so t
 
 ```
 border-beam/
-├── src/
+├── upstream/
 │   ├── index.ts          # Public exports
 │   ├── BorderBeam.tsx     # React component
 │   ├── types.ts           # TypeScript type definitions

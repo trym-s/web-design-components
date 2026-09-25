@@ -6,5 +6,5 @@
 - Version: `1.4.0`
 - License: MIT; see `LICENSE`
 - Runtime: React 18+
-- Retained source: web React implementation under `src/`
+- Retained source: web React implementation under `upstream/`
 - Excluded: demo, iOS, and React Native ports

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { LongPressButton } from "./long-press";
 
-export function LongPressDemo() {
+export default function LongPressDemo() {
   const [archived, setArchived] = useState(false);
 
   return (

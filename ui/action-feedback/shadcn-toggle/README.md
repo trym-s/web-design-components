@@ -7,7 +7,7 @@ A two-state button that can be either on or off.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/toggle.tsx`
+- Entry point: `upstream/ui/toggle.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A two-state button that can be either on or off.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A two-state button that can be either on or off.
 
 ## Documentation
 
-> Example `toggle-demo` — `src/examples/toggle-demo.tsx`, `static/toggle-demo.html`
+> Example `toggle-demo` — `upstream/examples/toggle-demo.tsx`, `static/toggle-demo.html`
 
 ## Installation
 
@@ -64,27 +64,27 @@ import { Toggle } from "@/components/ui/toggle"
 
 Use `variant="outline"` for an outline style.
 
-> Example `toggle-outline` — `src/examples/toggle-outline.tsx`, `static/toggle-outline.html`
+> Example `toggle-outline` — `upstream/examples/toggle-outline.tsx`, `static/toggle-outline.html`
 
 ## With Text
 
-> Example `toggle-text` — `src/examples/toggle-text.tsx`, `static/toggle-text.html`
+> Example `toggle-text` — `upstream/examples/toggle-text.tsx`, `static/toggle-text.html`
 
 ## Size
 
 Use the `size` prop to change the size of the toggle.
 
-> Example `toggle-sizes` — `src/examples/toggle-sizes.tsx`, `static/toggle-sizes.html`
+> Example `toggle-sizes` — `upstream/examples/toggle-sizes.tsx`, `static/toggle-sizes.html`
 
 ## Disabled
 
-> Example `toggle-disabled` — `src/examples/toggle-disabled.tsx`, `static/toggle-disabled.html`
+> Example `toggle-disabled` — `upstream/examples/toggle-disabled.tsx`, `static/toggle-disabled.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `toggle-rtl` — `src/examples/toggle-rtl.tsx`, `static/toggle-rtl.html`
+> Example `toggle-rtl` — `upstream/examples/toggle-rtl.tsx`, `static/toggle-rtl.html`
 
 ## API Reference
 
@@ -92,13 +92,13 @@ See the [Radix Toggle](https://www.radix-ui.com/docs/primitives/components/toggl
 
 ## Files
 
-- `src/ui/toggle.tsx` — the ui file as the registry installs it
-- `src/examples/toggle-demo.tsx`
-- `src/examples/toggle-outline.tsx`
-- `src/examples/toggle-text.tsx`
-- `src/examples/toggle-sizes.tsx`
-- `src/examples/toggle-disabled.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/toggle.tsx` — the ui file as the registry installs it
+- `upstream/examples/toggle-demo.tsx`
+- `upstream/examples/toggle-outline.tsx`
+- `upstream/examples/toggle-text.tsx`
+- `upstream/examples/toggle-sizes.tsx`
+- `upstream/examples/toggle-disabled.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/toggle

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-search-twotone/src/file-search-twotone.svg`
+- Entry point: `ui/icons/line-md/file-search-twotone/upstream/file-search-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-search-twotone/src/file-search-twotone.svg`
+- Local source: `ui/icons/line-md/file-search-twotone/upstream/file-search-twotone.svg`

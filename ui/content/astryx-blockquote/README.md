@@ -7,7 +7,7 @@ A quotation block with a rule on its inline-start edge and secondary text color.
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Blockquote.tsx`
+- Entry point: `upstream/Blockquote.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A quotation block with a rule on its inline-start edge and secondary text color.
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ A quotation block with a rule on its inline-start edge and secondary text color.
 
 ## Examples
 
-- `src/examples/BlockquoteShowcase.tsx` — Blockquote — Showcase: Blockquote with and without citation. A quick visual reference for the blockquote component. · static: `static/BlockquoteShowcase.html`
-- `src/examples/BlockquoteTestimonials.tsx` — Blockquote — Testimonials: Multiple quotes arranged in a card grid for a testimonials section. Combine with Card and Grid to create social-proof layouts. · static: `static/BlockquoteTestimonials.html`
-- `src/examples/BlockquoteWithCite.tsx` — Blockquote — With Attribution: A plain quote and a quote with a cite attribution. Use cite to credit the original author or source. · static: `static/BlockquoteWithCite.html`
+- `upstream/examples/BlockquoteShowcase.tsx` — Blockquote — Showcase: Blockquote with and without citation. A quick visual reference for the blockquote component. · static: `static/BlockquoteShowcase.html`
+- `upstream/examples/BlockquoteTestimonials.tsx` — Blockquote — Testimonials: Multiple quotes arranged in a card grid for a testimonials section. Combine with Card and Grid to create social-proof layouts. · static: `static/BlockquoteTestimonials.html`
+- `upstream/examples/BlockquoteWithCite.tsx` — Blockquote — With Attribution: A plain quote and a quote with a cite attribution. Use cite to credit the original author or source. · static: `static/BlockquoteWithCite.html`
 
 ## Documentation
 
@@ -103,9 +103,9 @@ Styling hook class: `.astryx-blockquote`
 
 ## Files
 
-- `src/Blockquote.doc.mjs`
-- `src/Blockquote.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Blockquote.doc.mjs`
+- `upstream/Blockquote.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Blockquote

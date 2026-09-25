@@ -7,7 +7,7 @@ An expandable tree structure for displaying hierarchical data with branch connec
 - Category: `data-display` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TreeList.tsx`
+- Entry point: `upstream/TreeList.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ An expandable tree structure for displaying hierarchical data with branch connec
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ An expandable tree structure for displaying hierarchical data with branch connec
 
 ## Examples
 
-- `src/examples/TreeListShowcase.tsx` — Tree List · static: `static/TreeListShowcase.html`
-- `src/examples/TreeListFileTreeWithIcons.tsx` — TreeList — File Tree With Icons: File browser tree with folder and document icons distinguishing directories from files. · static: `static/TreeListFileTreeWithIcons.html`
-- `src/examples/TreeListInteractiveSettings.tsx` — TreeList — Interactive Settings: Settings tree with clickable items and a documentation link. · static: `static/TreeListInteractiveSettings.html`
-- `src/examples/TreeListMailboxTree.tsx` — TreeList — Mailbox Tree: Email folder tree with unread badge counts. · static: `static/TreeListMailboxTree.html`
-- `src/examples/TreeListNavigationTree.tsx` — TreeList — Navigation Tree: Navigation tree with a selected item for the current page. · static: `static/TreeListNavigationTree.html`
-- `src/examples/TreeListVariants.tsx` — Tree List — Variants: The `variant` prop controls whether hierarchy guide lines are shown: `lineGuides` (default) draws connector lines between parent and child rows, while `noGuides` relies on indentation alone. It is orthogonal to `density`, which controls spacing. · static: `static/TreeListVariants.html`
+- `upstream/examples/TreeListShowcase.tsx` — Tree List · static: `static/TreeListShowcase.html`
+- `upstream/examples/TreeListFileTreeWithIcons.tsx` — TreeList — File Tree With Icons: File browser tree with folder and document icons distinguishing directories from files. · static: `static/TreeListFileTreeWithIcons.html`
+- `upstream/examples/TreeListInteractiveSettings.tsx` — TreeList — Interactive Settings: Settings tree with clickable items and a documentation link. · static: `static/TreeListInteractiveSettings.html`
+- `upstream/examples/TreeListMailboxTree.tsx` — TreeList — Mailbox Tree: Email folder tree with unread badge counts. · static: `static/TreeListMailboxTree.html`
+- `upstream/examples/TreeListNavigationTree.tsx` — TreeList — Navigation Tree: Navigation tree with a selected item for the current page. · static: `static/TreeListNavigationTree.html`
+- `upstream/examples/TreeListVariants.tsx` — Tree List — Variants: The `variant` prop controls whether hierarchy guide lines are shown: `lineGuides` (default) draws connector lines between parent and child rows, while `noGuides` relies on indentation alone. It is orthogonal to `density`, which controls spacing. · static: `static/TreeListVariants.html`
 
 ## Documentation
 
@@ -114,13 +114,13 @@ Styling hook class: `.astryx-tree-list`, `.astryx-tree-list-item`, `.astryx-tree
 
 ## Files
 
-- `src/TreeList.doc.mjs`
-- `src/TreeList.spec.md`
-- `src/TreeList.tsx`
-- `src/TreeListBranches.tsx`
-- `src/TreeListItem.tsx`
-- `src/TreeListTypes.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/TreeList.doc.mjs`
+- `upstream/TreeList.spec.md`
+- `upstream/TreeList.tsx`
+- `upstream/TreeListBranches.tsx`
+- `upstream/TreeListItem.tsx`
+- `upstream/TreeListTypes.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TreeList

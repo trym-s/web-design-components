@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/down-chevron/src/down-chevron.tsx`
+- Entry point: `ui/icons/itshover/down-chevron/upstream/down-chevron.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/down-chevron.json`
 - Registry: https://itshover.com/r/down-chevron.json
-- Local source fallback: `ui/icons/itshover/down-chevron/src/down-chevron.tsx`
+- Local source fallback: `ui/icons/itshover/down-chevron/upstream/down-chevron.tsx`

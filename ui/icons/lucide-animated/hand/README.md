@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/hand/src/hand.tsx`
+- Entry point: `ui/icons/lucide-animated/hand/upstream/hand.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand.json`
 - Registry: https://lucide-animated.com/r/hand.json
-- Local source fallback: `ui/icons/lucide-animated/hand/src/hand.tsx`
+- Local source fallback: `ui/icons/lucide-animated/hand/upstream/hand.tsx`

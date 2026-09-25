@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/shopping-cart-icon/src/shopping-cart-icon.tsx`
+- Entry point: `ui/icons/itshover/shopping-cart-icon/upstream/shopping-cart-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/shopping-cart-icon.json`
 - Registry: https://itshover.com/r/shopping-cart-icon.json
-- Local source fallback: `ui/icons/itshover/shopping-cart-icon/src/shopping-cart-icon.tsx`
+- Local source fallback: `ui/icons/itshover/shopping-cart-icon/upstream/shopping-cart-icon.tsx`

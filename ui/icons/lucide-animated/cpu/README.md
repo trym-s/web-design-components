@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/cpu/src/cpu.tsx`
+- Entry point: `ui/icons/lucide-animated/cpu/upstream/cpu.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/cpu.json`
 - Registry: https://lucide-animated.com/r/cpu.json
-- Local source fallback: `ui/icons/lucide-animated/cpu/src/cpu.tsx`
+- Local source fallback: `ui/icons/lucide-animated/cpu/upstream/cpu.tsx`

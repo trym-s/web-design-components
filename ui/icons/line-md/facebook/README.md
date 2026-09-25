@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/facebook/src/facebook.svg`
+- Entry point: `ui/icons/line-md/facebook/upstream/facebook.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/facebook/src/facebook.svg`
+- Local source: `ui/icons/line-md/facebook/upstream/facebook.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/external-link-rounded/src/external-link-rounded.svg`
+- Entry point: `ui/icons/line-md/external-link-rounded/upstream/external-link-rounded.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/external-link-rounded/src/external-link-rounded.svg`
+- Local source: `ui/icons/line-md/external-link-rounded/upstream/external-link-rounded.svg`

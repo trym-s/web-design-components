@@ -1,8 +1,6 @@
-"use client";
-
 import { CollapsibleBanner } from "./collapsible-banner";
 
-export function CollapsibleBannerDemo() {
+export default function CollapsibleBannerDemo() {
   return (
     <div className="mx-auto w-full max-w-[420px] space-y-2">
       <CollapsibleBanner
@@ -17,7 +15,7 @@ export function CollapsibleBannerDemo() {
         action={
           <button
             type="button"
-            className="h-7 rounded-[7px] border border-stone-200 bg-stone-50 px-2.5 text-[11.5px] font-medium text-stone-700 transition-colors duration-150 hover:bg-stone-100 dark:border-white/[0.16] dark:bg-white/[0.06] dark:text-stone-100 dark:hover:bg-white/10"
+            className="h-7 rounded-[calc(var(--radius)-3px)] border border-border bg-muted px-2.5 text-[11.5px] font-medium text-foreground transition-colors duration-150 hover:bg-accent"
           >
             Upgrade plan
           </button>

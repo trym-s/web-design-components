@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/buy-me-a-coffee/src/buy-me-a-coffee.svg`
+- Entry point: `ui/icons/line-md/buy-me-a-coffee/upstream/buy-me-a-coffee.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/buy-me-a-coffee/src/buy-me-a-coffee.svg`
+- Local source: `ui/icons/line-md/buy-me-a-coffee/upstream/buy-me-a-coffee.svg`

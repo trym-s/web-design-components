@@ -7,7 +7,7 @@ Breadcrumbs show a trail of links from the root to the current page. Use them at
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Breadcrumbs.tsx`
+- Entry point: `upstream/Breadcrumbs.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Breadcrumbs show a trail of links from the root to the current page. Use them at
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,14 +33,14 @@ Breadcrumbs show a trail of links from the root to the current page. Use them at
 
 ## Examples
 
-- `src/examples/BreadcrumbItemShowcase.tsx` — Breadcrumb Item: BreadcrumbItem represents a single step in a breadcrumb trail, supporting links, icons, current-page markers, and custom link components. · static: `static/BreadcrumbItemShowcase.html`
-- `src/examples/BreadcrumbsShowcase.tsx` — Breadcrumbs: A breadcrumb trail showing page hierarchy with linked ancestors and a current page. · static: `static/BreadcrumbsShowcase.html`
-- `src/examples/BreadcrumbItemBasic.tsx` — BreadcrumbItem — Basic: Breadcrumb links inside a Breadcrumbs trail. Ancestor pages get an href; mark the last item with isCurrent to render it as plain text for the current page. · static: `static/BreadcrumbItemBasic.html`
-- `src/examples/BreadcrumbsCustomSeparator.tsx` — Breadcrumbs — Separators: Swap the default "/" for a different character like chevrons, arrows, or dots. Use when the visual style of the page calls for a different separator. · static: `static/BreadcrumbsCustomSeparator.html`
-- `src/examples/BreadcrumbsDeepHierarchy.tsx` — Breadcrumbs — Deep Path: A 5-level breadcrumb trail for deeply nested content. Use in e-commerce, file browsers, or any UI with several levels of hierarchy. · static: `static/BreadcrumbsDeepHierarchy.html`
-- `src/examples/BreadcrumbsMenuItem.tsx` — Breadcrumbs — Menu item: Give a mid-trail crumb a `menu` prop to turn it into a menu trigger for switching between sibling destinations. It reuses the same item API as DropdownMenu, so an existing option array (or composed item children) drops in verbatim. · static: `static/BreadcrumbsMenuItem.html`
-- `src/examples/BreadcrumbsSupportingVariant.tsx` — Breadcrumbs — Variants: Compare the default and supporting variants side by side. Use the supporting variant in dense UIs like admin panels where the breadcrumb should be subtle. · static: `static/BreadcrumbsSupportingVariant.html`
-- `src/examples/BreadcrumbsWithIcons.tsx` — Breadcrumbs — Icons: Add icons before breadcrumb labels for quick recognition. Use a home icon on the root item and contextual icons on key sections. · static: `static/BreadcrumbsWithIcons.html`
+- `upstream/examples/BreadcrumbItemShowcase.tsx` — Breadcrumb Item: BreadcrumbItem represents a single step in a breadcrumb trail, supporting links, icons, current-page markers, and custom link components. · static: `static/BreadcrumbItemShowcase.html`
+- `upstream/examples/BreadcrumbsShowcase.tsx` — Breadcrumbs: A breadcrumb trail showing page hierarchy with linked ancestors and a current page. · static: `static/BreadcrumbsShowcase.html`
+- `upstream/examples/BreadcrumbItemBasic.tsx` — BreadcrumbItem — Basic: Breadcrumb links inside a Breadcrumbs trail. Ancestor pages get an href; mark the last item with isCurrent to render it as plain text for the current page. · static: `static/BreadcrumbItemBasic.html`
+- `upstream/examples/BreadcrumbsCustomSeparator.tsx` — Breadcrumbs — Separators: Swap the default "/" for a different character like chevrons, arrows, or dots. Use when the visual style of the page calls for a different separator. · static: `static/BreadcrumbsCustomSeparator.html`
+- `upstream/examples/BreadcrumbsDeepHierarchy.tsx` — Breadcrumbs — Deep Path: A 5-level breadcrumb trail for deeply nested content. Use in e-commerce, file browsers, or any UI with several levels of hierarchy. · static: `static/BreadcrumbsDeepHierarchy.html`
+- `upstream/examples/BreadcrumbsMenuItem.tsx` — Breadcrumbs — Menu item: Give a mid-trail crumb a `menu` prop to turn it into a menu trigger for switching between sibling destinations. It reuses the same item API as DropdownMenu, so an existing option array (or composed item children) drops in verbatim. · static: `static/BreadcrumbsMenuItem.html`
+- `upstream/examples/BreadcrumbsSupportingVariant.tsx` — Breadcrumbs — Variants: Compare the default and supporting variants side by side. Use the supporting variant in dense UIs like admin panels where the breadcrumb should be subtle. · static: `static/BreadcrumbsSupportingVariant.html`
+- `upstream/examples/BreadcrumbsWithIcons.tsx` — Breadcrumbs — Icons: Add icons before breadcrumb labels for quick recognition. Use a home icon on the root item and contextual icons on key sections. · static: `static/BreadcrumbsWithIcons.html`
 
 ## Documentation
 
@@ -120,12 +120,12 @@ BreadcrumbItem represents one destination, action, current location, or sibling-
 
 ## Files
 
-- `src/BreadcrumbItem.doc.mjs`
-- `src/BreadcrumbItem.spec.md`
-- `src/BreadcrumbItem.tsx`
-- `src/Breadcrumbs.doc.mjs`
-- `src/Breadcrumbs.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/BreadcrumbItem.doc.mjs`
+- `upstream/BreadcrumbItem.spec.md`
+- `upstream/BreadcrumbItem.tsx`
+- `upstream/Breadcrumbs.doc.mjs`
+- `upstream/Breadcrumbs.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Breadcrumbs

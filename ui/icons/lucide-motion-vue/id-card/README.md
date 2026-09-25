@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/id-card/src/id-card.vue`
+- Entry point: `ui/icons/lucide-motion-vue/id-card/upstream/id-card.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/id-card/src/id-card.vue`
+- Local source: `ui/icons/lucide-motion-vue/id-card/upstream/id-card.vue`

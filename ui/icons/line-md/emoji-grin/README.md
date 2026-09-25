@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-grin/src/emoji-grin.svg`
+- Entry point: `ui/icons/line-md/emoji-grin/upstream/emoji-grin.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-grin/src/emoji-grin.svg`
+- Local source: `ui/icons/line-md/emoji-grin/upstream/emoji-grin.svg`

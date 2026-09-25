@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/alert-circle/src/alert-circle.svg`
+- Entry point: `ui/icons/line-md/alert-circle/upstream/alert-circle.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/alert-circle/src/alert-circle.svg`
+- Local source: `ui/icons/line-md/alert-circle/upstream/alert-circle.svg`

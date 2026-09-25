@@ -6,7 +6,7 @@ function publish() {
   return new Promise((resolve) => setTimeout(resolve, 1600));
 }
 
-export function LoadingButtonDemo() {
+export default function LoadingButtonDemo() {
   return (
     <div className="flex justify-center">
       <LoadingButton onAction={publish} successLabel="Published">

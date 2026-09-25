@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/check-line/src/check-line.vue`
+- Entry point: `ui/icons/lucide-motion-vue/check-line/upstream/check-line.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/check-line/src/check-line.vue`
+- Local source: `ui/icons/lucide-motion-vue/check-line/upstream/check-line.vue`

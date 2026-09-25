@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/calendar-check/src/calendar-check.vue`
+- Entry point: `ui/icons/lucide-motion-vue/calendar-check/upstream/calendar-check.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/calendar-check/src/calendar-check.vue`
+- Local source: `ui/icons/lucide-motion-vue/calendar-check/upstream/calendar-check.vue`

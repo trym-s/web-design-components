@@ -53,7 +53,7 @@ const ITEMS: LogoMarqueeItem[] = BRANDS.map((brand) => ({
   ),
 }));
 
-export function LogoMarqueeDemo() {
+export default function LogoMarqueeDemo() {
   return (
     <div className="mx-auto w-full min-w-0 max-w-[440px]">
       <LogoMarquee items={ITEMS} label="Customers" />

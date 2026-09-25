@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-angry-filled/src/emoji-angry-filled.svg`
+- Entry point: `ui/icons/line-md/emoji-angry-filled/upstream/emoji-angry-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-angry-filled/src/emoji-angry-filled.svg`
+- Local source: `ui/icons/line-md/emoji-angry-filled/upstream/emoji-angry-filled.svg`

@@ -1,3 +1,3 @@
 /* Use when: Restrained warm grays. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

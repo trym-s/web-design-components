@@ -7,7 +7,7 @@ A drawer component for React.
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/drawer.tsx`
+- Entry point: `upstream/ui/drawer.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A drawer component for React.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A drawer component for React.
 
 ## Documentation
 
-> Example `drawer-demo` — `src/examples/drawer-demo.tsx`, `static/drawer-demo.html`
+> Example `drawer-demo` — `upstream/examples/drawer-demo.tsx`, `static/drawer-demo.html`
 
 ## About
 
@@ -105,25 +105,25 @@ Drawer
 
 Keep actions visible while the content scrolls.
 
-> Example `drawer-scrollable-content` — `src/examples/drawer-scrollable-content.tsx`, `static/drawer-scrollable-content.html`
+> Example `drawer-scrollable-content` — `upstream/examples/drawer-scrollable-content.tsx`, `static/drawer-scrollable-content.html`
 
 ## Sides
 
 Use the `direction` prop to set the side of the drawer. Available options are `top`, `right`, `bottom`, and `left`.
 
-> Example `drawer-sides` — `src/examples/drawer-sides.tsx`, `static/drawer-sides.html`
+> Example `drawer-sides` — `upstream/examples/drawer-sides.tsx`, `static/drawer-sides.html`
 
 ## Responsive Dialog
 
 You can combine the `Dialog` and `Drawer` components to create a responsive dialog. This renders a `Dialog` component on desktop and a `Drawer` on mobile.
 
-> Example `drawer-dialog` — `src/examples/drawer-dialog.tsx`, `static/drawer-dialog.html`
+> Example `drawer-dialog` — `upstream/examples/drawer-dialog.tsx`, `static/drawer-dialog.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `drawer-rtl` — `src/examples/drawer-rtl.tsx`, `static/drawer-rtl.html`
+> Example `drawer-rtl` — `upstream/examples/drawer-rtl.tsx`, `static/drawer-rtl.html`
 
 ## API Reference
 
@@ -131,12 +131,12 @@ See the [Vaul documentation](https://vaul.emilkowal.ski/getting-started) for the
 
 ## Files
 
-- `src/ui/drawer.tsx` — the ui file as the registry installs it
-- `src/examples/drawer-demo.tsx`
-- `src/examples/drawer-scrollable-content.tsx`
-- `src/examples/drawer-sides.tsx`
-- `src/examples/drawer-dialog.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/drawer.tsx` — the ui file as the registry installs it
+- `upstream/examples/drawer-demo.tsx`
+- `upstream/examples/drawer-scrollable-content.tsx`
+- `upstream/examples/drawer-sides.tsx`
+- `upstream/examples/drawer-dialog.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/drawer

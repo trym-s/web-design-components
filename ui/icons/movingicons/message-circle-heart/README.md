@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/message-circle-heart/src/message-circle-heart.svelte`
+- Entry point: `ui/icons/movingicons/message-circle-heart/upstream/message-circle-heart.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-heart`
 - Registry: https://movingicons.dev/r/message-circle-heart
-- Local source fallback: `ui/icons/movingicons/message-circle-heart/src/message-circle-heart.svelte`
+- Local source fallback: `ui/icons/movingicons/message-circle-heart/upstream/message-circle-heart.svelte`

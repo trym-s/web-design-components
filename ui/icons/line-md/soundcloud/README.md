@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/soundcloud/src/soundcloud.svg`
+- Entry point: `ui/icons/line-md/soundcloud/upstream/soundcloud.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/soundcloud/src/soundcloud.svg`
+- Local source: `ui/icons/line-md/soundcloud/upstream/soundcloud.svg`

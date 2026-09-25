@@ -1,5 +1,3 @@
-"use client";
-
 import { TreeView, type TreeNode } from "./tree-view";
 
 const NODES: TreeNode[] = [
@@ -37,7 +35,7 @@ const NODES: TreeNode[] = [
   { id: "design", label: "DESIGN.md", meta: "38 kB" },
 ];
 
-export function TreeViewDemo() {
+export default function TreeViewDemo() {
   return (
     <div className="mx-auto w-full max-w-[300px]">
       <TreeView

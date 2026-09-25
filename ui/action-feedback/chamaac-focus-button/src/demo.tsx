@@ -1,8 +1,9 @@
-import Example from "./examples/focus-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "focus-button", title: "Focus Button", component: Example }];
+import FocusButton from "./focus-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center bg-background">
+      <FocusButton onClick={() => console.log("Clicked!")}>Contact us</FocusButton>
+    </div>
+  );
 }

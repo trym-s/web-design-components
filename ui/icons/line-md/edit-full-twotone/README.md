@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/edit-full-twotone/src/edit-full-twotone.svg`
+- Entry point: `ui/icons/line-md/edit-full-twotone/upstream/edit-full-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/edit-full-twotone/src/edit-full-twotone.svg`
+- Local source: `ui/icons/line-md/edit-full-twotone/upstream/edit-full-twotone.svg`

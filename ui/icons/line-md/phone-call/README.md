@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/phone-call/src/phone-call.svg`
+- Entry point: `ui/icons/line-md/phone-call/upstream/phone-call.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/phone-call/src/phone-call.svg`
+- Local source: `ui/icons/line-md/phone-call/upstream/phone-call.svg`

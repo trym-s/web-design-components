@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/building-office/src/building-office.tsx`
+- Entry point: `ui/icons/heroicons-animated/building-office/upstream/building-office.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/building-office`
 - Registry: https://www.heroicons-animated.com/r/building-office.json
-- Local source fallback: `ui/icons/heroicons-animated/building-office/src/building-office.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/building-office/upstream/building-office.tsx`

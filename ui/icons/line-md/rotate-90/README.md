@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/rotate-90/src/rotate-90.svg`
+- Entry point: `ui/icons/line-md/rotate-90/upstream/rotate-90.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/rotate-90/src/rotate-90.svg`
+- Local source: `ui/icons/line-md/rotate-90/upstream/rotate-90.svg`

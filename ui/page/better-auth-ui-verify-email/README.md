@@ -7,7 +7,7 @@ A verify email component that prompts the user to confirm their email, with a bu
 - Category: `page` — structural
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/verify-email.tsx`
+- Entry point: `upstream/examples/verify-email.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ A verify email component that prompts the user to confirm their email, with a bu
 
 ## Files
 
-- `src/examples/verify-email.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/verify-email.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/components/auth/verify-email

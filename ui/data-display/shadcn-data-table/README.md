@@ -7,7 +7,7 @@ Powerful table and datagrids built using TanStack Table.
 - Category: `data-display` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/examples/data-table-demo.tsx`
+- Entry point: `upstream/examples/data-table-demo.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Powerful table and datagrids built using TanStack Table.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Powerful table and datagrids built using TanStack Table.
 
 ## Documentation
 
-> Example `data-table-demo` — `src/examples/data-table-demo.tsx`, `static/data-table-demo.html`
+> Example `data-table-demo` — `upstream/examples/data-table-demo.tsx`, `static/data-table-demo.html`
 
 ## Introduction
 
@@ -854,12 +854,12 @@ A component to toggle column visibility.
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `data-table-rtl` — `src/examples/data-table-rtl.tsx`, `static/data-table-rtl.html`
+> Example `data-table-rtl` — `upstream/examples/data-table-rtl.tsx`, `static/data-table-rtl.html`
 
 ## Files
 
-- `src/examples/data-table-demo.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/examples/data-table-demo.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/data-table

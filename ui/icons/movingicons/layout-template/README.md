@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/layout-template/src/layout-template.svelte`
+- Entry point: `ui/icons/movingicons/layout-template/upstream/layout-template.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/layout-template`
 - Registry: https://movingicons.dev/r/layout-template
-- Local source fallback: `ui/icons/movingicons/layout-template/src/layout-template.svelte`
+- Local source fallback: `ui/icons/movingicons/layout-template/upstream/layout-template.svelte`

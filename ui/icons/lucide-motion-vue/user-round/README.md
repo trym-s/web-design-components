@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/user-round/src/user-round.vue`
+- Entry point: `ui/icons/lucide-motion-vue/user-round/upstream/user-round.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/user-round/src/user-round.vue`
+- Local source: `ui/icons/lucide-motion-vue/user-round/upstream/user-round.vue`

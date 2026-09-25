@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-column/src/chart-column.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-column/upstream/chart-column.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-column.json`
 - Registry: https://animateicons.in/r/lu-chart-column.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-column/src/chart-column.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-column/upstream/chart-column.tsx`

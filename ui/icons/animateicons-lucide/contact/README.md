@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/contact/src/contact.tsx`
+- Entry point: `ui/icons/animateicons-lucide/contact/upstream/contact.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-contact.json`
 - Registry: https://animateicons.in/r/lu-contact.json
-- Local source fallback: `ui/icons/animateicons-lucide/contact/src/contact.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/contact/upstream/contact.tsx`

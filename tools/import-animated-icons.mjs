@@ -112,10 +112,10 @@ function syncSource(source) {
 function entryFiles(source, icon) {
   const dir = join(UI, source.id, icon.name);
   const extension = icon.path.split(".").at(-1);
-  const fallback = source.personal ? icon.path : `ui/icons/${source.id}/${icon.name}/src/${icon.name}.${extension}`;
+  const fallback = source.personal ? icon.path : `ui/icons/${source.id}/${icon.name}/upstream/${icon.name}.${extension}`;
   if (!source.personal) {
-    mkdirSync(join(dir, "src"), { recursive: true });
-    cpSync(join(ROOT, icon.path), join(dir, "src", `${icon.name}.${extension}`));
+    mkdirSync(join(dir, "upstream"), { recursive: true });
+    cpSync(join(ROOT, icon.path), join(dir, "upstream", `${icon.name}.${extension}`));
   }
   const installation = icon.command
     ? `- Preferred install: \`${icon.command}\`\n- Registry: ${icon.registryUrl}\n- Local source fallback: \`${fallback}\``

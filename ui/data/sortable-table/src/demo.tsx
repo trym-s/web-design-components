@@ -42,7 +42,7 @@ const COLUMNS: SortableColumn<Reviewer>[] = [
   },
 ];
 
-export function SortableTableDemo() {
+export default function SortableTableDemo() {
   return (
     <div className="mx-auto w-full max-w-[440px]">
       <SortableTable

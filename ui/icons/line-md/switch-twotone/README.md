@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/switch-twotone/src/switch-twotone.svg`
+- Entry point: `ui/icons/line-md/switch-twotone/upstream/switch-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/switch-twotone/src/switch-twotone.svg`
+- Local source: `ui/icons/line-md/switch-twotone/upstream/switch-twotone.svg`

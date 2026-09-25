@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 
@@ -157,10 +155,10 @@ export function ReadingProgress({
         aria-valuemax={steps}
         aria-valuenow={step}
         aria-valuetext={valueText}
-        className="min-w-0 flex-1 rounded-[4px] bg-stone-100 p-[2px] shadow-[inset_0_1px_2px_rgba(28,25,23,0.07)] dark:bg-[#1D1D1A] dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.45)]"
+        className="min-w-0 flex-1 rounded-[calc(var(--radius)-6px)] bg-muted p-[2px] inset-shadow-xs"
       >
         <motion.div
-          className="h-[3px] origin-left rounded-[2px] bg-[#4568FF] dark:bg-[#93B0FF]"
+          className="h-[3px] origin-left rounded-[calc(var(--radius)-8px)] bg-primary"
           style={{ width: "100%" }}
           initial={false}
           animate={{ scaleX: step / Math.max(1, steps) }}
@@ -179,7 +177,7 @@ export function ReadingProgress({
           </span>
           <motion.span
             aria-hidden
-            className="col-start-1 row-start-1 whitespace-nowrap text-stone-500 dark:text-stone-400"
+            className="col-start-1 row-start-1 whitespace-nowrap text-muted-foreground"
             initial={false}
             animate={{ opacity: complete ? 0 : 1 }}
             transition={fadeTransition}
@@ -188,7 +186,7 @@ export function ReadingProgress({
           </motion.span>
           <motion.span
             aria-hidden
-            className="col-start-1 row-start-1 flex items-center gap-1 whitespace-nowrap text-stone-700 dark:text-stone-200"
+            className="col-start-1 row-start-1 flex items-center gap-1 whitespace-nowrap text-foreground"
             initial={false}
             animate={{ opacity: complete ? 1 : 0 }}
             transition={fadeTransition}

@@ -2,13 +2,15 @@
 
 import type { ModeOpts } from './profiles';
 
-export type { Dot, Line } from './core';
+import type { Ink } from './core';
+
+export type { Dot, Line, Ink } from './core';
 
 /** One frame painter: draws a mode into a 2D context at CSS-px `size`. */
 export type ModeDraw = (
   ctx: CanvasRenderingContext2D,
   size: number,
   t: number,
-  dark: boolean,
+  ink: Ink,
   opts: ModeOpts
 ) => void;

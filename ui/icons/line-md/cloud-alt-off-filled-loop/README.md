@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-off-filled-loop/src/cloud-alt-off-filled-loop.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-off-filled-loop/upstream/cloud-alt-off-filled-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-off-filled-loop/src/cloud-alt-off-filled-loop.svg`
+- Local source: `ui/icons/line-md/cloud-alt-off-filled-loop/upstream/cloud-alt-off-filled-loop.svg`

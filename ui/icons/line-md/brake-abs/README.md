@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/brake-abs/src/brake-abs.svg`
+- Entry point: `ui/icons/line-md/brake-abs/upstream/brake-abs.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/brake-abs/src/brake-abs.svg`
+- Local source: `ui/icons/line-md/brake-abs/upstream/brake-abs.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/chevron-double-left/src/chevron-double-left.tsx`
+- Entry point: `ui/icons/heroicons-animated/chevron-double-left/upstream/chevron-double-left.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/chevron-double-left`
 - Registry: https://www.heroicons-animated.com/r/chevron-double-left.json
-- Local source fallback: `ui/icons/heroicons-animated/chevron-double-left/src/chevron-double-left.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/chevron-double-left/upstream/chevron-double-left.tsx`

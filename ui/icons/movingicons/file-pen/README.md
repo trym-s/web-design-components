@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/file-pen/src/file-pen.svelte`
+- Entry point: `ui/icons/movingicons/file-pen/upstream/file-pen.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/file-pen`
 - Registry: https://movingicons.dev/r/file-pen
-- Local source fallback: `ui/icons/movingicons/file-pen/src/file-pen.svelte`
+- Local source fallback: `ui/icons/movingicons/file-pen/upstream/file-pen.svelte`

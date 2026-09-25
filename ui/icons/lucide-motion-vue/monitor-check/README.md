@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/monitor-check/src/monitor-check.vue`
+- Entry point: `ui/icons/lucide-motion-vue/monitor-check/upstream/monitor-check.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/monitor-check/src/monitor-check.vue`
+- Local source: `ui/icons/lucide-motion-vue/monitor-check/upstream/monitor-check.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/indian-rupee/src/indian-rupee.tsx`
+- Entry point: `ui/icons/lucide-animated/indian-rupee/upstream/indian-rupee.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/indian-rupee.json`
 - Registry: https://lucide-animated.com/r/indian-rupee.json
-- Local source fallback: `ui/icons/lucide-animated/indian-rupee/src/indian-rupee.tsx`
+- Local source fallback: `ui/icons/lucide-animated/indian-rupee/upstream/indian-rupee.tsx`

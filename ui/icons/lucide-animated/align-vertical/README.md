@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/align-vertical/src/align-vertical.tsx`
+- Entry point: `ui/icons/lucide-animated/align-vertical/upstream/align-vertical.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-vertical.json`
 - Registry: https://lucide-animated.com/r/align-vertical.json
-- Local source fallback: `ui/icons/lucide-animated/align-vertical/src/align-vertical.tsx`
+- Local source fallback: `ui/icons/lucide-animated/align-vertical/upstream/align-vertical.tsx`

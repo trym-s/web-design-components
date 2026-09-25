@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/message-circle-heart/src/message-circle-heart.vue`
+- Entry point: `ui/icons/lucide-motion-vue/message-circle-heart/upstream/message-circle-heart.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/message-circle-heart/src/message-circle-heart.vue`
+- Local source: `ui/icons/lucide-motion-vue/message-circle-heart/upstream/message-circle-heart.vue`

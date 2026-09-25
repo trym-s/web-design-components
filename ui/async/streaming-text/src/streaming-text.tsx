@@ -188,7 +188,7 @@ export function StreamingText({
       className="relative inline-block h-[1.1em] w-0 align-[-0.22em]"
     >
       <motion.span
-        className="absolute inset-y-0 left-px block w-[2px] bg-stone-800 dark:bg-stone-100"
+        className="absolute inset-y-0 left-px block w-[2px] bg-primary"
         initial={false}
         animate={blink ? { opacity: [1, 1, 0, 0] } : { opacity: done ? 0 : 1 }}
         transition={
@@ -210,7 +210,7 @@ export function StreamingText({
       role="group"
       aria-label={label}
       aria-busy={status === "streaming"}
-      className={`text-[13.5px] leading-relaxed text-stone-700 dark:text-stone-200 ${className}`}
+      className={`text-[13.5px] leading-relaxed text-foreground ${className}`}
     >
       <p aria-hidden className="relative whitespace-pre-line">
         <span className="invisible">{text}</span>
@@ -242,7 +242,7 @@ export function StreamingText({
                 ? `Replay ${label}`
                 : "Skip to the end"
             }
-            className="inline-grid h-7 place-items-center rounded-[6px] border border-stone-200 px-2.5 text-[11.5px] font-medium text-stone-500 transition-colors duration-150 hover:text-stone-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 dark:border-white/[0.16] dark:text-stone-400 dark:hover:text-stone-200 dark:focus-visible:ring-stone-500"
+            className="inline-grid h-7 place-items-center rounded-[calc(var(--radius)-4px)] border border-border px-2.5 text-[11.5px] font-medium text-muted-foreground transition-colors duration-150 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             <motion.span
               aria-hidden

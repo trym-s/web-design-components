@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/sliders-horizontal/src/sliders-horizontal.vue`
+- Entry point: `ui/icons/lucide-motion-vue/sliders-horizontal/upstream/sliders-horizontal.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/sliders-horizontal/src/sliders-horizontal.vue`
+- Local source: `ui/icons/lucide-motion-vue/sliders-horizontal/upstream/sliders-horizontal.vue`

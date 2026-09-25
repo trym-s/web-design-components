@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/sun-moon/src/sun-moon.tsx`
+- Entry point: `ui/icons/lucide-animated/sun-moon/upstream/sun-moon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/sun-moon.json`
 - Registry: https://lucide-animated.com/r/sun-moon.json
-- Local source fallback: `ui/icons/lucide-animated/sun-moon/src/sun-moon.tsx`
+- Local source fallback: `ui/icons/lucide-animated/sun-moon/upstream/sun-moon.tsx`

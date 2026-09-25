@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-no-axes-column/src/chart-no-axes-column.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-no-axes-column/upstream/chart-no-axes-column.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-no-axes-column.json`
 - Registry: https://animateicons.in/r/lu-chart-no-axes-column.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-no-axes-column/src/chart-no-axes-column.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-no-axes-column/upstream/chart-no-axes-column.tsx`

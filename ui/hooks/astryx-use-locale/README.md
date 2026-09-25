@@ -7,7 +7,7 @@ Reads the authoritative Astryx locale. Use it to thread the provider locale into
 - Category: `hooks` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/useLocale.ts`
+- Entry point: `upstream/useLocale.ts`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Reads the authoritative Astryx locale. Use it to thread the provider locale into
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -66,9 +66,9 @@ Reads the authoritative Astryx locale. Use it to thread the provider locale into
 
 ## Files
 
-- `src/useLocale.doc.mjs`
-- `src/useLocale.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/useLocale.doc.mjs`
+- `upstream/useLocale.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/useLocale

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/battery-icon/src/battery-icon.tsx`
+- Entry point: `ui/icons/itshover/battery-icon/upstream/battery-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/battery-icon.json`
 - Registry: https://itshover.com/r/battery-icon.json
-- Local source fallback: `ui/icons/itshover/battery-icon/src/battery-icon.tsx`
+- Local source fallback: `ui/icons/itshover/battery-icon/upstream/battery-icon.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/shower-head/src/shower-head.vue`
+- Entry point: `ui/icons/lucide-motion-vue/shower-head/upstream/shower-head.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/shower-head/src/shower-head.vue`
+- Local source: `ui/icons/lucide-motion-vue/shower-head/upstream/shower-head.vue`

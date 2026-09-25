@@ -6,7 +6,7 @@ import {
   type LikeBurstHandle,
 } from "./like-burst";
 
-export function LikeBurstDemo() {
+export default function LikeBurstDemo() {
   const ref = useRef<LikeBurstHandle>(null);
   const [liked, setLiked] = useState(false);
 

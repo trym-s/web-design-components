@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/history/src/history.svelte`
+- Entry point: `ui/icons/movingicons/history/upstream/history.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/history`
 - Registry: https://movingicons.dev/r/history
-- Local source fallback: `ui/icons/movingicons/history/src/history.svelte`
+- Local source fallback: `ui/icons/movingicons/history/upstream/history.svelte`

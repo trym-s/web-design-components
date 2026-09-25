@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/queue-list/src/queue-list.tsx`
+- Entry point: `ui/icons/heroicons-animated/queue-list/upstream/queue-list.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/queue-list`
 - Registry: https://www.heroicons-animated.com/r/queue-list.json
-- Local source fallback: `ui/icons/heroicons-animated/queue-list/src/queue-list.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/queue-list/upstream/queue-list.tsx`

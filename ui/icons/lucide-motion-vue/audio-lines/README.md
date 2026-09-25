@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/audio-lines/src/audio-lines.vue`
+- Entry point: `ui/icons/lucide-motion-vue/audio-lines/upstream/audio-lines.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/audio-lines/src/audio-lines.vue`
+- Local source: `ui/icons/lucide-motion-vue/audio-lines/upstream/audio-lines.vue`

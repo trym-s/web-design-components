@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/medical-services-twotone/src/medical-services-twotone.svg`
+- Entry point: `ui/icons/line-md/medical-services-twotone/upstream/medical-services-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/medical-services-twotone/src/medical-services-twotone.svg`
+- Local source: `ui/icons/line-md/medical-services-twotone/upstream/medical-services-twotone.svg`

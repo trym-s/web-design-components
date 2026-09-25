@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/login/src/login.tsx`
+- Entry point: `ui/icons/lucide-animated/login/upstream/login.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/login.json`
 - Registry: https://lucide-animated.com/r/login.json
-- Local source fallback: `ui/icons/lucide-animated/login/src/login.tsx`
+- Local source fallback: `ui/icons/lucide-animated/login/upstream/login.tsx`

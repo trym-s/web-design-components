@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/monitor-small-off-twotone/src/monitor-small-off-twotone.svg`
+- Entry point: `ui/icons/line-md/monitor-small-off-twotone/upstream/monitor-small-off-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/monitor-small-off-twotone/src/monitor-small-off-twotone.svg`
+- Local source: `ui/icons/line-md/monitor-small-off-twotone/upstream/monitor-small-off-twotone.svg`

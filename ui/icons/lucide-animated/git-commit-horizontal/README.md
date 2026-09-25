@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/git-commit-horizontal/src/git-commit-horizontal.tsx`
+- Entry point: `ui/icons/lucide-animated/git-commit-horizontal/upstream/git-commit-horizontal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/git-commit-horizontal.json`
 - Registry: https://lucide-animated.com/r/git-commit-horizontal.json
-- Local source fallback: `ui/icons/lucide-animated/git-commit-horizontal/src/git-commit-horizontal.tsx`
+- Local source fallback: `ui/icons/lucide-animated/git-commit-horizontal/upstream/git-commit-horizontal.tsx`

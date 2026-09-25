@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/key-circle/src/key-circle.vue`
+- Entry point: `ui/icons/lucide-motion-vue/key-circle/upstream/key-circle.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/key-circle/src/key-circle.vue`
+- Local source: `ui/icons/lucide-motion-vue/key-circle/upstream/key-circle.vue`

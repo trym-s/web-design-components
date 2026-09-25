@@ -1,0 +1,32 @@
+/* Keyframes and the link underline copied from the Beautiful UI snapshot. */
+@keyframes stream-in {
+  0% { opacity: 0; filter: blur(4px); }
+  to { opacity: 1; filter: blur(0); }
+}
+@keyframes pop-in {
+  0% { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes fade-in {
+  0% { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fade-up {
+  0% { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.streaming-text-underline { display: inline-block; position: relative; }
+.streaming-text-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: 0;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+a:hover .streaming-text-underline::after,
+a:focus-visible .streaming-text-underline::after { transform: scaleX(1); }

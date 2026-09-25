@@ -1,7 +1,7 @@
 /* Shim — upstream's breakpoint hook picking the compact vs desktop scene set.
    Reimplemented against the captured scene definitions. */
 import { useEffect, useState } from "react";
-import { COMPACT_SET, DESKTOP_SET } from "/ui/effects/liquid-ui/src/liquid/scenes";
+import { COMPACT_SET, DESKTOP_SET } from "/ui/effects/liquid-ui/upstream/liquid/scenes";
 
 export function useSceneSet() {
   const [compact, setCompact] = useState(

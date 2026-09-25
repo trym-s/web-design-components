@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/pound-sterling/src/pound-sterling.tsx`
+- Entry point: `ui/icons/animateicons-lucide/pound-sterling/upstream/pound-sterling.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pound-sterling.json`
 - Registry: https://animateicons.in/r/lu-pound-sterling.json
-- Local source fallback: `ui/icons/animateicons-lucide/pound-sterling/src/pound-sterling.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/pound-sterling/upstream/pound-sterling.tsx`

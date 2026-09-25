@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/arrow-down-z-a/src/arrow-down-z-a.vue`
+- Entry point: `ui/icons/lucide-motion-vue/arrow-down-z-a/upstream/arrow-down-z-a.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/arrow-down-z-a/src/arrow-down-z-a.vue`
+- Local source: `ui/icons/lucide-motion-vue/arrow-down-z-a/upstream/arrow-down-z-a.vue`

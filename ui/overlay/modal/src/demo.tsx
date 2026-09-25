@@ -1,13 +1,11 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { Modal } from "./modal";
 
 const EASE = [0.23, 1, 0.32, 1] as const;
 
-export function ModalDemo() {
-  const [open, setOpen] = useState(false);
+export default function ModalDemo() {
+  const [open, setOpen] = useState(true);
   const [working, setWorking] = useState(false);
   const cancelRef = useRef<HTMLButtonElement>(null);
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
@@ -29,7 +27,7 @@ export function ModalDemo() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="mat-cap press h-9 rounded-[9px] px-3.5 text-[13px] font-medium text-ink"
+        className="border border-border bg-card shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px h-9 rounded-[calc(var(--radius)-1px)] px-3.5 text-[13px] font-medium text-foreground"
       >
         Delete project
       </button>
@@ -48,14 +46,14 @@ export function ModalDemo() {
               ref={cancelRef}
               type="button"
               onClick={() => setOpen(false)}
-              className="h-8 rounded-[8px] border border-stone-200 px-3 text-[12.5px] font-medium text-stone-700 outline-none transition-colors duration-150 hover:bg-stone-100 focus-visible:border-[#4568FF] dark:border-white/[0.16] dark:text-stone-200 dark:hover:bg-white/10 dark:focus-visible:border-[#93B0FF]"
+              className="h-8 rounded-[calc(var(--radius)-2px)] border border-border px-3 text-[12.5px] font-medium text-foreground outline-none transition-colors duration-150 hover:bg-accent focus-visible:border-primary"
             >
               Cancel
             </button>
             <button
               type="button"
               onClick={confirm}
-              className="grid h-8 place-items-center rounded-[8px] bg-stone-800 px-3 text-[12.5px] font-medium text-white outline-none transition-colors duration-150 hover:bg-stone-700 focus-visible:shadow-[inset_0_0_0_1px_#93B0FF] dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-white focus-visible:dark:shadow-[inset_0_0_0_1px_#4568FF]"
+              className="grid h-8 place-items-center rounded-[calc(var(--radius)-2px)] bg-primary px-3 text-[12.5px] font-medium text-primary-foreground outline-none transition-colors duration-150 hover:bg-primary/90 focus-visible:shadow-[inset_0_0_0_1px_var(--ring)]"
             >
               <span aria-hidden className="invisible col-start-1 row-start-1">
                 Deleting
@@ -83,7 +81,7 @@ export function ModalDemo() {
           </>
         }
       >
-        <p className="text-stone-500 dark:text-stone-400">
+        <p className="text-muted-foreground">
           Four deployments and one custom domain are attached.
         </p>
       </Modal>

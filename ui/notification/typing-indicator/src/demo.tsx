@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -8,6 +6,9 @@ import {
 } from "./typing-indicator";
 
 const EASE = [0.23, 1, 0.32, 1] as const;
+
+const cap =
+  "h-8 rounded-[calc(var(--radius)-3px)] border border-border bg-card px-2.5 text-[12px] font-medium text-foreground shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px";
 
 type Message = { id: number; who: string; text: string };
 
@@ -29,7 +30,7 @@ const LINES: Record<string, string[]> = {
   ],
 };
 
-export function TypingIndicatorDemo() {
+export default function TypingIndicatorDemo() {
   const { typists, sending, ping, send } = useTypingPresence({
     timeout: 2400,
   });
@@ -46,6 +47,12 @@ export function TypingIndicatorDemo() {
       ),
     [],
   );
+
+  // Nadia is typing when the demo opens, so the indicator is visible without a click.
+  useEffect(() => {
+    const list = Array.from({ length: 18 }, (_, i) => setTimeout(() => ping("Nadia"), i * 400));
+    return () => list.forEach(clearTimeout);
+  }, [ping]);
 
   const hush = (who: string) => {
     timers.current[who]?.forEach(clearTimeout);
@@ -81,7 +88,7 @@ export function TypingIndicatorDemo() {
   };
 
   return (
-    <div className="flex h-full w-full flex-col">
+    <div className="flex h-[340px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl border bg-card">
       <div
         ref={scroller}
         className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-1 pt-4"
@@ -97,10 +104,10 @@ export function TypingIndicatorDemo() {
                   animate={{ opacity: 1, scale: 1, y: 0, filter: "blur(0px)" }}
                   transition={{ duration: 0.26, ease: EASE }}
                   style={{ transformOrigin: mine ? "100% 100%" : "0% 100%" }}
-                  className={`max-w-[76%] rounded-[14px] px-3 py-2 text-[12.5px] leading-snug ${
+                  className={`max-w-[76%] rounded-[calc(var(--radius)+4px)] px-3 py-2 text-[12.5px] leading-snug ${
                     mine
-                      ? "self-end bg-[#4568FF] text-white"
-                      : "self-start bg-stone-200 text-ink dark:bg-white/[0.09]"
+                      ? "self-end bg-primary text-primary-foreground"
+                      : "self-start bg-foreground/10 text-foreground"
                   }`}
                 >
                   {message.text}
@@ -118,25 +125,25 @@ export function TypingIndicatorDemo() {
           </motion.div>
         </div>
       </div>
-      <div className="flex shrink-0 items-center gap-1.5 border-t border-hairline px-4 py-3">
+      <div className="flex shrink-0 items-center gap-1.5 border-t border-border px-4 py-3">
         <button
           type="button"
           onClick={() => types("Nadia")}
-          className="mat-cap press h-8 rounded-[7px] px-2.5 text-[12px] font-medium text-ink-2"
+          className={cap}
         >
           Nadia types
         </button>
         <button
           type="button"
           onClick={() => types("Ravi")}
-          className="mat-cap press h-8 rounded-[7px] px-2.5 text-[12px] font-medium text-ink-2"
+          className={cap}
         >
           Ravi types
         </button>
         <button
           type="button"
           onClick={() => sends(typists[0] ?? "")}
-          className="mat-cap press ml-auto h-8 rounded-[7px] px-2.5 text-[12px] font-medium text-ink-2"
+          className={`${cap} ml-auto`}
         >
           Sends it
         </button>

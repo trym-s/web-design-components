@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cloud-cog/src/cloud-cog.svelte`
+- Entry point: `ui/icons/movingicons/cloud-cog/upstream/cloud-cog.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-cog`
 - Registry: https://movingicons.dev/r/cloud-cog
-- Local source fallback: `ui/icons/movingicons/cloud-cog/src/cloud-cog.svelte`
+- Local source fallback: `ui/icons/movingicons/cloud-cog/upstream/cloud-cog.svelte`

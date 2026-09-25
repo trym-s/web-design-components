@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/layers-icon/src/layers-icon.tsx`
+- Entry point: `ui/icons/itshover/layers-icon/upstream/layers-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/layers-icon.json`
 - Registry: https://itshover.com/r/layers-icon.json
-- Local source fallback: `ui/icons/itshover/layers-icon/src/layers-icon.tsx`
+- Local source fallback: `ui/icons/itshover/layers-icon/upstream/layers-icon.tsx`

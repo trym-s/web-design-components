@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/clipboard-document-list/src/clipboard-document-list.tsx`
+- Entry point: `ui/icons/heroicons-animated/clipboard-document-list/upstream/clipboard-document-list.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/clipboard-document-list`
 - Registry: https://www.heroicons-animated.com/r/clipboard-document-list.json
-- Local source fallback: `ui/icons/heroicons-animated/clipboard-document-list/src/clipboard-document-list.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/clipboard-document-list/upstream/clipboard-document-list.tsx`

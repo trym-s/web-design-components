@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/confirm-circle-twotone/src/confirm-circle-twotone.svg`
+- Entry point: `ui/icons/line-md/confirm-circle-twotone/upstream/confirm-circle-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/confirm-circle-twotone/src/confirm-circle-twotone.svg`
+- Local source: `ui/icons/line-md/confirm-circle-twotone/upstream/confirm-circle-twotone.svg`

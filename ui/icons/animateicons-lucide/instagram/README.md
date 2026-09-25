@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/instagram/src/instagram.tsx`
+- Entry point: `ui/icons/animateicons-lucide/instagram/upstream/instagram.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-instagram.json`
 - Registry: https://animateicons.in/r/lu-instagram.json
-- Local source fallback: `ui/icons/animateicons-lucide/instagram/src/instagram.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/instagram/upstream/instagram.tsx`

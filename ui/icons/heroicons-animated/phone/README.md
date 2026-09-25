@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/phone/src/phone.tsx`
+- Entry point: `ui/icons/heroicons-animated/phone/upstream/phone.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/phone`
 - Registry: https://www.heroicons-animated.com/r/phone.json
-- Local source fallback: `ui/icons/heroicons-animated/phone/src/phone.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/phone/upstream/phone.tsx`

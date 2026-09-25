@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/mushroom-off-twotone/src/mushroom-off-twotone.svg`
+- Entry point: `ui/icons/line-md/mushroom-off-twotone/upstream/mushroom-off-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/mushroom-off-twotone/src/mushroom-off-twotone.svg`
+- Local source: `ui/icons/line-md/mushroom-off-twotone/upstream/mushroom-off-twotone.svg`

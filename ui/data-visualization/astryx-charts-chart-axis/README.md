@@ -7,7 +7,7 @@ ChartAxis renders tick labels and optional edge and tick lines from the scales o
 - Category: `data-visualization` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ChartAxis.tsx`
+- Entry point: `upstream/ChartAxis.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ ChartAxis renders tick labels and optional edge and tick lines from the scales o
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -107,10 +107,10 @@ import {Chart, ChartAxis, ChartGrid, bar} from '@astryxdesign/charts';
 
 ## Files
 
-- `src/ChartAxis.doc.mjs`
-- `src/ChartAxis.spec.md`
-- `src/ChartAxis.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ChartAxis.doc.mjs`
+- `upstream/ChartAxis.spec.md`
+- `upstream/ChartAxis.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://facebook.github.io/astryx/storybook/

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/sparkles-icon/src/sparkles-icon.tsx`
+- Entry point: `ui/icons/itshover/sparkles-icon/upstream/sparkles-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/sparkles-icon.json`
 - Registry: https://itshover.com/r/sparkles-icon.json
-- Local source fallback: `ui/icons/itshover/sparkles-icon/src/sparkles-icon.tsx`
+- Local source fallback: `ui/icons/itshover/sparkles-icon/upstream/sparkles-icon.tsx`

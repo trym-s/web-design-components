@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/arrow-down-1-0/src/arrow-down-1-0.tsx`
+- Entry point: `ui/icons/lucide-animated/arrow-down-1-0/upstream/arrow-down-1-0.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-down-1-0.json`
 - Registry: https://lucide-animated.com/r/arrow-down-1-0.json
-- Local source fallback: `ui/icons/lucide-animated/arrow-down-1-0/src/arrow-down-1-0.tsx`
+- Local source fallback: `ui/icons/lucide-animated/arrow-down-1-0/upstream/arrow-down-1-0.tsx`

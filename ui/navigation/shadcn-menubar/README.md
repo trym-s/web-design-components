@@ -7,7 +7,7 @@ A visually persistent menu common in desktop applications that provides quick ac
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/menubar.tsx`
+- Entry point: `upstream/ui/menubar.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A visually persistent menu common in desktop applications that provides quick ac
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A visually persistent menu common in desktop applications that provides quick ac
 
 ## Documentation
 
-> Example `menubar-demo` — `src/examples/menubar-demo.tsx`, `static/menubar-demo.html`
+> Example `menubar-demo` — `upstream/examples/menubar-demo.tsx`, `static/menubar-demo.html`
 
 ## Installation
 
@@ -130,29 +130,29 @@ Menubar
 
 Use `MenubarCheckboxItem` for toggleable options.
 
-> Example `menubar-checkbox` — `src/examples/menubar-checkbox.tsx`, `static/menubar-checkbox.html`
+> Example `menubar-checkbox` — `upstream/examples/menubar-checkbox.tsx`, `static/menubar-checkbox.html`
 
 ## Radio
 
 Use `MenubarRadioGroup` and `MenubarRadioItem` for single-select options.
 
-> Example `menubar-radio` — `src/examples/menubar-radio.tsx`, `static/menubar-radio.html`
+> Example `menubar-radio` — `upstream/examples/menubar-radio.tsx`, `static/menubar-radio.html`
 
 ## Submenu
 
 Use `MenubarSub`, `MenubarSubTrigger`, and `MenubarSubContent` for nested menus.
 
-> Example `menubar-submenu` — `src/examples/menubar-submenu.tsx`, `static/menubar-submenu.html`
+> Example `menubar-submenu` — `upstream/examples/menubar-submenu.tsx`, `static/menubar-submenu.html`
 
 ## With Icons
 
-> Example `menubar-icons` — `src/examples/menubar-icons.tsx`, `static/menubar-icons.html`
+> Example `menubar-icons` — `upstream/examples/menubar-icons.tsx`, `static/menubar-icons.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `menubar-rtl` — `src/examples/menubar-rtl.tsx`, `static/menubar-rtl.html`
+> Example `menubar-rtl` — `upstream/examples/menubar-rtl.tsx`, `static/menubar-rtl.html`
 
 ## API Reference
 
@@ -160,13 +160,13 @@ See the [Radix UI Menubar](https://www.radix-ui.com/docs/primitives/components/m
 
 ## Files
 
-- `src/ui/menubar.tsx` — the ui file as the registry installs it
-- `src/examples/menubar-demo.tsx`
-- `src/examples/menubar-checkbox.tsx`
-- `src/examples/menubar-radio.tsx`
-- `src/examples/menubar-submenu.tsx`
-- `src/examples/menubar-icons.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/menubar.tsx` — the ui file as the registry installs it
+- `upstream/examples/menubar-demo.tsx`
+- `upstream/examples/menubar-checkbox.tsx`
+- `upstream/examples/menubar-radio.tsx`
+- `upstream/examples/menubar-submenu.tsx`
+- `upstream/examples/menubar-icons.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/menubar

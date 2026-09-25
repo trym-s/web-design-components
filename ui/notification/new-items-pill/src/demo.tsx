@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { NewItemsPill, useNewItems } from "./new-items-pill";
@@ -14,7 +12,7 @@ const WHAT = [
   "closed the flaky test issue",
 ];
 
-export function NewItemsPillDemo() {
+export default function NewItemsPillDemo() {
   const [ids, setIds] = useState<number[]>(() =>
     Array.from({ length: 14 }, (_, i) => 13 - i),
   );
@@ -46,29 +44,29 @@ export function NewItemsPillDemo() {
   }, [marked]);
 
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-[320px] w-full max-w-[420px] overflow-hidden rounded-xl border bg-card">
       <div
         {...scrollProps}
         role="region"
         aria-label="Team activity"
-        className="fade-y h-full overflow-y-auto overscroll-contain px-3 py-3 outline-none"
+        className="[mask-image:linear-gradient(transparent,black_14px,black_calc(100%-22px),transparent)] h-full overflow-y-auto overscroll-contain px-3 py-3 outline-none"
       >
         {ids.map((id, i) => (
           <article
             key={id}
-            className="relative rounded-[8px] px-2.5 py-[9px] text-[12.5px] leading-relaxed"
+            className="relative rounded-[calc(var(--radius)-2px)] px-2.5 py-[9px] text-[12.5px] leading-relaxed"
           >
             <motion.span
               aria-hidden
-              className="pointer-events-none absolute inset-0 rounded-[8px] bg-[#4568FF]/[0.09] dark:bg-[#93B0FF]/[0.12]"
+              className="pointer-events-none absolute inset-0 rounded-[calc(var(--radius)-2px)] bg-primary/[0.09]"
               initial={false}
               animate={{ opacity: i < marked ? 1 : 0 }}
               transition={{ duration: 0.45, ease: [0.23, 1, 0.32, 1] }}
             />
-            <span className="relative font-medium text-ink">
+            <span className="relative font-medium text-foreground">
               {WHO[id % WHO.length]}
             </span>{" "}
-            <span className="relative text-ink-3">{WHAT[id % WHAT.length]}</span>
+            <span className="relative text-muted-foreground">{WHAT[id % WHAT.length]}</span>
           </article>
         ))}
       </div>

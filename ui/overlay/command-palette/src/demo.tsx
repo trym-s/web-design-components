@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import {
   CommandPalette,
@@ -17,15 +15,15 @@ const commands: CommandItem[] = [
   { id: "settings", label: "Open settings", shortcut: ["⌘", ","] },
 ];
 
-export function CommandPaletteDemo() {
-  const [open, setOpen] = useState(false);
+export default function CommandPaletteDemo() {
+  const [open, setOpen] = useState(true);
 
   return (
     <div className="grid w-full place-items-center">
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="mat-cap press h-9 rounded-[9px] px-3.5 text-[13px] font-medium text-ink"
+        className="border border-border bg-card shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px h-9 rounded-[calc(var(--radius)-1px)] px-3.5 text-[13px] font-medium text-foreground"
       >
         Open commands
       </button>

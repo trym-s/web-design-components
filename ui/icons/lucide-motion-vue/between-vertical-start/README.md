@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/between-vertical-start/src/between-vertical-start.vue`
+- Entry point: `ui/icons/lucide-motion-vue/between-vertical-start/upstream/between-vertical-start.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/between-vertical-start/src/between-vertical-start.vue`
+- Local source: `ui/icons/lucide-motion-vue/between-vertical-start/upstream/between-vertical-start.vue`

@@ -7,7 +7,7 @@ Beautiful charts. Built using Recharts. Copy and paste into your apps.
 - Category: `data-visualization` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/chart.tsx`
+- Entry point: `upstream/ui/chart.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Beautiful charts. Built using Recharts. Copy and paste into your apps.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -34,7 +34,7 @@ Beautiful charts. Built using Recharts. Copy and paste into your apps.
 
 **Updated:** The `chart` component now uses Recharts v3. If you're upgrading existing chart code, see [Updating to Recharts v3](#updating-to-recharts-v3).
 
-> Example `chart-demo` — `src/examples/chart-demo.tsx`, `static/chart-demo.html`
+> Example `chart-demo` — `upstream/examples/chart-demo.tsx`, `static/chart-demo.html`
 
 Introducing **Charts**. A collection of chart components that you can copy and paste into your apps.
 
@@ -166,7 +166,7 @@ You can now build your chart using Recharts components.
 
 **Important:** Remember to set a `min-h-[VALUE]` on the `ChartContainer` component. This is required for the chart to be responsive.
 
-> Example `chart-example` — `src/examples/chart-example.tsx`, `static/chart-example.html`
+> Example `chart-example` — `upstream/examples/chart-example.tsx`, `static/chart-example.html`
 
 ### Add a Grid
 
@@ -190,7 +190,7 @@ import { Bar, BarChart, CartesianGrid } from "recharts"
 </ChartContainer>
 ```
 
-> Example `chart-example-grid` — `src/examples/chart-example-grid.tsx`, `static/chart-example-grid.html`
+> Example `chart-example-grid` — `upstream/examples/chart-example-grid.tsx`, `static/chart-example-grid.html`
 
 ### Add an Axis
 
@@ -221,7 +221,7 @@ import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
 </ChartContainer>
 ```
 
-> Example `chart-example-axis` — `src/examples/chart-example-axis.tsx`, `static/chart-example-axis.html`
+> Example `chart-example-axis` — `upstream/examples/chart-example-axis.tsx`, `static/chart-example-axis.html`
 
 ### Add Tooltip
 
@@ -255,7 +255,7 @@ import { ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 </ChartContainer>
 ```
 
-> Example `chart-example-tooltip` — `src/examples/chart-example-tooltip.tsx`, `static/chart-example-tooltip.html`
+> Example `chart-example-tooltip` — `upstream/examples/chart-example-tooltip.tsx`, `static/chart-example-tooltip.html`
 
 Hover to see the tooltips. Easy, right? Two components, and we've got a beautiful tooltip.
 
@@ -290,7 +290,7 @@ import { ChartLegend, ChartLegendContent } from "@/components/ui/chart"
 </ChartContainer>
 ```
 
-> Example `chart-example-legend` — `src/examples/chart-example-legend.tsx`, `static/chart-example-legend.html`
+> Example `chart-example-legend` — `upstream/examples/chart-example-legend.tsx`, `static/chart-example-legend.html`
 
 Done. You've built your first chart! What's next?
 
@@ -417,7 +417,7 @@ const chartData = [
 
 A chart tooltip contains a label, name, indicator and value. You can use a combination of these to customize your tooltip.
 
-> Example `chart-tooltip` — `src/examples/chart-tooltip.tsx`, `static/chart-tooltip.html`
+> Example `chart-tooltip` — `upstream/examples/chart-tooltip.tsx`, `static/chart-tooltip.html`
 
 You can turn on/off any of these using the `hideLabel`, `hideIndicator` props and customize the indicator style using the `indicator` prop.
 
@@ -540,19 +540,19 @@ This prop adds keyboard access and screen reader support to your charts.
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `chart-rtl` (base-nova) — `src/examples/chart-rtl.tsx`, `static/chart-rtl.html`
+> Example `chart-rtl` (base-nova) — `upstream/examples/chart-rtl.tsx`, `static/chart-rtl.html`
 
 ## Files
 
-- `src/ui/chart.tsx` — the ui file as the registry installs it
-- `src/examples/chart-demo.tsx`
-- `src/examples/chart-example.tsx`
-- `src/examples/chart-example-grid.tsx`
-- `src/examples/chart-example-axis.tsx`
-- `src/examples/chart-example-tooltip.tsx`
-- `src/examples/chart-example-legend.tsx`
-- `src/examples/chart-tooltip.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/chart.tsx` — the ui file as the registry installs it
+- `upstream/examples/chart-demo.tsx`
+- `upstream/examples/chart-example.tsx`
+- `upstream/examples/chart-example-grid.tsx`
+- `upstream/examples/chart-example-axis.tsx`
+- `upstream/examples/chart-example-tooltip.tsx`
+- `upstream/examples/chart-example-legend.tsx`
+- `upstream/examples/chart-tooltip.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/chart

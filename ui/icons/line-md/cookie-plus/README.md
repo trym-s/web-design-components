@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cookie-plus/src/cookie-plus.svg`
+- Entry point: `ui/icons/line-md/cookie-plus/upstream/cookie-plus.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cookie-plus/src/cookie-plus.svg`
+- Local source: `ui/icons/line-md/cookie-plus/upstream/cookie-plus.svg`

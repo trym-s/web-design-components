@@ -1,3 +1,3 @@
 /* Use when: Filling a large dark surface with a responsive spiral particle field. */
 
-export { TwinGalaxyRingsDemo as default } from "./src/demo";
+export { TwinGalaxyRingsDemo as default } from "./upstream/demo";

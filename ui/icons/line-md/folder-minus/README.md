@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-minus/src/folder-minus.svg`
+- Entry point: `ui/icons/line-md/folder-minus/upstream/folder-minus.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-minus/src/folder-minus.svg`
+- Local source: `ui/icons/line-md/folder-minus/upstream/folder-minus.svg`

@@ -7,7 +7,7 @@ Chart lays out one or more mark definitions against shared responsive x and y sc
 - Category: `data-visualization` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Chart.tsx`
+- Entry point: `upstream/Chart.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Chart lays out one or more mark definitions against shared responsive x and y sc
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,16 +33,16 @@ Chart lays out one or more mark definitions against shared responsive x and y sc
 
 ## Examples
 
-- `src/stories/Chart.stories.tsx` — Storybook — Chart
-- `src/stories/ChartAdvanced.stories.tsx` — Storybook — ChartAdvanced
-- `src/stories/ChartCoordinated.stories.tsx` — Storybook — ChartCoordinated
-- `src/stories/ChartDotGL.stories.tsx` — Storybook — ChartDotGL
-- `src/stories/ChartDotGLInteractive.stories.tsx` — Storybook — ChartDotGLInteractive
-- `src/stories/ChartHeatmapGL.stories.tsx` — Storybook — ChartHeatmapGL
-- `src/stories/ChartInteractions.stories.tsx` — Storybook — ChartInteractions
-- `src/stories/ChartStreamGL.stories.tsx` — Storybook — ChartStreamGL
-- `src/stories/ChartStreamPerf.stories.tsx` — Storybook — ChartStreamPerf
-- `src/stories/useChartRange.stories.tsx` — Storybook — useChartRange
+- `upstream/stories/Chart.stories.tsx` — Storybook — Chart
+- `upstream/stories/ChartAdvanced.stories.tsx` — Storybook — ChartAdvanced
+- `upstream/stories/ChartCoordinated.stories.tsx` — Storybook — ChartCoordinated
+- `upstream/stories/ChartDotGL.stories.tsx` — Storybook — ChartDotGL
+- `upstream/stories/ChartDotGLInteractive.stories.tsx` — Storybook — ChartDotGLInteractive
+- `upstream/stories/ChartHeatmapGL.stories.tsx` — Storybook — ChartHeatmapGL
+- `upstream/stories/ChartInteractions.stories.tsx` — Storybook — ChartInteractions
+- `upstream/stories/ChartStreamGL.stories.tsx` — Storybook — ChartStreamGL
+- `upstream/stories/ChartStreamPerf.stories.tsx` — Storybook — ChartStreamPerf
+- `upstream/stories/useChartRange.stories.tsx` — Storybook — useChartRange
 
 ## Documentation
 
@@ -143,11 +143,11 @@ const series = [
 
 ## Files
 
-- `src/Chart.doc.mjs`
-- `src/Chart.spec.md`
-- `src/Chart.tsx`
-- `src/ChartContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Chart.doc.mjs`
+- `upstream/Chart.spec.md`
+- `upstream/Chart.tsx`
+- `upstream/ChartContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://facebook.github.io/astryx/storybook/

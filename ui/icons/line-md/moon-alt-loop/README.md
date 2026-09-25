@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-alt-loop/src/moon-alt-loop.svg`
+- Entry point: `ui/icons/line-md/moon-alt-loop/upstream/moon-alt-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-alt-loop/src/moon-alt-loop.svg`
+- Local source: `ui/icons/line-md/moon-alt-loop/upstream/moon-alt-loop.svg`

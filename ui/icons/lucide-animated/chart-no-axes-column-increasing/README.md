@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/chart-no-axes-column-increasing/src/chart-no-axes-column-increasing.tsx`
+- Entry point: `ui/icons/lucide-animated/chart-no-axes-column-increasing/upstream/chart-no-axes-column-increasing.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-no-axes-column-increasing.json`
 - Registry: https://lucide-animated.com/r/chart-no-axes-column-increasing.json
-- Local source fallback: `ui/icons/lucide-animated/chart-no-axes-column-increasing/src/chart-no-axes-column-increasing.tsx`
+- Local source fallback: `ui/icons/lucide-animated/chart-no-axes-column-increasing/upstream/chart-no-axes-column-increasing.tsx`

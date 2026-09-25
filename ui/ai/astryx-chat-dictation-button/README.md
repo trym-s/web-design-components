@@ -7,7 +7,7 @@ ChatDictationButton is a toggle button that starts and stops voice dictation ins
 - Category: `ai` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ChatDictationButton.tsx`
+- Entry point: `upstream/ChatDictationButton.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ ChatDictationButton is a toggle button that starts and stops voice dictation ins
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ ChatDictationButton is a toggle button that starts and stops voice dictation ins
 
 ## Examples
 
-- `src/examples/ChatDictationButtonShowcase.tsx` — Chat Dictation Button: Interactive dictation button connected to the SpeechRecognition API via useChatDictation. Click the mic to dictate into the composer. · static: `static/ChatDictationButtonShowcase.html`
-- `src/examples/ChatDictationButtonBasic.tsx` — ChatDictationButton — Basic: A dictation button wired to useChatDictation and placed in the sendActions slot of a ChatComposer. Click the microphone to transcribe speech into the input. · static: `static/ChatDictationButtonBasic.html`
-- `src/examples/ChatDictationDictationInComposer.tsx` — ChatDictationButton — In Composer: Dictation button placed in the sendActions slot of a chat composer. Shows the recommended integration point for voice input alongside the send button. · static: `static/ChatDictationDictationInComposer.html`
-- `src/examples/ChatDictationDictationStates.tsx` — ChatDictationButton — States: Dictation button in idle, listening, and speaking states side by side. Shows the three visual phases of a voice input interaction. · static: `static/ChatDictationDictationStates.html`
-- `src/examples/ChatDictationSizes.tsx` — ChatDictationButton — Sizes: Small and medium dictation buttons side by side. Use small in compact composer densities and medium for standard layouts. · static: `static/ChatDictationSizes.html`
+- `upstream/examples/ChatDictationButtonShowcase.tsx` — Chat Dictation Button: Interactive dictation button connected to the SpeechRecognition API via useChatDictation. Click the mic to dictate into the composer. · static: `static/ChatDictationButtonShowcase.html`
+- `upstream/examples/ChatDictationButtonBasic.tsx` — ChatDictationButton — Basic: A dictation button wired to useChatDictation and placed in the sendActions slot of a ChatComposer. Click the microphone to transcribe speech into the input. · static: `static/ChatDictationButtonBasic.html`
+- `upstream/examples/ChatDictationDictationInComposer.tsx` — ChatDictationButton — In Composer: Dictation button placed in the sendActions slot of a chat composer. Shows the recommended integration point for voice input alongside the send button. · static: `static/ChatDictationDictationInComposer.html`
+- `upstream/examples/ChatDictationDictationStates.tsx` — ChatDictationButton — States: Dictation button in idle, listening, and speaking states side by side. Shows the three visual phases of a voice input interaction. · static: `static/ChatDictationDictationStates.html`
+- `upstream/examples/ChatDictationSizes.tsx` — ChatDictationButton — Sizes: Small and medium dictation buttons side by side. Use small in compact composer densities and medium for standard layouts. · static: `static/ChatDictationSizes.html`
 
 ## Documentation
 
@@ -74,10 +74,10 @@ ChatDictationButton is a toggle button that starts and stops voice dictation ins
 
 ## Files
 
-- `src/ChatDictationButton.doc.mjs`
-- `src/ChatDictationButton.spec.md`
-- `src/ChatDictationButton.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ChatDictationButton.doc.mjs`
+- `upstream/ChatDictationButton.spec.md`
+- `upstream/ChatDictationButton.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ChatDictationButton

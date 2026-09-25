@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-pen/src/square-pen.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-pen/upstream/square-pen.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-pen/src/square-pen.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-pen/upstream/square-pen.vue`

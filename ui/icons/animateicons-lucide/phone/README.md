@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/phone/src/phone.tsx`
+- Entry point: `ui/icons/animateicons-lucide/phone/upstream/phone.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-phone.json`
 - Registry: https://animateicons.in/r/lu-phone.json
-- Local source fallback: `ui/icons/animateicons-lucide/phone/src/phone.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/phone/upstream/phone.tsx`

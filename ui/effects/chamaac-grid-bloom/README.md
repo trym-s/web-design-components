@@ -7,7 +7,7 @@ A mesmerizing, shader-driven background with dual pulsing wave origins that crea
 - Category: `effects` — decorative
 - Medium: React + TypeScript + Tailwind CSS v4 + three.js (@react-three/fiber, GLSL shaders); static HTML
 - Framework: react
-- Entry point: `src/examples/grid-bloom-demo.tsx`
+- Entry point: `upstream/examples/grid-bloom-demo.tsx`
 - Nature: decorative; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -22,7 +22,9 @@ A mesmerizing, shader-driven background with dual pulsing wave origins that crea
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (Next.js removed; it imports only allowlisted packages);
+  `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
+- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/grid-bloom.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`. Shader backgrounds draw on a canvas at runtime: port the GLSL from the component source, not the markup.
 
 ## Props
@@ -45,9 +47,27 @@ A mesmerizing, shader-driven background with dual pulsing wave origins that crea
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `ui/_sources/chamaac/registry/chamaac/grid-bloom/grid-bloom.tsx` — the component as the registry installs it
-- `src/examples/grid-bloom-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/grid-bloom-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/backgrounds/grid-bloom
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--foreground`, `--border`, …).
+It imports only `react`, `three`, `@react-three/fiber`, `clsx`, `tailwind-merge`. `src/LICENSE` is Chamaac UI's MIT licence (Copyright (c) 2026 Amarnath); keep it with the files.
+`src/demo.tsx` is sample data and wiring only. Colours without a shadcn equivalent are
+props or CSS variables whose defaults are the upstream values; fonts come from the target project.
+
+### Grid Bloom — `grid-bloom.tsx`
+
+Full-bleed transparent overlay: a thin glowing grid distorted by simplex noise, scrolling diagonally, with pulsing intersections, a radial moiré pulse and an edge fade; additive blending, so show it over a dark surface.
+
+- Props: `color` (`#e040fb`), `speed` (1), `gridScale` (12), `rotationSpeed` (0), `fadeFalloff` (10), `distortionAmount` (0.05), `flowSpeedX` (−0.2), `flowSpeedY` (−0.4), `hoverLightRadius` (0.5), `hoverRepulsionRadius` (1), `hoverRepulsionStrength` (0.6), `enableMouseInteraction` (true), `className`.
+- States: none; purely decorative, `aria`-silent. The canvas is WebGL (three.js via @react-three/fiber); it resizes with its box.
+- Interactions: the pointer is read from `window` (the overlay itself ignores it): inside the canvas box it lights the grid in a soft aura and pushes the lines away, both following with spring-like easing (0.1 position, 0.15 fade); leaving fades the effect out.
+- Keyboard: none (not focusable).
+- Reduced motion: with `prefers-reduced-motion: reduce` the canvas renders one still frame (`frameloop="demand"`) instead of animating.

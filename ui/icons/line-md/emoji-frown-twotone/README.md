@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-frown-twotone/src/emoji-frown-twotone.svg`
+- Entry point: `ui/icons/line-md/emoji-frown-twotone/upstream/emoji-frown-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-frown-twotone/src/emoji-frown-twotone.svg`
+- Local source: `ui/icons/line-md/emoji-frown-twotone/upstream/emoji-frown-twotone.svg`

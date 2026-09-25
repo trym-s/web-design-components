@@ -7,7 +7,7 @@ DateRangeInput lets users select a start and end date from a dual-month calendar
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/DateRangeInput.tsx`
+- Entry point: `upstream/DateRangeInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ DateRangeInput lets users select a start and end date from a dual-month calendar
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ DateRangeInput lets users select a start and end date from a dual-month calendar
 
 ## Examples
 
-- `src/examples/DateRangeInputShowcase.tsx` — Date Range Input: A date range picker with a button trigger and dual-month calendar popover with preset ranges. · static: `static/DateRangeInputShowcase.html`
-- `src/examples/DateRangeInputWithPresets.tsx` — DateRangeInput — With Presets: Date range picker with quick-select presets for common periods. Use for analytics dashboards, report filters, or any context where users frequently select standard time windows. · static: `static/DateRangeInputWithPresets.html`
-- `src/examples/DateRangeInputWithValidation.tsx` — DateRangeInput — Validation: Date range input in all three status states: error, warning, and success. Use to surface booking conflicts, flag high-demand periods, or confirm an available range. · static: `static/DateRangeInputWithValidation.html`
+- `upstream/examples/DateRangeInputShowcase.tsx` — Date Range Input: A date range picker with a button trigger and dual-month calendar popover with preset ranges. · static: `static/DateRangeInputShowcase.html`
+- `upstream/examples/DateRangeInputWithPresets.tsx` — DateRangeInput — With Presets: Date range picker with quick-select presets for common periods. Use for analytics dashboards, report filters, or any context where users frequently select standard time windows. · static: `static/DateRangeInputWithPresets.html`
+- `upstream/examples/DateRangeInputWithValidation.tsx` — DateRangeInput — Validation: Date range input in all three status states: error, warning, and success. Use to surface booking conflicts, flag high-demand periods, or confirm an available range. · static: `static/DateRangeInputWithValidation.html`
 
 ## Documentation
 
@@ -104,10 +104,10 @@ Styling hook class: `.astryx-date-range-input`, `.astryx-date-range-input-toggle
 
 ## Files
 
-- `src/DateRangeInput.doc.mjs`
-- `src/DateRangeInput.spec.md`
-- `src/DateRangeInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/DateRangeInput.doc.mjs`
+- `upstream/DateRangeInput.spec.md`
+- `upstream/DateRangeInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/DateRangeInput

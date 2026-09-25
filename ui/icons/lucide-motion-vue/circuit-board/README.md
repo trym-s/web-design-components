@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/circuit-board/src/circuit-board.vue`
+- Entry point: `ui/icons/lucide-motion-vue/circuit-board/upstream/circuit-board.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/circuit-board/src/circuit-board.vue`
+- Local source: `ui/icons/lucide-motion-vue/circuit-board/upstream/circuit-board.vue`

@@ -7,7 +7,7 @@ A toggle control for on/off states that take effect immediately. Supports labels
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Switch.tsx`
+- Entry point: `upstream/Switch.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A toggle control for on/off states that take effect immediately. Supports labels
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A toggle control for on/off states that take effect immediately. Supports labels
 
 ## Examples
 
-- `src/examples/SwitchShowcase.tsx` — Switch: A toggle switch for enabling notifications. · static: `static/SwitchShowcase.html`
-- `src/examples/SwitchDisabled.tsx` — Switch — Disabled: Disabled switch with label and description for gated features. · static: `static/SwitchDisabled.html`
-- `src/examples/SwitchSettingsPanel.tsx` — Switch — Settings Panel: Settings panel with spread-spaced switches in a card. · static: `static/SwitchSettingsPanel.html`
-- `src/examples/SwitchWithDescription.tsx` — Switch — With Description: Toggle with a label and supporting description text. · static: `static/SwitchWithDescription.html`
-- `src/examples/SwitchWithStatus.tsx` — Switch — With Status: Switches with error, warning, and success validation states. · static: `static/SwitchWithStatus.html`
+- `upstream/examples/SwitchShowcase.tsx` — Switch: A toggle switch for enabling notifications. · static: `static/SwitchShowcase.html`
+- `upstream/examples/SwitchDisabled.tsx` — Switch — Disabled: Disabled switch with label and description for gated features. · static: `static/SwitchDisabled.html`
+- `upstream/examples/SwitchSettingsPanel.tsx` — Switch — Settings Panel: Settings panel with spread-spaced switches in a card. · static: `static/SwitchSettingsPanel.html`
+- `upstream/examples/SwitchWithDescription.tsx` — Switch — With Description: Toggle with a label and supporting description text. · static: `static/SwitchWithDescription.html`
+- `upstream/examples/SwitchWithStatus.tsx` — Switch — With Status: Switches with error, warning, and success validation states. · static: `static/SwitchWithStatus.html`
 
 ## Documentation
 
@@ -143,10 +143,10 @@ Styling hook class: `.astryx-switch`, `.astryx-switch-thumb`, `.astryx-switch-fi
 
 ## Files
 
-- `src/Switch.doc.mjs`
-- `src/Switch.spec.md`
-- `src/Switch.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Switch.doc.mjs`
+- `upstream/Switch.spec.md`
+- `upstream/Switch.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Switch

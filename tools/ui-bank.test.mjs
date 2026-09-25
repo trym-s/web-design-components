@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import test from "node:test";
+import { srcImportErrors } from "./ui-bank.mjs";
 
 const run = (...args) => JSON.parse(execFileSync(process.execPath, ["tools/ui-bank.mjs", ...args], { encoding: "utf8" }));
 const catalog = JSON.parse(readFileSync("catalog/catalog.json", "utf8"));
@@ -61,4 +64,53 @@ test("animated icon inventories and installation metadata are complete", () => {
     assert.ok(entry.installation.command);
     assert.ok(entry.installation.fallbackPath);
   }
+});
+
+test("copy-paste src/ may import only the Entry layout allowlist", () => {
+  const root = mkdtempSync(join(tmpdir(), "ui-bank-src-"));
+  const src = join(root, "entry/src");
+  mkdirSync(join(src, "lib"), { recursive: true });
+  try {
+    writeFileSync(join(src, "lib/utils.ts"), 'import { clsx } from "clsx";\nimport { twMerge } from "tailwind-merge";\n');
+    writeFileSync(join(src, "ok.tsx"), [
+      'import * as React from "react";', 'import { Slider } from "@base-ui/react/slider";', 'import { motion } from "motion/react";',
+      'import { Play } from "lucide-react";', 'import { cn } from "./lib/utils";', "export {};",
+    ].join("\n"));
+    assert.deepEqual(srcImportErrors(src), []);
+    writeFileSync(join(src, "bad.tsx"), [
+      'import { Knob } from "@audio-ui/react";', 'import { cn } from "@/lib/utils";', 'import x from "../../_sources/x/y";',
+      'import Link from "next/link";', 'const lazy = import("sonner");',
+    ].join("\n"));
+    writeFileSync(join(src, "tight.tsx"), [
+      'import{a}from"pkg-tight";export{b}from"pkg-export";export*from"pkg-star";',
+      "const t = import(`pkg-template`); const u = import(`./${name}`);",
+      'const leak = new URL("../../leak.png", import.meta.url); const fine = new URL("./fine.png", import.meta.url);',
+      'const tw = "bg-[url(../../tw.png)]";',
+    ].join("\n"));
+    writeFileSync(join(src, "module.mts"), 'import m from "pkg-mts";');
+    writeFileSync(join(src, "common.cts"), 'const c = require("pkg-cts");');
+    writeFileSync(join(src, "style.css"), [
+      '@import "tailwindcss";', "@import url(pkg-css);", '@import url("../../outside.css");', '@plugin "pkg-plugin";',
+      '@source "../../../ui";', '.a { background: url("../../bg.png"); }', ".b { background: url(data:image/png;base64,AA); }",
+      '.c { mask: url(#m); } .d { background: url("./ok.png"); }',
+    ].join("\n"));
+    const errors = srcImportErrors(src);
+    const expected = [
+      "@audio-ui/react", "@/lib/utils", "../../_sources/x/y", "next/link", "sonner", "pkg-tight", "pkg-export", "pkg-star",
+      "pkg-template", "./${name}", "../../leak.png", "../../tw.png", "pkg-mts", "pkg-cts", "pkg-css", "../../outside.css",
+      "pkg-plugin", "../../../ui", "../../bg.png",
+    ];
+    for (const spec of expected) assert.ok(errors.some((error) => error.endsWith(`imports ${spec}`)), spec);
+    assert.equal(errors.length, expected.length, errors.join("\n"));
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test("catalog exposes upstream/ and copy-paste src/ paths", () => {
+  assert.ok(catalog.entries.every((entry) => entry.copyPaste === Boolean(entry.paths.src)));
+  const knob = run("show", "input/audio-ui-knob").reference;
+  assert.equal(knob.paths.upstream, "ui/input/audio-ui-knob/upstream");
+  assert.equal(knob.paths.src, "ui/input/audio-ui-knob/src");
+  assert.equal(knob.copyPaste, true);
 });

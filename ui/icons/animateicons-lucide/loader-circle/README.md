@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/loader-circle/src/loader-circle.tsx`
+- Entry point: `ui/icons/animateicons-lucide/loader-circle/upstream/loader-circle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-loader-circle.json`
 - Registry: https://animateicons.in/r/lu-loader-circle.json
-- Local source fallback: `ui/icons/animateicons-lucide/loader-circle/src/loader-circle.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/loader-circle/upstream/loader-circle.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/sunny-outline-to-moon-alt-loop-transition/src/sunny-outline-to-moon-alt-loop-transition.svg`
+- Entry point: `ui/icons/line-md/sunny-outline-to-moon-alt-loop-transition/upstream/sunny-outline-to-moon-alt-loop-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/sunny-outline-to-moon-alt-loop-transition/src/sunny-outline-to-moon-alt-loop-transition.svg`
+- Local source: `ui/icons/line-md/sunny-outline-to-moon-alt-loop-transition/upstream/sunny-outline-to-moon-alt-loop-transition.svg`

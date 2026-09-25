@@ -1,5 +1,3 @@
-"use client";
-
 import {
   useCallback,
   useEffect,
@@ -403,27 +401,27 @@ export function Modal({
             aria-hidden="true"
             variants={variants.backdrop}
             style={{ touchAction: "none" }}
-            className="absolute inset-0 bg-stone-900/40 dark:bg-black/65"
+            className="absolute inset-0 bg-black/50"
           />
           <motion.div
             {...panelProps}
             aria-describedby={description ? descriptionId : undefined}
             variants={variants.panel}
             style={{ maxWidth, maxHeight }}
-            className={`relative flex w-full flex-col overflow-hidden rounded-[14px] border border-stone-200 bg-white text-stone-700 shadow-[0_28px_56px_-24px_rgba(24,22,20,0.45)] outline-none dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-200 ${className}`}
+            className={`relative flex w-full flex-col overflow-hidden rounded-[calc(var(--radius)+4px)] border border-border bg-popover text-foreground shadow-2xl outline-none ${className}`}
           >
             <div className="flex shrink-0 items-start gap-3 px-4 pb-3 pt-4">
               <div className="min-w-0 flex-1">
                 <h2
                   id={titleId}
-                  className="text-[15px] font-medium tracking-[-0.01em] text-stone-800 dark:text-stone-100"
+                  className="text-[15px] font-medium tracking-[-0.01em] text-foreground"
                 >
                   {title}
                 </h2>
                 {description ? (
                   <p
                     id={descriptionId}
-                    className="mt-1 text-[12.5px] leading-relaxed text-stone-500 dark:text-stone-400"
+                    className="mt-1 text-[12.5px] leading-relaxed text-muted-foreground"
                   >
                     {description}
                   </p>
@@ -435,7 +433,7 @@ export function Modal({
                   type="button"
                   onClick={onClose}
                   aria-label={closeLabel}
-                  className="-mr-1 -mt-1 grid size-7 shrink-0 place-items-center rounded-[7px] text-stone-400 outline-none transition-colors duration-150 hover:bg-stone-100 hover:text-stone-700 focus-visible:bg-[#4568FF]/[0.06] focus-visible:text-stone-700 focus-visible:shadow-[inset_0_0_0_1px_#4568FF] dark:text-stone-500 dark:hover:bg-white/10 dark:hover:text-stone-100 dark:focus-visible:bg-[#93B0FF]/[0.1] dark:focus-visible:text-stone-100 dark:focus-visible:shadow-[inset_0_0_0_1px_#93B0FF]"
+                  className="-mr-1 -mt-1 grid size-7 shrink-0 place-items-center rounded-[calc(var(--radius)-3px)] text-muted-foreground outline-none transition-colors duration-150 hover:bg-accent hover:text-foreground focus-visible:bg-primary/[0.06] focus-visible:text-foreground focus-visible:shadow-[inset_0_0_0_1px_var(--primary)]"
                 >
                   {CLOSE_ICON}
                 </button>
@@ -449,7 +447,7 @@ export function Modal({
             ) : null}
 
             {footer ? (
-              <div className="flex shrink-0 items-center justify-end gap-2 border-t border-stone-200 px-4 py-3 dark:border-white/[0.16]">
+              <div className="flex shrink-0 items-center justify-end gap-2 border-t border-border px-4 py-3">
                 {footer}
               </div>
             ) : null}

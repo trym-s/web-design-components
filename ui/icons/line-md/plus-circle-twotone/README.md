@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/plus-circle-twotone/src/plus-circle-twotone.svg`
+- Entry point: `ui/icons/line-md/plus-circle-twotone/upstream/plus-circle-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/plus-circle-twotone/src/plus-circle-twotone.svg`
+- Local source: `ui/icons/line-md/plus-circle-twotone/upstream/plus-circle-twotone.svg`

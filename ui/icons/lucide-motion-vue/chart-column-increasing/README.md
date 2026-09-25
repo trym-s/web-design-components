@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chart-column-increasing/src/chart-column-increasing.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chart-column-increasing/upstream/chart-column-increasing.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chart-column-increasing/src/chart-column-increasing.vue`
+- Local source: `ui/icons/lucide-motion-vue/chart-column-increasing/upstream/chart-column-increasing.vue`

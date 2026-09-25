@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/compass-filled-loop/src/compass-filled-loop.svg`
+- Entry point: `ui/icons/line-md/compass-filled-loop/upstream/compass-filled-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/compass-filled-loop/src/compass-filled-loop.svg`
+- Local source: `ui/icons/line-md/compass-filled-loop/upstream/compass-filled-loop.svg`

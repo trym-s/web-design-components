@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/car-light-off-twotone/src/car-light-off-twotone.svg`
+- Entry point: `ui/icons/line-md/car-light-off-twotone/upstream/car-light-off-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/car-light-off-twotone/src/car-light-off-twotone.svg`
+- Local source: `ui/icons/line-md/car-light-off-twotone/upstream/car-light-off-twotone.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/circle-arrow-out-up-right/src/circle-arrow-out-up-right.svelte`
+- Entry point: `ui/icons/movingicons/circle-arrow-out-up-right/upstream/circle-arrow-out-up-right.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/circle-arrow-out-up-right`
 - Registry: https://movingicons.dev/r/circle-arrow-out-up-right
-- Local source fallback: `ui/icons/movingicons/circle-arrow-out-up-right/src/circle-arrow-out-up-right.svelte`
+- Local source fallback: `ui/icons/movingicons/circle-arrow-out-up-right/upstream/circle-arrow-out-up-right.svelte`

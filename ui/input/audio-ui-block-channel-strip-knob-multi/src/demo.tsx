@@ -1,10 +1,15 @@
-import E0 from "./examples/block-channel-strip-knob-multi";
-import { AudioFrame } from "../../../_sources/audio-ui/frame";
+import { useState } from "react";
+import { BlockChannelStripKnobMulti } from "./block-channel-strip-knob-multi";
 
-const examples = [
-  { name: "block-channel-strip-knob-multi", title: "Block Channel Strip Knob Multi", component: E0 },
-];
+const labels = ["Gain", "Reverb", "Delay", "Drive"];
 
 export default function Demo() {
-  return <AudioFrame examples={examples} />;
+  const [values, setValues] = useState(() => labels.map((label) => ({ id: label, label, value: 50 })));
+  return (
+    <BlockChannelStripKnobMulti
+      effects={values}
+      footer="FX"
+      onValueChange={(id, value) => setValues((current) => current.map((item) => (item.id === id ? { ...item, value } : item)))}
+    />
+  );
 }

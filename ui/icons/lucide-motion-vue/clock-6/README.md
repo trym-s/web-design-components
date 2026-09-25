@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/clock-6/src/clock-6.vue`
+- Entry point: `ui/icons/lucide-motion-vue/clock-6/upstream/clock-6.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/clock-6/src/clock-6.vue`
+- Local source: `ui/icons/lucide-motion-vue/clock-6/upstream/clock-6.vue`

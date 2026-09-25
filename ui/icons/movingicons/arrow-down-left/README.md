@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/arrow-down-left/src/arrow-down-left.svelte`
+- Entry point: `ui/icons/movingicons/arrow-down-left/upstream/arrow-down-left.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/arrow-down-left`
 - Registry: https://movingicons.dev/r/arrow-down-left
-- Local source fallback: `ui/icons/movingicons/arrow-down-left/src/arrow-down-left.svelte`
+- Local source fallback: `ui/icons/movingicons/arrow-down-left/upstream/arrow-down-left.svelte`

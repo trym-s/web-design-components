@@ -7,7 +7,7 @@ Maintains a fixed width-to-height ratio for its children as its container resize
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/AspectRatio.tsx`
+- Entry point: `upstream/AspectRatio.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Maintains a fixed width-to-height ratio for its children as its container resize
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Maintains a fixed width-to-height ratio for its children as its container resize
 
 ## Examples
 
-- `src/examples/AspectRatioShowcase.tsx` — Aspect Ratio: Three aspect ratio containers at equal height (1:1, 4:3, and 16:9), each showing an image with its ratio labeled below. · static: `static/AspectRatioShowcase.html`
-- `src/examples/AspectRatioCircleImage.tsx` — AspectRatio — Circle Image: Circular container via shape="ellipse" with ratio={1}, ideal for avatars and profile images. · static: `static/AspectRatioCircleImage.html`
-- `src/examples/AspectRatioImageGallery.tsx` — AspectRatio — Image Gallery: Grid of images with consistent 4:3 aspect ratios. · static: `static/AspectRatioImageGallery.html`
-- `src/examples/AspectRatioSquareImage.tsx` — AspectRatio — Square Image: 1:1 square aspect ratio, ideal for avatars and Instagram-style images. · static: `static/AspectRatioSquareImage.html`
-- `src/examples/AspectRatioWidescreen.tsx` — AspectRatio — 16:9 Widescreen Image: 16:9 widescreen aspect ratio wrapping an image. · static: `static/AspectRatioWidescreen.html`
-- `src/examples/AspectRatioWithSkeleton.tsx` — AspectRatio — Loading Skeleton: Aspect ratio container with a skeleton loading placeholder. · static: `static/AspectRatioWithSkeleton.html`
+- `upstream/examples/AspectRatioShowcase.tsx` — Aspect Ratio: Three aspect ratio containers at equal height (1:1, 4:3, and 16:9), each showing an image with its ratio labeled below. · static: `static/AspectRatioShowcase.html`
+- `upstream/examples/AspectRatioCircleImage.tsx` — AspectRatio — Circle Image: Circular container via shape="ellipse" with ratio={1}, ideal for avatars and profile images. · static: `static/AspectRatioCircleImage.html`
+- `upstream/examples/AspectRatioImageGallery.tsx` — AspectRatio — Image Gallery: Grid of images with consistent 4:3 aspect ratios. · static: `static/AspectRatioImageGallery.html`
+- `upstream/examples/AspectRatioSquareImage.tsx` — AspectRatio — Square Image: 1:1 square aspect ratio, ideal for avatars and Instagram-style images. · static: `static/AspectRatioSquareImage.html`
+- `upstream/examples/AspectRatioWidescreen.tsx` — AspectRatio — 16:9 Widescreen Image: 16:9 widescreen aspect ratio wrapping an image. · static: `static/AspectRatioWidescreen.html`
+- `upstream/examples/AspectRatioWithSkeleton.tsx` — AspectRatio — Loading Skeleton: Aspect ratio container with a skeleton loading placeholder. · static: `static/AspectRatioWithSkeleton.html`
 
 ## Documentation
 
@@ -118,9 +118,9 @@ Styling hook class: `.astryx-aspect-ratio`
 
 ## Files
 
-- `src/AspectRatio.doc.mjs`
-- `src/AspectRatio.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/AspectRatio.doc.mjs`
+- `upstream/AspectRatio.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/AspectRatio

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/shield-check/src/shield-check.vue`
+- Entry point: `ui/icons/lucide-motion-vue/shield-check/upstream/shield-check.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/shield-check/src/shield-check.vue`
+- Local source: `ui/icons/lucide-motion-vue/shield-check/upstream/shield-check.vue`

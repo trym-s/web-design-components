@@ -1,9 +1,10 @@
-import Component from "../../../_sources/chamaac/registry/chamaac/shader-test/page";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
+import WateryNoise from "./watery-noise";
 
-// No demo upstream: the component with its default props, filling the preview box.
-const examples = [{ name: "shader-test", title: "Shader Test", component: () => <div className="absolute inset-0"><Component /></div> }];
-
+// No demo upstream: the component with its default props, filling a 500 px box.
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="h-[500px] w-full overflow-hidden rounded-xl">
+      <WateryNoise className="h-full" />
+    </div>
+  );
 }

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/heart-half-filled/src/heart-half-filled.svg`
+- Entry point: `ui/icons/line-md/heart-half-filled/upstream/heart-half-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/heart-half-filled/src/heart-half-filled.svg`
+- Local source: `ui/icons/line-md/heart-half-filled/upstream/heart-half-filled.svg`

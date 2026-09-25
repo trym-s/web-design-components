@@ -1,8 +1,15 @@
-import Example from "./examples/tilt-card-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "tilt-card", title: "Tilt Card", component: Example }];
+import { Cpu, Sparkles, TrendingUp, Users } from "lucide-react";
+import TiltCard from "./tilt-card";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <TiltCard
+      features={[
+        { icon: Sparkles, title: "Automate Intelligence", description: "AI-driven workflow automation." },
+        { icon: TrendingUp, title: "Adaptive Learning", description: "Improves with every interaction." },
+        { icon: Cpu, title: "Context-Aware Decisions", description: "Understands context before acting." },
+        { icon: Users, title: "Collaborative Agents", description: "Coordinates multiple AI agents." },
+      ]}
+    />
+  );
 }

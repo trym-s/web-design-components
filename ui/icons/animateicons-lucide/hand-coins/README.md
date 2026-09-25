@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/hand-coins/src/hand-coins.tsx`
+- Entry point: `ui/icons/animateicons-lucide/hand-coins/upstream/hand-coins.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-hand-coins.json`
 - Registry: https://animateicons.in/r/lu-hand-coins.json
-- Local source fallback: `ui/icons/animateicons-lucide/hand-coins/src/hand-coins.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/hand-coins/upstream/hand-coins.tsx`

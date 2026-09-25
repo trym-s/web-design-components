@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/file-check/src/file-check.svelte`
+- Entry point: `ui/icons/movingicons/file-check/upstream/file-check.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/file-check`
 - Registry: https://movingicons.dev/r/file-check
-- Local source fallback: `ui/icons/movingicons/file-check/src/file-check.svelte`
+- Local source fallback: `ui/icons/movingicons/file-check/upstream/file-check.svelte`

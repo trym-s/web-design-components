@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/pixelfed-filled/src/pixelfed-filled.svg`
+- Entry point: `ui/icons/line-md/pixelfed-filled/upstream/pixelfed-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/pixelfed-filled/src/pixelfed-filled.svg`
+- Local source: `ui/icons/line-md/pixelfed-filled/upstream/pixelfed-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/flag-off/src/flag-off.svelte`
+- Entry point: `ui/icons/movingicons/flag-off/upstream/flag-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/flag-off`
 - Registry: https://movingicons.dev/r/flag-off
-- Local source fallback: `ui/icons/movingicons/flag-off/src/flag-off.svelte`
+- Local source fallback: `ui/icons/movingicons/flag-off/upstream/flag-off.svelte`

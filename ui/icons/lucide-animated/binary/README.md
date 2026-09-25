@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/binary/src/binary.tsx`
+- Entry point: `ui/icons/lucide-animated/binary/upstream/binary.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/binary.json`
 - Registry: https://lucide-animated.com/r/binary.json
-- Local source fallback: `ui/icons/lucide-animated/binary/src/binary.tsx`
+- Local source fallback: `ui/icons/lucide-animated/binary/upstream/binary.tsx`

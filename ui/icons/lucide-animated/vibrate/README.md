@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/vibrate/src/vibrate.tsx`
+- Entry point: `ui/icons/lucide-animated/vibrate/upstream/vibrate.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/vibrate.json`
 - Registry: https://lucide-animated.com/r/vibrate.json
-- Local source fallback: `ui/icons/lucide-animated/vibrate/src/vibrate.tsx`
+- Local source fallback: `ui/icons/lucide-animated/vibrate/upstream/vibrate.tsx`

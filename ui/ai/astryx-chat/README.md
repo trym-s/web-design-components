@@ -7,7 +7,7 @@ Chat is a family of composable primitives for building AI and human chat experie
 - Category: `ai` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ChatComposer.tsx`
+- Entry point: `upstream/ChatComposer.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Chat is a family of composable primitives for building AI and human chat experie
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,54 +33,54 @@ Chat is a family of composable primitives for building AI and human chat experie
 
 ## Examples
 
-- `src/examples/ChatComposerDrawerShowcase.tsx` — Chat Composer Drawer: Composer drawer with file tokens, a collapsible toggle, and header actions. Use as a starting point for any chat composer with attachments. · static: `static/ChatComposerDrawerShowcase.html`
-- `src/examples/ChatComposerInputShowcase.tsx` — Chat Composer Input · static: `static/ChatComposerInputShowcase.html`
-- `src/examples/ChatComposerShowcase.tsx` — Chat Composer · static: `static/ChatComposerShowcase.html`
-- `src/examples/ChatLayoutShowcase.tsx` — Chat Layout · static: `static/ChatLayoutShowcase.html`
-- `src/examples/ChatMessageBubbleShowcase.tsx` — Chat Message Bubble: Grouped user bubbles with filled styling and a ghost-variant agent response, with timestamps and delivery status. · static: `static/ChatMessageBubbleShowcase.html`
-- `src/examples/ChatMessageListShowcase.tsx` — Chat Message List: Basic AI chat conversation with user and assistant messages. The simplest way to render a message list with alternating sender bubbles, metadata, and a date divider. · static: `static/ChatMessageListShowcase.html`
-- `src/examples/ChatMessageMetadataShowcase.tsx` — Chat Message Metadata: Three-message conversation showcasing error status with retry, delivery status, and full footer actions with model label. · static: `static/ChatMessageMetadataShowcase.html`
-- `src/examples/ChatMessageShowcase.tsx` — Chat Message: A user multi-bubble group with delivery status and an assistant ghost response with avatar, name, timestamp, and model info. · static: `static/ChatMessageShowcase.html`
-- `src/examples/ChatSendButtonShowcase.tsx` — Chat Send Button: Ready, custom icon, and streaming states of the send button. · static: `static/ChatSendButtonShowcase.html`
-- `src/examples/ChatSystemMessageShowcase.tsx` — Chat System Message: System messages for date dividers, status updates, and informational notices. Shows both default and divider variants in a realistic conversation flow. · static: `static/ChatSystemMessageShowcase.html`
-- `src/examples/ChatComposerAttachments.tsx` — ChatComposer — Attachments: Chat composer with removable file tokens in a collapsible drawer. Use when users can attach files or context to their message. · static: `static/ChatComposerAttachments.html`
-- `src/examples/ChatComposerDrawerAttachments.tsx` — ChatComposerDrawer — Attachments: Drawer with two rows: a scrollable carousel of image thumbnails and a row of removable file tokens. Omit count to keep the drawer always expanded. · static: `static/ChatComposerDrawerAttachments.html`
-- `src/examples/ChatComposerDrawerCollapsible.tsx` — ChatComposerDrawer — Collapsible: Drawer with many items and a collapse toggle. Pass count to enable the toggle; collapsed state shows a badge with the total count and a label. · static: `static/ChatComposerDrawerCollapsible.html`
-- `src/examples/ChatComposerDrawerFeedback.tsx` — ChatComposerDrawer — Feedback: Chat composer drawer with a feedback prompt and selectable lettered options. Use for user confirmation workflows that require explicit action before proceeding. · static: `static/ChatComposerDrawerFeedback.html`
-- `src/examples/ChatComposerDrawerWithProgress.tsx` — ChatComposerDrawer — With Progress: Drawer paired with a context progress bar in the header. Show context window usage when attachments consume part of the available token budget. · static: `static/ChatComposerDrawerWithProgress.html`
-- `src/examples/ChatComposerFlat.tsx` — ChatComposer — Flat: The composer is raised by default (`elevation="low"`). Set `elevation="none"` to flatten it; it then draws a border with the same rest / hover / focus treatment as a text input. · static: `static/ChatComposerFlat.html`
-- `src/examples/ChatComposerFooterActions.tsx` — ChatComposer — Footer Actions: Chat composer with dropdown menus for a model selector and settings in the footer, and a mic button in the send actions slot. · static: `static/ChatComposerFooterActions.html`
-- `src/examples/ChatComposerFullFeatured.tsx` — ChatComposer — Full Featured: Chat composer with all slots populated: collapsible attachment drawer, header actions, context progress bar, footer dropdown menus, and mic button. Shows the maximum composer configuration. · static: `static/ChatComposerFullFeatured.html`
-- `src/examples/ChatComposerInputControlledInput.tsx` — ChatComposerInput — Controlled: Controlled chat input with live value display. Use controlled mode when you need to read or transform the input value outside the composer. · static: `static/ChatComposerInputControlledInput.html`
-- `src/examples/ChatComposerInputDisabled.tsx` — ChatComposerInput — Disabled: Composer in a disabled state. Use when the input should be visible but not interactive, such as during streaming or when a prerequisite is unmet. · static: `static/ChatComposerInputDisabled.html`
-- `src/examples/ChatComposerInputMentionTrigger.tsx` — ChatComposerInput — Mentions: Chat input with an @ trigger that opens a typeahead menu for mentioning users. Selected names appear as inline tokens. · static: `static/ChatComposerInputMentionTrigger.html`
-- `src/examples/ChatComposerInputMultipleTriggers.tsx` — ChatComposerInput — Multiple Triggers: Chat input with both @ mentions and / commands. Each trigger type renders tokens in a distinct color so users can tell them apart at a glance. · static: `static/ChatComposerInputMultipleTriggers.html`
-- `src/examples/ChatComposerInputSlashCommands.tsx` — ChatComposerInput — Slash Commands: Chat input with a / trigger for command selection. Use for AI assistants or bots that support structured commands. · static: `static/ChatComposerInputSlashCommands.html`
-- `src/examples/ChatComposerSimple.tsx` — ChatComposer — Simple: Minimal chat composer with a placeholder and submit handler. The simplest way to drop a message input into a page. · static: `static/ChatComposerSimple.html`
-- `src/examples/ChatComposerStreaming.tsx` — ChatComposer — Streaming: Chat composer with streaming state and a stop button. Use when the assistant is generating a response and the user can cancel. · static: `static/ChatComposerStreaming.html`
-- `src/examples/ChatComposerValidation.tsx` — ChatComposer — Validation: Chat composer with error and warning status messages. Status can appear above or below the composer to surface validation or system feedback. · static: `static/ChatComposerValidation.html`
-- `src/examples/ChatLayoutPanelChat.tsx` — ChatLayout — Panel View: Narrow sidebar chat in a constrained container that triggers compact density. Use for side panels, drawers, or embedded chat widgets where horizontal space is limited. · static: `static/ChatLayoutPanelChat.html`
-- `src/examples/ChatLayoutScrollButtonLabels.tsx` — ChatLayoutScrollButton — Labels: Scroll button with different labels for context-specific notifications like new messages, unread replies, or a generic scroll prompt. · static: `static/ChatLayoutScrollButtonLabels.html`
-- `src/examples/ChatLayoutScrollButtonStates.tsx` — Chat Layout Scroll Button: Scroll button in hidden, visible, and expanded (with label) states. The button fades in when the user scrolls up and expands when new messages arrive. · static: `static/ChatLayoutScrollButtonStates.html`
-- `src/examples/ChatMessageAvatarName.tsx` — ChatMessage — Avatar & Name: Messages with avatars and sender names. Place the name on the bubble when using bubbles, or on the message wrapper for raw content. · static: `static/ChatMessageAvatarName.html`
-- `src/examples/ChatMessageBubbleCustomContent.tsx` — ChatMessageBubble — Custom Content: Custom in-message content aligned to the bubble text column. An artifact card is wrapped in a ghost bubble with width="100%", so its left edge matches the bubble text and it spans the full message column instead of the default bubble width cap; the timestamp rides the bubble metadata slot. · static: `static/ChatMessageBubbleCustomContent.html`
-- `src/examples/ChatMessageBubbleDensity.tsx` — ChatMessageBubble — Density: Compact, balanced, and spacious density modes side by side. Density controls bubble padding, corner radius, and spacing between grouped bubbles. · static: `static/ChatMessageBubbleDensity.html`
-- `src/examples/ChatMessageBubbleGrouping.tsx` — ChatMessageBubble — Grouping: Multi-bubble messages using first, middle, and last group positions. Grouped bubbles tighten corner radius on the sender side for a continuous visual flow. · static: `static/ChatMessageBubbleGrouping.html`
-- `src/examples/ChatMessageBubbleMetadata.tsx` — ChatMessageBubble — Metadata: Bubbles with name and metadata slots aligned to bubble padding. Put name on the first bubble and metadata on the last bubble in a message. · static: `static/ChatMessageBubbleMetadata.html`
-- `src/examples/ChatMessageBubbleVariants.tsx` — ChatMessageBubble — Variants: Filled and ghost bubble variants for both user and assistant senders. Use filled for standard messages and ghost when content needs alignment without a visual boundary. · static: `static/ChatMessageBubbleVariants.html`
-- `src/examples/ChatMessageGhost.tsx` — ChatMessage — Ghost: Ghost variant for messages without visible bubble boundaries. Keeps padding for alignment but renders a transparent background, useful for AI-style responses. · static: `static/ChatMessageGhost.html`
-- `src/examples/ChatMessageListDensity.tsx` — ChatMessageList — Density: Side-by-side comparison of compact, balanced, and spacious densities. Use compact in sidebars or panels, balanced for most full-page chat, and spacious for long-form reading. Use gap when row spacing needs to differ from density. · static: `static/ChatMessageListDensity.html`
-- `src/examples/ChatMessageListFullFeatured.tsx` — ChatMessageList — Full Featured: Conversation showcasing system messages, multi-bubble grouping, markdown, code blocks, and metadata. Combines date dividers, ghost bubbles, grouped messages, and rich content in a single example. · static: `static/ChatMessageListFullFeatured.html`
-- `src/examples/ChatMessageMetadataFooter.tsx` — ChatMessageMetadata — Footer Actions: Assistant message with footer actions: copy, retry, thumbs up/down, and model label. Use for AI responses that need feedback or utility controls. · static: `static/ChatMessageMetadataFooter.html`
-- `src/examples/ChatMessageMetadataStatus.tsx` — ChatMessageMetadata — Status: All 5 delivery statuses (sending, sent, delivered, read, and error), each with a timestamp. Use to show message delivery progress or surface failures. · static: `static/ChatMessageMetadataStatus.html`
-- `src/examples/ChatMessageMetadataTimestamp.tsx` — ChatMessageMetadata — Timestamps: Timestamp-only metadata on user and assistant messages. Supports absolute time and relative formats via Timestamp. · static: `static/ChatMessageMetadataTimestamp.html`
-- `src/examples/ChatMessageMultiBubble.tsx` — ChatMessage — Multi-Bubble: Grouped bubbles using the group prop for corner radius reduction. Use first, middle, and last to visually connect related bubbles from the same sender. · static: `static/ChatMessageMultiBubble.html`
-- `src/examples/ChatSendButtonCustomIcon.tsx` — ChatSendButton — Custom Icon: Send buttons with custom icons via sendIcon and stopIcon props. Use to match the personality of the chat experience: a paper airplane for messaging, sparkles for AI generation, or a check mark for confirmation flows. · static: `static/ChatSendButtonCustomIcon.html`
-- `src/examples/ChatSendButtonInComposer.tsx` — ChatSendButton — In Composer: Send button inside ChatComposer, where it reads state from context automatically. No wiring needed; the button enables when the input has content. · static: `static/ChatSendButtonInComposer.html`
-- `src/examples/ChatSendButtonStates.tsx` — ChatSendButton — States: Disabled, ready, and streaming states at both sizes. The button automatically toggles between send (primary) and stop (secondary) based on streaming state. · static: `static/ChatSendButtonStates.html`
-- `src/examples/ChatSystemMessageStatusUpdates.tsx` — ChatSystemMessage — Status Updates: Realistic status messages in a conversation flow showing membership changes, timestamps, and resolution notices. · static: `static/ChatSystemMessageStatusUpdates.html`
-- `src/examples/ChatSystemMessageVariants.tsx` — ChatSystemMessage — Variants: Default and divider variants side by side. Use default for inline status updates and divider for date separators or section breaks. · static: `static/ChatSystemMessageVariants.html`
-- `src/examples/ChatSystemMessageWithIcon.tsx` — ChatSystemMessage — Icon: System messages with a leading icon that reinforces the message type. Use icons to help users scan and identify message categories at a glance. · static: `static/ChatSystemMessageWithIcon.html`
+- `upstream/examples/ChatComposerDrawerShowcase.tsx` — Chat Composer Drawer: Composer drawer with file tokens, a collapsible toggle, and header actions. Use as a starting point for any chat composer with attachments. · static: `static/ChatComposerDrawerShowcase.html`
+- `upstream/examples/ChatComposerInputShowcase.tsx` — Chat Composer Input · static: `static/ChatComposerInputShowcase.html`
+- `upstream/examples/ChatComposerShowcase.tsx` — Chat Composer · static: `static/ChatComposerShowcase.html`
+- `upstream/examples/ChatLayoutShowcase.tsx` — Chat Layout · static: `static/ChatLayoutShowcase.html`
+- `upstream/examples/ChatMessageBubbleShowcase.tsx` — Chat Message Bubble: Grouped user bubbles with filled styling and a ghost-variant agent response, with timestamps and delivery status. · static: `static/ChatMessageBubbleShowcase.html`
+- `upstream/examples/ChatMessageListShowcase.tsx` — Chat Message List: Basic AI chat conversation with user and assistant messages. The simplest way to render a message list with alternating sender bubbles, metadata, and a date divider. · static: `static/ChatMessageListShowcase.html`
+- `upstream/examples/ChatMessageMetadataShowcase.tsx` — Chat Message Metadata: Three-message conversation showcasing error status with retry, delivery status, and full footer actions with model label. · static: `static/ChatMessageMetadataShowcase.html`
+- `upstream/examples/ChatMessageShowcase.tsx` — Chat Message: A user multi-bubble group with delivery status and an assistant ghost response with avatar, name, timestamp, and model info. · static: `static/ChatMessageShowcase.html`
+- `upstream/examples/ChatSendButtonShowcase.tsx` — Chat Send Button: Ready, custom icon, and streaming states of the send button. · static: `static/ChatSendButtonShowcase.html`
+- `upstream/examples/ChatSystemMessageShowcase.tsx` — Chat System Message: System messages for date dividers, status updates, and informational notices. Shows both default and divider variants in a realistic conversation flow. · static: `static/ChatSystemMessageShowcase.html`
+- `upstream/examples/ChatComposerAttachments.tsx` — ChatComposer — Attachments: Chat composer with removable file tokens in a collapsible drawer. Use when users can attach files or context to their message. · static: `static/ChatComposerAttachments.html`
+- `upstream/examples/ChatComposerDrawerAttachments.tsx` — ChatComposerDrawer — Attachments: Drawer with two rows: a scrollable carousel of image thumbnails and a row of removable file tokens. Omit count to keep the drawer always expanded. · static: `static/ChatComposerDrawerAttachments.html`
+- `upstream/examples/ChatComposerDrawerCollapsible.tsx` — ChatComposerDrawer — Collapsible: Drawer with many items and a collapse toggle. Pass count to enable the toggle; collapsed state shows a badge with the total count and a label. · static: `static/ChatComposerDrawerCollapsible.html`
+- `upstream/examples/ChatComposerDrawerFeedback.tsx` — ChatComposerDrawer — Feedback: Chat composer drawer with a feedback prompt and selectable lettered options. Use for user confirmation workflows that require explicit action before proceeding. · static: `static/ChatComposerDrawerFeedback.html`
+- `upstream/examples/ChatComposerDrawerWithProgress.tsx` — ChatComposerDrawer — With Progress: Drawer paired with a context progress bar in the header. Show context window usage when attachments consume part of the available token budget. · static: `static/ChatComposerDrawerWithProgress.html`
+- `upstream/examples/ChatComposerFlat.tsx` — ChatComposer — Flat: The composer is raised by default (`elevation="low"`). Set `elevation="none"` to flatten it; it then draws a border with the same rest / hover / focus treatment as a text input. · static: `static/ChatComposerFlat.html`
+- `upstream/examples/ChatComposerFooterActions.tsx` — ChatComposer — Footer Actions: Chat composer with dropdown menus for a model selector and settings in the footer, and a mic button in the send actions slot. · static: `static/ChatComposerFooterActions.html`
+- `upstream/examples/ChatComposerFullFeatured.tsx` — ChatComposer — Full Featured: Chat composer with all slots populated: collapsible attachment drawer, header actions, context progress bar, footer dropdown menus, and mic button. Shows the maximum composer configuration. · static: `static/ChatComposerFullFeatured.html`
+- `upstream/examples/ChatComposerInputControlledInput.tsx` — ChatComposerInput — Controlled: Controlled chat input with live value display. Use controlled mode when you need to read or transform the input value outside the composer. · static: `static/ChatComposerInputControlledInput.html`
+- `upstream/examples/ChatComposerInputDisabled.tsx` — ChatComposerInput — Disabled: Composer in a disabled state. Use when the input should be visible but not interactive, such as during streaming or when a prerequisite is unmet. · static: `static/ChatComposerInputDisabled.html`
+- `upstream/examples/ChatComposerInputMentionTrigger.tsx` — ChatComposerInput — Mentions: Chat input with an @ trigger that opens a typeahead menu for mentioning users. Selected names appear as inline tokens. · static: `static/ChatComposerInputMentionTrigger.html`
+- `upstream/examples/ChatComposerInputMultipleTriggers.tsx` — ChatComposerInput — Multiple Triggers: Chat input with both @ mentions and / commands. Each trigger type renders tokens in a distinct color so users can tell them apart at a glance. · static: `static/ChatComposerInputMultipleTriggers.html`
+- `upstream/examples/ChatComposerInputSlashCommands.tsx` — ChatComposerInput — Slash Commands: Chat input with a / trigger for command selection. Use for AI assistants or bots that support structured commands. · static: `static/ChatComposerInputSlashCommands.html`
+- `upstream/examples/ChatComposerSimple.tsx` — ChatComposer — Simple: Minimal chat composer with a placeholder and submit handler. The simplest way to drop a message input into a page. · static: `static/ChatComposerSimple.html`
+- `upstream/examples/ChatComposerStreaming.tsx` — ChatComposer — Streaming: Chat composer with streaming state and a stop button. Use when the assistant is generating a response and the user can cancel. · static: `static/ChatComposerStreaming.html`
+- `upstream/examples/ChatComposerValidation.tsx` — ChatComposer — Validation: Chat composer with error and warning status messages. Status can appear above or below the composer to surface validation or system feedback. · static: `static/ChatComposerValidation.html`
+- `upstream/examples/ChatLayoutPanelChat.tsx` — ChatLayout — Panel View: Narrow sidebar chat in a constrained container that triggers compact density. Use for side panels, drawers, or embedded chat widgets where horizontal space is limited. · static: `static/ChatLayoutPanelChat.html`
+- `upstream/examples/ChatLayoutScrollButtonLabels.tsx` — ChatLayoutScrollButton — Labels: Scroll button with different labels for context-specific notifications like new messages, unread replies, or a generic scroll prompt. · static: `static/ChatLayoutScrollButtonLabels.html`
+- `upstream/examples/ChatLayoutScrollButtonStates.tsx` — Chat Layout Scroll Button: Scroll button in hidden, visible, and expanded (with label) states. The button fades in when the user scrolls up and expands when new messages arrive. · static: `static/ChatLayoutScrollButtonStates.html`
+- `upstream/examples/ChatMessageAvatarName.tsx` — ChatMessage — Avatar & Name: Messages with avatars and sender names. Place the name on the bubble when using bubbles, or on the message wrapper for raw content. · static: `static/ChatMessageAvatarName.html`
+- `upstream/examples/ChatMessageBubbleCustomContent.tsx` — ChatMessageBubble — Custom Content: Custom in-message content aligned to the bubble text column. An artifact card is wrapped in a ghost bubble with width="100%", so its left edge matches the bubble text and it spans the full message column instead of the default bubble width cap; the timestamp rides the bubble metadata slot. · static: `static/ChatMessageBubbleCustomContent.html`
+- `upstream/examples/ChatMessageBubbleDensity.tsx` — ChatMessageBubble — Density: Compact, balanced, and spacious density modes side by side. Density controls bubble padding, corner radius, and spacing between grouped bubbles. · static: `static/ChatMessageBubbleDensity.html`
+- `upstream/examples/ChatMessageBubbleGrouping.tsx` — ChatMessageBubble — Grouping: Multi-bubble messages using first, middle, and last group positions. Grouped bubbles tighten corner radius on the sender side for a continuous visual flow. · static: `static/ChatMessageBubbleGrouping.html`
+- `upstream/examples/ChatMessageBubbleMetadata.tsx` — ChatMessageBubble — Metadata: Bubbles with name and metadata slots aligned to bubble padding. Put name on the first bubble and metadata on the last bubble in a message. · static: `static/ChatMessageBubbleMetadata.html`
+- `upstream/examples/ChatMessageBubbleVariants.tsx` — ChatMessageBubble — Variants: Filled and ghost bubble variants for both user and assistant senders. Use filled for standard messages and ghost when content needs alignment without a visual boundary. · static: `static/ChatMessageBubbleVariants.html`
+- `upstream/examples/ChatMessageGhost.tsx` — ChatMessage — Ghost: Ghost variant for messages without visible bubble boundaries. Keeps padding for alignment but renders a transparent background, useful for AI-style responses. · static: `static/ChatMessageGhost.html`
+- `upstream/examples/ChatMessageListDensity.tsx` — ChatMessageList — Density: Side-by-side comparison of compact, balanced, and spacious densities. Use compact in sidebars or panels, balanced for most full-page chat, and spacious for long-form reading. Use gap when row spacing needs to differ from density. · static: `static/ChatMessageListDensity.html`
+- `upstream/examples/ChatMessageListFullFeatured.tsx` — ChatMessageList — Full Featured: Conversation showcasing system messages, multi-bubble grouping, markdown, code blocks, and metadata. Combines date dividers, ghost bubbles, grouped messages, and rich content in a single example. · static: `static/ChatMessageListFullFeatured.html`
+- `upstream/examples/ChatMessageMetadataFooter.tsx` — ChatMessageMetadata — Footer Actions: Assistant message with footer actions: copy, retry, thumbs up/down, and model label. Use for AI responses that need feedback or utility controls. · static: `static/ChatMessageMetadataFooter.html`
+- `upstream/examples/ChatMessageMetadataStatus.tsx` — ChatMessageMetadata — Status: All 5 delivery statuses (sending, sent, delivered, read, and error), each with a timestamp. Use to show message delivery progress or surface failures. · static: `static/ChatMessageMetadataStatus.html`
+- `upstream/examples/ChatMessageMetadataTimestamp.tsx` — ChatMessageMetadata — Timestamps: Timestamp-only metadata on user and assistant messages. Supports absolute time and relative formats via Timestamp. · static: `static/ChatMessageMetadataTimestamp.html`
+- `upstream/examples/ChatMessageMultiBubble.tsx` — ChatMessage — Multi-Bubble: Grouped bubbles using the group prop for corner radius reduction. Use first, middle, and last to visually connect related bubbles from the same sender. · static: `static/ChatMessageMultiBubble.html`
+- `upstream/examples/ChatSendButtonCustomIcon.tsx` — ChatSendButton — Custom Icon: Send buttons with custom icons via sendIcon and stopIcon props. Use to match the personality of the chat experience: a paper airplane for messaging, sparkles for AI generation, or a check mark for confirmation flows. · static: `static/ChatSendButtonCustomIcon.html`
+- `upstream/examples/ChatSendButtonInComposer.tsx` — ChatSendButton — In Composer: Send button inside ChatComposer, where it reads state from context automatically. No wiring needed; the button enables when the input has content. · static: `static/ChatSendButtonInComposer.html`
+- `upstream/examples/ChatSendButtonStates.tsx` — ChatSendButton — States: Disabled, ready, and streaming states at both sizes. The button automatically toggles between send (primary) and stop (secondary) based on streaming state. · static: `static/ChatSendButtonStates.html`
+- `upstream/examples/ChatSystemMessageStatusUpdates.tsx` — ChatSystemMessage — Status Updates: Realistic status messages in a conversation flow showing membership changes, timestamps, and resolution notices. · static: `static/ChatSystemMessageStatusUpdates.html`
+- `upstream/examples/ChatSystemMessageVariants.tsx` — ChatSystemMessage — Variants: Default and divider variants side by side. Use default for inline status updates and divider for date separators or section breaks. · static: `static/ChatSystemMessageVariants.html`
+- `upstream/examples/ChatSystemMessageWithIcon.tsx` — ChatSystemMessage — Icon: System messages with a leading icon that reinforces the message type. Use icons to help users scan and identify message categories at a glance. · static: `static/ChatSystemMessageWithIcon.html`
 
 ## Documentation
 
@@ -424,39 +424,39 @@ ChatLayout is the layout shell for full-page chat interfaces. It renders message
 
 ## Files
 
-- `src/Chat.doc.mjs`
-- `src/ChatComposer.doc.mjs`
-- `src/ChatComposer.spec.md`
-- `src/ChatComposer.tsx`
-- `src/ChatComposerDrawer.doc.mjs`
-- `src/ChatComposerDrawer.spec.md`
-- `src/ChatComposerDrawer.tsx`
-- `src/ChatComposerInput.doc.mjs`
-- `src/ChatComposerInput.spec.md`
-- `src/ChatComposerInput.tsx`
-- `src/ChatComposerTokenElement.doc.mjs`
-- `src/ChatComposerTokenElement.spec.md`
-- `src/ChatContext.tsx`
-- `src/ChatLayout.doc.mjs`
-- `src/ChatLayout.spec.md`
-- `src/ChatLayout.tsx`
-- `src/ChatLayoutScrollButton.doc.mjs`
-- `src/ChatLayoutScrollButton.spec.md`
-- `src/ChatLayoutScrollButton.tsx`
-- `src/ChatMessage.doc.mjs`
-- `src/ChatMessage.tsx`
-- `src/ChatMessageBubble.doc.mjs`
-- `src/ChatMessageBubble.tsx`
-- `src/ChatMessageList.doc.mjs`
-- `src/ChatMessageList.tsx`
-- `src/ChatMessageMetadata.doc.mjs`
-- `src/ChatMessageMetadata.tsx`
-- `src/ChatPastedTextToken.tsx`
-- `src/ChatSendButton.doc.mjs`
-- `src/ChatSendButton.tsx`
-- `src/ChatSystemMessage.doc.mjs`
-- `src/ChatSystemMessage.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Chat.doc.mjs`
+- `upstream/ChatComposer.doc.mjs`
+- `upstream/ChatComposer.spec.md`
+- `upstream/ChatComposer.tsx`
+- `upstream/ChatComposerDrawer.doc.mjs`
+- `upstream/ChatComposerDrawer.spec.md`
+- `upstream/ChatComposerDrawer.tsx`
+- `upstream/ChatComposerInput.doc.mjs`
+- `upstream/ChatComposerInput.spec.md`
+- `upstream/ChatComposerInput.tsx`
+- `upstream/ChatComposerTokenElement.doc.mjs`
+- `upstream/ChatComposerTokenElement.spec.md`
+- `upstream/ChatContext.tsx`
+- `upstream/ChatLayout.doc.mjs`
+- `upstream/ChatLayout.spec.md`
+- `upstream/ChatLayout.tsx`
+- `upstream/ChatLayoutScrollButton.doc.mjs`
+- `upstream/ChatLayoutScrollButton.spec.md`
+- `upstream/ChatLayoutScrollButton.tsx`
+- `upstream/ChatMessage.doc.mjs`
+- `upstream/ChatMessage.tsx`
+- `upstream/ChatMessageBubble.doc.mjs`
+- `upstream/ChatMessageBubble.tsx`
+- `upstream/ChatMessageList.doc.mjs`
+- `upstream/ChatMessageList.tsx`
+- `upstream/ChatMessageMetadata.doc.mjs`
+- `upstream/ChatMessageMetadata.tsx`
+- `upstream/ChatPastedTextToken.tsx`
+- `upstream/ChatSendButton.doc.mjs`
+- `upstream/ChatSendButton.tsx`
+- `upstream/ChatSystemMessage.doc.mjs`
+- `upstream/ChatSystemMessage.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Chat

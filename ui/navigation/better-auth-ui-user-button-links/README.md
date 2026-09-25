@@ -7,7 +7,7 @@ Renders a user button with dropdown menu showing user info and sign out option.
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/user-button-links.tsx`
+- Entry point: `upstream/examples/user-button-links.tsx`
 - Nature: interactive; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ Renders a user button with dropdown menu showing user info and sign out option.
 
 ## Files
 
-- `src/examples/user-button-links.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/user-button-links.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/components/user/user-button

@@ -7,7 +7,7 @@ Token is a small, inline element for representing discrete pieces of associated 
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Token.tsx`
+- Entry point: `upstream/Token.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Token is a small, inline element for representing discrete pieces of associated 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Token is a small, inline element for representing discrete pieces of associated 
 
 ## Examples
 
-- `src/examples/TokenShowcase.tsx` — Token · static: `static/TokenShowcase.html`
-- `src/examples/TokenClickable.tsx` — Token — Clickable: Interactive tokens that respond to clicks. Use for toggleable filters or tokens that open a detail view when selected. · static: `static/TokenClickable.html`
-- `src/examples/TokenColors.tsx` — Token — Colors: All 11 color variants in default and disabled states. Use color to categorize entities or convey status at a glance. · static: `static/TokenColors.html`
-- `src/examples/TokenEndContent.tsx` — Token — End Content: Tokens with trailing content like a count badge or status indicator after the label. Use for notification counts, item quantities, or compact status info. · static: `static/TokenEndContent.html`
-- `src/examples/TokenIcon.tsx` — Token — Icon: Tokens with a leading icon that identifies the entity type. Use when the icon helps users recognize the token category faster, like a user icon for people or a tag icon for labels. · static: `static/TokenIcon.html`
-- `src/examples/TokenRemovable.tsx` — Token — Removable: Tokens with a dismiss button for selections the user can undo. Use in multi-select fields, active filters, or any list of user-chosen items. · static: `static/TokenRemovable.html`
+- `upstream/examples/TokenShowcase.tsx` — Token · static: `static/TokenShowcase.html`
+- `upstream/examples/TokenClickable.tsx` — Token — Clickable: Interactive tokens that respond to clicks. Use for toggleable filters or tokens that open a detail view when selected. · static: `static/TokenClickable.html`
+- `upstream/examples/TokenColors.tsx` — Token — Colors: All 11 color variants in default and disabled states. Use color to categorize entities or convey status at a glance. · static: `static/TokenColors.html`
+- `upstream/examples/TokenEndContent.tsx` — Token — End Content: Tokens with trailing content like a count badge or status indicator after the label. Use for notification counts, item quantities, or compact status info. · static: `static/TokenEndContent.html`
+- `upstream/examples/TokenIcon.tsx` — Token — Icon: Tokens with a leading icon that identifies the entity type. Use when the icon helps users recognize the token category faster, like a user icon for people or a tag icon for labels. · static: `static/TokenIcon.html`
+- `upstream/examples/TokenRemovable.tsx` — Token — Removable: Tokens with a dismiss button for selections the user can undo. Use in multi-select fields, active filters, or any list of user-chosen items. · static: `static/TokenRemovable.html`
 
 ## Documentation
 
@@ -130,10 +130,10 @@ Styling hook class: `.astryx-token`
 
 ## Files
 
-- `src/Token.doc.mjs`
-- `src/Token.tsx`
-- `src/TokenLink.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Token.doc.mjs`
+- `upstream/Token.tsx`
+- `upstream/TokenLink.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Token

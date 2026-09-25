@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/magnifying-glass/src/magnifying-glass.tsx`
+- Entry point: `ui/icons/heroicons-animated/magnifying-glass/upstream/magnifying-glass.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/magnifying-glass`
 - Registry: https://www.heroicons-animated.com/r/magnifying-glass.json
-- Local source fallback: `ui/icons/heroicons-animated/magnifying-glass/src/magnifying-glass.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/magnifying-glass/upstream/magnifying-glass.tsx`

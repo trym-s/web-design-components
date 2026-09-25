@@ -1,8 +1,9 @@
-import Example from "./examples/glowing-border-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "glowing-border-button", title: "Glowing Border Button", component: Example }];
+import GlowingBorderButton from "./glowing-border-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center bg-background">
+      <GlowingBorderButton onClick={() => console.log("Button clicked")}>Book a Call</GlowingBorderButton>
+    </div>
+  );
 }

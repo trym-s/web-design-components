@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-chevron-right/src/square-chevron-right.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-chevron-right/upstream/square-chevron-right.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-chevron-right/src/square-chevron-right.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-chevron-right/upstream/square-chevron-right.vue`

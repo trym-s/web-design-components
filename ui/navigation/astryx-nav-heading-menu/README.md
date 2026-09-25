@@ -7,7 +7,7 @@ Accessible menu container and items for nav heading popovers. NavHeadingMenu pro
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/NavHeadingMenu.tsx`
+- Entry point: `upstream/NavHeadingMenu.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -21,7 +21,7 @@ Accessible menu container and items for nav heading popovers. NavHeadingMenu pro
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -32,7 +32,7 @@ Accessible menu container and items for nav heading popovers. NavHeadingMenu pro
 
 ## Examples
 
-- `src/examples/NavHeadingMenuShowcase.tsx` — Nav Heading Menu: NavHeadingMenu passed as the menu prop of SideNavHeading, letting the heading act as a product switcher popover trigger. · static: `static/NavHeadingMenuShowcase.html`
+- `upstream/examples/NavHeadingMenuShowcase.tsx` — Nav Heading Menu: NavHeadingMenu passed as the menu prop of SideNavHeading, letting the heading act as a product switcher popover trigger. · static: `static/NavHeadingMenuShowcase.html`
 
 ## Documentation
 
@@ -62,11 +62,11 @@ Styling hook class: `.astryx-nav-heading-menu`, `.astryx-nav-heading-menu-item`
 
 ## Files
 
-- `src/NavHeadingMenu.spec.md`
-- `src/NavHeadingMenu.tsx`
-- `src/NavHeadingMenuItem.tsx`
-- `src/NavMenu.doc.mjs`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/NavHeadingMenu.spec.md`
+- `upstream/NavHeadingMenu.tsx`
+- `upstream/NavHeadingMenuItem.tsx`
+- `upstream/NavMenu.doc.mjs`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/NavHeadingMenu

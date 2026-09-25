@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/flame/src/flame.tsx`
+- Entry point: `ui/icons/lucide-animated/flame/upstream/flame.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/flame.json`
 - Registry: https://lucide-animated.com/r/flame.json
-- Local source fallback: `ui/icons/lucide-animated/flame/src/flame.tsx`
+- Local source fallback: `ui/icons/lucide-animated/flame/upstream/flame.tsx`

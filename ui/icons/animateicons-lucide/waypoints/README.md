@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/waypoints/src/waypoints.tsx`
+- Entry point: `ui/icons/animateicons-lucide/waypoints/upstream/waypoints.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-waypoints.json`
 - Registry: https://animateicons.in/r/lu-waypoints.json
-- Local source fallback: `ui/icons/animateicons-lucide/waypoints/src/waypoints.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/waypoints/upstream/waypoints.tsx`

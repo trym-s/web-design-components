@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/close-to-menu-alt-transition/src/close-to-menu-alt-transition.svg`
+- Entry point: `ui/icons/line-md/close-to-menu-alt-transition/upstream/close-to-menu-alt-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/close-to-menu-alt-transition/src/close-to-menu-alt-transition.svg`
+- Local source: `ui/icons/line-md/close-to-menu-alt-transition/upstream/close-to-menu-alt-transition.svg`

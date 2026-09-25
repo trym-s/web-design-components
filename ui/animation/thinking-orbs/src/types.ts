@@ -31,24 +31,6 @@ export type OrbState =
  */
 export type OrbSize = 64 | 20;
 
-/**
- * Theme mode.
- *
- * - `auto` (default) resolves in three layers, live-updating on change:
- *   1. a `data-theme="dark|light"` attribute or `dark`/`light` class on
- *      any ancestor (the Tailwind / shadcn convention), watched via
- *      `MutationObserver`;
- *   2. otherwise `matchMedia('(prefers-color-scheme: dark)')`,
- *      subscribed for live OS/browser theme switches;
- *   3. during SSR (no DOM) the first client render resolves the theme
- *      before anything is painted — the canvas is client-only.
- * - `dark` / `light` pin the palette regardless of context.
- *
- * Dark renders light ink on the transparent canvas (for dark
- * backgrounds); light renders dark ink (for light backgrounds).
- */
-export type OrbTheme = 'auto' | 'dark' | 'light';
-
 /** Props for the ThinkingOrb React component. */
 export interface ThinkingOrbProps extends Omit<CanvasHTMLAttributes<HTMLCanvasElement>, 'style'> {
   /** Which animation to show. @default 'working' */
@@ -56,9 +38,6 @@ export interface ThinkingOrbProps extends Omit<CanvasHTMLAttributes<HTMLCanvasEl
 
   /** Tuned size preset — 64 or 20 CSS px. @default 64 */
   size?: OrbSize;
-
-  /** Theme mode; `auto` detects from the host project. @default 'auto' */
-  theme?: OrbTheme;
 
   /**
    * Animation speed multiplier on top of the preset's baked speed.

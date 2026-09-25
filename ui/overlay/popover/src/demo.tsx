@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef, useState } from "react";
 import { Popover } from "./popover";
 
@@ -34,12 +32,12 @@ const people = [
   },
 ];
 
-export function PopoverDemo() {
+export default function PopoverDemo() {
   const field = useRef<HTMLDivElement>(null);
-  const [open, setOpen] = useState<string | null>(null);
+  const [open, setOpen] = useState<string | null>("bl");
 
   return (
-    <div ref={field} className="relative h-full w-full">
+    <div ref={field} className="relative h-[300px] w-full max-w-[440px] rounded-xl border border-dashed">
       {people.map((person) => (
         <div key={person.id} className={`absolute ${person.at}`}>
           <Popover
@@ -51,13 +49,13 @@ export function PopoverDemo() {
             trigger={person.first}
           >
             <div className="w-[196px]">
-              <p className="text-[13px] font-medium text-stone-700 dark:text-stone-100">
+              <p className="text-[13px] font-medium text-foreground">
                 {person.name}
               </p>
-              <p className="mt-0.5 text-[11.5px] text-stone-400 dark:text-stone-500">
+              <p className="mt-0.5 text-[11.5px] text-muted-foreground">
                 {person.role} · joined 2019
               </p>
-              <p className="mt-2 text-[12.5px] leading-relaxed text-stone-500 dark:text-stone-400">
+              <p className="mt-2 text-[12.5px] leading-relaxed text-muted-foreground">
                 Two reviews open. Last shipped the docs shell on Tuesday.
               </p>
             </div>

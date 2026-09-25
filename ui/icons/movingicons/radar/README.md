@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/radar/src/radar.svelte`
+- Entry point: `ui/icons/movingicons/radar/upstream/radar.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/radar`
 - Registry: https://movingicons.dev/r/radar
-- Local source fallback: `ui/icons/movingicons/radar/src/radar.svelte`
+- Local source fallback: `ui/icons/movingicons/radar/upstream/radar.svelte`

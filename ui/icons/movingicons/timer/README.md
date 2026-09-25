@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/timer/src/timer.svelte`
+- Entry point: `ui/icons/movingicons/timer/upstream/timer.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/timer`
 - Registry: https://movingicons.dev/r/timer
-- Local source fallback: `ui/icons/movingicons/timer/src/timer.svelte`
+- Local source fallback: `ui/icons/movingicons/timer/upstream/timer.svelte`

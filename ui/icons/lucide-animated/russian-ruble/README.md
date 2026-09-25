@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/russian-ruble/src/russian-ruble.tsx`
+- Entry point: `ui/icons/lucide-animated/russian-ruble/upstream/russian-ruble.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/russian-ruble.json`
 - Registry: https://lucide-animated.com/r/russian-ruble.json
-- Local source fallback: `ui/icons/lucide-animated/russian-ruble/src/russian-ruble.tsx`
+- Local source fallback: `ui/icons/lucide-animated/russian-ruble/upstream/russian-ruble.tsx`

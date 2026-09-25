@@ -1,9 +1,10 @@
-import Component from "../../../_sources/chamaac/registry/chamaac/iridescent-windows/iridescent-windows";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
+import IridescentWindows from "./iridescent-windows";
 
-// No demo upstream: the component with its default props, filling the preview box.
-const examples = [{ name: "iridescent-windows", title: "Iridescent Windows", component: () => <div className="absolute inset-0"><Component /></div> }];
-
+// No demo upstream: the component with its default props, filling a 500 px box.
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="h-[500px] w-full overflow-hidden rounded-xl">
+      <IridescentWindows className="h-full" />
+    </div>
+  );
 }

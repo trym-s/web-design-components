@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/identification/src/identification.tsx`
+- Entry point: `ui/icons/heroicons-animated/identification/upstream/identification.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/identification`
 - Registry: https://www.heroicons-animated.com/r/identification.json
-- Local source fallback: `ui/icons/heroicons-animated/identification/src/identification.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/identification/upstream/identification.tsx`

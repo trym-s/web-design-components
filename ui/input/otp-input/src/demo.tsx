@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
 import {
   OtpInput,
@@ -9,7 +7,7 @@ import {
 
 const CODE = "204815";
 
-export function OtpInputDemo() {
+export default function OtpInputDemo() {
   const field = useRef<OtpInputHandle>(null);
   const [status, setStatus] = useState<OtpStatus>("idle");
 
@@ -26,6 +24,7 @@ export function OtpInputDemo() {
     <div className="flex justify-center">
       <OtpInput
         ref={field}
+        defaultValue="204"
         status={status}
         onComplete={(value) => setStatus(value === CODE ? "success" : "error")}
         hint={`Try ${CODE}, or anything else.`}

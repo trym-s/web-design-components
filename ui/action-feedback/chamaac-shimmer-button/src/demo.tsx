@@ -1,8 +1,9 @@
-import Example from "./examples/shimmer-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "shimmer-button", title: "Shimmer Button", component: Example }];
+import ShimmerButton from "./shimmer-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center">
+      <ShimmerButton />
+    </div>
+  );
 }

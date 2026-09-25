@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/reddit-circle-loop/src/reddit-circle-loop.svg`
+- Entry point: `ui/icons/line-md/reddit-circle-loop/upstream/reddit-circle-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/reddit-circle-loop/src/reddit-circle-loop.svg`
+- Local source: `ui/icons/line-md/reddit-circle-loop/upstream/reddit-circle-loop.svg`

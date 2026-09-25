@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-remove-filled/src/email-remove-filled.svg`
+- Entry point: `ui/icons/line-md/email-remove-filled/upstream/email-remove-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-remove-filled/src/email-remove-filled.svg`
+- Local source: `ui/icons/line-md/email-remove-filled/upstream/email-remove-filled.svg`

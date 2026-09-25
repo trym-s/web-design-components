@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/docker-icon/src/docker-icon.tsx`
+- Entry point: `ui/icons/itshover/docker-icon/upstream/docker-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/docker-icon.json`
 - Registry: https://itshover.com/r/docker-icon.json
-- Local source fallback: `ui/icons/itshover/docker-icon/src/docker-icon.tsx`
+- Local source fallback: `ui/icons/itshover/docker-icon/upstream/docker-icon.tsx`

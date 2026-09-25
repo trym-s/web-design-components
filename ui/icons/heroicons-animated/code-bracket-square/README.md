@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/code-bracket-square/src/code-bracket-square.tsx`
+- Entry point: `ui/icons/heroicons-animated/code-bracket-square/upstream/code-bracket-square.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/code-bracket-square`
 - Registry: https://www.heroicons-animated.com/r/code-bracket-square.json
-- Local source fallback: `ui/icons/heroicons-animated/code-bracket-square/src/code-bracket-square.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/code-bracket-square/upstream/code-bracket-square.tsx`

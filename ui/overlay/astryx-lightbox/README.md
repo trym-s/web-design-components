@@ -7,7 +7,7 @@ A fullscreen overlay for viewing images and videos at full resolution. Supports 
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Lightbox.tsx`
+- Entry point: `upstream/Lightbox.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A fullscreen overlay for viewing images and videos at full resolution. Supports 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A fullscreen overlay for viewing images and videos at full resolution. Supports 
 
 ## Examples
 
-- `src/examples/LightboxShowcase.tsx` — Lightbox: A fullscreen image viewer with caption. · static: `static/LightboxShowcase.html`
-- `src/examples/LightboxGallery.tsx` — Lightbox — Gallery: A thumbnail grid that opens a fullscreen gallery. Clicking any thumbnail opens the lightbox at that index. Prev/next navigation lets users browse all images without closing. · static: `static/LightboxGallery.html`
-- `src/examples/LightboxVideo.tsx` — Lightbox — Video: Opens a video in the lightbox. Native browser controls are available. Zoom and pan are disabled for video items. · static: `static/LightboxVideo.html`
-- `src/examples/LightboxZoom.tsx` — Lightbox — Zoom: A lightbox with zoom and pan enabled. Double-click the image to zoom in; drag to pan around. Double-click again or use the close button to exit. · static: `static/LightboxZoom.html`
+- `upstream/examples/LightboxShowcase.tsx` — Lightbox: A fullscreen image viewer with caption. · static: `static/LightboxShowcase.html`
+- `upstream/examples/LightboxGallery.tsx` — Lightbox — Gallery: A thumbnail grid that opens a fullscreen gallery. Clicking any thumbnail opens the lightbox at that index. Prev/next navigation lets users browse all images without closing. · static: `static/LightboxGallery.html`
+- `upstream/examples/LightboxVideo.tsx` — Lightbox — Video: Opens a video in the lightbox. Native browser controls are available. Zoom and pan are disabled for video items. · static: `static/LightboxVideo.html`
+- `upstream/examples/LightboxZoom.tsx` — Lightbox — Zoom: A lightbox with zoom and pan enabled. Double-click the image to zoom in; drag to pan around. Double-click again or use the close button to exit. · static: `static/LightboxZoom.html`
 
 ## Documentation
 
@@ -122,10 +122,10 @@ Styling hook class: `.astryx-lightbox`
 
 ## Files
 
-- `src/Lightbox.doc.mjs`
-- `src/Lightbox.spec.md`
-- `src/Lightbox.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Lightbox.doc.mjs`
+- `upstream/Lightbox.spec.md`
+- `upstream/Lightbox.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Lightbox

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/git-merge/src/git-merge.vue`
+- Entry point: `ui/icons/lucide-motion-vue/git-merge/upstream/git-merge.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/git-merge/src/git-merge.vue`
+- Local source: `ui/icons/lucide-motion-vue/git-merge/upstream/git-merge.vue`

@@ -7,7 +7,7 @@ A modal dialog that interrupts the user with important content and expects a res
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/alert-dialog.tsx`
+- Entry point: `upstream/ui/alert-dialog.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A modal dialog that interrupts the user with important content and expects a res
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A modal dialog that interrupts the user with important content and expects a res
 
 ## Documentation
 
-> Example `alert-dialog-demo` — `src/examples/alert-dialog-demo.tsx`, `static/alert-dialog-demo.html`
+> Example `alert-dialog-demo` — `upstream/examples/alert-dialog-demo.tsx`, `static/alert-dialog-demo.html`
 
 ## Installation
 
@@ -108,37 +108,37 @@ AlertDialog
 
 A basic alert dialog with a title, description, and cancel and continue buttons.
 
-> Example `alert-dialog-basic` — `src/examples/alert-dialog-basic.tsx`, `static/alert-dialog-basic.html`
+> Example `alert-dialog-basic` — `upstream/examples/alert-dialog-basic.tsx`, `static/alert-dialog-basic.html`
 
 ## Small
 
 Use the `size="sm"` prop to make the alert dialog smaller.
 
-> Example `alert-dialog-small` — `src/examples/alert-dialog-small.tsx`, `static/alert-dialog-small.html`
+> Example `alert-dialog-small` — `upstream/examples/alert-dialog-small.tsx`, `static/alert-dialog-small.html`
 
 ## Media
 
 Use the `AlertDialogMedia` component to add a media element such as an icon or image to the alert dialog.
 
-> Example `alert-dialog-media` — `src/examples/alert-dialog-media.tsx`, `static/alert-dialog-media.html`
+> Example `alert-dialog-media` — `upstream/examples/alert-dialog-media.tsx`, `static/alert-dialog-media.html`
 
 ## Small with Media
 
 Use the `size="sm"` prop to make the alert dialog smaller and the `AlertDialogMedia` component to add a media element such as an icon or image to the alert dialog.
 
-> Example `alert-dialog-small-media` — `src/examples/alert-dialog-small-media.tsx`, `static/alert-dialog-small-media.html`
+> Example `alert-dialog-small-media` — `upstream/examples/alert-dialog-small-media.tsx`, `static/alert-dialog-small-media.html`
 
 ## Destructive
 
 Use the `AlertDialogAction` component to add a destructive action button to the alert dialog.
 
-> Example `alert-dialog-destructive` — `src/examples/alert-dialog-destructive.tsx`, `static/alert-dialog-destructive.html`
+> Example `alert-dialog-destructive` — `upstream/examples/alert-dialog-destructive.tsx`, `static/alert-dialog-destructive.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `alert-dialog-rtl` — `src/examples/alert-dialog-rtl.tsx`, `static/alert-dialog-rtl.html`
+> Example `alert-dialog-rtl` — `upstream/examples/alert-dialog-rtl.tsx`, `static/alert-dialog-rtl.html`
 
 ## API Reference
 
@@ -154,14 +154,14 @@ For more information about the other components and their props, see the [Radix 
 
 ## Files
 
-- `src/ui/alert-dialog.tsx` — the ui file as the registry installs it
-- `src/examples/alert-dialog-demo.tsx`
-- `src/examples/alert-dialog-basic.tsx`
-- `src/examples/alert-dialog-small.tsx`
-- `src/examples/alert-dialog-media.tsx`
-- `src/examples/alert-dialog-small-media.tsx`
-- `src/examples/alert-dialog-destructive.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/alert-dialog.tsx` — the ui file as the registry installs it
+- `upstream/examples/alert-dialog-demo.tsx`
+- `upstream/examples/alert-dialog-basic.tsx`
+- `upstream/examples/alert-dialog-small.tsx`
+- `upstream/examples/alert-dialog-media.tsx`
+- `upstream/examples/alert-dialog-small-media.tsx`
+- `upstream/examples/alert-dialog-destructive.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/alert-dialog

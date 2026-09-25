@@ -7,7 +7,7 @@ Card is a bordered, elevated container for discrete, self-contained items: thing
 - Category: `surface` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Card.tsx`
+- Entry point: `upstream/Card.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Card is a bordered, elevated container for discrete, self-contained items: thing
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Card is a bordered, elevated container for discrete, self-contained items: thing
 
 ## Examples
 
-- `src/examples/CardShowcase.tsx` — Card: A card with a heading and body text showing the default container style. · static: `static/CardShowcase.html`
-- `src/examples/CardCallout.tsx` — Card — Callout: Muted-variant cards for tips, notes, or supplementary information. Use when content should be visually distinct but not prominent. The muted variant uses a wash background instead of the elevated default, making it feel recessed rather than raised. Works well in sidebars, help panels, or inline callouts. · static: `static/CardCallout.html`
-- `src/examples/CardElevations.tsx` — Card — Elevations: The four elevation levels side by side. Cards are flat by default; raise a card with `elevation` only when it needs to float above surrounding content. · static: `static/CardElevations.html`
-- `src/examples/CardVariants.tsx` — Card — Variants: Default, muted, and color variants side by side. Use color variants to categorize cards visually, like team colors, project tags, or content types. Each color uses the corresponding background token from the theme, so they adapt to light and dark mode automatically. · static: `static/CardVariants.html`
-- `src/examples/CardWithInnerLayout.tsx` — Card — Layout: A card with a structured header, content area, and footer with action buttons. Use for forms, dialogs, or settings panels that need clear sections. Pair Card with Layout to get automatic dividers between header, content, and footer. The footer aligns actions to the right by default. · static: `static/CardWithInnerLayout.html`
-- `src/examples/CardWithSimpleContent.tsx` — Card — Simple: A card with a heading and body text. Use for summaries, descriptions, or any grouped content that needs visual separation from the page. The card handles its own border, background, and padding; just pass your content as children. Set a width to constrain it, or leave it to fill the parent. · static: `static/CardWithSimpleContent.html`
+- `upstream/examples/CardShowcase.tsx` — Card: A card with a heading and body text showing the default container style. · static: `static/CardShowcase.html`
+- `upstream/examples/CardCallout.tsx` — Card — Callout: Muted-variant cards for tips, notes, or supplementary information. Use when content should be visually distinct but not prominent. The muted variant uses a wash background instead of the elevated default, making it feel recessed rather than raised. Works well in sidebars, help panels, or inline callouts. · static: `static/CardCallout.html`
+- `upstream/examples/CardElevations.tsx` — Card — Elevations: The four elevation levels side by side. Cards are flat by default; raise a card with `elevation` only when it needs to float above surrounding content. · static: `static/CardElevations.html`
+- `upstream/examples/CardVariants.tsx` — Card — Variants: Default, muted, and color variants side by side. Use color variants to categorize cards visually, like team colors, project tags, or content types. Each color uses the corresponding background token from the theme, so they adapt to light and dark mode automatically. · static: `static/CardVariants.html`
+- `upstream/examples/CardWithInnerLayout.tsx` — Card — Layout: A card with a structured header, content area, and footer with action buttons. Use for forms, dialogs, or settings panels that need clear sections. Pair Card with Layout to get automatic dividers between header, content, and footer. The footer aligns actions to the right by default. · static: `static/CardWithInnerLayout.html`
+- `upstream/examples/CardWithSimpleContent.tsx` — Card — Simple: A card with a heading and body text. Use for summaries, descriptions, or any grouped content that needs visual separation from the page. The card handles its own border, background, and padding; just pass your content as children. Set a width to constrain it, or leave it to fill the parent. · static: `static/CardWithSimpleContent.html`
 
 ## Documentation
 
@@ -124,9 +124,9 @@ Styling hook class: `.astryx-card`
 
 ## Files
 
-- `src/Card.doc.mjs`
-- `src/Card.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Card.doc.mjs`
+- `upstream/Card.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Card

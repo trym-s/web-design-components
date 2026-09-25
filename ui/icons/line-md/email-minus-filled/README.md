@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-minus-filled/src/email-minus-filled.svg`
+- Entry point: `ui/icons/line-md/email-minus-filled/upstream/email-minus-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-minus-filled/src/email-minus-filled.svg`
+- Local source: `ui/icons/line-md/email-minus-filled/upstream/email-minus-filled.svg`

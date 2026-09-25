@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/anvil/src/anvil.svelte`
+- Entry point: `ui/icons/movingicons/anvil/upstream/anvil.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/anvil`
 - Registry: https://movingicons.dev/r/anvil
-- Local source fallback: `ui/icons/movingicons/anvil/src/anvil.svelte`
+- Local source fallback: `ui/icons/movingicons/anvil/upstream/anvil.svelte`

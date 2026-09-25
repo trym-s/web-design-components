@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/alert-loop/src/alert-loop.svg`
+- Entry point: `ui/icons/line-md/alert-loop/upstream/alert-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/alert-loop/src/alert-loop.svg`
+- Local source: `ui/icons/line-md/alert-loop/upstream/alert-loop.svg`

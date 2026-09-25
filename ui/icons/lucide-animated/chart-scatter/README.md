@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/chart-scatter/src/chart-scatter.tsx`
+- Entry point: `ui/icons/lucide-animated/chart-scatter/upstream/chart-scatter.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/chart-scatter.json`
 - Registry: https://lucide-animated.com/r/chart-scatter.json
-- Local source fallback: `ui/icons/lucide-animated/chart-scatter/src/chart-scatter.tsx`
+- Local source fallback: `ui/icons/lucide-animated/chart-scatter/upstream/chart-scatter.tsx`

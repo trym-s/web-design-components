@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/paper-airplane/src/paper-airplane.tsx`
+- Entry point: `ui/icons/heroicons-animated/paper-airplane/upstream/paper-airplane.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/paper-airplane`
 - Registry: https://www.heroicons-animated.com/r/paper-airplane.json
-- Local source fallback: `ui/icons/heroicons-animated/paper-airplane/src/paper-airplane.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/paper-airplane/upstream/paper-airplane.tsx`

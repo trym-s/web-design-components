@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/mic/src/mic.tsx`
+- Entry point: `ui/icons/lucide-animated/mic/upstream/mic.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/mic.json`
 - Registry: https://lucide-animated.com/r/mic.json
-- Local source fallback: `ui/icons/lucide-animated/mic/src/mic.tsx`
+- Local source fallback: `ui/icons/lucide-animated/mic/upstream/mic.tsx`

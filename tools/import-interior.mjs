@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 
 const [sourceArg] = process.argv.slice(2);
@@ -85,8 +85,13 @@ for (const row of rows) {
   const categoryName = categoryById.get(categoryId);
   const category = slugify(categoryName);
   const dir = join(root, "ui", category, slug);
-  const srcDir = join(dir, "src");
-  rmSync(dir, { recursive: true, force: true });
+  const srcDir = join(dir, "upstream");
+  // `src/` (copy-paste component) and the README's `## Usage` are hand-derived from `upstream/`
+  // (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+  const readme = join(dir, "README.md");
+  const usage = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+  const src = existsSync(join(dir, "src"));
+  for (const file of existsSync(dir) ? readdirSync(dir) : []) if (file !== "src") rmSync(join(dir, file), { recursive: true });
   mkdirSync(srcDir, { recursive: true });
 
   cpSync(join(source, `components/interior/${slug}.tsx`), join(srcDir, `${slug}.tsx`));
@@ -116,7 +121,7 @@ for (const row of rows) {
   const demoExport = [...demo.matchAll(/export function\s+(\w+Demo)\s*\(/g)][0]?.[1];
   if (!demoExport) throw new Error(`No demo export for ${slug}`);
   writeFileSync(join(srcDir, "demo.tsx"), demo);
-  writeFileSync(join(dir, "reference.tsx"), `/* Use when: ${blurb}. */\n\nimport "../../_sources/interior-dev/styles.css";\nexport { ${demoExport} as default } from "./src/demo";\n`);
+  writeFileSync(join(dir, "reference.tsx"), `/* Use when: ${blurb}. */\n\nimport "../../_sources/interior-dev/styles.css";\nexport { ${demoExport} as default } from "./upstream/demo";\n`);
   writeFileSync(join(dir, "README.md"), `# ${name}
 
 ${blurb}.
@@ -125,17 +130,17 @@ ${blurb}.
 
 - Category: \`${category}\` — interactive
 - Medium: React + TypeScript + Tailwind CSS + Motion
-- Entry point: \`src/${slug}.tsx\`
+- Entry point: \`upstream/${slug}.tsx\`
 - Nature: interactive; reuse the behavior and adapt its literal visual values to the target project.
 
 ## Files
 
-- \`src/${slug}.tsx\` — self-contained hook and styled component
-- \`src/demo.tsx\` — upstream replayable documentation demo
+${src ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}- \`upstream/${slug}.tsx\` — self-contained hook and styled component
+- \`upstream/demo.tsx\` — upstream replayable documentation demo
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: https://www.interior.dev/docs/${slug}
-`);
+${usage ? `\n${usage.trimEnd()}\n` : ""}`);
   writeFileSync(join(dir, "SOURCE.md"), `# Source
 
 - Site: https://www.interior.dev/docs/${slug}

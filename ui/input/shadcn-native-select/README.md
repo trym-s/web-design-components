@@ -7,7 +7,7 @@ A styled native HTML select element with consistent design system integration.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/native-select.tsx`
+- Entry point: `upstream/ui/native-select.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A styled native HTML select element with consistent design system integration.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -36,7 +36,7 @@ import { InfoIcon } from "lucide-react"
   For a styled select component, see the [Select](/docs/components/select)
   component.
 
-> Example `native-select-demo` — `src/examples/native-select-demo.tsx`, `static/native-select-demo.html`
+> Example `native-select-demo` — `upstream/examples/native-select-demo.tsx`, `static/native-select-demo.html`
 
 ## Installation
 
@@ -102,19 +102,19 @@ NativeSelect
 
 Use `NativeSelectOptGroup` to organize options into categories.
 
-> Example `native-select-groups` — `src/examples/native-select-groups.tsx`, `static/native-select-groups.html`
+> Example `native-select-groups` — `upstream/examples/native-select-groups.tsx`, `static/native-select-groups.html`
 
 ## Disabled
 
 Add the `disabled` prop to the `NativeSelect` component to disable the select.
 
-> Example `native-select-disabled` — `src/examples/native-select-disabled.tsx`, `static/native-select-disabled.html`
+> Example `native-select-disabled` — `upstream/examples/native-select-disabled.tsx`, `static/native-select-disabled.html`
 
 ## Invalid
 
 Use `aria-invalid` to show validation errors and the `data-invalid` attribute to the `Field` component for styling.
 
-> Example `native-select-invalid` — `src/examples/native-select-invalid.tsx`, `static/native-select-invalid.html`
+> Example `native-select-invalid` — `upstream/examples/native-select-invalid.tsx`, `static/native-select-invalid.html`
 
 ## Native Select vs Select
 
@@ -125,7 +125,7 @@ Use `aria-invalid` to show validation errors and the `data-invalid` attribute to
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `native-select-rtl` — `src/examples/native-select-rtl.tsx`, `static/native-select-rtl.html`
+> Example `native-select-rtl` — `upstream/examples/native-select-rtl.tsx`, `static/native-select-rtl.html`
 
 ## API Reference
 
@@ -167,12 +167,12 @@ Groups related options together for better organization.
 
 ## Files
 
-- `src/ui/native-select.tsx` — the ui file as the registry installs it
-- `src/examples/native-select-demo.tsx`
-- `src/examples/native-select-groups.tsx`
-- `src/examples/native-select-disabled.tsx`
-- `src/examples/native-select-invalid.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/native-select.tsx` — the ui file as the registry installs it
+- `upstream/examples/native-select-demo.tsx`
+- `upstream/examples/native-select-groups.tsx`
+- `upstream/examples/native-select-disabled.tsx`
+- `upstream/examples/native-select-invalid.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/native-select

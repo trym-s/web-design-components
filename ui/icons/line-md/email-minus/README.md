@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-minus/src/email-minus.svg`
+- Entry point: `ui/icons/line-md/email-minus/upstream/email-minus.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-minus/src/email-minus.svg`
+- Local source: `ui/icons/line-md/email-minus/upstream/email-minus.svg`

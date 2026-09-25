@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/iconify2/src/iconify2.svg`
+- Entry point: `ui/icons/line-md/iconify2/upstream/iconify2.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/iconify2/src/iconify2.svg`
+- Local source: `ui/icons/line-md/iconify2/upstream/iconify2.svg`

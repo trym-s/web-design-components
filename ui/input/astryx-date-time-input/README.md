@@ -7,7 +7,7 @@ DateTimeInput combines date and time selection in one field. With nativePicker="
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/DateTimeInput.tsx`
+- Entry point: `upstream/DateTimeInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ DateTimeInput combines date and time selection in one field. With nativePicker="
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,8 +33,8 @@ DateTimeInput combines date and time selection in one field. With nativePicker="
 
 ## Examples
 
-- `src/examples/DateTimeInputShowcase.tsx` — Date Time Input: A combined date and time picker. Desktop opens a calendar popover with a time input; touch devices open a Date/Time bottom sheet. · static: `static/DateTimeInputShowcase.html`
-- `src/examples/DateTimeInputWithValidation.tsx` — DateTimeInput — Validation: DateTimeInput in all three status states: error, warning, and success. Use to surface scheduling conflicts, caution the user about edge cases, or confirm a valid datetime. · static: `static/DateTimeInputWithValidation.html`
+- `upstream/examples/DateTimeInputShowcase.tsx` — Date Time Input: A combined date and time picker. Desktop opens a calendar popover with a time input; touch devices open a Date/Time bottom sheet. · static: `static/DateTimeInputShowcase.html`
+- `upstream/examples/DateTimeInputWithValidation.tsx` — DateTimeInput — Validation: DateTimeInput in all three status states: error, warning, and success. Use to surface scheduling conflicts, caution the user about edge cases, or confirm a valid datetime. · static: `static/DateTimeInputWithValidation.html`
 
 ## Documentation
 
@@ -159,9 +159,9 @@ Styling hook class: `.astryx-date-time-input`, `.astryx-date-time-input-date-seg
 
 ## Files
 
-- `src/DateTimeInput.doc.mjs`
-- `src/DateTimeInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/DateTimeInput.doc.mjs`
+- `upstream/DateTimeInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/DateTimeInput

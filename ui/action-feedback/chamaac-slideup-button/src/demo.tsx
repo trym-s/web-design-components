@@ -1,8 +1,9 @@
-import Example from "./examples/slide-up-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "slideup-button", title: "Slide Up Button", component: Example }];
+import SlideUpButton from "./slideup-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center">
+      <SlideUpButton>Learn More</SlideUpButton>
+    </div>
+  );
 }

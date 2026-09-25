@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cookie-settings/src/cookie-settings.svg`
+- Entry point: `ui/icons/line-md/cookie-settings/upstream/cookie-settings.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cookie-settings/src/cookie-settings.svg`
+- Local source: `ui/icons/line-md/cookie-settings/upstream/cookie-settings.svg`

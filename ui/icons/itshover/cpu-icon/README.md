@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/cpu-icon/src/cpu-icon.tsx`
+- Entry point: `ui/icons/itshover/cpu-icon/upstream/cpu-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/cpu-icon.json`
 - Registry: https://itshover.com/r/cpu-icon.json
-- Local source fallback: `ui/icons/itshover/cpu-icon/src/cpu-icon.tsx`
+- Local source fallback: `ui/icons/itshover/cpu-icon/upstream/cpu-icon.tsx`

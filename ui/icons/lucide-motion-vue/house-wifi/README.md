@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/house-wifi/src/house-wifi.vue`
+- Entry point: `ui/icons/lucide-motion-vue/house-wifi/upstream/house-wifi.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/house-wifi/src/house-wifi.vue`
+- Local source: `ui/icons/lucide-motion-vue/house-wifi/upstream/house-wifi.vue`

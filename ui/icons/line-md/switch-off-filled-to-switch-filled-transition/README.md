@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/switch-off-filled-to-switch-filled-transition/src/switch-off-filled-to-switch-filled-transition.svg`
+- Entry point: `ui/icons/line-md/switch-off-filled-to-switch-filled-transition/upstream/switch-off-filled-to-switch-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/switch-off-filled-to-switch-filled-transition/src/switch-off-filled-to-switch-filled-transition.svg`
+- Local source: `ui/icons/line-md/switch-off-filled-to-switch-filled-transition/upstream/switch-off-filled-to-switch-filled-transition.svg`

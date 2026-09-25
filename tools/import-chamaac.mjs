@@ -90,11 +90,18 @@ function propsOf(page) {
 }
 
 // ---------------------------------------------------------------- clean slate (captures survive)
+// `src/` (the copy-paste component) and the README's `## Usage` section are hand-derived from
+// `upstream/` (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+const KEEP = new Set(["static", "preview.png", "src"]);
+const usage = new Map();
 for (const cat of readdirSync(UI)) {
   if (cat === "_sources" || cat === "icons" || !statSync(join(UI, cat)).isDirectory()) continue; // icons: the chamaac-icons set
   for (const d of readdirSync(join(UI, cat))) {
     if (!d.startsWith("chamaac-")) continue;
-    for (const f of readdirSync(join(UI, cat, d))) if (f !== "static" && f !== "preview.png") rmSync(join(UI, cat, d, f), { recursive: true });
+    const readme = join(UI, cat, d, "README.md");
+    const section = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    if (section) usage.set(d, `${section.trimEnd()}\n`);
+    for (const f of readdirSync(join(UI, cat, d))) if (!KEEP.has(f)) rmSync(join(UI, cat, d, f), { recursive: true });
   }
 }
 rmSync(OUT, { recursive: true, force: true });
@@ -170,7 +177,7 @@ export function ChamaacFrame({ examples }: { examples: Example[] }) {
 `);
 {
   const globals = readFileSync(join(REPO_ROOT, "app/globals.css"), "utf8").replace(/^@source .*\n?/gm, "");
-  const sources = `@source "./**/*.{ts,tsx}";\n@source "../../**/chamaac-*/src/**/*.{ts,tsx}";\n`;
+  const sources = `@source "./**/*.{ts,tsx}";\n@source "../../**/chamaac-*/{src,upstream}/**/*.{ts,tsx}";\n`;
   const ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36";
   // The site loads these with next/font/google and exposes them as CSS variables.
   const FONTS = [["Space Grotesk", "--font-space-grotesk", "wght@300..700"], ["Geist Mono", "--font-geist-mono", "wght@100..900"], ["Instrument Serif", "--font-instrument-serif", "ital@0;1"]];
@@ -192,7 +199,7 @@ export function ChamaacFrame({ examples }: { examples: Example[] }) {
 const entries = [];
 for (const ref of refs) {
   const dir = join(UI, ref.category, `chamaac-${ref.name}`);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   const id = `${ref.category}/chamaac-${ref.name}`;
   const nature = NATURE[ref.category] ?? "structural";
   const use = firstSentence(ref.description ?? titleize(ref.name));
@@ -211,7 +218,7 @@ export default function Demo() {
   return <ChamaacFrame examples={examples} />;
 }
 `);
-    entryPoint = `src/examples/${basename(ref.demo)}`;
+    entryPoint = `upstream/examples/${basename(ref.demo)}`;
   } else {
     const local = join(OUT, relative(REPO_ROOT, ref.component));
     copyModule(ref.component, local);
@@ -232,7 +239,7 @@ export default function Demo() {
   if (sitePreview) copyFileSync(join(PUBLIC, ref.image), join(dir, "preview.png"));
   const reg = registry.get(ref.name);
   const componentFiles = (reg?.files ?? []).map((f) => `ui/_sources/chamaac/${f.path}`).filter((f) => existsSync(join(UI, "..", f)));
-  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   const deps = reg?.dependencies ?? [];
   write(join(dir, "README.md"), `# ${ref.title}
 
@@ -255,8 +262,10 @@ ${md(ref.description)}${ref.status === "published" ? "" : `\n\n> ${ref.status ==
 ${reg ? `- Preferred install: \`npx shadcn@latest add ${SITE}/r/${ref.name}.json\`\n- Registry: ${SITE}/r/${ref.name}.json\n` : ""}- Local source fallback: \`${componentFiles[0] ?? entryPoint}\`
 
 ## How an agent uses this reference
-
-- **React + Tailwind target** — ${reg ? `install from the registry above, or ` : ""}copy the component from \`ui/_sources/chamaac/\` and the demo from \`src/examples/\`, changing only import paths.
+${existsSync(join(dir, "src")) ? `
+- **React + Tailwind v4 + shadcn tokens** — copy \`src/\` as-is (Next.js removed; it imports only allowlisted packages);
+  \`src/demo.tsx\` shows the wiring with sample data. See \`## Usage\`.` : ""}
+- **React + Tailwind target** — ${reg ? `install from the registry above, or ` : ""}copy the component from \`ui/_sources/chamaac/\` and the demo from \`upstream/examples/\`, changing only import paths.
 - **Any other stack** — \`static/${ref.name}.html\` is the rendered DOM against \`ui/_sources/chamaac/styles.css\`.${deps.includes("three") ? " Shader backgrounds draw on a canvas at runtime: port the GLSL from the component source, not the markup." : ""}
 ${ref.props.length ? `
 ## Props
@@ -267,11 +276,11 @@ ${ref.props.map((p) => `| \`${md(p.name)}\` | \`${md(p.type)}\` | ${p.default ==
 ` : ""}
 ## Files
 
-${componentFiles.map((f) => `- \`${f}\` — the component as the registry installs it`).join("\n")}${componentFiles.length ? "\n" : ""}${ref.demo ? `- \`src/examples/${basename(ref.demo)}\` — the site's demo\n` : ""}- \`src/demo.tsx\` — bank harness
+${existsSync(join(dir, "src")) ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}${componentFiles.map((f) => `- \`${f}\` — the component as the registry installs it`).join("\n")}${componentFiles.length ? "\n" : ""}${ref.demo ? `- \`upstream/examples/${basename(ref.demo)}\` — the site's demo\n` : ""}- \`upstream/demo.tsx\` — bank harness
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${ref.page ?? `${REPO}/tree/main/${posix(relative(REPO_ROOT, dirname(ref.demo ?? ref.component)))}`}
-`);
+${usage.has(`chamaac-${ref.name}`) ? `\n${usage.get(`chamaac-${ref.name}`)}` : ""}`);
   write(join(dir, "SOURCE.md"), `# Source
 
 - Site: ${ref.page ?? SITE}

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-close-right/src/arrow-close-right.svg`
+- Entry point: `ui/icons/line-md/arrow-close-right/upstream/arrow-close-right.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-close-right/src/arrow-close-right.svg`
+- Local source: `ui/icons/line-md/arrow-close-right/upstream/arrow-close-right.svg`

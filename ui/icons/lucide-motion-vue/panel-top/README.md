@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/panel-top/src/panel-top.vue`
+- Entry point: `ui/icons/lucide-motion-vue/panel-top/upstream/panel-top.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/panel-top/src/panel-top.vue`
+- Local source: `ui/icons/lucide-motion-vue/panel-top/upstream/panel-top.vue`

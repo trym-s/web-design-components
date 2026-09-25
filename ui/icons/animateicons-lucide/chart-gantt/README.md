@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-gantt/src/chart-gantt.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-gantt/upstream/chart-gantt.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-gantt.json`
 - Registry: https://animateicons.in/r/lu-chart-gantt.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-gantt/src/chart-gantt.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-gantt/upstream/chart-gantt.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/message-circle-warning/src/message-circle-warning.vue`
+- Entry point: `ui/icons/lucide-motion-vue/message-circle-warning/upstream/message-circle-warning.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/message-circle-warning/src/message-circle-warning.vue`
+- Local source: `ui/icons/lucide-motion-vue/message-circle-warning/upstream/message-circle-warning.vue`

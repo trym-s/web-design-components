@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/russian-ruble/src/russian-ruble.vue`
+- Entry point: `ui/icons/lucide-motion-vue/russian-ruble/upstream/russian-ruble.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/russian-ruble/src/russian-ruble.vue`
+- Local source: `ui/icons/lucide-motion-vue/russian-ruble/upstream/russian-ruble.vue`

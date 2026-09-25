@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/message-square-plus/src/message-square-plus.vue`
+- Entry point: `ui/icons/lucide-motion-vue/message-square-plus/upstream/message-square-plus.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/message-square-plus/src/message-square-plus.vue`
+- Local source: `ui/icons/lucide-motion-vue/message-square-plus/upstream/message-square-plus.vue`

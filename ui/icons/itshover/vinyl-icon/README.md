@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/vinyl-icon/src/vinyl-icon.tsx`
+- Entry point: `ui/icons/itshover/vinyl-icon/upstream/vinyl-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/vinyl-icon.json`
 - Registry: https://itshover.com/r/vinyl-icon.json
-- Local source fallback: `ui/icons/itshover/vinyl-icon/src/vinyl-icon.tsx`
+- Local source fallback: `ui/icons/itshover/vinyl-icon/upstream/vinyl-icon.tsx`

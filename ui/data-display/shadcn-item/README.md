@@ -7,7 +7,7 @@ A versatile component for displaying content with media, title, description, and
 - Category: `data-display` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/item.tsx`
+- Entry point: `upstream/ui/item.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A versatile component for displaying content with media, title, description, and
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A versatile component for displaying content with media, title, description, and
 
 ## Documentation
 
-> Example `item-demo` — `src/examples/item-demo.tsx`, `static/item-demo.html`
+> Example `item-demo` — `upstream/examples/item-demo.tsx`, `static/item-demo.html`
 
 The `Item` component is a straightforward flex container that can house nearly any type of content. Use it to display a title, description, and actions. Group it with the `ItemGroup` component to create a list of items.
 
@@ -100,49 +100,49 @@ If you only need to display content such as a title, description, and actions, u
 
 Use the `variant` prop to change the visual style of the item.
 
-> Example `item-variant` — `src/examples/item-variant.tsx`, `static/item-variant.html`
+> Example `item-variant` — `upstream/examples/item-variant.tsx`, `static/item-variant.html`
 
 ## Size
 
 Use the `size` prop to change the size of the item. Available sizes are `default`, `sm`, and `xs`.
 
-> Example `item-size` — `src/examples/item-size.tsx`, `static/item-size.html`
+> Example `item-size` — `upstream/examples/item-size.tsx`, `static/item-size.html`
 
 ## Icon
 
 Use `ItemMedia` with `variant="icon"` to display an icon.
 
-> Example `item-icon` — `src/examples/item-icon.tsx`, `static/item-icon.html`
+> Example `item-icon` — `upstream/examples/item-icon.tsx`, `static/item-icon.html`
 
 ## Avatar
 
 You can use `ItemMedia` with `variant="avatar"` to display an avatar.
 
-> Example `item-avatar` — `src/examples/item-avatar.tsx`, `static/item-avatar.html`
+> Example `item-avatar` — `upstream/examples/item-avatar.tsx`, `static/item-avatar.html`
 
 ## Image
 
 Use `ItemMedia` with `variant="image"` to display an image.
 
-> Example `item-image` — `src/examples/item-image.tsx`, `static/item-image.html`
+> Example `item-image` — `upstream/examples/item-image.tsx`, `static/item-image.html`
 
 ## Group
 
 Use `ItemGroup` to group related items together.
 
-> Example `item-group` — `src/examples/item-group.tsx`, `static/item-group.html`
+> Example `item-group` — `upstream/examples/item-group.tsx`, `static/item-group.html`
 
 ## Header
 
 Use `ItemHeader` to add a header above the item content.
 
-> Example `item-header` — `src/examples/item-header.tsx`, `static/item-header.html`
+> Example `item-header` — `upstream/examples/item-header.tsx`, `static/item-header.html`
 
 ## Link
 
 Use the `asChild` prop to render the item as a link. The hover and focus states will be applied to the anchor element.
 
-> Example `item-link` — `src/examples/item-link.tsx`, `static/item-link.html`
+> Example `item-link` — `upstream/examples/item-link.tsx`, `static/item-link.html`
 
 ```tsx showLineNumbers
 <Item asChild>
@@ -160,13 +160,13 @@ Use the `asChild` prop to render the item as a link. The hover and focus states 
 
 ## Dropdown
 
-> Example `item-dropdown` — `src/examples/item-dropdown.tsx`, `static/item-dropdown.html`
+> Example `item-dropdown` — `upstream/examples/item-dropdown.tsx`, `static/item-dropdown.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `item-rtl` — `src/examples/item-rtl.tsx`, `static/item-rtl.html`
+> Example `item-rtl` — `upstream/examples/item-rtl.tsx`, `static/item-rtl.html`
 
 ## API Reference
 
@@ -284,18 +284,18 @@ Displays a footer below the item content.
 
 ## Files
 
-- `src/ui/item.tsx` — the ui file as the registry installs it
-- `src/examples/item-demo.tsx`
-- `src/examples/item-variant.tsx`
-- `src/examples/item-size.tsx`
-- `src/examples/item-icon.tsx`
-- `src/examples/item-avatar.tsx`
-- `src/examples/item-image.tsx`
-- `src/examples/item-group.tsx`
-- `src/examples/item-header.tsx`
-- `src/examples/item-link.tsx`
-- `src/examples/item-dropdown.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/item.tsx` — the ui file as the registry installs it
+- `upstream/examples/item-demo.tsx`
+- `upstream/examples/item-variant.tsx`
+- `upstream/examples/item-size.tsx`
+- `upstream/examples/item-icon.tsx`
+- `upstream/examples/item-avatar.tsx`
+- `upstream/examples/item-image.tsx`
+- `upstream/examples/item-group.tsx`
+- `upstream/examples/item-header.tsx`
+- `upstream/examples/item-link.tsx`
+- `upstream/examples/item-dropdown.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/item

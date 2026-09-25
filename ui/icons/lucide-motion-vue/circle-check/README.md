@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/circle-check/src/circle-check.vue`
+- Entry point: `ui/icons/lucide-motion-vue/circle-check/upstream/circle-check.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/circle-check/src/circle-check.vue`
+- Local source: `ui/icons/lucide-motion-vue/circle-check/upstream/circle-check.vue`

@@ -1,6 +1,4 @@
-"use client";
-
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { ReadingProgress } from "./reading-progress";
 
 const PARAGRAPHS = [
@@ -14,21 +12,27 @@ const PARAGRAPHS = [
 
 const WORDS = PARAGRAPHS.join(" ").split(/\s+/).length;
 
-export function ReadingProgressDemo() {
+export default function ReadingProgressDemo() {
   const scroller = useRef<HTMLDivElement>(null);
+
+  // Start part-way through the article so the bar shows progress.
+  useEffect(() => {
+    const el = scroller.current;
+    if (el) el.scrollTop = (el.scrollHeight - el.clientHeight) * 0.4;
+  }, []);
 
   return (
     <div className="mx-auto w-full max-w-[420px]">
-      <div className="mat-panel rounded-[14px] p-[5px]">
+      <div className="border border-border bg-card shadow-sm rounded-[calc(var(--radius)+4px)] p-[5px]">
         <div className="px-2 pb-2.5 pt-2">
           <ReadingProgress scroller={scroller} words={WORDS} />
         </div>
-        <div className="mat-well rounded-[9px]">
+        <div className="border border-border bg-card inset-shadow-xs rounded-[calc(var(--radius)-1px)]">
           <div
             ref={scroller}
             role="region"
             aria-label="Article body"
-            className="fade-y no-bar max-h-[184px] space-y-3 overflow-y-auto overscroll-contain rounded-[9px] p-3 text-[12.5px] leading-relaxed text-ink-2"
+            className="[mask-image:linear-gradient(transparent,black_14px,black_calc(100%-22px),transparent)] [scrollbar-width:none] max-h-[184px] space-y-3 overflow-y-auto overscroll-contain rounded-[calc(var(--radius)-1px)] p-3 text-[12.5px] leading-relaxed text-foreground"
           >
             {PARAGRAPHS.map((p, i) => (
               <p key={i}>{p}</p>

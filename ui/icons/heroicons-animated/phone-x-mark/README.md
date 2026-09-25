@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/phone-x-mark/src/phone-x-mark.tsx`
+- Entry point: `ui/icons/heroicons-animated/phone-x-mark/upstream/phone-x-mark.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/phone-x-mark`
 - Registry: https://www.heroicons-animated.com/r/phone-x-mark.json
-- Local source fallback: `ui/icons/heroicons-animated/phone-x-mark/src/phone-x-mark.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/phone-x-mark/upstream/phone-x-mark.tsx`

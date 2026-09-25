@@ -7,7 +7,7 @@ EmptyState shows a placeholder when a content area has no data. Use it for empty
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/EmptyState.tsx`
+- Entry point: `upstream/EmptyState.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ EmptyState shows a placeholder when a content area has no data. Use it for empty
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ EmptyState shows a placeholder when a content area has no data. Use it for empty
 
 ## Examples
 
-- `src/examples/EmptyStateShowcase.tsx` — Empty State: A no-results empty state with an icon, descriptive message, and a call-to-action button. · static: `static/EmptyStateShowcase.html`
-- `src/examples/EmptyStateActions.tsx` — EmptyState — Actions: Full empty state with icon, message, and action buttons. Use when a search returns no results, a filter clears all items, or a list has been emptied. The buttons give the user a way forward: go back, clear filters, or try a different query. · static: `static/EmptyStateActions.html`
-- `src/examples/EmptyStateCompact.tsx` — EmptyState — Compact: Smaller empty state with reduced spacing for constrained areas. Use inside sidebar panels, card widgets, or notification drawers where a full-size empty state would overwhelm the layout. · static: `static/EmptyStateCompact.html`
-- `src/examples/EmptyStateContainer.tsx` — EmptyState — Container: Empty state wrapped in a Card for first-time setup or onboarding. Use when the user has not created any items yet, like a project list, team roster, or dashboard widget that will fill with data once they take action. · static: `static/EmptyStateContainer.html`
+- `upstream/examples/EmptyStateShowcase.tsx` — Empty State: A no-results empty state with an icon, descriptive message, and a call-to-action button. · static: `static/EmptyStateShowcase.html`
+- `upstream/examples/EmptyStateActions.tsx` — EmptyState — Actions: Full empty state with icon, message, and action buttons. Use when a search returns no results, a filter clears all items, or a list has been emptied. The buttons give the user a way forward: go back, clear filters, or try a different query. · static: `static/EmptyStateActions.html`
+- `upstream/examples/EmptyStateCompact.tsx` — EmptyState — Compact: Smaller empty state with reduced spacing for constrained areas. Use inside sidebar panels, card widgets, or notification drawers where a full-size empty state would overwhelm the layout. · static: `static/EmptyStateCompact.html`
+- `upstream/examples/EmptyStateContainer.tsx` — EmptyState — Container: Empty state wrapped in a Card for first-time setup or onboarding. Use when the user has not created any items yet, like a project list, team roster, or dashboard widget that will fill with data once they take action. · static: `static/EmptyStateContainer.html`
 
 ## Documentation
 
@@ -109,9 +109,9 @@ Styling hook class: `.astryx-empty-state`, `.astryx-empty-state-title`, `.astryx
 
 ## Files
 
-- `src/EmptyState.doc.mjs`
-- `src/EmptyState.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/EmptyState.doc.mjs`
+- `upstream/EmptyState.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/EmptyState

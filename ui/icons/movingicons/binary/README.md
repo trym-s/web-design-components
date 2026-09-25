@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/binary/src/binary.svelte`
+- Entry point: `ui/icons/movingicons/binary/upstream/binary.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/binary`
 - Registry: https://movingicons.dev/r/binary
-- Local source fallback: `ui/icons/movingicons/binary/src/binary.svelte`
+- Local source fallback: `ui/icons/movingicons/binary/upstream/binary.svelte`

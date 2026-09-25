@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/beer-twotone-loop/src/beer-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/beer-twotone-loop/upstream/beer-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/beer-twotone-loop/src/beer-twotone-loop.svg`
+- Local source: `ui/icons/line-md/beer-twotone-loop/upstream/beer-twotone-loop.svg`

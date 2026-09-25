@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/gauge-full/src/gauge-full.svg`
+- Entry point: `ui/icons/line-md/gauge-full/upstream/gauge-full.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/gauge-full/src/gauge-full.svg`
+- Local source: `ui/icons/line-md/gauge-full/upstream/gauge-full.svg`

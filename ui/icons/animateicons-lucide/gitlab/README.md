@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/gitlab/src/gitlab.tsx`
+- Entry point: `ui/icons/animateicons-lucide/gitlab/upstream/gitlab.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-gitlab.json`
 - Registry: https://animateicons.in/r/lu-gitlab.json
-- Local source fallback: `ui/icons/animateicons-lucide/gitlab/src/gitlab.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/gitlab/upstream/gitlab.tsx`

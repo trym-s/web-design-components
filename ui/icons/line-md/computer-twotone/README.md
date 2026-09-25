@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/computer-twotone/src/computer-twotone.svg`
+- Entry point: `ui/icons/line-md/computer-twotone/upstream/computer-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/computer-twotone/src/computer-twotone.svg`
+- Local source: `ui/icons/line-md/computer-twotone/upstream/computer-twotone.svg`

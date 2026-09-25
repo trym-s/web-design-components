@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/person-search/src/person-search.svg`
+- Entry point: `ui/icons/line-md/person-search/upstream/person-search.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/person-search/src/person-search.svg`
+- Local source: `ui/icons/line-md/person-search/upstream/person-search.svg`

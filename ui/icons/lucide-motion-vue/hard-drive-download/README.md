@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/hard-drive-download/src/hard-drive-download.vue`
+- Entry point: `ui/icons/lucide-motion-vue/hard-drive-download/upstream/hard-drive-download.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/hard-drive-download/src/hard-drive-download.vue`
+- Local source: `ui/icons/lucide-motion-vue/hard-drive-download/upstream/hard-drive-download.vue`

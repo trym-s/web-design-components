@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cctv/src/cctv.svelte`
+- Entry point: `ui/icons/movingicons/cctv/upstream/cctv.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cctv`
 - Registry: https://movingicons.dev/r/cctv
-- Local source fallback: `ui/icons/movingicons/cctv/src/cctv.svelte`
+- Local source fallback: `ui/icons/movingicons/cctv/upstream/cctv.svelte`

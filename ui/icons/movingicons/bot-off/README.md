@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bot-off/src/bot-off.svelte`
+- Entry point: `ui/icons/movingicons/bot-off/upstream/bot-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bot-off`
 - Registry: https://movingicons.dev/r/bot-off
-- Local source fallback: `ui/icons/movingicons/bot-off/src/bot-off.svelte`
+- Local source fallback: `ui/icons/movingicons/bot-off/upstream/bot-off.svelte`

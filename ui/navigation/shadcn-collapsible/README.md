@@ -7,7 +7,7 @@ An interactive component which expands/collapses a panel.
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/collapsible.tsx`
+- Entry point: `upstream/ui/collapsible.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ An interactive component which expands/collapses a panel.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ An interactive component which expands/collapses a panel.
 
 ## Documentation
 
-> Example `collapsible-demo` — `src/examples/collapsible-demo.tsx`, `static/collapsible-demo.html`
+> Example `collapsible-demo` — `upstream/examples/collapsible-demo.tsx`, `static/collapsible-demo.html`
 
 ## Installation
 
@@ -101,25 +101,25 @@ export function Example() {
 
 ## Basic
 
-> Example `collapsible-basic` — `src/examples/collapsible-basic.tsx`, `static/collapsible-basic.html`
+> Example `collapsible-basic` — `upstream/examples/collapsible-basic.tsx`, `static/collapsible-basic.html`
 
 ## Settings Panel
 
 Use a trigger button to reveal additional settings.
 
-> Example `collapsible-settings` — `src/examples/collapsible-settings.tsx`, `static/collapsible-settings.html`
+> Example `collapsible-settings` — `upstream/examples/collapsible-settings.tsx`, `static/collapsible-settings.html`
 
 ## File Tree
 
 Use nested collapsibles to build a file tree.
 
-> Example `collapsible-file-tree` — `src/examples/collapsible-file-tree.tsx`, `static/collapsible-file-tree.html`
+> Example `collapsible-file-tree` — `upstream/examples/collapsible-file-tree.tsx`, `static/collapsible-file-tree.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `collapsible-rtl` — `src/examples/collapsible-rtl.tsx`, `static/collapsible-rtl.html`
+> Example `collapsible-rtl` — `upstream/examples/collapsible-rtl.tsx`, `static/collapsible-rtl.html`
 
 ## API Reference
 
@@ -127,12 +127,12 @@ See the [Radix UI](https://www.radix-ui.com/docs/primitives/components/collapsib
 
 ## Files
 
-- `src/ui/collapsible.tsx` — the ui file as the registry installs it
-- `src/examples/collapsible-demo.tsx`
-- `src/examples/collapsible-basic.tsx`
-- `src/examples/collapsible-settings.tsx`
-- `src/examples/collapsible-file-tree.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/collapsible.tsx` — the ui file as the registry installs it
+- `upstream/examples/collapsible-demo.tsx`
+- `upstream/examples/collapsible-basic.tsx`
+- `upstream/examples/collapsible-settings.tsx`
+- `upstream/examples/collapsible-file-tree.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/collapsible

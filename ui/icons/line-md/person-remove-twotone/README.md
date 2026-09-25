@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/person-remove-twotone/src/person-remove-twotone.svg`
+- Entry point: `ui/icons/line-md/person-remove-twotone/upstream/person-remove-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/person-remove-twotone/src/person-remove-twotone.svg`
+- Local source: `ui/icons/line-md/person-remove-twotone/upstream/person-remove-twotone.svg`

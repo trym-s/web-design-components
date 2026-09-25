@@ -7,7 +7,7 @@ A checkbox dropdown for selecting multiple values from a list. Selected items ca
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/MultiSelector.tsx`
+- Entry point: `upstream/MultiSelector.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A checkbox dropdown for selecting multiple values from a list. Selected items ca
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ A checkbox dropdown for selecting multiple values from a list. Selected items ca
 
 ## Examples
 
-- `src/examples/MultiSelectorShowcase.tsx` — Multi Selector · static: `static/MultiSelectorShowcase.html`
-- `src/examples/MultiSelectorBottomSheet.tsx` — MultiSelector — Bottom Sheet: Keeps a multi-selection list open in a bottom sheet while choices are toggled. · static: `static/MultiSelectorBottomSheet.html`
-- `src/examples/MultiSelectorColumnVisibilitySelector.tsx` — MultiSelector — Column Visibility: Column visibility toggle with hidden label, search, select-all, and selection count. · static: `static/MultiSelectorColumnVisibilitySelector.html`
-- `src/examples/MultiSelectorForm.tsx` — MultiSelector — Form Composition: Two multi-selectors in a form with required/optional states. · static: `static/MultiSelectorForm.html`
-- `src/examples/MultiSelectorGhostToolbar.tsx` — MultiSelector — Ghost Toolbar: Borderless MultiSelector variant composed with ghost buttons in a toolbar. · static: `static/MultiSelectorGhostToolbar.html`
-- `src/examples/MultiSelectorSearchableMultiSelector.tsx` — MultiSelector — Searchable: Multi-select with search filtering and select-all. · static: `static/MultiSelectorSearchableMultiSelector.html`
-- `src/examples/MultiSelectorSectionedMultiSelector.tsx` — MultiSelector — Sectioned Permissions: Multi-select with options grouped into labeled sections. · static: `static/MultiSelectorSectionedMultiSelector.html`
+- `upstream/examples/MultiSelectorShowcase.tsx` — Multi Selector · static: `static/MultiSelectorShowcase.html`
+- `upstream/examples/MultiSelectorBottomSheet.tsx` — MultiSelector — Bottom Sheet: Keeps a multi-selection list open in a bottom sheet while choices are toggled. · static: `static/MultiSelectorBottomSheet.html`
+- `upstream/examples/MultiSelectorColumnVisibilitySelector.tsx` — MultiSelector — Column Visibility: Column visibility toggle with hidden label, search, select-all, and selection count. · static: `static/MultiSelectorColumnVisibilitySelector.html`
+- `upstream/examples/MultiSelectorForm.tsx` — MultiSelector — Form Composition: Two multi-selectors in a form with required/optional states. · static: `static/MultiSelectorForm.html`
+- `upstream/examples/MultiSelectorGhostToolbar.tsx` — MultiSelector — Ghost Toolbar: Borderless MultiSelector variant composed with ghost buttons in a toolbar. · static: `static/MultiSelectorGhostToolbar.html`
+- `upstream/examples/MultiSelectorSearchableMultiSelector.tsx` — MultiSelector — Searchable: Multi-select with search filtering and select-all. · static: `static/MultiSelectorSearchableMultiSelector.html`
+- `upstream/examples/MultiSelectorSectionedMultiSelector.tsx` — MultiSelector — Sectioned Permissions: Multi-select with options grouped into labeled sections. · static: `static/MultiSelectorSectionedMultiSelector.html`
 
 ## Documentation
 
@@ -88,10 +88,10 @@ Styling hook class: `.astryx-multi-selector`, `.astryx-multi-selector-clear-icon
 
 ## Files
 
-- `src/MultiSelector.doc.mjs`
-- `src/MultiSelector.spec.md`
-- `src/MultiSelector.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/MultiSelector.doc.mjs`
+- `upstream/MultiSelector.spec.md`
+- `upstream/MultiSelector.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/MultiSelector

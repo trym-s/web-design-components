@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/rocking-chair/src/rocking-chair.vue`
+- Entry point: `ui/icons/lucide-motion-vue/rocking-chair/upstream/rocking-chair.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/rocking-chair/src/rocking-chair.vue`
+- Local source: `ui/icons/lucide-motion-vue/rocking-chair/upstream/rocking-chair.vue`

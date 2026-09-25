@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/briefcase-minus-filled/src/briefcase-minus-filled.svg`
+- Entry point: `ui/icons/line-md/briefcase-minus-filled/upstream/briefcase-minus-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/briefcase-minus-filled/src/briefcase-minus-filled.svg`
+- Local source: `ui/icons/line-md/briefcase-minus-filled/upstream/briefcase-minus-filled.svg`

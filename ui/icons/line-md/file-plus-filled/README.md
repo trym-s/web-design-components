@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-plus-filled/src/file-plus-filled.svg`
+- Entry point: `ui/icons/line-md/file-plus-filled/upstream/file-plus-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-plus-filled/src/file-plus-filled.svg`
+- Local source: `ui/icons/line-md/file-plus-filled/upstream/file-plus-filled.svg`

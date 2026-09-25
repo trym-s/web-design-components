@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/inbox-arrow-down/src/inbox-arrow-down.tsx`
+- Entry point: `ui/icons/heroicons-animated/inbox-arrow-down/upstream/inbox-arrow-down.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/inbox-arrow-down`
 - Registry: https://www.heroicons-animated.com/r/inbox-arrow-down.json
-- Local source fallback: `ui/icons/heroicons-animated/inbox-arrow-down/src/inbox-arrow-down.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/inbox-arrow-down/upstream/inbox-arrow-down.tsx`

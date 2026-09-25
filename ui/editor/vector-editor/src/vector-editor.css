@@ -1,0 +1,13 @@
+/* Intro keyframes for FigmaFrame (the upstream site defines them globally; these are local equivalents). */
+@keyframes bbox-open {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes bbox-handle {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes bbox-badge {
+  from { transform: translateY(-4px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

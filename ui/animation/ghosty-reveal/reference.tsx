@@ -4,7 +4,7 @@
 "use client";
 
 import { useState } from "react";
-import { GhostReveal } from "./src/ghosty-reveal/standalone/GhostReveal";
+import { GhostReveal } from "./upstream/ghosty-reveal/standalone/GhostReveal";
 
 /* The upstream mask is a feathered PNG. This inline SVG ramp is the same idea in
  * a data URI, so the reference runs with no external asset. */

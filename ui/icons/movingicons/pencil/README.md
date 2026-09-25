@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/pencil/src/pencil.svelte`
+- Entry point: `ui/icons/movingicons/pencil/upstream/pencil.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/pencil`
 - Registry: https://movingicons.dev/r/pencil
-- Local source fallback: `ui/icons/movingicons/pencil/src/pencil.svelte`
+- Local source fallback: `ui/icons/movingicons/pencil/upstream/pencil.svelte`

@@ -1,0 +1,4 @@
+/* Keyframes copied verbatim from the Beautiful UI snapshot. */
+@keyframes tool-call-chips-pop-in { 0% { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+@keyframes tool-call-chips-fade-in { 0% { opacity: 0; } to { opacity: 1; } }
+@keyframes tool-call-chips-fade-up { 0% { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }

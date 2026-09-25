@@ -7,7 +7,7 @@ A styled anchor for inline and standalone text navigation. Supports external lin
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Link.tsx`
+- Entry point: `upstream/Link.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A styled anchor for inline and standalone text navigation. Supports external lin
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A styled anchor for inline and standalone text navigation. Supports external lin
 
 ## Examples
 
-- `src/examples/LinkShowcase.tsx` — Link: A standalone link. · static: `static/LinkShowcase.html`
-- `src/examples/LinkExternalLinks.tsx` — Link — External Links: A vertical list of external links that open in a new tab with an indicator icon. · static: `static/LinkExternalLinks.html`
-- `src/examples/LinkInlineLink.tsx` — Link — Inline Text: A link embedded within a paragraph of body text. · static: `static/LinkInlineLink.html`
-- `src/examples/LinksWithTooltips.tsx` — Link — With Tooltips: Horizontal row of standalone links with descriptive hover tooltips. · static: `static/LinksWithTooltips.html`
+- `upstream/examples/LinkShowcase.tsx` — Link: A standalone link. · static: `static/LinkShowcase.html`
+- `upstream/examples/LinkExternalLinks.tsx` — Link — External Links: A vertical list of external links that open in a new tab with an indicator icon. · static: `static/LinkExternalLinks.html`
+- `upstream/examples/LinkInlineLink.tsx` — Link — Inline Text: A link embedded within a paragraph of body text. · static: `static/LinkInlineLink.html`
+- `upstream/examples/LinksWithTooltips.tsx` — Link — With Tooltips: Horizontal row of standalone links with descriptive hover tooltips. · static: `static/LinksWithTooltips.html`
 
 ## Documentation
 
@@ -94,10 +94,10 @@ Styling hook class: `.astryx-link`
 
 ## Files
 
-- `src/Link.doc.mjs`
-- `src/Link.tsx`
-- `src/LinkContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Link.doc.mjs`
+- `upstream/Link.tsx`
+- `upstream/LinkContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Link

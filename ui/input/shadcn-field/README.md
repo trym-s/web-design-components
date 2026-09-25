@@ -7,7 +7,7 @@ Combine labels, controls, and help text to compose accessible form fields and gr
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/field.tsx`
+- Entry point: `upstream/ui/field.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Combine labels, controls, and help text to compose accessible form fields and gr
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Combine labels, controls, and help text to compose accessible form fields and gr
 
 ## Documentation
 
-> Example `field-demo` — `src/examples/field-demo.tsx`, `static/field-demo.html`
+> Example `field-demo` — `upstream/examples/field-demo.tsx`, `static/field-demo.html`
 
 ## Installation
 
@@ -157,53 +157,53 @@ See the [Form](/docs/forms) documentation for building forms with the `Field` co
 
 ## Input
 
-> Example `field-input` — `src/examples/field-input.tsx`, `static/field-input.html`
+> Example `field-input` — `upstream/examples/field-input.tsx`, `static/field-input.html`
 
 ## Textarea
 
-> Example `field-textarea` — `src/examples/field-textarea.tsx`, `static/field-textarea.html`
+> Example `field-textarea` — `upstream/examples/field-textarea.tsx`, `static/field-textarea.html`
 
 ## Select
 
-> Example `field-select` — `src/examples/field-select.tsx`, `static/field-select.html`
+> Example `field-select` — `upstream/examples/field-select.tsx`, `static/field-select.html`
 
 ## Slider
 
-> Example `field-slider` — `src/examples/field-slider.tsx`, `static/field-slider.html`
+> Example `field-slider` — `upstream/examples/field-slider.tsx`, `static/field-slider.html`
 
 ## Fieldset
 
-> Example `field-fieldset` — `src/examples/field-fieldset.tsx`, `static/field-fieldset.html`
+> Example `field-fieldset` — `upstream/examples/field-fieldset.tsx`, `static/field-fieldset.html`
 
 ## Checkbox
 
-> Example `field-checkbox` — `src/examples/field-checkbox.tsx`, `static/field-checkbox.html`
+> Example `field-checkbox` — `upstream/examples/field-checkbox.tsx`, `static/field-checkbox.html`
 
 ## Radio
 
-> Example `field-radio` — `src/examples/field-radio.tsx`, `static/field-radio.html`
+> Example `field-radio` — `upstream/examples/field-radio.tsx`, `static/field-radio.html`
 
 ## Switch
 
-> Example `field-switch` — `src/examples/field-switch.tsx`, `static/field-switch.html`
+> Example `field-switch` — `upstream/examples/field-switch.tsx`, `static/field-switch.html`
 
 ## Choice Card
 
 Wrap `Field` components inside `FieldLabel` to create selectable field groups. This works with `RadioItem`, `Checkbox` and `Switch` components.
 
-> Example `field-choice-card` — `src/examples/field-choice-card.tsx`, `static/field-choice-card.html`
+> Example `field-choice-card` — `upstream/examples/field-choice-card.tsx`, `static/field-choice-card.html`
 
 ## Field Group
 
 Stack `Field` components with `FieldGroup`. Add `FieldSeparator` to divide them.
 
-> Example `field-group` — `src/examples/field-group.tsx`, `static/field-group.html`
+> Example `field-group` — `upstream/examples/field-group.tsx`, `static/field-group.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `field-rtl` — `src/examples/field-rtl.tsx`, `static/field-rtl.html`
+> Example `field-rtl` — `upstream/examples/field-rtl.tsx`, `static/field-rtl.html`
 
 ## Responsive Layout
 
@@ -211,7 +211,7 @@ To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl)
 - **Horizontal fields:** Set `orientation="horizontal"` on `Field` to align the label and control side-by-side. Pair with `FieldContent` to keep descriptions aligned.
 - **Responsive fields:** Set `orientation="responsive"` for automatic column layouts inside container-aware parents. Apply `@container/field-group` classes on `FieldGroup` to switch orientations at specific breakpoints.
 
-> Example `field-responsive` — `src/examples/field-responsive.tsx`, `static/field-responsive.html`
+> Example `field-responsive` — `upstream/examples/field-responsive.tsx`, `static/field-responsive.html`
 
 ## Validation and Errors
 
@@ -386,20 +386,20 @@ When the `errors` array contains multiple messages, the component renders a list
 
 ## Files
 
-- `src/ui/field.tsx` — the ui file as the registry installs it
-- `src/examples/field-demo.tsx`
-- `src/examples/field-input.tsx`
-- `src/examples/field-textarea.tsx`
-- `src/examples/field-select.tsx`
-- `src/examples/field-slider.tsx`
-- `src/examples/field-fieldset.tsx`
-- `src/examples/field-checkbox.tsx`
-- `src/examples/field-radio.tsx`
-- `src/examples/field-switch.tsx`
-- `src/examples/field-choice-card.tsx`
-- `src/examples/field-group.tsx`
-- `src/examples/field-responsive.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/field.tsx` — the ui file as the registry installs it
+- `upstream/examples/field-demo.tsx`
+- `upstream/examples/field-input.tsx`
+- `upstream/examples/field-textarea.tsx`
+- `upstream/examples/field-select.tsx`
+- `upstream/examples/field-slider.tsx`
+- `upstream/examples/field-fieldset.tsx`
+- `upstream/examples/field-checkbox.tsx`
+- `upstream/examples/field-radio.tsx`
+- `upstream/examples/field-switch.tsx`
+- `upstream/examples/field-choice-card.tsx`
+- `upstream/examples/field-group.tsx`
+- `upstream/examples/field-responsive.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/field

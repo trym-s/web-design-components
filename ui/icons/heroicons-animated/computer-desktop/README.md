@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/computer-desktop/src/computer-desktop.tsx`
+- Entry point: `ui/icons/heroicons-animated/computer-desktop/upstream/computer-desktop.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/computer-desktop`
 - Registry: https://www.heroicons-animated.com/r/computer-desktop.json
-- Local source fallback: `ui/icons/heroicons-animated/computer-desktop/src/computer-desktop.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/computer-desktop/upstream/computer-desktop.tsx`

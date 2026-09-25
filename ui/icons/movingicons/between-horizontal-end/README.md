@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/between-horizontal-end/src/between-horizontal-end.svelte`
+- Entry point: `ui/icons/movingicons/between-horizontal-end/upstream/between-horizontal-end.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/between-horizontal-end`
 - Registry: https://movingicons.dev/r/between-horizontal-end
-- Local source fallback: `ui/icons/movingicons/between-horizontal-end/src/between-horizontal-end.svelte`
+- Local source fallback: `ui/icons/movingicons/between-horizontal-end/upstream/between-horizontal-end.svelte`

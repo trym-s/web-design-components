@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/user-round-check/src/user-round-check.tsx`
+- Entry point: `ui/icons/animateicons-lucide/user-round-check/upstream/user-round-check.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-user-round-check.json`
 - Registry: https://animateicons.in/r/lu-user-round-check.json
-- Local source fallback: `ui/icons/animateicons-lucide/user-round-check/src/user-round-check.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/user-round-check/upstream/user-round-check.tsx`

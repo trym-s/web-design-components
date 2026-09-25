@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-arrow-right/src/square-arrow-right.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-arrow-right/upstream/square-arrow-right.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-arrow-right/src/square-arrow-right.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-arrow-right/upstream/square-arrow-right.vue`

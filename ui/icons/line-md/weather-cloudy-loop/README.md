@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/weather-cloudy-loop/src/weather-cloudy-loop.svg`
+- Entry point: `ui/icons/line-md/weather-cloudy-loop/upstream/weather-cloudy-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/weather-cloudy-loop/src/weather-cloudy-loop.svg`
+- Local source: `ui/icons/line-md/weather-cloudy-loop/upstream/weather-cloudy-loop.svg`

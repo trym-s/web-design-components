@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { HideOnScroll } from "./hide-on-scroll";
 
@@ -14,7 +12,7 @@ const article = [
 
 const BOOKMARK = "M184,224l-56-40L72,224V48a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z";
 
-export function HideOnScrollDemo() {
+export default function HideOnScrollDemo() {
   const [saved, setSaved] = useState(false);
 
   return (
@@ -24,7 +22,7 @@ export function HideOnScrollDemo() {
         label="Longitude"
         bar={
           <>
-            <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink">
+            <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-foreground">
               Longitude
             </span>
             <button
@@ -32,8 +30,8 @@ export function HideOnScrollDemo() {
               aria-pressed={saved}
               aria-label={saved ? "Remove bookmark" : "Bookmark"}
               onClick={() => setSaved((v) => !v)}
-              className={`mat-cap press flex size-7 items-center justify-center rounded-[6px] transition-colors duration-150 ${
-                saved ? "text-[#4568FF] dark:text-[#93B0FF]" : "text-ink-2"
+              className={`border border-border bg-card shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px flex size-7 items-center justify-center rounded-[calc(var(--radius)-4px)] ${
+                saved ? "text-primary" : "text-foreground"
               }`}
             >
               <svg width="15" height="15" viewBox="0 0 256 256" aria-hidden>
@@ -52,7 +50,7 @@ export function HideOnScrollDemo() {
       >
         <div className="space-y-3 px-3.5 pb-4 pt-1">
           {article.map((line, i) => (
-            <p key={i} className="text-[13px] leading-relaxed text-ink-2">
+            <p key={i} className="text-[13px] leading-relaxed text-foreground">
               {line}
             </p>
           ))}

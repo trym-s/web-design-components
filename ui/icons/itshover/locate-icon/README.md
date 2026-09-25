@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/locate-icon/src/locate-icon.tsx`
+- Entry point: `ui/icons/itshover/locate-icon/upstream/locate-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/locate-icon.json`
 - Registry: https://itshover.com/r/locate-icon.json
-- Local source fallback: `ui/icons/itshover/locate-icon/src/locate-icon.tsx`
+- Local source fallback: `ui/icons/itshover/locate-icon/upstream/locate-icon.tsx`

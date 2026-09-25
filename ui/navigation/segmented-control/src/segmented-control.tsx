@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   animate,
@@ -118,7 +116,7 @@ export function SegmentedControl({
     <div
       role="radiogroup"
       aria-label={label}
-      className={`relative inline-block select-none rounded-[9px] border border-stone-200 bg-stone-100/70 p-[3px] shadow-[inset_0_1px_2px_rgba(28,25,23,0.07)] dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.45)] ${className}`}
+      className={`relative inline-block select-none rounded-[calc(var(--radius)-1px)] border border-border bg-muted/70 p-[3px] inset-shadow-xs ${className}`}
     >
       <div
         className="relative grid"
@@ -130,10 +128,10 @@ export function SegmentedControl({
             aria-hidden
             className={`${SEG} pointer-events-none ${
               option.disabled
-                ? "text-stone-300 dark:text-stone-600"
+                ? "text-muted-foreground/60"
                 : hovered === i && i !== index
-                  ? "text-stone-700 dark:text-stone-200"
-                  : "text-stone-500 dark:text-stone-400"
+                  ? "text-foreground"
+                  : "text-muted-foreground"
             }`}
           >
             {option.label}
@@ -142,7 +140,7 @@ export function SegmentedControl({
 
         <motion.div
           aria-hidden
-          className="pointer-events-none absolute inset-y-0 left-0 overflow-hidden rounded-[6px] bg-stone-800 shadow-[0_1px_2px_rgba(28,25,23,0.28)] dark:bg-stone-100 dark:shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
+          className="pointer-events-none absolute inset-y-0 left-0 overflow-hidden rounded-[calc(var(--radius)-4px)] bg-primary shadow-sm"
           style={{ width: `${100 / count}%`, x: thumbX }}
           initial={false}
         >
@@ -158,7 +156,7 @@ export function SegmentedControl({
               {options.map((option) => (
                 <span
                   key={option.value}
-                  className={`${SEG} text-stone-50 dark:text-stone-900`}
+                  className={`${SEG} text-primary-foreground`}
                 >
                   {option.label}
                 </span>
@@ -185,7 +183,7 @@ export function SegmentedControl({
               onClick={() => !option.disabled && select(option.value)}
               onKeyDown={(e) => onKeyDown(e, i)}
               onPointerEnter={() => !option.disabled && setHovered(i)}
-              className="cursor-default rounded-[6px] outline-none focus-visible:bg-[#4568FF]/[0.06] focus-visible:shadow-[inset_0_0_0_1px_#4568FF] dark:focus-visible:bg-[#93B0FF]/[0.08] dark:focus-visible:shadow-[inset_0_0_0_1px_#93B0FF]"
+              className="cursor-default rounded-[calc(var(--radius)-4px)] outline-none focus-visible:bg-primary/[0.06] focus-visible:shadow-[inset_0_0_0_1px_var(--primary)]"
             >
               <span className="sr-only">{option.label}</span>
             </button>

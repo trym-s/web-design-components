@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/credit-card/src/credit-card.tsx`
+- Entry point: `ui/icons/animateicons-lucide/credit-card/upstream/credit-card.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-credit-card.json`
 - Registry: https://animateicons.in/r/lu-credit-card.json
-- Local source fallback: `ui/icons/animateicons-lucide/credit-card/src/credit-card.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/credit-card/upstream/credit-card.tsx`

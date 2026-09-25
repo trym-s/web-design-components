@@ -1,0 +1,28 @@
+/* Keyframes and stream styles copied from the Beautiful UI snapshot; colours through tokens. */
+@keyframes selection-actions-pop-in { 0% { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+@keyframes selection-actions-spin { to { transform: rotate(1turn); } }
+@keyframes selection-actions-shimmer { 0% { background-position: 150%; } to { background-position: -50%; } }
+@keyframes selection-actions-caret-blink { 0%, to { opacity: 1; } 50% { opacity: 0; } }
+
+.selection-actions-stream-tail {
+  filter: blur(1.6px);
+  -webkit-mask-image: linear-gradient(90deg, oklch(0 0 0) 20%, oklch(0 0 0 / 0.2));
+  mask-image: linear-gradient(90deg, oklch(0 0 0) 20%, oklch(0 0 0 / 0.2));
+}
+.selection-actions-stream-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 1.5px;
+  border-radius: 1px;
+  background: var(--foreground);
+  vertical-align: text-bottom;
+  translate: 0 -0.5px;
+  animation: selection-actions-caret-blink 1s step-end infinite;
+}
+.selection-actions-stream-caret.is-streaming { animation: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .selection-actions-stream-caret { animation: none; }
+  .selection-actions-stream-tail { filter: none; -webkit-mask-image: none; mask-image: none; }
+}

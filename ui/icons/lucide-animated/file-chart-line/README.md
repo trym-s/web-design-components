@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/file-chart-line/src/file-chart-line.tsx`
+- Entry point: `ui/icons/lucide-animated/file-chart-line/upstream/file-chart-line.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/file-chart-line.json`
 - Registry: https://lucide-animated.com/r/file-chart-line.json
-- Local source fallback: `ui/icons/lucide-animated/file-chart-line/src/file-chart-line.tsx`
+- Local source fallback: `ui/icons/lucide-animated/file-chart-line/upstream/file-chart-line.tsx`

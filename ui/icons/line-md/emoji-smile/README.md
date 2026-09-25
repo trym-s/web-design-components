@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-smile/src/emoji-smile.svg`
+- Entry point: `ui/icons/line-md/emoji-smile/upstream/emoji-smile.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-smile/src/emoji-smile.svg`
+- Local source: `ui/icons/line-md/emoji-smile/upstream/emoji-smile.svg`

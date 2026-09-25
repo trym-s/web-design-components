@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/camera-off-icon/src/camera-off-icon.tsx`
+- Entry point: `ui/icons/itshover/camera-off-icon/upstream/camera-off-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/camera-off-icon.json`
 - Registry: https://itshover.com/r/camera-off-icon.json
-- Local source fallback: `ui/icons/itshover/camera-off-icon/src/camera-off-icon.tsx`
+- Local source fallback: `ui/icons/itshover/camera-off-icon/upstream/camera-off-icon.tsx`

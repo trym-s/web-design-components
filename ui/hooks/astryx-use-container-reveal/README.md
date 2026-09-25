@@ -7,7 +7,7 @@ A headless hover/focus reveal primitive. Gives a container a scoped trigger that
 - Category: `hooks` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/useContainerReveal.ts`
+- Entry point: `upstream/useContainerReveal.ts`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A headless hover/focus reveal primitive. Gives a container a scoped trigger that
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -34,7 +34,7 @@ A headless hover/focus reveal primitive. Gives a container a scoped trigger that
 
 ## Examples
 
-- `src/examples/useContainerRevealHookUsage.tsx` — useContainerReveal — Reveal-on-hover Row Actions: File rows keep their edit/delete actions hidden at rest and reveal them on hover or keyboard focus via useContainerReveal; the actions stay mounted and in the tab order. · static: `static/useContainerRevealHookUsage.html`
+- `upstream/examples/useContainerRevealHookUsage.tsx` — useContainerReveal — Reveal-on-hover Row Actions: File rows keep their edit/delete actions hidden at rest and reveal them on hover or keyboard focus via useContainerReveal; the actions stay mounted and in the tab order. · static: `static/useContainerRevealHookUsage.html`
 
 ## Documentation
 
@@ -84,9 +84,9 @@ A headless hover/focus reveal primitive. Gives a container a scoped trigger that
 
 ## Files
 
-- `src/useContainerReveal.doc.mjs`
-- `src/useContainerReveal.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/useContainerReveal.doc.mjs`
+- `upstream/useContainerReveal.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/useContainerReveal

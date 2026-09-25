@@ -1,0 +1,95 @@
+/**
+ * Vendored from @audio-ui/react 0.1.2 — https://github.com/ouestlabs/audio-ui/blob/aeba2d5efaa0ffbc21e334bac0817cc3060289ef/packages/ui/src/hooks/interactions/use-keyboard-navigation.ts
+ * MIT License, Copyright (c) 2025 Ouest Labs (full text: ./LICENSE).
+ * Changes: `@audio-ui/utils` imports point at ./utils.
+ */
+import type { Optional, Procedure } from "../../utils";
+import * as React from "react";
+import { useCallbackRef } from "../use-callback-ref";
+
+export type KeyboardNavigationHandler = (
+  e: React.KeyboardEvent
+) => Optional<boolean>;
+
+export interface UseKeyboardNavigationOptions {
+  disabled?: boolean;
+  handlers?: {
+    onArrowUp?: KeyboardNavigationHandler;
+    onArrowDown?: KeyboardNavigationHandler;
+    onArrowLeft?: KeyboardNavigationHandler;
+    onArrowRight?: KeyboardNavigationHandler;
+    onHome?: KeyboardNavigationHandler;
+    onEnd?: KeyboardNavigationHandler;
+    onPageUp?: KeyboardNavigationHandler;
+    onPageDown?: KeyboardNavigationHandler;
+    onEnter?: KeyboardNavigationHandler;
+    onEscape?: KeyboardNavigationHandler;
+  };
+  onKeyDown?: Procedure<React.KeyboardEvent>;
+}
+
+export interface UseKeyboardNavigationReturn {
+  keyboardProps: {
+    onKeyDown: Procedure<React.KeyboardEvent>;
+  };
+}
+
+export function useKeyboardNavigation({
+  disabled = false,
+  handlers,
+  onKeyDown: externalOnKeyDown,
+}: UseKeyboardNavigationOptions): UseKeyboardNavigationReturn {
+  const handlersRef = React.useRef(handlers);
+  React.useEffect(() => {
+    handlersRef.current = handlers;
+  }, [handlers]);
+
+  const externalOnKeyDownRef = useCallbackRef(externalOnKeyDown);
+
+  const handleKeyDown = React.useCallback(
+    (e: React.KeyboardEvent) => {
+      if (disabled || !handlersRef.current) {
+        return;
+      }
+
+      const h = handlersRef.current;
+      const keyHandlerMap: Record<
+        string,
+        KeyboardNavigationHandler | undefined
+      > = {
+        ArrowDown: h.onArrowDown,
+        ArrowLeft: h.onArrowLeft,
+        ArrowRight: h.onArrowRight,
+        ArrowUp: h.onArrowUp,
+        End: h.onEnd,
+        Enter: h.onEnter,
+        Escape: h.onEscape,
+        Home: h.onHome,
+        PageDown: h.onPageDown,
+        PageUp: h.onPageUp,
+      };
+
+      const handler = keyHandlerMap[e.key];
+      const handled = handler?.(e) ?? false;
+
+      if (handled) {
+        e.preventDefault();
+      }
+    },
+    [disabled]
+  );
+
+  const keyboardProps = React.useMemo(
+    () => ({
+      onKeyDown: (e: React.KeyboardEvent) => {
+        externalOnKeyDownRef?.(e);
+        handleKeyDown(e);
+      },
+    }),
+    [externalOnKeyDownRef, handleKeyDown]
+  );
+
+  return {
+    keyboardProps,
+  };
+}

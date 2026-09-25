@@ -1,5 +1,4 @@
-"use client";
-
+import { useEffect, useRef } from "react";
 import { Tooltip, TooltipGroup } from "./tooltip-group";
 
 const TOOLS = [
@@ -10,10 +9,17 @@ const TOOLS = [
   { id: "link", glyph: "↗", label: "Insert link", hint: "⌘K" },
 ] as const;
 
-export function TooltipGroupDemo() {
+export default function TooltipGroupDemo() {
+  const bar = useRef<HTMLDivElement>(null);
+
+  // Keyboard-focus the second tool once so a tooltip is showing without a hover.
+  useEffect(() => {
+    bar.current?.querySelectorAll("button")[1]?.focus();
+  }, []);
+
   return (
-    <div className="grid w-full place-items-center">
-      <div className="flex items-center">
+    <div className="grid w-full place-items-center pt-10">
+      <div ref={bar} className="flex items-center">
         <TooltipGroup className="flex items-center gap-1">
           {TOOLS.map((tool) => (
             <Tooltip
@@ -30,7 +36,7 @@ export function TooltipGroupDemo() {
             >
               <button
                 type="button"
-                className="mat-cap press flex h-9 w-10 items-center justify-center rounded-[7px] font-mono text-[12.5px] text-ink-2 hover:text-ink"
+                className="border border-border bg-card shadow-xs transition-[transform,background-color] duration-150 hover:bg-accent active:translate-y-px flex h-9 w-10 items-center justify-center rounded-[calc(var(--radius)-3px)] font-mono text-[12.5px] text-foreground"
               >
                 {tool.glyph}
               </button>

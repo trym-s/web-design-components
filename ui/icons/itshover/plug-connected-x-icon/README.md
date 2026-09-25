@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/plug-connected-x-icon/src/plug-connected-x-icon.tsx`
+- Entry point: `ui/icons/itshover/plug-connected-x-icon/upstream/plug-connected-x-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/plug-connected-x-icon.json`
 - Registry: https://itshover.com/r/plug-connected-x-icon.json
-- Local source fallback: `ui/icons/itshover/plug-connected-x-icon/src/plug-connected-x-icon.tsx`
+- Local source fallback: `ui/icons/itshover/plug-connected-x-icon/upstream/plug-connected-x-icon.tsx`

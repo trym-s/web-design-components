@@ -1,0 +1,13 @@
+/* Keyframes copied verbatim from the Beautiful UI snapshot. */
+@keyframes pixel-on {
+  0%, to { opacity: 0.15; }
+  18%, 42% { opacity: 1; }
+  62% { opacity: 0.15; }
+}
+@keyframes shimmer-text {
+  0% { background-position: 150%; }
+  to { background-position: -50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .work-loader-cell { animation: none !important; }
+}

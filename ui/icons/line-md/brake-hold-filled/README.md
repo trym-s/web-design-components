@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/brake-hold-filled/src/brake-hold-filled.svg`
+- Entry point: `ui/icons/line-md/brake-hold-filled/upstream/brake-hold-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/brake-hold-filled/src/brake-hold-filled.svg`
+- Local source: `ui/icons/line-md/brake-hold-filled/upstream/brake-hold-filled.svg`

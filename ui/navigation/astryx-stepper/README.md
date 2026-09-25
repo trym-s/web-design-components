@@ -7,7 +7,7 @@ Steppers display progress through a sequence of logical and numbered steps. Use 
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Stepper.tsx`
+- Entry point: `upstream/Stepper.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Steppers display progress through a sequence of logical and numbered steps. Use 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ Steppers display progress through a sequence of logical and numbered steps. Use 
 
 ## Examples
 
-- `src/examples/StepperShowcase.tsx` — Stepper — Checkout Progress: The default stepper: a horizontal track where every step owns an equal segment of the progress bar above its label. The default auto indicator resolves itself per step: a check once the step is done, a ring on the current step, a number for the ones still ahead. Click any step to jump. · static: `static/StepperShowcase.html`
-- `src/examples/StepperCustomContent.tsx` — Stepper — Custom Content: A vertical stepper where each step owns a slice of the page. The content slot takes any node (form fields, a summary panel, a banner), so a stepper is not limited to multi-step forms. Rendering the slot only for the active step is what makes the flow expand one step at a time. · static: `static/StepperCustomContent.html`
-- `src/examples/StepperIndicatorModes.tsx` — Stepper — Indicator Modes: The indicator prop side by side: none (the bar and label carry the progress on their own), auto (check when done, ring when current, number ahead), always-number, and a custom icon per step. · static: `static/StepperIndicatorModes.html`
-- `src/examples/StepperOnTrackHorizontal.tsx` — Stepper — On-Track Horizontal: The on-track layout in horizontal orientation: instead of sitting beside the label, each indicator is slotted into the connector itself, so the numbered nodes read as beads on one continuous line. Labels center under their node. · static: `static/StepperOnTrackHorizontal.html`
-- `src/examples/StepperOnTrackVertical.tsx` — Stepper — On-Track Vertical: The on-track layout in vertical orientation: indicators sit inline on a continuous connector rail, with each label and description beside its node. Compare with the separated layout, where the indicator sits alongside its own bar segment instead of on a shared rail. · static: `static/StepperOnTrackVertical.html`
-- `src/examples/StepperStatus.tsx` — Stepper — Validation Status: Semantic status per step in a verification flow: success shows a green check, error a red glyph, accent the in-progress step. Status sets the indicator color and glyph only, never the connector, and is announced to assistive tech as text. · static: `static/StepperStatus.html`
-- `src/examples/StepperWidthResponsiveCollapse.tsx` — Stepper — Horizontal Narrow Collapsed: A narrow horizontal stepper using horizontalOptions. At 320px wide, four steps fall below the 112px minimumStepWidth and collapse into a current-step summary with Previous and Next controls. · static: `static/StepperWidthResponsiveCollapse.html`
+- `upstream/examples/StepperShowcase.tsx` — Stepper — Checkout Progress: The default stepper: a horizontal track where every step owns an equal segment of the progress bar above its label. The default auto indicator resolves itself per step: a check once the step is done, a ring on the current step, a number for the ones still ahead. Click any step to jump. · static: `static/StepperShowcase.html`
+- `upstream/examples/StepperCustomContent.tsx` — Stepper — Custom Content: A vertical stepper where each step owns a slice of the page. The content slot takes any node (form fields, a summary panel, a banner), so a stepper is not limited to multi-step forms. Rendering the slot only for the active step is what makes the flow expand one step at a time. · static: `static/StepperCustomContent.html`
+- `upstream/examples/StepperIndicatorModes.tsx` — Stepper — Indicator Modes: The indicator prop side by side: none (the bar and label carry the progress on their own), auto (check when done, ring when current, number ahead), always-number, and a custom icon per step. · static: `static/StepperIndicatorModes.html`
+- `upstream/examples/StepperOnTrackHorizontal.tsx` — Stepper — On-Track Horizontal: The on-track layout in horizontal orientation: instead of sitting beside the label, each indicator is slotted into the connector itself, so the numbered nodes read as beads on one continuous line. Labels center under their node. · static: `static/StepperOnTrackHorizontal.html`
+- `upstream/examples/StepperOnTrackVertical.tsx` — Stepper — On-Track Vertical: The on-track layout in vertical orientation: indicators sit inline on a continuous connector rail, with each label and description beside its node. Compare with the separated layout, where the indicator sits alongside its own bar segment instead of on a shared rail. · static: `static/StepperOnTrackVertical.html`
+- `upstream/examples/StepperStatus.tsx` — Stepper — Validation Status: Semantic status per step in a verification flow: success shows a green check, error a red glyph, accent the in-progress step. Status sets the indicator color and glyph only, never the connector, and is announced to assistive tech as text. · static: `static/StepperStatus.html`
+- `upstream/examples/StepperWidthResponsiveCollapse.tsx` — Stepper — Horizontal Narrow Collapsed: A narrow horizontal stepper using horizontalOptions. At 320px wide, four steps fall below the 112px minimumStepWidth and collapse into a current-step summary with Previous and Next controls. · static: `static/StepperWidthResponsiveCollapse.html`
 
 ## Documentation
 
@@ -102,11 +102,11 @@ Styling hook class: `.astryx-stepper`, `.astryx-stepper-frame`, `.astryx-stepper
 
 ## Files
 
-- `src/Stepper.doc.mjs`
-- `src/Stepper.spec.md`
-- `src/Stepper.tsx`
-- `src/StepperContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Stepper.doc.mjs`
+- `upstream/Stepper.spec.md`
+- `upstream/Stepper.tsx`
+- `upstream/StepperContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Stepper

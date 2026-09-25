@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/chamaac-icons/volume-icon/src/volume-icon.tsx`
+- Entry point: `ui/icons/chamaac-icons/volume-icon/upstream/volume-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/volume-icon.json`
 - Registry: https://www.chamaac.com/r/volume-icon.json
-- Local source fallback: `ui/icons/chamaac-icons/volume-icon/src/volume-icon.tsx`
+- Local source fallback: `ui/icons/chamaac-icons/volume-icon/upstream/volume-icon.tsx`

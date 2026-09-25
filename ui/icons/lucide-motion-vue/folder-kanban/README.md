@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/folder-kanban/src/folder-kanban.vue`
+- Entry point: `ui/icons/lucide-motion-vue/folder-kanban/upstream/folder-kanban.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/folder-kanban/src/folder-kanban.vue`
+- Local source: `ui/icons/lucide-motion-vue/folder-kanban/upstream/folder-kanban.vue`

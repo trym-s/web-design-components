@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/dots-horizontal-icon/src/dots-horizontal-icon.tsx`
+- Entry point: `ui/icons/itshover/dots-horizontal-icon/upstream/dots-horizontal-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/dots-horizontal-icon.json`
 - Registry: https://itshover.com/r/dots-horizontal-icon.json
-- Local source fallback: `ui/icons/itshover/dots-horizontal-icon/src/dots-horizontal-icon.tsx`
+- Local source fallback: `ui/icons/itshover/dots-horizontal-icon/upstream/dots-horizontal-icon.tsx`

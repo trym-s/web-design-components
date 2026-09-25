@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chevron-up-square/src/chevron-up-square.svg`
+- Entry point: `ui/icons/line-md/chevron-up-square/upstream/chevron-up-square.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chevron-up-square/src/chevron-up-square.svg`
+- Local source: `ui/icons/line-md/chevron-up-square/upstream/chevron-up-square.svg`

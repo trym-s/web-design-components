@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/file-check-corner/src/file-check-corner.svelte`
+- Entry point: `ui/icons/movingicons/file-check-corner/upstream/file-check-corner.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/file-check-corner`
 - Registry: https://movingicons.dev/r/file-check-corner
-- Local source fallback: `ui/icons/movingicons/file-check-corner/src/file-check-corner.svelte`
+- Local source fallback: `ui/icons/movingicons/file-check-corner/upstream/file-check-corner.svelte`

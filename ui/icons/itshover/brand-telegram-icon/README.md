@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-telegram-icon/src/brand-telegram-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-telegram-icon/upstream/brand-telegram-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-telegram-icon.json`
 - Registry: https://itshover.com/r/brand-telegram-icon.json
-- Local source fallback: `ui/icons/itshover/brand-telegram-icon/src/brand-telegram-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-telegram-icon/upstream/brand-telegram-icon.tsx`

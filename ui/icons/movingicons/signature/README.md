@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/signature/src/signature.svelte`
+- Entry point: `ui/icons/movingicons/signature/upstream/signature.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/signature`
 - Registry: https://movingicons.dev/r/signature
-- Local source fallback: `ui/icons/movingicons/signature/src/signature.svelte`
+- Local source fallback: `ui/icons/movingicons/signature/upstream/signature.svelte`

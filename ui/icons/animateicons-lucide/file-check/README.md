@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/file-check/src/file-check.tsx`
+- Entry point: `ui/icons/animateicons-lucide/file-check/upstream/file-check.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-file-check.json`
 - Registry: https://animateicons.in/r/lu-file-check.json
-- Local source fallback: `ui/icons/animateicons-lucide/file-check/src/file-check.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/file-check/upstream/file-check.tsx`

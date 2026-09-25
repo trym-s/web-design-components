@@ -48,3 +48,14 @@ author when the effect ships.
 - `media/` retains the five arcade/emboss textures, the holo-card photograph, all three hover-video
   encodings, and the ransom-note manifest plus all 294 sprite images. Runtime paths point here;
   previews do not depend on the upstream site or R2 bucket.
+
+## Token mapping for `src/`
+
+The vault pages style their chrome with site variables; a copy-paste `src/` (AGENTS.md, Entry layout, rule 2)
+maps them to shadcn tokens: `--bg-page` → `background`, `--bg-surface` → `card`, `--bg-hover` → `accent`,
+`--border-line` → `border`, `--border-ring` → `ring`, `--text-primary` / `--text-body` → `foreground`,
+`--text-secondary` / `--text-tertiary` → `muted-foreground`, `--font-neue-corp` → `font-sans`,
+`--font-mondwest` → `font-mono`, `--ease-out` / `--ease-expo` → their cubic-bézier values inline.
+Effect colours (shader palettes, material stops, glow hues) have no shadcn meaning: each component declares
+them as its own `--<component>-*` variables on its root with the upstream values (converted to oklch) and
+reads them into canvas / WebGL through `getComputedStyle`.

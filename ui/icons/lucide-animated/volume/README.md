@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/volume/src/volume.tsx`
+- Entry point: `ui/icons/lucide-animated/volume/upstream/volume.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/volume.json`
 - Registry: https://lucide-animated.com/r/volume.json
-- Local source fallback: `ui/icons/lucide-animated/volume/src/volume.tsx`
+- Local source fallback: `ui/icons/lucide-animated/volume/upstream/volume.tsx`

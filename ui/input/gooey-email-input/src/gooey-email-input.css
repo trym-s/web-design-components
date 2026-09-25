@@ -1,0 +1,25 @@
+/* Cross-blur pulse on the submit arrow while the liquid morphs: blur in, sharpen out, one pass per
+   open/close. Longhand properties on purpose — WebKit mis-parses var() inside the `animation` shorthand. */
+@keyframes gooey-eb-cross {
+  0% {
+    filter: blur(0);
+  }
+  35% {
+    filter: blur(var(--eb-blur, 2px));
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
+.gooey-eb-pulsing .gooey-eb-arrow {
+  animation-name: gooey-eb-cross;
+  animation-duration: var(--eb-dur, 360ms);
+  animation-timing-function: ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gooey-eb-pulsing .gooey-eb-arrow {
+    animation: none !important;
+  }
+}

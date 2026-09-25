@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/menu-to-close-transition/src/menu-to-close-transition.svg`
+- Entry point: `ui/icons/line-md/menu-to-close-transition/upstream/menu-to-close-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/menu-to-close-transition/src/menu-to-close-transition.svg`
+- Local source: `ui/icons/line-md/menu-to-close-transition/upstream/menu-to-close-transition.svg`

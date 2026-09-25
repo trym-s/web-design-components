@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-left-square-twotone/src/arrow-left-square-twotone.svg`
+- Entry point: `ui/icons/line-md/arrow-left-square-twotone/upstream/arrow-left-square-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-left-square-twotone/src/arrow-left-square-twotone.svg`
+- Local source: `ui/icons/line-md/arrow-left-square-twotone/upstream/arrow-left-square-twotone.svg`

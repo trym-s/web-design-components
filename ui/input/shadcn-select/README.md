@@ -7,7 +7,7 @@ Displays a list of options for the user to pick from—triggered by a button.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/select.tsx`
+- Entry point: `upstream/ui/select.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a list of options for the user to pick from—triggered by a button.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a list of options for the user to pick from—triggered by a button.
 
 ## Documentation
 
-> Example `select-demo` — `src/examples/select-demo.tsx`, `static/select-demo.html`
+> Example `select-demo` — `upstream/examples/select-demo.tsx`, `static/select-demo.html`
 
 ## Installation
 
@@ -102,23 +102,23 @@ Select
 
 Use the `position` prop on `SelectContent` to control alignment. When `position="item-aligned"` (default), the popup positions so the selected item appears over the trigger. When `position="popper"`, the popup aligns to the trigger edge.
 
-> Example `select-align-item` — `src/examples/select-align-item.tsx`, `static/select-align-item.html`
+> Example `select-align-item` — `upstream/examples/select-align-item.tsx`, `static/select-align-item.html`
 
 ## Groups
 
 Use `SelectGroup`, `SelectLabel`, and `SelectSeparator` to organize items.
 
-> Example `select-groups` — `src/examples/select-groups.tsx`, `static/select-groups.html`
+> Example `select-groups` — `upstream/examples/select-groups.tsx`, `static/select-groups.html`
 
 ## Scrollable
 
 A select with many items that scrolls.
 
-> Example `select-scrollable` — `src/examples/select-scrollable.tsx`, `static/select-scrollable.html`
+> Example `select-scrollable` — `upstream/examples/select-scrollable.tsx`, `static/select-scrollable.html`
 
 ## Disabled
 
-> Example `select-disabled` — `src/examples/select-disabled.tsx`, `static/select-disabled.html`
+> Example `select-disabled` — `upstream/examples/select-disabled.tsx`, `static/select-disabled.html`
 
 ## Invalid
 
@@ -133,13 +133,13 @@ Add the `data-invalid` attribute to the `Field` component and the `aria-invalid`
 </Field>
 ```
 
-> Example `select-invalid` — `src/examples/select-invalid.tsx`, `static/select-invalid.html`
+> Example `select-invalid` — `upstream/examples/select-invalid.tsx`, `static/select-invalid.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `select-rtl` — `src/examples/select-rtl.tsx`, `static/select-rtl.html`
+> Example `select-rtl` — `upstream/examples/select-rtl.tsx`, `static/select-rtl.html`
 
 ## API Reference
 
@@ -147,14 +147,14 @@ See the [Radix UI Select](https://www.radix-ui.com/docs/primitives/components/se
 
 ## Files
 
-- `src/ui/select.tsx` — the ui file as the registry installs it
-- `src/examples/select-demo.tsx`
-- `src/examples/select-align-item.tsx`
-- `src/examples/select-groups.tsx`
-- `src/examples/select-scrollable.tsx`
-- `src/examples/select-disabled.tsx`
-- `src/examples/select-invalid.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/select.tsx` — the ui file as the registry installs it
+- `upstream/examples/select-demo.tsx`
+- `upstream/examples/select-align-item.tsx`
+- `upstream/examples/select-groups.tsx`
+- `upstream/examples/select-scrollable.tsx`
+- `upstream/examples/select-disabled.tsx`
+- `upstream/examples/select-invalid.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/select

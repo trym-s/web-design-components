@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/reddit-circle/src/reddit-circle.svg`
+- Entry point: `ui/icons/line-md/reddit-circle/upstream/reddit-circle.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/reddit-circle/src/reddit-circle.svg`
+- Local source: `ui/icons/line-md/reddit-circle/upstream/reddit-circle.svg`

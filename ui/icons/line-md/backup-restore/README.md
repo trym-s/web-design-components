@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/backup-restore/src/backup-restore.svg`
+- Entry point: `ui/icons/line-md/backup-restore/upstream/backup-restore.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/backup-restore/src/backup-restore.svg`
+- Local source: `ui/icons/line-md/backup-restore/upstream/backup-restore.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/concierge-bell/src/concierge-bell.tsx`
+- Entry point: `ui/icons/lucide-animated/concierge-bell/upstream/concierge-bell.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/concierge-bell.json`
 - Registry: https://lucide-animated.com/r/concierge-bell.json
-- Local source fallback: `ui/icons/lucide-animated/concierge-bell/src/concierge-bell.tsx`
+- Local source fallback: `ui/icons/lucide-animated/concierge-bell/upstream/concierge-bell.tsx`

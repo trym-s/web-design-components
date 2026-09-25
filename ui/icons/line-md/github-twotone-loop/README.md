@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/github-twotone-loop/src/github-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/github-twotone-loop/upstream/github-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/github-twotone-loop/src/github-twotone-loop.svg`
+- Local source: `ui/icons/line-md/github-twotone-loop/upstream/github-twotone-loop.svg`

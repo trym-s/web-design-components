@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/adjustments-horizontal/src/adjustments-horizontal.tsx`
+- Entry point: `ui/icons/heroicons-animated/adjustments-horizontal/upstream/adjustments-horizontal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/adjustments-horizontal`
 - Registry: https://www.heroicons-animated.com/r/adjustments-horizontal.json
-- Local source fallback: `ui/icons/heroicons-animated/adjustments-horizontal/src/adjustments-horizontal.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/adjustments-horizontal/upstream/adjustments-horizontal.tsx`

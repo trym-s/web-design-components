@@ -7,7 +7,7 @@ A popup that displays information related to an element when the element receive
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/tooltip.tsx`
+- Entry point: `upstream/ui/tooltip.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A popup that displays information related to an element when the element receive
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A popup that displays information related to an element when the element receive
 
 ## Documentation
 
-> Example `tooltip-demo` — `src/examples/tooltip-demo.tsx`, `static/tooltip-demo.html`
+> Example `tooltip-demo` — `upstream/examples/tooltip-demo.tsx`, `static/tooltip-demo.html`
 
 ## Installation
 
@@ -117,23 +117,23 @@ Tooltip
 
 Use the `side` prop to change the position of the tooltip.
 
-> Example `tooltip-sides` — `src/examples/tooltip-sides.tsx`, `static/tooltip-sides.html`
+> Example `tooltip-sides` — `upstream/examples/tooltip-sides.tsx`, `static/tooltip-sides.html`
 
 ## With Keyboard Shortcut
 
-> Example `tooltip-keyboard` — `src/examples/tooltip-keyboard.tsx`, `static/tooltip-keyboard.html`
+> Example `tooltip-keyboard` — `upstream/examples/tooltip-keyboard.tsx`, `static/tooltip-keyboard.html`
 
 ## Disabled Button
 
 Show a tooltip on a disabled button by wrapping it with a span.
 
-> Example `tooltip-disabled` — `src/examples/tooltip-disabled.tsx`, `static/tooltip-disabled.html`
+> Example `tooltip-disabled` — `upstream/examples/tooltip-disabled.tsx`, `static/tooltip-disabled.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `tooltip-rtl` — `src/examples/tooltip-rtl.tsx`, `static/tooltip-rtl.html`
+> Example `tooltip-rtl` — `upstream/examples/tooltip-rtl.tsx`, `static/tooltip-rtl.html`
 
 ## API Reference
 
@@ -141,12 +141,12 @@ See the [Radix Tooltip](https://www.radix-ui.com/docs/primitives/components/tool
 
 ## Files
 
-- `src/ui/tooltip.tsx` — the ui file as the registry installs it
-- `src/examples/tooltip-demo.tsx`
-- `src/examples/tooltip-sides.tsx`
-- `src/examples/tooltip-keyboard.tsx`
-- `src/examples/tooltip-disabled.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/tooltip.tsx` — the ui file as the registry installs it
+- `upstream/examples/tooltip-demo.tsx`
+- `upstream/examples/tooltip-sides.tsx`
+- `upstream/examples/tooltip-keyboard.tsx`
+- `upstream/examples/tooltip-disabled.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/tooltip

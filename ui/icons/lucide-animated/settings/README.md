@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/settings/src/settings.tsx`
+- Entry point: `ui/icons/lucide-animated/settings/upstream/settings.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/settings.json`
 - Registry: https://lucide-animated.com/r/settings.json
-- Local source fallback: `ui/icons/lucide-animated/settings/src/settings.tsx`
+- Local source fallback: `ui/icons/lucide-animated/settings/upstream/settings.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/power-off/src/power-off.svelte`
+- Entry point: `ui/icons/movingicons/power-off/upstream/power-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/power-off`
 - Registry: https://movingicons.dev/r/power-off
-- Local source fallback: `ui/icons/movingicons/power-off/src/power-off.svelte`
+- Local source fallback: `ui/icons/movingicons/power-off/upstream/power-off.svelte`

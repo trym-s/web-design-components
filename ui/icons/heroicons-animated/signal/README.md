@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/signal/src/signal.tsx`
+- Entry point: `ui/icons/heroicons-animated/signal/upstream/signal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/signal`
 - Registry: https://www.heroicons-animated.com/r/signal.json
-- Local source fallback: `ui/icons/heroicons-animated/signal/src/signal.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/signal/upstream/signal.tsx`

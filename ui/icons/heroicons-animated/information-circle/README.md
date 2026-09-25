@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/information-circle/src/information-circle.tsx`
+- Entry point: `ui/icons/heroicons-animated/information-circle/upstream/information-circle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/information-circle`
 - Registry: https://www.heroicons-animated.com/r/information-circle.json
-- Local source fallback: `ui/icons/heroicons-animated/information-circle/src/information-circle.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/information-circle/upstream/information-circle.tsx`

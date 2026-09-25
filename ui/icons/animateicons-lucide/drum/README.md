@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/drum/src/drum.tsx`
+- Entry point: `ui/icons/animateicons-lucide/drum/upstream/drum.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-drum.json`
 - Registry: https://animateicons.in/r/lu-drum.json
-- Local source fallback: `ui/icons/animateicons-lucide/drum/src/drum.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/drum/upstream/drum.tsx`

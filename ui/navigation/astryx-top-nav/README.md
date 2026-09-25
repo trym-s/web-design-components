@@ -7,7 +7,7 @@ TopNav is a horizontal navigation bar for product-level navigation in applicatio
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TopNav.tsx`
+- Entry point: `upstream/TopNav.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ TopNav is a horizontal navigation bar for product-level navigation in applicatio
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,25 +33,25 @@ TopNav is a horizontal navigation bar for product-level navigation in applicatio
 
 ## Examples
 
-- `src/examples/TopNavHeadingShowcase.tsx` — Top Nav Heading: Demonstrates TopNavHeading with a logo and text, both as a plain display and as a clickable link. · static: `static/TopNavHeadingShowcase.html`
-- `src/examples/TopNavItemShowcase.tsx` — Top Nav Item: Demonstrates TopNavItem with selected, icon, disabled, and default states. · static: `static/TopNavItemShowcase.html`
-- `src/examples/TopNavMegaMenuFeaturedCardShowcase.tsx` — Top Nav Mega Menu Featured Card: Demonstrates TopNavMegaMenuFeaturedCard with a title, description, and CTA link inside a mega menu. · static: `static/TopNavMegaMenuFeaturedCardShowcase.html`
-- `src/examples/TopNavMegaMenuItemShowcase.tsx` — Top Nav Mega Menu Item: Demonstrates TopNavMegaMenuItem with icons, titles, and descriptions inside a mega menu. · static: `static/TopNavMegaMenuItemShowcase.html`
-- `src/examples/TopNavMegaMenuShowcase.tsx` — Top Nav Mega Menu: Demonstrates TopNavMegaMenu with items and a featured card in the mega menu panel. · static: `static/TopNavMegaMenuShowcase.html`
-- `src/examples/TopNavMenuShowcase.tsx` — Top Nav Menu: Demonstrates TopNavMenu with a hover-triggered dropdown containing items with icons and descriptions. · static: `static/TopNavMenuShowcase.html`
-- `src/examples/TopNavShowcase.tsx` — Top Nav · static: `static/TopNavShowcase.html`
-- `src/examples/TopNavCenteredNavigation.tsx` — TopNav — Centered Navigation: Navigation layout with center-aligned nav items flanked by a logo heading and end actions. · static: `static/TopNavCenteredNavigation.html`
-- `src/examples/TopNavEnterpriseDashboard.tsx` — TopNav — Enterprise Dashboard: Full-featured navigation bar with icon-labeled nav items, search, notifications, and a primary CTA. · static: `static/TopNavEnterpriseDashboard.html`
-- `src/examples/TopNavHeadingBasic.tsx` — TopNavHeading — Basic: A product heading with a logo inside a TopNav, linked to the home page. Use as the leading brand element of a top navigation bar. · static: `static/TopNavHeadingBasic.html`
-- `src/examples/TopNavHoverMenu.tsx` — TopNav — Hover Menu: Navigation bar with a hover-triggered dropdown menu showing product items with icons and descriptions. · static: `static/TopNavHoverMenu.html`
-- `src/examples/TopNavItemBasic.tsx` — TopNavItem — Basic: Navigation links inside a TopNav with one item marked as selected. Use for top-level pages of an application. · static: `static/TopNavItemBasic.html`
-- `src/examples/TopNavMegaMenu.tsx` — TopNav — Mega Menu: Marketing-style navigation with a full-width mega menu featuring product items and a promotional featured card. · static: `static/TopNavMegaMenu.html`
-- `src/examples/TopNavMegaMenuBasic.tsx` — TopNavMegaMenu — Basic: A mega menu trigger inside a TopNav that opens a panel of rich link items. Use when a navigation section has multiple destinations worth describing. · static: `static/TopNavMegaMenuBasic.html`
-- `src/examples/TopNavMegaMenuFeaturedCardBasic.tsx` — TopNavMegaMenuFeaturedCard — Basic: A promotional card with a title, description, and call-to-action link. Pass it to the featured slot of a TopNavMegaMenu to highlight announcements. · static: `static/TopNavMegaMenuFeaturedCardBasic.html`
-- `src/examples/TopNavMegaMenuItemBasic.tsx` — TopNavMegaMenuItem — Basic: Rich link items with an icon, title, and description. Use inside the items slot of a TopNavMegaMenu to describe each destination. · static: `static/TopNavMegaMenuItemBasic.html`
-- `src/examples/TopNavMenuBasic.tsx` — TopNavMenu — Basic: A dropdown menu inside a TopNav built from an items array with icons and descriptions. Use to group related destinations under a single trigger. · static: `static/TopNavMenuBasic.html`
-- `src/examples/TopNavMultipleDropdowns.tsx` — TopNav — Multiple Dropdowns: Navigation bar with multiple hover-triggered dropdown menus that auto-close when switching between them. · static: `static/TopNavMultipleDropdowns.html`
-- `src/examples/TopNavWithLogo.tsx` — TopNav — With Logo: Navigation bar with a branded logo icon, heading link, nav items, and a profile action. · static: `static/TopNavWithLogo.html`
+- `upstream/examples/TopNavHeadingShowcase.tsx` — Top Nav Heading: Demonstrates TopNavHeading with a logo and text, both as a plain display and as a clickable link. · static: `static/TopNavHeadingShowcase.html`
+- `upstream/examples/TopNavItemShowcase.tsx` — Top Nav Item: Demonstrates TopNavItem with selected, icon, disabled, and default states. · static: `static/TopNavItemShowcase.html`
+- `upstream/examples/TopNavMegaMenuFeaturedCardShowcase.tsx` — Top Nav Mega Menu Featured Card: Demonstrates TopNavMegaMenuFeaturedCard with a title, description, and CTA link inside a mega menu. · static: `static/TopNavMegaMenuFeaturedCardShowcase.html`
+- `upstream/examples/TopNavMegaMenuItemShowcase.tsx` — Top Nav Mega Menu Item: Demonstrates TopNavMegaMenuItem with icons, titles, and descriptions inside a mega menu. · static: `static/TopNavMegaMenuItemShowcase.html`
+- `upstream/examples/TopNavMegaMenuShowcase.tsx` — Top Nav Mega Menu: Demonstrates TopNavMegaMenu with items and a featured card in the mega menu panel. · static: `static/TopNavMegaMenuShowcase.html`
+- `upstream/examples/TopNavMenuShowcase.tsx` — Top Nav Menu: Demonstrates TopNavMenu with a hover-triggered dropdown containing items with icons and descriptions. · static: `static/TopNavMenuShowcase.html`
+- `upstream/examples/TopNavShowcase.tsx` — Top Nav · static: `static/TopNavShowcase.html`
+- `upstream/examples/TopNavCenteredNavigation.tsx` — TopNav — Centered Navigation: Navigation layout with center-aligned nav items flanked by a logo heading and end actions. · static: `static/TopNavCenteredNavigation.html`
+- `upstream/examples/TopNavEnterpriseDashboard.tsx` — TopNav — Enterprise Dashboard: Full-featured navigation bar with icon-labeled nav items, search, notifications, and a primary CTA. · static: `static/TopNavEnterpriseDashboard.html`
+- `upstream/examples/TopNavHeadingBasic.tsx` — TopNavHeading — Basic: A product heading with a logo inside a TopNav, linked to the home page. Use as the leading brand element of a top navigation bar. · static: `static/TopNavHeadingBasic.html`
+- `upstream/examples/TopNavHoverMenu.tsx` — TopNav — Hover Menu: Navigation bar with a hover-triggered dropdown menu showing product items with icons and descriptions. · static: `static/TopNavHoverMenu.html`
+- `upstream/examples/TopNavItemBasic.tsx` — TopNavItem — Basic: Navigation links inside a TopNav with one item marked as selected. Use for top-level pages of an application. · static: `static/TopNavItemBasic.html`
+- `upstream/examples/TopNavMegaMenu.tsx` — TopNav — Mega Menu: Marketing-style navigation with a full-width mega menu featuring product items and a promotional featured card. · static: `static/TopNavMegaMenu.html`
+- `upstream/examples/TopNavMegaMenuBasic.tsx` — TopNavMegaMenu — Basic: A mega menu trigger inside a TopNav that opens a panel of rich link items. Use when a navigation section has multiple destinations worth describing. · static: `static/TopNavMegaMenuBasic.html`
+- `upstream/examples/TopNavMegaMenuFeaturedCardBasic.tsx` — TopNavMegaMenuFeaturedCard — Basic: A promotional card with a title, description, and call-to-action link. Pass it to the featured slot of a TopNavMegaMenu to highlight announcements. · static: `static/TopNavMegaMenuFeaturedCardBasic.html`
+- `upstream/examples/TopNavMegaMenuItemBasic.tsx` — TopNavMegaMenuItem — Basic: Rich link items with an icon, title, and description. Use inside the items slot of a TopNavMegaMenu to describe each destination. · static: `static/TopNavMegaMenuItemBasic.html`
+- `upstream/examples/TopNavMenuBasic.tsx` — TopNavMenu — Basic: A dropdown menu inside a TopNav built from an items array with icons and descriptions. Use to group related destinations under a single trigger. · static: `static/TopNavMenuBasic.html`
+- `upstream/examples/TopNavMultipleDropdowns.tsx` — TopNav — Multiple Dropdowns: Navigation bar with multiple hover-triggered dropdown menus that auto-close when switching between them. · static: `static/TopNavMultipleDropdowns.html`
+- `upstream/examples/TopNavWithLogo.tsx` — TopNav — With Logo: Navigation bar with a branded logo icon, heading link, nav items, and a profile action. · static: `static/TopNavWithLogo.html`
 
 ## Documentation
 
@@ -271,24 +271,24 @@ Styling hook class: `.astryx-top-nav`, `.astryx-top-nav-item`, `.astryx-top-nav-
 
 ## Files
 
-- `src/TopNav.doc.mjs`
-- `src/TopNav.tsx`
-- `src/TopNavContext.ts`
-- `src/TopNavHeading.doc.mjs`
-- `src/TopNavHeading.tsx`
-- `src/TopNavItem.doc.mjs`
-- `src/TopNavItem.tsx`
-- `src/TopNavMegaMenu.doc.mjs`
-- `src/TopNavMegaMenu.tsx`
-- `src/TopNavMegaMenuFeaturedCard.doc.mjs`
-- `src/TopNavMegaMenuFeaturedCard.tsx`
-- `src/TopNavMegaMenuItem.doc.mjs`
-- `src/TopNavMegaMenuItem.tsx`
-- `src/TopNavMenu.doc.mjs`
-- `src/TopNavMenu.tsx`
-- `src/TopNavMobileContentContext.ts`
-- `src/TopNavRenderContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/TopNav.doc.mjs`
+- `upstream/TopNav.tsx`
+- `upstream/TopNavContext.ts`
+- `upstream/TopNavHeading.doc.mjs`
+- `upstream/TopNavHeading.tsx`
+- `upstream/TopNavItem.doc.mjs`
+- `upstream/TopNavItem.tsx`
+- `upstream/TopNavMegaMenu.doc.mjs`
+- `upstream/TopNavMegaMenu.tsx`
+- `upstream/TopNavMegaMenuFeaturedCard.doc.mjs`
+- `upstream/TopNavMegaMenuFeaturedCard.tsx`
+- `upstream/TopNavMegaMenuItem.doc.mjs`
+- `upstream/TopNavMegaMenuItem.tsx`
+- `upstream/TopNavMenu.doc.mjs`
+- `upstream/TopNavMenu.tsx`
+- `upstream/TopNavMobileContentContext.ts`
+- `upstream/TopNavRenderContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TopNav

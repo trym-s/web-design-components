@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 
@@ -31,6 +29,7 @@ export type UseDropdownOptions = {
   onChange?: (value: string) => void;
   disabled?: boolean;
   typeaheadDelay?: number;
+  defaultOpen?: boolean;
 };
 
 export function useDropdown({
@@ -40,6 +39,7 @@ export function useDropdown({
   onChange,
   disabled = false,
   typeaheadDelay = 600,
+  defaultOpen = false,
 }: UseDropdownOptions) {
   const uid = useId();
   const listId = `${uid}-list`;
@@ -51,8 +51,8 @@ export function useDropdown({
   const selectedValue = value !== undefined ? value : uncontrolled;
   const selectedIndex = items.findIndex((it) => it.value === selectedValue);
 
-  const [open, setOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [open, setOpen] = useState(defaultOpen);
+  const [activeIndex, setActiveIndex] = useState(defaultOpen ? selectedIndex : -1);
 
   const rootRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -268,6 +268,7 @@ export type DropdownProps = {
   label?: string;
   placeholder?: string;
   disabled?: boolean;
+  defaultOpen?: boolean;
   emptyLabel?: string;
   className?: string;
 };
@@ -280,6 +281,7 @@ export function Dropdown({
   label = "Options",
   placeholder = "Select an option",
   disabled = false,
+  defaultOpen = false,
   emptyLabel = "Nothing to choose",
   className = "",
 }: DropdownProps) {
@@ -293,7 +295,7 @@ export function Dropdown({
     triggerProps,
     listProps,
     getItemProps,
-  } = useDropdown({ items, value, defaultValue, onChange, disabled });
+  } = useDropdown({ items, value, defaultValue, onChange, disabled, defaultOpen });
 
   const cell = reduced ? NONE : CELL;
 
@@ -301,10 +303,10 @@ export function Dropdown({
     <div ref={rootRef} className={`relative inline-block text-left ${className}`}>
       <button
         {...triggerProps}
-        className={`flex h-9 select-none items-center gap-2 whitespace-nowrap rounded-[9px] border border-stone-200 bg-white px-3 text-[13px] font-medium text-stone-700 outline-none transition-[box-shadow,border-color] duration-150 disabled:opacity-50 dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:text-stone-200 ${
+        className={`flex h-9 select-none items-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-1px)] border border-border bg-card px-3 text-[13px] font-medium text-foreground outline-none transition-[box-shadow,border-color] duration-150 disabled:opacity-50 ${
           open
-            ? "shadow-[inset_0_1px_2px_rgba(28,25,23,0.09)] dark:shadow-[inset_0_1px_2px_rgba(0,0,0,0.5)]"
-            : "shadow-[0_1px_2px_rgba(28,25,23,0.06),0_4px_10px_-8px_rgba(28,25,23,0.45)] hover:border-stone-300 hover:shadow-[0_1px_2px_rgba(28,25,23,0.06),0_8px_18px_-12px_rgba(28,25,23,0.5)] focus-visible:border-stone-400 focus-visible:shadow-[0_1px_2px_rgba(28,25,23,0.08),0_10px_22px_-12px_rgba(28,25,23,0.55)] dark:shadow-[0_1px_6px_rgba(0,0,0,0.45)] dark:hover:border-white/20 dark:hover:shadow-[0_2px_10px_rgba(0,0,0,0.55)] dark:focus-visible:border-white/30 dark:focus-visible:shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
+            ? "inset-shadow-xs"
+            : "shadow-sm hover:border-border hover:shadow-md focus-visible:border-ring focus-visible:shadow-md"
         }`}
       >
         <span className="sr-only">
@@ -314,7 +316,7 @@ export function Dropdown({
         <motion.svg
           aria-hidden
           viewBox="0 0 12 12"
-          className="size-3 shrink-0 text-stone-500 dark:text-stone-400"
+          className="size-3 shrink-0 text-muted-foreground"
           initial={false}
           animate={{ rotate: open ? 180 : 0 }}
           transition={reduced ? NONE : NUDGE}
@@ -346,7 +348,7 @@ export function Dropdown({
                 : { ...OPEN, opacity: { duration: 0.12, ease: EASE } }
             }
             style={{ transformOrigin: "top left" }}
-            className="absolute left-0 top-[calc(100%+6px)] z-50 min-w-[224px] whitespace-nowrap rounded-[11px] border border-stone-200 bg-white p-[5px] shadow-[0_1px_2px_rgba(28,25,23,0.06),0_16px_36px_-18px_rgba(28,25,23,0.5)] dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
+            className="absolute left-0 top-[calc(100%+6px)] z-50 min-w-[224px] whitespace-nowrap rounded-[calc(var(--radius)+1px)] border border-border bg-popover p-[5px] shadow-lg"
           >
             <ul
               {...listProps}
@@ -355,7 +357,7 @@ export function Dropdown({
             >
               <motion.span
                 aria-hidden
-                className="pointer-events-none absolute inset-x-0 top-0 h-8 rounded-[7px] bg-stone-100 dark:bg-white/10"
+                className="pointer-events-none absolute inset-x-0 top-0 h-8 rounded-[calc(var(--radius)-3px)] bg-accent"
                 initial={false}
                 animate={{
                   y: activeIndex < 0 ? 0 : activeIndex * ROW_H,
@@ -368,24 +370,21 @@ export function Dropdown({
                 }
               />
               {items.map((item, i) => {
-                const active = i === activeIndex && !item.disabled;
                 const picked = i === selectedIndex;
                 return (
                   <li
                     key={item.value}
                     {...getItemProps(i)}
-                    className={`relative flex h-8 cursor-default select-none items-center rounded-[7px] px-2.5 text-[13px] ${
+                    className={`relative flex h-8 cursor-default select-none items-center rounded-[calc(var(--radius)-3px)] px-2.5 text-[13px] ${
                       item.disabled
-                        ? "text-stone-500/70 dark:text-stone-400/70"
-                        : active
-                          ? "text-stone-900 dark:text-stone-100"
-                          : "text-stone-700 dark:text-stone-200"
+                        ? "text-muted-foreground/70"
+                        : "text-foreground"
                     }`}
                   >
                     <span className="relative flex min-w-0 flex-1 items-center gap-3">
                       <span className="truncate">{item.label}</span>
                       {item.hint ? (
-                        <span className="ml-auto shrink-0 font-mono text-[10.5px] text-stone-500 dark:text-stone-400">
+                        <span className="ml-auto shrink-0 font-mono text-[10.5px] text-muted-foreground">
                           {item.hint}
                         </span>
                       ) : null}
@@ -415,7 +414,7 @@ export function Dropdown({
               {items.length === 0 && (
                 <li
                   role="presentation"
-                  className="flex h-8 items-center px-2.5 text-[13px] text-stone-500 dark:text-stone-400"
+                  className="flex h-8 items-center px-2.5 text-[13px] text-muted-foreground"
                 >
                   {emptyLabel}
                 </li>

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/paint-drop-half-filled-twotone/src/paint-drop-half-filled-twotone.svg`
+- Entry point: `ui/icons/line-md/paint-drop-half-filled-twotone/upstream/paint-drop-half-filled-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/paint-drop-half-filled-twotone/src/paint-drop-half-filled-twotone.svg`
+- Local source: `ui/icons/line-md/paint-drop-half-filled-twotone/upstream/paint-drop-half-filled-twotone.svg`

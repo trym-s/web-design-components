@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/battery-full/src/battery-full.svelte`
+- Entry point: `ui/icons/movingicons/battery-full/upstream/battery-full.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/battery-full`
 - Registry: https://movingicons.dev/r/battery-full
-- Local source fallback: `ui/icons/movingicons/battery-full/src/battery-full.svelte`
+- Local source fallback: `ui/icons/movingicons/battery-full/upstream/battery-full.svelte`

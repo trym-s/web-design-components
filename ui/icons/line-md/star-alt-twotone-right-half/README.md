@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/star-alt-twotone-right-half/src/star-alt-twotone-right-half.svg`
+- Entry point: `ui/icons/line-md/star-alt-twotone-right-half/upstream/star-alt-twotone-right-half.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/star-alt-twotone-right-half/src/star-alt-twotone-right-half.svg`
+- Local source: `ui/icons/line-md/star-alt-twotone-right-half/upstream/star-alt-twotone-right-half.svg`

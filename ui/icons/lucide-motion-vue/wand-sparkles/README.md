@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/wand-sparkles/src/wand-sparkles.vue`
+- Entry point: `ui/icons/lucide-motion-vue/wand-sparkles/upstream/wand-sparkles.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/wand-sparkles/src/wand-sparkles.vue`
+- Local source: `ui/icons/lucide-motion-vue/wand-sparkles/upstream/wand-sparkles.vue`

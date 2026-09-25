@@ -7,7 +7,7 @@ A button that shows only an icon with no visible text. Use IconButton in toolbar
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/IconButton.tsx`
+- Entry point: `upstream/IconButton.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A button that shows only an icon with no visible text. Use IconButton in toolbar
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A button that shows only an icon with no visible text. Use IconButton in toolbar
 
 ## Examples
 
-- `src/examples/IconButtonShowcase.tsx` — Icon Button: An icon button with a wrench icon. · static: `static/IconButtonShowcase.html`
-- `src/examples/IconButtonActionBar.tsx` — IconButton — Action Bar: Row of ghost icon buttons for a compact action toolbar · static: `static/IconButtonActionBar.html`
-- `src/examples/IconButtonFloating.tsx` — IconButton — Floating: A floating action button (FAB). The most common floating-button shape is icon-only. Raised here with `elevation="high"`. · static: `static/IconButtonFloating.html`
-- `src/examples/IconButtonLoadingToggle.tsx` — IconButton — Loading State: Icon buttons that show a loading spinner on click for async feedback · static: `static/IconButtonLoadingToggle.html`
-- `src/examples/IconButtonTooltipIconButton.tsx` — IconButton — With Tooltips: Icon buttons with tooltips that explain each action on hover · static: `static/IconButtonTooltipIconButton.html`
+- `upstream/examples/IconButtonShowcase.tsx` — Icon Button: An icon button with a wrench icon. · static: `static/IconButtonShowcase.html`
+- `upstream/examples/IconButtonActionBar.tsx` — IconButton — Action Bar: Row of ghost icon buttons for a compact action toolbar · static: `static/IconButtonActionBar.html`
+- `upstream/examples/IconButtonFloating.tsx` — IconButton — Floating: A floating action button (FAB). The most common floating-button shape is icon-only. Raised here with `elevation="high"`. · static: `static/IconButtonFloating.html`
+- `upstream/examples/IconButtonLoadingToggle.tsx` — IconButton — Loading State: Icon buttons that show a loading spinner on click for async feedback · static: `static/IconButtonLoadingToggle.html`
+- `upstream/examples/IconButtonTooltipIconButton.tsx` — IconButton — With Tooltips: Icon buttons with tooltips that explain each action on hover · static: `static/IconButtonTooltipIconButton.html`
 
 ## Documentation
 
@@ -80,9 +80,9 @@ A button that shows only an icon with no visible text. Use IconButton in toolbar
 
 ## Files
 
-- `src/IconButton.doc.mjs`
-- `src/IconButton.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/IconButton.doc.mjs`
+- `upstream/IconButton.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/IconButton

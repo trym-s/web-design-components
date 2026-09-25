@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
@@ -237,16 +235,16 @@ export function CommandPalette({
   const surface = (
     <div
       ref={panelRef}
-      className={`overflow-hidden rounded-[14px] border border-stone-200 bg-white dark:border-white/[0.16] dark:bg-[#1D1D1A] ${
+      className={`overflow-hidden rounded-[calc(var(--radius)+4px)] border border-border bg-popover ${
         overlaid
-          ? "w-full max-w-[520px] shadow-[0_1px_2px_rgba(28,25,23,0.07),0_28px_56px_-24px_rgba(24,22,20,0.5)] dark:shadow-[0_3px_16px_rgba(0,0,0,0.65)]"
+          ? "w-full max-w-[520px] shadow-2xl"
           : ""
       } ${className}`}
     >
-      <div className="flex h-11 items-center gap-2.5 border-b border-stone-200 px-3 dark:border-white/[0.16]">
+      <div className="flex h-11 items-center gap-2.5 border-b border-border px-3">
         <svg
           viewBox="0 0 16 16"
-          className="size-[14px] shrink-0 text-stone-500 dark:text-stone-400"
+          className="size-[14px] shrink-0 text-muted-foreground"
           fill="none"
           stroke="currentColor"
           strokeWidth="1.4"
@@ -271,9 +269,9 @@ export function CommandPalette({
           placeholder={placeholder}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={onKeyDown}
-          className="h-full min-w-0 flex-1 bg-transparent text-[13.5px] text-stone-700 outline-none placeholder:text-stone-400 dark:text-stone-200 dark:placeholder:text-stone-500"
+          className="h-full min-w-0 flex-1 bg-transparent text-[13.5px] text-foreground outline-none placeholder:text-muted-foreground"
         />
-        <span className="min-w-[3ch] shrink-0 text-right font-mono text-[9.5px] tabular-nums text-stone-500 dark:text-stone-400">
+        <span className="min-w-[3ch] shrink-0 text-right font-mono text-[9.5px] tabular-nums text-muted-foreground">
           {count}
         </span>
       </div>
@@ -300,22 +298,22 @@ export function CommandPalette({
                 transition={spring}
                 onPointerMove={(e) => pointerActivate(item.id, e)}
                 onClick={() => run(item)}
-                className="relative flex h-9 shrink-0 cursor-default items-center rounded-[9px] px-2.5"
+                className="relative flex h-9 shrink-0 cursor-default items-center rounded-[calc(var(--radius)-1px)] px-2.5"
               >
                 <motion.span
                   aria-hidden
                   initial={false}
                   animate={{ opacity: active ? 1 : 0 }}
                   transition={reduced ? { duration: 0 } : CROSSFADE}
-                  className="absolute inset-0 rounded-[9px] bg-stone-100 dark:bg-white/10"
+                  className="absolute inset-0 rounded-[calc(var(--radius)-1px)] bg-muted"
                 />
                 <span className="relative flex min-w-0 flex-1 items-center gap-2.5">
-                  <span className="truncate text-[13px] font-medium text-stone-700 dark:text-stone-200">
+                  <span className="truncate text-[13px] font-medium text-foreground">
                     {item.label}
                   </span>
 
                   {item.hint ? (
-                    <span className="hidden shrink-0 text-[11.5px] text-stone-500 sm:inline dark:text-stone-400">
+                    <span className="hidden shrink-0 text-[11.5px] text-muted-foreground sm:inline">
                       {item.hint}
                     </span>
                   ) : null}
@@ -325,7 +323,7 @@ export function CommandPalette({
                       {item.shortcut.map((key) => (
                         <span
                           key={key}
-                          className="flex h-[18px] min-w-[18px] items-center justify-center rounded-[5px] border border-stone-200 px-1 font-mono text-[9.5px] tabular-nums text-stone-500 dark:border-white/[0.16] dark:text-stone-400"
+                          className="flex h-[18px] min-w-[18px] items-center justify-center rounded-[calc(var(--radius)-5px)] border border-border px-1 font-mono text-[9.5px] tabular-nums text-muted-foreground"
                         >
                           {key}
                         </span>
@@ -343,7 +341,7 @@ export function CommandPalette({
             initial={reduced ? false : { opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={reduced ? { duration: 0 } : CROSSFADE}
-            className="pointer-events-none absolute inset-0 flex items-center justify-center px-3 text-center text-[12.5px] text-stone-500 dark:text-stone-400"
+            className="pointer-events-none absolute inset-0 flex items-center justify-center px-3 text-center text-[12.5px] text-muted-foreground"
           >
             {emptyLabel}
           </motion.p>
@@ -442,7 +440,7 @@ function PaletteLayer({
         >
           <motion.div
             aria-hidden
-            className="absolute inset-0 bg-stone-900/40 dark:bg-black/65"
+            className="absolute inset-0 bg-black/50"
             variants={{
               closed: { opacity: 0 },
               open: {

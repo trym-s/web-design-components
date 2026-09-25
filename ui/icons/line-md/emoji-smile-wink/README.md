@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-smile-wink/src/emoji-smile-wink.svg`
+- Entry point: `ui/icons/line-md/emoji-smile-wink/upstream/emoji-smile-wink.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-smile-wink/src/emoji-smile-wink.svg`
+- Local source: `ui/icons/line-md/emoji-smile-wink/upstream/emoji-smile-wink.svg`

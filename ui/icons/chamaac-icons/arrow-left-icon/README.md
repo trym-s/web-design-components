@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/chamaac-icons/arrow-left-icon/src/arrow-left-icon.tsx`
+- Entry point: `ui/icons/chamaac-icons/arrow-left-icon/upstream/arrow-left-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/arrow-left-icon.json`
 - Registry: https://www.chamaac.com/r/arrow-left-icon.json
-- Local source fallback: `ui/icons/chamaac-icons/arrow-left-icon/src/arrow-left-icon.tsx`
+- Local source fallback: `ui/icons/chamaac-icons/arrow-left-icon/upstream/arrow-left-icon.tsx`

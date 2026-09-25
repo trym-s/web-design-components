@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/speech/src/speech.svelte`
+- Entry point: `ui/icons/movingicons/speech/upstream/speech.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/speech`
 - Registry: https://movingicons.dev/r/speech
-- Local source fallback: `ui/icons/movingicons/speech/src/speech.svelte`
+- Local source fallback: `ui/icons/movingicons/speech/upstream/speech.svelte`

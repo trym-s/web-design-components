@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/scissors/src/scissors.svelte`
+- Entry point: `ui/icons/movingicons/scissors/upstream/scissors.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/scissors`
 - Registry: https://movingicons.dev/r/scissors
-- Local source fallback: `ui/icons/movingicons/scissors/src/scissors.svelte`
+- Local source fallback: `ui/icons/movingicons/scissors/upstream/scissors.svelte`

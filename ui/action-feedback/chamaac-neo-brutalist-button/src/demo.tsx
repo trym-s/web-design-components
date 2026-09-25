@@ -1,8 +1,9 @@
-import Example from "./examples/neo-brutalist-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "neo-brutalist-button", title: "Neo Brutalist Button", component: Example }];
+import NeoBrutalistButton from "./neo-brutalist-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex h-[300px] w-full items-center justify-center">
+      <NeoBrutalistButton text="Neo Brutalist" />
+    </div>
+  );
 }

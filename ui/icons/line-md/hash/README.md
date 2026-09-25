@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/hash/src/hash.svg`
+- Entry point: `ui/icons/line-md/hash/upstream/hash.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/hash/src/hash.svg`
+- Local source: `ui/icons/line-md/hash/upstream/hash.svg`

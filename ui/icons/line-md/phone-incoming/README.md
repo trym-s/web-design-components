@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/phone-incoming/src/phone-incoming.svg`
+- Entry point: `ui/icons/line-md/phone-incoming/upstream/phone-incoming.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/phone-incoming/src/phone-incoming.svg`
+- Local source: `ui/icons/line-md/phone-incoming/upstream/phone-incoming.svg`

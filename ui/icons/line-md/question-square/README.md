@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/question-square/src/question-square.svg`
+- Entry point: `ui/icons/line-md/question-square/upstream/question-square.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/question-square/src/question-square.svg`
+- Local source: `ui/icons/line-md/question-square/upstream/question-square.svg`

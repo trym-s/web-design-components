@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/steering-off/src/steering-off.svg`
+- Entry point: `ui/icons/line-md/steering-off/upstream/steering-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/steering-off/src/steering-off.svg`
+- Local source: `ui/icons/line-md/steering-off/upstream/steering-off.svg`

@@ -1,0 +1,26 @@
+{
+  "//": "The compilerOptions of Vite's react-ts template (tsconfig.app.json) plus shadcn's @/* alias.",
+  "compilerOptions": {
+    "target": "ES2023",
+    "useDefineForClassFields": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"], "tailwind-merge": ["../../node_modules/tailwind-merge-v3"] }
+  },
+  "include": ["main.tsx", "lib", "entry"]
+}

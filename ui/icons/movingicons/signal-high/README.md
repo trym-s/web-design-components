@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/signal-high/src/signal-high.svelte`
+- Entry point: `ui/icons/movingicons/signal-high/upstream/signal-high.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/signal-high`
 - Registry: https://movingicons.dev/r/signal-high
-- Local source fallback: `ui/icons/movingicons/signal-high/src/signal-high.svelte`
+- Local source fallback: `ui/icons/movingicons/signal-high/upstream/signal-high.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/text-box-multiple-to-text-box-transition/src/text-box-multiple-to-text-box-transition.svg`
+- Entry point: `ui/icons/line-md/text-box-multiple-to-text-box-transition/upstream/text-box-multiple-to-text-box-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/text-box-multiple-to-text-box-transition/src/text-box-multiple-to-text-box-transition.svg`
+- Local source: `ui/icons/line-md/text-box-multiple-to-text-box-transition/upstream/text-box-multiple-to-text-box-transition.svg`

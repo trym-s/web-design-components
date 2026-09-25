@@ -215,7 +215,7 @@ export function SortableTable<T>({
 
   return (
     <div
-      className={`overflow-hidden rounded-[14px] border border-stone-200 bg-white shadow-[0_1px_2px_rgba(28,25,23,0.06),0_4px_10px_-8px_rgba(28,25,23,0.45)] dark:border-white/[0.16] dark:bg-[#1D1D1A] dark:shadow-[0_1px_6px_rgba(0,0,0,0.45)] ${className}`}
+      className={`overflow-hidden rounded-[calc(var(--radius)+4px)] border border-border bg-card shadow-sm ${className}`}
     >
       <div
         role="table"
@@ -227,7 +227,7 @@ export function SortableTable<T>({
           <div
             role="row"
             aria-rowindex={1}
-            className="grid h-9 items-center gap-x-2 border-b border-stone-200 px-2 dark:border-white/[0.16]"
+            className="grid h-9 items-center gap-x-2 border-b border-border px-2"
             style={{ gridTemplateColumns: template }}
           >
             {markable && (
@@ -250,7 +250,7 @@ export function SortableTable<T>({
                 >
                   {column.sortable === false ? (
                     <span
-                      className={`block truncate px-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-stone-500 dark:text-stone-400 ${
+                      className={`block truncate px-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted-foreground ${
                         end ? "text-right" : ""
                       }`}
                     >
@@ -260,22 +260,22 @@ export function SortableTable<T>({
                     <button
                       type="button"
                       onClick={() => onToggle(column.id)}
-                      className={`group flex h-7 w-full items-center gap-1.5 rounded-[6px] px-1.5 outline-none focus-visible:bg-[#4568FF]/[0.06] focus-visible:shadow-[inset_0_0_0_1px_#4568FF] dark:focus-visible:bg-[#93B0FF]/[0.06] dark:focus-visible:shadow-[inset_0_0_0_1px_#93B0FF] ${
+                      className={`group flex h-7 w-full items-center gap-1.5 rounded-[calc(var(--radius)-4px)] px-1.5 outline-none focus-visible:bg-primary/[0.06] focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-primary ${
                         end ? "flex-row-reverse" : ""
                       }`}
                     >
                       <span
                         className={`truncate text-[11px] font-semibold uppercase tracking-[0.08em] ${
                           active
-                            ? "text-stone-700 dark:text-stone-200"
-                            : "text-stone-500 group-hover:text-stone-700 dark:text-stone-400 dark:group-hover:text-stone-200"
+                            ? "text-foreground"
+                            : "text-muted-foreground group-hover:text-foreground"
                         }`}
                       >
                         {column.header}
                       </span>
                       <motion.span
                         aria-hidden
-                        className="shrink-0 text-stone-700 dark:text-stone-200"
+                        className="shrink-0 text-foreground"
                         initial={false}
                         animate={{
                           rotate: state === "descending" ? 180 : 0,
@@ -319,7 +319,7 @@ export function SortableTable<T>({
             >
               <span
                 role="cell"
-                className="text-[12.5px] text-stone-500 dark:text-stone-400"
+                className="text-[12.5px] text-muted-foreground"
               >
                 No rows
               </span>
@@ -343,7 +343,7 @@ export function SortableTable<T>({
                     : { ...CELL, delay: Math.min(index, STEP_CAP) * STEP }
                 }
                 className={`absolute inset-x-0 top-0 grid items-center gap-x-2 px-2 transition-colors duration-150 ${
-                  isMarked ? "bg-stone-100 dark:bg-white/[0.06]" : ""
+                  isMarked ? "bg-muted" : ""
                 }`}
                 style={{ height: rowHeight, gridTemplateColumns: template }}
               >
@@ -353,10 +353,10 @@ export function SortableTable<T>({
                       type="button"
                       aria-pressed={marked === id}
                       onClick={() => onMark(id)}
-                      className={`flex size-[18px] items-center justify-center rounded-[5px] border outline-none focus-visible:border-[#4568FF] focus-visible:shadow-[0_1px_3px_rgba(28,25,23,0.18)] dark:focus-visible:border-[#93B0FF] dark:focus-visible:shadow-[0_1px_3px_rgba(0,0,0,0.5)] ${
+                      className={`flex size-[18px] items-center justify-center rounded-[calc(var(--radius)-5px)] border outline-none focus-visible:border-primary focus-visible:shadow-sm ${
                         marked === id
-                          ? "border-[#4568FF] bg-[#4568FF] text-white dark:border-[#93B0FF] dark:bg-[#93B0FF] dark:text-stone-900"
-                          : "border-stone-200 text-transparent dark:border-white/15"
+                          ? "border-primary bg-primary text-primary-foreground"
+                          : "border-border text-transparent"
                       }`}
                     >
                       <span className="sr-only">Follow {nameOf(row)}</span>
@@ -398,8 +398,8 @@ export function SortableTable<T>({
                         column.align === "end" ? "text-right" : ""
                       } ${column.numeric ? "tabular-nums" : ""} ${
                         c === 0
-                          ? "font-medium text-stone-700 dark:text-stone-200"
-                          : "text-stone-500 dark:text-stone-400"
+                          ? "font-medium text-foreground"
+                          : "text-muted-foreground"
                       }`}
                     >
                       {content}
@@ -420,7 +420,7 @@ export function SortableTable<T>({
             {Array.from({ length: Math.max(0, rows.length - 1) }, (_, i) => (
               <div
                 key={i}
-                className="absolute inset-x-0 border-t border-stone-200 dark:border-white/[0.16]"
+                className="absolute inset-x-0 border-t border-border"
                 style={{ top: (i + 1) * rowHeight }}
               />
             ))}

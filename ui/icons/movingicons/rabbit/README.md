@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/rabbit/src/rabbit.svelte`
+- Entry point: `ui/icons/movingicons/rabbit/upstream/rabbit.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/rabbit`
 - Registry: https://movingicons.dev/r/rabbit
-- Local source fallback: `ui/icons/movingicons/rabbit/src/rabbit.svelte`
+- Local source fallback: `ui/icons/movingicons/rabbit/upstream/rabbit.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/edit-full-filled/src/edit-full-filled.svg`
+- Entry point: `ui/icons/line-md/edit-full-filled/upstream/edit-full-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/edit-full-filled/src/edit-full-filled.svg`
+- Local source: `ui/icons/line-md/edit-full-filled/upstream/edit-full-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/wallet/src/wallet.tsx`
+- Entry point: `ui/icons/heroicons-animated/wallet/upstream/wallet.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/wallet`
 - Registry: https://www.heroicons-animated.com/r/wallet.json
-- Local source fallback: `ui/icons/heroicons-animated/wallet/src/wallet.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/wallet/upstream/wallet.tsx`

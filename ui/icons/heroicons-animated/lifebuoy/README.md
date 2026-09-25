@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/lifebuoy/src/lifebuoy.tsx`
+- Entry point: `ui/icons/heroicons-animated/lifebuoy/upstream/lifebuoy.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/lifebuoy`
 - Registry: https://www.heroicons-animated.com/r/lifebuoy.json
-- Local source fallback: `ui/icons/heroicons-animated/lifebuoy/src/lifebuoy.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/lifebuoy/upstream/lifebuoy.tsx`

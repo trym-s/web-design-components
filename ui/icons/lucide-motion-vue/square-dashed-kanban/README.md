@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-dashed-kanban/src/square-dashed-kanban.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-dashed-kanban/upstream/square-dashed-kanban.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-dashed-kanban/src/square-dashed-kanban.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-dashed-kanban/upstream/square-dashed-kanban.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/clipboard-arrow/src/clipboard-arrow.svg`
+- Entry point: `ui/icons/line-md/clipboard-arrow/upstream/clipboard-arrow.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/clipboard-arrow/src/clipboard-arrow.svg`
+- Local source: `ui/icons/line-md/clipboard-arrow/upstream/clipboard-arrow.svg`

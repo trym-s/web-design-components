@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/circle-chevron-down/src/circle-chevron-down.vue`
+- Entry point: `ui/icons/lucide-motion-vue/circle-chevron-down/upstream/circle-chevron-down.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/circle-chevron-down/src/circle-chevron-down.vue`
+- Local source: `ui/icons/lucide-motion-vue/circle-chevron-down/upstream/circle-chevron-down.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/arrow-big-left-icon/src/arrow-big-left-icon.tsx`
+- Entry point: `ui/icons/itshover/arrow-big-left-icon/upstream/arrow-big-left-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/arrow-big-left-icon.json`
 - Registry: https://itshover.com/r/arrow-big-left-icon.json
-- Local source fallback: `ui/icons/itshover/arrow-big-left-icon/src/arrow-big-left-icon.tsx`
+- Local source fallback: `ui/icons/itshover/arrow-big-left-icon/upstream/arrow-big-left-icon.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/user-plus/src/user-plus.tsx`
+- Entry point: `ui/icons/heroicons-animated/user-plus/upstream/user-plus.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/user-plus`
 - Registry: https://www.heroicons-animated.com/r/user-plus.json
-- Local source fallback: `ui/icons/heroicons-animated/user-plus/src/user-plus.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/user-plus/upstream/user-plus.tsx`

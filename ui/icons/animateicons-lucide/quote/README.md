@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/quote/src/quote.tsx`
+- Entry point: `ui/icons/animateicons-lucide/quote/upstream/quote.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-quote.json`
 - Registry: https://animateicons.in/r/lu-quote.json
-- Local source fallback: `ui/icons/animateicons-lucide/quote/src/quote.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/quote/upstream/quote.tsx`

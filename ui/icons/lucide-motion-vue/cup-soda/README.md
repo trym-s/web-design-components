@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/cup-soda/src/cup-soda.vue`
+- Entry point: `ui/icons/lucide-motion-vue/cup-soda/upstream/cup-soda.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/cup-soda/src/cup-soda.vue`
+- Local source: `ui/icons/lucide-motion-vue/cup-soda/upstream/cup-soda.vue`

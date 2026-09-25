@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/twitter-x-alt/src/twitter-x-alt.svg`
+- Entry point: `ui/icons/line-md/twitter-x-alt/upstream/twitter-x-alt.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/twitter-x-alt/src/twitter-x-alt.svg`
+- Local source: `ui/icons/line-md/twitter-x-alt/upstream/twitter-x-alt.svg`

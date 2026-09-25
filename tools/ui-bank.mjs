@@ -13,6 +13,12 @@ const NATURES = new Set(["decorative", "structural", "interactive", "functional"
 const STATUSES = new Set(["ok", "shim", "broken"]);
 const EVIDENCE = new Set(["verified", "review", "limited", "blocked"]);
 const CURATIONS = new Set(["pending", "curated"]);
+/** AGENTS.md "Entry layout" rule 1: the only packages a copy-paste `src/` may import. */
+const SRC_ALLOWED = [
+  "react", "react-dom", "radix-ui", "@radix-ui/react-[a-z-]+", "@base-ui/react", "class-variance-authority", "clsx",
+  "tailwind-merge", "lucide-react", "motion", "three", "@react-three/fiber",
+];
+const SRC_ALLOWED_RE = new RegExp(`^(${SRC_ALLOWED.join("|")})(/.*)?$`);
 
 const ROLE_BY_CATEGORY = {
   animation: ["visual", "behavior"], effects: ["visual"], typography: ["visual"], surface: ["visual"],
@@ -103,6 +109,8 @@ function discover() {
     const sourcePath = join(dir, "SOURCE.md");
     const promptPath = join(dir, "PROMPT.md");
     const previewPath = join(dir, "preview.png");
+    const upstreamPath = join(dir, "upstream");
+    const srcPath = join(dir, "src");
     const readme = text(readmePath);
     const sourceDoc = text(sourcePath);
     const nature = natureOf(readme);
@@ -136,12 +144,15 @@ function discover() {
       framework, availability, variants,
       files,
       installation: { method: command ? "shadcn" : "source", command, registryUrl, fallbackPath },
+      copyPaste: existsSync(srcPath),
       paths: {
         directory: relative(ROOT, dir), reference: relative(ROOT, ref),
         readme: existsSync(readmePath) ? relative(ROOT, readmePath) : null,
         source: existsSync(sourcePath) ? relative(ROOT, sourcePath) : null,
         prompt: existsSync(promptPath) ? relative(ROOT, promptPath) : null,
         preview: preview ? relative(ROOT, previewPath) : null,
+        upstream: existsSync(upstreamPath) ? relative(ROOT, upstreamPath) : null,
+        src: existsSync(srcPath) ? relative(ROOT, srcPath) : null,
       },
     };
   }).sort((a, b) => a.id.localeCompare(b.id));
@@ -199,9 +210,50 @@ function validate(entries) {
       errors.push(`decorative entry has non-visual role: ${entry.id}`);
     }
   }
+  for (const entry of entries) if (entry.paths.src) errors.push(...srcImportErrors(join(ROOT, entry.paths.src)));
   const curated = Object.keys(JSON.parse(text(CURATION) || "{}"));
   for (const id of curated) if (!ids.has(id)) errors.push(`curation has no reference: ${id}`);
   return errors;
+}
+
+// What a `src/` file can reach. `module` specifiers are packages or relative paths; `path` specifiers
+// (asset URLs, Tailwind @source) are always files and must stay inside src/.
+const Q = String.raw`(["'\`])((?:(?!\1)[^\\\n])*)\1`;
+const REFERENCES = [
+  { kind: "module", re: new RegExp(String.raw`\b(?:import|export)\b[^;"'\`]*?\bfrom\s*` + Q, "g") }, // import x from "a", export{a}from"a"
+  { kind: "module", re: new RegExp(String.raw`\bimport\s*` + Q, "g") }, // import "a"
+  { kind: "module", re: new RegExp(String.raw`\b(?:import|require)\s*\(\s*` + Q, "g") }, // import("a"), require("a")
+  { kind: "path", re: new RegExp(String.raw`\bnew\s+URL\s*\(\s*` + Q + String.raw`\s*,\s*import\.meta\.url`, "g") },
+  { kind: "module", css: true, re: new RegExp(String.raw`@(?:import|plugin|reference)\s+` + Q, "g") },
+  { kind: "module", css: true, re: /@import\s+url\(\s*(["']?)([^"')\s]*)\1\s*\)/g }, // @import url(a)
+  { kind: "path", css: true, re: new RegExp(String.raw`@source\s+(?:not\s+)?` + Q, "g") },
+  { kind: "path", re: /\burl\(\s*(["']?)([^"')\s]*)\1\s*\)/g }, // CSS url(), also Tailwind arbitrary values
+];
+const EXTERNAL_URL = /^(?:[a-z][a-z\d+.-]*:|#|$)/i; // data:, https:, fragment refs
+
+/** Rule 1: a copy-paste `src/` imports only allowlisted packages and never leaves its own tree. */
+export function srcImportErrors(srcDir) {
+  const errors = [];
+  for (const file of walk(srcDir).filter((path) => /\.(ts|tsx|mts|cts|js|jsx|mjs|cjs|css)$/.test(path))) {
+    const code = text(file).replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
+    const css = file.endsWith(".css");
+    for (const { kind, css: cssOnly, re } of REFERENCES) {
+      if (cssOnly && !css) continue;
+      for (const match of code.matchAll(re)) {
+        const [, quote, spec] = match;
+        const where = `${relative(ROOT, file)} imports ${spec}`;
+        if (quote === "`" && spec.includes("${")) {
+          errors.push(`src import is not a static string: ${where}`);
+        } else if (kind === "path" ? !EXTERNAL_URL.test(spec) : spec.startsWith(".") || spec.startsWith("/")) {
+          const target = spec.startsWith("/") ? spec : resolve(dirname(file), spec);
+          if (target !== srcDir && !target.startsWith(srcDir + sep)) errors.push(`src import leaves src/: ${where}`);
+        } else if (kind === "module" && spec !== "tailwindcss" && !SRC_ALLOWED_RE.test(spec)) {
+          errors.push(`src import not allowed (AGENTS.md Entry layout rule 1): ${where}`);
+        }
+      }
+    }
+  }
+  return [...new Set(errors)];
 }
 
 function loadCatalog() {
@@ -247,7 +299,7 @@ function search(entries, args) {
 }
 
 const [command = "help", ...args] = process.argv.slice(2);
-try {
+if (process.argv[1] === fileURLToPath(import.meta.url)) try {
   if (command === "build") {
     const entries = discover();
     const bans = discoverBans();

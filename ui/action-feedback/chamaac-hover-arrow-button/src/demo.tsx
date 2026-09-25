@@ -1,8 +1,9 @@
-import Example from "./examples/hover-arrow-button-demo";
-import { ChamaacFrame } from "../../../_sources/chamaac/frame";
-
-const examples = [{ name: "hover-arrow-button", title: "Hover Arrow Button", component: Example }];
+import HoverArrowButton from "./hover-arrow-button";
 
 export default function Demo() {
-  return <ChamaacFrame examples={examples} />;
+  return (
+    <div className="flex items-center justify-center">
+      <HoverArrowButton text="Get Started" duration={0.3} iconSize={20} onClick={() => console.log("Clicked!")} />
+    </div>
+  );
 }

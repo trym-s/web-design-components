@@ -1,4 +1,4 @@
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { spawnSync } from "node:child_process";
@@ -72,16 +72,21 @@ additional components. The site has no sitemap or robots inventory; both paths r
     const dir = join(ROOT, "ui", entry.category, entry.slug);
     const previewPath = join(dir, "preview.png");
     const existingPreview = existsSync(previewPath) ? readFileSync(previewPath) : null;
-    rmSync(dir, { recursive: true, force: true });
-    mkdirSync(join(dir, "src"), { recursive: true });
+    // `src/` (copy-paste component) and the README's `## Usage` are hand-derived from `upstream/`
+    // (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+    const readme = join(dir, "README.md");
+    const usage = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    const src = existsSync(join(dir, "src"));
+    for (const file of existsSync(dir) ? readdirSync(dir) : []) if (file !== "src") rmSync(join(dir, file), { recursive: true });
+    mkdirSync(join(dir, "upstream"), { recursive: true });
 
     let demo = readFileSync(join(siteRoot, "playground/demos", `${entry.demo}.tsx`), "utf8");
     demo = demo
       .replaceAll("from 'liquid-gooey'", "from '../../../_sources/liquid-gooey/src/index'")
       .replaceAll("from '../App'", "from './types'")
       .replaceAll("from '../assets/", "from './assets/");
-    writeFileSync(join(dir, "src/demo.tsx"), demo);
-    writeFileSync(join(dir, "src/types.ts"), `export interface DemoProps {
+    writeFileSync(join(dir, "upstream/demo.tsx"), demo);
+    writeFileSync(join(dir, "upstream/types.ts"), `export interface DemoProps {
   blur: number
   contrast: number
   shadow: string
@@ -92,14 +97,14 @@ additional components. The site has no sitemap or robots inventory; both paths r
 `);
 
     for (const asset of entry.assets) {
-      copy(join(siteRoot, "playground/assets", asset), join(dir, "src/assets", asset));
+      copy(join(siteRoot, "playground/assets", asset), join(dir, "upstream/assets", asset));
     }
 
     writeFileSync(join(dir, "reference.tsx"), `/* Use when: a React interface needs the upstream ${entry.title.toLowerCase()} interaction and its ${entry.effect} liquid behavior. */
 
 import "../../_sources/liquid-gooey/styles.css";
 import "../../_sources/liquid-gooey/demo.css";
-import { ${entry.demo} } from "./src/demo";
+import { ${entry.demo} } from "./upstream/demo";
 
 const shadow = "0 0 0 1px rgba(255,255,255,.04) inset, 0 2px 6px rgba(0,0,0,.24)";
 
@@ -127,13 +132,13 @@ as a reference and translate them into the target project's framework and conven
 
 ## Files
 
-- \`reference.tsx\` — dashboard wrapper using the upstream defaults
-- \`src/demo.tsx\` — pinned upstream demo with only local import-path rewrites
-- \`src/types.ts\` — the upstream demo prop contract extracted from its catalog host
+${src ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}- \`reference.tsx\` — dashboard wrapper using the upstream defaults
+- \`upstream/demo.tsx\` — pinned upstream demo with only local import-path rewrites
+- \`upstream/types.ts\` — the upstream demo prop contract extracted from its catalog host
 - \`preview.png\` — Chromium capture from the original public site
 - \`SOURCE.md\` — per-entry provenance and capture scope
 - \`ui/_sources/liquid-gooey/\` — complete library engine, shared CSS, license, and assets
-`);
+${usage ? `\n${usage.trimEnd()}\n` : ""}`);
 
     writeFileSync(join(dir, "SOURCE.md"), `# Source
 

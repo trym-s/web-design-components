@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-align-bottom/src/arrow-align-bottom.svg`
+- Entry point: `ui/icons/line-md/arrow-align-bottom/upstream/arrow-align-bottom.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-align-bottom/src/arrow-align-bottom.svg`
+- Local source: `ui/icons/line-md/arrow-align-bottom/upstream/arrow-align-bottom.svg`

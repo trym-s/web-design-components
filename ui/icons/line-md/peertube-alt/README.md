@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/peertube-alt/src/peertube-alt.svg`
+- Entry point: `ui/icons/line-md/peertube-alt/upstream/peertube-alt.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/peertube-alt/src/peertube-alt.svg`
+- Local source: `ui/icons/line-md/peertube-alt/upstream/peertube-alt.svg`

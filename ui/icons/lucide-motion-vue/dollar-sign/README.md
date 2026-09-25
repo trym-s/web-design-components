@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/dollar-sign/src/dollar-sign.vue`
+- Entry point: `ui/icons/lucide-motion-vue/dollar-sign/upstream/dollar-sign.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/dollar-sign/src/dollar-sign.vue`
+- Local source: `ui/icons/lucide-motion-vue/dollar-sign/upstream/dollar-sign.vue`

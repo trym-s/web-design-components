@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/exclamation-circle/src/exclamation-circle.tsx`
+- Entry point: `ui/icons/heroicons-animated/exclamation-circle/upstream/exclamation-circle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/exclamation-circle`
 - Registry: https://www.heroicons-animated.com/r/exclamation-circle.json
-- Local source fallback: `ui/icons/heroicons-animated/exclamation-circle/src/exclamation-circle.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/exclamation-circle/upstream/exclamation-circle.tsx`

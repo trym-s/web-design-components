@@ -1,7 +1,7 @@
 /* Use when: a button or circular control needs a live WebGL liquid-metal
  * ring with chromatic, silver, or gold presets. */
 
-import { MetalFx } from "./src";
+import { MetalFx } from "./upstream";
 
 export default function MetalFxReference() {
   return (

@@ -1,5 +1,9 @@
-import DiceRoll from "./dice-roll";
+import { DiceRoll } from "./dice-roll";
 
-export function DiceRollDemo() {
-  return <div style={{ width: "100%", height: 420 }}><DiceRoll /></div>;
+export default function Demo() {
+  return (
+    <div className="h-[420px] w-full max-w-3xl">
+      <DiceRoll />
+    </div>
+  );
 }

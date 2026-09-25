@@ -87,18 +87,25 @@ export function makeProj(yaw: number, tilt: number, cx: number, cy: number, scal
 }
 
 /**
- * Painter: z-sort far→near, matte grayscale dots. On dark substrates the
- * ink value is mirrored (1 - white) so near dots read bright — the same
- * depth language on an inverted substrate.
+ * The two theme colours dots are mixed between, as sRGB 0–255 triples: `fg` for ink value 0 (near,
+ * dark on paper) and `bg` for ink value 1. The component resolves them from `--foreground` /
+ * `--background`, so a dark theme mirrors the ink automatically.
  */
-export function paint(ctx: CanvasRenderingContext2D, dots: Dot[], dark: boolean, rMin = 0.3): void {
+export type Ink = { fg: [number, number, number]; bg: [number, number, number] };
+
+function inkColor(ink: Ink, white: number, alpha: number): string {
+  const w = Math.min(1, Math.max(0, white));
+  const [r, g, b] = ink.fg.map((c, i) => Math.round(c + (ink.bg[i] - c) * w));
+  return `rgb(${r} ${g} ${b} / ${alpha})`;
+}
+
+/** Painter: z-sort far→near, matte dots mixed between the ink colours. */
+export function paint(ctx: CanvasRenderingContext2D, dots: Dot[], ink: Ink, rMin = 0.3): void {
   dots.sort((a, b) => a.z - b.z);
   for (const d of dots) {
     const alpha = d.a ?? 1;
     if (alpha < 0.02) continue;
-    const w = Math.min(1, Math.max(0, d.white));
-    const g = Math.round((dark ? 1 - w : w) * 255);
-    ctx.fillStyle = `rgba(${g},${g},${g},${alpha})`;
+    ctx.fillStyle = inkColor(ink, d.white, alpha);
     ctx.beginPath();
     ctx.arc(d.x, d.y, Math.max(rMin, d.r), 0, Math.PI * 2);
     ctx.fill();
@@ -106,13 +113,11 @@ export function paint(ctx: CanvasRenderingContext2D, dots: Dot[], dark: boolean,
 }
 
 /** Stroke pass for edge-based modes. Runs before `paint` so nodes sit on top. */
-export function paintLines(ctx: CanvasRenderingContext2D, lines: Line[], dark: boolean): void {
+export function paintLines(ctx: CanvasRenderingContext2D, lines: Line[], ink: Ink): void {
   for (const l of lines) {
     const alpha = l.a ?? 1;
     if (alpha < 0.02) continue;
-    const w = Math.min(1, Math.max(0, l.white));
-    const g = Math.round((dark ? 1 - w : w) * 255);
-    ctx.strokeStyle = `rgba(${g},${g},${g},${alpha})`;
+    ctx.strokeStyle = inkColor(ink, l.white, alpha);
     ctx.lineWidth = l.w;
     ctx.beginPath();
     ctx.moveTo(l.x1, l.y1);

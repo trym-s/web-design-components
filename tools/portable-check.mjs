@@ -57,7 +57,7 @@ for (const entry of entries) {
     step.name = "render";
     const url = `${base}/${slug}/index.html${dark ? "#dark" : ""}`;
     const dom = await chromium("--dump-dom", url);
-    const error = dom.match(/<pre data-portable-error="">([\s\S]*?)<\/pre>/)?.[1];
+    const error = dom.match(/<pre data-portable-error(?:="[^"]*")?>([\s\S]*?)<\/pre>/)?.[1];
     if (error) throw new Error(error.split("\n").slice(0, 4).join("\n"));
     if (!/<main[^>]*>[\s\S]*?<\/main>/.test(dom) || /<main[^>]*><\/main>/.test(dom)) throw new Error("demo rendered nothing");
     mkdirSync(OUT, { recursive: true });

@@ -2,6 +2,7 @@ import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import vue from "@vitejs/plugin-vue";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
+import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
@@ -133,6 +134,11 @@ function personalIcons(): Plugin {
     },
   };
 }
+
+// Source panes read GitHub Raw at the exact commit being built (CI: GITHUB_SHA). VITE_RAW_ROOT overrides.
+process.env.VITE_RAW_ROOT ??= `https://raw.githubusercontent.com/trym-s/web-design-components/${
+  process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: __dirname, encoding: "utf8" }).trim()
+}/`;
 
 // Root is the repo root so `ui/` is inside the served tree and import.meta.glob
 // can reach the bank. The bank itself is never modified by the dashboard.

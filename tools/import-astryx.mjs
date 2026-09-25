@@ -54,7 +54,12 @@ const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
   return e.isDirectory() ? (e.name === "__tests__" || e.name === "node_modules" ? [] : walk(p)) : [p];
 });
 const isTest = (p) => /\.(test|spec)\.[cm]?[jt]sx?$|\.stories\.[jt]sx?$|__tests__/.test(p) && !p.endsWith(".spec.md");
-const write = (path, body) => { mkdirSync(dirname(path), { recursive: true }); writeFileSync(path, body); };
+const usage = new Map(); // README path -> its `## Usage` section, filled by the clean slate below
+const write = (path, body) => {
+  mkdirSync(dirname(path), { recursive: true });
+  // A regenerated README keeps the hand-written `## Usage` section it had before the re-import.
+  writeFileSync(path, usage.has(path) ? `${body.trimEnd()}\n\n${usage.get(path)}\n` : body);
+};
 const posix = (p) => p.split("\\").join("/");
 const rel = (from, to) => { const r = posix(relative(from, to)); return r.startsWith(".") ? r : `./${r}`; };
 const md = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\n+/g, " ").trim();
@@ -62,12 +67,17 @@ const firstSentence = (s) => md(s).match(/^.*?[.!?](\s|$)/)?.[0].trim() ?? md(s)
 const load = async (file) => Object.values(await import(pathToFileURL(file).href)).filter((d) => d && typeof d === "object" && d.name);
 
 // ---------------------------------------------------------------- clean slate
+// Captured output (static HTML, preview) and the hand-derived copy-paste `src/` plus the README's
+// `## Usage` section (AGENTS.md, Entry layout) survive a re-import; everything else is regenerated.
+const KEEP = new Set(["static", "preview.png", "src"]);
 for (const cat of readdirSync(UI)) {
   if (cat === "_sources" || !statSync(join(UI, cat)).isDirectory()) continue;
-  // Captured output (static HTML, preview) survives a re-import; everything else is regenerated.
   for (const d of readdirSync(join(UI, cat))) {
     if (!d.startsWith("astryx-")) continue;
-    for (const f of readdirSync(join(UI, cat, d))) if (f !== "static" && f !== "preview.png") rmSync(join(UI, cat, d, f), { recursive: true });
+    const readme = join(UI, cat, d, "README.md");
+    const section = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    if (section) usage.set(readme, section.trimEnd());
+    for (const f of readdirSync(join(UI, cat, d))) if (!KEEP.has(f)) rmSync(join(UI, cat, d, f), { recursive: true });
   }
 }
 rmSync(OUT, { recursive: true, force: true });

@@ -47,14 +47,22 @@ export interface Entry {
 }
 
 type CatalogEntry = (typeof catalog.entries)[number] & { files?: string[] };
-// `VITE_RAW_ROOT` points the viewer at another ref (e.g. a branch under review); main by default.
-const RAW_ROOT = import.meta.env.VITE_RAW_ROOT ?? "https://raw.githubusercontent.com/trym-s/web-design-components/main/";
+// The live catalog (and entries that exist only in it) come from `main`: adding a component updates
+// the viewer without a redeploy. Source panes of bundled entries read the commit this build was made
+// from (`VITE_RAW_ROOT`, set by vite.config.ts), so a branch preview shows its own files; in dev they
+// read the working tree through the dev server.
+const RAW_ROOT = "https://raw.githubusercontent.com/trym-s/web-design-components/main/";
+const SOURCE_ROOT = import.meta.env.VITE_RAW_ROOT ?? RAW_ROOT;
 const raw = (path: string) => `${RAW_ROOT}${path}`;
-const fetchText = (path: string) => () =>
-  fetch(raw(path)).then((result) => {
+const fetchText = (url: string) => () =>
+  fetch(url).then((result) => {
     if (!result.ok) throw new Error(`${result.status} ${result.statusText}`);
     return result.text();
   });
+const bundledSource = (path: string): (() => Promise<string>) =>
+  import.meta.env.DEV
+    ? () => import(/* @vite-ignore */ `/${path}?raw`).then((module) => module.default as string)
+    : fetchText(`${SOURCE_ROOT}${path}`);
 
 const refLoaders = import.meta.glob("/ui/**/reference.tsx");
 // The icon sets are 97% of the bank and their reference/README files are
@@ -71,7 +79,7 @@ const SOURCE_TREE = /^(src|upstream|registry)\//;
 const sourceFiles = (metadata: CatalogEntry) =>
   (metadata.files ?? [])
     .filter((path) => SOURCE_TREE.test(path))
-    .map((path) => ({ path, load: fetchText(`${metadata.paths.directory}/${path}`) }));
+    .map((path) => ({ path, load: bundledSource(`${metadata.paths.directory}/${path}`) }));
 
 const dirOf = (p: string) => p.slice(0, p.lastIndexOf("/"));
 
@@ -225,7 +233,7 @@ export async function loadLiveCatalog() {
     medium: metadata.medium,
     entryPoint: metadata.entryPoint,
     preview: metadata.paths.preview ? raw(metadata.paths.preview) : undefined,
-    files: (metadata.files ?? []).map((path) => ({ path, load: fetchText(`${metadata.paths.directory}/${path}`) })),
+    files: (metadata.files ?? []).map((path) => ({ path, load: fetchText(raw(`${metadata.paths.directory}/${path}`)) })),
     cssProfile: "none",
     kind: "react",
     status: metadata.status,

@@ -4,6 +4,6 @@ declare module "virtual:documented-dirs" {
 }
 
 interface ImportMetaEnv {
-  /** GitHub Raw base the viewer fetches the live catalog and source files from (trailing slash). */
+  /** GitHub Raw base (trailing slash) for bundled entries' source panes; vite.config.ts defaults it to the built commit. */
   readonly VITE_RAW_ROOT?: string;
 }

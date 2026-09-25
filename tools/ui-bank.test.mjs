@@ -81,11 +81,27 @@ test("copy-paste src/ may import only the Entry layout allowlist", () => {
       'import { Knob } from "@audio-ui/react";', 'import { cn } from "@/lib/utils";', 'import x from "../../_sources/x/y";',
       'import Link from "next/link";', 'const lazy = import("sonner");',
     ].join("\n"));
+    writeFileSync(join(src, "tight.tsx"), [
+      'import{a}from"pkg-tight";export{b}from"pkg-export";export*from"pkg-star";',
+      "const t = import(`pkg-template`); const u = import(`./${name}`);",
+      'const leak = new URL("../../leak.png", import.meta.url); const fine = new URL("./fine.png", import.meta.url);',
+      'const tw = "bg-[url(../../tw.png)]";',
+    ].join("\n"));
+    writeFileSync(join(src, "module.mts"), 'import m from "pkg-mts";');
+    writeFileSync(join(src, "common.cts"), 'const c = require("pkg-cts");');
+    writeFileSync(join(src, "style.css"), [
+      '@import "tailwindcss";', "@import url(pkg-css);", '@import url("../../outside.css");', '@plugin "pkg-plugin";',
+      '@source "../../../ui";', '.a { background: url("../../bg.png"); }', ".b { background: url(data:image/png;base64,AA); }",
+      '.c { mask: url(#m); } .d { background: url("./ok.png"); }',
+    ].join("\n"));
     const errors = srcImportErrors(src);
-    for (const spec of ["@audio-ui/react", "@/lib/utils", "../../_sources/x/y", "next/link", "sonner"]) {
-      assert.ok(errors.some((error) => error.endsWith(`imports ${spec}`)), spec);
-    }
-    assert.equal(errors.length, 5);
+    const expected = [
+      "@audio-ui/react", "@/lib/utils", "../../_sources/x/y", "next/link", "sonner", "pkg-tight", "pkg-export", "pkg-star",
+      "pkg-template", "./${name}", "../../leak.png", "../../tw.png", "pkg-mts", "pkg-cts", "pkg-css", "../../outside.css",
+      "pkg-plugin", "../../../ui", "../../bg.png",
+    ];
+    for (const spec of expected) assert.ok(errors.some((error) => error.endsWith(`imports ${spec}`)), spec);
+    assert.equal(errors.length, expected.length, errors.join("\n"));
   } finally {
     rmSync(root, { recursive: true, force: true });
   }

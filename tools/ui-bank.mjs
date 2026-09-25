@@ -216,26 +216,44 @@ function validate(entries) {
   return errors;
 }
 
+// What a `src/` file can reach. `module` specifiers are packages or relative paths; `path` specifiers
+// (asset URLs, Tailwind @source) are always files and must stay inside src/.
+const Q = String.raw`(["'\`])((?:(?!\1)[^\\\n])*)\1`;
+const REFERENCES = [
+  { kind: "module", re: new RegExp(String.raw`\b(?:import|export)\b[^;"'\`]*?\bfrom\s*` + Q, "g") }, // import x from "a", export{a}from"a"
+  { kind: "module", re: new RegExp(String.raw`\bimport\s*` + Q, "g") }, // import "a"
+  { kind: "module", re: new RegExp(String.raw`\b(?:import|require)\s*\(\s*` + Q, "g") }, // import("a"), require("a")
+  { kind: "path", re: new RegExp(String.raw`\bnew\s+URL\s*\(\s*` + Q + String.raw`\s*,\s*import\.meta\.url`, "g") },
+  { kind: "module", css: true, re: new RegExp(String.raw`@(?:import|plugin|reference)\s+` + Q, "g") },
+  { kind: "module", css: true, re: /@import\s+url\(\s*(["']?)([^"')\s]*)\1\s*\)/g }, // @import url(a)
+  { kind: "path", css: true, re: new RegExp(String.raw`@source\s+(?:not\s+)?` + Q, "g") },
+  { kind: "path", re: /\burl\(\s*(["']?)([^"')\s]*)\1\s*\)/g }, // CSS url(), also Tailwind arbitrary values
+];
+const EXTERNAL_URL = /^(?:[a-z][a-z\d+.-]*:|#|$)/i; // data:, https:, fragment refs
+
 /** Rule 1: a copy-paste `src/` imports only allowlisted packages and never leaves its own tree. */
 export function srcImportErrors(srcDir) {
   const errors = [];
-  for (const file of walk(srcDir).filter((path) => /\.(ts|tsx|js|jsx|mjs|css)$/.test(path))) {
+  for (const file of walk(srcDir).filter((path) => /\.(ts|tsx|mts|cts|js|jsx|mjs|cjs|css)$/.test(path))) {
     const code = text(file);
-    const specifiers = [...code.matchAll(/(?:^|[\s;])(?:import|export)\s[^'"]*?from\s*["']([^"']+)["']|(?:^|[\s;])import\s*["']([^"']+)["']|import\(\s*["']([^"']+)["']\s*\)|require\(\s*["']([^"']+)["']\s*\)|@import\s+(?:url\()?["']([^"']+)["']/gm)]
-      .map((m) => m.slice(1).find(Boolean));
-    for (const spec of specifiers) {
-      const where = `${relative(ROOT, file)} imports ${spec}`;
-      if (spec.startsWith(".")) {
-        const target = resolve(dirname(file), spec);
-        if (target !== srcDir && !target.startsWith(srcDir + sep)) errors.push(`src import leaves src/: ${where}`);
-      } else if (spec === "tailwindcss") {
-        continue; // Tailwind itself, pulled in from a stylesheet
-      } else if (!SRC_ALLOWED_RE.test(spec)) {
-        errors.push(`src import not allowed (AGENTS.md Entry layout rule 1): ${where}`);
+    const css = file.endsWith(".css");
+    for (const { kind, css: cssOnly, re } of REFERENCES) {
+      if (cssOnly && !css) continue;
+      for (const match of code.matchAll(re)) {
+        const [, quote, spec] = match;
+        const where = `${relative(ROOT, file)} imports ${spec}`;
+        if (quote === "`" && spec.includes("${")) {
+          errors.push(`src import is not a static string: ${where}`);
+        } else if (kind === "path" ? !EXTERNAL_URL.test(spec) : spec.startsWith(".") || spec.startsWith("/")) {
+          const target = spec.startsWith("/") ? spec : resolve(dirname(file), spec);
+          if (target !== srcDir && !target.startsWith(srcDir + sep)) errors.push(`src import leaves src/: ${where}`);
+        } else if (kind === "module" && spec !== "tailwindcss" && !SRC_ALLOWED_RE.test(spec)) {
+          errors.push(`src import not allowed (AGENTS.md Entry layout rule 1): ${where}`);
+        }
       }
     }
   }
-  return errors;
+  return [...new Set(errors)];
 }
 
 function loadCatalog() {

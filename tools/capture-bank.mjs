@@ -31,6 +31,7 @@ const SOURCES = {
   astryx: { list: "__astryxExamples", frame: "data-astryx-frame", example: "data-astryx-example", error: "data-astryx-error", css: "_sources/astryx/frame.css", label: (m) => `Astryx ${m.version} (${m.commit.slice(0, 7)})` },
   shadcn: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/shadcn/styles.css", label: (m) => `shadcn/ui ${m.commit.slice(0, 7)}` },
   // Stylesheet per flavour (entry.css); emails are rendered by the importer, not captured.
+  chamaac: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/chamaac/styles.css", label: (m) => `Chamaac UI ${m.commit.slice(0, 7)}` },
   "better-auth-ui": { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/better-auth-ui/shadcn.css", label: (m) => `Better Auth UI ${m.version} (${m.commit.slice(0, 7)})` },
 };
 const SOURCE = opt("--source") ?? "astryx";
@@ -224,8 +225,9 @@ if (args.includes("--previews")) {
     }
     // The live /themes page ignores its ?theme= seed, so a theme is shot from its own showcase render.
     if (entry.pkg === "theme") { url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}&example=theme`; selector = "[data-astryx-example] > *"; }
-    // Not on the shadcn site yet: shoot the bank's own render of its first example.
-    if (SOURCE === "shadcn" && !url && entry.captured?.length) { url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}&example=${encodeURIComponent(entry.captured[0])}`; selector = "[data-bank-example] > *"; }
+    if (entry.preview === "site") return; // the importer copied the site's own image
+    // No upstream page to shoot: the bank's own render of its first example.
+    if (!url && entry.captured?.length) { url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}&example=${encodeURIComponent(entry.captured[0])}`; selector = "[data-bank-example] > *"; }
     const out = join(ROOT, "ui", entry.id, "preview.png");
     if (!url) { report.previewFailed.push({ id: entry.id, reason: "no upstream page" }); return; }
     const ready = selector ? `!!document.querySelector('${selector}')?.children.length` : "document.readyState === 'complete'";

@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- Chamaac UI 345d79b: static render of action-feedback/chamaac-neo-brutalist-button / neo-brutalist-button.
+     Markup as React rendered it; class names resolve through styles.css. Behavior is not included:
+     re-implement it from README.md. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chamaac-neo-brutalist-button — neo-brutalist-button</title>
+<link rel="stylesheet" href="../../../_sources/chamaac/styles.css">
+<style>
+@keyframes shimmer { 
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+.shimmer-effect { transform: translateX(-100%); }
+.group:hover .shimmer-effect { animation: 0.2s linear 0s 1 normal forwards running shimmer; }
+</style>
+</head>
+<body>
+<div data-bank-frame="true" class="bg-background text-foreground antialiased" style="width: 100%; min-height: 100vh; box-sizing: border-box; padding: 24px;"><div data-bank-example="neo-brutalist-button" class="relative flex min-h-[500px] w-full items-center justify-center overflow-hidden rounded-xl border border-border"><div class="flex justify-center items-center h-[300px] w-full"><style>
+        @keyframes shimmer {
+          0% {
+            transform: translateX(-100%);
+          }
+          100% {
+            transform: translateX(200%);
+          }
+        }
+        .shimmer-effect {
+          transform: translateX(-100%);
+        }
+        .group:hover .shimmer-effect {
+          animation: shimmer 0.2s linear forwards;
+        }
+      </style><button class="group relative overflow-hidden px-6 py-3 cursor-pointer bg-[#ff90e8] text-black skew-x-[-10deg] transition-all duration-100 border-[1.5px] border-black shadow-[4px_4px_0_0_black] hover:shadow-[8px_8px_0_0_black]"><div class="shimmer-effect absolute top-0 bottom-0 left-0 w-1/2 bg-gradient-to-r from-transparent via-white/80 to-transparent z-0"></div><span class="relative z-10 inline-block skew-x-[10deg] text-lg font-medium">Neo Brutalist</span></button></div></div></div>
+
+</body>
+</html>

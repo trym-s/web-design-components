@@ -132,6 +132,8 @@ export default defineConfig({
       "next/link": resolve(__dirname, "dashboard/shims/next/link.tsx"),
       "next/image": resolve(__dirname, "dashboard/shims/next/image.tsx"),
       "next/font/google": resolve(__dirname, "dashboard/shims/next/font-google.ts"),
+      "next/navigation": resolve(__dirname, "dashboard/shims/next/navigation.ts"),
+      "geist/font/pixel": resolve(__dirname, "dashboard/shims/geist/font-pixel.ts"),
     },
     dedupe: ["react", "react-dom"],
   },

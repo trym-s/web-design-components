@@ -1,0 +1,37 @@
+"use client";
+
+import LiquidChrome from "../../../../_sources/chamaac/registry/chamaac/liquid-chrome/liquid-chrome";
+import { GeistPixelSquare } from "geist/font/pixel";
+
+export default function LiquidChromeDemo({
+  speed,
+  timeScale,
+  color,
+  color2,
+}: {
+  speed?: number;
+  timeScale?: number;
+  color?: string;
+  color2?: string;
+}) {
+  return (
+    <div className="relative w-full h-[600px] overflow-hidden">
+      <LiquidChrome
+        speed={speed}
+        timeScale={timeScale}
+        color={color}
+        color2={color2}
+      />
+
+      <div
+        className={`absolute inset-0 flex items-center justify-center pointer-events-none z-10 px-4 ${GeistPixelSquare.className}`}
+      >
+        <div className="text-center max-w-full">
+          <h1 className="text-7xl md:text-8xl font-bold text-white opacity-80 mix-blend-overlay uppercase drop-shadow-lg break-words text-center">
+            Liquid Chrome
+          </h1>
+        </div>
+      </div>
+    </div>
+  );
+}

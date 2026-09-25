@@ -3,3 +3,5 @@ const font = (family: string) => () => ({ className: "", style: { fontFamily: `"
 
 export default new Proxy({}, { get: (_, name) => font(String(name).replace(/_/g, " ")) });
 export const Vazirmatn = font("Vazirmatn");
+export const Outfit = font("Outfit");
+export const Inter = font("Inter");

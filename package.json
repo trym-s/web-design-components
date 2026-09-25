@@ -27,6 +27,7 @@
     "@astryxdesign/theme-neutral": "0.6.3-canary.e073c9f",
     "@astryxdesign/theme-stone": "0.6.3-canary.e073c9f",
     "@astryxdesign/theme-y2k": "0.6.3-canary.e073c9f",
+    "@audio-ui/react": "^0.1.2",
     "@base-ui/react": "^1.6.0",
     "@better-auth-ui/core": "^1.7.26",
     "@better-auth-ui/heroui": "^1.7.26",

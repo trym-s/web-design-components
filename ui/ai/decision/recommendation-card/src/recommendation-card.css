@@ -1,0 +1,5 @@
+/* Keyframes copied verbatim from the Beautiful UI snapshot. */
+@keyframes fade-in {
+  0% { opacity: 0; }
+  to { opacity: 1; }
+}

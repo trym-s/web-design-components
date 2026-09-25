@@ -15,7 +15,7 @@ const EVIDENCE = new Set(["verified", "review", "limited", "blocked"]);
 const CURATIONS = new Set(["pending", "curated"]);
 /** AGENTS.md "Entry layout" rule 1: the only packages a copy-paste `src/` may import. */
 const SRC_ALLOWED = [
-  "react", "react-dom", "radix-ui", "@base-ui/react", "class-variance-authority", "clsx",
+  "react", "react-dom", "radix-ui", "@radix-ui/react-[a-z-]+", "@base-ui/react", "class-variance-authority", "clsx",
   "tailwind-merge", "lucide-react", "motion", "three", "@react-three/fiber",
 ];
 const SRC_ALLOWED_RE = new RegExp(`^(${SRC_ALLOWED.join("|")})(/.*)?$`);

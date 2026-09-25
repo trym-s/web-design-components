@@ -75,23 +75,26 @@ Apply this to every new component and to every re-import.
 - `src/` — the component a target project uses. React targets copy it as-is; other stacks rebuild it
   from `src/` plus the README. It must satisfy all of:
   1. Imports only: `react`, `react-dom`, Tailwind classes, shadcn/ui components and their primitives
-     (`radix-ui`, `@base-ui/react`), `class-variance-authority`, `clsx`, `tailwind-merge`,
+     (`radix-ui`, `@radix-ui/react-*`, `@base-ui/react`), `class-variance-authority`, `clsx`, `tailwind-merge`,
      `lucide-react`, and — where the effect needs them — `motion` and `three` /
      `@react-three/fiber`. No source-library package, no Next.js (`next/*`, `next-themes`, `geist`),
-     no alias into this repo (`@/…`, `../../_sources/…`). Vendor what is needed into `src/`.
+     no `@/…` alias, no path leaving `src/`. Vendor what is needed into `src/`; shadcn/ui components
+     go in `src/ui/`, which a target that already has them points at its own copies.
   2. Every color, radius, font, and shadow resolves through shadcn tokens (`--background`,
      `--foreground`, `--primary`, `--muted`, `--border`, `--radius`, …) or a CSS variable the
      component declares with a default. No literal hex/rgb in component code, so rebranding means
-     changing tokens.
-  3. Content and behavior arrive through props and callbacks; sample data lives only in
-     `src/demo.tsx`. Components that front a service (auth, audio engine, network) expose UI state
+     changing tokens. Vendored shadcn/ui files in `src/ui/` are exempt.
+  3. Content and behavior arrive through props and callbacks; sample data and example
+     wiring (a simulated clock, a demo audio engine) live only in `src/demo.tsx`. Components that front a service (auth, audio engine, network) expose UI state
      and callbacks, not a client for that service.
   4. The README's `## Usage` section lists props, states, interactions, and keyboard behavior —
      enough to rebuild the component in plain HTML/CSS/JS without reading React.
 - Entries whose upstream cannot meet these rules (Astryx: StyleX; Better Auth UI HeroUI flavour:
   HeroUI package) carry `upstream/` only and stay visual references. Single-file captures may keep
   their upstream code in `reference.tsx` instead of `upstream/`.
-- `npm run catalog:check` enforces rule 1 on every `src/`.
+- `npm run catalog:check` enforces rule 1 on every `src/`; `npm run portable:check -- <id>` copies
+  `src/` into `tools/portable-fixture/` (Vite react-ts template + shadcn tokens), type-checks, builds,
+  and screenshots `demo.tsx`. Both must pass before a `src/` is committed.
 
 ## Investigate mode: when the user sends a URL and asks to find or capture components
 

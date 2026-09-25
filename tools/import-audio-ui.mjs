@@ -92,11 +92,18 @@ for (const { name, categories: cats } of listed) {
 }
 
 // ---------------------------------------------------------------- clean slate (captures survive)
+// `src/` (the copy-paste component) and the README's `## Usage` section are hand-derived from
+// `upstream/` (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+const KEEP = new Set(["static", "preview.png", "src"]);
+const usage = new Map();
 for (const cat of readdirSync(UI)) {
   if (cat === "_sources" || cat === "icons" || !statSync(join(UI, cat)).isDirectory()) continue;
   for (const d of readdirSync(join(UI, cat))) {
     if (!d.startsWith("audio-ui-")) continue;
-    for (const f of readdirSync(join(UI, cat, d))) if (f !== "static" && f !== "preview.png") rmSync(join(UI, cat, d, f), { recursive: true });
+    const readme = join(UI, cat, d, "README.md");
+    const section = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    if (section) usage.set(d, `${section.trimEnd()}\n`);
+    for (const f of readdirSync(join(UI, cat, d))) if (!KEEP.has(f)) rmSync(join(UI, cat, d, f), { recursive: true });
   }
 }
 rmSync(OUT, { recursive: true, force: true });
@@ -273,7 +280,9 @@ ${md(ref.description)}
 - Local source fallback: \`${elementFiles[0] ?? `ui/${ref.category}/audio-ui-${ref.slug}/upstream/examples/${basename(examples[0].file)}`}\`
 
 ## How an agent uses this reference
-
+${existsSync(join(dir, "src")) ? `
+- **React + Tailwind v4 + shadcn tokens** — copy \`src/\` as-is (it vendors the \`@audio-ui/react\` primitives it needs and
+  imports only allowlisted packages); \`src/demo.tsx\` shows the wiring with sample data. See \`## Usage\`.` : ""}
 - **React + shadcn target** — add the \`@audio\` registry (\`${SITE}/docs/registry\`) and install as above; the demos in
   \`upstream/examples/\` show the exact usage. The elements live in \`ui/_sources/audio-ui/registry-audio/bases/base/audio/\`.
 - **Any other stack** — \`static/<example>.html\` is the rendered DOM against \`ui/_sources/audio-ui/styles.css\` (the
@@ -285,11 +294,11 @@ ${examples.map((e) => `- \`upstream/examples/${basename(e.file)}\` — ${md(e.de
 
 ## Files
 
-${elementFiles.map((f) => `- \`${f}\` — the element as the registry installs it`).join("\n")}${elementFiles.length ? "\n" : ""}- \`upstream/demo.tsx\` — bank harness mounting every example
+${existsSync(join(dir, "src")) ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}${elementFiles.map((f) => `- \`${f}\` — the element as the registry installs it`).join("\n")}${elementFiles.length ? "\n" : ""}- \`upstream/demo.tsx\` — bank harness mounting every example
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${ref.page ?? `${REPO}/tree/main/apps/www/src/registry-audio/bases/base/${posix(relative(join(BASES, "base"), examples[0].file))}`}
-`);
+${usage.has(`audio-ui-${ref.slug}`) ? `\n${usage.get(`audio-ui-${ref.slug}`)}` : ""}`);
   write(join(dir, "SOURCE.md"), `# Source
 
 - Site: ${ref.page ?? SITE}

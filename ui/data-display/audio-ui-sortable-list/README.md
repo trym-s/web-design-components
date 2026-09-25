@@ -21,6 +21,8 @@ A drag-and-drop sortable list component built with dnd-kit.
 
 ## How an agent uses this reference
 
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (it vendors the `@audio-ui/react` primitives it needs and
+  imports only allowlisted packages); `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
 - **React + shadcn target** — add the `@audio` registry (`https://audio-ui.xyz/docs/registry`) and install as above; the demos in
   `upstream/examples/` show the exact usage. The elements live in `ui/_sources/audio-ui/registry-audio/bases/base/audio/`.
 - **Any other stack** — `static/<example>.html` is the rendered DOM against `ui/_sources/audio-ui/styles.css` (the
@@ -32,8 +34,27 @@ A drag-and-drop sortable list component built with dnd-kit.
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `ui/_sources/audio-ui/registry-audio/bases/base/audio/sortable-list.tsx` — the element as the registry installs it
 - `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://audio-ui.xyz/docs/components/base/sortable-list
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--primary`, `--ring`, …).
+It imports only `react`, `@base-ui/react`, `class-variance-authority`, `clsx`, `tailwind-merge` and `lucide-react`. `src/ui/` holds the shadcn/ui
+components it builds on; point those imports at the target's own copies when it has them. `src/demo.tsx` is sample
+data and wiring only.
+
+### Sortable list — `sortable-list.tsx`
+
+- Parts: `SortableList` (`items: { id }[]`, `onChange(items)` with the new order, `renderItem(item, index)`, `className`),
+  `SortableItem` (`id`; wraps one row in an `<li>`), `SortableDragHandle` (the grip button that starts a drag).
+- Structure: a plain `<ul>`; the row being moved drops to 40 % opacity with a shadow and a `--ring` outline; a visually
+  hidden `aria-live` region announces pick-up, moves and drop.
+- Interactions: drag the grip; the list reorders live as the row passes the nearest neighbour (distance to row centres,
+  so it also works in grids).
+- Keyboard (grip focused): Space / Enter lifts the row, arrow keys move it one place, Space / Enter drops it, Escape
+  restores the order from before the lift.

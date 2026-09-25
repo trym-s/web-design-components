@@ -1,0 +1,676 @@
+/* The Art of Color Depth — button depth by technique, not by color.
+ *
+ * Six ways to give a flat button real depth. Each is a different METHOD; the
+ * colors are just variables you swap. Every recipe styles the same markup:
+ *
+ *   <button class="depth-btn depth-<type>">
+ *     <span class="depth-label">Get Started</span>
+ *   </button>
+ *
+ * The depth never comes from one drop shadow. It is layers stacked on the same
+ * element: a base gradient (the body), inset shadows (the bevel and inner glow),
+ * a ::before that fades in on hover (the light turning on), and often a ::after
+ * highlight (the specular sheen). Copy the shared base plus the one type you want.
+ */
+
+/* Colour tokens: every colour of the upstream stylesheet as a variable with the upstream value (oklch).
+   Shared ones live on .depth-btn; each material declares its own on its class. Override any of them. */
+.depth-btn {
+  --depth-white: oklch(1 0 0);
+  --depth-black: oklch(0 0 0);
+  --depth-knob-dark: oklch(0.305 0.021 265.9);
+  --depth-slate-deep: oklch(0.27 0.036 265.6);
+  --depth-slate: oklch(0.394 0.036 264);
+}
+.depth-glossy {
+  --depth-glossy-1: oklch(0.821 0.149 72.1);
+  --depth-glossy-2: oklch(0.659 0.166 48.4);
+  --depth-glossy-3: oklch(0.918 0.088 84.9);
+  --depth-glossy-4: oklch(0.945 0.05 79.9);
+  --depth-glossy-5: oklch(0.551 0.146 45.9);
+  --depth-glossy-6: oklch(0.606 0.152 47.9);
+  --depth-glossy-7: oklch(0.341 0.088 52);
+}
+.depth-glow {
+  --depth-glow-1: oklch(0.958 0.034 322.9);
+  --depth-glow-2: oklch(0.201 0.096 320.5);
+  --depth-glow-3: oklch(0.238 0.103 304);
+  --depth-glow-4: oklch(0.54 0.249 313.9);
+  --depth-glow-5: oklch(0.733 0.202 314.3);
+  --depth-glow-6: oklch(0.594 0.287 309);
+  --depth-glow-7: oklch(0.501 0.243 309.3);
+  --depth-glow-8: oklch(0.349 0.177 294.4);
+  --depth-glow-9: oklch(0.62 0.292 314.4);
+  --depth-glow-10: oklch(0.797 0.183 332.1);
+  --depth-glow-11: oklch(0.817 0.15 335.9);
+  --depth-glow-12: oklch(0.68 0.252 315.4);
+}
+.depth-metal {
+  --depth-metal-1: oklch(0.253 0.028 266.4);
+  --depth-metal-2: oklch(0.972 0.005 258.3);
+  --depth-metal-3: oklch(0.837 0.018 261.3);
+  --depth-metal-4: oklch(0.762 0.022 261.8);
+  --depth-metal-5: oklch(0.883 0.014 258.3);
+}
+.depth-inset {
+  --depth-inset-1: oklch(0.501 0.026 260.7);
+  --depth-inset-2: oklch(0.915 0.01 261.8);
+  --depth-inset-3: oklch(0.957 0.007 260.7);
+}
+.depth-glass {
+  --depth-glass-1: oklch(0.338 0.158 271.3);
+}
+.depth-foil {
+  --depth-foil-1: oklch(0.239 0.032 252.9);
+  --depth-foil-2: oklch(0.949 0 0);
+  --depth-foil-3: oklch(0.894 0 0);
+  --depth-foil-4: oklch(0.836 0 0);
+  --depth-foil-5: oklch(0.931 0 0);
+  --depth-foil-6: oklch(0.823 0.145 214.7);
+  --depth-foil-7: oklch(0.896 0.169 163.9);
+  --depth-foil-8: oklch(0.925 0.209 127.8);
+  --depth-foil-9: oklch(0.919 0.171 100.1);
+  --depth-foil-10: oklch(0.693 0.24 348.8);
+  --depth-foil-11: oklch(0.62 0.232 295.5);
+  --depth-foil-12: oklch(0.61 0.211 263.4);
+  --depth-foil-13: oklch(0.945 0.013 244.3);
+  --depth-foil-14: oklch(0.879 0.018 240);
+  --depth-foil-15: oklch(0.935 0.014 241);
+  --depth-foil-16: oklch(0.607 0.215 257);
+  --depth-foil-17: oklch(0.651 0.266 356.6);
+  --depth-foil-18: oklch(0.882 0.02 240.8);
+}
+.depth-neon {
+  --depth-neon-1: oklch(0.874 0.14 203.4);
+  --depth-neon-2: oklch(0.983 0.021 200.4);
+  --depth-neon-3: oklch(0.171 0.015 253.2);
+}
+.depth-duotone {
+  --depth-duotone-1: oklch(0.751 0.161 47);
+  --depth-duotone-2: oklch(0.672 0.189 38.4);
+  --depth-duotone-3: oklch(0.443 0.131 40.2);
+  --depth-duotone-4: oklch(0.916 0.056 62.7);
+  --depth-duotone-5: oklch(0.574 0.173 37.6);
+  --depth-duotone-6: oklch(0.525 0.158 37.6);
+  --depth-duotone-7: oklch(0.477 0.142 37.9);
+  --depth-duotone-8: oklch(0.394 0.118 38.5);
+}
+.depth-satin {
+  --depth-satin-1: oklch(0.47 0.1 307.5);
+  --depth-satin-2: oklch(0.633 0.121 300.3);
+  --depth-satin-3: oklch(0.913 0.043 301.7);
+  --depth-satin-4: oklch(0.666 0.12 300.5);
+}
+
+/* ── shared base (same for every type) ─────────────────────────────────────── */
+.depth-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 999px;
+  font: 500 15px/1 var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+  letter-spacing: 0.01em;
+  color: var(--depth-white);
+  cursor: pointer;
+  isolation: isolate; /* keep the ::before/::after layers under the label */
+  overflow: hidden; /* clip every decoration layer to the pill */
+  -webkit-tap-highlight-color: transparent;
+  /* No scale/lift on the button itself — each material animates only its own
+     look (a glint, a glow) on hover/press, nothing generic. */
+  transition:
+    filter 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.depth-label {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+}
+/* icon variant: a square button (same material, different silhouette) */
+.depth-btn.depth-icon {
+  width: 44px;
+  padding: 0;
+  border-radius: calc(var(--radius, 0.625rem) + 4px); /* 14px at the shadcn default radius */
+}
+
+/* ── Toggle switch: the material is the TRACK; a solid knob slides on top ───── */
+.depth-btn.depth-toggle {
+  width: 76px;
+  padding: 0;
+  cursor: pointer;
+}
+/* the knob — a smaller, textured circle that rides above the material and glides.
+   Texture: a soft top highlight + a faint bottom shade baked into the background,
+   plus a hairline rim, so it reads as a rounded physical dot, not a flat disc. */
+.depth-knob {
+  position: absolute;
+  z-index: 3;
+  top: 7px;
+  left: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background:
+    radial-gradient(120% 120% at 50% 22%, color-mix(in srgb, var(--depth-white) calc(var(--knob-hi, 0.55) * 100%), transparent), color-mix(in srgb, var(--depth-white) 0%, transparent) 55%),
+    radial-gradient(120% 120% at 50% 100%, color-mix(in srgb, var(--depth-black) calc(var(--knob-lo, 0.22) * 100%), transparent), color-mix(in srgb, var(--depth-black) 0%, transparent) 55%),
+    var(--knob, var(--depth-white));
+  box-shadow:
+    0 1px 2px color-mix(in srgb, var(--depth-black) 35%, transparent),
+    0 2px 5px color-mix(in srgb, var(--depth-black) 22%, transparent),
+    inset 0 1px 1px color-mix(in srgb, var(--depth-white) calc(var(--knob-hi, 0.5) * 100%), transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-black) 6%, transparent);
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.depth-toggle[data-on="true"] .depth-knob {
+  transform: translateX(32px);
+}
+/* off state reads a little dimmer, so "on" is clearly the lit one */
+.depth-toggle[data-on="false"] {
+  filter: saturate(0.6) brightness(0.94);
+}
+/* per-material knob colour: dark knob on the pale materials, white elsewhere.
+   Dark knobs get much softer texture (the highlight/shade would read as heavy
+   gloss on a near-black circle). */
+.depth-inset,
+.depth-satin,
+.depth-metal,
+.depth-glass {
+  --knob: var(--depth-knob-dark);
+  --knob-hi: 0.14;
+  --knob-lo: 0.08;
+}
+.depth-btn::before,
+.depth-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+}
+/* ::before defaults to visible now; materials that want it hidden set opacity:0
+   themselves. (No generic white sheen-fade on hover.) */
+
+/* ── Glossy — a specular highlight bar over a gradient body ──────────────────
+   The classic app-button look. A bright-to-dark gradient body, faint inner rim
+   light, a dark inset at the bottom for weight, and a blurred white bar that
+   overhangs the top edge like studio lighting on plastic. */
+.depth-glossy {
+  overflow: hidden; /* clip the highlight bar to the pill */
+  background: linear-gradient(180deg, var(--depth-glossy-1) 0%, var(--depth-glossy-2) 100%);
+  box-shadow:
+    inset 0 -1px 4.1px 0.5px color-mix(in srgb, var(--depth-glossy-3) 55%, transparent),
+    inset 0 0 4px 0 var(--depth-glossy-4),
+    inset 0 -36px 14.2px -28px color-mix(in srgb, var(--depth-glossy-5) 50%, transparent),
+    0 3px 8px color-mix(in srgb, var(--depth-glossy-6) 35%, transparent);
+  text-shadow: 0 1px 2px color-mix(in srgb, var(--depth-glossy-7) 50%, transparent);
+}
+.depth-glossy::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: -5px;
+  height: 28px;
+  border-radius: 500px;
+  background: linear-gradient(to top, color-mix(in srgb, var(--depth-white) 0%, transparent), var(--depth-white));
+  filter: blur(1px);
+  opacity: 0.7;
+  transition: opacity 0.3s ease, top 0.3s ease;
+  z-index: 1;
+}
+.depth-glossy:hover::after {
+  opacity: 0.9;
+  top: -3px;
+}
+
+/* ── Glow — a solid body lit from inside, hover turns the light up ───────────
+   No specular. The depth is an internal glow: a dark-to-bright gradient with
+   inset color glows, and a ::before that swaps to a brighter gradient with crisp
+   light along the lower inner edge — the button appears to power on. */
+.depth-glow {
+  color: var(--depth-glow-1);
+  text-shadow: 0 1px 2px color-mix(in srgb, var(--depth-glow-2) 55%, transparent);
+  background: linear-gradient(180deg, var(--depth-glow-3) 0%, var(--depth-glow-4) 100%);
+  box-shadow:
+    inset 0 -1.5px 2px 0 var(--depth-glow-5),
+    inset 0 0 10px 0 var(--depth-glow-6),
+    inset 0 0 8px 0 var(--depth-glow-6),
+    0 2px 6px color-mix(in srgb, var(--depth-glow-7) 35%, transparent);
+}
+/* the brighter "light on" layer: hidden at rest, fades in on hover */
+.depth-glow::before {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  background: linear-gradient(180deg, var(--depth-glow-8) 9%, var(--depth-glow-9) 100%);
+  box-shadow:
+    inset 0 -0.5px 1px 0 var(--depth-glow-10),
+    inset 0 -1px 3px 0 var(--depth-glow-10),
+    inset 0 -1.5px 5px 0 var(--depth-glow-11),
+    inset 0 0 12px 0 var(--depth-glow-12),
+    inset 0 0 10px 0 var(--depth-glow-12);
+}
+.depth-glow:hover::before {
+  opacity: 1;
+}
+
+/* ── Metal — brushed surface with a bevel and a sheen that follows the cursor ─
+   A cool vertical gradient with a bright top bevel and dark bottom bevel, a
+   faint vertical "brushing", and a diagonal specular streak (::after) whose
+   position tracks --pointer-x (a driver updates it while hovering; it rests in
+   the centre). The glint slides to wherever the light "hits" as you move. */
+.depth-metal {
+  --pointer-x: 50%; /* driven by JS on hover; falls back to centre */
+  color: var(--depth-metal-1);
+  text-shadow: 0 1px 0 color-mix(in srgb, var(--depth-white) 55%, transparent);
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--depth-white) 5%, transparent) 0px,
+      color-mix(in srgb, var(--depth-black) 4%, transparent) 1px,
+      color-mix(in srgb, var(--depth-white) 5%, transparent) 2px
+    ),
+    linear-gradient(180deg, var(--depth-metal-2) 0%, var(--depth-metal-3) 48%, var(--depth-metal-4) 52%, var(--depth-metal-5) 100%);
+  box-shadow:
+    inset 0 1px 0 0 color-mix(in srgb, var(--depth-white) 90%, transparent),
+    inset 0 -1px 1px 0 color-mix(in srgb, var(--depth-slate-deep) 35%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 25%, transparent),
+    0 3px 8px color-mix(in srgb, var(--depth-slate-deep) 28%, transparent);
+}
+/* the moving glint: a soft band positioned at the cursor's x (smoothed in CSS) */
+.depth-metal::after {
+  opacity: 0.85;
+  background: radial-gradient(
+    120% 140% at var(--pointer-x, 50%) -20%,
+    color-mix(in srgb, var(--depth-white) 85%, transparent) 0%,
+    color-mix(in srgb, var(--depth-white) 25%, transparent) 18%,
+    color-mix(in srgb, var(--depth-white) 0%, transparent) 42%
+  );
+  transition: opacity 0.3s ease, background 0.12s linear;
+}
+.depth-metal:hover::after {
+  opacity: 1;
+}
+
+/* ── Layered — depth from soft translucent overlays over any fill ────────────
+   No baked colours: a translucent black base plus faint layers, so it adds depth
+   to a button of ANY fill. Kept smooth — one gentle top→bottom dome on the body,
+   a soft top sheen (::before, fades on press), and a clean even hairline rim
+   (::after). Nothing heavy or uneven. */
+.depth-layered {
+  overflow: hidden;
+  /* One smooth translucent body — no heavy center-shade. A single gentle
+     top-to-bottom lightening does the doming, so it reads clean over any fill. */
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--depth-white) 10%, transparent) 0%,
+      color-mix(in srgb, var(--depth-white) 0%, transparent) 40%,
+      color-mix(in srgb, var(--depth-black) 12%, transparent) 100%
+    ),
+    color-mix(in srgb, var(--depth-black) 55%, transparent);
+}
+/* layer 1 — a soft top sheen (fades in on hover, off on press) */
+.depth-layered::before {
+  opacity: 0.1;
+  background: linear-gradient(180deg, var(--depth-white) 0%, color-mix(in srgb, var(--depth-white) 0%, transparent) 60%);
+  transition: opacity 0.2s ease;
+}
+.depth-layered:hover::before {
+  opacity: 0.15;
+}
+.depth-layered:active::before {
+  opacity: 0;
+  transition-duration: 0.05s;
+}
+/* layer 2 — a clean, even hairline rim (soft, not the uneven white/grey band) */
+.depth-layered::after {
+  opacity: 1;
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 16%, transparent),
+    inset 0 1px 0 0 color-mix(in srgb, var(--depth-white) 14%, transparent);
+}
+
+/* ── Inset — carved INTO the surface (the only recessed one) ─────────────────
+   Unlike every other type (which sit ON the page), this one reads as a hole cut
+   into it. The trick: the fill is NEARLY the page colour, so it looks like the
+   same surface pushed inward — then a hard dark shadow along the TOP inner edge
+   (the near wall the light can't reach) and a bright highlight along the BOTTOM
+   inner edge + a 1px light lip just BELOW the button (the far rim catching light).
+   No outer drop shadow (recessed things don't float). Tuned for a light page. */
+.depth-inset {
+  color: var(--depth-inset-1);
+  text-shadow: 0 1px 0 color-mix(in srgb, var(--depth-white) 70%, transparent);
+  background: linear-gradient(180deg, var(--depth-inset-2) 0%, var(--depth-inset-3) 100%);
+  box-shadow:
+    inset 0 3px 4px -1px color-mix(in srgb, var(--depth-slate) 50%, transparent),
+    inset 0 6px 10px -6px color-mix(in srgb, var(--depth-slate) 45%, transparent),
+    inset 0 -2px 2px -1px color-mix(in srgb, var(--depth-white) 95%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-slate) 12%, transparent),
+    0 1px 0 0 color-mix(in srgb, var(--depth-white) 90%, transparent); /* the lit far lip below the cut */
+}
+.depth-inset:hover {
+  transform: none; /* recessed things don't lift */
+  box-shadow:
+    inset 0 4px 6px -1px color-mix(in srgb, var(--depth-slate) 58%, transparent),
+    inset 0 8px 12px -6px color-mix(in srgb, var(--depth-slate) 50%, transparent),
+    inset 0 -2px 2px -1px var(--depth-white),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-slate) 16%, transparent),
+    0 1px 0 0 color-mix(in srgb, var(--depth-white) 90%, transparent);
+}
+.depth-inset:active {
+  /* press flattens the depth — the cut shallows */
+  box-shadow:
+    inset 0 1px 2px 0 color-mix(in srgb, var(--depth-slate) 40%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-slate) 12%, transparent);
+}
+
+/* ── Glass — real refraction through an SVG displacement filter ──────────────
+   The background is bent through the button, not just blurred. A tiny SVG filter
+   (feImage of a red/blue gradient map -> three per-channel feDisplacementMaps ->
+   blended) refracts what is behind it, then we stack glass highlights on top: a
+   gradient border ring (::before), an inner diagonal shine (::after), a top edge
+   light line, and a layered outer glow. Needs the <svg id="liquid-glass-filter">
+   present in the document (see color-depth.html). Put it over something colorful.
+   Falls back to a plain blur where url() backdrop filters aren't supported. */
+.depth-glass {
+  /* white text reads on the (often busy/photo) background behind the glass */
+  color: var(--depth-white);
+  text-shadow: 0 1px 3px color-mix(in srgb, var(--depth-black) 45%, transparent);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--depth-white) 12%, transparent) 0%,
+    color-mix(in srgb, var(--depth-white) 5%, transparent) 50%,
+    color-mix(in srgb, var(--depth-white) 12%, transparent) 100%
+  );
+  -webkit-backdrop-filter: blur(2px) saturate(1.5) brightness(1.05);
+  backdrop-filter: blur(2px) saturate(1.5) brightness(1.05);
+  box-shadow:
+    0 8px 32px color-mix(in srgb, var(--depth-glass-1) 15%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 18%, transparent),
+    0 4px 24px color-mix(in srgb, var(--depth-black) 6%, transparent),
+    inset 0 1px 1px color-mix(in srgb, var(--depth-white) 40%, transparent);
+}
+@supports (backdrop-filter: url(#liquid-glass-filter)) or
+  (-webkit-backdrop-filter: url(#liquid-glass-filter)) {
+  .depth-glass {
+    -webkit-backdrop-filter: url(#liquid-glass-filter) saturate(1.5) brightness(1.05);
+    backdrop-filter: url(#liquid-glass-filter) saturate(1.5) brightness(1.05);
+  }
+}
+.depth-glass::before {
+  opacity: 1;
+  padding: 1px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--depth-white) 50%, transparent) 0%,
+    color-mix(in srgb, var(--depth-white) 10%, transparent) 45%,
+    transparent 100%
+  );
+  -webkit-mask:
+    linear-gradient(var(--depth-white) 0 0) content-box,
+    linear-gradient(var(--depth-white) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.depth-glass::after {
+  opacity: 0.8;
+  inset: 2px;
+  border-radius: inherit;
+  background:
+    linear-gradient(to right, transparent 10%, color-mix(in srgb, var(--depth-white) 60%, transparent) 50%, transparent 90%)
+      top / 100% 1px no-repeat,
+    linear-gradient(135deg, color-mix(in srgb, var(--depth-white) 30%, transparent) 0%, transparent 50%, color-mix(in srgb, var(--depth-white) 5%, transparent) 100%);
+}
+.depth-glass:hover {
+  box-shadow:
+    0 12px 40px color-mix(in srgb, var(--depth-glass-1) 20%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 25%, transparent),
+    0 6px 30px color-mix(in srgb, var(--depth-black) 8%, transparent),
+    inset 0 2px 2px color-mix(in srgb, var(--depth-white) 50%, transparent);
+}
+
+/* ── Foil — iridescent metal that reacts to the cursor ───────────────────────
+   The richest one: a silver metal base with a holographic rainbow that shifts,
+   soft coloured "film" blobs, a pearly sheen, a moving shine band and a glare
+   dot at the cursor. Built from stacked CHILD layers (not just pseudo-elements)
+   because it needs five. A tiny JS driver feeds --pointer-x/y, --glare-x/y,
+   --foil-shift and --shine-angle while hovering; without JS it still shows a
+   handsome static foil. Markup:
+     <button class="depth-btn depth-foil">
+       <span class="depth-foil-l depth-foil-base"></span>
+       <span class="depth-foil-l depth-foil-film"></span>
+       <span class="depth-foil-l depth-foil-pearl"></span>
+       <span class="depth-label">Get Started</span>
+       <span class="depth-foil-l depth-foil-shine"></span>
+       <span class="depth-foil-l depth-foil-glare"></span>
+     </button>  */
+.depth-foil {
+  --foil-shift: 0%;
+  --glare-x: 50%;
+  --glare-y: 50%;
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+  --shine-angle: 135deg;
+  color: var(--depth-foil-1);
+  text-shadow: 0 1px 0 color-mix(in srgb, var(--depth-white) 50%, transparent);
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--depth-foil-2) 0%, var(--depth-foil-3) 40%, var(--depth-foil-4) 72%, var(--depth-foil-5) 100%);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 50%, transparent),
+    inset 0 1px 1px color-mix(in srgb, var(--depth-white) 70%, transparent),
+    inset 0 -2px 4px color-mix(in srgb, var(--depth-slate) 30%, transparent),
+    0 3px 10px color-mix(in srgb, var(--depth-slate-deep) 30%, transparent);
+}
+.depth-foil-l {
+  position: absolute;
+  inset: -48%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+/* the rainbow band over silver — visible at rest, and it drifts on its own so
+   the foil shimmers without the cursor. The JS driver nudges --foil-shift on
+   hover, which composes on top of the ambient drift via translateX. */
+.depth-foil-base {
+  background: linear-gradient(
+    112deg,
+    transparent 22%,
+    color-mix(in srgb, var(--depth-foil-6) 40%, transparent) 30%,
+    color-mix(in srgb, var(--depth-foil-7) 34%, transparent) 36%,
+    color-mix(in srgb, var(--depth-foil-8) 26%, transparent) 41%,
+    color-mix(in srgb, var(--depth-foil-9) 24%, transparent) 47%,
+    color-mix(in srgb, var(--depth-foil-10) 36%, transparent) 55%,
+    color-mix(in srgb, var(--depth-foil-11) 36%, transparent) 63%,
+    color-mix(in srgb, var(--depth-foil-12) 30%, transparent) 70%,
+    transparent 80%
+  );
+  background-size: 240% 100%;
+  filter: saturate(1.3) contrast(1.25);
+  /* Ambient drift ONLY (background-position). The pointer does NOT move this
+     layer — that's what made it jump/lose state on hover. The rainbow just
+     glides on its own; the cursor drives the highlight layers below instead. */
+  animation: depth-foil-drift 7s ease-in-out infinite alternate;
+}
+/* soft coloured film blobs — also visible at rest, gently breathing */
+.depth-foil-film {
+  background:
+    radial-gradient(ellipse at 20% 30%, color-mix(in srgb, var(--depth-foil-10) 34%, transparent) 0%, transparent 48%),
+    radial-gradient(ellipse at 70% 20%, color-mix(in srgb, var(--depth-foil-6) 34%, transparent) 0%, transparent 52%),
+    radial-gradient(ellipse at 78% 74%, color-mix(in srgb, var(--depth-foil-7) 34%, transparent) 0%, transparent 56%);
+  background-size: 150% 150%, 160% 160%, 145% 145%;
+  filter: blur(0.4px) saturate(1.4);
+  mix-blend-mode: screen;
+  opacity: 0.7;
+  animation: depth-foil-drift 9s ease-in-out infinite alternate-reverse;
+}
+@keyframes depth-foil-drift {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: 100% center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .depth-foil-base,
+  .depth-foil-film {
+    animation: none;
+  }
+}
+/* pearly sheen — a soft moving highlight that tracks the cursor smoothly */
+.depth-foil-pearl {
+  z-index: 2;
+  inset: 0; /* keep it on-box so its position math is stable, no jump */
+  background: radial-gradient(
+    120% 120% at var(--glare-x, 50%) var(--glare-y, 50%),
+    color-mix(in srgb, var(--depth-foil-13) 60%, transparent) 0%,
+    color-mix(in srgb, var(--depth-foil-14) 20%, transparent) 26%,
+    transparent 58%
+  );
+  mix-blend-mode: soft-light;
+  opacity: 0.95;
+  transition: background 0.12s linear; /* smooth the cursor tracking */
+}
+/* the travelling shine band, angled by the cursor */
+.depth-foil-shine {
+  z-index: 4;
+  inset: 0;
+  background: linear-gradient(
+    var(--shine-angle, 120deg),
+    transparent 30%,
+    color-mix(in srgb, var(--depth-foil-15) 50%, transparent) 48%,
+    color-mix(in srgb, var(--depth-foil-16) 10%, transparent) 58%,
+    color-mix(in srgb, var(--depth-foil-17) 10%, transparent) 66%,
+    transparent 82%
+  );
+  background-size: 200% 100%;
+  background-position: calc(var(--pointer-x, 50%)) center;
+  filter: blur(0.25px);
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  transition: background-position 0.12s linear;
+}
+/* a bright glare dot right under the cursor */
+.depth-foil-glare {
+  z-index: 5;
+  inset: 0;
+  background: radial-gradient(
+    circle at var(--glare-x, 50%) var(--glare-y, 50%),
+    color-mix(in srgb, var(--depth-foil-13) 55%, transparent) 0%,
+    color-mix(in srgb, var(--depth-foil-18) 16%, transparent) 10%,
+    transparent 38%
+  );
+  mix-blend-mode: screen;
+  opacity: 0.5;
+  transition: background 0.12s linear;
+}
+@media (prefers-reduced-motion: reduce) {
+  .depth-foil-l {
+    transition: none;
+  }
+}
+
+/* ── Neon — a crisp lit outline (a clean line, not a bloom) ──────────────────
+   Restrained on purpose: the depth is one precise bright RING drawn as a solid
+   line, with only a whisper of glow so it reads as a lit tube, not a shadow
+   storm. A very slight inner tint from the bottom grounds the body. Hover firms
+   the line and adds the faintest bloom. Refined, "in line", not shadowy. */
+.depth-neon {
+  --neon: var(--depth-neon-1);
+  color: var(--depth-neon-2);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--depth-neon-1) 0%, transparent) 55%, color-mix(in srgb, var(--neon) 12%, transparent) 100%),
+    var(--depth-neon-3);
+  text-shadow: 0 0 5px color-mix(in srgb, var(--neon) 55%, transparent);
+}
+/* the ring: a clean 1px line with only the faintest inner glow — no outer bloom */
+.depth-neon::before {
+  opacity: 1;
+  box-shadow:
+    inset 0 0 0 1px var(--neon),
+    inset 0 0 2px 0 color-mix(in srgb, var(--neon) 45%, transparent);
+  transition: box-shadow 0.25s ease;
+}
+.depth-neon:hover::before {
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--neon) 55%, var(--depth-white)),
+    inset 0 0 4px 0 color-mix(in srgb, var(--neon) 60%, transparent),
+    0 0 4px -2px color-mix(in srgb, var(--neon) 50%, transparent);
+}
+
+/* ── Duotone — a hard-bevel extruded key (crisp, not soft) ───────────────────
+   No blur in the depth: a bright top FACE gradient, then a solid darker "side"
+   under it built from stacked 1px box-shadows (the extrusion), so it looks like
+   a chunky moulded plastic key. Pressing pushes it down onto its own side. */
+.depth-duotone {
+  background: linear-gradient(180deg, var(--depth-duotone-1) 0%, var(--depth-duotone-2) 100%);
+  color: var(--depth-white);
+  text-shadow: 0 1px 0 color-mix(in srgb, var(--depth-duotone-3) 60%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, var(--depth-duotone-4) 90%, transparent),
+    /* the extruded side: stacked hard shadows in the darker tone */
+    0 1px 0 var(--depth-duotone-5),
+    0 2px 0 var(--depth-duotone-5),
+    0 3px 0 var(--depth-duotone-6),
+    0 4px 0 var(--depth-duotone-6),
+    0 5px 0 var(--depth-duotone-7),
+    0 6px 0 var(--depth-duotone-7),
+    0 8px 8px color-mix(in srgb, var(--depth-duotone-8) 35%, transparent);
+  transition:
+    transform 0.12s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.12s ease;
+}
+.depth-duotone:hover {
+  transform: translateY(-1px);
+}
+.depth-duotone:active {
+  /* slam down onto the extrusion */
+  transform: translateY(5px);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, var(--depth-duotone-4) 90%, transparent),
+    0 1px 0 var(--depth-duotone-6),
+    0 2px 4px color-mix(in srgb, var(--depth-duotone-8) 35%, transparent);
+}
+
+/* ── Satin — a single flat colour with the softest possible dome ─────────────
+   Deliberately the OPPOSITE of Glossy: no gradient body, no specular, no top
+   light bar. One solid pastel, and the only depth is a very soft radial vignette
+   baked into the background (brighter centre, a hair darker at the rim) plus a
+   whisper-thin inner ring. Nothing hard anywhere — pure smooth matte. */
+.depth-satin {
+  color: var(--depth-satin-1);
+  text-shadow: 0 1px 1px color-mix(in srgb, var(--depth-white) 60%, transparent);
+  background:
+    radial-gradient(
+      120% 140% at 50% 38%,
+      color-mix(in srgb, var(--depth-white) 50%, transparent) 0%,
+      color-mix(in srgb, var(--depth-white) 0%, transparent) 55%
+    ),
+    radial-gradient(
+      130% 130% at 50% 100%,
+      color-mix(in srgb, var(--depth-satin-2) 22%, transparent) 0%,
+      color-mix(in srgb, var(--depth-satin-2) 0%, transparent) 60%
+    ),
+    var(--depth-satin-3);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 45%, transparent),
+    0 6px 18px -6px color-mix(in srgb, var(--depth-satin-4) 40%, transparent);
+  transition:
+    filter 0.25s ease,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.depth-satin:hover {
+  filter: brightness(1.03);
+}
+.depth-satin:active {
+  box-shadow:
+    inset 0 2px 6px 0 color-mix(in srgb, var(--depth-satin-2) 40%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--depth-white) 40%, transparent);
+}

@@ -13,6 +13,7 @@
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`
 - `upstream/swirl/playground.tsx`
 - `upstream/swirl/experiments.tsx`
 - `upstream/swirl/controls.tsx`
@@ -36,3 +37,25 @@ agent verbatim when you want the effect ported into a target project. Read `upst
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/midjourney
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens. It imports only `react`; the stage hook, WebGL2
+renderer, vortex/trail fields, CRT pass, glyph atlas and ASCII fonts are the upstream files (colours parsed from any CSS
+colour instead of hex; the playground, controls and experiments are left out). `src/demo.tsx` shows the "Arlan" preset
+with trail and shockwaves on, plus a Replay button.
+
+### AsciiSwirl — `ascii-swirl.tsx`
+
+- Props: `rows` (pre-baked ASCII wordmark rows) or `word` + `fontStyle` (`slant` default, `standard`, `ogre`, `doom`, `big`,
+  `speed`, `stop`, `subzero`, `banner` — rendered live), `text` (the field text glyphs are sampled from; long, varied lines),
+  `zoom` (0.62 → rows of glyphs = 22 / zoom), `scanlines` (0.4), `aberration` (1), `curvature` (1), `trail` (cursor wake),
+  `shock` (click shockwaves), `turbulence` (0–1 ambient ripple) + `wavePattern`, `fallback` (shown without WebGL2), `className`;
+  ref handle `replay()` restarts the formation.
+- Structure: a rounded (`rounded-xl`, 1 px `--border`) box with a 16∶10 `role="img"` canvas on `--swirl-bg`. The canvas is a
+  grid of monospace cells; each frame the field text flows through the grid in a vortex that condenses into the wordmark
+  (cells on the word switch to bold glyphs in `--swirl-logo`, the rest are `--swirl-ink`), then a CRT pass adds scanlines,
+  RGB aberration and barrel curvature. Defaults: ink `oklch(0.882 0 0)`, logo `oklch(1 0 0)`, bg `oklch(0.155 0.002 286.2)`.
+- Motion: the formation runs on mount / `replay()`; the loop pauses off screen. Pointer movement bends the field
+  (spring-smoothed); with `trail` it leaves a decaying wake; with `shock` each press sends a ring shockwave (2.4 s life).
+- Keyboard: none (decorative); give the wordmark real text elsewhere for assistive tech (the canvas is labelled with `word`).

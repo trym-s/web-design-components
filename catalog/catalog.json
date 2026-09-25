@@ -562,6 +562,128 @@
       }
     },
     {
+      "id": "action-feedback/audio-ui-playback-speed",
+      "title": "Audio Ui Playback Speed",
+      "category": "action-feedback",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "audio",
+        "composable",
+        "feedback",
+        "interactive",
+        "playback",
+        "player",
+        "speed"
+      ],
+      "useWhen": "A composable audio player.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Audio Player with 1 documented example",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "player-playback-speed-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/player-playback-speed-demo.tsx",
+        "static/player-playback-speed-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/player",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/audio-ui-playback-speed",
+        "reference": "ui/action-feedback/audio-ui-playback-speed/reference.tsx",
+        "readme": "ui/action-feedback/audio-ui-playback-speed/README.md",
+        "source": "ui/action-feedback/audio-ui-playback-speed/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/audio-ui-playback-speed/preview.png"
+      }
+    },
+    {
+      "id": "action-feedback/audio-ui-transport",
+      "title": "Audio Ui Transport",
+      "category": "action-feedback",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "action",
+        "and",
+        "audio",
+        "buffered",
+        "control",
+        "feedback",
+        "for",
+        "interactions",
+        "interactive",
+        "keyboard",
+        "playback",
+        "pointer",
+        "progress",
+        "range",
+        "scrubbing",
+        "timeline",
+        "transport",
+        "visualization",
+        "wheel",
+        "with"
+      ],
+      "useWhen": "Timeline transport control for playback progress and scrubbing, with buffered range visualization, keyboard, wheel, and pointer interactions.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Transport with 1 documented example",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/transport.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "transport-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/transport-demo.tsx",
+        "static/transport-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/transport",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/transport.tsx"
+      },
+      "paths": {
+        "directory": "ui/action-feedback/audio-ui-transport",
+        "reference": "ui/action-feedback/audio-ui-transport/reference.tsx",
+        "readme": "ui/action-feedback/audio-ui-transport/README.md",
+        "source": "ui/action-feedback/audio-ui-transport/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/action-feedback/audio-ui-transport/preview.png"
+      }
+    },
+    {
       "id": "action-feedback/better-auth-ui-heroui-theme-toggle-item",
       "title": "Better Auth Ui Heroui Theme Toggle Item",
       "category": "action-feedback",
@@ -8033,6 +8155,181 @@
       }
     },
     {
+      "id": "content/audio-ui-block-player",
+      "title": "Audio Ui Block Player",
+      "category": "content",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "content",
+        "interactive",
+        "player"
+      ],
+      "useWhen": "Audio player",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Player block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-player.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-player"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-player.tsx",
+        "static/block-player.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-player",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/content/audio-ui-block-player",
+        "reference": "ui/content/audio-ui-block-player/reference.tsx",
+        "readme": "ui/content/audio-ui-block-player/README.md",
+        "source": "ui/content/audio-ui-block-player/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/content/audio-ui-block-player/preview.png"
+      }
+    },
+    {
+      "id": "content/audio-ui-block-player-widget",
+      "title": "Audio Ui Block Player Widget",
+      "category": "content",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "content",
+        "interactive",
+        "list",
+        "player",
+        "track",
+        "widget",
+        "with"
+      ],
+      "useWhen": "Audio player with track list",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Player Widget block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-player-widget.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-player-widget"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-player-widget.tsx",
+        "static/block-player-widget.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-player-widget",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/content/audio-ui-block-player-widget",
+        "reference": "ui/content/audio-ui-block-player-widget/reference.tsx",
+        "readme": "ui/content/audio-ui-block-player-widget/README.md",
+        "source": "ui/content/audio-ui-block-player-widget/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/content/audio-ui-block-player-widget/preview.png"
+      }
+    },
+    {
+      "id": "content/audio-ui-player",
+      "title": "Audio Ui Player",
+      "category": "content",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "composable",
+        "content",
+        "interactive",
+        "player"
+      ],
+      "useWhen": "A composable audio player.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Audio Player with 5 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "player-demo",
+        "player-queue-demo",
+        "player-variant-demo",
+        "player-size-demo",
+        "player-stacked-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/player-demo.tsx",
+        "src/examples/player-queue-demo.tsx",
+        "src/examples/player-size-demo.tsx",
+        "src/examples/player-stacked-demo.tsx",
+        "src/examples/player-variant-demo.tsx",
+        "static/player-demo.html",
+        "static/player-queue-demo.html",
+        "static/player-size-demo.html",
+        "static/player-stacked-demo.html",
+        "static/player-variant-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/player",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/content/audio-ui-player",
+        "reference": "ui/content/audio-ui-player/reference.tsx",
+        "readme": "ui/content/audio-ui-player/README.md",
+        "source": "ui/content/audio-ui-player/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/content/audio-ui-player/preview.png"
+      }
+    },
+    {
       "id": "content/better-auth-ui-change-email-confirmation-email",
       "title": "Better Auth Ui Change Email Confirmation Email",
       "category": "content",
@@ -10671,6 +10968,250 @@
         "source": "ui/data-display/astryx-tree-list/SOURCE.md",
         "prompt": null,
         "preview": "ui/data-display/astryx-tree-list/preview.png"
+      }
+    },
+    {
+      "id": "data-display/audio-ui-block-queue",
+      "title": "Audio Ui Block Queue",
+      "category": "data-display",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "controls",
+        "data",
+        "display",
+        "interactive",
+        "queue"
+      ],
+      "useWhen": "Queue controls",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Queue block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-queue.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-queue"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-queue.tsx",
+        "static/block-queue.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-queue",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/audio-ui-block-queue",
+        "reference": "ui/data-display/audio-ui-block-queue/reference.tsx",
+        "readme": "ui/data-display/audio-ui-block-queue/README.md",
+        "source": "ui/data-display/audio-ui-block-queue/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/audio-ui-block-queue/preview.png"
+      }
+    },
+    {
+      "id": "data-display/audio-ui-queue",
+      "title": "Audio Ui Queue",
+      "category": "data-display",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "composable",
+        "data",
+        "display",
+        "interactive",
+        "player",
+        "queue"
+      ],
+      "useWhen": "A composable audio player.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Audio Player with 4 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "player-queue-shuffle-repeat-demo",
+        "player-queue-preferences-demo",
+        "player-queue-simple-demo",
+        "player-queue-all-controls-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/player-queue-all-controls-demo.tsx",
+        "src/examples/player-queue-preferences-demo.tsx",
+        "src/examples/player-queue-shuffle-repeat-demo.tsx",
+        "src/examples/player-queue-simple-demo.tsx",
+        "static/player-queue-all-controls-demo.html",
+        "static/player-queue-preferences-demo.html",
+        "static/player-queue-shuffle-repeat-demo.html",
+        "static/player-queue-simple-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/player",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/audio-ui-queue",
+        "reference": "ui/data-display/audio-ui-queue/reference.tsx",
+        "readme": "ui/data-display/audio-ui-queue/README.md",
+        "source": "ui/data-display/audio-ui-queue/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/audio-ui-queue/preview.png"
+      }
+    },
+    {
+      "id": "data-display/audio-ui-sortable-list",
+      "title": "Audio Ui Sortable List",
+      "category": "data-display",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "built",
+        "component",
+        "data",
+        "display",
+        "dnd",
+        "drag",
+        "drop",
+        "interactive",
+        "kit",
+        "list",
+        "sortable",
+        "with"
+      ],
+      "useWhen": "A drag-and-drop sortable list component built with dnd-kit.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Sortable List with 1 documented example",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/sortable-list.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "sortable-list-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/sortable-list-demo.tsx",
+        "static/sortable-list-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/sortable-list",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/sortable-list.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/audio-ui-sortable-list",
+        "reference": "ui/data-display/audio-ui-sortable-list/reference.tsx",
+        "readme": "ui/data-display/audio-ui-sortable-list/README.md",
+        "source": "ui/data-display/audio-ui-sortable-list/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/audio-ui-sortable-list/preview.png"
+      }
+    },
+    {
+      "id": "data-display/audio-ui-track",
+      "title": "Audio Ui Track",
+      "category": "data-display",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "composable",
+        "data",
+        "display",
+        "interactive",
+        "player",
+        "track"
+      ],
+      "useWhen": "A composable audio player.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Audio Player with 5 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "player-track-demo",
+        "player-track-list-demo",
+        "player-track-list-grid-demo",
+        "player-track-sortable-list-demo",
+        "player-track-sortable-list-grid-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/player-track-demo.tsx",
+        "src/examples/player-track-list-demo.tsx",
+        "src/examples/player-track-list-grid-demo.tsx",
+        "src/examples/player-track-sortable-list-demo.tsx",
+        "src/examples/player-track-sortable-list-grid-demo.tsx",
+        "static/player-track-demo.html",
+        "static/player-track-list-demo.html",
+        "static/player-track-list-grid-demo.html",
+        "static/player-track-sortable-list-demo.html",
+        "static/player-track-sortable-list-grid-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/player",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx"
+      },
+      "paths": {
+        "directory": "ui/data-display/audio-ui-track",
+        "reference": "ui/data-display/audio-ui-track/reference.tsx",
+        "readme": "ui/data-display/audio-ui-track/README.md",
+        "source": "ui/data-display/audio-ui-track/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/data-display/audio-ui-track/preview.png"
       }
     },
     {
@@ -240105,6 +240646,1340 @@
         "source": "ui/input/astryx-typeahead/SOURCE.md",
         "prompt": null,
         "preview": "ui/input/astryx-typeahead/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip",
+      "title": "Audio Ui Block Channel Strip",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "footer",
+        "header",
+        "input",
+        "interactive",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with fader, header, and footer",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip.tsx",
+        "static/block-channel-strip.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip",
+        "reference": "ui/input/audio-ui-block-channel-strip/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader",
+      "title": "Audio Ui Block Channel Strip Fader",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "input",
+        "interactive",
+        "minimal",
+        "section",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with a minimal fader section",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Fader block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-fader.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-fader"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-fader.tsx",
+        "static/block-channel-strip-fader.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-fader",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-fader",
+        "reference": "ui/input/audio-ui-block-channel-strip-fader/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-fader/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-fader/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-fader/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-gain-db",
+      "title": "Audio Ui Block Channel Strip Fader Gain Db",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "bipolar",
+        "block",
+        "channel",
+        "fader",
+        "gain",
+        "input",
+        "interactive",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with bipolar gain fader (-60 dB to +6 dB)",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Fader Gain Db block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-fader-gain-db.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-fader-gain-db"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-fader-gain-db.tsx",
+        "static/block-channel-strip-fader-gain-db.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-fader-gain-db",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-fader-gain-db",
+        "reference": "ui/input/audio-ui-block-channel-strip-fader-gain-db/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-fader-gain-db/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-fader-gain-db/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-fader-gain-db/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-horizontal",
+      "title": "Audio Ui Block Channel Strip Fader Horizontal",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "horizontal",
+        "input",
+        "interactive",
+        "minimal",
+        "orientation",
+        "section",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with a minimal fader section in horizontal orientation",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Fader Horizontal block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-fader-horizontal.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-fader-horizontal"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-fader-horizontal.tsx",
+        "static/block-channel-strip-fader-horizontal.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-fader-horizontal",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-fader-horizontal",
+        "reference": "ui/input/audio-ui-block-channel-strip-fader-horizontal/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-fader-horizontal/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-fader-horizontal/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-fader-horizontal/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-multi",
+      "title": "Audio Ui Block Channel Strip Fader Multi",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "input",
+        "interactive",
+        "multi",
+        "multiple",
+        "row",
+        "strip",
+        "strips"
+      ],
+      "useWhen": "Multiple fader channel strips in a row",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Fader Multi block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-fader-multi.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-fader-multi"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-fader-multi.tsx",
+        "static/block-channel-strip-fader-multi.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-fader-multi",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-fader-multi",
+        "reference": "ui/input/audio-ui-block-channel-strip-fader-multi/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-fader-multi/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-fader-multi/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-fader-multi/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-slider",
+      "title": "Audio Ui Block Channel Strip Fader Slider",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "horizontal",
+        "inline",
+        "input",
+        "interactive",
+        "label",
+        "slider",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with horizontal fader and inline label",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Fader Slider block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-fader-slider.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-fader-slider"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-fader-slider.tsx",
+        "static/block-channel-strip-fader-slider.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-fader-slider",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-fader-slider",
+        "reference": "ui/input/audio-ui-block-channel-strip-fader-slider/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-fader-slider/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-fader-slider/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-fader-slider/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-horizontal",
+      "title": "Audio Ui Block Channel Strip Horizontal",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "fader",
+        "horizontal",
+        "input",
+        "interactive",
+        "orientation",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with fader in horizontal orientation",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Horizontal block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-horizontal.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-horizontal"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-horizontal.tsx",
+        "static/block-channel-strip-horizontal.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-horizontal",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-horizontal",
+        "reference": "ui/input/audio-ui-block-channel-strip-horizontal/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-horizontal/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-horizontal/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-horizontal/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-level",
+      "title": "Audio Ui Block Channel Strip Knob Level",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "level",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with a level knob",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Knob Level block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-knob-level.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-knob-level"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-knob-level.tsx",
+        "static/block-channel-strip-knob-level.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-knob-level",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-knob-level",
+        "reference": "ui/input/audio-ui-block-channel-strip-knob-level/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-knob-level/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-knob-level/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-knob-level/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-macro",
+      "title": "Audio Ui Block Channel Strip Knob Macro",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "macro",
+        "oversized",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with an oversized macro knob",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Knob Macro block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-knob-macro.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-knob-macro"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-knob-macro.tsx",
+        "static/block-channel-strip-knob-macro.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-knob-macro",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-knob-macro",
+        "reference": "ui/input/audio-ui-block-channel-strip-knob-macro/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-knob-macro/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-knob-macro/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-knob-macro/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-multi",
+      "title": "Audio Ui Block Channel Strip Knob Multi",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "multi",
+        "multiple",
+        "row",
+        "strip",
+        "strips"
+      ],
+      "useWhen": "Multiple knob channel strips in a row",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Knob Multi block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-knob-multi.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-knob-multi"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-knob-multi.tsx",
+        "static/block-channel-strip-knob-multi.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-knob-multi",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-knob-multi",
+        "reference": "ui/input/audio-ui-block-channel-strip-knob-multi/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-knob-multi/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-knob-multi/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-knob-multi/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-pan",
+      "title": "Audio Ui Block Channel Strip Knob Pan",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "bipolar",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "pan",
+        "strip",
+        "with"
+      ],
+      "useWhen": "Channel strip with a bipolar pan knob",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Knob Pan block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-knob-pan.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-knob-pan"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-knob-pan.tsx",
+        "static/block-channel-strip-knob-pan.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-knob-pan",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-knob-pan",
+        "reference": "ui/input/audio-ui-block-channel-strip-knob-pan/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-knob-pan/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-knob-pan/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-knob-pan/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-pan-width",
+      "title": "Audio Ui Block Channel Strip Knob Pan Width",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "knobs",
+        "pan",
+        "row",
+        "strip",
+        "width",
+        "with"
+      ],
+      "useWhen": "Channel strip with pan and width knobs in a row",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Knob Pan Width block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-knob-pan-width.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-knob-pan-width"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-knob-pan-width.tsx",
+        "static/block-channel-strip-knob-pan-width.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-knob-pan-width",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-knob-pan-width",
+        "reference": "ui/input/audio-ui-block-channel-strip-knob-pan-width/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-knob-pan-width/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-knob-pan-width/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-knob-pan-width/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-transport",
+      "title": "Audio Ui Block Channel Strip Transport",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "bar",
+        "block",
+        "channel",
+        "horizontal",
+        "input",
+        "interactive",
+        "orientation",
+        "seek",
+        "strip",
+        "transport",
+        "with"
+      ],
+      "useWhen": "Channel strip with transport seek bar in horizontal orientation",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Transport block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-transport.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-transport"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-transport.tsx",
+        "static/block-channel-strip-transport.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-transport",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-transport",
+        "reference": "ui/input/audio-ui-block-channel-strip-transport/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-transport/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-transport/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-transport/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-transport-vertical",
+      "title": "Audio Ui Block Channel Strip Transport Vertical",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "bar",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "orientation",
+        "seek",
+        "strip",
+        "transport",
+        "vertical",
+        "with"
+      ],
+      "useWhen": "Channel strip with transport seek bar in vertical orientation",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Transport Vertical block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-transport-vertical.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-transport-vertical"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-transport-vertical.tsx",
+        "static/block-channel-strip-transport-vertical.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-transport-vertical",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-transport-vertical",
+        "reference": "ui/input/audio-ui-block-channel-strip-transport-vertical/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-transport-vertical/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-transport-vertical/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-transport-vertical/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-xypad-filter",
+      "title": "Audio Ui Block Channel Strip Xypad Filter",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "audio",
+        "block",
+        "channel",
+        "filter",
+        "input",
+        "interactive",
+        "pad",
+        "strip",
+        "with",
+        "xypad"
+      ],
+      "useWhen": "Channel strip with an XY filter pad",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Xypad Filter block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-xypad-filter.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-xypad-filter"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-xypad-filter.tsx",
+        "static/block-channel-strip-xypad-filter.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-xypad-filter",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-xypad-filter",
+        "reference": "ui/input/audio-ui-block-channel-strip-xypad-filter/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-xypad-filter/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-xypad-filter/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-xypad-filter/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-xypad-reverb",
+      "title": "Audio Ui Block Channel Strip Xypad Reverb",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "channel",
+        "input",
+        "interactive",
+        "knob",
+        "pad",
+        "reverb",
+        "spatial",
+        "strip",
+        "wet",
+        "with",
+        "xypad"
+      ],
+      "useWhen": "Channel strip with XY spatial pad and wet knob",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Channel Strip Xypad Reverb block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-channel-strip-xypad-reverb.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-channel-strip-xypad-reverb"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-channel-strip-xypad-reverb.tsx",
+        "static/block-channel-strip-xypad-reverb.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-channel-strip-xypad-reverb",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/channel-strip.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-channel-strip-xypad-reverb",
+        "reference": "ui/input/audio-ui-block-channel-strip-xypad-reverb/reference.tsx",
+        "readme": "ui/input/audio-ui-block-channel-strip-xypad-reverb/README.md",
+        "source": "ui/input/audio-ui-block-channel-strip-xypad-reverb/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-channel-strip-xypad-reverb/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-pocket-synth",
+      "title": "Audio Ui Block Pocket Synth",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "filter",
+        "input",
+        "interactive",
+        "oscillator",
+        "pad",
+        "pocket",
+        "synth",
+        "with"
+      ],
+      "useWhen": "Pocket synth with oscillator, filter, and XY pad",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Pocket Synth block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-pocket-synth.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-pocket-synth"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-pocket-synth.tsx",
+        "static/block-pocket-synth.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-pocket-synth",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/xypad.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-pocket-synth",
+        "reference": "ui/input/audio-ui-block-pocket-synth/reference.tsx",
+        "readme": "ui/input/audio-ui-block-pocket-synth/README.md",
+        "source": "ui/input/audio-ui-block-pocket-synth/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-pocket-synth/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-block-wave-shaper",
+      "title": "Audio Ui Block Wave Shaper",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "block",
+        "controls",
+        "detune",
+        "distortion",
+        "input",
+        "interactive",
+        "shaper",
+        "synth",
+        "tone",
+        "wave",
+        "with"
+      ],
+      "useWhen": "Wave shaper synth with distortion, tone, and detune controls",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Wave Shaper block",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "src/examples/block-wave-shaper.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "block-wave-shaper"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/block-wave-shaper.tsx",
+        "static/block-wave-shaper.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/block-wave-shaper",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/xypad.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-block-wave-shaper",
+        "reference": "ui/input/audio-ui-block-wave-shaper/reference.tsx",
+        "readme": "ui/input/audio-ui-block-wave-shaper/README.md",
+        "source": "ui/input/audio-ui-block-wave-shaper/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-block-wave-shaper/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-fader",
+      "title": "Audio Ui Fader",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "adjustment",
+        "and",
+        "audio",
+        "control",
+        "fader",
+        "for",
+        "gain",
+        "input",
+        "interactive",
+        "keyboard",
+        "linear",
+        "mark",
+        "orientation",
+        "parameter",
+        "pointer",
+        "slider",
+        "thumb",
+        "variants",
+        "wheel",
+        "with"
+      ],
+      "useWhen": "Linear slider control for gain and parameter adjustment with pointer, wheel, keyboard, orientation, and thumb mark variants.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Fader with 4 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/fader.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "fader-vertical-demo",
+        "fader-horizontal-demo",
+        "fader-size-variants-demo",
+        "fader-thumb-marks-variants-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/fader-horizontal-demo.tsx",
+        "src/examples/fader-size-variants-demo.tsx",
+        "src/examples/fader-thumb-marks-variants-demo.tsx",
+        "src/examples/fader-vertical-demo.tsx",
+        "static/fader-horizontal-demo.html",
+        "static/fader-size-variants-demo.html",
+        "static/fader-thumb-marks-variants-demo.html",
+        "static/fader-vertical-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/fader",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/fader.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-fader",
+        "reference": "ui/input/audio-ui-fader/reference.tsx",
+        "readme": "ui/input/audio-ui-fader/README.md",
+        "source": "ui/input/audio-ui-fader/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-fader/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-knob",
+      "title": "Audio Ui Knob",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "control",
+        "double",
+        "drag",
+        "fader",
+        "for",
+        "input",
+        "interactive",
+        "keyboard",
+        "knob",
+        "optional",
+        "pan",
+        "parameters",
+        "reset",
+        "rotary",
+        "style",
+        "tap",
+        "vertical",
+        "via",
+        "wheel"
+      ],
+      "useWhen": "Rotary control for parameters - drag, wheel, keyboard, optional fader-style vertical pan, and reset via double-tap.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "Knob with 11 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/knob.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "knob-demo",
+        "knob-disabled-demo",
+        "knob-size-variants-demo",
+        "knob-fine-step-demo",
+        "knob-filter-control-demo",
+        "knob-change-vs-commit-demo",
+        "knob-arc-and-anchor-demo",
+        "knob-circular-arc-demo",
+        "knob-double-tap-reset-demo",
+        "knob-revolution-drag-demo",
+        "knob-vertical-drag-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/knob-arc-and-anchor-demo.tsx",
+        "src/examples/knob-change-vs-commit-demo.tsx",
+        "src/examples/knob-circular-arc-demo.tsx",
+        "src/examples/knob-demo.tsx",
+        "src/examples/knob-disabled-demo.tsx",
+        "src/examples/knob-double-tap-reset-demo.tsx",
+        "src/examples/knob-filter-control-demo.tsx",
+        "src/examples/knob-fine-step-demo.tsx",
+        "src/examples/knob-revolution-drag-demo.tsx",
+        "src/examples/knob-size-variants-demo.tsx",
+        "src/examples/knob-vertical-drag-demo.tsx",
+        "static/knob-arc-and-anchor-demo.html",
+        "static/knob-change-vs-commit-demo.html",
+        "static/knob-circular-arc-demo.html",
+        "static/knob-demo.html",
+        "static/knob-disabled-demo.html",
+        "static/knob-double-tap-reset-demo.html",
+        "static/knob-filter-control-demo.html",
+        "static/knob-fine-step-demo.html",
+        "static/knob-revolution-drag-demo.html",
+        "static/knob-size-variants-demo.html",
+        "static/knob-vertical-drag-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/knob",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/knob.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-knob",
+        "reference": "ui/input/audio-ui-knob/reference.tsx",
+        "readme": "ui/input/audio-ui-knob/README.md",
+        "source": "ui/input/audio-ui-knob/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-knob/preview.png"
+      }
+    },
+    {
+      "id": "input/audio-ui-xypad",
+      "title": "Audio Ui Xypad",
+      "category": "input",
+      "source": "audio-ui",
+      "nature": "interactive",
+      "roles": [
+        "structure",
+        "behavior"
+      ],
+      "curation": "pending",
+      "capabilities": [
+        "and",
+        "audio",
+        "automating",
+        "control",
+        "dimensional",
+        "for",
+        "input",
+        "interactive",
+        "keyboard",
+        "mapping",
+        "parameters",
+        "pointer",
+        "surface",
+        "two",
+        "wheel",
+        "with",
+        "xypad"
+      ],
+      "useWhen": "Two-dimensional control surface for mapping and automating X/Y parameters with pointer, wheel, and keyboard input.",
+      "medium": "React + TypeScript + Tailwind CSS v4 (shadcn Base UI, Nova style, @audio-ui/react primitives); static HTML",
+      "provides": "XY Pad with 10 documented examples",
+      "requires": "React, Tailwind v4 with the shadcn tokens and a shadcn style (cn-* slots), @audio-ui/react 0.1.2",
+      "addedAt": "2026-09-25T08:37:12Z",
+      "entryPoint": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/xypad.tsx",
+      "status": "ok",
+      "evidence": "verified",
+      "framework": "react",
+      "availability": "public",
+      "variants": [
+        "xypad-live-value-demo",
+        "xypad-size-sm-demo",
+        "xypad-size-default-demo",
+        "xypad-size-lg-demo",
+        "xypad-size-xl-demo",
+        "xypad-disabled-demo",
+        "xypad-format-value-demo",
+        "xypad-bipolar-range-demo",
+        "xypad-change-vs-commit-demo",
+        "xypad-hide-value-demo"
+      ],
+      "files": [
+        "README.md",
+        "SOURCE.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/examples/xypad-bipolar-range-demo.tsx",
+        "src/examples/xypad-change-vs-commit-demo.tsx",
+        "src/examples/xypad-disabled-demo.tsx",
+        "src/examples/xypad-format-value-demo.tsx",
+        "src/examples/xypad-hide-value-demo.tsx",
+        "src/examples/xypad-live-value-demo.tsx",
+        "src/examples/xypad-size-default-demo.tsx",
+        "src/examples/xypad-size-lg-demo.tsx",
+        "src/examples/xypad-size-sm-demo.tsx",
+        "src/examples/xypad-size-xl-demo.tsx",
+        "static/xypad-bipolar-range-demo.html",
+        "static/xypad-change-vs-commit-demo.html",
+        "static/xypad-disabled-demo.html",
+        "static/xypad-format-value-demo.html",
+        "static/xypad-hide-value-demo.html",
+        "static/xypad-live-value-demo.html",
+        "static/xypad-size-default-demo.html",
+        "static/xypad-size-lg-demo.html",
+        "static/xypad-size-sm-demo.html",
+        "static/xypad-size-xl-demo.html"
+      ],
+      "installation": {
+        "method": "shadcn",
+        "command": "npx shadcn@latest add @audio/xypad",
+        "fallbackPath": "ui/_sources/audio-ui/registry-audio/bases/base/audio/elements/xypad.tsx"
+      },
+      "paths": {
+        "directory": "ui/input/audio-ui-xypad",
+        "reference": "ui/input/audio-ui-xypad/reference.tsx",
+        "readme": "ui/input/audio-ui-xypad/README.md",
+        "source": "ui/input/audio-ui-xypad/SOURCE.md",
+        "prompt": null,
+        "preview": "ui/input/audio-ui-xypad/preview.png"
       }
     },
     {

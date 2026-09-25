@@ -51,17 +51,17 @@ function bankShims(): Plugin {
 }
 
 /**
- * Better Auth UI declares zod 4 and tailwind-merge 3; the rest of the bank keeps its older
- * versions, so only Better Auth UI files get the newer ones (installed as `zod-v4`, `tailwind-merge-v3`).
+ * Better Auth UI and Audio UI declare zod 4 / tailwind-merge 3; the rest of the bank keeps its older
+ * versions, so only their files get the newer ones (installed as `zod-v4`, `tailwind-merge-v3`).
  */
-function betterAuthPeers(): Plugin {
+function newerPeers(): Plugin {
   const NEWER: Record<string, string> = { zod: "zod-v4", "tailwind-merge": "tailwind-merge-v3" };
   return {
-    name: "better-auth-peers",
+    name: "newer-peers",
     enforce: "pre",
     resolveId(source, importer) {
       const pkg = source.split("/")[0];
-      if (!importer || !(pkg in NEWER) || !/\/(_sources\/better-auth-ui|better-auth-ui-[\w-]+)\//.test(importer)) return null;
+      if (!importer || !(pkg in NEWER) || !/\/(_sources\/(better-auth-ui|audio-ui)|(better-auth-ui|audio-ui)-[\w-]+)\//.test(importer)) return null;
       return this.resolve(NEWER[pkg] + source.slice(pkg.length), importer, { skipSelf: true });
     },
   };
@@ -115,7 +115,7 @@ function personalIcons(): Plugin {
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), betterAuthPeers(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
+  plugins: [bankShims(), newerPeers(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(

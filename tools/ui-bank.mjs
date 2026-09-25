@@ -73,6 +73,7 @@ function sourceOf(id, source, hasPrompt) {
   if (source.includes("github.com/shadcn-ui/ui")) return "shadcn";
   if (source.includes("github.com/better-auth-ui/better-auth-ui")) return "better-auth-ui";
   if (source.includes("github.com/amarnathdhumal/chamaacui")) return "chamaac";
+  if (source.includes("github.com/ouestlabs/audio-ui")) return "audio-ui";
   if (source.includes("gooey.jakubantalik.com")) return "liquid-gooey";
   if (source || id.split("/").length === 2) return "standalone";
   return "beautiful-ui";

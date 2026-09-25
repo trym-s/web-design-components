@@ -40,7 +40,8 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
   plus the design systems Astryx (`astryx-*`, `ui/_sources/astryx/SOURCE.md`) and shadcn/ui (`shadcn-*`,
   `ui/_sources/shadcn/SOURCE.md`) and the auth screens of Better Auth UI (`better-auth-ui-*` for its shadcn
   flavour, `better-auth-ui-heroui-*` for HeroUI; `ui/_sources/better-auth-ui/SOURCE.md`), and Chamaac UI (`chamaac-*`: shader backgrounds, buttons, text
-  animations, sections; `ui/_sources/chamaac/SOURCE.md`; its animated icons are the `chamaac-icons` set), each rebuilt by
+  animations, sections; `ui/_sources/chamaac/SOURCE.md`; its animated icons are the `chamaac-icons` set), and Audio UI (`audio-ui-*`: knobs,
+  faders, XY pads, players, channel strips, synth blocks; `ui/_sources/audio-ui/SOURCE.md`), each rebuilt by
   `tools/import-<system>.mjs` and `tools/capture-bank.mjs`.
 - Design-system references carry `static/<example>.html` (plus `.open.html` for overlays): the rendered DOM
   linked to the system's local stylesheet. Use it when the target is not React; it has markup and tokens,

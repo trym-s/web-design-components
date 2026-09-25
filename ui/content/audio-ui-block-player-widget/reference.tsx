@@ -1,0 +1,3 @@
+/* Use when: Audio player with track list */
+
+export { default } from "./src/demo";

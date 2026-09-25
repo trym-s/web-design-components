@@ -1,0 +1,309 @@
+{
+  "commit": "aeba2d5efaa0ffbc21e334bac0817cc3060289ef",
+  "captured": "2026-09-25T08:37:12Z",
+  "entries": [
+    {
+      "id": "input/audio-ui-block-pocket-synth",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-pocket-synth"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-wave-shaper",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-wave-shaper"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "content/audio-ui-block-player",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-player"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "content/audio-ui-block-player-widget",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-player-widget"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "data-display/audio-ui-block-queue",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-queue"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-transport-vertical",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-transport-vertical"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-transport",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-transport"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-horizontal",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-horizontal"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-fader"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-gain-db",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-fader-gain-db"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-multi",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-fader-multi"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-multi",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-knob-multi"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-horizontal",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-fader-horizontal"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-fader-slider",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-fader-slider"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-level",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-knob-level"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-macro",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-knob-macro"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-pan",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-knob-pan"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-knob-pan-width",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-knob-pan-width"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-xypad-filter",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-xypad-filter"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "input/audio-ui-block-channel-strip-xypad-reverb",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "block-channel-strip-xypad-reverb"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "content/audio-ui-player",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "player-demo",
+        "player-queue-demo",
+        "player-variant-demo",
+        "player-size-demo",
+        "player-stacked-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/audio-ui-queue",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "player-queue-shuffle-repeat-demo",
+        "player-queue-preferences-demo",
+        "player-queue-simple-demo",
+        "player-queue-all-controls-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/audio-ui-track",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "player-track-demo",
+        "player-track-list-demo",
+        "player-track-list-grid-demo",
+        "player-track-sortable-list-demo",
+        "player-track-sortable-list-grid-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/audio-ui-transport",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "transport-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/audio-ui-sortable-list",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "sortable-list-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/audio-ui-playback-speed",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "player-playback-speed-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/audio-ui-fader",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "fader-vertical-demo",
+        "fader-horizontal-demo",
+        "fader-size-variants-demo",
+        "fader-thumb-marks-variants-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/audio-ui-knob",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "knob-demo",
+        "knob-disabled-demo",
+        "knob-size-variants-demo",
+        "knob-fine-step-demo",
+        "knob-filter-control-demo",
+        "knob-change-vs-commit-demo",
+        "knob-arc-and-anchor-demo",
+        "knob-circular-arc-demo",
+        "knob-double-tap-reset-demo",
+        "knob-revolution-drag-demo",
+        "knob-vertical-drag-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/audio-ui-xypad",
+      "page": null,
+      "clip": "[data-bank-example]",
+      "captured": [
+        "xypad-live-value-demo",
+        "xypad-size-sm-demo",
+        "xypad-size-default-demo",
+        "xypad-size-lg-demo",
+        "xypad-size-xl-demo",
+        "xypad-disabled-demo",
+        "xypad-format-value-demo",
+        "xypad-bipolar-range-demo",
+        "xypad-change-vs-commit-demo",
+        "xypad-hide-value-demo"
+      ],
+      "kind": "component"
+    }
+  ]
+}

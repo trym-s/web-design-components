@@ -31,6 +31,7 @@ const SOURCES = {
   astryx: { list: "__astryxExamples", frame: "data-astryx-frame", example: "data-astryx-example", error: "data-astryx-error", css: "_sources/astryx/frame.css", label: (m) => `Astryx ${m.version} (${m.commit.slice(0, 7)})` },
   shadcn: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/shadcn/styles.css", label: (m) => `shadcn/ui ${m.commit.slice(0, 7)}` },
   // Stylesheet per flavour (entry.css); emails are rendered by the importer, not captured.
+  "audio-ui": { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/audio-ui/styles.css", label: (m) => `Audio UI ${m.commit.slice(0, 7)}` },
   chamaac: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/chamaac/styles.css", label: (m) => `Chamaac UI ${m.commit.slice(0, 7)}` },
   "better-auth-ui": { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/better-auth-ui/shadcn.css", label: (m) => `Better Auth UI ${m.version} (${m.commit.slice(0, 7)})` },
 };

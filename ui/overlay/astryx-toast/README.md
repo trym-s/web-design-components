@@ -7,7 +7,7 @@ Toast shows a brief, non-blocking notification to confirm an action or present t
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Toast.tsx`
+- Entry point: `upstream/Toast.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Toast shows a brief, non-blocking notification to confirm an action or present t
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Toast shows a brief, non-blocking notification to confirm an action or present t
 
 ## Examples
 
-- `src/examples/ToastShowcase.tsx` — Toast: Imperative toast notifications triggered with useToast and rendered in the toast viewport. · static: `static/ToastShowcase.html`
-- `src/examples/ToastAction.tsx` — Toast — Action: Persistent toasts with a trailing button or link so the user can act on the notification, like undoing a delete or viewing a report. · static: `static/ToastAction.html`
-- `src/examples/ToastDeduplication.tsx` — Toast — Deduplication: Prevent duplicate toasts with uniqueID. Use ignore to keep the first toast, or overwrite to replace it with updated content like a progress percentage. · static: `static/ToastDeduplication.html`
-- `src/examples/ToastDismiss.tsx` — Toast — Dismiss: Show a persistent toast and dismiss it programmatically using the function returned by useToast. Use for long-running operations that need manual cleanup. · static: `static/ToastDismiss.html`
-- `src/examples/ToastStacking.tsx` — Toast — Stacking: Multiple toasts stacking vertically with smooth enter and exit animations. Click repeatedly to see how toasts queue and dismiss. · static: `static/ToastStacking.html`
-- `src/examples/ToastTypes.tsx` — Toast — Types: Info and error toast variants side by side. Info toasts auto-dismiss after 5 seconds, error toasts persist until the user dismisses them. · static: `static/ToastTypes.html`
+- `upstream/examples/ToastShowcase.tsx` — Toast: Imperative toast notifications triggered with useToast and rendered in the toast viewport. · static: `static/ToastShowcase.html`
+- `upstream/examples/ToastAction.tsx` — Toast — Action: Persistent toasts with a trailing button or link so the user can act on the notification, like undoing a delete or viewing a report. · static: `static/ToastAction.html`
+- `upstream/examples/ToastDeduplication.tsx` — Toast — Deduplication: Prevent duplicate toasts with uniqueID. Use ignore to keep the first toast, or overwrite to replace it with updated content like a progress percentage. · static: `static/ToastDeduplication.html`
+- `upstream/examples/ToastDismiss.tsx` — Toast — Dismiss: Show a persistent toast and dismiss it programmatically using the function returned by useToast. Use for long-running operations that need manual cleanup. · static: `static/ToastDismiss.html`
+- `upstream/examples/ToastStacking.tsx` — Toast — Stacking: Multiple toasts stacking vertically with smooth enter and exit animations. Click repeatedly to see how toasts queue and dismiss. · static: `static/ToastStacking.html`
+- `upstream/examples/ToastTypes.tsx` — Toast — Types: Info and error toast variants side by side. Info toasts auto-dismiss after 5 seconds, error toasts persist until the user dismisses them. · static: `static/ToastTypes.html`
 
 ## Documentation
 
@@ -84,11 +84,11 @@ Styling hook class: `.astryx-toast`
 
 ## Files
 
-- `src/Toast.doc.mjs`
-- `src/Toast.tsx`
-- `src/ToastContext.ts`
-- `src/ToastViewport.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Toast.doc.mjs`
+- `upstream/Toast.tsx`
+- `upstream/ToastContext.ts`
+- `upstream/ToastViewport.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Toast

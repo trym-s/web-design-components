@@ -6,13 +6,13 @@ Placeholder resolves into the photo.
 
 - Category: `content` — interactive
 - Medium: React + TypeScript + Tailwind CSS + Motion
-- Entry point: `src/blur-up-image.tsx`
+- Entry point: `upstream/blur-up-image.tsx`
 - Nature: interactive; reuse the behavior and adapt its literal visual values to the target project.
 
 ## Files
 
-- `src/blur-up-image.tsx` — self-contained hook and styled component
-- `src/demo.tsx` — upstream replayable documentation demo
+- `upstream/blur-up-image.tsx` — self-contained hook and styled component
+- `upstream/demo.tsx` — upstream replayable documentation demo
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.interior.dev/docs/blur-up-image

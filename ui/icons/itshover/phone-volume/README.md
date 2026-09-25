@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/phone-volume/src/phone-volume.tsx`
+- Entry point: `ui/icons/itshover/phone-volume/upstream/phone-volume.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/phone-volume.json`
 - Registry: https://itshover.com/r/phone-volume.json
-- Local source fallback: `ui/icons/itshover/phone-volume/src/phone-volume.tsx`
+- Local source fallback: `ui/icons/itshover/phone-volume/upstream/phone-volume.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/upload-off-outline/src/upload-off-outline.svg`
+- Entry point: `ui/icons/line-md/upload-off-outline/upstream/upload-off-outline.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/upload-off-outline/src/upload-off-outline.svg`
+- Local source: `ui/icons/line-md/upload-off-outline/upstream/upload-off-outline.svg`

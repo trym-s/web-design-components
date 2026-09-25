@@ -7,7 +7,7 @@ A set of two-state buttons that can be toggled on or off.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/toggle-group.tsx`
+- Entry point: `upstream/ui/toggle-group.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A set of two-state buttons that can be toggled on or off.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A set of two-state buttons that can be toggled on or off.
 
 ## Documentation
 
-> Example `toggle-group-demo` — `src/examples/toggle-group-demo.tsx`, `static/toggle-group-demo.html`
+> Example `toggle-group-demo` — `upstream/examples/toggle-group-demo.tsx`, `static/toggle-group-demo.html`
 
 ## Installation
 
@@ -78,41 +78,41 @@ ToggleGroup
 
 Use `variant="outline"` for an outline style.
 
-> Example `toggle-group-outline` — `src/examples/toggle-group-outline.tsx`, `static/toggle-group-outline.html`
+> Example `toggle-group-outline` — `upstream/examples/toggle-group-outline.tsx`, `static/toggle-group-outline.html`
 
 ## Size
 
 Use the `size` prop to change the size of the toggle group.
 
-> Example `toggle-group-sizes` — `src/examples/toggle-group-sizes.tsx`, `static/toggle-group-sizes.html`
+> Example `toggle-group-sizes` — `upstream/examples/toggle-group-sizes.tsx`, `static/toggle-group-sizes.html`
 
 ## Spacing
 
 Use `spacing` to add spacing between toggle group items.
 
-> Example `toggle-group-spacing` — `src/examples/toggle-group-spacing.tsx`, `static/toggle-group-spacing.html`
+> Example `toggle-group-spacing` — `upstream/examples/toggle-group-spacing.tsx`, `static/toggle-group-spacing.html`
 
 ## Vertical
 
 Use `orientation="vertical"` for vertical toggle groups.
 
-> Example `toggle-group-vertical` — `src/examples/toggle-group-vertical.tsx`, `static/toggle-group-vertical.html`
+> Example `toggle-group-vertical` — `upstream/examples/toggle-group-vertical.tsx`, `static/toggle-group-vertical.html`
 
 ## Disabled
 
-> Example `toggle-group-disabled` — `src/examples/toggle-group-disabled.tsx`, `static/toggle-group-disabled.html`
+> Example `toggle-group-disabled` — `upstream/examples/toggle-group-disabled.tsx`, `static/toggle-group-disabled.html`
 
 ## Custom
 
 A custom toggle group example.
 
-> Example `toggle-group-font-weight-selector` — `src/examples/toggle-group-font-weight-selector.tsx`, `static/toggle-group-font-weight-selector.html`
+> Example `toggle-group-font-weight-selector` — `upstream/examples/toggle-group-font-weight-selector.tsx`, `static/toggle-group-font-weight-selector.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `toggle-group-rtl` — `src/examples/toggle-group-rtl.tsx`, `static/toggle-group-rtl.html`
+> Example `toggle-group-rtl` — `upstream/examples/toggle-group-rtl.tsx`, `static/toggle-group-rtl.html`
 
 ## API Reference
 
@@ -126,15 +126,15 @@ Changed the default `spacing` from `0` to `2` so toggle groups render with space
 
 ## Files
 
-- `src/ui/toggle-group.tsx` — the ui file as the registry installs it
-- `src/examples/toggle-group-demo.tsx`
-- `src/examples/toggle-group-outline.tsx`
-- `src/examples/toggle-group-sizes.tsx`
-- `src/examples/toggle-group-spacing.tsx`
-- `src/examples/toggle-group-vertical.tsx`
-- `src/examples/toggle-group-disabled.tsx`
-- `src/examples/toggle-group-font-weight-selector.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/toggle-group.tsx` — the ui file as the registry installs it
+- `upstream/examples/toggle-group-demo.tsx`
+- `upstream/examples/toggle-group-outline.tsx`
+- `upstream/examples/toggle-group-sizes.tsx`
+- `upstream/examples/toggle-group-spacing.tsx`
+- `upstream/examples/toggle-group-vertical.tsx`
+- `upstream/examples/toggle-group-disabled.tsx`
+- `upstream/examples/toggle-group-font-weight-selector.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/toggle-group

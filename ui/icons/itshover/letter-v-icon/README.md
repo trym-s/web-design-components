@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/letter-v-icon/src/letter-v-icon.tsx`
+- Entry point: `ui/icons/itshover/letter-v-icon/upstream/letter-v-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/letter-v-icon.json`
 - Registry: https://itshover.com/r/letter-v-icon.json
-- Local source fallback: `ui/icons/itshover/letter-v-icon/src/letter-v-icon.tsx`
+- Local source fallback: `ui/icons/itshover/letter-v-icon/upstream/letter-v-icon.tsx`

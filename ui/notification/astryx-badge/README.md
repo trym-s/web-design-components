@@ -7,7 +7,7 @@ Badge highlights a status or category at a glance. Use it sparingly: only when a
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Badge.tsx`
+- Entry point: `upstream/Badge.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Badge highlights a status or category at a glance. Use it sparingly: only when a
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Badge highlights a status or category at a glance. Use it sparingly: only when a
 
 ## Examples
 
-- `src/examples/BadgeShowcase.tsx` — Badge — Variants: All semantic and color badge variants in a single view. Use semantic variants for status and color variants for categories. · static: `static/BadgeShowcase.html`
-- `src/examples/BadgeCategoryTags.tsx` — Badge — Colors: Tag items with color-coded categories like teams, priorities, or topics. Use the 9 non-semantic color variants when you need to distinguish groups visually. · static: `static/BadgeCategoryTags.html`
-- `src/examples/BadgeCountBadges.tsx` — Badge — Counts: Show a number inside a badge for notification counts, unread messages, or task totals. Use next to icons, nav items, or list labels. · static: `static/BadgeCountBadges.html`
-- `src/examples/BadgeStatusLabels.tsx` — Badge — Status: Show the state of an item like Active, Pending, or Failed. Use in table rows, list items, or detail pages where users need to see status at a glance. · static: `static/BadgeStatusLabels.html`
+- `upstream/examples/BadgeShowcase.tsx` — Badge — Variants: All semantic and color badge variants in a single view. Use semantic variants for status and color variants for categories. · static: `static/BadgeShowcase.html`
+- `upstream/examples/BadgeCategoryTags.tsx` — Badge — Colors: Tag items with color-coded categories like teams, priorities, or topics. Use the 9 non-semantic color variants when you need to distinguish groups visually. · static: `static/BadgeCategoryTags.html`
+- `upstream/examples/BadgeCountBadges.tsx` — Badge — Counts: Show a number inside a badge for notification counts, unread messages, or task totals. Use next to icons, nav items, or list labels. · static: `static/BadgeCountBadges.html`
+- `upstream/examples/BadgeStatusLabels.tsx` — Badge — Status: Show the state of an item like Active, Pending, or Failed. Use in table rows, list items, or detail pages where users need to see status at a glance. · static: `static/BadgeStatusLabels.html`
 
 ## Documentation
 
@@ -112,10 +112,10 @@ Styling hook class: `.astryx-badge`
 
 ## Files
 
-- `src/Badge.doc.mjs`
-- `src/Badge.test-violations.tsx`
-- `src/Badge.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Badge.doc.mjs`
+- `upstream/Badge.test-violations.tsx`
+- `upstream/Badge.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Badge

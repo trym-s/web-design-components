@@ -1,3 +1,3 @@
 /* Use when: Displays a callout for user attention. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/mushroom-off/src/mushroom-off.svg`
+- Entry point: `ui/icons/line-md/mushroom-off/upstream/mushroom-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/mushroom-off/src/mushroom-off.svg`
+- Local source: `ui/icons/line-md/mushroom-off/upstream/mushroom-off.svg`

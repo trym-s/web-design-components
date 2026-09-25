@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/filter-plus-twotone/src/filter-plus-twotone.svg`
+- Entry point: `ui/icons/line-md/filter-plus-twotone/upstream/filter-plus-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/filter-plus-twotone/src/filter-plus-twotone.svg`
+- Local source: `ui/icons/line-md/filter-plus-twotone/upstream/filter-plus-twotone.svg`

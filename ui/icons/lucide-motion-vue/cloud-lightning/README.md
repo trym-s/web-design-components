@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/cloud-lightning/src/cloud-lightning.vue`
+- Entry point: `ui/icons/lucide-motion-vue/cloud-lightning/upstream/cloud-lightning.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/cloud-lightning/src/cloud-lightning.vue`
+- Local source: `ui/icons/lucide-motion-vue/cloud-lightning/upstream/cloud-lightning.vue`

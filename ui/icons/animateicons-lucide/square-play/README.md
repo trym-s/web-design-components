@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/square-play/src/square-play.tsx`
+- Entry point: `ui/icons/animateicons-lucide/square-play/upstream/square-play.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-square-play.json`
 - Registry: https://animateicons.in/r/lu-square-play.json
-- Local source fallback: `ui/icons/animateicons-lucide/square-play/src/square-play.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/square-play/upstream/square-play.tsx`

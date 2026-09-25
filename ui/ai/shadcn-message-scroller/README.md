@@ -7,7 +7,7 @@ A chat scroll container that anchors turns, opens saved transcripts, follows str
 - Category: `ai` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/message-scroller.tsx`
+- Entry point: `upstream/ui/message-scroller.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A chat scroll container that anchors turns, opens saved transcripts, follows str
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A chat scroll container that anchors turns, opens saved transcripts, follows str
 
 ## Documentation
 
-> Example `message-scroller-demo` (radix-rhea) — `src/examples/message-scroller-demo.tsx`, `static/message-scroller-demo.html`
+> Example `message-scroller-demo` (radix-rhea) — `upstream/examples/message-scroller-demo.tsx`, `static/message-scroller-demo.html`
 
 ## What Makes a Great Streaming Chat Experience
 
@@ -207,7 +207,7 @@ viewport.
 
 In the following example, the user's message is anchored. When you send a new message, the viewport anchors it near the top and appends the assistant reply below it. Toggle the anchor to the assistant's message to see the difference.
 
-> Example `message-scroller-anchoring` (radix-rhea) — `src/examples/message-scroller-anchoring.tsx`, `static/message-scroller-anchoring.html`
+> Example `message-scroller-anchoring` (radix-rhea) — `upstream/examples/message-scroller-anchoring.tsx`, `static/message-scroller-anchoring.html`
 
 ### Group Chat
 
@@ -226,7 +226,7 @@ a message.
 </MessageScrollerItem>
 ```
 
-> Example `message-scroller-group-chat` (radix-rhea) — `src/examples/message-scroller-group-chat.tsx`, `static/message-scroller-group-chat.html`
+> Example `message-scroller-group-chat` (radix-rhea) — `upstream/examples/message-scroller-group-chat.tsx`, `static/message-scroller-group-chat.html`
 
 ### Keeping Context Visible
 
@@ -244,7 +244,7 @@ conversation restarted on a blank page.
 
 Adjust the peek amount in the example below to see how it affects the conversation.
 
-> Example `message-scroller-previous-context` (radix-rhea) — `src/examples/message-scroller-previous-context.tsx`, `static/message-scroller-previous-context.html`
+> Example `message-scroller-previous-context` (radix-rhea) — `upstream/examples/message-scroller-previous-context.tsx`, `static/message-scroller-previous-context.html`
 
 ### Following the Live Edge
 
@@ -265,7 +265,7 @@ follow-output takes over from the anchor.
 </MessageScrollerProvider>
 ```
 
-> Example `message-scroller-streaming` (radix-rhea) — `src/examples/message-scroller-streaming.tsx`, `static/message-scroller-streaming.html`
+> Example `message-scroller-streaming` (radix-rhea) — `upstream/examples/message-scroller-streaming.tsx`, `static/message-scroller-streaming.html`
 
 Calling `scrollToEnd`, or pressing `MessageScrollerButton`, re-engages
 follow-output when `autoScroll` is enabled, so a reader who scrolled away can
@@ -290,7 +290,7 @@ the conversation from the bottom edge.
 </MessageScrollerProvider>
 ```
 
-> Example `message-scroller-opening-position` (radix-rhea) — `src/examples/message-scroller-opening-position.tsx`, `static/message-scroller-opening-position.html`
+> Example `message-scroller-opening-position` (radix-rhea) — `upstream/examples/message-scroller-opening-position.tsx`, `static/message-scroller-opening-position.html`
 
 `"last-anchor"` is keyed on `scrollAnchor`, not message role. If no anchor
 exists, or the last anchored turn already fits in the viewport, it falls back to
@@ -349,7 +349,7 @@ same place while history loads above them.
 
 This is enabled by default through `preserveScrollOnPrepend`.
 
-> Example `message-scroller-load-history` (radix-rhea) — `src/examples/message-scroller-load-history.tsx`, `static/message-scroller-load-history.html`
+> Example `message-scroller-load-history` (radix-rhea) — `upstream/examples/message-scroller-load-history.tsx`, `static/message-scroller-load-history.html`
 
 Use stable `messageId` values for message rows. That gives the scroller a
 specific row to preserve instead of guessing from whichever pixel happens to sit
@@ -369,7 +369,7 @@ its final position so it feels like it rises from the live edge of the viewport.
 const MotionMessageScrollerItem = motion.create(MessageScrollerItem)
 ```
 
-> Example `message-scroller-animation` (radix-rhea) — `src/examples/message-scroller-animation.tsx`, `static/message-scroller-animation.html`
+> Example `message-scroller-animation` (radix-rhea) — `upstream/examples/message-scroller-animation.tsx`, `static/message-scroller-animation.html`
 
 Avoid animating height, margin, or padding for row entrances; those changes can
 fight the scroller's positioning work. If the reader prefers reduced motion,
@@ -391,7 +391,7 @@ import { useMessageScroller } from "@/components/ui/message-scroller"
 const { scrollToMessage, scrollToEnd, scrollToStart } = useMessageScroller()
 ```
 
-> Example `message-scroller-commands` (radix-rhea) — `src/examples/message-scroller-commands.tsx`, `static/message-scroller-commands.html`
+> Example `message-scroller-commands` (radix-rhea) — `upstream/examples/message-scroller-commands.tsx`, `static/message-scroller-commands.html`
 
 `scrollToMessage` targets the `messageId` on `MessageScrollerItem`, so rows that
 need to be addressable should have stable ids. `scrollToMessage` returns `false`
@@ -416,7 +416,7 @@ import { useMessageScrollerVisibility } from "@/components/ui/message-scroller"
 const { currentAnchorId, visibleMessageIds } = useMessageScrollerVisibility()
 ```
 
-> Example `message-scroller-visibility` (radix-rhea) — `src/examples/message-scroller-visibility.tsx`, `static/message-scroller-visibility.html`
+> Example `message-scroller-visibility` (radix-rhea) — `upstream/examples/message-scroller-visibility.tsx`, `static/message-scroller-visibility.html`
 
 `currentAnchorId` answers "where am I" by reporting the current anchored turn,
 and it stays set after that anchor scrolls above the viewport. `visibleMessageIds`
@@ -442,7 +442,7 @@ import { useMessageScrollerScrollable } from "@/components/ui/message-scroller"
 const { start, end } = useMessageScrollerScrollable()
 ```
 
-> Example `message-scroller-scrollable` (radix-rhea) — `src/examples/message-scroller-scrollable.tsx`, `static/message-scroller-scrollable.html`
+> Example `message-scroller-scrollable` (radix-rhea) — `upstream/examples/message-scroller-scrollable.tsx`, `static/message-scroller-scrollable.html`
 
 ## Performance
 
@@ -576,19 +576,19 @@ They are identical for the styled component and the unstyled parts.
 
 ## Files
 
-- `src/ui/message-scroller.tsx` — the ui file as the registry installs it
-- `src/examples/message-scroller-demo.tsx`
-- `src/examples/message-scroller-anchoring.tsx`
-- `src/examples/message-scroller-group-chat.tsx`
-- `src/examples/message-scroller-previous-context.tsx`
-- `src/examples/message-scroller-streaming.tsx`
-- `src/examples/message-scroller-opening-position.tsx`
-- `src/examples/message-scroller-load-history.tsx`
-- `src/examples/message-scroller-animation.tsx`
-- `src/examples/message-scroller-commands.tsx`
-- `src/examples/message-scroller-visibility.tsx`
-- `src/examples/message-scroller-scrollable.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/message-scroller.tsx` — the ui file as the registry installs it
+- `upstream/examples/message-scroller-demo.tsx`
+- `upstream/examples/message-scroller-anchoring.tsx`
+- `upstream/examples/message-scroller-group-chat.tsx`
+- `upstream/examples/message-scroller-previous-context.tsx`
+- `upstream/examples/message-scroller-streaming.tsx`
+- `upstream/examples/message-scroller-opening-position.tsx`
+- `upstream/examples/message-scroller-load-history.tsx`
+- `upstream/examples/message-scroller-animation.tsx`
+- `upstream/examples/message-scroller-commands.tsx`
+- `upstream/examples/message-scroller-visibility.tsx`
+- `upstream/examples/message-scroller-scrollable.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/message-scroller

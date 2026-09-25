@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-document-plus-twotone/src/file-document-plus-twotone.svg`
+- Entry point: `ui/icons/line-md/file-document-plus-twotone/upstream/file-document-plus-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-document-plus-twotone/src/file-document-plus-twotone.svg`
+- Local source: `ui/icons/line-md/file-document-plus-twotone/upstream/file-document-plus-twotone.svg`

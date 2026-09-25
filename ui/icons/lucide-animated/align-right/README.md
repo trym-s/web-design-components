@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/align-right/src/align-right.tsx`
+- Entry point: `ui/icons/lucide-animated/align-right/upstream/align-right.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/align-right.json`
 - Registry: https://lucide-animated.com/r/align-right.json
-- Local source fallback: `ui/icons/lucide-animated/align-right/src/align-right.tsx`
+- Local source fallback: `ui/icons/lucide-animated/align-right/upstream/align-right.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/between-horizontal-end/src/between-horizontal-end.vue`
+- Entry point: `ui/icons/lucide-motion-vue/between-horizontal-end/upstream/between-horizontal-end.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/between-horizontal-end/src/between-horizontal-end.vue`
+- Local source: `ui/icons/lucide-motion-vue/between-horizontal-end/upstream/between-horizontal-end.vue`

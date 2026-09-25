@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/square-activity/src/square-activity.vue`
+- Entry point: `ui/icons/lucide-motion-vue/square-activity/upstream/square-activity.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/square-activity/src/square-activity.vue`
+- Local source: `ui/icons/lucide-motion-vue/square-activity/upstream/square-activity.vue`

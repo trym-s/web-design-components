@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/bell-alert-loop/src/bell-alert-loop.svg`
+- Entry point: `ui/icons/line-md/bell-alert-loop/upstream/bell-alert-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/bell-alert-loop/src/bell-alert-loop.svg`
+- Local source: `ui/icons/line-md/bell-alert-loop/upstream/bell-alert-loop.svg`

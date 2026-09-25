@@ -27,11 +27,11 @@ function bankShims(): Plugin {
     [/(^|\/)\.\/use-compact$/, shim("liquid-use-compact.ts")],
     [/(^|\/)\.\/cycle$/, shim("arcade-cycle.ts")],
     [/public\/vault\/ransom\/manifest\.json$/, shim("ransom-manifest.json")],
-    // These two DO exist in the bank — just under a different entry's src tree.
-    [/(^|\/)\.\.\/swirl\/controls$/, bank("effects/ascii-swirl/src/swirl/controls.tsx")],
+    // These two DO exist in the bank — just under a different entry's upstream tree.
+    [/(^|\/)\.\.\/swirl\/controls$/, bank("effects/ascii-swirl/upstream/swirl/controls.tsx")],
     [
       /(^|\/)\.\.\/\.\.\/lib\/video-sources$/,
-      bank("animation/hover-video-button/src/app/lib/video-sources.ts"),
+      bank("animation/hover-video-button/upstream/app/lib/video-sources.ts"),
     ],
   ];
 

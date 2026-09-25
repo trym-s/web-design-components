@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/loading-twotone-loop/src/loading-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/loading-twotone-loop/upstream/loading-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/loading-twotone-loop/src/loading-twotone-loop.svg`
+- Local source: `ui/icons/line-md/loading-twotone-loop/upstream/loading-twotone-loop.svg`

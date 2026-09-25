@@ -7,7 +7,7 @@ A mobile touch surface for filters, actions, forms, and detail views that should
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/BottomSheet.tsx`
+- Entry point: `upstream/BottomSheet.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A mobile touch surface for filters, actions, forms, and detail views that should
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A mobile touch surface for filters, actions, forms, and detail views that should
 
 ## Examples
 
-- `src/examples/BottomSheetShowcase.tsx` — Bottom Sheet: A mobile filter surface that rises from the bottom edge. · static: `static/BottomSheetShowcase.html`
-- `src/examples/BottomSheetHeights.tsx` — Bottom Sheet — Height variants: Compares hug, capped, and tall starting heights for different amounts of content. · static: `static/BottomSheetHeights.html`
-- `src/examples/BottomSheetMobileKeyboard.tsx` — Bottom Sheet — Mobile keyboard: Uses a tall, scrollable form that keeps focused controls visible above the mobile keyboard. · static: `static/BottomSheetMobileKeyboard.html`
-- `src/examples/BottomSheetNoScrim.tsx` — Bottom Sheet — No scrim: Keeps the page visible and interactive behind a non-modal bottom sheet. · static: `static/BottomSheetNoScrim.html`
-- `src/examples/BottomSheetSnapPoints.tsx` — Bottom Sheet — Snap points: Drag-to-resize stops: a half-height working surface, and a peek that slides away and thins the scrim. · static: `static/BottomSheetSnapPoints.html`
+- `upstream/examples/BottomSheetShowcase.tsx` — Bottom Sheet: A mobile filter surface that rises from the bottom edge. · static: `static/BottomSheetShowcase.html`
+- `upstream/examples/BottomSheetHeights.tsx` — Bottom Sheet — Height variants: Compares hug, capped, and tall starting heights for different amounts of content. · static: `static/BottomSheetHeights.html`
+- `upstream/examples/BottomSheetMobileKeyboard.tsx` — Bottom Sheet — Mobile keyboard: Uses a tall, scrollable form that keeps focused controls visible above the mobile keyboard. · static: `static/BottomSheetMobileKeyboard.html`
+- `upstream/examples/BottomSheetNoScrim.tsx` — Bottom Sheet — No scrim: Keeps the page visible and interactive behind a non-modal bottom sheet. · static: `static/BottomSheetNoScrim.html`
+- `upstream/examples/BottomSheetSnapPoints.tsx` — Bottom Sheet — Snap points: Drag-to-resize stops: a half-height working surface, and a peek that slides away and thins the scrim. · static: `static/BottomSheetSnapPoints.html`
 
 ## Documentation
 
@@ -218,12 +218,12 @@ const [isOpen, setIsOpen] = useState(false);
 
 ## Files
 
-- `src/BottomSheet.doc.mjs`
-- `src/BottomSheet.spec.md`
-- `src/BottomSheet.tsx`
-- `src/BottomSheetEdgeTint.tsx`
-- `src/BottomSheetPanel.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/BottomSheet.doc.mjs`
+- `upstream/BottomSheet.spec.md`
+- `upstream/BottomSheet.tsx`
+- `upstream/BottomSheetEdgeTint.tsx`
+- `upstream/BottomSheetPanel.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/BottomSheet

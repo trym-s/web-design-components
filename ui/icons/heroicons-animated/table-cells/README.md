@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/table-cells/src/table-cells.tsx`
+- Entry point: `ui/icons/heroicons-animated/table-cells/upstream/table-cells.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/table-cells`
 - Registry: https://www.heroicons-animated.com/r/table-cells.json
-- Local source fallback: `ui/icons/heroicons-animated/table-cells/src/table-cells.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/table-cells/upstream/table-cells.tsx`

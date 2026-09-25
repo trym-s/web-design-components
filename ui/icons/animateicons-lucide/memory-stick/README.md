@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/memory-stick/src/memory-stick.tsx`
+- Entry point: `ui/icons/animateicons-lucide/memory-stick/upstream/memory-stick.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-memory-stick.json`
 - Registry: https://animateicons.in/r/lu-memory-stick.json
-- Local source fallback: `ui/icons/animateicons-lucide/memory-stick/src/memory-stick.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/memory-stick/upstream/memory-stick.tsx`

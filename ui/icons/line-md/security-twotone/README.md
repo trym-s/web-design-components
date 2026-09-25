@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/security-twotone/src/security-twotone.svg`
+- Entry point: `ui/icons/line-md/security-twotone/upstream/security-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/security-twotone/src/security-twotone.svg`
+- Local source: `ui/icons/line-md/security-twotone/upstream/security-twotone.svg`

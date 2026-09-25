@@ -7,7 +7,7 @@ Displays the path to the current resource using a hierarchy of links.
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/breadcrumb.tsx`
+- Entry point: `upstream/ui/breadcrumb.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays the path to the current resource using a hierarchy of links.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays the path to the current resource using a hierarchy of links.
 
 ## Documentation
 
-> Example `breadcrumb-demo` — `src/examples/breadcrumb-demo.tsx`, `static/breadcrumb-demo.html`
+> Example `breadcrumb-demo` — `upstream/examples/breadcrumb-demo.tsx`, `static/breadcrumb-demo.html`
 
 ## Installation
 
@@ -96,37 +96,37 @@ Breadcrumb
 
 A basic breadcrumb with a home link and a components link.
 
-> Example `breadcrumb-basic` — `src/examples/breadcrumb-basic.tsx`, `static/breadcrumb-basic.html`
+> Example `breadcrumb-basic` — `upstream/examples/breadcrumb-basic.tsx`, `static/breadcrumb-basic.html`
 
 ## Custom separator
 
 Use a custom component as `children` for `<BreadcrumbSeparator />` to create a custom separator.
 
-> Example `breadcrumb-separator` — `src/examples/breadcrumb-separator.tsx`, `static/breadcrumb-separator.html`
+> Example `breadcrumb-separator` — `upstream/examples/breadcrumb-separator.tsx`, `static/breadcrumb-separator.html`
 
 ## Dropdown
 
 You can compose `<BreadcrumbItem />` with a `<DropdownMenu />` to create a dropdown in the breadcrumb.
 
-> Example `breadcrumb-dropdown` — `src/examples/breadcrumb-dropdown.tsx`, `static/breadcrumb-dropdown.html`
+> Example `breadcrumb-dropdown` — `upstream/examples/breadcrumb-dropdown.tsx`, `static/breadcrumb-dropdown.html`
 
 ## Collapsed
 
 We provide a `<BreadcrumbEllipsis />` component to show a collapsed state when the breadcrumb is too long.
 
-> Example `breadcrumb-ellipsis` — `src/examples/breadcrumb-ellipsis.tsx`, `static/breadcrumb-ellipsis.html`
+> Example `breadcrumb-ellipsis` — `upstream/examples/breadcrumb-ellipsis.tsx`, `static/breadcrumb-ellipsis.html`
 
 ## Link component
 
 To use a custom link component from your routing library, you can use the `asChild` prop on `<BreadcrumbLink />`.
 
-> Example `breadcrumb-link` — `src/examples/breadcrumb-link.tsx`, `static/breadcrumb-link.html`
+> Example `breadcrumb-link` — `upstream/examples/breadcrumb-link.tsx`, `static/breadcrumb-link.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `breadcrumb-rtl` — `src/examples/breadcrumb-rtl.tsx`, `static/breadcrumb-rtl.html`
+> Example `breadcrumb-rtl` — `upstream/examples/breadcrumb-rtl.tsx`, `static/breadcrumb-rtl.html`
 
 ## API Reference
 
@@ -189,14 +189,14 @@ The `BreadcrumbEllipsis` component displays an ellipsis indicator for collapsed 
 
 ## Files
 
-- `src/ui/breadcrumb.tsx` — the ui file as the registry installs it
-- `src/examples/breadcrumb-demo.tsx`
-- `src/examples/breadcrumb-basic.tsx`
-- `src/examples/breadcrumb-separator.tsx`
-- `src/examples/breadcrumb-dropdown.tsx`
-- `src/examples/breadcrumb-ellipsis.tsx`
-- `src/examples/breadcrumb-link.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/breadcrumb.tsx` — the ui file as the registry installs it
+- `upstream/examples/breadcrumb-demo.tsx`
+- `upstream/examples/breadcrumb-basic.tsx`
+- `upstream/examples/breadcrumb-separator.tsx`
+- `upstream/examples/breadcrumb-dropdown.tsx`
+- `upstream/examples/breadcrumb-ellipsis.tsx`
+- `upstream/examples/breadcrumb-link.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/breadcrumb

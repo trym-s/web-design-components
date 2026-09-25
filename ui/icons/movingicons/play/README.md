@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/play/src/play.svelte`
+- Entry point: `ui/icons/movingicons/play/upstream/play.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/play`
 - Registry: https://movingicons.dev/r/play
-- Local source fallback: `ui/icons/movingicons/play/src/play.svelte`
+- Local source fallback: `ui/icons/movingicons/play/upstream/play.svelte`

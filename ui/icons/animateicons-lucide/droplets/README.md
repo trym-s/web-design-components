@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/droplets/src/droplets.tsx`
+- Entry point: `ui/icons/animateicons-lucide/droplets/upstream/droplets.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-droplets.json`
 - Registry: https://animateicons.in/r/lu-droplets.json
-- Local source fallback: `ui/icons/animateicons-lucide/droplets/src/droplets.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/droplets/upstream/droplets.tsx`

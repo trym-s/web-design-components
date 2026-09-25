@@ -2,7 +2,7 @@
 
 "use client";
 
-import { PixelBrushCard } from "./src/pixel-brush/PixelBrushCard";
+import { PixelBrushCard } from "./upstream/pixel-brush/PixelBrushCard";
 
 export default function Reference() {
   return <PixelBrushCard />;

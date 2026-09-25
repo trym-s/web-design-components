@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/pen-tool/src/pen-tool.vue`
+- Entry point: `ui/icons/lucide-motion-vue/pen-tool/upstream/pen-tool.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/pen-tool/src/pen-tool.vue`
+- Local source: `ui/icons/lucide-motion-vue/pen-tool/upstream/pen-tool.vue`

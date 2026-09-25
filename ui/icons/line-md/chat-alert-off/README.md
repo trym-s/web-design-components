@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-alert-off/src/chat-alert-off.svg`
+- Entry point: `ui/icons/line-md/chat-alert-off/upstream/chat-alert-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-alert-off/src/chat-alert-off.svg`
+- Local source: `ui/icons/line-md/chat-alert-off/upstream/chat-alert-off.svg`

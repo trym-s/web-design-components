@@ -7,7 +7,7 @@ Add programmatic API key management with create, copy, and revoke flows to your 
 - Category: `data-display` — structural
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/api-keys.tsx`
+- Entry point: `upstream/examples/api-keys.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ Add programmatic API key management with create, copy, and revoke flows to your 
 
 ## Files
 
-- `src/examples/api-keys.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/api-keys.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/plugins/api-key

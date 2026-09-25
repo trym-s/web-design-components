@@ -7,7 +7,7 @@ Text renders styled body text and headings from the theme. Use Text with a seman
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Text.tsx`
+- Entry point: `upstream/Text.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Text renders styled body text and headings from the theme. Use Text with a seman
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,19 +33,19 @@ Text renders styled body text and headings from the theme. Use Text with a seman
 
 ## Examples
 
-- `src/examples/HeadingShowcase.tsx` — Heading · static: `static/HeadingShowcase.html`
-- `src/examples/TextShowcase.tsx` — Text · static: `static/TextShowcase.html`
-- `src/examples/HeadingCardGrid.tsx` — Heading — Card Grid: Responsive card grid with truncated headings and descriptions for uniform layout · static: `static/HeadingCardGrid.html`
-- `src/examples/HeadingPageLayout.tsx` — Heading — Page Hierarchy: Real-world page layout demonstrating heading levels h1 through h3 with supporting text · static: `static/HeadingPageLayout.html`
-- `src/examples/HeadingTruncation.tsx` — Heading — Truncation: Single-line and multi-line heading truncation with ellipsis for constrained layouts · static: `static/HeadingTruncation.html`
-- `src/examples/TextColors.tsx` — Text — Colors: All text color options (primary, secondary, disabled, placeholder, active) applied to body text to show their intended use. · static: `static/TextColors.html`
-- `src/examples/TextHeadingLevels.tsx` — Text — Heading Levels: All 6 heading levels (h1 through h6) rendered with Heading to show the full type scale. · static: `static/TextHeadingLevels.html`
-- `src/examples/TextInline.tsx` — Text — Inline: Mixing body and code text inline within a single line using the default inline display mode. · static: `static/TextInline.html`
-- `src/examples/TextTruncation.tsx` — Text — Truncation: Single-line and multi-line text truncation with ellipsis using maxLines in a width-constrained container. · static: `static/TextTruncation.html`
-- `src/examples/TextTypes.tsx` — Text — Types: All 5 semantic text types (body, large, label, supporting, code) with their default styling from the theme. · static: `static/TextTypes.html`
-- `src/examples/TextWeight.tsx` — Text — Weight: The 4 font weight variants (normal, medium, semibold, bold) applied to body text. · static: `static/TextWeight.html`
-- `src/examples/TextWordBreak.tsx` — Text — Word Break: Compares break-word and break-all word break modes on a long unbreakable string. · static: `static/TextWordBreak.html`
-- `src/examples/TextWrap.tsx` — Text — Wrap: The 4 text-wrap modes (wrap, nowrap, balance, pretty) shown in width-constrained containers. · static: `static/TextWrap.html`
+- `upstream/examples/HeadingShowcase.tsx` — Heading · static: `static/HeadingShowcase.html`
+- `upstream/examples/TextShowcase.tsx` — Text · static: `static/TextShowcase.html`
+- `upstream/examples/HeadingCardGrid.tsx` — Heading — Card Grid: Responsive card grid with truncated headings and descriptions for uniform layout · static: `static/HeadingCardGrid.html`
+- `upstream/examples/HeadingPageLayout.tsx` — Heading — Page Hierarchy: Real-world page layout demonstrating heading levels h1 through h3 with supporting text · static: `static/HeadingPageLayout.html`
+- `upstream/examples/HeadingTruncation.tsx` — Heading — Truncation: Single-line and multi-line heading truncation with ellipsis for constrained layouts · static: `static/HeadingTruncation.html`
+- `upstream/examples/TextColors.tsx` — Text — Colors: All text color options (primary, secondary, disabled, placeholder, active) applied to body text to show their intended use. · static: `static/TextColors.html`
+- `upstream/examples/TextHeadingLevels.tsx` — Text — Heading Levels: All 6 heading levels (h1 through h6) rendered with Heading to show the full type scale. · static: `static/TextHeadingLevels.html`
+- `upstream/examples/TextInline.tsx` — Text — Inline: Mixing body and code text inline within a single line using the default inline display mode. · static: `static/TextInline.html`
+- `upstream/examples/TextTruncation.tsx` — Text — Truncation: Single-line and multi-line text truncation with ellipsis using maxLines in a width-constrained container. · static: `static/TextTruncation.html`
+- `upstream/examples/TextTypes.tsx` — Text — Types: All 5 semantic text types (body, large, label, supporting, code) with their default styling from the theme. · static: `static/TextTypes.html`
+- `upstream/examples/TextWeight.tsx` — Text — Weight: The 4 font weight variants (normal, medium, semibold, bold) applied to body text. · static: `static/TextWeight.html`
+- `upstream/examples/TextWordBreak.tsx` — Text — Word Break: Compares break-word and break-all word break modes on a long unbreakable string. · static: `static/TextWordBreak.html`
+- `upstream/examples/TextWrap.tsx` — Text — Wrap: The 4 text-wrap modes (wrap, nowrap, balance, pretty) shown in width-constrained containers. · static: `static/TextWrap.html`
 
 ## Documentation
 
@@ -148,11 +148,11 @@ Styling hook class: `.astryx-heading`
 
 ## Files
 
-- `src/Heading.doc.mjs`
-- `src/Text.doc.mjs`
-- `src/Text.spec.md`
-- `src/Text.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Heading.doc.mjs`
+- `upstream/Text.doc.mjs`
+- `upstream/Text.spec.md`
+- `upstream/Text.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Text

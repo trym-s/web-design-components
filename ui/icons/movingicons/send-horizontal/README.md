@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/send-horizontal/src/send-horizontal.svelte`
+- Entry point: `ui/icons/movingicons/send-horizontal/upstream/send-horizontal.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/send-horizontal`
 - Registry: https://movingicons.dev/r/send-horizontal
-- Local source fallback: `ui/icons/movingicons/send-horizontal/src/send-horizontal.svelte`
+- Local source fallback: `ui/icons/movingicons/send-horizontal/upstream/send-horizontal.svelte`

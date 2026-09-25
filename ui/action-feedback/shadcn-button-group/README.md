@@ -7,7 +7,7 @@ A container that groups related buttons together with consistent styling.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/button-group.tsx`
+- Entry point: `upstream/ui/button-group.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A container that groups related buttons together with consistent styling.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A container that groups related buttons together with consistent styling.
 
 ## Documentation
 
-> Example `button-group-demo` — `src/examples/button-group-demo.tsx`, `static/button-group-demo.html`
+> Example `button-group-demo` — `upstream/examples/button-group-demo.tsx`, `static/button-group-demo.html`
 
 ## Installation
 
@@ -100,19 +100,19 @@ ButtonGroup
 
 Set the `orientation` prop to change the button group layout.
 
-> Example `button-group-orientation` — `src/examples/button-group-orientation.tsx`, `static/button-group-orientation.html`
+> Example `button-group-orientation` — `upstream/examples/button-group-orientation.tsx`, `static/button-group-orientation.html`
 
 ## Size
 
 Control the size of buttons using the `size` prop on individual buttons.
 
-> Example `button-group-size` — `src/examples/button-group-size.tsx`, `static/button-group-size.html`
+> Example `button-group-size` — `upstream/examples/button-group-size.tsx`, `static/button-group-size.html`
 
 ## Nested
 
 Nest `<ButtonGroup>` components to create button groups with spacing.
 
-> Example `button-group-nested` — `src/examples/button-group-nested.tsx`, `static/button-group-nested.html`
+> Example `button-group-nested` — `upstream/examples/button-group-nested.tsx`, `static/button-group-nested.html`
 
 ## Separator
 
@@ -120,49 +120,49 @@ The `ButtonGroupSeparator` component visually divides buttons within a group.
 
 Buttons with variant `outline` do not need a separator since they have a border. For other variants, a separator is recommended to improve the visual hierarchy.
 
-> Example `button-group-separator` — `src/examples/button-group-separator.tsx`, `static/button-group-separator.html`
+> Example `button-group-separator` — `upstream/examples/button-group-separator.tsx`, `static/button-group-separator.html`
 
 ## Split
 
 Create a split button group by adding two buttons separated by a `ButtonGroupSeparator`.
 
-> Example `button-group-split` — `src/examples/button-group-split.tsx`, `static/button-group-split.html`
+> Example `button-group-split` — `upstream/examples/button-group-split.tsx`, `static/button-group-split.html`
 
 ## Input
 
 Wrap an `Input` component with buttons.
 
-> Example `button-group-input` — `src/examples/button-group-input.tsx`, `static/button-group-input.html`
+> Example `button-group-input` — `upstream/examples/button-group-input.tsx`, `static/button-group-input.html`
 
 ## Input Group
 
 Wrap an `InputGroup` component to create complex input layouts.
 
-> Example `button-group-input-group` — `src/examples/button-group-input-group.tsx`, `static/button-group-input-group.html`
+> Example `button-group-input-group` — `upstream/examples/button-group-input-group.tsx`, `static/button-group-input-group.html`
 
 ## Dropdown Menu
 
 Create a split button group with a `DropdownMenu` component.
 
-> Example `button-group-dropdown` — `src/examples/button-group-dropdown.tsx`, `static/button-group-dropdown.html`
+> Example `button-group-dropdown` — `upstream/examples/button-group-dropdown.tsx`, `static/button-group-dropdown.html`
 
 ## Select
 
 Pair with a `Select` component.
 
-> Example `button-group-select` — `src/examples/button-group-select.tsx`, `static/button-group-select.html`
+> Example `button-group-select` — `upstream/examples/button-group-select.tsx`, `static/button-group-select.html`
 
 ## Popover
 
 Use with a `Popover` component.
 
-> Example `button-group-popover` — `src/examples/button-group-popover.tsx`, `static/button-group-popover.html`
+> Example `button-group-popover` — `upstream/examples/button-group-popover.tsx`, `static/button-group-popover.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `button-group-rtl` — `src/examples/button-group-rtl.tsx`, `static/button-group-rtl.html`
+> Example `button-group-rtl` — `upstream/examples/button-group-rtl.tsx`, `static/button-group-rtl.html`
 
 ## API Reference
 
@@ -241,19 +241,19 @@ export function ButtonGroupTextDemo() {
 
 ## Files
 
-- `src/ui/button-group.tsx` — the ui file as the registry installs it
-- `src/examples/button-group-demo.tsx`
-- `src/examples/button-group-orientation.tsx`
-- `src/examples/button-group-size.tsx`
-- `src/examples/button-group-nested.tsx`
-- `src/examples/button-group-separator.tsx`
-- `src/examples/button-group-split.tsx`
-- `src/examples/button-group-input.tsx`
-- `src/examples/button-group-input-group.tsx`
-- `src/examples/button-group-dropdown.tsx`
-- `src/examples/button-group-select.tsx`
-- `src/examples/button-group-popover.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/button-group.tsx` — the ui file as the registry installs it
+- `upstream/examples/button-group-demo.tsx`
+- `upstream/examples/button-group-orientation.tsx`
+- `upstream/examples/button-group-size.tsx`
+- `upstream/examples/button-group-nested.tsx`
+- `upstream/examples/button-group-separator.tsx`
+- `upstream/examples/button-group-split.tsx`
+- `upstream/examples/button-group-input.tsx`
+- `upstream/examples/button-group-input-group.tsx`
+- `upstream/examples/button-group-dropdown.tsx`
+- `upstream/examples/button-group-select.tsx`
+- `upstream/examples/button-group-popover.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/button-group

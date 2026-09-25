@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/shield-check/src/shield-check.tsx`
+- Entry point: `ui/icons/itshover/shield-check/upstream/shield-check.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/shield-check.json`
 - Registry: https://itshover.com/r/shield-check.json
-- Local source fallback: `ui/icons/itshover/shield-check/src/shield-check.tsx`
+- Local source fallback: `ui/icons/itshover/shield-check/upstream/shield-check.tsx`

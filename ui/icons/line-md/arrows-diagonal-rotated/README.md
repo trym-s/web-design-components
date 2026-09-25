@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrows-diagonal-rotated/src/arrows-diagonal-rotated.svg`
+- Entry point: `ui/icons/line-md/arrows-diagonal-rotated/upstream/arrows-diagonal-rotated.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrows-diagonal-rotated/src/arrows-diagonal-rotated.svg`
+- Local source: `ui/icons/line-md/arrows-diagonal-rotated/upstream/arrows-diagonal-rotated.svg`

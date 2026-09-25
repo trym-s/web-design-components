@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/at/src/at.svg`
+- Entry point: `ui/icons/line-md/at/upstream/at.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/at/src/at.svg`
+- Local source: `ui/icons/line-md/at/upstream/at.svg`

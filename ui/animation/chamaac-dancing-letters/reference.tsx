@@ -1,3 +1,3 @@
 /* Use when: Physics-based interactive text animations. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

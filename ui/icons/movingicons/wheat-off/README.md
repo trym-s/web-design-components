@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/wheat-off/src/wheat-off.svelte`
+- Entry point: `ui/icons/movingicons/wheat-off/upstream/wheat-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/wheat-off`
 - Registry: https://movingicons.dev/r/wheat-off
-- Local source fallback: `ui/icons/movingicons/wheat-off/src/wheat-off.svelte`
+- Local source fallback: `ui/icons/movingicons/wheat-off/upstream/wheat-off.svelte`

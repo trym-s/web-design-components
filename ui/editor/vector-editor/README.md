@@ -7,20 +7,20 @@
 
 - Category: `editor` — functional
 - Medium: React + SVG
-- Entry point: `src/svg-editor/standalone/FigmaFrame.tsx`
+- Entry point: `upstream/svg-editor/standalone/FigmaFrame.tsx`
 - Nature: a working tool surface; treat it as an implementation reference, not a skin.
 
 ## Files
 
-- `src/svg-editor/standalone/types.ts`
-- `src/svg-editor/standalone/parse.ts`
-- `src/svg-editor/standalone/FigmaFrame.tsx`
-- `src/svg-editor/standalone/VectorEditor.tsx`
+- `upstream/svg-editor/standalone/types.ts`
+- `upstream/svg-editor/standalone/parse.ts`
+- `upstream/svg-editor/standalone/FigmaFrame.tsx`
+- `upstream/svg-editor/standalone/VectorEditor.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/vector-editor

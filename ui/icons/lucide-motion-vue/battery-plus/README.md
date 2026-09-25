@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/battery-plus/src/battery-plus.vue`
+- Entry point: `ui/icons/lucide-motion-vue/battery-plus/upstream/battery-plus.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/battery-plus/src/battery-plus.vue`
+- Local source: `ui/icons/lucide-motion-vue/battery-plus/upstream/battery-plus.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/map-pin-house/src/map-pin-house.vue`
+- Entry point: `ui/icons/lucide-motion-vue/map-pin-house/upstream/map-pin-house.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/map-pin-house/src/map-pin-house.vue`
+- Local source: `ui/icons/lucide-motion-vue/map-pin-house/upstream/map-pin-house.vue`

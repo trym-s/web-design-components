@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-document-remove-filled/src/file-document-remove-filled.svg`
+- Entry point: `ui/icons/line-md/file-document-remove-filled/upstream/file-document-remove-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-document-remove-filled/src/file-document-remove-filled.svg`
+- Local source: `ui/icons/line-md/file-document-remove-filled/upstream/file-document-remove-filled.svg`

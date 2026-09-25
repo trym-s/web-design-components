@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-spline/src/chart-spline.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-spline/upstream/chart-spline.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-spline.json`
 - Registry: https://animateicons.in/r/lu-chart-spline.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-spline/src/chart-spline.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-spline/upstream/chart-spline.tsx`

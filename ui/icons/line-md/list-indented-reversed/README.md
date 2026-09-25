@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/list-indented-reversed/src/list-indented-reversed.svg`
+- Entry point: `ui/icons/line-md/list-indented-reversed/upstream/list-indented-reversed.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/list-indented-reversed/src/list-indented-reversed.svg`
+- Local source: `ui/icons/line-md/list-indented-reversed/upstream/list-indented-reversed.svg`

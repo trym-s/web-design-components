@@ -7,20 +7,20 @@
 
 - Category: `surface` — decorative
 - Medium: pure CSS
-- Entry point: `src/color-depth/standalone/color-depth.html`
+- Entry point: `upstream/color-depth/standalone/color-depth.html`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/color-depth/standalone/color-depth.css`
-- `src/color-depth/standalone/color-depth.html`
-- `src/color-depth/standalone/color-depth.js`
-- `src/color-depth/standalone/color-depth.html`
+- `upstream/color-depth/standalone/color-depth.css`
+- `upstream/color-depth/standalone/color-depth.html`
+- `upstream/color-depth/standalone/color-depth.js`
+- `upstream/color-depth/standalone/color-depth.html`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/color-depth

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bell/src/bell.svelte`
+- Entry point: `ui/icons/movingicons/bell/upstream/bell.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bell`
 - Registry: https://movingicons.dev/r/bell
-- Local source fallback: `ui/icons/movingicons/bell/src/bell.svelte`
+- Local source fallback: `ui/icons/movingicons/bell/upstream/bell.svelte`

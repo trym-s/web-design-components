@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/pause/src/pause.svg`
+- Entry point: `ui/icons/line-md/pause/upstream/pause.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/pause/src/pause.svg`
+- Local source: `ui/icons/line-md/pause/upstream/pause.svg`

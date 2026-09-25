@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/corner-right-down/src/corner-right-down.tsx`
+- Entry point: `ui/icons/animateicons-lucide/corner-right-down/upstream/corner-right-down.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-corner-right-down.json`
 - Registry: https://animateicons.in/r/lu-corner-right-down.json
-- Local source fallback: `ui/icons/animateicons-lucide/corner-right-down/src/corner-right-down.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/corner-right-down/upstream/corner-right-down.tsx`

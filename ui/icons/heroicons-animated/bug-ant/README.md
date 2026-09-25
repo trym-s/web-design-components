@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/bug-ant/src/bug-ant.tsx`
+- Entry point: `ui/icons/heroicons-animated/bug-ant/upstream/bug-ant.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/bug-ant`
 - Registry: https://www.heroicons-animated.com/r/bug-ant.json
-- Local source fallback: `ui/icons/heroicons-animated/bug-ant/src/bug-ant.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/bug-ant/upstream/bug-ant.tsx`

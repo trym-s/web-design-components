@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/users/src/users.svelte`
+- Entry point: `ui/icons/movingicons/users/upstream/users.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/users`
 - Registry: https://movingicons.dev/r/users
-- Local source fallback: `ui/icons/movingicons/users/src/users.svelte`
+- Local source fallback: `ui/icons/movingicons/users/upstream/users.svelte`

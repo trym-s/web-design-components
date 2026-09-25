@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/repeat-2/src/repeat-2.tsx`
+- Entry point: `ui/icons/animateicons-lucide/repeat-2/upstream/repeat-2.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-repeat-2.json`
 - Registry: https://animateicons.in/r/lu-repeat-2.json
-- Local source fallback: `ui/icons/animateicons-lucide/repeat-2/src/repeat-2.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/repeat-2/upstream/repeat-2.tsx`

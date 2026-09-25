@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/wallet/src/wallet.tsx`
+- Entry point: `ui/icons/lucide-animated/wallet/upstream/wallet.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/wallet.json`
 - Registry: https://lucide-animated.com/r/wallet.json
-- Local source fallback: `ui/icons/lucide-animated/wallet/src/wallet.tsx`
+- Local source fallback: `ui/icons/lucide-animated/wallet/upstream/wallet.tsx`

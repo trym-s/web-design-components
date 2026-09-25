@@ -7,18 +7,18 @@ Warm, creamy yellows with a friendly blue accent. Playful enough for consumer su
 - Category: `theme` — decorative
 - Medium: CSS custom properties (built) + TypeScript theme source
 - Framework: css
-- Entry point: `src/theme.css`
+- Entry point: `upstream/theme.css`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
 - Use when: Warm, creamy yellows with a friendly blue accent.
 - Provides: color, typography, radius, elevation and motion tokens scoped to `[data-astryx-theme="butter"]`
-- Requires: `src/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="butter"` ancestor
+- Requires: `upstream/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="butter"` ancestor
 - Variants: default
 
 ## How an agent uses this reference
 
-- Any stack: link `src/theme.css` (or `ui/_sources/astryx/css/themes/butter.css`) and put
+- Any stack: link `upstream/theme.css` (or `ui/_sources/astryx/css/themes/butter.css`) and put
   `data-astryx-theme="butter"` on the root; every Astryx token (`--color-*`, `--text-*`, `--radius-*`,
   `--shadow-*`) resolves to this theme. To take the palette only, copy the token values.
 - React: `<Theme theme={butterTheme}>` from `@astryxdesign/theme-butter/built`.
@@ -37,9 +37,9 @@ Warm, creamy yellows with a friendly blue accent. Playful enough for consumer su
 
 ## Files
 
-- `src/butterTheme.ts`
-- `src/icons.tsx`
-- `src/theme.css`
-- `src/demo.tsx` — the Theme Showcase template rendered in this theme
+- `upstream/butterTheme.ts`
+- `upstream/icons.tsx`
+- `upstream/theme.css`
+- `upstream/demo.tsx` — the Theme Showcase template rendered in this theme
 
 Upstream page: https://astryx.atmeta.com/themes?theme=butter

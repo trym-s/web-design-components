@@ -7,7 +7,7 @@ MoreMenu is a three-dot button that opens a list of actions. Use it for secondar
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/MoreMenu.tsx`
+- Entry point: `upstream/MoreMenu.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ MoreMenu is a three-dot button that opens a list of actions. Use it for secondar
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ MoreMenu is a three-dot button that opens a list of actions. Use it for secondar
 
 ## Examples
 
-- `src/examples/MoreMenuShowcase.tsx` — More Menu: A basic three-dot menu with simple action items. · static: `static/MoreMenuShowcase.html`
-- `src/examples/MoreMenuBottomSheet.tsx` — MoreMenu — Bottom Sheet: A visible overflow trigger that opens actions in a BottomSheet. Use this presentation for short action sets on compact touch surfaces. · static: `static/MoreMenuBottomSheet.html`
-- `src/examples/MoreMenuDefaultMoreMenu.tsx` — MoreMenu — Default: Basic three-dot overflow menu with simple text-only action items. · static: `static/MoreMenuDefaultMoreMenu.html`
-- `src/examples/MoreMenuWithDividers.tsx` — MoreMenu — With Dividers: A three-dot menu with a divider separating destructive actions from safe ones. · static: `static/MoreMenuWithDividers.html`
-- `src/examples/MoreMenuWithSections.tsx` — MoreMenu — With Sections: A three-dot menu with actions organized into labeled groups. · static: `static/MoreMenuWithSections.html`
+- `upstream/examples/MoreMenuShowcase.tsx` — More Menu: A basic three-dot menu with simple action items. · static: `static/MoreMenuShowcase.html`
+- `upstream/examples/MoreMenuBottomSheet.tsx` — MoreMenu — Bottom Sheet: A visible overflow trigger that opens actions in a BottomSheet. Use this presentation for short action sets on compact touch surfaces. · static: `static/MoreMenuBottomSheet.html`
+- `upstream/examples/MoreMenuDefaultMoreMenu.tsx` — MoreMenu — Default: Basic three-dot overflow menu with simple text-only action items. · static: `static/MoreMenuDefaultMoreMenu.html`
+- `upstream/examples/MoreMenuWithDividers.tsx` — MoreMenu — With Dividers: A three-dot menu with a divider separating destructive actions from safe ones. · static: `static/MoreMenuWithDividers.html`
+- `upstream/examples/MoreMenuWithSections.tsx` — MoreMenu — With Sections: A three-dot menu with actions organized into labeled groups. · static: `static/MoreMenuWithSections.html`
 
 ## Documentation
 
@@ -115,10 +115,10 @@ Styling hook class: `.astryx-more-menu`
 
 ## Files
 
-- `src/MoreMenu.doc.mjs`
-- `src/MoreMenu.spec.md`
-- `src/MoreMenu.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/MoreMenu.doc.mjs`
+- `upstream/MoreMenu.spec.md`
+- `upstream/MoreMenu.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/MoreMenu

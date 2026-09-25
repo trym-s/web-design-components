@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/phone-remove/src/phone-remove.svg`
+- Entry point: `ui/icons/line-md/phone-remove/upstream/phone-remove.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/phone-remove/src/phone-remove.svg`
+- Local source: `ui/icons/line-md/phone-remove/upstream/phone-remove.svg`

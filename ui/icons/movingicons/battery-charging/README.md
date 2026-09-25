@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/battery-charging/src/battery-charging.svelte`
+- Entry point: `ui/icons/movingicons/battery-charging/upstream/battery-charging.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/battery-charging`
 - Registry: https://movingicons.dev/r/battery-charging
-- Local source fallback: `ui/icons/movingicons/battery-charging/src/battery-charging.svelte`
+- Local source fallback: `ui/icons/movingicons/battery-charging/upstream/battery-charging.svelte`

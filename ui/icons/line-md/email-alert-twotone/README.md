@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-alert-twotone/src/email-alert-twotone.svg`
+- Entry point: `ui/icons/line-md/email-alert-twotone/upstream/email-alert-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-alert-twotone/src/email-alert-twotone.svg`
+- Local source: `ui/icons/line-md/email-alert-twotone/upstream/email-alert-twotone.svg`

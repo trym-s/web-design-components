@@ -7,7 +7,7 @@ A small colored dot that communicates status like online/offline presence or sev
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/StatusDot.tsx`
+- Entry point: `upstream/StatusDot.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A small colored dot that communicates status like online/offline presence or sev
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A small colored dot that communicates status like online/offline presence or sev
 
 ## Examples
 
-- `src/examples/StatusDotShowcase.tsx` — Status Dot: A positive status dot indicator. · static: `static/StatusDotShowcase.html`
-- `src/examples/StatusDotPulsing.tsx` — StatusDot — Pulsing: Animated pulsing dots for live, processing, and error states. · static: `static/StatusDotPulsing.html`
-- `src/examples/StatusDotStatusIndicators.tsx` — StatusDot — Status Indicators: Labeled status dot list for presence indicators like online, away, and offline. · static: `static/StatusDotStatusIndicators.html`
-- `src/examples/StatusDotVariants.tsx` — StatusDot — Variants: All five semantic color variants displayed in a row. · static: `static/StatusDotVariants.html`
+- `upstream/examples/StatusDotShowcase.tsx` — Status Dot: A positive status dot indicator. · static: `static/StatusDotShowcase.html`
+- `upstream/examples/StatusDotPulsing.tsx` — StatusDot — Pulsing: Animated pulsing dots for live, processing, and error states. · static: `static/StatusDotPulsing.html`
+- `upstream/examples/StatusDotStatusIndicators.tsx` — StatusDot — Status Indicators: Labeled status dot list for presence indicators like online, away, and offline. · static: `static/StatusDotStatusIndicators.html`
+- `upstream/examples/StatusDotVariants.tsx` — StatusDot — Variants: All five semantic color variants displayed in a row. · static: `static/StatusDotVariants.html`
 
 ## Documentation
 
@@ -111,10 +111,10 @@ Styling hook class: `.astryx-status-dot`, `.astryx-statusdot`
 
 ## Files
 
-- `src/StatusDot.doc.mjs`
-- `src/StatusDot.spec.md`
-- `src/StatusDot.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/StatusDot.doc.mjs`
+- `upstream/StatusDot.spec.md`
+- `upstream/StatusDot.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/StatusDot

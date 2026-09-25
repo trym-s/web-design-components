@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bookmark-check/src/bookmark-check.svelte`
+- Entry point: `ui/icons/movingicons/bookmark-check/upstream/bookmark-check.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-check`
 - Registry: https://movingicons.dev/r/bookmark-check
-- Local source fallback: `ui/icons/movingicons/bookmark-check/src/bookmark-check.svelte`
+- Local source fallback: `ui/icons/movingicons/bookmark-check/upstream/bookmark-check.svelte`

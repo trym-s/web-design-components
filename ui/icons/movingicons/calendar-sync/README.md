@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/calendar-sync/src/calendar-sync.svelte`
+- Entry point: `ui/icons/movingicons/calendar-sync/upstream/calendar-sync.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-sync`
 - Registry: https://movingicons.dev/r/calendar-sync
-- Local source fallback: `ui/icons/movingicons/calendar-sync/src/calendar-sync.svelte`
+- Local source fallback: `ui/icons/movingicons/calendar-sync/upstream/calendar-sync.svelte`

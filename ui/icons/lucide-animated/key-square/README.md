@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/key-square/src/key-square.tsx`
+- Entry point: `ui/icons/lucide-animated/key-square/upstream/key-square.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/key-square.json`
 - Registry: https://lucide-animated.com/r/key-square.json
-- Local source fallback: `ui/icons/lucide-animated/key-square/src/key-square.tsx`
+- Local source fallback: `ui/icons/lucide-animated/key-square/upstream/key-square.tsx`

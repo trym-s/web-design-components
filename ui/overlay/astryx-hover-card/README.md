@@ -7,7 +7,7 @@ HoverCard shows additional information when the user hovers or focuses a trigger
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/HoverCard.tsx`
+- Entry point: `upstream/HoverCard.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ HoverCard shows additional information when the user hovers or focuses a trigger
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ HoverCard shows additional information when the user hovers or focuses a trigger
 
 ## Examples
 
-- `src/examples/HoverCardShowcase.tsx` — Hover Card: A hover card that shows a user profile preview when hovering over a trigger button. Starts open for preview. · static: `static/HoverCardShowcase.html`
-- `src/examples/HoverCardInlineTextHoverCard.tsx` — HoverCard — Definition: Shows a term definition on hover within a paragraph. Use for technical terms, jargon, or concepts that some readers may not know, like a glossary built into the text. · static: `static/HoverCardInlineTextHoverCard.html`
-- `src/examples/HoverCardInteractiveContent.tsx` — HoverCard — Link Preview: Shows a page summary when hovering a link: title, description, and URL. Use for documentation links, article references, or any URL where a preview helps the user decide whether to click. · static: `static/HoverCardInteractiveContent.html`
-- `src/examples/HoverCardProfileHoverCard.tsx` — HoverCard — Profile Preview: Shows a user profile summary on hover with name, role, and bio. Use on usernames, avatars, or mentions to let users preview a profile without navigating away. · static: `static/HoverCardProfileHoverCard.html`
+- `upstream/examples/HoverCardShowcase.tsx` — Hover Card: A hover card that shows a user profile preview when hovering over a trigger button. Starts open for preview. · static: `static/HoverCardShowcase.html`
+- `upstream/examples/HoverCardInlineTextHoverCard.tsx` — HoverCard — Definition: Shows a term definition on hover within a paragraph. Use for technical terms, jargon, or concepts that some readers may not know, like a glossary built into the text. · static: `static/HoverCardInlineTextHoverCard.html`
+- `upstream/examples/HoverCardInteractiveContent.tsx` — HoverCard — Link Preview: Shows a page summary when hovering a link: title, description, and URL. Use for documentation links, article references, or any URL where a preview helps the user decide whether to click. · static: `static/HoverCardInteractiveContent.html`
+- `upstream/examples/HoverCardProfileHoverCard.tsx` — HoverCard — Profile Preview: Shows a user profile summary on hover with name, role, and bio. Use on usernames, avatars, or mentions to let users preview a profile without navigating away. · static: `static/HoverCardProfileHoverCard.html`
 
 ## Documentation
 
@@ -89,9 +89,9 @@ Styling hook class: `.astryx-hover-card`, `.astryx-hovercard`
 
 ## Files
 
-- `src/HoverCard.doc.mjs`
-- `src/HoverCard.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/HoverCard.doc.mjs`
+- `upstream/HoverCard.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/HoverCard

@@ -7,7 +7,7 @@ Section is the correct way to create page regions and group related content on a
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Section.tsx`
+- Entry point: `upstream/Section.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Section is the correct way to create page regions and group related content on a
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Section is the correct way to create page regions and group related content on a
 
 ## Examples
 
-- `src/examples/SectionVariants.tsx` — Section — Variants: All three background variants stacked: section (default surface), muted, and transparent. A quick visual reference for choosing the right variant. · static: `static/SectionVariants.html`
-- `src/examples/SectionWashHighlight.tsx` — Section — Default with Wash: A default section stacked with a full-width muted section. Shows how muted draws attention to a specific region like an upgrade prompt or banner. · static: `static/SectionWashHighlight.html`
-- `src/examples/SectionWithDividers.tsx` — Section — With Dividers: Adjacent sections separated by bottom dividers, like a settings page. Use dividers when stacking same-variant sections that need visual separation without a background change. · static: `static/SectionWithDividers.html`
+- `upstream/examples/SectionVariants.tsx` — Section — Variants: All three background variants stacked: section (default surface), muted, and transparent. A quick visual reference for choosing the right variant. · static: `static/SectionVariants.html`
+- `upstream/examples/SectionWashHighlight.tsx` — Section — Default with Wash: A default section stacked with a full-width muted section. Shows how muted draws attention to a specific region like an upgrade prompt or banner. · static: `static/SectionWashHighlight.html`
+- `upstream/examples/SectionWithDividers.tsx` — Section — With Dividers: Adjacent sections separated by bottom dividers, like a settings page. Use dividers when stacking same-variant sections that need visual separation without a background change. · static: `static/SectionWithDividers.html`
 
 ## Documentation
 
@@ -125,10 +125,10 @@ Styling hook class: `.astryx-section`
 
 ## Files
 
-- `src/Section.doc.mjs`
-- `src/Section.spec.md`
-- `src/Section.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Section.doc.mjs`
+- `upstream/Section.spec.md`
+- `upstream/Section.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Section

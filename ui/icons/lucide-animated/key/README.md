@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/key/src/key.tsx`
+- Entry point: `ui/icons/lucide-animated/key/upstream/key.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/key.json`
 - Registry: https://lucide-animated.com/r/key.json
-- Local source fallback: `ui/icons/lucide-animated/key/src/key.tsx`
+- Local source fallback: `ui/icons/lucide-animated/key/upstream/key.tsx`

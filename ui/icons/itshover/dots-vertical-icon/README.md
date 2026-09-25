@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/dots-vertical-icon/src/dots-vertical-icon.tsx`
+- Entry point: `ui/icons/itshover/dots-vertical-icon/upstream/dots-vertical-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/dots-vertical-icon.json`
 - Registry: https://itshover.com/r/dots-vertical-icon.json
-- Local source fallback: `ui/icons/itshover/dots-vertical-icon/src/dots-vertical-icon.tsx`
+- Local source fallback: `ui/icons/itshover/dots-vertical-icon/upstream/dots-vertical-icon.tsx`

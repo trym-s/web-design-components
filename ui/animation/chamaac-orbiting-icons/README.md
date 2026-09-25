@@ -9,7 +9,7 @@ Orbiting Icons (work in progress in the Chamaac repository).
 - Category: `animation` — decorative
 - Medium: React + TypeScript + Tailwind CSS v4; static HTML
 - Framework: react
-- Entry point: `src/examples/orbiting-icons-demo.tsx`
+- Entry point: `upstream/examples/orbiting-icons-demo.tsx`
 - Nature: decorative; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -18,17 +18,17 @@ Orbiting Icons (work in progress in the Chamaac repository).
 - Requires: React and Tailwind v4
 - Variants: default
 - Upstream: Chamaac UI · in-progress
-- Local source fallback: `src/examples/orbiting-icons-demo.tsx`
+- Local source fallback: `upstream/examples/orbiting-icons-demo.tsx`
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/orbiting-icons.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Files
 
-- `src/examples/orbiting-icons-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/orbiting-icons-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://github.com/amarnathdhumal/chamaacui/tree/main/app/in-progress/orbiting-icons

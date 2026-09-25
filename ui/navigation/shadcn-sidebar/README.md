@@ -7,7 +7,7 @@ A composable, themeable and customizable sidebar component.
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/sidebar.tsx`
+- Entry point: `upstream/ui/sidebar.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A composable, themeable and customizable sidebar component.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -33,7 +33,7 @@ A composable, themeable and customizable sidebar component.
 import { ExternalLinkIcon } from "lucide-react"
 
 <figure className="flex flex-col gap-4">
-> Example `sidebar-demo` — `src/examples/sidebar-demo.tsx`, `static/sidebar-demo.html`
+> Example `sidebar-demo` — `upstream/examples/sidebar-demo.tsx`, `static/sidebar-demo.html`
   <figcaption className="text-center text-sm text-gray-500">
     A sidebar that collapses to icons.
   </figcaption>
@@ -628,21 +628,21 @@ The sidebar will correctly position itself and handle interactions in both LTR a
 
 ## Files
 
-- `src/ui/sidebar.tsx` — the ui file as the registry installs it
-- `src/examples/sidebar-demo.tsx`
-- `src/examples/sidebar-controlled.tsx`
-- `src/examples/sidebar-footer.tsx`
-- `src/examples/sidebar-group-action.tsx`
-- `src/examples/sidebar-group-collapsible.tsx`
-- `src/examples/sidebar-group.tsx`
-- `src/examples/sidebar-header.tsx`
-- `src/examples/sidebar-menu-action.tsx`
-- `src/examples/sidebar-menu-badge.tsx`
-- `src/examples/sidebar-menu-collapsible.tsx`
-- `src/examples/sidebar-menu-sub.tsx`
-- `src/examples/sidebar-menu.tsx`
-- `src/examples/sidebar-rsc.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/sidebar.tsx` — the ui file as the registry installs it
+- `upstream/examples/sidebar-demo.tsx`
+- `upstream/examples/sidebar-controlled.tsx`
+- `upstream/examples/sidebar-footer.tsx`
+- `upstream/examples/sidebar-group-action.tsx`
+- `upstream/examples/sidebar-group-collapsible.tsx`
+- `upstream/examples/sidebar-group.tsx`
+- `upstream/examples/sidebar-header.tsx`
+- `upstream/examples/sidebar-menu-action.tsx`
+- `upstream/examples/sidebar-menu-badge.tsx`
+- `upstream/examples/sidebar-menu-collapsible.tsx`
+- `upstream/examples/sidebar-menu-sub.tsx`
+- `upstream/examples/sidebar-menu.tsx`
+- `upstream/examples/sidebar-rsc.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/sidebar

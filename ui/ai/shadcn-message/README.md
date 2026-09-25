@@ -7,7 +7,7 @@ Displays a message in a conversation, with optional avatar, header, footer, and 
 - Category: `ai` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/message.tsx`
+- Entry point: `upstream/ui/message.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a message in a conversation, with optional avatar, header, footer, and 
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a message in a conversation, with optional avatar, header, footer, and 
 
 ## Documentation
 
-> Example `message-demo` (radix-rhea) — `src/examples/message-demo.tsx`, `static/message-demo.html`
+> Example `message-demo` (radix-rhea) — `upstream/examples/message-demo.tsx`, `static/message-demo.html`
 
 The `Message` component lays out a single message in a conversation. It handles the avatar, alignment, header, and footer around the message surface.
 
@@ -111,7 +111,7 @@ MessageGroup
 
 Use `MessageAvatar` to render an avatar next to the message. Set `align="end"` on the message to align the avatar to the end of the message.
 
-> Example `message-avatar` (radix-rhea) — `src/examples/message-avatar.tsx`, `static/message-avatar.html`
+> Example `message-avatar` (radix-rhea) — `upstream/examples/message-avatar.tsx`, `static/message-avatar.html`
 
 | align   | Description                                         |
 | ------- | --------------------------------------------------- |
@@ -122,23 +122,23 @@ Use `MessageAvatar` to render an avatar next to the message. Set `align="end"` o
 
 Use `MessageGroup` to stack consecutive messages from the same sender. Render an empty `MessageAvatar` on the earlier messages to keep them aligned with the avatar on the last one.
 
-> Example `message-group` (radix-rhea) — `src/examples/message-group.tsx`, `static/message-group.html`
+> Example `message-group` (radix-rhea) — `upstream/examples/message-group.tsx`, `static/message-group.html`
 
 ## Header and Footer
 
 Use `MessageHeader` for a sender name and `MessageFooter` for metadata such as a delivery or read status.
 
-> Example `message-header-footer` (radix-rhea) — `src/examples/message-header-footer.tsx`, `static/message-header-footer.html`
+> Example `message-header-footer` (radix-rhea) — `upstream/examples/message-header-footer.tsx`, `static/message-header-footer.html`
 
 ## Actions
 
 Place message-level actions in `MessageFooter`, such as copy, retry, or feedback buttons.
 
-> Example `message-actions` (radix-rhea) — `src/examples/message-actions.tsx`, `static/message-actions.html`
+> Example `message-actions` (radix-rhea) — `upstream/examples/message-actions.tsx`, `static/message-actions.html`
 
 ## Attachment
 
-> Example `message-attachment` (radix-rhea) — `src/examples/message-attachment.tsx`, `static/message-attachment.html`
+> Example `message-attachment` (radix-rhea) — `upstream/examples/message-attachment.tsx`, `static/message-attachment.html`
 
 ## Accessibility
 
@@ -224,15 +224,15 @@ Displays content below the message, such as status or actions. Aligns to the mes
 
 ## Files
 
-- `src/ui/message.tsx` — the ui file as the registry installs it
-- `src/examples/message-demo.tsx`
-- `src/examples/message-avatar.tsx`
-- `src/examples/message-group.tsx`
-- `src/examples/message-header-footer.tsx`
-- `src/examples/message-actions.tsx`
-- `src/examples/message-attachment.tsx`
-- `src/examples/message-markdown.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/message.tsx` — the ui file as the registry installs it
+- `upstream/examples/message-demo.tsx`
+- `upstream/examples/message-avatar.tsx`
+- `upstream/examples/message-group.tsx`
+- `upstream/examples/message-header-footer.tsx`
+- `upstream/examples/message-actions.tsx`
+- `upstream/examples/message-attachment.tsx`
+- `upstream/examples/message-markdown.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/message

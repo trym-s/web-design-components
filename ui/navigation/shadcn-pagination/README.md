@@ -7,7 +7,7 @@ Pagination with page navigation, next and previous links.
 - Category: `navigation` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/pagination.tsx`
+- Entry point: `upstream/ui/pagination.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Pagination with page navigation, next and previous links.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Pagination with page navigation, next and previous links.
 
 ## Documentation
 
-> Example `pagination-demo` — `src/examples/pagination-demo.tsx`, `static/pagination-demo.html`
+> Example `pagination-demo` — `upstream/examples/pagination-demo.tsx`, `static/pagination-demo.html`
 
 ## Installation
 
@@ -106,13 +106,13 @@ Pagination
 
 A simple pagination with only page numbers.
 
-> Example `pagination-simple` — `src/examples/pagination-simple.tsx`, `static/pagination-simple.html`
+> Example `pagination-simple` — `upstream/examples/pagination-simple.tsx`, `static/pagination-simple.html`
 
 ## Icons Only
 
 Use just the previous and next buttons without page numbers. This is useful for data tables with a rows per page selector.
 
-> Example `pagination-icons-only` — `src/examples/pagination-icons-only.tsx`, `static/pagination-icons-only.html`
+> Example `pagination-icons-only` — `upstream/examples/pagination-icons-only.tsx`, `static/pagination-icons-only.html`
 
 ## Next.js
 
@@ -146,7 +146,7 @@ const PaginationLink = ({...props }: ) => (
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `pagination-rtl` — `src/examples/pagination-rtl.tsx`, `static/pagination-rtl.html`
+> Example `pagination-rtl` — `upstream/examples/pagination-rtl.tsx`, `static/pagination-rtl.html`
 
 ## Changelog
 
@@ -206,11 +206,11 @@ If you're upgrading from a previous version of the `Pagination` component, you'l
 
 ## Files
 
-- `src/ui/pagination.tsx` — the ui file as the registry installs it
-- `src/examples/pagination-demo.tsx`
-- `src/examples/pagination-simple.tsx`
-- `src/examples/pagination-icons-only.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/pagination.tsx` — the ui file as the registry installs it
+- `upstream/examples/pagination-demo.tsx`
+- `upstream/examples/pagination-simple.tsx`
+- `upstream/examples/pagination-icons-only.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/pagination

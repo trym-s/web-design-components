@@ -7,7 +7,7 @@ An animated shimmer placeholder that previews the shape of content while it load
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Skeleton.tsx`
+- Entry point: `upstream/Skeleton.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ An animated shimmer placeholder that previews the shape of content while it load
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ An animated shimmer placeholder that previews the shape of content while it load
 
 ## Examples
 
-- `src/examples/SkeletonShowcase.tsx` — Skeleton: A skeleton loading placeholder. · static: `static/SkeletonShowcase.html`
-- `src/examples/SkeletonCardSkeleton.tsx` — Skeleton — Card Loading: Card skeleton with avatar, name, and content lines. · static: `static/SkeletonCardSkeleton.html`
-- `src/examples/SkeletonStaggeredList.tsx` — Skeleton — Staggered List: Staggered skeleton lines with varying widths. · static: `static/SkeletonStaggeredList.html`
-- `src/examples/SkeletonTableRowSkeleton.tsx` — Skeleton — Table Rows: Table skeleton with staggered column widths. · static: `static/SkeletonTableRowSkeleton.html`
+- `upstream/examples/SkeletonShowcase.tsx` — Skeleton: A skeleton loading placeholder. · static: `static/SkeletonShowcase.html`
+- `upstream/examples/SkeletonCardSkeleton.tsx` — Skeleton — Card Loading: Card skeleton with avatar, name, and content lines. · static: `static/SkeletonCardSkeleton.html`
+- `upstream/examples/SkeletonStaggeredList.tsx` — Skeleton — Staggered List: Staggered skeleton lines with varying widths. · static: `static/SkeletonStaggeredList.html`
+- `upstream/examples/SkeletonTableRowSkeleton.tsx` — Skeleton — Table Rows: Table skeleton with staggered column widths. · static: `static/SkeletonTableRowSkeleton.html`
 
 ## Documentation
 
@@ -102,10 +102,10 @@ Styling hook class: `.astryx-skeleton`
 
 ## Files
 
-- `src/Skeleton.doc.mjs`
-- `src/Skeleton.spec.md`
-- `src/Skeleton.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Skeleton.doc.mjs`
+- `upstream/Skeleton.spec.md`
+- `upstream/Skeleton.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Skeleton

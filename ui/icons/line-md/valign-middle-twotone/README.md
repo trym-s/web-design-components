@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/valign-middle-twotone/src/valign-middle-twotone.svg`
+- Entry point: `ui/icons/line-md/valign-middle-twotone/upstream/valign-middle-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/valign-middle-twotone/src/valign-middle-twotone.svg`
+- Local source: `ui/icons/line-md/valign-middle-twotone/upstream/valign-middle-twotone.svg`

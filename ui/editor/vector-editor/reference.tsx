@@ -4,8 +4,8 @@
 "use client";
 
 import { useState } from "react";
-import { parsePath } from "./src/svg-editor/standalone/parse";
-import { VectorEditor } from "./src/svg-editor/standalone/VectorEditor";
+import { parsePath } from "./upstream/svg-editor/standalone/parse";
+import { VectorEditor } from "./upstream/svg-editor/standalone/VectorEditor";
 
 const START = parsePath("M40 160 C 40 60, 200 60, 200 160 S 360 260, 360 160");
 

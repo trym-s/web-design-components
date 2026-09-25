@@ -73,15 +73,15 @@ additional components. The site has no sitemap or robots inventory; both paths r
     const previewPath = join(dir, "preview.png");
     const existingPreview = existsSync(previewPath) ? readFileSync(previewPath) : null;
     rmSync(dir, { recursive: true, force: true });
-    mkdirSync(join(dir, "src"), { recursive: true });
+    mkdirSync(join(dir, "upstream"), { recursive: true });
 
     let demo = readFileSync(join(siteRoot, "playground/demos", `${entry.demo}.tsx`), "utf8");
     demo = demo
       .replaceAll("from 'liquid-gooey'", "from '../../../_sources/liquid-gooey/src/index'")
       .replaceAll("from '../App'", "from './types'")
       .replaceAll("from '../assets/", "from './assets/");
-    writeFileSync(join(dir, "src/demo.tsx"), demo);
-    writeFileSync(join(dir, "src/types.ts"), `export interface DemoProps {
+    writeFileSync(join(dir, "upstream/demo.tsx"), demo);
+    writeFileSync(join(dir, "upstream/types.ts"), `export interface DemoProps {
   blur: number
   contrast: number
   shadow: string
@@ -92,14 +92,14 @@ additional components. The site has no sitemap or robots inventory; both paths r
 `);
 
     for (const asset of entry.assets) {
-      copy(join(siteRoot, "playground/assets", asset), join(dir, "src/assets", asset));
+      copy(join(siteRoot, "playground/assets", asset), join(dir, "upstream/assets", asset));
     }
 
     writeFileSync(join(dir, "reference.tsx"), `/* Use when: a React interface needs the upstream ${entry.title.toLowerCase()} interaction and its ${entry.effect} liquid behavior. */
 
 import "../../_sources/liquid-gooey/styles.css";
 import "../../_sources/liquid-gooey/demo.css";
-import { ${entry.demo} } from "./src/demo";
+import { ${entry.demo} } from "./upstream/demo";
 
 const shadow = "0 0 0 1px rgba(255,255,255,.04) inset, 0 2px 6px rgba(0,0,0,.24)";
 
@@ -128,8 +128,8 @@ as a reference and translate them into the target project's framework and conven
 ## Files
 
 - \`reference.tsx\` — dashboard wrapper using the upstream defaults
-- \`src/demo.tsx\` — pinned upstream demo with only local import-path rewrites
-- \`src/types.ts\` — the upstream demo prop contract extracted from its catalog host
+- \`upstream/demo.tsx\` — pinned upstream demo with only local import-path rewrites
+- \`upstream/types.ts\` — the upstream demo prop contract extracted from its catalog host
 - \`preview.png\` — Chromium capture from the original public site
 - \`SOURCE.md\` — per-entry provenance and capture scope
 - \`ui/_sources/liquid-gooey/\` — complete library engine, shared CSS, license, and assets

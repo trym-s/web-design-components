@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/no-symbol/src/no-symbol.tsx`
+- Entry point: `ui/icons/heroicons-animated/no-symbol/upstream/no-symbol.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/no-symbol`
 - Registry: https://www.heroicons-animated.com/r/no-symbol.json
-- Local source fallback: `ui/icons/heroicons-animated/no-symbol/src/no-symbol.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/no-symbol/upstream/no-symbol.tsx`

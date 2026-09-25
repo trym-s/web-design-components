@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-minus/src/file-minus.svg`
+- Entry point: `ui/icons/line-md/file-minus/upstream/file-minus.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-minus/src/file-minus.svg`
+- Local source: `ui/icons/line-md/file-minus/upstream/file-minus.svg`

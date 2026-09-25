@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/rocket/src/rocket.svelte`
+- Entry point: `ui/icons/movingicons/rocket/upstream/rocket.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/rocket`
 - Registry: https://movingicons.dev/r/rocket
-- Local source fallback: `ui/icons/movingicons/rocket/src/rocket.svelte`
+- Local source fallback: `ui/icons/movingicons/rocket/upstream/rocket.svelte`

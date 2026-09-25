@@ -7,7 +7,7 @@ Field is a low-level wrapper for custom, native, or third-party controls that do
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Field.tsx`
+- Entry point: `upstream/Field.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Field is a low-level wrapper for custom, native, or third-party controls that do
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ Field is a low-level wrapper for custom, native, or third-party controls that do
 
 ## Examples
 
-- `src/examples/FieldLabelShowcase.tsx` — Field Label: Standalone field labels demonstrating required, optional, tooltip, and icon variations. · static: `static/FieldLabelShowcase.html`
-- `src/examples/FieldShowcase.tsx` — Field: A form field wrapping a text input with a label, description, and validation status. · static: `static/FieldShowcase.html`
-- `src/examples/FieldLabelBasic.tsx` — FieldLabel — Basic: Standalone labels with required and optional indicators and a helper description. Use when labeling a custom control that does not render its own label. · static: `static/FieldLabelBasic.html`
-- `src/examples/FieldRequired.tsx` — Field — Required & Optional: Required and optional field indicators side by side. Use isRequired on fields the user must fill in, and isOptional to clarify which fields can be skipped. · static: `static/FieldRequired.html`
-- `src/examples/FieldStatusVariants.tsx` — Field — Validation States: All three validation states: error, warning, and success. Use error for invalid input, warning for potential issues like reserved names, and success to confirm valid entries like API keys. · static: `static/FieldStatusVariants.html`
-- `src/examples/FieldWithDescription.tsx` — Field — Description: Fields with helper text below the label. Use descriptions to explain format requirements, constraints, or what happens with the data, like "At least 8 characters" or "We will send a confirmation link". · static: `static/FieldWithDescription.html`
+- `upstream/examples/FieldLabelShowcase.tsx` — Field Label: Standalone field labels demonstrating required, optional, tooltip, and icon variations. · static: `static/FieldLabelShowcase.html`
+- `upstream/examples/FieldShowcase.tsx` — Field: A form field wrapping a text input with a label, description, and validation status. · static: `static/FieldShowcase.html`
+- `upstream/examples/FieldLabelBasic.tsx` — FieldLabel — Basic: Standalone labels with required and optional indicators and a helper description. Use when labeling a custom control that does not render its own label. · static: `static/FieldLabelBasic.html`
+- `upstream/examples/FieldRequired.tsx` — Field — Required & Optional: Required and optional field indicators side by side. Use isRequired on fields the user must fill in, and isOptional to clarify which fields can be skipped. · static: `static/FieldRequired.html`
+- `upstream/examples/FieldStatusVariants.tsx` — Field — Validation States: All three validation states: error, warning, and success. Use error for invalid input, warning for potential issues like reserved names, and success to confirm valid entries like API keys. · static: `static/FieldStatusVariants.html`
+- `upstream/examples/FieldWithDescription.tsx` — Field — Description: Fields with helper text below the label. Use descriptions to explain format requirements, constraints, or what happens with the data, like "At least 8 characters" or "We will send a confirmation link". · static: `static/FieldWithDescription.html`
 
 ## Documentation
 
@@ -156,11 +156,11 @@ function CustomSliderField() {
 
 ## Files
 
-- `src/Field.doc.mjs`
-- `src/Field.tsx`
-- `src/FieldLabel.doc.mjs`
-- `src/FieldLabel.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Field.doc.mjs`
+- `upstream/Field.tsx`
+- `upstream/FieldLabel.doc.mjs`
+- `upstream/FieldLabel.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Field

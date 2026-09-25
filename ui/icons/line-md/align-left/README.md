@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/align-left/src/align-left.svg`
+- Entry point: `ui/icons/line-md/align-left/upstream/align-left.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/align-left/src/align-left.svg`
+- Local source: `ui/icons/line-md/align-left/upstream/align-left.svg`

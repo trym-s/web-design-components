@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/globe-asia-australia/src/globe-asia-australia.tsx`
+- Entry point: `ui/icons/heroicons-animated/globe-asia-australia/upstream/globe-asia-australia.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/globe-asia-australia`
 - Registry: https://www.heroicons-animated.com/r/globe-asia-australia.json
-- Local source fallback: `ui/icons/heroicons-animated/globe-asia-australia/src/globe-asia-australia.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/globe-asia-australia/upstream/globe-asia-australia.tsx`

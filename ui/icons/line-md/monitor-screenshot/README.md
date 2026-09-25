@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/monitor-screenshot/src/monitor-screenshot.svg`
+- Entry point: `ui/icons/line-md/monitor-screenshot/upstream/monitor-screenshot.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/monitor-screenshot/src/monitor-screenshot.svg`
+- Local source: `ui/icons/line-md/monitor-screenshot/upstream/monitor-screenshot.svg`

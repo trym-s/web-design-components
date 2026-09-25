@@ -7,7 +7,7 @@ Wraps your app to set the active locale and (optionally) merge additional transl
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/InternationalizationProvider.tsx`
+- Entry point: `upstream/InternationalizationProvider.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Wraps your app to set the active locale and (optionally) merge additional transl
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Wraps your app to set the active locale and (optionally) merge additional transl
 
 ## Examples
 
-- `src/examples/InternationalizationProvider01ShippedLocale.tsx` — Internationalization Provider — Shipped Locale: Load a locale catalog shipped by Astryx and re-render InternationalizationProvider with a new locale to update Astryx strings live. · static: `static/InternationalizationProvider01ShippedLocale.html`
-- `src/examples/InternationalizationProvider02Overrides.tsx` — Internationalization Provider — Overrides: Override a small number of Astryx strings without providing a full locale catalog. · static: `static/InternationalizationProvider02Overrides.html`
-- `src/examples/InternationalizationProvider03RtlDirection.tsx` — Internationalization Provider — RTL Direction: Toggle text direction with the `dir` prop and watch Astryx components mirror. Pagination flips its prev/next chevrons under RTL. The `dir` prop is passed to both `InternationalizationProvider` (so Astryx components pick it up) and the `VStack` (so the DOM subtree mirrors); both channels stay in sync with no extra wrapper. · static: `static/InternationalizationProvider03RtlDirection.html`
+- `upstream/examples/InternationalizationProvider01ShippedLocale.tsx` — Internationalization Provider — Shipped Locale: Load a locale catalog shipped by Astryx and re-render InternationalizationProvider with a new locale to update Astryx strings live. · static: `static/InternationalizationProvider01ShippedLocale.html`
+- `upstream/examples/InternationalizationProvider02Overrides.tsx` — Internationalization Provider — Overrides: Override a small number of Astryx strings without providing a full locale catalog. · static: `static/InternationalizationProvider02Overrides.html`
+- `upstream/examples/InternationalizationProvider03RtlDirection.tsx` — Internationalization Provider — RTL Direction: Toggle text direction with the `dir` prop and watch Astryx components mirror. Pagination flips its prev/next chevrons under RTL. The `dir` prop is passed to both `InternationalizationProvider` (so Astryx components pick it up) and the `VStack` (so the DOM subtree mirrors); both channels stay in sync with no extra wrapper. · static: `static/InternationalizationProvider03RtlDirection.html`
 
 ## Documentation
 
@@ -123,9 +123,9 @@ export function AppI18n({children}: {children: ReactNode}) {
 
 ## Files
 
-- `src/InternationalizationProvider.doc.mjs`
-- `src/InternationalizationProvider.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/InternationalizationProvider.doc.mjs`
+- `upstream/InternationalizationProvider.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/InternationalizationProvider

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/arrow-uturn-down/src/arrow-uturn-down.tsx`
+- Entry point: `ui/icons/heroicons-animated/arrow-uturn-down/upstream/arrow-uturn-down.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/arrow-uturn-down`
 - Registry: https://www.heroicons-animated.com/r/arrow-uturn-down.json
-- Local source fallback: `ui/icons/heroicons-animated/arrow-uturn-down/src/arrow-uturn-down.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/arrow-uturn-down/upstream/arrow-uturn-down.tsx`

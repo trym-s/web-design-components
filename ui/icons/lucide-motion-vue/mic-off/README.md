@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/mic-off/src/mic-off.vue`
+- Entry point: `ui/icons/lucide-motion-vue/mic-off/upstream/mic-off.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/mic-off/src/mic-off.vue`
+- Local source: `ui/icons/lucide-motion-vue/mic-off/upstream/mic-off.vue`

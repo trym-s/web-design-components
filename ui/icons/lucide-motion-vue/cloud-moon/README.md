@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/cloud-moon/src/cloud-moon.vue`
+- Entry point: `ui/icons/lucide-motion-vue/cloud-moon/upstream/cloud-moon.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/cloud-moon/src/cloud-moon.vue`
+- Local source: `ui/icons/lucide-motion-vue/cloud-moon/upstream/cloud-moon.vue`

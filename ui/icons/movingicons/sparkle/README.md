@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/sparkle/src/sparkle.svelte`
+- Entry point: `ui/icons/movingicons/sparkle/upstream/sparkle.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/sparkle`
 - Registry: https://movingicons.dev/r/sparkle
-- Local source fallback: `ui/icons/movingicons/sparkle/src/sparkle.svelte`
+- Local source fallback: `ui/icons/movingicons/sparkle/upstream/sparkle.svelte`

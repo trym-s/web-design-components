@@ -7,7 +7,7 @@ A button with a smooth hover arrow swap animation.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 + Motion; static HTML
 - Framework: react
-- Entry point: `src/examples/hover-arrow-button-demo.tsx`
+- Entry point: `upstream/examples/hover-arrow-button-demo.tsx`
 - Nature: interactive; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -22,7 +22,7 @@ A button with a smooth hover arrow swap animation.
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/hover-arrow-button.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Props
@@ -38,8 +38,8 @@ A button with a smooth hover arrow swap animation.
 ## Files
 
 - `ui/_sources/chamaac/registry/chamaac/hover-arrow-button/hover-arrow-button.tsx` — the component as the registry installs it
-- `src/examples/hover-arrow-button-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/hover-arrow-button-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/buttons/hover-arrow-button

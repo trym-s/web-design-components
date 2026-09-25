@@ -85,7 +85,7 @@ for (const row of rows) {
   const categoryName = categoryById.get(categoryId);
   const category = slugify(categoryName);
   const dir = join(root, "ui", category, slug);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   rmSync(dir, { recursive: true, force: true });
   mkdirSync(srcDir, { recursive: true });
 
@@ -116,7 +116,7 @@ for (const row of rows) {
   const demoExport = [...demo.matchAll(/export function\s+(\w+Demo)\s*\(/g)][0]?.[1];
   if (!demoExport) throw new Error(`No demo export for ${slug}`);
   writeFileSync(join(srcDir, "demo.tsx"), demo);
-  writeFileSync(join(dir, "reference.tsx"), `/* Use when: ${blurb}. */\n\nimport "../../_sources/interior-dev/styles.css";\nexport { ${demoExport} as default } from "./src/demo";\n`);
+  writeFileSync(join(dir, "reference.tsx"), `/* Use when: ${blurb}. */\n\nimport "../../_sources/interior-dev/styles.css";\nexport { ${demoExport} as default } from "./upstream/demo";\n`);
   writeFileSync(join(dir, "README.md"), `# ${name}
 
 ${blurb}.
@@ -125,13 +125,13 @@ ${blurb}.
 
 - Category: \`${category}\` — interactive
 - Medium: React + TypeScript + Tailwind CSS + Motion
-- Entry point: \`src/${slug}.tsx\`
+- Entry point: \`upstream/${slug}.tsx\`
 - Nature: interactive; reuse the behavior and adapt its literal visual values to the target project.
 
 ## Files
 
-- \`src/${slug}.tsx\` — self-contained hook and styled component
-- \`src/demo.tsx\` — upstream replayable documentation demo
+- \`upstream/${slug}.tsx\` — self-contained hook and styled component
+- \`upstream/demo.tsx\` — upstream replayable documentation demo
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: https://www.interior.dev/docs/${slug}

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/folder-archive/src/folder-archive.tsx`
+- Entry point: `ui/icons/lucide-animated/folder-archive/upstream/folder-archive.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-archive.json`
 - Registry: https://lucide-animated.com/r/folder-archive.json
-- Local source fallback: `ui/icons/lucide-animated/folder-archive/src/folder-archive.tsx`
+- Local source fallback: `ui/icons/lucide-animated/folder-archive/upstream/folder-archive.tsx`

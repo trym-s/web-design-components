@@ -7,7 +7,7 @@ Table displays structured data in rows and columns with consistent dimensionalit
 - Category: `data-display` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Table.tsx`
+- Entry point: `upstream/Table.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Table displays structured data in rows and columns with consistent dimensionalit
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,25 +33,25 @@ Table displays structured data in rows and columns with consistent dimensionalit
 
 ## Examples
 
-- `src/examples/TableShowcase.tsx` — Table: Data-driven table with proportional and pixel column widths and hover highlighting. · static: `static/TableShowcase.html`
-- `src/examples/ColumnResizeHookUsage.tsx` — useTableColumnResize — Draggable Columns: A Table using useTableColumnResize. Drag the right edge of any column header to resize; widths are committed on release. The last proportional column flexes to fill remaining space. · static: `static/ColumnResizeHookUsage.html`
-- `src/examples/StickyColumnsHookUsage.tsx` — useTableStickyColumns — Pinned Columns: A Table using useTableStickyColumns to pin the Name column to the start edge and Status to the end edge. Scroll horizontally; pinned columns stay in view with a soft shadow over the scrolling content. · static: `static/StickyColumnsHookUsage.html`
-- `src/examples/TableColumnSettingsTable.tsx` — Table — Column Settings: Table with a column visibility picker in the toolbar. Toggle columns on and off. · static: `static/TableColumnSettingsTable.html`
-- `src/examples/TableFilterableTable.tsx` — Table — Popover Filters: Table with popover filter controls triggered by icons in column headers. · static: `static/TableFilterableTable.html`
-- `src/examples/TableGridDividersTable.tsx` — Table — Grid Dividers: Compact table with grid dividers showing both row and column borders, suited for dense numeric data. · static: `static/TableGridDividersTable.html`
-- `src/examples/TableGroupedRowsTable.tsx` — useTableGroupedRows — Collapsible Groups: A table grouped into collapsible sections with useTableGroupedRows. Each group gets a full-width header with a chevron, label, and member count; click to collapse/expand. · static: `static/TableGroupedRowsTable.html`
-- `src/examples/TableInCard.tsx` — Table — In Card: Table composed inside a card with a heading, demonstrating container bleed alignment. · static: `static/TableInCard.html`
-- `src/examples/TableInlineFilterTable.tsx` — Table — Inline Filters: Table with inline filter controls rendered directly below each column header. · static: `static/TableInlineFilterTable.html`
-- `src/examples/TablePaginatedTable.tsx` — Table — Paginated Data: Paginated data table navigating through a larger dataset page by page. · static: `static/TablePaginatedTable.html`
-- `src/examples/TableResizableTable.tsx` — Table — Resizable Columns: Table with draggable column resize handles. Drag the right edge of any header to resize. · static: `static/TableResizableTable.html`
-- `src/examples/TableRichCellTable.tsx` — Table — Rich Cell Content: Table with rich cell content using Link for emails and Badge for role labels. · static: `static/TableRichCellTable.html`
-- `src/examples/TableRowExpansionTable.tsx` — useTableRowExpansion — Tree Table: A tree table using useTableRowExpansion with inherited columns. Child rows use the same columns as parents, indented by depth. Click the chevron or right-click to expand/collapse. · static: `static/TableRowExpansionTable.html`
-- `src/examples/TableRowIndexTable.tsx` — useTableRowIndex — Numbered Rows: A table with a prepended row-number column via useTableRowIndex. Numbering is monospaced, right-aligned, and follows the rendered data order. · static: `static/TableRowIndexTable.html`
-- `src/examples/TableRowStatusTable.tsx` — useTableRowStatus - Semantic and Custom Markers: A job table using both row-status paths: status resolves themed semantic glyphs and tones, while color stays a custom paint choice with an optional caller-selected icon or the stable dot. · static: `static/TableRowStatusTable.html`
-- `src/examples/TableSelectableTable.tsx` — Table — Row Selection: Table with row selection checkboxes and a select-all header checkbox. · static: `static/TableSelectableTable.html`
-- `src/examples/TableSortableTable.tsx` — Table — Sortable Columns: Table with sortable columns, click headers to sort ascending or descending. · static: `static/TableSortableTable.html`
-- `src/examples/TableStripedTable.tsx` — Table — Striped Rows: Table with alternating row colors and hover highlighting for easy scanning. · static: `static/TableStripedTable.html`
-- `src/examples/TableTreeTable.tsx` — useTableTreeData: Tree Table: A file-tree table built from nested data. useTableTreeState flattens the tree into the visible rows and owns the expanded set; useTableTreeData draws the per-level indent and the expand/collapse chevron in the tree column. The two hooks are designed to work together, so this one example covers both. hasExpandAllControl adds the expand-all/collapse-all toggle to the tree column header. Collapsed branches are unmounted, not hidden. · static: `static/TableTreeTable.html`
+- `upstream/examples/TableShowcase.tsx` — Table: Data-driven table with proportional and pixel column widths and hover highlighting. · static: `static/TableShowcase.html`
+- `upstream/examples/ColumnResizeHookUsage.tsx` — useTableColumnResize — Draggable Columns: A Table using useTableColumnResize. Drag the right edge of any column header to resize; widths are committed on release. The last proportional column flexes to fill remaining space. · static: `static/ColumnResizeHookUsage.html`
+- `upstream/examples/StickyColumnsHookUsage.tsx` — useTableStickyColumns — Pinned Columns: A Table using useTableStickyColumns to pin the Name column to the start edge and Status to the end edge. Scroll horizontally; pinned columns stay in view with a soft shadow over the scrolling content. · static: `static/StickyColumnsHookUsage.html`
+- `upstream/examples/TableColumnSettingsTable.tsx` — Table — Column Settings: Table with a column visibility picker in the toolbar. Toggle columns on and off. · static: `static/TableColumnSettingsTable.html`
+- `upstream/examples/TableFilterableTable.tsx` — Table — Popover Filters: Table with popover filter controls triggered by icons in column headers. · static: `static/TableFilterableTable.html`
+- `upstream/examples/TableGridDividersTable.tsx` — Table — Grid Dividers: Compact table with grid dividers showing both row and column borders, suited for dense numeric data. · static: `static/TableGridDividersTable.html`
+- `upstream/examples/TableGroupedRowsTable.tsx` — useTableGroupedRows — Collapsible Groups: A table grouped into collapsible sections with useTableGroupedRows. Each group gets a full-width header with a chevron, label, and member count; click to collapse/expand. · static: `static/TableGroupedRowsTable.html`
+- `upstream/examples/TableInCard.tsx` — Table — In Card: Table composed inside a card with a heading, demonstrating container bleed alignment. · static: `static/TableInCard.html`
+- `upstream/examples/TableInlineFilterTable.tsx` — Table — Inline Filters: Table with inline filter controls rendered directly below each column header. · static: `static/TableInlineFilterTable.html`
+- `upstream/examples/TablePaginatedTable.tsx` — Table — Paginated Data: Paginated data table navigating through a larger dataset page by page. · static: `static/TablePaginatedTable.html`
+- `upstream/examples/TableResizableTable.tsx` — Table — Resizable Columns: Table with draggable column resize handles. Drag the right edge of any header to resize. · static: `static/TableResizableTable.html`
+- `upstream/examples/TableRichCellTable.tsx` — Table — Rich Cell Content: Table with rich cell content using Link for emails and Badge for role labels. · static: `static/TableRichCellTable.html`
+- `upstream/examples/TableRowExpansionTable.tsx` — useTableRowExpansion — Tree Table: A tree table using useTableRowExpansion with inherited columns. Child rows use the same columns as parents, indented by depth. Click the chevron or right-click to expand/collapse. · static: `static/TableRowExpansionTable.html`
+- `upstream/examples/TableRowIndexTable.tsx` — useTableRowIndex — Numbered Rows: A table with a prepended row-number column via useTableRowIndex. Numbering is monospaced, right-aligned, and follows the rendered data order. · static: `static/TableRowIndexTable.html`
+- `upstream/examples/TableRowStatusTable.tsx` — useTableRowStatus - Semantic and Custom Markers: A job table using both row-status paths: status resolves themed semantic glyphs and tones, while color stays a custom paint choice with an optional caller-selected icon or the stable dot. · static: `static/TableRowStatusTable.html`
+- `upstream/examples/TableSelectableTable.tsx` — Table — Row Selection: Table with row selection checkboxes and a select-all header checkbox. · static: `static/TableSelectableTable.html`
+- `upstream/examples/TableSortableTable.tsx` — Table — Sortable Columns: Table with sortable columns, click headers to sort ascending or descending. · static: `static/TableSortableTable.html`
+- `upstream/examples/TableStripedTable.tsx` — Table — Striped Rows: Table with alternating row colors and hover highlighting for easy scanning. · static: `static/TableStripedTable.html`
+- `upstream/examples/TableTreeTable.tsx` — useTableTreeData: Tree Table: A file-tree table built from nested data. useTableTreeState flattens the tree into the visible rows and owns the expanded set; useTableTreeData draws the per-level indent and the expand/collapse chevron in the tree column. The two hooks are designed to work together, so this one example covers both. hasExpandAllControl adds the expand-all/collapse-all toggle to the tree column header. Collapsed branches are unmounted, not hidden. · static: `static/TableTreeTable.html`
 
 ## Documentation
 
@@ -616,56 +616,56 @@ const tree = useTableTreeData(treeConfig);
 
 ## Files
 
-- `src/Table.doc.mjs`
-- `src/Table.spec.md`
-- `src/Table.tsx`
-- `src/TableBody.doc.mjs`
-- `src/TableBody.tsx`
-- `src/TableCell.doc.mjs`
-- `src/TableCell.tsx`
-- `src/TableContext.ts`
-- `src/TableFooter.doc.mjs`
-- `src/TableFooter.tsx`
-- `src/TableHeader.doc.mjs`
-- `src/TableHeader.tsx`
-- `src/TableHeaderCell.doc.mjs`
-- `src/TableHeaderCell.tsx`
-- `src/TableRow.doc.mjs`
-- `src/TableRow.tsx`
-- `src/plugins/columnResize/useTableColumnResize.tsx`
-- `src/plugins/columnSettings/useTableColumnSettings.tsx`
-- `src/plugins/columnSettings/useTableColumnSettingsState.tsx`
-- `src/plugins/filtering/useTableFilterState.tsx`
-- `src/plugins/filtering/useTableFiltering.tsx`
-- `src/plugins/groupedRows/useTableGroupedRows.tsx`
-- `src/plugins/pagination/useTablePagination.tsx`
-- `src/plugins/rowExpansion/useTableRowExpansion.tsx`
-- `src/plugins/rowIndex/useTableRowIndex.tsx`
-- `src/plugins/rowStatus/useTableRowStatus.spec.md`
-- `src/plugins/rowStatus/useTableRowStatus.tsx`
-- `src/plugins/selection/useTableSelection.tsx`
-- `src/plugins/selection/useTableSelectionState.tsx`
-- `src/plugins/sortable/useTableSortable.tsx`
-- `src/plugins/sortable/useTableSortableState.tsx`
-- `src/plugins/stickyColumns/useTableStickyColumns.tsx`
-- `src/plugins/tree/useTableTreeData.tsx`
-- `src/plugins/tree/useTableTreeState.tsx`
-- `src/useTableColumnResize.doc.mjs`
-- `src/useTableColumnSettings.doc.mjs`
-- `src/useTableFilterState.doc.mjs`
-- `src/useTableFiltering.doc.mjs`
-- `src/useTableGroupedRows.doc.mjs`
-- `src/useTablePagination.doc.mjs`
-- `src/useTableRowExpansion.doc.mjs`
-- `src/useTableRowIndex.doc.mjs`
-- `src/useTableRowStatus.doc.mjs`
-- `src/useTableSelection.doc.mjs`
-- `src/useTableSelectionState.doc.mjs`
-- `src/useTableSortable.doc.mjs`
-- `src/useTableStickyColumns.doc.mjs`
-- `src/useTableTreeData.doc.mjs`
-- `src/useTableTreeState.doc.mjs`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Table.doc.mjs`
+- `upstream/Table.spec.md`
+- `upstream/Table.tsx`
+- `upstream/TableBody.doc.mjs`
+- `upstream/TableBody.tsx`
+- `upstream/TableCell.doc.mjs`
+- `upstream/TableCell.tsx`
+- `upstream/TableContext.ts`
+- `upstream/TableFooter.doc.mjs`
+- `upstream/TableFooter.tsx`
+- `upstream/TableHeader.doc.mjs`
+- `upstream/TableHeader.tsx`
+- `upstream/TableHeaderCell.doc.mjs`
+- `upstream/TableHeaderCell.tsx`
+- `upstream/TableRow.doc.mjs`
+- `upstream/TableRow.tsx`
+- `upstream/plugins/columnResize/useTableColumnResize.tsx`
+- `upstream/plugins/columnSettings/useTableColumnSettings.tsx`
+- `upstream/plugins/columnSettings/useTableColumnSettingsState.tsx`
+- `upstream/plugins/filtering/useTableFilterState.tsx`
+- `upstream/plugins/filtering/useTableFiltering.tsx`
+- `upstream/plugins/groupedRows/useTableGroupedRows.tsx`
+- `upstream/plugins/pagination/useTablePagination.tsx`
+- `upstream/plugins/rowExpansion/useTableRowExpansion.tsx`
+- `upstream/plugins/rowIndex/useTableRowIndex.tsx`
+- `upstream/plugins/rowStatus/useTableRowStatus.spec.md`
+- `upstream/plugins/rowStatus/useTableRowStatus.tsx`
+- `upstream/plugins/selection/useTableSelection.tsx`
+- `upstream/plugins/selection/useTableSelectionState.tsx`
+- `upstream/plugins/sortable/useTableSortable.tsx`
+- `upstream/plugins/sortable/useTableSortableState.tsx`
+- `upstream/plugins/stickyColumns/useTableStickyColumns.tsx`
+- `upstream/plugins/tree/useTableTreeData.tsx`
+- `upstream/plugins/tree/useTableTreeState.tsx`
+- `upstream/useTableColumnResize.doc.mjs`
+- `upstream/useTableColumnSettings.doc.mjs`
+- `upstream/useTableFilterState.doc.mjs`
+- `upstream/useTableFiltering.doc.mjs`
+- `upstream/useTableGroupedRows.doc.mjs`
+- `upstream/useTablePagination.doc.mjs`
+- `upstream/useTableRowExpansion.doc.mjs`
+- `upstream/useTableRowIndex.doc.mjs`
+- `upstream/useTableRowStatus.doc.mjs`
+- `upstream/useTableSelection.doc.mjs`
+- `upstream/useTableSelectionState.doc.mjs`
+- `upstream/useTableSortable.doc.mjs`
+- `upstream/useTableStickyColumns.doc.mjs`
+- `upstream/useTableTreeData.doc.mjs`
+- `upstream/useTableTreeState.doc.mjs`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Table

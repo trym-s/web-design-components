@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/person-off-filled-loop/src/person-off-filled-loop.svg`
+- Entry point: `ui/icons/line-md/person-off-filled-loop/upstream/person-off-filled-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/person-off-filled-loop/src/person-off-filled-loop.svg`
+- Local source: `ui/icons/line-md/person-off-filled-loop/upstream/person-off-filled-loop.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/calendar-minus/src/calendar-minus.tsx`
+- Entry point: `ui/icons/animateicons-lucide/calendar-minus/upstream/calendar-minus.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-calendar-minus.json`
 - Registry: https://animateicons.in/r/lu-calendar-minus.json
-- Local source fallback: `ui/icons/animateicons-lucide/calendar-minus/src/calendar-minus.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/calendar-minus/upstream/calendar-minus.tsx`

@@ -7,7 +7,7 @@ A short text hint that appears on hover or focus, anchored to a trigger element.
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Tooltip.tsx`
+- Entry point: `upstream/Tooltip.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A short text hint that appears on hover or focus, anchored to a trigger element.
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A short text hint that appears on hover or focus, anchored to a trigger element.
 
 ## Examples
 
-- `src/examples/TooltipShowcase.tsx` — Tooltip · static: `static/TooltipShowcase.html`
-- `src/examples/TooltipActionBarTooltips.tsx` — Tooltip — Action Bar: Tooltips on an action button bar with contextual descriptions. · static: `static/TooltipActionBarTooltips.html`
-- `src/examples/TooltipHookUsage.tsx` — Tooltip — Hook Usage: Tooltip using the useTooltip hook for programmatic control. · static: `static/TooltipHookUsage.html`
-- `src/examples/TooltipInlineTextTooltips.tsx` — Tooltip — Inline Text: Tooltips on inline text terms for definitions. · static: `static/TooltipInlineTextTooltips.html`
+- `upstream/examples/TooltipShowcase.tsx` — Tooltip · static: `static/TooltipShowcase.html`
+- `upstream/examples/TooltipActionBarTooltips.tsx` — Tooltip — Action Bar: Tooltips on an action button bar with contextual descriptions. · static: `static/TooltipActionBarTooltips.html`
+- `upstream/examples/TooltipHookUsage.tsx` — Tooltip — Hook Usage: Tooltip using the useTooltip hook for programmatic control. · static: `static/TooltipHookUsage.html`
+- `upstream/examples/TooltipInlineTextTooltips.tsx` — Tooltip — Inline Text: Tooltips on inline text terms for definitions. · static: `static/TooltipInlineTextTooltips.html`
 
 ## Documentation
 
@@ -86,10 +86,10 @@ Styling hook class: `.astryx-tooltip`
 
 ## Files
 
-- `src/Tooltip.doc.mjs`
-- `src/Tooltip.spec.md`
-- `src/Tooltip.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Tooltip.doc.mjs`
+- `upstream/Tooltip.spec.md`
+- `upstream/Tooltip.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Tooltip

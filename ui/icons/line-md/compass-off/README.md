@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/compass-off/src/compass-off.svg`
+- Entry point: `ui/icons/line-md/compass-off/upstream/compass-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/compass-off/src/compass-off.svg`
+- Local source: `ui/icons/line-md/compass-off/upstream/compass-off.svg`

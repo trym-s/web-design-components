@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/italic/src/italic.tsx`
+- Entry point: `ui/icons/heroicons-animated/italic/upstream/italic.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/italic`
 - Registry: https://www.heroicons-animated.com/r/italic.json
-- Local source fallback: `ui/icons/heroicons-animated/italic/src/italic.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/italic/upstream/italic.tsx`

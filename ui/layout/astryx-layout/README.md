@@ -7,7 +7,7 @@ Layout is a general five-slot primitive for arranging header, start, content, en
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Layout.tsx`
+- Entry point: `upstream/Layout.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Layout is a general five-slot primitive for arranging header, start, content, en
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,21 +33,21 @@ Layout is a general five-slot primitive for arranging header, start, content, en
 
 ## Examples
 
-- `src/examples/LayoutContentShowcase.tsx` — Layout Content: LayoutContent is the scrollable main content area within a Layout, providing automatic padding and scroll containment between the header and footer. · static: `static/LayoutContentShowcase.html`
-- `src/examples/LayoutFooterShowcase.tsx` — Layout Footer: LayoutFooter is a fixed footer slot within a Layout, pinned to the bottom for persistent actions like form buttons or navigation. · static: `static/LayoutFooterShowcase.html`
-- `src/examples/LayoutHeaderShowcase.tsx` — Layout Header: LayoutHeader is a fixed header slot within a Layout, pinned to the top for titles, navigation, and action buttons. · static: `static/LayoutHeaderShowcase.html`
-- `src/examples/LayoutPanelShowcase.tsx` — Layout Panel: LayoutPanel is a sidebar slot within a Layout, used for navigation, detail views, or secondary content alongside the main content area. · static: `static/LayoutPanelShowcase.html`
-- `src/examples/LayoutShowcase.tsx` — Layout · static: `static/LayoutShowcase.html`
-- `src/examples/LayoutBasicCardLayout.tsx` — Layout — Basic Card: A card layout with header, scrollable content area, and footer with action buttons. · static: `static/LayoutBasicCardLayout.html`
-- `src/examples/LayoutContentBasic.tsx` — LayoutContent — Basic: A scrollable main content area below a fixed header. Use LayoutContent inside Layout to get automatic padding and scroll containment for the primary content. · static: `static/LayoutContentBasic.html`
-- `src/examples/LayoutContentOnlyLayout.tsx` — Layout — Content Only: A minimal layout with just a content area inside a card, without header or footer. · static: `static/LayoutContentOnlyLayout.html`
-- `src/examples/LayoutContentWidth.tsx` — Layout — Content Width: A layout using contentWidth to constrain and center content while keeping dividers full-bleed. · static: `static/LayoutContentWidth.html`
-- `src/examples/LayoutDualPanelLayout.tsx` — Layout — Dual Panel: A file browser style layout with start panel for folders, main content for files, and end panel for details. · static: `static/LayoutDualPanelLayout.html`
-- `src/examples/LayoutFooterActions.tsx` — LayoutFooter — Actions: A fixed footer with end-aligned action buttons below scrollable content. Use LayoutFooter inside Layout for persistent actions like Save and Cancel. · static: `static/LayoutFooterActions.html`
-- `src/examples/LayoutFullBleedContent.tsx` — Layout — Full Bleed Content: A layout where content extends edge-to-edge with zero padding, ideal for tables or images. · static: `static/LayoutFullBleedContent.html`
-- `src/examples/LayoutHeaderWithActions.tsx` — LayoutHeader — With Actions: A fixed page header with a title and a primary action, above scrollable content. Use LayoutHeader inside Layout for persistent page-level headers. · static: `static/LayoutHeaderWithActions.html`
-- `src/examples/LayoutPanelNavigation.tsx` — LayoutPanel — Navigation: A fixed-width side panel holding a navigation list next to the main content. Use LayoutPanel in the start or end slot of Layout for sidebars. · static: `static/LayoutPanelNavigation.html`
-- `src/examples/LayoutSidebarLayout.tsx` — Layout — Sidebar Navigation: A settings page layout with a navigation sidebar panel, content area, header, and footer. · static: `static/LayoutSidebarLayout.html`
+- `upstream/examples/LayoutContentShowcase.tsx` — Layout Content: LayoutContent is the scrollable main content area within a Layout, providing automatic padding and scroll containment between the header and footer. · static: `static/LayoutContentShowcase.html`
+- `upstream/examples/LayoutFooterShowcase.tsx` — Layout Footer: LayoutFooter is a fixed footer slot within a Layout, pinned to the bottom for persistent actions like form buttons or navigation. · static: `static/LayoutFooterShowcase.html`
+- `upstream/examples/LayoutHeaderShowcase.tsx` — Layout Header: LayoutHeader is a fixed header slot within a Layout, pinned to the top for titles, navigation, and action buttons. · static: `static/LayoutHeaderShowcase.html`
+- `upstream/examples/LayoutPanelShowcase.tsx` — Layout Panel: LayoutPanel is a sidebar slot within a Layout, used for navigation, detail views, or secondary content alongside the main content area. · static: `static/LayoutPanelShowcase.html`
+- `upstream/examples/LayoutShowcase.tsx` — Layout · static: `static/LayoutShowcase.html`
+- `upstream/examples/LayoutBasicCardLayout.tsx` — Layout — Basic Card: A card layout with header, scrollable content area, and footer with action buttons. · static: `static/LayoutBasicCardLayout.html`
+- `upstream/examples/LayoutContentBasic.tsx` — LayoutContent — Basic: A scrollable main content area below a fixed header. Use LayoutContent inside Layout to get automatic padding and scroll containment for the primary content. · static: `static/LayoutContentBasic.html`
+- `upstream/examples/LayoutContentOnlyLayout.tsx` — Layout — Content Only: A minimal layout with just a content area inside a card, without header or footer. · static: `static/LayoutContentOnlyLayout.html`
+- `upstream/examples/LayoutContentWidth.tsx` — Layout — Content Width: A layout using contentWidth to constrain and center content while keeping dividers full-bleed. · static: `static/LayoutContentWidth.html`
+- `upstream/examples/LayoutDualPanelLayout.tsx` — Layout — Dual Panel: A file browser style layout with start panel for folders, main content for files, and end panel for details. · static: `static/LayoutDualPanelLayout.html`
+- `upstream/examples/LayoutFooterActions.tsx` — LayoutFooter — Actions: A fixed footer with end-aligned action buttons below scrollable content. Use LayoutFooter inside Layout for persistent actions like Save and Cancel. · static: `static/LayoutFooterActions.html`
+- `upstream/examples/LayoutFullBleedContent.tsx` — Layout — Full Bleed Content: A layout where content extends edge-to-edge with zero padding, ideal for tables or images. · static: `static/LayoutFullBleedContent.html`
+- `upstream/examples/LayoutHeaderWithActions.tsx` — LayoutHeader — With Actions: A fixed page header with a title and a primary action, above scrollable content. Use LayoutHeader inside Layout for persistent page-level headers. · static: `static/LayoutHeaderWithActions.html`
+- `upstream/examples/LayoutPanelNavigation.tsx` — LayoutPanel — Navigation: A fixed-width side panel holding a navigation list next to the main content. Use LayoutPanel in the start or end slot of Layout for sidebars. · static: `static/LayoutPanelNavigation.html`
+- `upstream/examples/LayoutSidebarLayout.tsx` — Layout — Sidebar Navigation: A settings page layout with a navigation sidebar panel, content area, header, and footer. · static: `static/LayoutSidebarLayout.html`
 
 ## Documentation
 
@@ -203,21 +203,21 @@ Styling hook class: `.astryx-layout`, `.astryx-layout-content`, `.astryx-layout-
 
 ## Files
 
-- `src/Layout.doc.mjs`
-- `src/Layout.spec.md`
-- `src/Layout.tsx`
-- `src/LayoutAreaContext.ts`
-- `src/LayoutContent.doc.mjs`
-- `src/LayoutContent.tsx`
-- `src/LayoutDividerContext.ts`
-- `src/LayoutFooter.doc.mjs`
-- `src/LayoutFooter.tsx`
-- `src/LayoutHeader.doc.mjs`
-- `src/LayoutHeader.tsx`
-- `src/LayoutPanel.doc.mjs`
-- `src/LayoutPanel.tsx`
-- `src/LayoutSlotsContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Layout.doc.mjs`
+- `upstream/Layout.spec.md`
+- `upstream/Layout.tsx`
+- `upstream/LayoutAreaContext.ts`
+- `upstream/LayoutContent.doc.mjs`
+- `upstream/LayoutContent.tsx`
+- `upstream/LayoutDividerContext.ts`
+- `upstream/LayoutFooter.doc.mjs`
+- `upstream/LayoutFooter.tsx`
+- `upstream/LayoutHeader.doc.mjs`
+- `upstream/LayoutHeader.tsx`
+- `upstream/LayoutPanel.doc.mjs`
+- `upstream/LayoutPanel.tsx`
+- `upstream/LayoutSlotsContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Layout

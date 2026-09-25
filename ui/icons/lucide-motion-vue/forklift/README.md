@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/forklift/src/forklift.vue`
+- Entry point: `ui/icons/lucide-motion-vue/forklift/upstream/forklift.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/forklift/src/forklift.vue`
+- Local source: `ui/icons/lucide-motion-vue/forklift/upstream/forklift.vue`

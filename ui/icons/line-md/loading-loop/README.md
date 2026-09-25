@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/loading-loop/src/loading-loop.svg`
+- Entry point: `ui/icons/line-md/loading-loop/upstream/loading-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/loading-loop/src/loading-loop.svg`
+- Local source: `ui/icons/line-md/loading-loop/upstream/loading-loop.svg`

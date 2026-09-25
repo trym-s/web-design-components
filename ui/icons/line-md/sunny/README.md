@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/sunny/src/sunny.svg`
+- Entry point: `ui/icons/line-md/sunny/upstream/sunny.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/sunny/src/sunny.svg`
+- Local source: `ui/icons/line-md/sunny/upstream/sunny.svg`

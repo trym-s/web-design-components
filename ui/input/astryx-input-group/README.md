@@ -7,7 +7,7 @@ InputGroup connects an input with prefix/suffix addons in a single visual unit. 
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/InputGroup.tsx`
+- Entry point: `upstream/InputGroup.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ InputGroup connects an input with prefix/suffix addons in a single visual unit. 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,8 +33,8 @@ InputGroup connects an input with prefix/suffix addons in a single visual unit. 
 
 ## Examples
 
-- `src/examples/InputGroupShowcase.tsx` — Input Group · static: `static/InputGroupShowcase.html`
-- `src/examples/InputGroupBasic.tsx` — InputGroup — Basic: A currency field with static prefix and suffix addons around a TextInput. Use InputGroupText to clarify units or input format. · static: `static/InputGroupBasic.html`
+- `upstream/examples/InputGroupShowcase.tsx` — Input Group · static: `static/InputGroupShowcase.html`
+- `upstream/examples/InputGroupBasic.tsx` — InputGroup — Basic: A currency field with static prefix and suffix addons around a TextInput. Use InputGroupText to clarify units or input format. · static: `static/InputGroupBasic.html`
 
 ## Documentation
 
@@ -97,12 +97,12 @@ Styling hook class: `.astryx-input-group`, `.astryx-input-group-text`
 
 ## Files
 
-- `src/InputGroup.doc.mjs`
-- `src/InputGroup.tsx`
-- `src/InputGroupContext.ts`
-- `src/InputGroupText.doc.mjs`
-- `src/InputGroupText.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/InputGroup.doc.mjs`
+- `upstream/InputGroup.tsx`
+- `upstream/InputGroupContext.ts`
+- `upstream/InputGroupText.doc.mjs`
+- `upstream/InputGroupText.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/InputGroup

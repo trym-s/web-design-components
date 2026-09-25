@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/plus-square-twotone/src/plus-square-twotone.svg`
+- Entry point: `ui/icons/line-md/plus-square-twotone/upstream/plus-square-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/plus-square-twotone/src/plus-square-twotone.svg`
+- Local source: `ui/icons/line-md/plus-square-twotone/upstream/plus-square-twotone.svg`

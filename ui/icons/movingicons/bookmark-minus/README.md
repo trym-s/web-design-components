@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bookmark-minus/src/bookmark-minus.svelte`
+- Entry point: `ui/icons/movingicons/bookmark-minus/upstream/bookmark-minus.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bookmark-minus`
 - Registry: https://movingicons.dev/r/bookmark-minus
-- Local source fallback: `ui/icons/movingicons/bookmark-minus/src/bookmark-minus.svelte`
+- Local source fallback: `ui/icons/movingicons/bookmark-minus/upstream/bookmark-minus.svelte`

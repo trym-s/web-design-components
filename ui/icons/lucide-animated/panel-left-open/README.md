@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/panel-left-open/src/panel-left-open.tsx`
+- Entry point: `ui/icons/lucide-animated/panel-left-open/upstream/panel-left-open.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/panel-left-open.json`
 - Registry: https://lucide-animated.com/r/panel-left-open.json
-- Local source fallback: `ui/icons/lucide-animated/panel-left-open/src/panel-left-open.tsx`
+- Local source fallback: `ui/icons/lucide-animated/panel-left-open/upstream/panel-left-open.tsx`

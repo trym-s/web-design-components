@@ -1,3 +1,3 @@
 /* Use when: Displays a badge or a component that looks like a badge. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

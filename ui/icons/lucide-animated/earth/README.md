@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/earth/src/earth.tsx`
+- Entry point: `ui/icons/lucide-animated/earth/upstream/earth.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/earth.json`
 - Registry: https://lucide-animated.com/r/earth.json
-- Local source fallback: `ui/icons/lucide-animated/earth/src/earth.tsx`
+- Local source fallback: `ui/icons/lucide-animated/earth/upstream/earth.tsx`

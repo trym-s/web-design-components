@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cookie-minus-twotone/src/cookie-minus-twotone.svg`
+- Entry point: `ui/icons/line-md/cookie-minus-twotone/upstream/cookie-minus-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cookie-minus-twotone/src/cookie-minus-twotone.svg`
+- Local source: `ui/icons/line-md/cookie-minus-twotone/upstream/cookie-minus-twotone.svg`

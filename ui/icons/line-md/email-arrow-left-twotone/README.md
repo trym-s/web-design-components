@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-arrow-left-twotone/src/email-arrow-left-twotone.svg`
+- Entry point: `ui/icons/line-md/email-arrow-left-twotone/upstream/email-arrow-left-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-arrow-left-twotone/src/email-arrow-left-twotone.svg`
+- Local source: `ui/icons/line-md/email-arrow-left-twotone/upstream/email-arrow-left-twotone.svg`

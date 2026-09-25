@@ -7,18 +7,18 @@ Warm chocolate theme for Astryx — rich brown palette with Fraunces headings, A
 - Category: `theme` — decorative
 - Medium: CSS custom properties (built) + TypeScript theme source
 - Framework: css
-- Entry point: `src/theme.css`
+- Entry point: `upstream/theme.css`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
 - Use when: Warm chocolate theme for Astryx — rich brown palette with Fraunces headings, Albert Sans body, and Lucide icons
 - Provides: color, typography, radius, elevation and motion tokens scoped to `[data-astryx-theme="chocolate"]`
-- Requires: `src/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="chocolate"` ancestor
+- Requires: `upstream/theme.css` after `ui/_sources/astryx/css/astryx.css`, and a `data-astryx-theme="chocolate"` ancestor
 - Variants: default
 
 ## How an agent uses this reference
 
-- Any stack: link `src/theme.css` (or `ui/_sources/astryx/css/themes/chocolate.css`) and put
+- Any stack: link `upstream/theme.css` (or `ui/_sources/astryx/css/themes/chocolate.css`) and put
   `data-astryx-theme="chocolate"` on the root; every Astryx token (`--color-*`, `--text-*`, `--radius-*`,
   `--shadow-*`) resolves to this theme. To take the palette only, copy the token values.
 - React: `<Theme theme={chocolateTheme}>` from `@astryxdesign/theme-chocolate/built`.
@@ -37,9 +37,9 @@ Warm chocolate theme for Astryx — rich brown palette with Fraunces headings, A
 
 ## Files
 
-- `src/chocolateTheme.ts`
-- `src/icons.tsx`
-- `src/theme.css`
-- `src/demo.tsx` — the Theme Showcase template rendered in this theme
+- `upstream/chocolateTheme.ts`
+- `upstream/icons.tsx`
+- `upstream/theme.css`
+- `upstream/demo.tsx` — the Theme Showcase template rendered in this theme
 
 Upstream page: https://astryx.atmeta.com/themes?theme=chocolate

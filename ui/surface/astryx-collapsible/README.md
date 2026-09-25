@@ -7,7 +7,7 @@ Collapsible hides and reveals content behind a trigger button. Use it in setting
 - Category: `surface` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Collapsible.tsx`
+- Entry point: `upstream/Collapsible.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Collapsible hides and reveals content behind a trigger button. Use it in setting
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,14 +33,14 @@ Collapsible hides and reveals content behind a trigger button. Use it in setting
 
 ## Examples
 
-- `src/examples/CollapsibleGroupShowcase.tsx` — Collapsible Group: CollapsibleGroup coordinates its Collapsible children: with type="single", opening one closes the others. No state or handlers in the example — the group owns which value is open and each child only declares its own. One Collapsible per Card, so each trigger keeps its default large type as the heading of its own surface. · static: `static/CollapsibleGroupShowcase.html`
-- `src/examples/CollapsibleShowcase.tsx` — Collapsible: An accordion group with three collapsible sections in single mode: opening one closes the others. · static: `static/CollapsibleShowcase.html`
-- `src/examples/CollapsibleControlledAccordion.tsx` — Collapsible — Controlled: Manage the open section from parent state, so something other than a click can move it: a URL parameter, a form jumping to the step that failed validation, or the Previous/Next controls shown here. onChange hands back the whole open value. · static: `static/CollapsibleControlledAccordion.html`
-- `src/examples/CollapsibleDividedAccordion.tsx` — Collapsible — FAQ: FAQ built with hasDividers: row hairlines and density padding with no custom CSS. Questions set their own type — body at semibold, not the trigger's default 17px large — so a list of questions reads as rows rather than a stack of headings, and question and answer separate on weight and color instead of size. · static: `static/CollapsibleDividedAccordion.html`
-- `src/examples/CollapsibleGroupAccordion.tsx` — CollapsibleGroup — Density: density sets the block padding on every row in the group, so a list of sections can be tuned to the surface it sits on without touching the rows. compact for dense surfaces like sidebars and inspectors, balanced (the default) for page content, spacious for a short list that is the main thing on the page. It follows Table's scale and pairs with hasDividers, which turns it on at balanced. · static: `static/CollapsibleGroupAccordion.html`
-- `src/examples/CollapsibleMultipleAccordion.tsx` — Collapsible — Multiple Mode: Several sections open at once, for comparing across them — feature lists, pricing tiers. One Collapsible per Card, so each trigger keeps its own large type: it is the heading of its surface, not a row in a list. · static: `static/CollapsibleMultipleAccordion.html`
-- `src/examples/CollapsibleSingleAccordion.tsx` — Collapsible — Single Mode: Only one section open at a time, so a single body of content competes for attention. Use defaultValue to pre-expand whichever section a first-time reader needs. Each Collapsible owns a Section, so its trigger is that section heading. · static: `static/CollapsibleSingleAccordion.html`
-- `src/examples/CollapsibleWithoutCard.tsx` — Collapsible — With Dividers: A flat list on the page background with hand-placed Dividers, for detail panels and sidebars where cards would add too much weight. Rows, so the triggers step down to body-semibold and a supporting metadata line sits under each answer. · static: `static/CollapsibleWithoutCard.html`
+- `upstream/examples/CollapsibleGroupShowcase.tsx` — Collapsible Group: CollapsibleGroup coordinates its Collapsible children: with type="single", opening one closes the others. No state or handlers in the example — the group owns which value is open and each child only declares its own. One Collapsible per Card, so each trigger keeps its default large type as the heading of its own surface. · static: `static/CollapsibleGroupShowcase.html`
+- `upstream/examples/CollapsibleShowcase.tsx` — Collapsible: An accordion group with three collapsible sections in single mode: opening one closes the others. · static: `static/CollapsibleShowcase.html`
+- `upstream/examples/CollapsibleControlledAccordion.tsx` — Collapsible — Controlled: Manage the open section from parent state, so something other than a click can move it: a URL parameter, a form jumping to the step that failed validation, or the Previous/Next controls shown here. onChange hands back the whole open value. · static: `static/CollapsibleControlledAccordion.html`
+- `upstream/examples/CollapsibleDividedAccordion.tsx` — Collapsible — FAQ: FAQ built with hasDividers: row hairlines and density padding with no custom CSS. Questions set their own type — body at semibold, not the trigger's default 17px large — so a list of questions reads as rows rather than a stack of headings, and question and answer separate on weight and color instead of size. · static: `static/CollapsibleDividedAccordion.html`
+- `upstream/examples/CollapsibleGroupAccordion.tsx` — CollapsibleGroup — Density: density sets the block padding on every row in the group, so a list of sections can be tuned to the surface it sits on without touching the rows. compact for dense surfaces like sidebars and inspectors, balanced (the default) for page content, spacious for a short list that is the main thing on the page. It follows Table's scale and pairs with hasDividers, which turns it on at balanced. · static: `static/CollapsibleGroupAccordion.html`
+- `upstream/examples/CollapsibleMultipleAccordion.tsx` — Collapsible — Multiple Mode: Several sections open at once, for comparing across them — feature lists, pricing tiers. One Collapsible per Card, so each trigger keeps its own large type: it is the heading of its surface, not a row in a list. · static: `static/CollapsibleMultipleAccordion.html`
+- `upstream/examples/CollapsibleSingleAccordion.tsx` — Collapsible — Single Mode: Only one section open at a time, so a single body of content competes for attention. Use defaultValue to pre-expand whichever section a first-time reader needs. Each Collapsible owns a Section, so its trigger is that section heading. · static: `static/CollapsibleSingleAccordion.html`
+- `upstream/examples/CollapsibleWithoutCard.tsx` — Collapsible — With Dividers: A flat list on the page background with hand-placed Dividers, for detail panels and sidebars where cards would add too much weight. Rows, so the triggers step down to body-semibold and a supporting metadata line sits under each answer. · static: `static/CollapsibleWithoutCard.html`
 
 ## Documentation
 
@@ -121,13 +121,13 @@ Styling hook class: `.astryx-collapsible`, `.astryx-collapsible-trigger`, `.astr
 
 ## Files
 
-- `src/Collapsible.doc.mjs`
-- `src/Collapsible.spec.md`
-- `src/Collapsible.tsx`
-- `src/CollapsibleGroup.doc.mjs`
-- `src/CollapsibleGroup.tsx`
-- `src/CollapsibleGroupContext.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Collapsible.doc.mjs`
+- `upstream/Collapsible.spec.md`
+- `upstream/Collapsible.tsx`
+- `upstream/CollapsibleGroup.doc.mjs`
+- `upstream/CollapsibleGroup.tsx`
+- `upstream/CollapsibleGroupContext.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Collapsible

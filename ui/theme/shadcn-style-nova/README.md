@@ -7,7 +7,7 @@ The style the shadcn docs render by default; every `shadcn-*` component referenc
 - Category: `theme` — decorative
 - Medium: CSS (`@apply` map from `cn-*` component slots to Tailwind utilities)
 - Framework: css
-- Entry point: `src/style-nova.css`
+- Entry point: `upstream/style-nova.css`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -24,6 +24,6 @@ The style the shadcn docs render by default; every `shadcn-*` component referenc
 
 ## Files
 
-- `src/style-nova.css`
+- `upstream/style-nova.css`
 
 Upstream page: https://ui.shadcn.com/create

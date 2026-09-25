@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/framer/src/framer.tsx`
+- Entry point: `ui/icons/animateicons-lucide/framer/upstream/framer.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-framer.json`
 - Registry: https://animateicons.in/r/lu-framer.json
-- Local source fallback: `ui/icons/animateicons-lucide/framer/src/framer.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/framer/upstream/framer.tsx`

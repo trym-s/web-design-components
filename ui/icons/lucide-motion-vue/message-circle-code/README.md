@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/message-circle-code/src/message-circle-code.vue`
+- Entry point: `ui/icons/lucide-motion-vue/message-circle-code/upstream/message-circle-code.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/message-circle-code/src/message-circle-code.vue`
+- Local source: `ui/icons/lucide-motion-vue/message-circle-code/upstream/message-circle-code.vue`

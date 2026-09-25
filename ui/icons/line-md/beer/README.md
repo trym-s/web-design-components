@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/beer/src/beer.svg`
+- Entry point: `ui/icons/line-md/beer/upstream/beer.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/beer/src/beer.svg`
+- Local source: `ui/icons/line-md/beer/upstream/beer.svg`

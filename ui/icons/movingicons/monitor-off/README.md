@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/monitor-off/src/monitor-off.svelte`
+- Entry point: `ui/icons/movingicons/monitor-off/upstream/monitor-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/monitor-off`
 - Registry: https://movingicons.dev/r/monitor-off
-- Local source fallback: `ui/icons/movingicons/monitor-off/src/monitor-off.svelte`
+- Local source fallback: `ui/icons/movingicons/monitor-off/upstream/monitor-off.svelte`

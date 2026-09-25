@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/water/src/water.svg`
+- Entry point: `ui/icons/line-md/water/upstream/water.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/water/src/water.svg`
+- Local source: `ui/icons/line-md/water/upstream/water.svg`

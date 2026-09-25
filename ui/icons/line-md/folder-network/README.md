@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-network/src/folder-network.svg`
+- Entry point: `ui/icons/line-md/folder-network/upstream/folder-network.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-network/src/folder-network.svg`
+- Local source: `ui/icons/line-md/folder-network/upstream/folder-network.svg`

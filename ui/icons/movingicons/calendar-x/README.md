@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/calendar-x/src/calendar-x.svelte`
+- Entry point: `ui/icons/movingicons/calendar-x/upstream/calendar-x.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/calendar-x`
 - Registry: https://movingicons.dev/r/calendar-x
-- Local source fallback: `ui/icons/movingicons/calendar-x/src/calendar-x.svelte`
+- Local source fallback: `ui/icons/movingicons/calendar-x/upstream/calendar-x.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/javascript-icon/src/javascript-icon.tsx`
+- Entry point: `ui/icons/itshover/javascript-icon/upstream/javascript-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/javascript-icon.json`
 - Registry: https://itshover.com/r/javascript-icon.json
-- Local source fallback: `ui/icons/itshover/javascript-icon/src/javascript-icon.tsx`
+- Local source fallback: `ui/icons/itshover/javascript-icon/upstream/javascript-icon.tsx`

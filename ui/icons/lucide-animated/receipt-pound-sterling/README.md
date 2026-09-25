@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/receipt-pound-sterling/src/receipt-pound-sterling.tsx`
+- Entry point: `ui/icons/lucide-animated/receipt-pound-sterling/upstream/receipt-pound-sterling.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-pound-sterling.json`
 - Registry: https://lucide-animated.com/r/receipt-pound-sterling.json
-- Local source fallback: `ui/icons/lucide-animated/receipt-pound-sterling/src/receipt-pound-sterling.tsx`
+- Local source fallback: `ui/icons/lucide-animated/receipt-pound-sterling/upstream/receipt-pound-sterling.tsx`

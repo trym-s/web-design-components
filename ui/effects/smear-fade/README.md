@@ -7,20 +7,20 @@
 
 - Category: `effects` — decorative
 - Medium: WebGL canvas
-- Entry point: `src/smear/SmearCard.tsx`
+- Entry point: `upstream/smear/SmearCard.tsx`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/smear/shaders.ts`
-- `src/smear/text-mask.ts`
-- `src/smear/engine.ts`
-- `src/smear/SmearCard.tsx`
+- `upstream/smear/shaders.ts`
+- `upstream/smear/text-mask.ts`
+- `upstream/smear/engine.ts`
+- `upstream/smear/SmearCard.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/fade-motion

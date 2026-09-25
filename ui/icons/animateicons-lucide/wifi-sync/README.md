@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/wifi-sync/src/wifi-sync.tsx`
+- Entry point: `ui/icons/animateicons-lucide/wifi-sync/upstream/wifi-sync.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-sync.json`
 - Registry: https://animateicons.in/r/lu-wifi-sync.json
-- Local source fallback: `ui/icons/animateicons-lucide/wifi-sync/src/wifi-sync.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/wifi-sync/upstream/wifi-sync.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/dino-icon/src/dino-icon.tsx`
+- Entry point: `ui/icons/itshover/dino-icon/upstream/dino-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/dino-icon.json`
 - Registry: https://itshover.com/r/dino-icon.json
-- Local source fallback: `ui/icons/itshover/dino-icon/src/dino-icon.tsx`
+- Local source fallback: `ui/icons/itshover/dino-icon/upstream/dino-icon.tsx`

@@ -7,7 +7,7 @@ CommandPalette is a searchable dialog for quick access to commands, navigation, 
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/CommandPalette.tsx`
+- Entry point: `upstream/CommandPalette.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ CommandPalette is a searchable dialog for quick access to commands, navigation, 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,24 +33,24 @@ CommandPalette is a searchable dialog for quick access to commands, navigation, 
 
 ## Examples
 
-- `src/examples/CommandPaletteEmptyShowcase.tsx` — Command Palette Empty: Command palette empty state shown when no commands are available. · static: `static/CommandPaletteEmptyShowcase.html`
-- `src/examples/CommandPaletteFooterShowcase.tsx` — Command Palette Footer: Command palette footer with custom tip content. · static: `static/CommandPaletteFooterShowcase.html`
-- `src/examples/CommandPaletteGroupShowcase.tsx` — Command Palette Group: Command palette groups in both data-driven (auxiliaryData.group) and composed (CommandPaletteGroup + CommandPaletteItem) forms. · static: `static/CommandPaletteGroupShowcase.html`
-- `src/examples/CommandPaletteInputShowcase.tsx` — Command Palette Input: Command palette search input with a custom placeholder and a keyboard shortcut hint in the endContent slot. · static: `static/CommandPaletteInputShowcase.html`
-- `src/examples/CommandPaletteItemShowcase.tsx` — Command Palette Item: Command palette items with custom content via renderItem and as composed CommandPaletteItem with icons, highlighted, selected, and disabled states. · static: `static/CommandPaletteItemShowcase.html`
-- `src/examples/CommandPaletteListShowcase.tsx` — Command Palette List: Scrollable command palette list with grouped items, including a highlighted item, composed without a full CommandPalette. · static: `static/CommandPaletteListShowcase.html`
-- `src/examples/CommandPaletteShowcase.tsx` — Command Palette: Basic command palette with static items and keyboard navigation. · static: `static/CommandPaletteShowcase.html`
-- `src/examples/CommandPaletteAsyncSearch.tsx` — CommandPalette — Async Search: Server-side search with loading spinner and custom empty states. · static: `static/CommandPaletteAsyncSearch.html`
-- `src/examples/CommandPaletteAutoGrouped.tsx` — CommandPalette — Grouped: Command palette with items grouped via auxiliaryData.group. · static: `static/CommandPaletteAutoGrouped.html`
-- `src/examples/CommandPaletteCustomFooter.tsx` — CommandPalette — Custom Footer: Command palette with a custom footer tip message. · static: `static/CommandPaletteCustomFooter.html`
-- `src/examples/CommandPaletteEmptyBasic.tsx` — CommandPaletteEmpty — Basic: A command palette with no results, showing a custom empty message via emptyBootstrapText. Use to explain why the palette is empty and what the user can do next. · static: `static/CommandPaletteEmptyBasic.html`
-- `src/examples/CommandPaletteFooterBasic.tsx` — CommandPaletteFooter — Basic: A command palette footer with no children, rendering the built-in keyboard navigation hints. Use CommandPaletteFooter without content to get the default arrow-key, Enter, and Esc hints below the results list. · static: `static/CommandPaletteFooterBasic.html`
-- `src/examples/CommandPaletteGroupBasic.tsx` — CommandPaletteGroup — Basic: Command palette items organized under group headings using the composed CommandPaletteGroup form. Use to separate related commands into labeled sections. · static: `static/CommandPaletteGroupBasic.html`
-- `src/examples/CommandPaletteInputBasic.tsx` — CommandPaletteInput — With End Content: Custom placeholder and a keyboard shortcut badge in the trailing slot via endContent. · static: `static/CommandPaletteInputBasic.html`
-- `src/examples/CommandPaletteItemBasic.tsx` — CommandPaletteItem — Basic: Selectable command palette items inside a CommandPaletteList, including highlighted and disabled states. Use when composing a palette manually instead of a search source. · static: `static/CommandPaletteItemBasic.html`
-- `src/examples/CommandPaletteListBasic.tsx` — CommandPaletteList — Item States: Flat list showing the highlighted, selected, and disabled item states. Use CommandPaletteGroup to add section headings. · static: `static/CommandPaletteListBasic.html`
-- `src/examples/CommandPalettePickerMode.tsx` — CommandPalette — Picker Mode: Single-value picker with persistent selection and check indicator. · static: `static/CommandPalettePickerMode.html`
-- `src/examples/CommandPaletteRichItems.tsx` — CommandPalette — Rich Items: Custom item rendering with icons, keyboard shortcuts, and keyword search. · static: `static/CommandPaletteRichItems.html`
+- `upstream/examples/CommandPaletteEmptyShowcase.tsx` — Command Palette Empty: Command palette empty state shown when no commands are available. · static: `static/CommandPaletteEmptyShowcase.html`
+- `upstream/examples/CommandPaletteFooterShowcase.tsx` — Command Palette Footer: Command palette footer with custom tip content. · static: `static/CommandPaletteFooterShowcase.html`
+- `upstream/examples/CommandPaletteGroupShowcase.tsx` — Command Palette Group: Command palette groups in both data-driven (auxiliaryData.group) and composed (CommandPaletteGroup + CommandPaletteItem) forms. · static: `static/CommandPaletteGroupShowcase.html`
+- `upstream/examples/CommandPaletteInputShowcase.tsx` — Command Palette Input: Command palette search input with a custom placeholder and a keyboard shortcut hint in the endContent slot. · static: `static/CommandPaletteInputShowcase.html`
+- `upstream/examples/CommandPaletteItemShowcase.tsx` — Command Palette Item: Command palette items with custom content via renderItem and as composed CommandPaletteItem with icons, highlighted, selected, and disabled states. · static: `static/CommandPaletteItemShowcase.html`
+- `upstream/examples/CommandPaletteListShowcase.tsx` — Command Palette List: Scrollable command palette list with grouped items, including a highlighted item, composed without a full CommandPalette. · static: `static/CommandPaletteListShowcase.html`
+- `upstream/examples/CommandPaletteShowcase.tsx` — Command Palette: Basic command palette with static items and keyboard navigation. · static: `static/CommandPaletteShowcase.html`
+- `upstream/examples/CommandPaletteAsyncSearch.tsx` — CommandPalette — Async Search: Server-side search with loading spinner and custom empty states. · static: `static/CommandPaletteAsyncSearch.html`
+- `upstream/examples/CommandPaletteAutoGrouped.tsx` — CommandPalette — Grouped: Command palette with items grouped via auxiliaryData.group. · static: `static/CommandPaletteAutoGrouped.html`
+- `upstream/examples/CommandPaletteCustomFooter.tsx` — CommandPalette — Custom Footer: Command palette with a custom footer tip message. · static: `static/CommandPaletteCustomFooter.html`
+- `upstream/examples/CommandPaletteEmptyBasic.tsx` — CommandPaletteEmpty — Basic: A command palette with no results, showing a custom empty message via emptyBootstrapText. Use to explain why the palette is empty and what the user can do next. · static: `static/CommandPaletteEmptyBasic.html`
+- `upstream/examples/CommandPaletteFooterBasic.tsx` — CommandPaletteFooter — Basic: A command palette footer with no children, rendering the built-in keyboard navigation hints. Use CommandPaletteFooter without content to get the default arrow-key, Enter, and Esc hints below the results list. · static: `static/CommandPaletteFooterBasic.html`
+- `upstream/examples/CommandPaletteGroupBasic.tsx` — CommandPaletteGroup — Basic: Command palette items organized under group headings using the composed CommandPaletteGroup form. Use to separate related commands into labeled sections. · static: `static/CommandPaletteGroupBasic.html`
+- `upstream/examples/CommandPaletteInputBasic.tsx` — CommandPaletteInput — With End Content: Custom placeholder and a keyboard shortcut badge in the trailing slot via endContent. · static: `static/CommandPaletteInputBasic.html`
+- `upstream/examples/CommandPaletteItemBasic.tsx` — CommandPaletteItem — Basic: Selectable command palette items inside a CommandPaletteList, including highlighted and disabled states. Use when composing a palette manually instead of a search source. · static: `static/CommandPaletteItemBasic.html`
+- `upstream/examples/CommandPaletteListBasic.tsx` — CommandPaletteList — Item States: Flat list showing the highlighted, selected, and disabled item states. Use CommandPaletteGroup to add section headings. · static: `static/CommandPaletteListBasic.html`
+- `upstream/examples/CommandPalettePickerMode.tsx` — CommandPalette — Picker Mode: Single-value picker with persistent selection and check indicator. · static: `static/CommandPalettePickerMode.html`
+- `upstream/examples/CommandPaletteRichItems.tsx` — CommandPalette — Rich Items: Custom item rendering with icons, keyboard shortcuts, and keyword search. · static: `static/CommandPaletteRichItems.html`
 
 ## Documentation
 
@@ -195,23 +195,23 @@ Styling hook class: `.astryx-command-palette-empty`, `.astryx-command-palette-fo
 
 ## Files
 
-- `src/CommandPalette.doc.mjs`
-- `src/CommandPalette.spec.md`
-- `src/CommandPalette.tsx`
-- `src/CommandPaletteContext.ts`
-- `src/CommandPaletteEmpty.doc.mjs`
-- `src/CommandPaletteEmpty.tsx`
-- `src/CommandPaletteFooter.doc.mjs`
-- `src/CommandPaletteFooter.tsx`
-- `src/CommandPaletteGroup.doc.mjs`
-- `src/CommandPaletteGroup.tsx`
-- `src/CommandPaletteInput.doc.mjs`
-- `src/CommandPaletteInput.tsx`
-- `src/CommandPaletteItem.doc.mjs`
-- `src/CommandPaletteItem.tsx`
-- `src/CommandPaletteList.doc.mjs`
-- `src/CommandPaletteList.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/CommandPalette.doc.mjs`
+- `upstream/CommandPalette.spec.md`
+- `upstream/CommandPalette.tsx`
+- `upstream/CommandPaletteContext.ts`
+- `upstream/CommandPaletteEmpty.doc.mjs`
+- `upstream/CommandPaletteEmpty.tsx`
+- `upstream/CommandPaletteFooter.doc.mjs`
+- `upstream/CommandPaletteFooter.tsx`
+- `upstream/CommandPaletteGroup.doc.mjs`
+- `upstream/CommandPaletteGroup.tsx`
+- `upstream/CommandPaletteInput.doc.mjs`
+- `upstream/CommandPaletteInput.tsx`
+- `upstream/CommandPaletteItem.doc.mjs`
+- `upstream/CommandPaletteItem.tsx`
+- `upstream/CommandPaletteList.doc.mjs`
+- `upstream/CommandPaletteList.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/CommandPalette

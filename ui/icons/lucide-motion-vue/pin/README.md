@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/pin/src/pin.vue`
+- Entry point: `ui/icons/lucide-motion-vue/pin/upstream/pin.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/pin/src/pin.vue`
+- Local source: `ui/icons/lucide-motion-vue/pin/upstream/pin.vue`

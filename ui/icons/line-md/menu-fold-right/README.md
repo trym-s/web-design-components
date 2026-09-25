@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/menu-fold-right/src/menu-fold-right.svg`
+- Entry point: `ui/icons/line-md/menu-fold-right/upstream/menu-fold-right.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/menu-fold-right/src/menu-fold-right.svg`
+- Local source: `ui/icons/line-md/menu-fold-right/upstream/menu-fold-right.svg`

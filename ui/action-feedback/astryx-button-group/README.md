@@ -7,7 +7,7 @@ ButtonGroup joins related actions into a single connected control. Use it when m
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ButtonGroup.tsx`
+- Entry point: `upstream/ButtonGroup.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ ButtonGroup joins related actions into a single connected control. Use it when m
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ ButtonGroup joins related actions into a single connected control. Use it when m
 
 ## Examples
 
-- `src/examples/ButtonGroupShowcase.tsx` — Button Group · static: `static/ButtonGroupShowcase.html`
-- `src/examples/ButtonGroupBasic.tsx` — ButtonGroup — Basic: Three related actions joined into a single connected control. Provide a group label for accessibility and keep all buttons the same variant so they read as one unit. · static: `static/ButtonGroupBasic.html`
-- `src/examples/ButtonGroupFloating.tsx` — ButtonGroup — Floating: A grouped action bar raised with `elevation="med"`. The connected buttons share one surface, so the shadow lifts them as a unit. · static: `static/ButtonGroupFloating.html`
+- `upstream/examples/ButtonGroupShowcase.tsx` — Button Group · static: `static/ButtonGroupShowcase.html`
+- `upstream/examples/ButtonGroupBasic.tsx` — ButtonGroup — Basic: Three related actions joined into a single connected control. Provide a group label for accessibility and keep all buttons the same variant so they read as one unit. · static: `static/ButtonGroupBasic.html`
+- `upstream/examples/ButtonGroupFloating.tsx` — ButtonGroup — Floating: A grouped action bar raised with `elevation="med"`. The connected buttons share one surface, so the shadow lifts them as a unit. · static: `static/ButtonGroupFloating.html`
 
 ## Documentation
 
@@ -75,10 +75,10 @@ Styling hook class: `.astryx-button-group`
 
 ## Files
 
-- `src/ButtonGroup.doc.mjs`
-- `src/ButtonGroup.tsx`
-- `src/ButtonGroupContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ButtonGroup.doc.mjs`
+- `upstream/ButtonGroup.tsx`
+- `upstream/ButtonGroupContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ButtonGroup

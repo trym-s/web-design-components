@@ -7,7 +7,7 @@ A visual separator that divides content into distinct sections. Use to create cl
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Divider.tsx`
+- Entry point: `upstream/Divider.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A visual separator that divides content into distinct sections. Use to create cl
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A visual separator that divides content into distinct sections. Use to create cl
 
 ## Examples
 
-- `src/examples/DividerShowcase.tsx` — Divider — Variants: Horizontal dividers in subtle and strong variants, plus a labeled divider. A quick visual reference for separator styles. · static: `static/DividerShowcase.html`
-- `src/examples/DividerFullBleed.tsx` — Divider — Full Bleed: Divider that extends past container padding to span the full width. Use inside cards or panels when you want a clean edge-to-edge separation, like between an order summary and total. · static: `static/DividerFullBleed.html`
-- `src/examples/DividerVariants.tsx` — Divider — Variants: Subtle, labeled, and strong dividers in a single card. Use subtle between related sections, labeled for alternatives like "or", and strong for high-contrast boundaries. · static: `static/DividerVariants.html`
-- `src/examples/DividerVertical.tsx` — Divider — Vertical: Vertical dividers separating side-by-side metrics. Use between stat cards, toolbar groups, or any horizontal layout where you need a visual boundary between sections. · static: `static/DividerVertical.html`
+- `upstream/examples/DividerShowcase.tsx` — Divider — Variants: Horizontal dividers in subtle and strong variants, plus a labeled divider. A quick visual reference for separator styles. · static: `static/DividerShowcase.html`
+- `upstream/examples/DividerFullBleed.tsx` — Divider — Full Bleed: Divider that extends past container padding to span the full width. Use inside cards or panels when you want a clean edge-to-edge separation, like between an order summary and total. · static: `static/DividerFullBleed.html`
+- `upstream/examples/DividerVariants.tsx` — Divider — Variants: Subtle, labeled, and strong dividers in a single card. Use subtle between related sections, labeled for alternatives like "or", and strong for high-contrast boundaries. · static: `static/DividerVariants.html`
+- `upstream/examples/DividerVertical.tsx` — Divider — Vertical: Vertical dividers separating side-by-side metrics. Use between stat cards, toolbar groups, or any horizontal layout where you need a visual boundary between sections. · static: `static/DividerVertical.html`
 
 ## Documentation
 
@@ -104,10 +104,10 @@ Styling hook class: `.astryx-divider`
 
 ## Files
 
-- `src/Divider.doc.mjs`
-- `src/Divider.spec.md`
-- `src/Divider.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Divider.doc.mjs`
+- `upstream/Divider.spec.md`
+- `upstream/Divider.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Divider

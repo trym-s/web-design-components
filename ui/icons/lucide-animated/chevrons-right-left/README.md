@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/chevrons-right-left/src/chevrons-right-left.tsx`
+- Entry point: `ui/icons/lucide-animated/chevrons-right-left/upstream/chevrons-right-left.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/chevrons-right-left.json`
 - Registry: https://lucide-animated.com/r/chevrons-right-left.json
-- Local source fallback: `ui/icons/lucide-animated/chevrons-right-left/src/chevrons-right-left.tsx`
+- Local source fallback: `ui/icons/lucide-animated/chevrons-right-left/upstream/chevrons-right-left.tsx`

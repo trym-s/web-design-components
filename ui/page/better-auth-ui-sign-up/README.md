@@ -7,7 +7,7 @@ A complete sign-up form component with name, email, password fields, optional ma
 - Category: `page` — structural
 - Medium: React + TypeScript + shadcn/ui (Tailwind CSS v4, radix-ui); static HTML
 - Framework: react
-- Entry point: `src/examples/sign-up.tsx`
+- Entry point: `upstream/examples/sign-up.tsx`
 - Nature: structural; reuse the flow, fields, hierarchy and copy, adapt literal values to the target project.
 - Added: 2026-09-25T07:33:05Z
 - Curation: pending
@@ -29,8 +29,8 @@ A complete sign-up form component with name, email, password fields, optional ma
 
 ## Files
 
-- `src/examples/sign-up.tsx` — the docs demo, imports pointed at the snapshot
-- `src/demo.tsx` — bank harness
+- `upstream/examples/sign-up.tsx` — the docs demo, imports pointed at the snapshot
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://better-auth-ui.com/docs/shadcn/components/auth/sign-up

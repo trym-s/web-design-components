@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/pointer-off/src/pointer-off.svelte`
+- Entry point: `ui/icons/movingicons/pointer-off/upstream/pointer-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/pointer-off`
 - Registry: https://movingicons.dev/r/pointer-off
-- Local source fallback: `ui/icons/movingicons/pointer-off/src/pointer-off.svelte`
+- Local source fallback: `ui/icons/movingicons/pointer-off/upstream/pointer-off.svelte`

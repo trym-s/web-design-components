@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/volume-low-off/src/volume-low-off.svg`
+- Entry point: `ui/icons/line-md/volume-low-off/upstream/volume-low-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/volume-low-off/src/volume-low-off.svg`
+- Local source: `ui/icons/line-md/volume-low-off/upstream/volume-low-off.svg`

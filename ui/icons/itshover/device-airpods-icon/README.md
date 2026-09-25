@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/device-airpods-icon/src/device-airpods-icon.tsx`
+- Entry point: `ui/icons/itshover/device-airpods-icon/upstream/device-airpods-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/device-airpods-icon.json`
 - Registry: https://itshover.com/r/device-airpods-icon.json
-- Local source fallback: `ui/icons/itshover/device-airpods-icon/src/device-airpods-icon.tsx`
+- Local source fallback: `ui/icons/itshover/device-airpods-icon/upstream/device-airpods-icon.tsx`

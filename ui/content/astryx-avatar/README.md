@@ -7,7 +7,7 @@ Avatar represents a person or team with a profile photo, initials, or a default 
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Avatar.tsx`
+- Entry point: `upstream/Avatar.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Avatar represents a person or team with a profile photo, initials, or a default 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,16 +33,16 @@ Avatar represents a person or team with a profile photo, initials, or a default 
 
 ## Examples
 
-- `src/examples/AvatarShowcase.tsx` — Avatar: Avatars at every size with an image, initials fallback, and a status dot. A quick visual reference for choosing the right size. · static: `static/AvatarShowcase.html`
-- `src/examples/AvatarStatusDotShowcase.tsx` — Avatar Status Dot: AvatarStatusDot renders a presence indicator on an Avatar, with variants for positive, neutral, and negative states. The dot size automatically coordinates with the Avatar size. · static: `static/AvatarStatusDotShowcase.html`
-- `src/examples/AvatarFallbackChain.tsx` — Avatar — Fallback Chain: Demonstrates the avatar fallback chain: primary image, fallback image, initials, then default icon. · static: `static/AvatarFallbackChain.html`
-- `src/examples/AvatarInitialsFallback.tsx` — Avatar — Initials: Show initials instead of a photo. The avatar extracts the first and last initials from the name automatically. Use when you only have a user name, like in anonymous accounts or new user onboarding. · static: `static/AvatarInitialsFallback.html`
-- `src/examples/AvatarInteractive.tsx` — Avatar — Interactive: Make an avatar interactive by passing `href` to render it as a link or `onClick` to render it as a button. Both forms are focusable and show a focus-visible ring for keyboard users. Use for profile links, mention pop-ups, or any avatar people can act on. · static: `static/AvatarInteractive.html`
-- `src/examples/AvatarStatusDotVariants.tsx` — AvatarStatusDot — Variants: Presence dots on Avatars using the success, neutral, and error variants. Pass an AvatarStatusDot to the Avatar status prop; the dot sizes itself to match the Avatar. · static: `static/AvatarStatusDotVariants.html`
-- `src/examples/AvatarTooltip.tsx` — Avatar — Tooltip: By default an avatar shows its name in a tooltip on hover and keyboard focus. Pass a string to show custom text instead, or false to turn the tooltip off. · static: `static/AvatarTooltip.html`
-- `src/examples/AvatarUserCard.tsx` — Avatar — User Card: Place an avatar next to a name and role to create a user card row. Use for comment headers, contact lists, profile sections, or anywhere you need to identify a person at a glance. · static: `static/AvatarUserCard.html`
-- `src/examples/AvatarWithImage.tsx` — Avatar — Photo: Show a profile photo at different sizes. Use when you have a user photo URL. If the image fails to load, initials are shown instead. · static: `static/AvatarWithImage.html`
-- `src/examples/AvatarWithStatus.tsx` — Avatar — Status Dot: Add a status dot to an avatar to show whether someone is online, away, or busy. Use in chat, messaging, or any UI where knowing availability matters. · static: `static/AvatarWithStatus.html`
+- `upstream/examples/AvatarShowcase.tsx` — Avatar: Avatars at every size with an image, initials fallback, and a status dot. A quick visual reference for choosing the right size. · static: `static/AvatarShowcase.html`
+- `upstream/examples/AvatarStatusDotShowcase.tsx` — Avatar Status Dot: AvatarStatusDot renders a presence indicator on an Avatar, with variants for positive, neutral, and negative states. The dot size automatically coordinates with the Avatar size. · static: `static/AvatarStatusDotShowcase.html`
+- `upstream/examples/AvatarFallbackChain.tsx` — Avatar — Fallback Chain: Demonstrates the avatar fallback chain: primary image, fallback image, initials, then default icon. · static: `static/AvatarFallbackChain.html`
+- `upstream/examples/AvatarInitialsFallback.tsx` — Avatar — Initials: Show initials instead of a photo. The avatar extracts the first and last initials from the name automatically. Use when you only have a user name, like in anonymous accounts or new user onboarding. · static: `static/AvatarInitialsFallback.html`
+- `upstream/examples/AvatarInteractive.tsx` — Avatar — Interactive: Make an avatar interactive by passing `href` to render it as a link or `onClick` to render it as a button. Both forms are focusable and show a focus-visible ring for keyboard users. Use for profile links, mention pop-ups, or any avatar people can act on. · static: `static/AvatarInteractive.html`
+- `upstream/examples/AvatarStatusDotVariants.tsx` — AvatarStatusDot — Variants: Presence dots on Avatars using the success, neutral, and error variants. Pass an AvatarStatusDot to the Avatar status prop; the dot sizes itself to match the Avatar. · static: `static/AvatarStatusDotVariants.html`
+- `upstream/examples/AvatarTooltip.tsx` — Avatar — Tooltip: By default an avatar shows its name in a tooltip on hover and keyboard focus. Pass a string to show custom text instead, or false to turn the tooltip off. · static: `static/AvatarTooltip.html`
+- `upstream/examples/AvatarUserCard.tsx` — Avatar — User Card: Place an avatar next to a name and role to create a user card row. Use for comment headers, contact lists, profile sections, or anywhere you need to identify a person at a glance. · static: `static/AvatarUserCard.html`
+- `upstream/examples/AvatarWithImage.tsx` — Avatar — Photo: Show a profile photo at different sizes. Use when you have a user photo URL. If the image fails to load, initials are shown instead. · static: `static/AvatarWithImage.html`
+- `upstream/examples/AvatarWithStatus.tsx` — Avatar — Status Dot: Add a status dot to an avatar to show whether someone is online, away, or busy. Use in chat, messaging, or any UI where knowing availability matters. · static: `static/AvatarWithStatus.html`
 
 ## Documentation
 
@@ -115,14 +115,14 @@ Styling hook class: `.astryx-avatar`, `.astryx-avatar-fallback`, `.astryx-avatar
 
 ## Files
 
-- `src/Avatar.doc.mjs`
-- `src/Avatar.tsx`
-- `src/AvatarSizeContext.ts`
-- `src/AvatarStatusDot.doc.mjs`
-- `src/AvatarStatusDot.spec.md`
-- `src/AvatarStatusDot.tsx`
-- `src/AvatarStatusLabelContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Avatar.doc.mjs`
+- `upstream/Avatar.tsx`
+- `upstream/AvatarSizeContext.ts`
+- `upstream/AvatarStatusDot.doc.mjs`
+- `upstream/AvatarStatusDot.spec.md`
+- `upstream/AvatarStatusDot.tsx`
+- `upstream/AvatarStatusLabelContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Avatar

@@ -7,7 +7,7 @@ Accessible resizable panel groups and layouts with keyboard support.
 - Category: `layout` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/resizable.tsx`
+- Entry point: `upstream/ui/resizable.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Accessible resizable panel groups and layouts with keyboard support.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Accessible resizable panel groups and layouts with keyboard support.
 
 ## Documentation
 
-> Example `resizable-demo` — `src/examples/resizable-demo.tsx`, `static/resizable-demo.html`
+> Example `resizable-demo` — `upstream/examples/resizable-demo.tsx`, `static/resizable-demo.html`
 
 ## About
 
@@ -87,19 +87,19 @@ ResizablePanelGroup
 
 Use `orientation="vertical"` for vertical resizing.
 
-> Example `resizable-vertical` — `src/examples/resizable-vertical.tsx`, `static/resizable-vertical.html`
+> Example `resizable-vertical` — `upstream/examples/resizable-vertical.tsx`, `static/resizable-vertical.html`
 
 ## Handle
 
 Use the `withHandle` prop on `ResizableHandle` to show a visible handle.
 
-> Example `resizable-handle` — `src/examples/resizable-handle.tsx`, `static/resizable-handle.html`
+> Example `resizable-handle` — `upstream/examples/resizable-handle.tsx`, `static/resizable-handle.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `resizable-rtl` — `src/examples/resizable-rtl.tsx`, `static/resizable-rtl.html`
+> Example `resizable-rtl` — `upstream/examples/resizable-rtl.tsx`, `static/resizable-rtl.html`
 
 ## API Reference
 
@@ -130,11 +130,11 @@ If you're using `react-resizable-panels` primitives directly, note the following
 
 ## Files
 
-- `src/ui/resizable.tsx` — the ui file as the registry installs it
-- `src/examples/resizable-demo.tsx`
-- `src/examples/resizable-vertical.tsx`
-- `src/examples/resizable-handle.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/resizable.tsx` — the ui file as the registry installs it
+- `upstream/examples/resizable-demo.tsx`
+- `upstream/examples/resizable-vertical.tsx`
+- `upstream/examples/resizable-handle.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/resizable

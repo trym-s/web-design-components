@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/attach-file/src/attach-file.vue`
+- Entry point: `ui/icons/lucide-motion-vue/attach-file/upstream/attach-file.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/attach-file/src/attach-file.vue`
+- Local source: `ui/icons/lucide-motion-vue/attach-file/upstream/attach-file.vue`

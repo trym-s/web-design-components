@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-bubble-filled-off/src/chat-bubble-filled-off.svg`
+- Entry point: `ui/icons/line-md/chat-bubble-filled-off/upstream/chat-bubble-filled-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-bubble-filled-off/src/chat-bubble-filled-off.svg`
+- Local source: `ui/icons/line-md/chat-bubble-filled-off/upstream/chat-bubble-filled-off.svg`

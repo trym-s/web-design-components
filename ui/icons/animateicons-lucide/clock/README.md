@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/clock/src/clock.tsx`
+- Entry point: `ui/icons/animateicons-lucide/clock/upstream/clock.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-clock.json`
 - Registry: https://animateicons.in/r/lu-clock.json
-- Local source fallback: `ui/icons/animateicons-lucide/clock/src/clock.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/clock/upstream/clock.tsx`

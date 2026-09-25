@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/fingerprint/src/fingerprint.vue`
+- Entry point: `ui/icons/lucide-motion-vue/fingerprint/upstream/fingerprint.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/fingerprint/src/fingerprint.vue`
+- Local source: `ui/icons/lucide-motion-vue/fingerprint/upstream/fingerprint.vue`

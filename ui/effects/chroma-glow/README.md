@@ -7,21 +7,21 @@
 
 - Category: `effects` — decorative
 - Medium: WebGL canvas
-- Entry point: `src/chroma/playground.tsx`
+- Entry point: `upstream/chroma/playground.tsx`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/chroma/params.ts`
-- `src/chroma/text-mask.ts`
-- `src/chroma/shaders.ts`
-- `src/chroma/engine.ts`
-- `src/chroma/playground.tsx`
+- `upstream/chroma/params.ts`
+- `upstream/chroma/text-mask.ts`
+- `upstream/chroma/shaders.ts`
+- `upstream/chroma/engine.ts`
+- `upstream/chroma/playground.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/chroma-glow

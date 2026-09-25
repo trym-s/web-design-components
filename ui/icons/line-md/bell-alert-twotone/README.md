@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/bell-alert-twotone/src/bell-alert-twotone.svg`
+- Entry point: `ui/icons/line-md/bell-alert-twotone/upstream/bell-alert-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/bell-alert-twotone/src/bell-alert-twotone.svg`
+- Local source: `ui/icons/line-md/bell-alert-twotone/upstream/bell-alert-twotone.svg`

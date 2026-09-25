@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/contact-round/src/contact-round.tsx`
+- Entry point: `ui/icons/animateicons-lucide/contact-round/upstream/contact-round.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-contact-round.json`
 - Registry: https://animateicons.in/r/lu-contact-round.json
-- Local source fallback: `ui/icons/animateicons-lucide/contact-round/src/contact-round.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/contact-round/upstream/contact-round.tsx`

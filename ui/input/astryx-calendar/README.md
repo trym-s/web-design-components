@@ -7,7 +7,7 @@ Calendar lets the user pick a date or date range from a month grid. Use it in bo
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Calendar.tsx`
+- Entry point: `upstream/Calendar.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Calendar lets the user pick a date or date range from a month grid. Use it in bo
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ Calendar lets the user pick a date or date range from a month grid. Use it in bo
 
 ## Examples
 
-- `src/examples/CalendarShowcase.tsx` — Calendar: An interactive single-date calendar with a selected date. Click any day to change the selection. · static: `static/CalendarShowcase.html`
-- `src/examples/CalendarConstraints.tsx` — Calendar — Constraints: Limit which dates can be selected using min/max bounds and custom rules like weekdays only. Use for scheduling UIs where certain dates are unavailable. · static: `static/CalendarConstraints.html`
-- `src/examples/CalendarRangeWithValue.tsx` — Calendar — Range: Pick a start and end date with the range highlighted between them. Use for booking dates, time-off requests, or report filters. · static: `static/CalendarRangeWithValue.html`
-- `src/examples/CalendarSingle.tsx` — Calendar — Single: Pick one date from a month grid. Use for appointment dates, due dates, or any field that needs a single date. · static: `static/CalendarSingle.html`
-- `src/examples/CalendarTwoMonths.tsx` — Calendar — Two Months: Two months side by side for selecting ranges that span a month boundary. Use in booking or travel UIs where check-in and check-out often fall in different months. · static: `static/CalendarTwoMonths.html`
+- `upstream/examples/CalendarShowcase.tsx` — Calendar: An interactive single-date calendar with a selected date. Click any day to change the selection. · static: `static/CalendarShowcase.html`
+- `upstream/examples/CalendarConstraints.tsx` — Calendar — Constraints: Limit which dates can be selected using min/max bounds and custom rules like weekdays only. Use for scheduling UIs where certain dates are unavailable. · static: `static/CalendarConstraints.html`
+- `upstream/examples/CalendarRangeWithValue.tsx` — Calendar — Range: Pick a start and end date with the range highlighted between them. Use for booking dates, time-off requests, or report filters. · static: `static/CalendarRangeWithValue.html`
+- `upstream/examples/CalendarSingle.tsx` — Calendar — Single: Pick one date from a month grid. Use for appointment dates, due dates, or any field that needs a single date. · static: `static/CalendarSingle.html`
+- `upstream/examples/CalendarTwoMonths.tsx` — Calendar — Two Months: Two months side by side for selecting ranges that span a month boundary. Use in booking or travel UIs where check-in and check-out often fall in different months. · static: `static/CalendarTwoMonths.html`
 
 ## Documentation
 
@@ -130,9 +130,9 @@ Styling hook class: `.astryx-calendar`, `.astryx-calendar-nav`, `.astryx-calenda
 
 ## Files
 
-- `src/Calendar.doc.mjs`
-- `src/Calendar.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Calendar.doc.mjs`
+- `upstream/Calendar.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Calendar

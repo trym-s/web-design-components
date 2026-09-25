@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/star-alt-filled/src/star-alt-filled.svg`
+- Entry point: `ui/icons/line-md/star-alt-filled/upstream/star-alt-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/star-alt-filled/src/star-alt-filled.svg`
+- Local source: `ui/icons/line-md/star-alt-filled/upstream/star-alt-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-arrow-down-filled/src/email-arrow-down-filled.svg`
+- Entry point: `ui/icons/line-md/email-arrow-down-filled/upstream/email-arrow-down-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-arrow-down-filled/src/email-arrow-down-filled.svg`
+- Local source: `ui/icons/line-md/email-arrow-down-filled/upstream/email-arrow-down-filled.svg`

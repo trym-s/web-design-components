@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-import-twotone/src/file-import-twotone.svg`
+- Entry point: `ui/icons/line-md/file-import-twotone/upstream/file-import-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-import-twotone/src/file-import-twotone.svg`
+- Local source: `ui/icons/line-md/file-import-twotone/upstream/file-import-twotone.svg`

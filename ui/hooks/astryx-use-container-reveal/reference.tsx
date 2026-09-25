@@ -1,3 +1,3 @@
 /* Use when: A headless hover/focus reveal primitive. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

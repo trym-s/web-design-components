@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/brain/src/brain.tsx`
+- Entry point: `ui/icons/lucide-animated/brain/upstream/brain.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/brain.json`
 - Registry: https://lucide-animated.com/r/brain.json
-- Local source fallback: `ui/icons/lucide-animated/brain/src/brain.tsx`
+- Local source fallback: `ui/icons/lucide-animated/brain/upstream/brain.tsx`

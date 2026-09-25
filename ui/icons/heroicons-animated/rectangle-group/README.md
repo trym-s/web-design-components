@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/rectangle-group/src/rectangle-group.tsx`
+- Entry point: `ui/icons/heroicons-animated/rectangle-group/upstream/rectangle-group.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/rectangle-group`
 - Registry: https://www.heroicons-animated.com/r/rectangle-group.json
-- Local source fallback: `ui/icons/heroicons-animated/rectangle-group/src/rectangle-group.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/rectangle-group/upstream/rectangle-group.tsx`

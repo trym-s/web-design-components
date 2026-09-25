@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/arrow-trending-up/src/arrow-trending-up.tsx`
+- Entry point: `ui/icons/heroicons-animated/arrow-trending-up/upstream/arrow-trending-up.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/arrow-trending-up`
 - Registry: https://www.heroicons-animated.com/r/arrow-trending-up.json
-- Local source fallback: `ui/icons/heroicons-animated/arrow-trending-up/src/arrow-trending-up.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/arrow-trending-up/upstream/arrow-trending-up.tsx`

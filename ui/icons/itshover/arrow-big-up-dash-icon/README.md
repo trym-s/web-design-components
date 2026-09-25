@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/arrow-big-up-dash-icon/src/arrow-big-up-dash-icon.tsx`
+- Entry point: `ui/icons/itshover/arrow-big-up-dash-icon/upstream/arrow-big-up-dash-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/arrow-big-up-dash-icon.json`
 - Registry: https://itshover.com/r/arrow-big-up-dash-icon.json
-- Local source fallback: `ui/icons/itshover/arrow-big-up-dash-icon/src/arrow-big-up-dash-icon.tsx`
+- Local source fallback: `ui/icons/itshover/arrow-big-up-dash-icon/upstream/arrow-big-up-dash-icon.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/apple-brand-logo/src/apple-brand-logo.tsx`
+- Entry point: `ui/icons/itshover/apple-brand-logo/upstream/apple-brand-logo.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/apple-brand-logo.json`
 - Registry: https://itshover.com/r/apple-brand-logo.json
-- Local source fallback: `ui/icons/itshover/apple-brand-logo/src/apple-brand-logo.tsx`
+- Local source fallback: `ui/icons/itshover/apple-brand-logo/upstream/apple-brand-logo.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/play/src/play.svg`
+- Entry point: `ui/icons/line-md/play/upstream/play.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/play/src/play.svg`
+- Local source: `ui/icons/line-md/play/upstream/play.svg`

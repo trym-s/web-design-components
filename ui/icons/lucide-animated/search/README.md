@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/search/src/search.tsx`
+- Entry point: `ui/icons/lucide-animated/search/upstream/search.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/search.json`
 - Registry: https://lucide-animated.com/r/search.json
-- Local source fallback: `ui/icons/lucide-animated/search/src/search.tsx`
+- Local source fallback: `ui/icons/lucide-animated/search/upstream/search.tsx`

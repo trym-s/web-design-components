@@ -7,7 +7,7 @@ TextArea is a multi-line text input for collecting longer-form content like comm
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TextArea.tsx`
+- Entry point: `upstream/TextArea.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ TextArea is a multi-line text input for collecting longer-form content like comm
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ TextArea is a multi-line text input for collecting longer-form content like comm
 
 ## Examples
 
-- `src/examples/TextAreaShowcase.tsx` — Text Area: A text area with placeholder text. · static: `static/TextAreaShowcase.html`
-- `src/examples/TextAreaCharacterCount.tsx` — TextArea — Character Count: Textareas with maxLength and a live character counter. The counter turns red when the limit is exceeded. · static: `static/TextAreaCharacterCount.html`
-- `src/examples/TextAreaStates.tsx` — TextArea — States: Required, disabled, and loading textareas side by side. Shows the interactive states the component supports. · static: `static/TextAreaStates.html`
-- `src/examples/TextAreaValidation.tsx` — TextArea — Validation: All three status variants (error, warning, and success) with status messages, plus error without a message. Use to show inline validation feedback as the user types. · static: `static/TextAreaValidation.html`
-- `src/examples/TextAreaWithIcon.tsx` — TextArea — Icon: Textareas with a leading icon that hints at the expected content, like a chat bubble for messages or a pencil for notes. · static: `static/TextAreaWithIcon.html`
+- `upstream/examples/TextAreaShowcase.tsx` — Text Area: A text area with placeholder text. · static: `static/TextAreaShowcase.html`
+- `upstream/examples/TextAreaCharacterCount.tsx` — TextArea — Character Count: Textareas with maxLength and a live character counter. The counter turns red when the limit is exceeded. · static: `static/TextAreaCharacterCount.html`
+- `upstream/examples/TextAreaStates.tsx` — TextArea — States: Required, disabled, and loading textareas side by side. Shows the interactive states the component supports. · static: `static/TextAreaStates.html`
+- `upstream/examples/TextAreaValidation.tsx` — TextArea — Validation: All three status variants (error, warning, and success) with status messages, plus error without a message. Use to show inline validation feedback as the user types. · static: `static/TextAreaValidation.html`
+- `upstream/examples/TextAreaWithIcon.tsx` — TextArea — Icon: Textareas with a leading icon that hints at the expected content, like a chat bubble for messages or a pencil for notes. · static: `static/TextAreaWithIcon.html`
 
 ## Documentation
 
@@ -167,10 +167,10 @@ Styling hook class: `.astryx-text-area`, `.astryx-text-area-control`, `.astryx-t
 
 ## Files
 
-- `src/TextArea.doc.mjs`
-- `src/TextArea.spec.md`
-- `src/TextArea.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/TextArea.doc.mjs`
+- `upstream/TextArea.spec.md`
+- `upstream/TextArea.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TextArea

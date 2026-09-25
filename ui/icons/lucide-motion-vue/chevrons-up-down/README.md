@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chevrons-up-down/src/chevrons-up-down.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chevrons-up-down/upstream/chevrons-up-down.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chevrons-up-down/src/chevrons-up-down.vue`
+- Local source: `ui/icons/lucide-motion-vue/chevrons-up-down/upstream/chevrons-up-down.vue`

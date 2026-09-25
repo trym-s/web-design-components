@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/video/src/video.tsx`
+- Entry point: `ui/icons/animateicons-lucide/video/upstream/video.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-video.json`
 - Registry: https://animateicons.in/r/lu-video.json
-- Local source fallback: `ui/icons/animateicons-lucide/video/src/video.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/video/upstream/video.tsx`

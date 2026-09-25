@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/telegram/src/telegram.svg`
+- Entry point: `ui/icons/line-md/telegram/upstream/telegram.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/telegram/src/telegram.svg`
+- Local source: `ui/icons/line-md/telegram/upstream/telegram.svg`

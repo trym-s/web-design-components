@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-arrow-up/src/email-arrow-up.svg`
+- Entry point: `ui/icons/line-md/email-arrow-up/upstream/email-arrow-up.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-arrow-up/src/email-arrow-up.svg`
+- Local source: `ui/icons/line-md/email-arrow-up/upstream/email-arrow-up.svg`

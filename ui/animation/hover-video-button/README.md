@@ -6,18 +6,18 @@
 
 - Category: `animation` — interactive
 - Medium: React + video
-- Entry point: `src/hover-video/HoverVideoButton.tsx`
+- Entry point: `upstream/hover-video/HoverVideoButton.tsx`
 - Nature: carries hover/press behavior; keep the motion contract, adapt the visuals.
 
 ## Files
 
-- `src/hover-video/HoverVideoButton.tsx`
-- `src/app/lib/video-sources.ts`
+- `upstream/hover-video/HoverVideoButton.tsx`
+- `upstream/app/lib/video-sources.ts`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/amo

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-filled-to-sunny-filled-transition/src/moon-filled-to-sunny-filled-transition.svg`
+- Entry point: `ui/icons/line-md/moon-filled-to-sunny-filled-transition/upstream/moon-filled-to-sunny-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-filled-to-sunny-filled-transition/src/moon-filled-to-sunny-filled-transition.svg`
+- Local source: `ui/icons/line-md/moon-filled-to-sunny-filled-transition/upstream/moon-filled-to-sunny-filled-transition.svg`

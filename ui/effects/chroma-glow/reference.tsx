@@ -2,7 +2,7 @@
 
 "use client";
 
-import { ChromaGlowPlayground } from "./src/chroma/playground";
+import { ChromaGlowPlayground } from "./upstream/chroma/playground";
 
 export default function Reference() {
   return <ChromaGlowPlayground />;

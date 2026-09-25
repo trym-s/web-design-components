@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/cooking-pot/src/cooking-pot.tsx`
+- Entry point: `ui/icons/lucide-animated/cooking-pot/upstream/cooking-pot.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/cooking-pot.json`
 - Registry: https://lucide-animated.com/r/cooking-pot.json
-- Local source fallback: `ui/icons/lucide-animated/cooking-pot/src/cooking-pot.tsx`
+- Local source fallback: `ui/icons/lucide-animated/cooking-pot/upstream/cooking-pot.tsx`

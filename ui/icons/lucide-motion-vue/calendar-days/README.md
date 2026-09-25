@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/calendar-days/src/calendar-days.vue`
+- Entry point: `ui/icons/lucide-motion-vue/calendar-days/upstream/calendar-days.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/calendar-days/src/calendar-days.vue`
+- Local source: `ui/icons/lucide-motion-vue/calendar-days/upstream/calendar-days.vue`

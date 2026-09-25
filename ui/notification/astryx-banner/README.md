@@ -7,7 +7,7 @@ Banner shows a persistent message at the top of a page or section. Use it for fo
 - Category: `notification` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Banner.tsx`
+- Entry point: `upstream/Banner.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Banner shows a persistent message at the top of a page or section. Use it for fo
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ Banner shows a persistent message at the top of a page or section. Use it for fo
 
 ## Examples
 
-- `src/examples/BannerShowcase.tsx` — Banner — Statuses: All four status banners stacked: info, success, warning, and error. A quick visual reference for choosing the right status. · static: `static/BannerShowcase.html`
-- `src/examples/BannerCollapsibleContent.tsx` — Banner — Collapsible: Combine an action button, dismiss control, and a collapsible detail area in one banner. Children sit behind the toggle by default; `collapsible={{defaultIsOpen: true}}` starts it open, and `collapsible={false}` drops the toggle entirely. Use for complex notifications like config changes or deployment summaries. · static: `static/BannerCollapsibleContent.html`
-- `src/examples/BannerDismissable.tsx` — Banner — Dismiss: Let the user close a banner after reading it. Use for maintenance notices, feature tips, or any non-critical message the user can acknowledge. · static: `static/BannerDismissable.html`
-- `src/examples/BannerFloating.tsx` — Banner — Floating: A floating banner raised with `elevation="med"`. Banners are inline by default; raise one when it should read as an overlay above content. · static: `static/BannerFloating.html`
-- `src/examples/BannerSectionVariant.tsx` — Banner — Full Width: A full-width banner with no border radius for page-level notifications. Use at the top of a page for site-wide announcements or maintenance alerts. · static: `static/BannerSectionVariant.html`
-- `src/examples/BannerStatuses.tsx` — Banner — Statuses: All 4 banner statuses: info, success, warning, and error. Use to show persistent messages like updates, confirmations, cautions, or problems at the top of a page or section. · static: `static/BannerStatuses.html`
-- `src/examples/BannerWithActionButton.tsx` — Banner — Action: Add a button to a banner so the user can act on the message. Use for trial expirations, payment failures, or anything that needs a response. · static: `static/BannerWithActionButton.html`
+- `upstream/examples/BannerShowcase.tsx` — Banner — Statuses: All four status banners stacked: info, success, warning, and error. A quick visual reference for choosing the right status. · static: `static/BannerShowcase.html`
+- `upstream/examples/BannerCollapsibleContent.tsx` — Banner — Collapsible: Combine an action button, dismiss control, and a collapsible detail area in one banner. Children sit behind the toggle by default; `collapsible={{defaultIsOpen: true}}` starts it open, and `collapsible={false}` drops the toggle entirely. Use for complex notifications like config changes or deployment summaries. · static: `static/BannerCollapsibleContent.html`
+- `upstream/examples/BannerDismissable.tsx` — Banner — Dismiss: Let the user close a banner after reading it. Use for maintenance notices, feature tips, or any non-critical message the user can acknowledge. · static: `static/BannerDismissable.html`
+- `upstream/examples/BannerFloating.tsx` — Banner — Floating: A floating banner raised with `elevation="med"`. Banners are inline by default; raise one when it should read as an overlay above content. · static: `static/BannerFloating.html`
+- `upstream/examples/BannerSectionVariant.tsx` — Banner — Full Width: A full-width banner with no border radius for page-level notifications. Use at the top of a page for site-wide announcements or maintenance alerts. · static: `static/BannerSectionVariant.html`
+- `upstream/examples/BannerStatuses.tsx` — Banner — Statuses: All 4 banner statuses: info, success, warning, and error. Use to show persistent messages like updates, confirmations, cautions, or problems at the top of a page or section. · static: `static/BannerStatuses.html`
+- `upstream/examples/BannerWithActionButton.tsx` — Banner — Action: Add a button to a banner so the user can act on the message. Use for trial expirations, payment failures, or anything that needs a response. · static: `static/BannerWithActionButton.html`
 
 ## Documentation
 
@@ -142,10 +142,10 @@ Styling hook class: `.astryx-banner-frame`, `.astryx-banner`, `.astryx-banner-ic
 
 ## Files
 
-- `src/Banner.doc.mjs`
-- `src/Banner.spec.md`
-- `src/Banner.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Banner.doc.mjs`
+- `upstream/Banner.spec.md`
+- `upstream/Banner.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Banner

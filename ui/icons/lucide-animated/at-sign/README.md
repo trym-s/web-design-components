@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/at-sign/src/at-sign.tsx`
+- Entry point: `ui/icons/lucide-animated/at-sign/upstream/at-sign.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/at-sign.json`
 - Registry: https://lucide-animated.com/r/at-sign.json
-- Local source fallback: `ui/icons/lucide-animated/at-sign/src/at-sign.tsx`
+- Local source fallback: `ui/icons/lucide-animated/at-sign/upstream/at-sign.tsx`

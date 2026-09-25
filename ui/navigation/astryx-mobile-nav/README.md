@@ -7,7 +7,7 @@ A slide-out drawer for mobile navigation. MobileNav is the mobile counterpart to
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/MobileNav.tsx`
+- Entry point: `upstream/MobileNav.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A slide-out drawer for mobile navigation. MobileNav is the mobile counterpart to
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ A slide-out drawer for mobile navigation. MobileNav is the mobile counterpart to
 
 ## Examples
 
-- `src/examples/MobileNavShowcase.tsx` — Mobile Nav · static: `static/MobileNavShowcase.html`
-- `src/examples/MobileNavToggleShowcase.tsx` — Mobile Nav Toggle: Demonstrates MobileNavToggle as a standalone hamburger button for opening the mobile navigation drawer. · static: `static/MobileNavToggleShowcase.html`
-- `src/examples/MobileNavBasicMobileNav.tsx` — MobileNav — Basic Drawer: Mobile navigation drawer with sectioned nav items triggered by a menu button · static: `static/MobileNavBasicMobileNav.html`
-- `src/examples/MobileNavEndSideMobileNav.tsx` — MobileNav — End Side Drawer: Navigation drawer that slides in from the right side of the screen · static: `static/MobileNavEndSideMobileNav.html`
-- `src/examples/MobileNavToggleBasic.tsx` — MobileNavToggle — Basic: A nav toggle with a custom icon and accessible label instead of the default hamburger. It opens a MobileNav drawer via the AppShell mobile context, which AppShell provides automatically. · static: `static/MobileNavToggleBasic.html`
-- `src/examples/MobileNavWithoutTitleMobileNav.tsx` — MobileNav — Without Title: Mobile navigation drawer without a title header · static: `static/MobileNavWithoutTitleMobileNav.html`
+- `upstream/examples/MobileNavShowcase.tsx` — Mobile Nav · static: `static/MobileNavShowcase.html`
+- `upstream/examples/MobileNavToggleShowcase.tsx` — Mobile Nav Toggle: Demonstrates MobileNavToggle as a standalone hamburger button for opening the mobile navigation drawer. · static: `static/MobileNavToggleShowcase.html`
+- `upstream/examples/MobileNavBasicMobileNav.tsx` — MobileNav — Basic Drawer: Mobile navigation drawer with sectioned nav items triggered by a menu button · static: `static/MobileNavBasicMobileNav.html`
+- `upstream/examples/MobileNavEndSideMobileNav.tsx` — MobileNav — End Side Drawer: Navigation drawer that slides in from the right side of the screen · static: `static/MobileNavEndSideMobileNav.html`
+- `upstream/examples/MobileNavToggleBasic.tsx` — MobileNavToggle — Basic: A nav toggle with a custom icon and accessible label instead of the default hamburger. It opens a MobileNav drawer via the AppShell mobile context, which AppShell provides automatically. · static: `static/MobileNavToggleBasic.html`
+- `upstream/examples/MobileNavWithoutTitleMobileNav.tsx` — MobileNav — Without Title: Mobile navigation drawer without a title header · static: `static/MobileNavWithoutTitleMobileNav.html`
 
 ## Documentation
 
@@ -105,11 +105,11 @@ Styling hook class: `.astryx-mobile-nav`
 
 ## Files
 
-- `src/MobileNav.doc.mjs`
-- `src/MobileNav.spec.md`
-- `src/MobileNav.tsx`
-- `src/MobileNavToggle.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/MobileNav.doc.mjs`
+- `upstream/MobileNav.spec.md`
+- `upstream/MobileNav.tsx`
+- `upstream/MobileNavToggle.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/MobileNav

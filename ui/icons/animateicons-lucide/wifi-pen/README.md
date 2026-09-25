@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/wifi-pen/src/wifi-pen.tsx`
+- Entry point: `ui/icons/animateicons-lucide/wifi-pen/upstream/wifi-pen.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wifi-pen.json`
 - Registry: https://animateicons.in/r/lu-wifi-pen.json
-- Local source fallback: `ui/icons/animateicons-lucide/wifi-pen/src/wifi-pen.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/wifi-pen/upstream/wifi-pen.tsx`

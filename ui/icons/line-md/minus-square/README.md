@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/minus-square/src/minus-square.svg`
+- Entry point: `ui/icons/line-md/minus-square/upstream/minus-square.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/minus-square/src/minus-square.svg`
+- Local source: `ui/icons/line-md/minus-square/upstream/minus-square.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/turn-sharp-left/src/turn-sharp-left.svg`
+- Entry point: `ui/icons/line-md/turn-sharp-left/upstream/turn-sharp-left.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/turn-sharp-left/src/turn-sharp-left.svg`
+- Local source: `ui/icons/line-md/turn-sharp-left/upstream/turn-sharp-left.svg`

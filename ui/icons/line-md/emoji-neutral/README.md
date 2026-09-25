@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-neutral/src/emoji-neutral.svg`
+- Entry point: `ui/icons/line-md/emoji-neutral/upstream/emoji-neutral.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-neutral/src/emoji-neutral.svg`
+- Local source: `ui/icons/line-md/emoji-neutral/upstream/emoji-neutral.svg`

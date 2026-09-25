@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/hand-helping/src/hand-helping.vue`
+- Entry point: `ui/icons/lucide-motion-vue/hand-helping/upstream/hand-helping.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/hand-helping/src/hand-helping.vue`
+- Local source: `ui/icons/lucide-motion-vue/hand-helping/upstream/hand-helping.vue`

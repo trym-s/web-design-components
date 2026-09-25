@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/round-360/src/round-360.svg`
+- Entry point: `ui/icons/line-md/round-360/upstream/round-360.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/round-360/src/round-360.svg`
+- Local source: `ui/icons/line-md/round-360/upstream/round-360.svg`

@@ -22,23 +22,23 @@ A composable audio player. One component, one install, fully owned by you.
 ## How an agent uses this reference
 
 - **React + shadcn target** — add the `@audio` registry (`https://audio-ui.xyz/docs/registry`) and install as above; the demos in
-  `src/examples/` show the exact usage. The elements live in `ui/_sources/audio-ui/registry-audio/bases/base/audio/`.
+  `upstream/examples/` show the exact usage. The elements live in `ui/_sources/audio-ui/registry-audio/bases/base/audio/`.
 - **Any other stack** — `static/<example>.html` is the rendered DOM against `ui/_sources/audio-ui/styles.css` (the
   site's Tailwind build with the Nova style); keep the markup, re-implement drag/keyboard behavior from the docs.
 
 ## Examples
 
-- `src/examples/player-track-demo.tsx` — Minimal track component example · static: `static/player-track-demo.html`
-- `src/examples/player-track-list-demo.tsx` — Track list with selection example · static: `static/player-track-list-demo.html`
-- `src/examples/player-track-list-grid-demo.tsx` — Track list with grid layout example · static: `static/player-track-list-grid-demo.html`
-- `src/examples/player-track-sortable-list-demo.tsx` — Track list with sortable selection example · static: `static/player-track-sortable-list-demo.html`
-- `src/examples/player-track-sortable-list-grid-demo.tsx` — Track list with sortable selection and grid layout example · static: `static/player-track-sortable-list-grid-demo.html`
+- `upstream/examples/player-track-demo.tsx` — Minimal track component example · static: `static/player-track-demo.html`
+- `upstream/examples/player-track-list-demo.tsx` — Track list with selection example · static: `static/player-track-list-demo.html`
+- `upstream/examples/player-track-list-grid-demo.tsx` — Track list with grid layout example · static: `static/player-track-list-grid-demo.html`
+- `upstream/examples/player-track-sortable-list-demo.tsx` — Track list with sortable selection example · static: `static/player-track-sortable-list-demo.html`
+- `upstream/examples/player-track-sortable-list-grid-demo.tsx` — Track list with sortable selection and grid layout example · static: `static/player-track-sortable-list-grid-demo.html`
 
 ## Files
 
 - `ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx` — the element as the registry installs it
 - `ui/_sources/audio-ui/registry-audio/bases/base/hooks/use-audio-provider.ts` — the element as the registry installs it
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://audio-ui.xyz/docs/components/base/player

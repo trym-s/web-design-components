@@ -7,7 +7,7 @@ A text input component for forms and user data entry with built-in styling and a
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/input.tsx`
+- Entry point: `upstream/ui/input.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A text input component for forms and user data entry with built-in styling and a
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A text input component for forms and user data entry with built-in styling and a
 
 ## Documentation
 
-> Example `input-demo` — `src/examples/input-demo.tsx`, `static/input-demo.html`
+> Example `input-demo` — `upstream/examples/input-demo.tsx`, `static/input-demo.html`
 
 ## Installation
 
@@ -56,106 +56,106 @@ import { Input } from "@/components/ui/input"
 
 ## Basic
 
-> Example `input-basic` — `src/examples/input-basic.tsx`, `static/input-basic.html`
+> Example `input-basic` — `upstream/examples/input-basic.tsx`, `static/input-basic.html`
 
 ## Field
 
 Use `Field`, `FieldLabel`, and `FieldDescription` to create an input with a
 label and description.
 
-> Example `input-field` — `src/examples/input-field.tsx`, `static/input-field.html`
+> Example `input-field` — `upstream/examples/input-field.tsx`, `static/input-field.html`
 
 ## Field Group
 
 Use `FieldGroup` to show multiple `Field` blocks and to build forms.
 
-> Example `input-fieldgroup` — `src/examples/input-fieldgroup.tsx`, `static/input-fieldgroup.html`
+> Example `input-fieldgroup` — `upstream/examples/input-fieldgroup.tsx`, `static/input-fieldgroup.html`
 
 ## Disabled
 
 Use the `disabled` prop to disable the input. To style the disabled state, add the `data-disabled` attribute to the `Field` component.
 
-> Example `input-disabled` — `src/examples/input-disabled.tsx`, `static/input-disabled.html`
+> Example `input-disabled` — `upstream/examples/input-disabled.tsx`, `static/input-disabled.html`
 
 ## Invalid
 
 Use the `aria-invalid` prop to mark the input as invalid. To style the invalid state, add the `data-invalid` attribute to the `Field` component.
 
-> Example `input-invalid` — `src/examples/input-invalid.tsx`, `static/input-invalid.html`
+> Example `input-invalid` — `upstream/examples/input-invalid.tsx`, `static/input-invalid.html`
 
 ## File
 
 Use the `type="file"` prop to create a file input.
 
-> Example `input-file` — `src/examples/input-file.tsx`, `static/input-file.html`
+> Example `input-file` — `upstream/examples/input-file.tsx`, `static/input-file.html`
 
 ## Inline
 
 Use `Field` with `orientation="horizontal"` to create an inline input.
 Pair with `Button` to create a search input with a button.
 
-> Example `input-inline` — `src/examples/input-inline.tsx`, `static/input-inline.html`
+> Example `input-inline` — `upstream/examples/input-inline.tsx`, `static/input-inline.html`
 
 ## Grid
 
 Use a grid layout to place multiple inputs side by side.
 
-> Example `input-grid` — `src/examples/input-grid.tsx`, `static/input-grid.html`
+> Example `input-grid` — `upstream/examples/input-grid.tsx`, `static/input-grid.html`
 
 ## Required
 
 Use the `required` attribute to indicate required inputs.
 
-> Example `input-required` — `src/examples/input-required.tsx`, `static/input-required.html`
+> Example `input-required` — `upstream/examples/input-required.tsx`, `static/input-required.html`
 
 ## Badge
 
 Use `Badge` in the label to highlight a recommended field.
 
-> Example `input-badge` — `src/examples/input-badge.tsx`, `static/input-badge.html`
+> Example `input-badge` — `upstream/examples/input-badge.tsx`, `static/input-badge.html`
 
 ## Input Group
 
 To add icons, text, or buttons inside an input, use the `InputGroup` component. See the [Input Group](/docs/components/input-group) component for more examples.
 
-> Example `input-input-group` — `src/examples/input-input-group.tsx`, `static/input-input-group.html`
+> Example `input-input-group` — `upstream/examples/input-input-group.tsx`, `static/input-input-group.html`
 
 ## Button Group
 
 To add buttons to an input, use the `ButtonGroup` component. See the [Button Group](/docs/components/button-group) component for more examples.
 
-> Example `input-button-group` — `src/examples/input-button-group.tsx`, `static/input-button-group.html`
+> Example `input-button-group` — `upstream/examples/input-button-group.tsx`, `static/input-button-group.html`
 
 ## Form
 
 A full form example with multiple inputs, a select, and a button.
 
-> Example `input-form` — `src/examples/input-form.tsx`, `static/input-form.html`
+> Example `input-form` — `upstream/examples/input-form.tsx`, `static/input-form.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `input-rtl` — `src/examples/input-rtl.tsx`, `static/input-rtl.html`
+> Example `input-rtl` — `upstream/examples/input-rtl.tsx`, `static/input-rtl.html`
 
 ## Files
 
-- `src/ui/input.tsx` — the ui file as the registry installs it
-- `src/examples/input-demo.tsx`
-- `src/examples/input-basic.tsx`
-- `src/examples/input-field.tsx`
-- `src/examples/input-fieldgroup.tsx`
-- `src/examples/input-disabled.tsx`
-- `src/examples/input-invalid.tsx`
-- `src/examples/input-file.tsx`
-- `src/examples/input-inline.tsx`
-- `src/examples/input-grid.tsx`
-- `src/examples/input-required.tsx`
-- `src/examples/input-badge.tsx`
-- `src/examples/input-input-group.tsx`
-- `src/examples/input-button-group.tsx`
-- `src/examples/input-form.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/input.tsx` — the ui file as the registry installs it
+- `upstream/examples/input-demo.tsx`
+- `upstream/examples/input-basic.tsx`
+- `upstream/examples/input-field.tsx`
+- `upstream/examples/input-fieldgroup.tsx`
+- `upstream/examples/input-disabled.tsx`
+- `upstream/examples/input-invalid.tsx`
+- `upstream/examples/input-file.tsx`
+- `upstream/examples/input-inline.tsx`
+- `upstream/examples/input-grid.tsx`
+- `upstream/examples/input-required.tsx`
+- `upstream/examples/input-badge.tsx`
+- `upstream/examples/input-input-group.tsx`
+- `upstream/examples/input-button-group.tsx`
+- `upstream/examples/input-form.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/input

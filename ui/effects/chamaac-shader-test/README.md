@@ -22,12 +22,12 @@ Shader Test shader background (in the Chamaac registry source, not on the site).
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/shader-test.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Files
 
-- `src/demo.tsx` — bank harness
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://github.com/amarnathdhumal/chamaacui/tree/main/registry/chamaac/shader-test

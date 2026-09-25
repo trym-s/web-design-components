@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/bean-off/src/bean-off.svelte`
+- Entry point: `ui/icons/movingicons/bean-off/upstream/bean-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/bean-off`
 - Registry: https://movingicons.dev/r/bean-off
-- Local source fallback: `ui/icons/movingicons/bean-off/src/bean-off.svelte`
+- Local source fallback: `ui/icons/movingicons/bean-off/upstream/bean-off.svelte`

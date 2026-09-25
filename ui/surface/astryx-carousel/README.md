@@ -7,7 +7,7 @@ Carousel scrolls a row of items horizontally when they overflow the available wi
 - Category: `surface` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Carousel.tsx`
+- Entry point: `upstream/Carousel.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Carousel scrolls a row of items horizontally when they overflow the available wi
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Carousel scrolls a row of items horizontally when they overflow the available wi
 
 ## Examples
 
-- `src/examples/CarouselShowcase.tsx` — Carousel: A horizontal carousel of cards with scroll-snap and navigation buttons. Scroll or click the arrows to browse. · static: `static/CarouselShowcase.html`
-- `src/examples/CarouselCards.tsx` — Carousel — Cards: A horizontally scrollable row of cards with snap scrolling enabled. Use for feature grids, product lists, or any set of cards that overflows the available width. The carousel adds fade edges and navigation buttons automatically. · static: `static/CarouselCards.html`
-- `src/examples/CarouselSnap.tsx` — Carousel — Snap: Scroll-snap carousel with navigation buttons and team member cards. Each card snaps to the start edge on scroll. Use when items should be viewed one at a time rather than as a continuous strip. · static: `static/CarouselSnap.html`
+- `upstream/examples/CarouselShowcase.tsx` — Carousel: A horizontal carousel of cards with scroll-snap and navigation buttons. Scroll or click the arrows to browse. · static: `static/CarouselShowcase.html`
+- `upstream/examples/CarouselCards.tsx` — Carousel — Cards: A horizontally scrollable row of cards with snap scrolling enabled. Use for feature grids, product lists, or any set of cards that overflows the available width. The carousel adds fade edges and navigation buttons automatically. · static: `static/CarouselCards.html`
+- `upstream/examples/CarouselSnap.tsx` — Carousel — Snap: Scroll-snap carousel with navigation buttons and team member cards. Each card snaps to the start edge on scroll. Use when items should be viewed one at a time rather than as a continuous strip. · static: `static/CarouselSnap.html`
 
 ## Documentation
 
@@ -88,9 +88,9 @@ Styling hook class: `.astryx-carousel`, `.astryx-carousel-scroller`
 
 ## Files
 
-- `src/Carousel.doc.mjs`
-- `src/Carousel.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Carousel.doc.mjs`
+- `upstream/Carousel.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Carousel

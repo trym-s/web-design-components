@@ -1,7 +1,7 @@
 /* The site's styles/globals.css (Nova only) over this snapshot. */
 @import "tailwindcss";
 @source "./**/*.{ts,tsx}";
-@source "../../**/audio-ui-*/src/**/*.{ts,tsx}";
+@source "../../**/audio-ui-*/{src,upstream}/**/*.{ts,tsx}";
 @import "./fonts.css";
 @import "tw-animate-css";
 @import "../shadcn/shadcn-tailwind.css";

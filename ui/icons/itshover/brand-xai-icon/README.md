@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-xai-icon/src/brand-xai-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-xai-icon/upstream/brand-xai-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-xai-icon.json`
 - Registry: https://itshover.com/r/brand-xai-icon.json
-- Local source fallback: `ui/icons/itshover/brand-xai-icon/src/brand-xai-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-xai-icon/upstream/brand-xai-icon.tsx`

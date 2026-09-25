@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/filter-remove/src/filter-remove.svg`
+- Entry point: `ui/icons/line-md/filter-remove/upstream/filter-remove.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/filter-remove/src/filter-remove.svg`
+- Local source: `ui/icons/line-md/filter-remove/upstream/filter-remove.svg`

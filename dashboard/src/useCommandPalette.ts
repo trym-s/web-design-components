@@ -1,7 +1,7 @@
 /**
  * Fuzzy ranking and listbox keyboard handling.
  *
- * Adapted from `ui/overlay/command-palette/src/command-palette.tsx`. The
+ * Adapted from `ui/overlay/command-palette/upstream/command-palette.tsx`. The
  * scoring function, the streak/boundary bonuses, the keyword penalty and the
  * Arrow/Home/End/Enter/Escape contract are preserved verbatim in behaviour;
  * the Motion layout animation and the Tailwind markup are dropped because the

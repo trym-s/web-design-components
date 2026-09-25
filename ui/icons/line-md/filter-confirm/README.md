@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/filter-confirm/src/filter-confirm.svg`
+- Entry point: `ui/icons/line-md/filter-confirm/upstream/filter-confirm.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/filter-confirm/src/filter-confirm.svg`
+- Local source: `ui/icons/line-md/filter-confirm/upstream/filter-confirm.svg`

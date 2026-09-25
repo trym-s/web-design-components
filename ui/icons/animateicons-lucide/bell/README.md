@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/bell/src/bell.tsx`
+- Entry point: `ui/icons/animateicons-lucide/bell/upstream/bell.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bell.json`
 - Registry: https://animateicons.in/r/lu-bell.json
-- Local source fallback: `ui/icons/animateicons-lucide/bell/src/bell.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/bell/upstream/bell.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/account-small/src/account-small.svg`
+- Entry point: `ui/icons/line-md/account-small/upstream/account-small.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/account-small/src/account-small.svg`
+- Local source: `ui/icons/line-md/account-small/upstream/account-small.svg`

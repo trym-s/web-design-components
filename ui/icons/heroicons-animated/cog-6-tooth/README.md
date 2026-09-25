@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/cog-6-tooth/src/cog-6-tooth.tsx`
+- Entry point: `ui/icons/heroicons-animated/cog-6-tooth/upstream/cog-6-tooth.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/cog-6-tooth`
 - Registry: https://www.heroicons-animated.com/r/cog-6-tooth.json
-- Local source fallback: `ui/icons/heroicons-animated/cog-6-tooth/src/cog-6-tooth.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/cog-6-tooth/upstream/cog-6-tooth.tsx`

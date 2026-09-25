@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/check/src/check.tsx`
+- Entry point: `ui/icons/heroicons-animated/check/upstream/check.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/check`
 - Registry: https://www.heroicons-animated.com/r/check.json
-- Local source fallback: `ui/icons/heroicons-animated/check/src/check.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/check/upstream/check.tsx`

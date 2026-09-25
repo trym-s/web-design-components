@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/youtube/src/youtube.tsx`
+- Entry point: `ui/icons/lucide-animated/youtube/upstream/youtube.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/youtube.json`
 - Registry: https://lucide-animated.com/r/youtube.json
-- Local source fallback: `ui/icons/lucide-animated/youtube/src/youtube.tsx`
+- Local source fallback: `ui/icons/lucide-animated/youtube/upstream/youtube.tsx`

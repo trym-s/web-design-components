@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/star-pulsating-twotone-loop/src/star-pulsating-twotone-loop.svg`
+- Entry point: `ui/icons/line-md/star-pulsating-twotone-loop/upstream/star-pulsating-twotone-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/star-pulsating-twotone-loop/src/star-pulsating-twotone-loop.svg`
+- Local source: `ui/icons/line-md/star-pulsating-twotone-loop/upstream/star-pulsating-twotone-loop.svg`

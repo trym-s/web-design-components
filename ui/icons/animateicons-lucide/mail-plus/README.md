@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/mail-plus/src/mail-plus.tsx`
+- Entry point: `ui/icons/animateicons-lucide/mail-plus/upstream/mail-plus.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-plus.json`
 - Registry: https://animateicons.in/r/lu-mail-plus.json
-- Local source fallback: `ui/icons/animateicons-lucide/mail-plus/src/mail-plus.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/mail-plus/upstream/mail-plus.tsx`

@@ -7,7 +7,7 @@ Displays a standardized elapsed duration for active work without scheduling a Re
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Timer.tsx`
+- Entry point: `upstream/Timer.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a standardized elapsed duration for active work without scheduling a Re
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Displays a standardized elapsed duration for active work without scheduling a Re
 
 ## Examples
 
-- `src/examples/TimerShowcase.tsx` — Timer · static: `static/TimerShowcase.html`
-- `src/examples/TimerFormats.tsx` — Timer — Formats: Elapsed compact units and stopwatch clock notation shown from the same start time. · static: `static/TimerFormats.html`
-- `src/examples/TimerInline.tsx` — Timer — Inline: A Timer composed into status copy while inheriting the surrounding typography. · static: `static/TimerInline.html`
-- `src/examples/TimerTypography.tsx` — Timer — Typography: Timer using its Timestamp-matched default typography and an emphasized override. · static: `static/TimerTypography.html`
+- `upstream/examples/TimerShowcase.tsx` — Timer · static: `static/TimerShowcase.html`
+- `upstream/examples/TimerFormats.tsx` — Timer — Formats: Elapsed compact units and stopwatch clock notation shown from the same start time. · static: `static/TimerFormats.html`
+- `upstream/examples/TimerInline.tsx` — Timer — Inline: A Timer composed into status copy while inheriting the surrounding typography. · static: `static/TimerInline.html`
+- `upstream/examples/TimerTypography.tsx` — Timer — Typography: Timer using its Timestamp-matched default typography and an emphasized override. · static: `static/TimerTypography.html`
 
 ## Documentation
 
@@ -109,10 +109,10 @@ Styling hook class: `.astryx-timer`
 
 ## Files
 
-- `src/Timer.doc.mjs`
-- `src/Timer.spec.md`
-- `src/Timer.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Timer.doc.mjs`
+- `upstream/Timer.spec.md`
+- `upstream/Timer.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Timer

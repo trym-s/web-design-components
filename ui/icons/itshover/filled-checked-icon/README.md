@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/filled-checked-icon/src/filled-checked-icon.tsx`
+- Entry point: `ui/icons/itshover/filled-checked-icon/upstream/filled-checked-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/filled-checked-icon.json`
 - Registry: https://itshover.com/r/filled-checked-icon.json
-- Local source fallback: `ui/icons/itshover/filled-checked-icon/src/filled-checked-icon.tsx`
+- Local source fallback: `ui/icons/itshover/filled-checked-icon/upstream/filled-checked-icon.tsx`

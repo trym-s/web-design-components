@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/webhook-off/src/webhook-off.svelte`
+- Entry point: `ui/icons/movingicons/webhook-off/upstream/webhook-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/webhook-off`
 - Registry: https://movingicons.dev/r/webhook-off
-- Local source fallback: `ui/icons/movingicons/webhook-off/src/webhook-off.svelte`
+- Local source fallback: `ui/icons/movingicons/webhook-off/upstream/webhook-off.svelte`

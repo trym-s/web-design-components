@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/thumbs-up/src/thumbs-up.svg`
+- Entry point: `ui/icons/line-md/thumbs-up/upstream/thumbs-up.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/thumbs-up/src/thumbs-up.svg`
+- Local source: `ui/icons/line-md/thumbs-up/upstream/thumbs-up.svg`

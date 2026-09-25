@@ -7,7 +7,7 @@ DateInput lets the user type or pick a date from a calendar popover. Use it for 
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/DateInput.tsx`
+- Entry point: `upstream/DateInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ DateInput lets the user type or pick a date from a calendar popover. Use it for 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ DateInput lets the user type or pick a date from a calendar popover. Use it for 
 
 ## Examples
 
-- `src/examples/DateInputShowcase.tsx` — Date Input: A date input field with a calendar popover. Type a date or click the calendar icon to pick one. · static: `static/DateInputShowcase.html`
-- `src/examples/DateInputClearable.tsx` — DateInput — Clearable: Date input with a clear button that resets the value. Use when the date field is optional and the user may need to undo their selection. · static: `static/DateInputClearable.html`
-- `src/examples/DateInputDateRange.tsx` — DateInput — Min/Max Constraints: Date input constrained to a min/max window. Use when only certain dates are valid, like booking availability or a fiscal quarter. · static: `static/DateInputDateRange.html`
-- `src/examples/DateInputFormats.tsx` — DateInput — Formats: The format prop reuses Timestamp's format vocabulary to control how the committed value is displayed: date, date_long (default), date_weekday, and system_date, or a function for a fully custom string. Formatting applies only to the committed value, never to text the user is actively typing. · static: `static/DateInputFormats.html`
-- `src/examples/DateInputWithDescription.tsx` — DateInput — Description: Date input with helper text below the label explaining what the field expects. Use when the purpose of the date is not obvious from the label alone. · static: `static/DateInputWithDescription.html`
-- `src/examples/DateInputWithValidation.tsx` — DateInput — Validation: Date input in all three status states: error, warning, and success. Use to surface validation issues, caution the user, or confirm a valid selection. · static: `static/DateInputWithValidation.html`
+- `upstream/examples/DateInputShowcase.tsx` — Date Input: A date input field with a calendar popover. Type a date or click the calendar icon to pick one. · static: `static/DateInputShowcase.html`
+- `upstream/examples/DateInputClearable.tsx` — DateInput — Clearable: Date input with a clear button that resets the value. Use when the date field is optional and the user may need to undo their selection. · static: `static/DateInputClearable.html`
+- `upstream/examples/DateInputDateRange.tsx` — DateInput — Min/Max Constraints: Date input constrained to a min/max window. Use when only certain dates are valid, like booking availability or a fiscal quarter. · static: `static/DateInputDateRange.html`
+- `upstream/examples/DateInputFormats.tsx` — DateInput — Formats: The format prop reuses Timestamp's format vocabulary to control how the committed value is displayed: date, date_long (default), date_weekday, and system_date, or a function for a fully custom string. Formatting applies only to the committed value, never to text the user is actively typing. · static: `static/DateInputFormats.html`
+- `upstream/examples/DateInputWithDescription.tsx` — DateInput — Description: Date input with helper text below the label explaining what the field expects. Use when the purpose of the date is not obvious from the label alone. · static: `static/DateInputWithDescription.html`
+- `upstream/examples/DateInputWithValidation.tsx` — DateInput — Validation: Date input in all three status states: error, warning, and success. Use to surface validation issues, caution the user, or confirm a valid selection. · static: `static/DateInputWithValidation.html`
 
 ## Documentation
 
@@ -154,9 +154,9 @@ Styling hook class: `.astryx-date-input`, `.astryx-date-input-toggle-icon`, `.as
 
 ## Files
 
-- `src/DateInput.doc.mjs`
-- `src/DateInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/DateInput.doc.mjs`
+- `upstream/DateInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/DateInput

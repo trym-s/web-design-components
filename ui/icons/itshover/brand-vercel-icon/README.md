@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-vercel-icon/src/brand-vercel-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-vercel-icon/upstream/brand-vercel-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-vercel-icon.json`
 - Registry: https://itshover.com/r/brand-vercel-icon.json
-- Local source fallback: `ui/icons/itshover/brand-vercel-icon/src/brand-vercel-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-vercel-icon/upstream/brand-vercel-icon.tsx`

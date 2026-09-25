@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/sliders-horizontal/src/sliders-horizontal.tsx`
+- Entry point: `ui/icons/lucide-animated/sliders-horizontal/upstream/sliders-horizontal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/sliders-horizontal.json`
 - Registry: https://lucide-animated.com/r/sliders-horizontal.json
-- Local source fallback: `ui/icons/lucide-animated/sliders-horizontal/src/sliders-horizontal.tsx`
+- Local source fallback: `ui/icons/lucide-animated/sliders-horizontal/upstream/sliders-horizontal.tsx`

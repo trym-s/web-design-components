@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/sunny-loop/src/sunny-loop.svg`
+- Entry point: `ui/icons/line-md/sunny-loop/upstream/sunny-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/sunny-loop/src/sunny-loop.svg`
+- Local source: `ui/icons/line-md/sunny-loop/upstream/sunny-loop.svg`

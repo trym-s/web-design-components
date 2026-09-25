@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/folder-down/src/folder-down.svelte`
+- Entry point: `ui/icons/movingicons/folder-down/upstream/folder-down.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/folder-down`
 - Registry: https://movingicons.dev/r/folder-down
-- Local source fallback: `ui/icons/movingicons/folder-down/src/folder-down.svelte`
+- Local source fallback: `ui/icons/movingicons/folder-down/upstream/folder-down.svelte`

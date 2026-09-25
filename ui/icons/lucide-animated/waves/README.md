@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/waves/src/waves.tsx`
+- Entry point: `ui/icons/lucide-animated/waves/upstream/waves.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/waves.json`
 - Registry: https://lucide-animated.com/r/waves.json
-- Local source fallback: `ui/icons/lucide-animated/waves/src/waves.tsx`
+- Local source fallback: `ui/icons/lucide-animated/waves/upstream/waves.tsx`

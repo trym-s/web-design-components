@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/paperclip/src/paperclip.svelte`
+- Entry point: `ui/icons/movingicons/paperclip/upstream/paperclip.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/paperclip`
 - Registry: https://movingicons.dev/r/paperclip
-- Local source fallback: `ui/icons/movingicons/paperclip/src/paperclip.svelte`
+- Local source fallback: `ui/icons/movingicons/paperclip/upstream/paperclip.svelte`

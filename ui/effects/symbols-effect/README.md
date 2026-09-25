@@ -8,19 +8,19 @@
 
 - Category: `effects` — decorative
 - Medium: WebGL shader
-- Entry point: `src/sandbox/standalone/SymbolsEffect.ts`
+- Entry point: `upstream/sandbox/standalone/SymbolsEffect.ts`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/sandbox/shaders.ts`
-- `src/sandbox/glyphs.ts`
-- `src/sandbox/standalone/SymbolsEffect.ts`
+- `upstream/sandbox/shaders.ts`
+- `upstream/sandbox/glyphs.ts`
+- `upstream/sandbox/standalone/SymbolsEffect.ts`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/sandbox

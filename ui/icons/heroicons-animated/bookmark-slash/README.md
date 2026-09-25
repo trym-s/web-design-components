@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/bookmark-slash/src/bookmark-slash.tsx`
+- Entry point: `ui/icons/heroicons-animated/bookmark-slash/upstream/bookmark-slash.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/bookmark-slash`
 - Registry: https://www.heroicons-animated.com/r/bookmark-slash.json
-- Local source fallback: `ui/icons/heroicons-animated/bookmark-slash/src/bookmark-slash.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/bookmark-slash/upstream/bookmark-slash.tsx`

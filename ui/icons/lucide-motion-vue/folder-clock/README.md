@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/folder-clock/src/folder-clock.vue`
+- Entry point: `ui/icons/lucide-motion-vue/folder-clock/upstream/folder-clock.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/folder-clock/src/folder-clock.vue`
+- Local source: `ui/icons/lucide-motion-vue/folder-clock/upstream/folder-clock.vue`

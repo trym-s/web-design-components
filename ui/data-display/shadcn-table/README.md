@@ -7,7 +7,7 @@ A responsive table component.
 - Category: `data-display` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/table.tsx`
+- Entry point: `upstream/ui/table.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A responsive table component.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A responsive table component.
 
 ## Documentation
 
-> Example `table-demo` — `src/examples/table-demo.tsx`, `static/table-demo.html`
+> Example `table-demo` — `upstream/examples/table-demo.tsx`, `static/table-demo.html`
 
 ## Installation
 
@@ -111,13 +111,13 @@ Table
 
 Use the `<TableFooter />` component to add a footer to the table.
 
-> Example `table-footer` — `src/examples/table-footer.tsx`, `static/table-footer.html`
+> Example `table-footer` — `upstream/examples/table-footer.tsx`, `static/table-footer.html`
 
 ## Actions
 
 A table showing actions for each row using a `<DropdownMenu />` component.
 
-> Example `table-actions` — `src/examples/table-actions.tsx`, `static/table-actions.html`
+> Example `table-actions` — `upstream/examples/table-actions.tsx`, `static/table-actions.html`
 
 ## Data Table
 
@@ -131,15 +131,15 @@ You can also see an example of a data table in the [Tasks](/examples/tasks) demo
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `table-rtl` — `src/examples/table-rtl.tsx`, `static/table-rtl.html`
+> Example `table-rtl` — `upstream/examples/table-rtl.tsx`, `static/table-rtl.html`
 
 ## Files
 
-- `src/ui/table.tsx` — the ui file as the registry installs it
-- `src/examples/table-demo.tsx`
-- `src/examples/table-footer.tsx`
-- `src/examples/table-actions.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/table.tsx` — the ui file as the registry installs it
+- `upstream/examples/table-demo.tsx`
+- `upstream/examples/table-footer.tsx`
+- `upstream/examples/table-actions.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/table

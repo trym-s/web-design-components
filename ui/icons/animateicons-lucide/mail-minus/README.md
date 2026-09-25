@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/mail-minus/src/mail-minus.tsx`
+- Entry point: `ui/icons/animateicons-lucide/mail-minus/upstream/mail-minus.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-mail-minus.json`
 - Registry: https://animateicons.in/r/lu-mail-minus.json
-- Local source fallback: `ui/icons/animateicons-lucide/mail-minus/src/mail-minus.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/mail-minus/upstream/mail-minus.tsx`

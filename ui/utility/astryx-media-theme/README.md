@@ -7,7 +7,7 @@ Provides token overrides for content rendered on inverted surfaces: media overla
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/MediaTheme.tsx`
+- Entry point: `upstream/MediaTheme.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Provides token overrides for content rendered on inverted surfaces: media overla
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Provides token overrides for content rendered on inverted surfaces: media overla
 
 ## Examples
 
-- `src/examples/MediaThemeShowcase.tsx` — MediaTheme — Media Overlay: A compact media overlay showing MediaTheme adapting text, icons, badges, and button variants over an image-backed dark surface. · static: `static/MediaThemeShowcase.html`
-- `src/examples/MediaThemeImageOverlay.tsx` — MediaTheme — Image Overlay: A common image card pattern: place text and actions over a dark gradient and wrap the overlay content in MediaTheme mode="dark". · static: `static/MediaThemeImageOverlay.html`
-- `src/examples/MediaThemeLightScrim.tsx` — MediaTheme — Light Scrim: A light scrim over an image. Use MediaTheme mode="light" so text and ghost buttons use dark-on-light tokens. · static: `static/MediaThemeLightScrim.html`
+- `upstream/examples/MediaThemeShowcase.tsx` — MediaTheme — Media Overlay: A compact media overlay showing MediaTheme adapting text, icons, badges, and button variants over an image-backed dark surface. · static: `static/MediaThemeShowcase.html`
+- `upstream/examples/MediaThemeImageOverlay.tsx` — MediaTheme — Image Overlay: A common image card pattern: place text and actions over a dark gradient and wrap the overlay content in MediaTheme mode="dark". · static: `static/MediaThemeImageOverlay.html`
+- `upstream/examples/MediaThemeLightScrim.tsx` — MediaTheme — Light Scrim: A light scrim over an image. Use MediaTheme mode="light" so text and ghost buttons use dark-on-light tokens. · static: `static/MediaThemeLightScrim.html`
 
 ## Documentation
 
@@ -64,9 +64,9 @@ Provides token overrides for content rendered on inverted surfaces: media overla
 
 ## Files
 
-- `src/MediaTheme.doc.mjs`
-- `src/MediaTheme.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/MediaTheme.doc.mjs`
+- `upstream/MediaTheme.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/MediaTheme

@@ -7,7 +7,7 @@ An interactive card for navigation or action targets. Nested interactive element
 - Category: `surface` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ClickableCard.tsx`
+- Entry point: `upstream/ClickableCard.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ An interactive card for navigation or action targets. Nested interactive element
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ An interactive card for navigation or action targets. Nested interactive element
 
 ## Examples
 
-- `src/examples/ClickableCardShowcase.tsx` — Clickable Card: A clickable card that navigates on click. Nested interactive elements work independently. · static: `static/ClickableCardShowcase.html`
-- `src/examples/ClickableCardElevated.tsx` — Clickable Card — Elevated: A clickable card raised with `elevation="med"` so the shadow signals the whole surface is interactive. · static: `static/ClickableCardElevated.html`
-- `src/examples/ClickableCardWithNestedButton.tsx` — Clickable Card — Nested Button: A product card that navigates on click but has an independent "Add to cart" button inside. · static: `static/ClickableCardWithNestedButton.html`
+- `upstream/examples/ClickableCardShowcase.tsx` — Clickable Card: A clickable card that navigates on click. Nested interactive elements work independently. · static: `static/ClickableCardShowcase.html`
+- `upstream/examples/ClickableCardElevated.tsx` — Clickable Card — Elevated: A clickable card raised with `elevation="med"` so the shadow signals the whole surface is interactive. · static: `static/ClickableCardElevated.html`
+- `upstream/examples/ClickableCardWithNestedButton.tsx` — Clickable Card — Nested Button: A product card that navigates on click but has an independent "Add to cart" button inside. · static: `static/ClickableCardWithNestedButton.html`
 
 ## Documentation
 
@@ -79,9 +79,9 @@ Styling hook class: `.astryx-clickable-card`
 
 ## Files
 
-- `src/ClickableCard.doc.mjs`
-- `src/ClickableCard.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ClickableCard.doc.mjs`
+- `upstream/ClickableCard.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ClickableCard

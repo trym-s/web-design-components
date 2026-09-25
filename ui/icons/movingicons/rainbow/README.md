@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/rainbow/src/rainbow.svelte`
+- Entry point: `ui/icons/movingicons/rainbow/upstream/rainbow.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/rainbow`
 - Registry: https://movingicons.dev/r/rainbow
-- Local source fallback: `ui/icons/movingicons/rainbow/src/rainbow.svelte`
+- Local source fallback: `ui/icons/movingicons/rainbow/upstream/rainbow.svelte`

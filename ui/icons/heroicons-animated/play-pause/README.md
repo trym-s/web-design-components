@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/play-pause/src/play-pause.tsx`
+- Entry point: `ui/icons/heroicons-animated/play-pause/upstream/play-pause.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/play-pause`
 - Registry: https://www.heroicons-animated.com/r/play-pause.json
-- Local source fallback: `ui/icons/heroicons-animated/play-pause/src/play-pause.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/play-pause/upstream/play-pause.tsx`

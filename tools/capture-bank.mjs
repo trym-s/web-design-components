@@ -154,8 +154,8 @@ const report = { rendered: 0, failed: [], empty: [], staticFiles: 0, previews: 0
 
 if (args.includes("--static")) {
   await pool(entries, async (entry, tab) => {
-    if (!existsSync(join(ROOT, "ui", entry.id, "src/demo.tsx")) || entry.kind === "email") return; // documentation-only, or rendered by the importer
-    const demo = readFileSync(join(ROOT, "ui", entry.id, "src/demo.tsx"), "utf8");
+    if (!existsSync(join(ROOT, "ui", entry.id, "upstream/demo.tsx")) || entry.kind === "email") return; // documentation-only, or rendered by the importer
+    const demo = readFileSync(join(ROOT, "ui", entry.id, "upstream/demo.tsx"), "utf8");
     const family = demo.startsWith("export { default }"); // shows another reference's demo
     const url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}`;
     if (!(await tab.go(url, `Array.isArray(window.${S.list}) || !!document.querySelector('.pv-error')`, 60000))) {
@@ -205,9 +205,9 @@ if (args.includes("--static")) {
 const STORYBOOK = "https://facebook.github.io/astryx/storybook/";
 async function storyId(entry) {
   // A part that shows its family's demo also borrows the family's first story.
-  const demo = join(ROOT, "ui", entry.id, "src/demo.tsx");
-  const family = existsSync(demo) && readFileSync(demo, "utf8").match(/^export \{ default \} from "(.+)\/src\/demo";/)?.[1];
-  const stories = family ? resolve(ROOT, "ui", entry.id, "src", family, "src/stories") : join(ROOT, "ui", entry.id, "src/stories");
+  const demo = join(ROOT, "ui", entry.id, "upstream/demo.tsx");
+  const family = existsSync(demo) && readFileSync(demo, "utf8").match(/^export \{ default \} from "(.+)\/upstream\/demo";/)?.[1];
+  const stories = family ? resolve(ROOT, "ui", entry.id, "upstream", family, "upstream/stories") : join(ROOT, "ui", entry.id, "upstream/stories");
   if (!existsSync(stories)) return null;
   const index = (storyId.index ??= await fetch(`${STORYBOOK}index.json`).then((r) => r.json()).catch(() => ({ entries: {} })));
   const files = new Set(await import("node:fs").then((fs) => fs.readdirSync(stories)));

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/message-square-text/src/message-square-text.tsx`
+- Entry point: `ui/icons/animateicons-lucide/message-square-text/upstream/message-square-text.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-message-square-text.json`
 - Registry: https://animateicons.in/r/lu-message-square-text.json
-- Local source fallback: `ui/icons/animateicons-lucide/message-square-text/src/message-square-text.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/message-square-text/upstream/message-square-text.tsx`

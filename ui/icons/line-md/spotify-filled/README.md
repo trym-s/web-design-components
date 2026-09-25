@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/spotify-filled/src/spotify-filled.svg`
+- Entry point: `ui/icons/line-md/spotify-filled/upstream/spotify-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/spotify-filled/src/spotify-filled.svg`
+- Local source: `ui/icons/line-md/spotify-filled/upstream/spotify-filled.svg`

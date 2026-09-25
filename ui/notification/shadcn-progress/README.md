@@ -7,7 +7,7 @@ Displays an indicator showing the completion progress of a task, typically displ
 - Category: `notification` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/progress.tsx`
+- Entry point: `upstream/ui/progress.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays an indicator showing the completion progress of a task, typically displ
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays an indicator showing the completion progress of a task, typically displ
 
 ## Documentation
 
-> Example `progress-demo` — `src/examples/progress-demo.tsx`, `static/progress-demo.html`
+> Example `progress-demo` — `upstream/examples/progress-demo.tsx`, `static/progress-demo.html`
 
 ## Installation
 
@@ -64,19 +64,19 @@ import { Progress } from "@/components/ui/progress"
 
 Use a `Field` component to add a label to the progress bar.
 
-> Example `progress-label` — `src/examples/progress-label.tsx`, `static/progress-label.html`
+> Example `progress-label` — `upstream/examples/progress-label.tsx`, `static/progress-label.html`
 
 ## Controlled
 
 A progress bar that can be controlled by a slider.
 
-> Example `progress-controlled` — `src/examples/progress-controlled.tsx`, `static/progress-controlled.html`
+> Example `progress-controlled` — `upstream/examples/progress-controlled.tsx`, `static/progress-controlled.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `progress-rtl` — `src/examples/progress-rtl.tsx`, `static/progress-rtl.html`
+> Example `progress-rtl` — `upstream/examples/progress-rtl.tsx`, `static/progress-rtl.html`
 
 ## API Reference
 
@@ -84,11 +84,11 @@ See the [Radix UI Progress](https://www.radix-ui.com/docs/primitives/components/
 
 ## Files
 
-- `src/ui/progress.tsx` — the ui file as the registry installs it
-- `src/examples/progress-demo.tsx`
-- `src/examples/progress-label.tsx`
-- `src/examples/progress-controlled.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/progress.tsx` — the ui file as the registry installs it
+- `upstream/examples/progress-demo.tsx`
+- `upstream/examples/progress-label.tsx`
+- `upstream/examples/progress-controlled.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/progress

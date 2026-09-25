@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/meh-icon/src/meh-icon.tsx`
+- Entry point: `ui/icons/itshover/meh-icon/upstream/meh-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/meh-icon.json`
 - Registry: https://itshover.com/r/meh-icon.json
-- Local source fallback: `ui/icons/itshover/meh-icon/src/meh-icon.tsx`
+- Local source fallback: `ui/icons/itshover/meh-icon/upstream/meh-icon.tsx`

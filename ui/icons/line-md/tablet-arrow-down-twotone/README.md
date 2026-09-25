@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/tablet-arrow-down-twotone/src/tablet-arrow-down-twotone.svg`
+- Entry point: `ui/icons/line-md/tablet-arrow-down-twotone/upstream/tablet-arrow-down-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/tablet-arrow-down-twotone/src/tablet-arrow-down-twotone.svg`
+- Local source: `ui/icons/line-md/tablet-arrow-down-twotone/upstream/tablet-arrow-down-twotone.svg`

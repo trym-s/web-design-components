@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/cloud-moon/src/cloud-moon.svelte`
+- Entry point: `ui/icons/movingicons/cloud-moon/upstream/cloud-moon.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/cloud-moon`
 - Registry: https://movingicons.dev/r/cloud-moon
-- Local source fallback: `ui/icons/movingicons/cloud-moon/src/cloud-moon.svelte`
+- Local source fallback: `ui/icons/movingicons/cloud-moon/upstream/cloud-moon.svelte`

@@ -6,14 +6,14 @@ A perspective image gallery with card selection, keyboard navigation, and option
 
 - Category: `scroll` — interactive
 - Medium: React + TypeScript + CSS transforms
-- Entry point: `src/coverflow-gallery.tsx`
+- Entry point: `upstream/coverflow-gallery.tsx`
 - Nature: interactive; reuse the card hierarchy, perspective treatment, and keyboard controls.
 - Added: 2026-08-18T11:23:07+03:00
 
 ## Files
 
-- `src/coverflow-gallery.tsx` — localized source component
-- `src/demo.tsx` — dashboard demo
+- `upstream/coverflow-gallery.tsx` — localized source component
+- `upstream/demo.tsx` — dashboard demo
 - `reference.tsx` — dashboard entry point
 - `../../_sources/originkit/media/` — localized image assets
 

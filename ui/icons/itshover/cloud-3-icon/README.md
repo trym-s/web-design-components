@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/cloud-3-icon/src/cloud-3-icon.tsx`
+- Entry point: `ui/icons/itshover/cloud-3-icon/upstream/cloud-3-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/cloud-3-icon.json`
 - Registry: https://itshover.com/r/cloud-3-icon.json
-- Local source fallback: `ui/icons/itshover/cloud-3-icon/src/cloud-3-icon.tsx`
+- Local source fallback: `ui/icons/itshover/cloud-3-icon/upstream/cloud-3-icon.tsx`

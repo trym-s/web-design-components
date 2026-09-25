@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/piggy-bank/src/piggy-bank.tsx`
+- Entry point: `ui/icons/animateicons-lucide/piggy-bank/upstream/piggy-bank.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-piggy-bank.json`
 - Registry: https://animateicons.in/r/lu-piggy-bank.json
-- Local source fallback: `ui/icons/animateicons-lucide/piggy-bank/src/piggy-bank.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/piggy-bank/upstream/piggy-bank.tsx`

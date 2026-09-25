@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/terminal/src/terminal.tsx`
+- Entry point: `ui/icons/animateicons-lucide/terminal/upstream/terminal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-terminal.json`
 - Registry: https://animateicons.in/r/lu-terminal.json
-- Local source fallback: `ui/icons/animateicons-lucide/terminal/src/terminal.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/terminal/upstream/terminal.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/file-check-2/src/file-check-2.vue`
+- Entry point: `ui/icons/lucide-motion-vue/file-check-2/upstream/file-check-2.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/file-check-2/src/file-check-2.vue`
+- Local source: `ui/icons/lucide-motion-vue/file-check-2/upstream/file-check-2.vue`

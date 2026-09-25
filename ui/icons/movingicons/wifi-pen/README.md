@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/wifi-pen/src/wifi-pen.svelte`
+- Entry point: `ui/icons/movingicons/wifi-pen/upstream/wifi-pen.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/wifi-pen`
 - Registry: https://movingicons.dev/r/wifi-pen
-- Local source fallback: `ui/icons/movingicons/wifi-pen/src/wifi-pen.svelte`
+- Local source fallback: `ui/icons/movingicons/wifi-pen/upstream/wifi-pen.svelte`

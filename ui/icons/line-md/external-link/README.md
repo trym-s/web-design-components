@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/external-link/src/external-link.svg`
+- Entry point: `ui/icons/line-md/external-link/upstream/external-link.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/external-link/src/external-link.svg`
+- Local source: `ui/icons/line-md/external-link/upstream/external-link.svg`

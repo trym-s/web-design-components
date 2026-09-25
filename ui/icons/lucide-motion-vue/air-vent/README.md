@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/air-vent/src/air-vent.vue`
+- Entry point: `ui/icons/lucide-motion-vue/air-vent/upstream/air-vent.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/air-vent/src/air-vent.vue`
+- Local source: `ui/icons/lucide-motion-vue/air-vent/upstream/air-vent.vue`

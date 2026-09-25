@@ -7,7 +7,7 @@ A dropdown menu that displays a list of actionable items in a popup triggered by
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/DropdownMenu.tsx`
+- Entry point: `upstream/DropdownMenu.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A dropdown menu that displays a list of actionable items in a popup triggered by
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ A dropdown menu that displays a list of actionable items in a popup triggered by
 
 ## Examples
 
-- `src/examples/DropdownMenuItemShowcase.tsx` — Dropdown Menu Item: Dropdown menu with custom-rendered items using DropdownMenuItem for icons and descriptions. · static: `static/DropdownMenuItemShowcase.html`
-- `src/examples/DropdownMenuShowcase.tsx` — Dropdown Menu: A button that opens a dropdown menu with action items. The menu starts open for preview. · static: `static/DropdownMenuShowcase.html`
-- `src/examples/DropdownMenuActions.tsx` — DropdownMenu — Actions: Action menu with dividers separating safe and destructive operations. Use for row-level actions on items like documents, projects, or records. · static: `static/DropdownMenuActions.html`
-- `src/examples/DropdownMenuBottomSheet.tsx` — DropdownMenu — Adaptive presentation: Chooses a bottom sheet for compact touch surfaces and an anchored popover otherwise. The media query is product policy, while DropdownMenu owns both presentations. · static: `static/DropdownMenuBottomSheet.html`
-- `src/examples/DropdownMenuItemBasic.tsx` — DropdownMenuItem — Basic: Dropdown menu items with labels and secondary descriptions. Use DropdownMenuItem to render custom menu entries with consistent styling. · static: `static/DropdownMenuItemBasic.html`
-- `src/examples/DropdownMenuNoChevron.tsx` — DropdownMenu — Icon Trigger: Overflow menu triggered by an icon-only button with no chevron or label text. Use for row-level actions in tables, cards, or lists where a text button would take too much space. · static: `static/DropdownMenuNoChevron.html`
-- `src/examples/DropdownMenuWithDisabledItems.tsx` — DropdownMenu — Disabled: Menu with selectively disabled items based on permissions. Use when some actions require higher privileges, like admin-only operations. · static: `static/DropdownMenuWithDisabledItems.html`
-- `src/examples/DropdownMenuWithSections.tsx` — DropdownMenu — Sections: Menu items organized into titled sections for easy scanning. Use when you have 6+ actions that fall into distinct categories, like Create vs Manage. · static: `static/DropdownMenuWithSections.html`
-- `src/examples/DropdownMenuWithSubmenu.tsx` — DropdownMenu — Submenu: Action menu with a nested submenu. Hover or Right arrow opens the flyout; Left arrow / Escape closes it. Use to group related destinations or secondary actions without crowding the top level. · static: `static/DropdownMenuWithSubmenu.html`
+- `upstream/examples/DropdownMenuItemShowcase.tsx` — Dropdown Menu Item: Dropdown menu with custom-rendered items using DropdownMenuItem for icons and descriptions. · static: `static/DropdownMenuItemShowcase.html`
+- `upstream/examples/DropdownMenuShowcase.tsx` — Dropdown Menu: A button that opens a dropdown menu with action items. The menu starts open for preview. · static: `static/DropdownMenuShowcase.html`
+- `upstream/examples/DropdownMenuActions.tsx` — DropdownMenu — Actions: Action menu with dividers separating safe and destructive operations. Use for row-level actions on items like documents, projects, or records. · static: `static/DropdownMenuActions.html`
+- `upstream/examples/DropdownMenuBottomSheet.tsx` — DropdownMenu — Adaptive presentation: Chooses a bottom sheet for compact touch surfaces and an anchored popover otherwise. The media query is product policy, while DropdownMenu owns both presentations. · static: `static/DropdownMenuBottomSheet.html`
+- `upstream/examples/DropdownMenuItemBasic.tsx` — DropdownMenuItem — Basic: Dropdown menu items with labels and secondary descriptions. Use DropdownMenuItem to render custom menu entries with consistent styling. · static: `static/DropdownMenuItemBasic.html`
+- `upstream/examples/DropdownMenuNoChevron.tsx` — DropdownMenu — Icon Trigger: Overflow menu triggered by an icon-only button with no chevron or label text. Use for row-level actions in tables, cards, or lists where a text button would take too much space. · static: `static/DropdownMenuNoChevron.html`
+- `upstream/examples/DropdownMenuWithDisabledItems.tsx` — DropdownMenu — Disabled: Menu with selectively disabled items based on permissions. Use when some actions require higher privileges, like admin-only operations. · static: `static/DropdownMenuWithDisabledItems.html`
+- `upstream/examples/DropdownMenuWithSections.tsx` — DropdownMenu — Sections: Menu items organized into titled sections for easy scanning. Use when you have 6+ actions that fall into distinct categories, like Create vs Manage. · static: `static/DropdownMenuWithSections.html`
+- `upstream/examples/DropdownMenuWithSubmenu.tsx` — DropdownMenu — Submenu: Action menu with a nested submenu. Hover or Right arrow opens the flyout; Left arrow / Escape closes it. Use to group related destinations or secondary actions without crowding the top level. · static: `static/DropdownMenuWithSubmenu.html`
 
 ## Documentation
 
@@ -216,23 +216,23 @@ Styling hook class: `.astryx-dropdown-menu-divider`
 
 ## Files
 
-- `src/DropdownMenu.doc.mjs`
-- `src/DropdownMenu.spec.md`
-- `src/DropdownMenu.tsx`
-- `src/DropdownMenuCheckboxItem.doc.mjs`
-- `src/DropdownMenuCheckboxItem.tsx`
-- `src/DropdownMenuContext.tsx`
-- `src/DropdownMenuDivider.doc.mjs`
-- `src/DropdownMenuDivider.tsx`
-- `src/DropdownMenuItem.doc.mjs`
-- `src/DropdownMenuItem.tsx`
-- `src/DropdownMenuRadioGroup.doc.mjs`
-- `src/DropdownMenuRadioGroup.tsx`
-- `src/DropdownMenuRadioItem.doc.mjs`
-- `src/DropdownMenuRadioItem.tsx`
-- `src/DropdownMenuSubMenu.doc.mjs`
-- `src/DropdownMenuSubMenu.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/DropdownMenu.doc.mjs`
+- `upstream/DropdownMenu.spec.md`
+- `upstream/DropdownMenu.tsx`
+- `upstream/DropdownMenuCheckboxItem.doc.mjs`
+- `upstream/DropdownMenuCheckboxItem.tsx`
+- `upstream/DropdownMenuContext.tsx`
+- `upstream/DropdownMenuDivider.doc.mjs`
+- `upstream/DropdownMenuDivider.tsx`
+- `upstream/DropdownMenuItem.doc.mjs`
+- `upstream/DropdownMenuItem.tsx`
+- `upstream/DropdownMenuRadioGroup.doc.mjs`
+- `upstream/DropdownMenuRadioGroup.tsx`
+- `upstream/DropdownMenuRadioItem.doc.mjs`
+- `upstream/DropdownMenuRadioItem.tsx`
+- `upstream/DropdownMenuSubMenu.doc.mjs`
+- `upstream/DropdownMenuSubMenu.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/DropdownMenu

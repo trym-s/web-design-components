@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-settings/src/folder-settings.svg`
+- Entry point: `ui/icons/line-md/folder-settings/upstream/folder-settings.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-settings/src/folder-settings.svg`
+- Local source: `ui/icons/line-md/folder-settings/upstream/folder-settings.svg`

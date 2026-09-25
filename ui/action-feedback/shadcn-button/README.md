@@ -7,7 +7,7 @@ Displays a button or a component that looks like a button.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/button.tsx`
+- Entry point: `upstream/ui/button.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a button or a component that looks like a button.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a button or a component that looks like a button.
 
 ## Documentation
 
-> Example `button-demo` — `src/examples/button-demo.tsx`, `static/button-demo.html`
+> Example `button-demo` — `upstream/examples/button-demo.tsx`, `static/button-demo.html`
 
 ## Installation
 
@@ -81,71 +81,71 @@ You can also enable this during project setup with `npx shadcn@latest init --poi
 
 Use the `size` prop to change the size of the button.
 
-> Example `button-size` — `src/examples/button-size.tsx`, `static/button-size.html`
+> Example `button-size` — `upstream/examples/button-size.tsx`, `static/button-size.html`
 
 ## Default
 
-> Example `button-default` — `src/examples/button-default.tsx`, `static/button-default.html`
+> Example `button-default` — `upstream/examples/button-default.tsx`, `static/button-default.html`
 
 ## Outline
 
-> Example `button-outline` — `src/examples/button-outline.tsx`, `static/button-outline.html`
+> Example `button-outline` — `upstream/examples/button-outline.tsx`, `static/button-outline.html`
 
 ## Secondary
 
-> Example `button-secondary` — `src/examples/button-secondary.tsx`, `static/button-secondary.html`
+> Example `button-secondary` — `upstream/examples/button-secondary.tsx`, `static/button-secondary.html`
 
 ## Ghost
 
-> Example `button-ghost` — `src/examples/button-ghost.tsx`, `static/button-ghost.html`
+> Example `button-ghost` — `upstream/examples/button-ghost.tsx`, `static/button-ghost.html`
 
 ## Destructive
 
-> Example `button-destructive` — `src/examples/button-destructive.tsx`, `static/button-destructive.html`
+> Example `button-destructive` — `upstream/examples/button-destructive.tsx`, `static/button-destructive.html`
 
 ## Link
 
-> Example `button-link` — `src/examples/button-link.tsx`, `static/button-link.html`
+> Example `button-link` — `upstream/examples/button-link.tsx`, `static/button-link.html`
 
 ## Icon
 
-> Example `button-icon` — `src/examples/button-icon.tsx`, `static/button-icon.html`
+> Example `button-icon` — `upstream/examples/button-icon.tsx`, `static/button-icon.html`
 
 ## With Icon
 
 Remember to add the `data-icon="inline-start"` or `data-icon="inline-end"` attribute to the icon for the correct spacing.
 
-> Example `button-with-icon` — `src/examples/button-with-icon.tsx`, `static/button-with-icon.html`
+> Example `button-with-icon` — `upstream/examples/button-with-icon.tsx`, `static/button-with-icon.html`
 
 ## Rounded
 
 Use the `rounded-full` class to make the button rounded.
 
-> Example `button-rounded` — `src/examples/button-rounded.tsx`, `static/button-rounded.html`
+> Example `button-rounded` — `upstream/examples/button-rounded.tsx`, `static/button-rounded.html`
 
 ## Spinner
 
 Render a `<Spinner />` component inside the button to show a loading state. Remember to add the `data-icon="inline-start"` or `data-icon="inline-end"` attribute to the spinner for the correct spacing.
 
-> Example `button-spinner` — `src/examples/button-spinner.tsx`, `static/button-spinner.html`
+> Example `button-spinner` — `upstream/examples/button-spinner.tsx`, `static/button-spinner.html`
 
 ## Button Group
 
 To create a button group, use the `ButtonGroup` component. See the [Button Group](/docs/components/radix/button-group) documentation for more details.
 
-> Example `button-group-demo` — `src/examples/button-group-demo.tsx`, `static/button-group-demo.html`
+> Example `button-group-demo` — `upstream/examples/button-group-demo.tsx`, `static/button-group-demo.html`
 
 ## As Child
 
 You can use the `asChild` prop on `<Button />` to make another component look like a button. Here's an example of a link that looks like a button.
 
-> Example `button-aschild` — `src/examples/button-aschild.tsx`, `static/button-aschild.html`
+> Example `button-aschild` — `upstream/examples/button-aschild.tsx`, `static/button-aschild.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `button-rtl` — `src/examples/button-rtl.tsx`, `static/button-rtl.html`
+> Example `button-rtl` — `upstream/examples/button-rtl.tsx`, `static/button-rtl.html`
 
 ## API Reference
 
@@ -161,22 +161,22 @@ The `Button` component is a wrapper around the `button` element that adds a vari
 
 ## Files
 
-- `src/ui/button.tsx` — the ui file as the registry installs it
-- `src/examples/button-demo.tsx`
-- `src/examples/button-size.tsx`
-- `src/examples/button-default.tsx`
-- `src/examples/button-outline.tsx`
-- `src/examples/button-secondary.tsx`
-- `src/examples/button-ghost.tsx`
-- `src/examples/button-destructive.tsx`
-- `src/examples/button-link.tsx`
-- `src/examples/button-icon.tsx`
-- `src/examples/button-with-icon.tsx`
-- `src/examples/button-rounded.tsx`
-- `src/examples/button-spinner.tsx`
-- `src/examples/button-group-demo.tsx`
-- `src/examples/button-aschild.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/button.tsx` — the ui file as the registry installs it
+- `upstream/examples/button-demo.tsx`
+- `upstream/examples/button-size.tsx`
+- `upstream/examples/button-default.tsx`
+- `upstream/examples/button-outline.tsx`
+- `upstream/examples/button-secondary.tsx`
+- `upstream/examples/button-ghost.tsx`
+- `upstream/examples/button-destructive.tsx`
+- `upstream/examples/button-link.tsx`
+- `upstream/examples/button-icon.tsx`
+- `upstream/examples/button-with-icon.tsx`
+- `upstream/examples/button-rounded.tsx`
+- `upstream/examples/button-spinner.tsx`
+- `upstream/examples/button-group-demo.tsx`
+- `upstream/examples/button-aschild.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/button

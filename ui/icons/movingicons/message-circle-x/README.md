@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/message-circle-x/src/message-circle-x.svelte`
+- Entry point: `ui/icons/movingicons/message-circle-x/upstream/message-circle-x.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-x`
 - Registry: https://movingicons.dev/r/message-circle-x
-- Local source fallback: `ui/icons/movingicons/message-circle-x/src/message-circle-x.svelte`
+- Local source fallback: `ui/icons/movingicons/message-circle-x/upstream/message-circle-x.svelte`

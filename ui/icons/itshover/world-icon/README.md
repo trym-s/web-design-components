@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/world-icon/src/world-icon.tsx`
+- Entry point: `ui/icons/itshover/world-icon/upstream/world-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/world-icon.json`
 - Registry: https://itshover.com/r/world-icon.json
-- Local source fallback: `ui/icons/itshover/world-icon/src/world-icon.tsx`
+- Local source fallback: `ui/icons/itshover/world-icon/upstream/world-icon.tsx`

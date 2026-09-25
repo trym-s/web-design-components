@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/heart-twotone-half/src/heart-twotone-half.svg`
+- Entry point: `ui/icons/line-md/heart-twotone-half/upstream/heart-twotone-half.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/heart-twotone-half/src/heart-twotone-half.svg`
+- Local source: `ui/icons/line-md/heart-twotone-half/upstream/heart-twotone-half.svg`

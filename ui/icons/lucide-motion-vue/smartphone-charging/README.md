@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/smartphone-charging/src/smartphone-charging.vue`
+- Entry point: `ui/icons/lucide-motion-vue/smartphone-charging/upstream/smartphone-charging.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/smartphone-charging/src/smartphone-charging.vue`
+- Local source: `ui/icons/lucide-motion-vue/smartphone-charging/upstream/smartphone-charging.vue`

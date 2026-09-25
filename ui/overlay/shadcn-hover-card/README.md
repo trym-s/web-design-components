@@ -7,7 +7,7 @@ For sighted users to preview content available behind a link.
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/hover-card.tsx`
+- Entry point: `upstream/ui/hover-card.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ For sighted users to preview content available behind a link.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ For sighted users to preview content available behind a link.
 
 ## Documentation
 
-> Example `hover-card-demo` — `src/examples/hover-card-demo.tsx`, `static/hover-card-demo.html`
+> Example `hover-card-demo` — `upstream/examples/hover-card-demo.tsx`, `static/hover-card-demo.html`
 
 ## Installation
 
@@ -106,17 +106,17 @@ Use the `side` and `align` props on `HoverCardContent` to control placement.
 
 ## Basic
 
-> Example `hover-card-demo` — `src/examples/hover-card-demo.tsx`, `static/hover-card-demo.html`
+> Example `hover-card-demo` — `upstream/examples/hover-card-demo.tsx`, `static/hover-card-demo.html`
 
 ## Sides
 
-> Example `hover-card-sides` — `src/examples/hover-card-sides.tsx`, `static/hover-card-sides.html`
+> Example `hover-card-sides` — `upstream/examples/hover-card-sides.tsx`, `static/hover-card-sides.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `hover-card-rtl` — `src/examples/hover-card-rtl.tsx`, `static/hover-card-rtl.html`
+> Example `hover-card-rtl` — `upstream/examples/hover-card-rtl.tsx`, `static/hover-card-rtl.html`
 
 ## API Reference
 
@@ -124,10 +124,10 @@ See the [Radix UI](https://www.radix-ui.com/docs/primitives/components/hover-car
 
 ## Files
 
-- `src/ui/hover-card.tsx` — the ui file as the registry installs it
-- `src/examples/hover-card-demo.tsx`
-- `src/examples/hover-card-sides.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/hover-card.tsx` — the ui file as the registry installs it
+- `upstream/examples/hover-card-demo.tsx`
+- `upstream/examples/hover-card-sides.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/hover-card

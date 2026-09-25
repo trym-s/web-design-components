@@ -58,7 +58,7 @@ const refLoaders = import.meta.glob("/ui/**/reference.tsx");
 const refRaw = import.meta.glob(["/ui/**/reference.{tsx,md}", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const docsRaw = import.meta.glob(["/ui/**/{README,SOURCE,PROMPT}.md", "!/ui/icons/**"], { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 const previews = import.meta.glob("/ui/**/preview.png", { query: "?url", import: "default", eager: true }) as Record<string, string>;
-const srcRaw = import.meta.glob("/ui/**/{src,registry}/**/*.{ts,tsx,js,jsx,css,html,md,vue,svelte,svg,json}", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
+const srcRaw = import.meta.glob("/ui/**/{src,upstream,registry}/**/*.{ts,tsx,js,jsx,css,html,md,vue,svelte,svg,json}", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 
 const dirOf = (p: string) => p.slice(0, p.lastIndexOf("/"));
 

@@ -7,7 +7,7 @@ Pagination lets users step through pages of content. Place it below a table, lis
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Pagination.tsx`
+- Entry point: `upstream/Pagination.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Pagination lets users step through pages of content. Place it below a table, lis
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Pagination lets users step through pages of content. Place it below a table, lis
 
 ## Examples
 
-- `src/examples/PaginationDotsCarousel.tsx` — Pagination — Dots Carousel: A review carousel using dot pagination to step through testimonial cards. Use the dots variant for carousels, galleries, and any paged content where the total is small and visible position matters more than a page number. · static: `static/PaginationDotsCarousel.html`
-- `src/examples/PaginationPageSize.tsx` — Pagination — Page Size Selector: A transactions table with pagination and a page size dropdown at the bottom. Shows how pagination works as a footer below real content, with adjustable rows per page. · static: `static/PaginationPageSize.html`
-- `src/examples/PaginationVariants.tsx` — Pagination — Variants: All four display variants stacked: dots, compact, count, and pages. A quick visual reference for choosing the right variant. · static: `static/PaginationVariants.html`
-- `src/examples/PaginationWithTable.tsx` — Pagination — With Table: Pagination below a data table with client-side page slicing. Use the count variant with small size for dense data views where users need to see item ranges. · static: `static/PaginationWithTable.html`
+- `upstream/examples/PaginationDotsCarousel.tsx` — Pagination — Dots Carousel: A review carousel using dot pagination to step through testimonial cards. Use the dots variant for carousels, galleries, and any paged content where the total is small and visible position matters more than a page number. · static: `static/PaginationDotsCarousel.html`
+- `upstream/examples/PaginationPageSize.tsx` — Pagination — Page Size Selector: A transactions table with pagination and a page size dropdown at the bottom. Shows how pagination works as a footer below real content, with adjustable rows per page. · static: `static/PaginationPageSize.html`
+- `upstream/examples/PaginationVariants.tsx` — Pagination — Variants: All four display variants stacked: dots, compact, count, and pages. A quick visual reference for choosing the right variant. · static: `static/PaginationVariants.html`
+- `upstream/examples/PaginationWithTable.tsx` — Pagination — With Table: Pagination below a data table with client-side page slicing. Use the count variant with small size for dense data views where users need to see item ranges. · static: `static/PaginationWithTable.html`
 
 ## Documentation
 
@@ -158,10 +158,10 @@ Styling hook class: `.astryx-pagination`, `.astryx-pagination-dot`, `.astryx-pag
 
 ## Files
 
-- `src/Pagination.doc.mjs`
-- `src/Pagination.spec.md`
-- `src/Pagination.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Pagination.doc.mjs`
+- `upstream/Pagination.spec.md`
+- `upstream/Pagination.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Pagination

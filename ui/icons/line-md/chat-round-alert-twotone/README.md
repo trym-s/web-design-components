@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-round-alert-twotone/src/chat-round-alert-twotone.svg`
+- Entry point: `ui/icons/line-md/chat-round-alert-twotone/upstream/chat-round-alert-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-round-alert-twotone/src/chat-round-alert-twotone.svg`
+- Local source: `ui/icons/line-md/chat-round-alert-twotone/upstream/chat-round-alert-twotone.svg`

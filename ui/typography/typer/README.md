@@ -7,19 +7,19 @@
 
 - Category: `typography` — decorative
 - Medium: vanilla TS + CSS
-- Entry point: `src/typer/standalone/typer.html`
+- Entry point: `upstream/typer/standalone/typer.html`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/typer/standalone/typer.ts`
-- `src/typer/standalone/typer.css`
-- `src/typer/standalone/typer.html`
+- `upstream/typer/standalone/typer.ts`
+- `upstream/typer/standalone/typer.css`
+- `upstream/typer/standalone/typer.html`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/typer

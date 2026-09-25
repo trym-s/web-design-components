@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/square-arrow-up-left/src/square-arrow-up-left.svelte`
+- Entry point: `ui/icons/movingicons/square-arrow-up-left/upstream/square-arrow-up-left.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/square-arrow-up-left`
 - Registry: https://movingicons.dev/r/square-arrow-up-left
-- Local source fallback: `ui/icons/movingicons/square-arrow-up-left/src/square-arrow-up-left.svelte`
+- Local source fallback: `ui/icons/movingicons/square-arrow-up-left/upstream/square-arrow-up-left.svelte`

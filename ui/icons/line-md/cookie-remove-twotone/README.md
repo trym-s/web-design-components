@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cookie-remove-twotone/src/cookie-remove-twotone.svg`
+- Entry point: `ui/icons/line-md/cookie-remove-twotone/upstream/cookie-remove-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cookie-remove-twotone/src/cookie-remove-twotone.svg`
+- Local source: `ui/icons/line-md/cookie-remove-twotone/upstream/cookie-remove-twotone.svg`

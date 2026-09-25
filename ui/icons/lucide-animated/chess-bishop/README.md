@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/chess-bishop/src/chess-bishop.tsx`
+- Entry point: `ui/icons/lucide-animated/chess-bishop/upstream/chess-bishop.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/chess-bishop.json`
 - Registry: https://lucide-animated.com/r/chess-bishop.json
-- Local source fallback: `ui/icons/lucide-animated/chess-bishop/src/chess-bishop.tsx`
+- Local source fallback: `ui/icons/lucide-animated/chess-bishop/upstream/chess-bishop.tsx`

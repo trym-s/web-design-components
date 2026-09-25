@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/folder-cancel/src/folder-cancel.svg`
+- Entry point: `ui/icons/line-md/folder-cancel/upstream/folder-cancel.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/folder-cancel/src/folder-cancel.svg`
+- Local source: `ui/icons/line-md/folder-cancel/upstream/folder-cancel.svg`

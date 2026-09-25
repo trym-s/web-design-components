@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/document-list/src/document-list.svg`
+- Entry point: `ui/icons/line-md/document-list/upstream/document-list.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/document-list/src/document-list.svg`
+- Local source: `ui/icons/line-md/document-list/upstream/document-list.svg`

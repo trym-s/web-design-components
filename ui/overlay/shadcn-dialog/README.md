@@ -7,7 +7,7 @@ A window overlaid on either the primary window or another dialog window, renderi
 - Category: `overlay` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/dialog.tsx`
+- Entry point: `upstream/ui/dialog.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A window overlaid on either the primary window or another dialog window, renderi
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A window overlaid on either the primary window or another dialog window, renderi
 
 ## Documentation
 
-> Example `dialog-demo` — `src/examples/dialog-demo.tsx`, `static/dialog-demo.html`
+> Example `dialog-demo` — `upstream/examples/dialog-demo.tsx`, `static/dialog-demo.html`
 
 ## Installation
 
@@ -96,31 +96,31 @@ Dialog
 
 Replace the default close control with your own button.
 
-> Example `dialog-close-button` — `src/examples/dialog-close-button.tsx`, `static/dialog-close-button.html`
+> Example `dialog-close-button` — `upstream/examples/dialog-close-button.tsx`, `static/dialog-close-button.html`
 
 ## No Close Button
 
 Use `showCloseButton={false}` to hide the close button.
 
-> Example `dialog-no-close-button` — `src/examples/dialog-no-close-button.tsx`, `static/dialog-no-close-button.html`
+> Example `dialog-no-close-button` — `upstream/examples/dialog-no-close-button.tsx`, `static/dialog-no-close-button.html`
 
 ## Sticky Footer
 
 Keep actions visible while the content scrolls.
 
-> Example `dialog-sticky-footer` — `src/examples/dialog-sticky-footer.tsx`, `static/dialog-sticky-footer.html`
+> Example `dialog-sticky-footer` — `upstream/examples/dialog-sticky-footer.tsx`, `static/dialog-sticky-footer.html`
 
 ## Scrollable Content
 
 Long content can scroll while the header stays in view.
 
-> Example `dialog-scrollable-content` — `src/examples/dialog-scrollable-content.tsx`, `static/dialog-scrollable-content.html`
+> Example `dialog-scrollable-content` — `upstream/examples/dialog-scrollable-content.tsx`, `static/dialog-scrollable-content.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `dialog-rtl` — `src/examples/dialog-rtl.tsx`, `static/dialog-rtl.html`
+> Example `dialog-rtl` — `upstream/examples/dialog-rtl.tsx`, `static/dialog-rtl.html`
 
 ## API Reference
 
@@ -128,13 +128,13 @@ See the [Radix UI](https://www.radix-ui.com/docs/primitives/components/dialog#ap
 
 ## Files
 
-- `src/ui/dialog.tsx` — the ui file as the registry installs it
-- `src/examples/dialog-demo.tsx`
-- `src/examples/dialog-close-button.tsx`
-- `src/examples/dialog-no-close-button.tsx`
-- `src/examples/dialog-sticky-footer.tsx`
-- `src/examples/dialog-scrollable-content.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/dialog.tsx` — the ui file as the registry installs it
+- `upstream/examples/dialog-demo.tsx`
+- `upstream/examples/dialog-close-button.tsx`
+- `upstream/examples/dialog-no-close-button.tsx`
+- `upstream/examples/dialog-sticky-footer.tsx`
+- `upstream/examples/dialog-scrollable-content.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/dialog

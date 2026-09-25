@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-simple-twotone/src/moon-simple-twotone.svg`
+- Entry point: `ui/icons/line-md/moon-simple-twotone/upstream/moon-simple-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-simple-twotone/src/moon-simple-twotone.svg`
+- Local source: `ui/icons/line-md/moon-simple-twotone/upstream/moon-simple-twotone.svg`

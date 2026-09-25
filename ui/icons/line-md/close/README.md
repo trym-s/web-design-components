@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/close/src/close.svg`
+- Entry point: `ui/icons/line-md/close/upstream/close.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/close/src/close.svg`
+- Local source: `ui/icons/line-md/close/upstream/close.svg`

@@ -7,7 +7,7 @@ A layout container that arranges form fields with consistent spacing and directi
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/FormLayout.tsx`
+- Entry point: `upstream/FormLayout.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A layout container that arranges form fields with consistent spacing and directi
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ A layout container that arranges form fields with consistent spacing and directi
 
 ## Examples
 
-- `src/examples/FormLayoutShowcase.tsx` — Form Layout: A vertical form layout with text input fields. · static: `static/FormLayoutShowcase.html`
-- `src/examples/FormLayoutHorizontal.tsx` — FormLayout — Horizontal: Two fields side by side for naturally paired inputs like first and last name · static: `static/FormLayoutHorizontal.html`
-- `src/examples/FormLayoutHorizontalLabels.tsx` — FormLayout — Settings Form: Settings form with labels placed beside their inputs · static: `static/FormLayoutHorizontalLabels.html`
-- `src/examples/FormLayoutMixedControls.tsx` — FormLayout — Mixed Controls: Form with different control types: text input, selector, and checkboxes · static: `static/FormLayoutMixedControls.html`
-- `src/examples/FormLayoutNested.tsx` — FormLayout — Nested Address Form: Address form mixing vertical and horizontal layouts for grouped fields · static: `static/FormLayoutNested.html`
+- `upstream/examples/FormLayoutShowcase.tsx` — Form Layout: A vertical form layout with text input fields. · static: `static/FormLayoutShowcase.html`
+- `upstream/examples/FormLayoutHorizontal.tsx` — FormLayout — Horizontal: Two fields side by side for naturally paired inputs like first and last name · static: `static/FormLayoutHorizontal.html`
+- `upstream/examples/FormLayoutHorizontalLabels.tsx` — FormLayout — Settings Form: Settings form with labels placed beside their inputs · static: `static/FormLayoutHorizontalLabels.html`
+- `upstream/examples/FormLayoutMixedControls.tsx` — FormLayout — Mixed Controls: Form with different control types: text input, selector, and checkboxes · static: `static/FormLayoutMixedControls.html`
+- `upstream/examples/FormLayoutNested.tsx` — FormLayout — Nested Address Form: Address form mixing vertical and horizontal layouts for grouped fields · static: `static/FormLayoutNested.html`
 
 ## Documentation
 
@@ -109,10 +109,10 @@ Styling hook class: `.astryx-form-layout`
 
 ## Files
 
-- `src/FormLayout.doc.mjs`
-- `src/FormLayout.tsx`
-- `src/FormLayoutContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/FormLayout.doc.mjs`
+- `upstream/FormLayout.tsx`
+- `upstream/FormLayoutContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/FormLayout

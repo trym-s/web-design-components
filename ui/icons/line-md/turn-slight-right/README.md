@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/turn-slight-right/src/turn-slight-right.svg`
+- Entry point: `ui/icons/line-md/turn-slight-right/upstream/turn-slight-right.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/turn-slight-right/src/turn-slight-right.svg`
+- Local source: `ui/icons/line-md/turn-slight-right/upstream/turn-slight-right.svg`

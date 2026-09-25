@@ -7,7 +7,7 @@ ChatToolCalls displays tool or function call invocations from an LLM response. P
 - Category: `ai` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ChatToolCalls.tsx`
+- Entry point: `upstream/ChatToolCalls.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ ChatToolCalls displays tool or function call invocations from an LLM response. P
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ ChatToolCalls displays tool or function call invocations from an LLM response. P
 
 ## Examples
 
-- `src/examples/ChatTokenizedTextShowcase.tsx` — Chat Tokenized Text · static: `static/ChatTokenizedTextShowcase.html`
-- `src/examples/ChatToolCallsShowcase.tsx` — Chat Tool Calls · static: `static/ChatToolCallsShowcase.html`
-- `src/examples/ChatTokenizedTextBasic.tsx` — ChatTokenizedText — Basic: A message with @mention tokens. Each matching pattern is replaced with its display name badge. · static: `static/ChatTokenizedTextBasic.html`
-- `src/examples/ChatTokenizedTextColors.tsx` — ChatTokenizedText — Colors: Tokens with different color variants to distinguish mentions, bugs, and features. Use variant colors to create a visual taxonomy: blue for people, red for bugs, green for features. · static: `static/ChatTokenizedTextColors.html`
-- `src/examples/ChatToolCallsInteractiveToolCalls.tsx` — ChatToolCalls — Expandable: Tool calls with expandable result details showing diffs and command output in code blocks. Click a row to reveal its result. · static: `static/ChatToolCallsInteractiveToolCalls.html`
-- `src/examples/ChatToolCallsStatuses.tsx` — ChatToolCalls — Statuses: All four status states (pending, running, complete, and error) shown together in a single group. · static: `static/ChatToolCallsStatuses.html`
-- `src/examples/ChatToolCallsToolCallsWithNodes.tsx` — ChatToolCalls — Simple: A single inline tool call above a collapsible multi-call group with diff stats. Shows both layouts side by side. · static: `static/ChatToolCallsToolCallsWithNodes.html`
+- `upstream/examples/ChatTokenizedTextShowcase.tsx` — Chat Tokenized Text · static: `static/ChatTokenizedTextShowcase.html`
+- `upstream/examples/ChatToolCallsShowcase.tsx` — Chat Tool Calls · static: `static/ChatToolCallsShowcase.html`
+- `upstream/examples/ChatTokenizedTextBasic.tsx` — ChatTokenizedText — Basic: A message with @mention tokens. Each matching pattern is replaced with its display name badge. · static: `static/ChatTokenizedTextBasic.html`
+- `upstream/examples/ChatTokenizedTextColors.tsx` — ChatTokenizedText — Colors: Tokens with different color variants to distinguish mentions, bugs, and features. Use variant colors to create a visual taxonomy: blue for people, red for bugs, green for features. · static: `static/ChatTokenizedTextColors.html`
+- `upstream/examples/ChatToolCallsInteractiveToolCalls.tsx` — ChatToolCalls — Expandable: Tool calls with expandable result details showing diffs and command output in code blocks. Click a row to reveal its result. · static: `static/ChatToolCallsInteractiveToolCalls.html`
+- `upstream/examples/ChatToolCallsStatuses.tsx` — ChatToolCalls — Statuses: All four status states (pending, running, complete, and error) shown together in a single group. · static: `static/ChatToolCallsStatuses.html`
+- `upstream/examples/ChatToolCallsToolCallsWithNodes.tsx` — ChatToolCalls — Simple: A single inline tool call above a collapsible multi-call group with diff stats. Shows both layouts side by side. · static: `static/ChatToolCallsToolCallsWithNodes.html`
 
 ## Documentation
 
@@ -96,11 +96,11 @@ ChatToolCalls displays tool or function call invocations from an LLM response. P
 
 ## Files
 
-- `src/ChatTokenizedText.doc.mjs`
-- `src/ChatTokenizedText.tsx`
-- `src/ChatToolCalls.doc.mjs`
-- `src/ChatToolCalls.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ChatTokenizedText.doc.mjs`
+- `upstream/ChatTokenizedText.tsx`
+- `upstream/ChatToolCalls.doc.mjs`
+- `upstream/ChatToolCalls.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ChatToolCalls

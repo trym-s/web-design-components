@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/home-simple/src/home-simple.svg`
+- Entry point: `ui/icons/line-md/home-simple/upstream/home-simple.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/home-simple/src/home-simple.svg`
+- Local source: `ui/icons/line-md/home-simple/upstream/home-simple.svg`

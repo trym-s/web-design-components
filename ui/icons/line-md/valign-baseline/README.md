@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/valign-baseline/src/valign-baseline.svg`
+- Entry point: `ui/icons/line-md/valign-baseline/upstream/valign-baseline.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/valign-baseline/src/valign-baseline.svg`
+- Local source: `ui/icons/line-md/valign-baseline/upstream/valign-baseline.svg`

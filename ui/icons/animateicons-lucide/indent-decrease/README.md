@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/indent-decrease/src/indent-decrease.tsx`
+- Entry point: `ui/icons/animateicons-lucide/indent-decrease/upstream/indent-decrease.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-indent-decrease.json`
 - Registry: https://animateicons.in/r/lu-indent-decrease.json
-- Local source fallback: `ui/icons/animateicons-lucide/indent-decrease/src/indent-decrease.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/indent-decrease/upstream/indent-decrease.tsx`

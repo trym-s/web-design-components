@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/hand-helping/src/hand-helping.tsx`
+- Entry point: `ui/icons/lucide-animated/hand-helping/upstream/hand-helping.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/hand-helping.json`
 - Registry: https://lucide-animated.com/r/hand-helping.json
-- Local source fallback: `ui/icons/lucide-animated/hand-helping/src/hand-helping.tsx`
+- Local source fallback: `ui/icons/lucide-animated/hand-helping/upstream/hand-helping.tsx`

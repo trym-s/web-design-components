@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/activity/src/activity.tsx`
+- Entry point: `ui/icons/animateicons-lucide/activity/upstream/activity.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-activity.json`
 - Registry: https://animateicons.in/r/lu-activity.json
-- Local source fallback: `ui/icons/animateicons-lucide/activity/src/activity.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/activity/upstream/activity.tsx`

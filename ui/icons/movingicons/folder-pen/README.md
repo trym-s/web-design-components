@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/folder-pen/src/folder-pen.svelte`
+- Entry point: `ui/icons/movingicons/folder-pen/upstream/folder-pen.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/folder-pen`
 - Registry: https://movingicons.dev/r/folder-pen
-- Local source fallback: `ui/icons/movingicons/folder-pen/src/folder-pen.svelte`
+- Local source fallback: `ui/icons/movingicons/folder-pen/upstream/folder-pen.svelte`

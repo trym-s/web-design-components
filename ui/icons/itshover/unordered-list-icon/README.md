@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/unordered-list-icon/src/unordered-list-icon.tsx`
+- Entry point: `ui/icons/itshover/unordered-list-icon/upstream/unordered-list-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/unordered-list-icon.json`
 - Registry: https://itshover.com/r/unordered-list-icon.json
-- Local source fallback: `ui/icons/itshover/unordered-list-icon/src/unordered-list-icon.tsx`
+- Local source fallback: `ui/icons/itshover/unordered-list-icon/upstream/unordered-list-icon.tsx`

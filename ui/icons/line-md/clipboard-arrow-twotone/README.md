@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/clipboard-arrow-twotone/src/clipboard-arrow-twotone.svg`
+- Entry point: `ui/icons/line-md/clipboard-arrow-twotone/upstream/clipboard-arrow-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/clipboard-arrow-twotone/src/clipboard-arrow-twotone.svg`
+- Local source: `ui/icons/line-md/clipboard-arrow-twotone/upstream/clipboard-arrow-twotone.svg`

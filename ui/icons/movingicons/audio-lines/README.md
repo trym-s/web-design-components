@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/audio-lines/src/audio-lines.svelte`
+- Entry point: `ui/icons/movingicons/audio-lines/upstream/audio-lines.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/audio-lines`
 - Registry: https://movingicons.dev/r/audio-lines
-- Local source fallback: `ui/icons/movingicons/audio-lines/src/audio-lines.svelte`
+- Local source fallback: `ui/icons/movingicons/audio-lines/upstream/audio-lines.svelte`

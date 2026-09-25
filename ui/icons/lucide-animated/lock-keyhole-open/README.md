@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/lock-keyhole-open/src/lock-keyhole-open.tsx`
+- Entry point: `ui/icons/lucide-animated/lock-keyhole-open/upstream/lock-keyhole-open.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/lock-keyhole-open.json`
 - Registry: https://lucide-animated.com/r/lock-keyhole-open.json
-- Local source fallback: `ui/icons/lucide-animated/lock-keyhole-open/src/lock-keyhole-open.tsx`
+- Local source fallback: `ui/icons/lucide-animated/lock-keyhole-open/upstream/lock-keyhole-open.tsx`

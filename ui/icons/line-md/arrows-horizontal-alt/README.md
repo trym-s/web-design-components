@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrows-horizontal-alt/src/arrows-horizontal-alt.svg`
+- Entry point: `ui/icons/line-md/arrows-horizontal-alt/upstream/arrows-horizontal-alt.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrows-horizontal-alt/src/arrows-horizontal-alt.svg`
+- Local source: `ui/icons/line-md/arrows-horizontal-alt/upstream/arrows-horizontal-alt.svg`

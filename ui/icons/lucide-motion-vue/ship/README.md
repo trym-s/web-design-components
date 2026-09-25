@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/ship/src/ship.vue`
+- Entry point: `ui/icons/lucide-motion-vue/ship/upstream/ship.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/ship/src/ship.vue`
+- Local source: `ui/icons/lucide-motion-vue/ship/upstream/ship.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/route/src/route.svelte`
+- Entry point: `ui/icons/movingicons/route/upstream/route.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/route`
 - Registry: https://movingicons.dev/r/route
-- Local source fallback: `ui/icons/movingicons/route/src/route.svelte`
+- Local source fallback: `ui/icons/movingicons/route/upstream/route.svelte`

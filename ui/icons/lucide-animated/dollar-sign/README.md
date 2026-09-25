@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/dollar-sign/src/dollar-sign.tsx`
+- Entry point: `ui/icons/lucide-animated/dollar-sign/upstream/dollar-sign.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/dollar-sign.json`
 - Registry: https://lucide-animated.com/r/dollar-sign.json
-- Local source fallback: `ui/icons/lucide-animated/dollar-sign/src/dollar-sign.tsx`
+- Local source fallback: `ui/icons/lucide-animated/dollar-sign/upstream/dollar-sign.tsx`

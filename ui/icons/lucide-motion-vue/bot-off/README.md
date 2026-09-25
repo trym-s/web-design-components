@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/bot-off/src/bot-off.vue`
+- Entry point: `ui/icons/lucide-motion-vue/bot-off/upstream/bot-off.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/bot-off/src/bot-off.vue`
+- Local source: `ui/icons/lucide-motion-vue/bot-off/upstream/bot-off.vue`

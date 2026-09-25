@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/cloud-download/src/cloud-download.vue`
+- Entry point: `ui/icons/lucide-motion-vue/cloud-download/upstream/cloud-download.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/cloud-download/src/cloud-download.vue`
+- Local source: `ui/icons/lucide-motion-vue/cloud-download/upstream/cloud-download.vue`

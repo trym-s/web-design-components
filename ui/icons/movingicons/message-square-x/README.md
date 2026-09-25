@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/message-square-x/src/message-square-x.svelte`
+- Entry point: `ui/icons/movingicons/message-square-x/upstream/message-square-x.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/message-square-x`
 - Registry: https://movingicons.dev/r/message-square-x
-- Local source fallback: `ui/icons/movingicons/message-square-x/src/message-square-x.svelte`
+- Local source fallback: `ui/icons/movingicons/message-square-x/upstream/message-square-x.svelte`

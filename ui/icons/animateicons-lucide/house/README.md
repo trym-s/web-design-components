@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/house/src/house.tsx`
+- Entry point: `ui/icons/animateicons-lucide/house/upstream/house.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-house.json`
 - Registry: https://animateicons.in/r/lu-house.json
-- Local source fallback: `ui/icons/animateicons-lucide/house/src/house.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/house/upstream/house.tsx`

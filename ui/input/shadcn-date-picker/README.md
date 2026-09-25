@@ -7,7 +7,7 @@ A date picker component with range and presets.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/examples/date-picker-demo.tsx`
+- Entry point: `upstream/examples/date-picker-demo.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A date picker component with range and presets.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A date picker component with range and presets.
 
 ## Documentation
 
-> Example `date-picker-demo` — `src/examples/date-picker-demo.tsx`, `static/date-picker-demo.html`
+> Example `date-picker-demo` — `upstream/examples/date-picker-demo.tsx`, `static/date-picker-demo.html`
 
 ## Installation
 
@@ -96,54 +96,54 @@ Popover
 
 A basic date picker component.
 
-> Example `date-picker-basic` — `src/examples/date-picker-basic.tsx`, `static/date-picker-basic.html`
+> Example `date-picker-basic` — `upstream/examples/date-picker-basic.tsx`, `static/date-picker-basic.html`
 
 ## Range Picker
 
 A date picker component for selecting a range of dates.
 
-> Example `date-picker-range` — `src/examples/date-picker-range.tsx`, `static/date-picker-range.html`
+> Example `date-picker-range` — `upstream/examples/date-picker-range.tsx`, `static/date-picker-range.html`
 
 ## Date of Birth
 
 A date picker component for selecting a date of birth. This component includes a dropdown caption layout for date and month selection.
 
-> Example `date-picker-dob` — `src/examples/date-picker-dob.tsx`, `static/date-picker-dob.html`
+> Example `date-picker-dob` — `upstream/examples/date-picker-dob.tsx`, `static/date-picker-dob.html`
 
 ## Input
 
 A date picker component with an input field for selecting a date.
 
-> Example `date-picker-input` — `src/examples/date-picker-input.tsx`, `static/date-picker-input.html`
+> Example `date-picker-input` — `upstream/examples/date-picker-input.tsx`, `static/date-picker-input.html`
 
 ## Time Picker
 
 A date picker component with a time input field for selecting a time.
 
-> Example `date-picker-time` — `src/examples/date-picker-time.tsx`, `static/date-picker-time.html`
+> Example `date-picker-time` — `upstream/examples/date-picker-time.tsx`, `static/date-picker-time.html`
 
 ## Natural Language Picker
 
 This component uses the `chrono-node` library to parse natural language dates.
 
-> Example `date-picker-natural-language` — `src/examples/date-picker-natural-language.tsx`, `static/date-picker-natural-language.html`
+> Example `date-picker-natural-language` — `upstream/examples/date-picker-natural-language.tsx`, `static/date-picker-natural-language.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `date-picker-rtl` — `src/examples/date-picker-rtl.tsx`, `static/date-picker-rtl.html`
+> Example `date-picker-rtl` — `upstream/examples/date-picker-rtl.tsx`, `static/date-picker-rtl.html`
 
 ## Files
 
-- `src/examples/date-picker-demo.tsx`
-- `src/examples/date-picker-basic.tsx`
-- `src/examples/date-picker-range.tsx`
-- `src/examples/date-picker-dob.tsx`
-- `src/examples/date-picker-input.tsx`
-- `src/examples/date-picker-time.tsx`
-- `src/examples/date-picker-natural-language.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/examples/date-picker-demo.tsx`
+- `upstream/examples/date-picker-basic.tsx`
+- `upstream/examples/date-picker-range.tsx`
+- `upstream/examples/date-picker-dob.tsx`
+- `upstream/examples/date-picker-input.tsx`
+- `upstream/examples/date-picker-time.tsx`
+- `upstream/examples/date-picker-natural-language.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/date-picker

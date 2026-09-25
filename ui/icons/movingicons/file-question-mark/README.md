@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/file-question-mark/src/file-question-mark.svelte`
+- Entry point: `ui/icons/movingicons/file-question-mark/upstream/file-question-mark.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/file-question-mark`
 - Registry: https://movingicons.dev/r/file-question-mark
-- Local source fallback: `ui/icons/movingicons/file-question-mark/src/file-question-mark.svelte`
+- Local source fallback: `ui/icons/movingicons/file-question-mark/upstream/file-question-mark.svelte`

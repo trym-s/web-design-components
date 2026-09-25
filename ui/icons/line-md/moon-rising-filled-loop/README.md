@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-rising-filled-loop/src/moon-rising-filled-loop.svg`
+- Entry point: `ui/icons/line-md/moon-rising-filled-loop/upstream/moon-rising-filled-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-rising-filled-loop/src/moon-rising-filled-loop.svg`
+- Local source: `ui/icons/line-md/moon-rising-filled-loop/upstream/moon-rising-filled-loop.svg`

@@ -7,7 +7,7 @@ Displays conversational content in a message bubble. Supports variants, alignmen
 - Category: `ai` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/bubble.tsx`
+- Entry point: `upstream/ui/bubble.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays conversational content in a message bubble. Supports variants, alignmen
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays conversational content in a message bubble. Supports variants, alignmen
 
 ## Documentation
 
-> Example `bubble-demo` (radix-rhea) — `src/examples/bubble-demo.tsx`, `static/bubble-demo.html`
+> Example `bubble-demo` (radix-rhea) — `upstream/examples/bubble-demo.tsx`, `static/bubble-demo.html`
 
 The `Bubble` component displays framed conversational content. Use it for chat text, short structured output, quoted replies, suggestions, and reactions.
 
@@ -98,7 +98,7 @@ BubbleGroup
 
 Use `variant` to change the visual treatment of the bubble.
 
-> Example `bubble-variants` (radix-rhea) — `src/examples/bubble-variants.tsx`, `static/bubble-variants.html`
+> Example `bubble-variants` (radix-rhea) — `upstream/examples/bubble-variants.tsx`, `static/bubble-variants.html`
 
 | Variant       | Description                                            |
 | ------------- | ------------------------------------------------------ |
@@ -116,7 +116,7 @@ A bubble sizes to its content, up to 80% of the container width. The `ghost` var
 
 Use `align` on `Bubble` to align the bubble to the start or end of the conversation.
 
-> Example `bubble-alignment` (radix-rhea) — `src/examples/bubble-alignment.tsx`, `static/bubble-alignment.html`
+> Example `bubble-alignment` (radix-rhea) — `upstream/examples/bubble-alignment.tsx`, `static/bubble-alignment.html`
 
 | align   | Description                                        |
 | ------- | -------------------------------------------------- |
@@ -137,13 +137,13 @@ BubbleGroup
     └── BubbleContent
 ```
 
-> Example `bubble-group-demo` (radix-rhea) — `src/examples/bubble-group-demo.tsx`, `static/bubble-group-demo.html`
+> Example `bubble-group-demo` (radix-rhea) — `upstream/examples/bubble-group-demo.tsx`, `static/bubble-group-demo.html`
 
 ## Links and Buttons
 
 You can turn a bubble into a link or button by using the `asChild` prop on `BubbleContent`.
 
-> Example `bubble-link-button` (radix-rhea) — `src/examples/bubble-link-button.tsx`, `static/bubble-link-button.html`
+> Example `bubble-link-button` (radix-rhea) — `upstream/examples/bubble-link-button.tsx`, `static/bubble-link-button.html`
 
 ```tsx showLineNumbers
 import { Bubble, BubbleContent } from "@/components/ui/bubble"
@@ -163,25 +163,25 @@ export function BubbleLinkDemo() {
 
 Use `BubbleReactions` for bubble reactions. You can use it to display reactions or quick action buttons. Use `side` and `align` to position the row — `side="top"` anchors it to the upper edge. Reactions overlap the bubble edge, so leave vertical space between rows — the examples below use a larger `gap` for this reason.
 
-> Example `bubble-reactions` (radix-rhea) — `src/examples/bubble-reactions.tsx`, `static/bubble-reactions.html`
+> Example `bubble-reactions` (radix-rhea) — `upstream/examples/bubble-reactions.tsx`, `static/bubble-reactions.html`
 
 ## Show More / Collapsible
 
 Long bubble content can be composed with [`Collapsible`](/docs/components/collapsible) to allow for a show more or show less interaction. Use the `CollapsibleTrigger` component to trigger the collapsible content.
 
-> Example `bubble-collapsible` (radix-rhea) — `src/examples/bubble-collapsible.tsx`, `static/bubble-collapsible.html`
+> Example `bubble-collapsible` (radix-rhea) — `upstream/examples/bubble-collapsible.tsx`, `static/bubble-collapsible.html`
 
 ## Tooltip
 
 Wrap a bubble in a [`Tooltip`](/docs/components/tooltip) to reveal metadata on hover, such as when a message was read.
 
-> Example `bubble-tooltip` (radix-rhea) — `src/examples/bubble-tooltip.tsx`, `static/bubble-tooltip.html`
+> Example `bubble-tooltip` (radix-rhea) — `upstream/examples/bubble-tooltip.tsx`, `static/bubble-tooltip.html`
 
 ## Popover
 
 Pair a bubble with a [`Popover`](/docs/components/popover) to surface more information on demand, such as the full error message for a failed action.
 
-> Example `bubble-popover` (radix-rhea) — `src/examples/bubble-popover.tsx`, `static/bubble-popover.html`
+> Example `bubble-popover` (radix-rhea) — `upstream/examples/bubble-popover.tsx`, `static/bubble-popover.html`
 
 ## Accessibility
 
@@ -268,18 +268,18 @@ Groups consecutive bubbles from the same sender.
 
 ## Files
 
-- `src/ui/bubble.tsx` — the ui file as the registry installs it
-- `src/examples/bubble-demo.tsx`
-- `src/examples/bubble-variants.tsx`
-- `src/examples/bubble-alignment.tsx`
-- `src/examples/bubble-group-demo.tsx`
-- `src/examples/bubble-link-button.tsx`
-- `src/examples/bubble-reactions.tsx`
-- `src/examples/bubble-collapsible.tsx`
-- `src/examples/bubble-tooltip.tsx`
-- `src/examples/bubble-popover.tsx`
-- `src/examples/bubble-markdown.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/bubble.tsx` — the ui file as the registry installs it
+- `upstream/examples/bubble-demo.tsx`
+- `upstream/examples/bubble-variants.tsx`
+- `upstream/examples/bubble-alignment.tsx`
+- `upstream/examples/bubble-group-demo.tsx`
+- `upstream/examples/bubble-link-button.tsx`
+- `upstream/examples/bubble-reactions.tsx`
+- `upstream/examples/bubble-collapsible.tsx`
+- `upstream/examples/bubble-tooltip.tsx`
+- `upstream/examples/bubble-popover.tsx`
+- `upstream/examples/bubble-markdown.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/bubble

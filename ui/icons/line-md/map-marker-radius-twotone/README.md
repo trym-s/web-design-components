@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/map-marker-radius-twotone/src/map-marker-radius-twotone.svg`
+- Entry point: `ui/icons/line-md/map-marker-radius-twotone/upstream/map-marker-radius-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/map-marker-radius-twotone/src/map-marker-radius-twotone.svg`
+- Local source: `ui/icons/line-md/map-marker-radius-twotone/upstream/map-marker-radius-twotone.svg`

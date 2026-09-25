@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/git-merge/src/git-merge.tsx`
+- Entry point: `ui/icons/animateicons-lucide/git-merge/upstream/git-merge.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-merge.json`
 - Registry: https://animateicons.in/r/lu-git-merge.json
-- Local source fallback: `ui/icons/animateicons-lucide/git-merge/src/git-merge.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/git-merge/upstream/git-merge.tsx`

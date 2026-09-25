@@ -7,7 +7,7 @@ TabList provides tab-style navigation for organizing content into categorized se
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TabList.tsx`
+- Entry point: `upstream/TabList.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ TabList provides tab-style navigation for organizing content into categorized se
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,17 +33,17 @@ TabList provides tab-style navigation for organizing content into categorized se
 
 ## Examples
 
-- `src/examples/TabListShowcase.tsx` — Tab List · static: `static/TabListShowcase.html`
-- `src/examples/TabMenuShowcase.tsx` — Tab Menu: TabMenu is an overflow menu within a TabList that groups additional tab options into a dropdown, showing the selected option's label as the trigger text. · static: `static/TabMenuShowcase.html`
-- `src/examples/TabShowcase.tsx` — Tab: Tab is an individual tab item within a TabList, supporting labels, icons, selected icons, and end content slots. · static: `static/TabShowcase.html`
-- `src/examples/TabListTabsFillLayout.tsx` — TabList — Fill Layout: Tabs that stretch to fill the available width with a bottom divider. · static: `static/TabListTabsFillLayout.html`
-- `src/examples/TabListTabsWithActions.tsx` — TabList — With Actions: Page header pattern with tabs on the left and action buttons pushed to the right. When hasDivider is true, match the Button size to the TabList size so the tabs and actions align to a shared baseline above the divider. · static: `static/TabListTabsWithActions.html`
-- `src/examples/TabListTabsWithBadge.tsx` — TabList — With Badge: Tabs with notification badge counts rendered via endContent. Uses error variant for urgent counts and neutral for informational ones. · static: `static/TabListTabsWithBadge.html`
-- `src/examples/TabListTabsWithIcons.tsx` — TabList — With Icons: Tabs with leading icons alongside text labels. · static: `static/TabListTabsWithIcons.html`
-- `src/examples/TabListTabsWithMenu.tsx` — TabList — With Overflow Menu: Tab list with a dropdown menu for additional items that do not fit inline. · static: `static/TabListTabsWithMenu.html`
-- `src/examples/TabListTabsWithStatusDot.tsx` — TabList — With Status Dot: Tabs with status dot indicators rendered via endContent to show live environment health at a glance. · static: `static/TabListTabsWithStatusDot.html`
-- `src/examples/TabMenuBasic.tsx` — TabMenu — Basic: An overflow menu at the end of a TabList that collects secondary tabs behind a dropdown. Use it when there are more tabs than fit comfortably inline. · static: `static/TabMenuBasic.html`
-- `src/examples/TabWithSelectedIcon.tsx` — Tab — Selected Icon: A tab that changes its icon when selected. · static: `static/TabWithSelectedIcon.html`
+- `upstream/examples/TabListShowcase.tsx` — Tab List · static: `static/TabListShowcase.html`
+- `upstream/examples/TabMenuShowcase.tsx` — Tab Menu: TabMenu is an overflow menu within a TabList that groups additional tab options into a dropdown, showing the selected option's label as the trigger text. · static: `static/TabMenuShowcase.html`
+- `upstream/examples/TabShowcase.tsx` — Tab: Tab is an individual tab item within a TabList, supporting labels, icons, selected icons, and end content slots. · static: `static/TabShowcase.html`
+- `upstream/examples/TabListTabsFillLayout.tsx` — TabList — Fill Layout: Tabs that stretch to fill the available width with a bottom divider. · static: `static/TabListTabsFillLayout.html`
+- `upstream/examples/TabListTabsWithActions.tsx` — TabList — With Actions: Page header pattern with tabs on the left and action buttons pushed to the right. When hasDivider is true, match the Button size to the TabList size so the tabs and actions align to a shared baseline above the divider. · static: `static/TabListTabsWithActions.html`
+- `upstream/examples/TabListTabsWithBadge.tsx` — TabList — With Badge: Tabs with notification badge counts rendered via endContent. Uses error variant for urgent counts and neutral for informational ones. · static: `static/TabListTabsWithBadge.html`
+- `upstream/examples/TabListTabsWithIcons.tsx` — TabList — With Icons: Tabs with leading icons alongside text labels. · static: `static/TabListTabsWithIcons.html`
+- `upstream/examples/TabListTabsWithMenu.tsx` — TabList — With Overflow Menu: Tab list with a dropdown menu for additional items that do not fit inline. · static: `static/TabListTabsWithMenu.html`
+- `upstream/examples/TabListTabsWithStatusDot.tsx` — TabList — With Status Dot: Tabs with status dot indicators rendered via endContent to show live environment health at a glance. · static: `static/TabListTabsWithStatusDot.html`
+- `upstream/examples/TabMenuBasic.tsx` — TabMenu — Basic: An overflow menu at the end of a TabList that collects secondary tabs behind a dropdown. Use it when there are more tabs than fit comfortably inline. · static: `static/TabMenuBasic.html`
+- `upstream/examples/TabWithSelectedIcon.tsx` — Tab — Selected Icon: A tab that changes its icon when selected. · static: `static/TabWithSelectedIcon.html`
 
 ## Documentation
 
@@ -150,15 +150,15 @@ Styling hook class: `.astryx-tab-list`, `.astryx-tab-strip`, `.astryx-tab-scroll
 
 ## Files
 
-- `src/Tab.doc.mjs`
-- `src/Tab.tsx`
-- `src/TabList.doc.mjs`
-- `src/TabList.spec.md`
-- `src/TabList.tsx`
-- `src/TabListContext.ts`
-- `src/TabMenu.doc.mjs`
-- `src/TabMenu.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Tab.doc.mjs`
+- `upstream/Tab.tsx`
+- `upstream/TabList.doc.mjs`
+- `upstream/TabList.spec.md`
+- `upstream/TabList.tsx`
+- `upstream/TabListContext.ts`
+- `upstream/TabMenu.doc.mjs`
+- `upstream/TabMenu.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TabList

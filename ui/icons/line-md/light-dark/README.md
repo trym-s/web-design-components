@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/light-dark/src/light-dark.svg`
+- Entry point: `ui/icons/line-md/light-dark/upstream/light-dark.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/light-dark/src/light-dark.svg`
+- Local source: `ui/icons/line-md/light-dark/upstream/light-dark.svg`

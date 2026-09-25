@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/badge-cent/src/badge-cent.tsx`
+- Entry point: `ui/icons/animateicons-lucide/badge-cent/upstream/badge-cent.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-badge-cent.json`
 - Registry: https://animateicons.in/r/lu-badge-cent.json
-- Local source fallback: `ui/icons/animateicons-lucide/badge-cent/src/badge-cent.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/badge-cent/upstream/badge-cent.tsx`

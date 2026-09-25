@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/alarm-clock-plus-icon/src/alarm-clock-plus-icon.tsx`
+- Entry point: `ui/icons/itshover/alarm-clock-plus-icon/upstream/alarm-clock-plus-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/alarm-clock-plus-icon.json`
 - Registry: https://itshover.com/r/alarm-clock-plus-icon.json
-- Local source fallback: `ui/icons/itshover/alarm-clock-plus-icon/src/alarm-clock-plus-icon.tsx`
+- Local source fallback: `ui/icons/itshover/alarm-clock-plus-icon/upstream/alarm-clock-plus-icon.tsx`

@@ -7,7 +7,7 @@ A searchable input for selecting a single item from a large or dynamic dataset. 
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Typeahead.tsx`
+- Entry point: `upstream/Typeahead.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A searchable input for selecting a single item from a large or dynamic dataset. 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ A searchable input for selecting a single item from a large or dynamic dataset. 
 
 ## Examples
 
-- `src/examples/BaseTypeaheadShowcase.tsx` — Base Typeahead: A custom result renderer that adds supporting metadata while BaseTypeahead retains option semantics and keyboard behavior. · static: `static/BaseTypeaheadShowcase.html`
-- `src/examples/TypeaheadItemShowcase.tsx` — Typeahead Item: Typeahead with custom item rendering using TypeaheadItem for avatars and descriptions. · static: `static/TypeaheadItemShowcase.html`
-- `src/examples/TypeaheadShowcase.tsx` — Typeahead · static: `static/TypeaheadShowcase.html`
-- `src/examples/BaseTypeaheadCustomSearch.tsx` — BaseTypeahead — Custom Search Bar: BaseTypeahead embedded inside a custom-styled wrapper. The wrapper provides its own border and icon chrome; anchorRef positions the dropdown relative to it. Use this pattern when Typeahead's built-in field layout does not fit your composition. · static: `static/BaseTypeaheadCustomSearch.html`
-- `src/examples/TypeaheadItemBasic.tsx` — TypeaheadItem — Basic: A typeahead whose results are rendered with TypeaheadItem, adding a secondary description below each label. Use inside renderItem to keep custom results visually consistent. · static: `static/TypeaheadItemBasic.html`
-- `src/examples/TypeaheadLimitedResults.tsx` — Typeahead — Limited Results: Typeahead with a capped dropdown showing at most three results. · static: `static/TypeaheadLimitedResults.html`
-- `src/examples/TypeaheadSearchField.tsx` — Typeahead — Search Field: Search input with icon and suggestions on focus. · static: `static/TypeaheadSearchField.html`
-- `src/examples/TypeaheadWithHelperText.tsx` — Typeahead — With Helper Text: Typeahead with a description below the label. · static: `static/TypeaheadWithHelperText.html`
-- `src/examples/TypeaheadWithValidation.tsx` — Typeahead — With Validation: Typeahead with an error validation message. · static: `static/TypeaheadWithValidation.html`
+- `upstream/examples/BaseTypeaheadShowcase.tsx` — Base Typeahead: A custom result renderer that adds supporting metadata while BaseTypeahead retains option semantics and keyboard behavior. · static: `static/BaseTypeaheadShowcase.html`
+- `upstream/examples/TypeaheadItemShowcase.tsx` — Typeahead Item: Typeahead with custom item rendering using TypeaheadItem for avatars and descriptions. · static: `static/TypeaheadItemShowcase.html`
+- `upstream/examples/TypeaheadShowcase.tsx` — Typeahead · static: `static/TypeaheadShowcase.html`
+- `upstream/examples/BaseTypeaheadCustomSearch.tsx` — BaseTypeahead — Custom Search Bar: BaseTypeahead embedded inside a custom-styled wrapper. The wrapper provides its own border and icon chrome; anchorRef positions the dropdown relative to it. Use this pattern when Typeahead's built-in field layout does not fit your composition. · static: `static/BaseTypeaheadCustomSearch.html`
+- `upstream/examples/TypeaheadItemBasic.tsx` — TypeaheadItem — Basic: A typeahead whose results are rendered with TypeaheadItem, adding a secondary description below each label. Use inside renderItem to keep custom results visually consistent. · static: `static/TypeaheadItemBasic.html`
+- `upstream/examples/TypeaheadLimitedResults.tsx` — Typeahead — Limited Results: Typeahead with a capped dropdown showing at most three results. · static: `static/TypeaheadLimitedResults.html`
+- `upstream/examples/TypeaheadSearchField.tsx` — Typeahead — Search Field: Search input with icon and suggestions on focus. · static: `static/TypeaheadSearchField.html`
+- `upstream/examples/TypeaheadWithHelperText.tsx` — Typeahead — With Helper Text: Typeahead with a description below the label. · static: `static/TypeaheadWithHelperText.html`
+- `upstream/examples/TypeaheadWithValidation.tsx` — Typeahead — With Validation: Typeahead with an error validation message. · static: `static/TypeaheadWithValidation.html`
 
 ## Documentation
 
@@ -247,15 +247,15 @@ Composable combobox engine providing a bare input, search, keyboard navigation, 
 
 ## Files
 
-- `src/BaseTypeahead.doc.mjs`
-- `src/BaseTypeahead.spec.md`
-- `src/BaseTypeahead.tsx`
-- `src/Typeahead.doc.mjs`
-- `src/Typeahead.spec.md`
-- `src/Typeahead.tsx`
-- `src/TypeaheadItem.doc.mjs`
-- `src/TypeaheadItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/BaseTypeahead.doc.mjs`
+- `upstream/BaseTypeahead.spec.md`
+- `upstream/BaseTypeahead.tsx`
+- `upstream/Typeahead.doc.mjs`
+- `upstream/Typeahead.spec.md`
+- `upstream/Typeahead.tsx`
+- `upstream/TypeaheadItem.doc.mjs`
+- `upstream/TypeaheadItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Typeahead

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-tags-loop/src/cloud-alt-tags-loop.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-tags-loop/upstream/cloud-alt-tags-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-tags-loop/src/cloud-alt-tags-loop.svg`
+- Local source: `ui/icons/line-md/cloud-alt-tags-loop/upstream/cloud-alt-tags-loop.svg`

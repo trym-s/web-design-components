@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/scan-text/src/scan-text.svelte`
+- Entry point: `ui/icons/movingicons/scan-text/upstream/scan-text.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/scan-text`
 - Registry: https://movingicons.dev/r/scan-text
-- Local source fallback: `ui/icons/movingicons/scan-text/src/scan-text.svelte`
+- Local source fallback: `ui/icons/movingicons/scan-text/upstream/scan-text.svelte`

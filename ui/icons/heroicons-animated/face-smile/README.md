@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/face-smile/src/face-smile.tsx`
+- Entry point: `ui/icons/heroicons-animated/face-smile/upstream/face-smile.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/face-smile`
 - Registry: https://www.heroicons-animated.com/r/face-smile.json
-- Local source fallback: `ui/icons/heroicons-animated/face-smile/src/face-smile.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/face-smile/upstream/face-smile.tsx`

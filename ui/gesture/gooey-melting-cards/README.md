@@ -14,8 +14,8 @@ as a reference and translate them into the target project's framework and conven
 ## Files
 
 - `reference.tsx` — dashboard wrapper using the upstream defaults
-- `src/demo.tsx` — pinned upstream demo with only local import-path rewrites
-- `src/types.ts` — the upstream demo prop contract extracted from its catalog host
+- `upstream/demo.tsx` — pinned upstream demo with only local import-path rewrites
+- `upstream/types.ts` — the upstream demo prop contract extracted from its catalog host
 - `preview.png` — Chromium capture from the original public site
 - `SOURCE.md` — per-entry provenance and capture scope
 - `ui/_sources/liquid-gooey/` — complete library engine, shared CSS, license, and assets

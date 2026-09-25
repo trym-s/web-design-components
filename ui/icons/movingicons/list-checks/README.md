@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/list-checks/src/list-checks.svelte`
+- Entry point: `ui/icons/movingicons/list-checks/upstream/list-checks.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/list-checks`
 - Registry: https://movingicons.dev/r/list-checks
-- Local source fallback: `ui/icons/movingicons/list-checks/src/list-checks.svelte`
+- Local source fallback: `ui/icons/movingicons/list-checks/upstream/list-checks.svelte`

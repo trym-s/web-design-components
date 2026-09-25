@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-upload/src/cloud-alt-upload.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-upload/upstream/cloud-alt-upload.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-upload/src/cloud-alt-upload.svg`
+- Local source: `ui/icons/line-md/cloud-alt-upload/upstream/cloud-alt-upload.svg`

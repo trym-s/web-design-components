@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/banana-icon/src/banana-icon.tsx`
+- Entry point: `ui/icons/itshover/banana-icon/upstream/banana-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/banana-icon.json`
 - Registry: https://itshover.com/r/banana-icon.json
-- Local source fallback: `ui/icons/itshover/banana-icon/src/banana-icon.tsx`
+- Local source fallback: `ui/icons/itshover/banana-icon/upstream/banana-icon.tsx`

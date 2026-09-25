@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/tv-minimal/src/tv-minimal.tsx`
+- Entry point: `ui/icons/animateicons-lucide/tv-minimal/upstream/tv-minimal.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-tv-minimal.json`
 - Registry: https://animateicons.in/r/lu-tv-minimal.json
-- Local source fallback: `ui/icons/animateicons-lucide/tv-minimal/src/tv-minimal.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/tv-minimal/upstream/tv-minimal.tsx`

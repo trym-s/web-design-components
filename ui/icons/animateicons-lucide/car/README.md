@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/car/src/car.tsx`
+- Entry point: `ui/icons/animateicons-lucide/car/upstream/car.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-car.json`
 - Registry: https://animateicons.in/r/lu-car.json
-- Local source fallback: `ui/icons/animateicons-lucide/car/src/car.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/car/upstream/car.tsx`

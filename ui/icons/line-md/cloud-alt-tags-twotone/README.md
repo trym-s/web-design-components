@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-tags-twotone/src/cloud-alt-tags-twotone.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-tags-twotone/upstream/cloud-alt-tags-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-tags-twotone/src/cloud-alt-tags-twotone.svg`
+- Local source: `ui/icons/line-md/cloud-alt-tags-twotone/upstream/cloud-alt-tags-twotone.svg`

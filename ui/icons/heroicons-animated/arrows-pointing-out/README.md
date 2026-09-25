@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/arrows-pointing-out/src/arrows-pointing-out.tsx`
+- Entry point: `ui/icons/heroicons-animated/arrows-pointing-out/upstream/arrows-pointing-out.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/arrows-pointing-out`
 - Registry: https://www.heroicons-animated.com/r/arrows-pointing-out.json
-- Local source fallback: `ui/icons/heroicons-animated/arrows-pointing-out/src/arrows-pointing-out.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/arrows-pointing-out/upstream/arrows-pointing-out.tsx`

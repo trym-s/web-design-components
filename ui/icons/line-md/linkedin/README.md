@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/linkedin/src/linkedin.svg`
+- Entry point: `ui/icons/line-md/linkedin/upstream/linkedin.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/linkedin/src/linkedin.svg`
+- Local source: `ui/icons/line-md/linkedin/upstream/linkedin.svg`

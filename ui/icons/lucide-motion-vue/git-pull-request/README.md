@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/git-pull-request/src/git-pull-request.vue`
+- Entry point: `ui/icons/lucide-motion-vue/git-pull-request/upstream/git-pull-request.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/git-pull-request/src/git-pull-request.vue`
+- Local source: `ui/icons/lucide-motion-vue/git-pull-request/upstream/git-pull-request.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/calendar-days/src/calendar-days.tsx`
+- Entry point: `ui/icons/lucide-animated/calendar-days/upstream/calendar-days.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/calendar-days.json`
 - Registry: https://lucide-animated.com/r/calendar-days.json
-- Local source fallback: `ui/icons/lucide-animated/calendar-days/src/calendar-days.tsx`
+- Local source fallback: `ui/icons/lucide-animated/calendar-days/upstream/calendar-days.tsx`

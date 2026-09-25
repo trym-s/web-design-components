@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-cry-filled/src/emoji-cry-filled.svg`
+- Entry point: `ui/icons/line-md/emoji-cry-filled/upstream/emoji-cry-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-cry-filled/src/emoji-cry-filled.svg`
+- Local source: `ui/icons/line-md/emoji-cry-filled/upstream/emoji-cry-filled.svg`

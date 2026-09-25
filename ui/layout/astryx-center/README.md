@@ -7,7 +7,7 @@ Center aligns content to the middle of its container. Use it for empty states, l
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Center.tsx`
+- Entry point: `upstream/Center.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Center aligns content to the middle of its container. Use it for empty states, l
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Center aligns content to the middle of its container. Use it for empty states, l
 
 ## Examples
 
-- `src/examples/CenterShowcase.tsx` — Center: Content centered horizontally and vertically inside a fixed-height container. · static: `static/CenterShowcase.html`
-- `src/examples/CenterHorizontal.tsx` — Center — Horizontal Center: A formatting control group centered with axis="horizontal" in the default horizontal writing mode. In other writing modes, Center currently follows the flex main axis rather than guaranteeing physical horizontal centering. · static: `static/CenterHorizontal.html`
-- `src/examples/CenterInsideACard.tsx` — Center — Vertical & Horizontal Center: An empty state with an icon, heading, and description centered both vertically and horizontally inside a card. This is the most common use of Center: placing content in the middle of a fixed-height area like a panel, card, or content region. The height prop defines the centering space. · static: `static/CenterInsideACard.html`
+- `upstream/examples/CenterShowcase.tsx` — Center: Content centered horizontally and vertically inside a fixed-height container. · static: `static/CenterShowcase.html`
+- `upstream/examples/CenterHorizontal.tsx` — Center — Horizontal Center: A formatting control group centered with axis="horizontal" in the default horizontal writing mode. In other writing modes, Center currently follows the flex main axis rather than guaranteeing physical horizontal centering. · static: `static/CenterHorizontal.html`
+- `upstream/examples/CenterInsideACard.tsx` — Center — Vertical & Horizontal Center: An empty state with an icon, heading, and description centered both vertically and horizontally inside a card. This is the most common use of Center: placing content in the middle of a fixed-height area like a panel, card, or content region. The height prop defines the centering space. · static: `static/CenterInsideACard.html`
 
 ## Documentation
 
@@ -120,10 +120,10 @@ Styling hook class: `.astryx-center`
 
 ## Files
 
-- `src/Center.doc.mjs`
-- `src/Center.spec.md`
-- `src/Center.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Center.doc.mjs`
+- `upstream/Center.spec.md`
+- `upstream/Center.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Center

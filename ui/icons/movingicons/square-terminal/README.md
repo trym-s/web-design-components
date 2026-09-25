@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/square-terminal/src/square-terminal.svelte`
+- Entry point: `ui/icons/movingicons/square-terminal/upstream/square-terminal.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/square-terminal`
 - Registry: https://movingicons.dev/r/square-terminal
-- Local source fallback: `ui/icons/movingicons/square-terminal/src/square-terminal.svelte`
+- Local source fallback: `ui/icons/movingicons/square-terminal/upstream/square-terminal.svelte`

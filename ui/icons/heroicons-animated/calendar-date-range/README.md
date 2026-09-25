@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/calendar-date-range/src/calendar-date-range.tsx`
+- Entry point: `ui/icons/heroicons-animated/calendar-date-range/upstream/calendar-date-range.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/calendar-date-range`
 - Registry: https://www.heroicons-animated.com/r/calendar-date-range.json
-- Local source fallback: `ui/icons/heroicons-animated/calendar-date-range/src/calendar-date-range.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/calendar-date-range/upstream/calendar-date-range.tsx`

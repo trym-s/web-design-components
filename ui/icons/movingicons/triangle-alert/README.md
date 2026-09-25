@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/triangle-alert/src/triangle-alert.svelte`
+- Entry point: `ui/icons/movingicons/triangle-alert/upstream/triangle-alert.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/triangle-alert`
 - Registry: https://movingicons.dev/r/triangle-alert
-- Local source fallback: `ui/icons/movingicons/triangle-alert/src/triangle-alert.svelte`
+- Local source fallback: `ui/icons/movingicons/triangle-alert/upstream/triangle-alert.svelte`

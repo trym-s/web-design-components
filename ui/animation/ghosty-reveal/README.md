@@ -8,17 +8,17 @@
 
 - Category: `animation` — decorative
 - Medium: CSS mask-position
-- Entry point: `src/ghosty-reveal/standalone/GhostReveal.tsx`
+- Entry point: `upstream/ghosty-reveal/standalone/GhostReveal.tsx`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/ghosty-reveal/standalone/GhostReveal.tsx`
+- `upstream/ghosty-reveal/standalone/GhostReveal.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/ghosty-reveal

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/sunny-filled-loop-to-moon-filled-transition/src/sunny-filled-loop-to-moon-filled-transition.svg`
+- Entry point: `ui/icons/line-md/sunny-filled-loop-to-moon-filled-transition/upstream/sunny-filled-loop-to-moon-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/sunny-filled-loop-to-moon-filled-transition/src/sunny-filled-loop-to-moon-filled-transition.svg`
+- Local source: `ui/icons/line-md/sunny-filled-loop-to-moon-filled-transition/upstream/sunny-filled-loop-to-moon-filled-transition.svg`

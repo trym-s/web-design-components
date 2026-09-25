@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/chart-pie/src/chart-pie.vue`
+- Entry point: `ui/icons/lucide-motion-vue/chart-pie/upstream/chart-pie.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/chart-pie/src/chart-pie.vue`
+- Local source: `ui/icons/lucide-motion-vue/chart-pie/upstream/chart-pie.vue`

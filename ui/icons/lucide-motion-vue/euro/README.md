@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/euro/src/euro.vue`
+- Entry point: `ui/icons/lucide-motion-vue/euro/upstream/euro.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/euro/src/euro.vue`
+- Local source: `ui/icons/lucide-motion-vue/euro/upstream/euro.vue`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/chart-scatter/src/chart-scatter.svelte`
+- Entry point: `ui/icons/movingicons/chart-scatter/upstream/chart-scatter.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/chart-scatter`
 - Registry: https://movingicons.dev/r/chart-scatter
-- Local source fallback: `ui/icons/movingicons/chart-scatter/src/chart-scatter.svelte`
+- Local source fallback: `ui/icons/movingicons/chart-scatter/upstream/chart-scatter.svelte`

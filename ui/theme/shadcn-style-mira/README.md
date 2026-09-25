@@ -7,7 +7,7 @@ One of the eight shadcn/ui styles. The bank's component references are captured 
 - Category: `theme` — decorative
 - Medium: CSS (`@apply` map from `cn-*` component slots to Tailwind utilities)
 - Framework: css
-- Entry point: `src/style-mira.css`
+- Entry point: `upstream/style-mira.css`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -24,6 +24,6 @@ One of the eight shadcn/ui styles. The bank's component references are captured 
 
 ## Files
 
-- `src/style-mira.css`
+- `upstream/style-mira.css`
 
 Upstream page: https://ui.shadcn.com/create

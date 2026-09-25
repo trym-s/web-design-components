@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/chart-bar/src/chart-bar.tsx`
+- Entry point: `ui/icons/heroicons-animated/chart-bar/upstream/chart-bar.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/chart-bar`
 - Registry: https://www.heroicons-animated.com/r/chart-bar.json
-- Local source fallback: `ui/icons/heroicons-animated/chart-bar/src/chart-bar.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/chart-bar/upstream/chart-bar.tsx`

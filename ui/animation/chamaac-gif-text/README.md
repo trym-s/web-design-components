@@ -7,7 +7,7 @@ A stunning text effect that uses a GIF as the fill color.
 - Category: `animation` — decorative
 - Medium: React + TypeScript + Tailwind CSS v4; static HTML
 - Framework: react
-- Entry point: `src/examples/gif-text-demo.tsx`
+- Entry point: `upstream/examples/gif-text-demo.tsx`
 - Nature: decorative; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -18,11 +18,11 @@ A stunning text effect that uses a GIF as the fill color.
 - Upstream: Chamaac UI · published
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/gif-text.json`
 - Registry: https://www.chamaac.com/r/gif-text.json
-- Local source fallback: `src/examples/gif-text-demo.tsx`
+- Local source fallback: `upstream/examples/gif-text-demo.tsx`
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/gif-text.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Props
@@ -36,8 +36,8 @@ A stunning text effect that uses a GIF as the fill color.
 
 ## Files
 
-- `src/examples/gif-text-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/gif-text-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/text-animations/gif-text

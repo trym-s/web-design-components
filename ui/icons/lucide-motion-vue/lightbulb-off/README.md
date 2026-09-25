@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/lightbulb-off/src/lightbulb-off.vue`
+- Entry point: `ui/icons/lucide-motion-vue/lightbulb-off/upstream/lightbulb-off.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/lightbulb-off/src/lightbulb-off.vue`
+- Local source: `ui/icons/lucide-motion-vue/lightbulb-off/upstream/lightbulb-off.vue`

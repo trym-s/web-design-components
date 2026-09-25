@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/unplug/src/unplug.svelte`
+- Entry point: `ui/icons/movingicons/unplug/upstream/unplug.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/unplug`
 - Registry: https://movingicons.dev/r/unplug
-- Local source fallback: `ui/icons/movingicons/unplug/src/unplug.svelte`
+- Local source fallback: `ui/icons/movingicons/unplug/upstream/unplug.svelte`

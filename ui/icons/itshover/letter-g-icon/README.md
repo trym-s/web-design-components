@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/letter-g-icon/src/letter-g-icon.tsx`
+- Entry point: `ui/icons/itshover/letter-g-icon/upstream/letter-g-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/letter-g-icon.json`
 - Registry: https://itshover.com/r/letter-g-icon.json
-- Local source fallback: `ui/icons/itshover/letter-g-icon/src/letter-g-icon.tsx`
+- Local source fallback: `ui/icons/itshover/letter-g-icon/upstream/letter-g-icon.tsx`

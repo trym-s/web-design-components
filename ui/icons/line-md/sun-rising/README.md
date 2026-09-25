@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/sun-rising/src/sun-rising.svg`
+- Entry point: `ui/icons/line-md/sun-rising/upstream/sun-rising.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/sun-rising/src/sun-rising.svg`
+- Local source: `ui/icons/line-md/sun-rising/upstream/sun-rising.svg`

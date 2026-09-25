@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chart-bar-decreasing/src/chart-bar-decreasing.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chart-bar-decreasing/upstream/chart-bar-decreasing.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chart-bar-decreasing.json`
 - Registry: https://animateicons.in/r/lu-chart-bar-decreasing.json
-- Local source fallback: `ui/icons/animateicons-lucide/chart-bar-decreasing/src/chart-bar-decreasing.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chart-bar-decreasing/upstream/chart-bar-decreasing.tsx`

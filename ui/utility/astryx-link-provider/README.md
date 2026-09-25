@@ -7,7 +7,7 @@ Wraps your app to replace the default <a> tag with a framework-specific link com
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/LinkProvider.tsx`
+- Entry point: `upstream/LinkProvider.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -21,7 +21,7 @@ Wraps your app to replace the default <a> tag with a framework-specific link com
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -32,7 +32,7 @@ Wraps your app to replace the default <a> tag with a framework-specific link com
 
 ## Examples
 
-- `src/examples/LinkProviderCustomLink.tsx` — Link Provider — Custom Link Component: Routes every Astryx link through a custom component that intercepts the click, the hook frameworks like Next.js use for client-side navigation. Click the link to see the custom handler fire instead of a full-page load. · static: `static/LinkProviderCustomLink.html`
+- `upstream/examples/LinkProviderCustomLink.tsx` — Link Provider — Custom Link Component: Routes every Astryx link through a custom component that intercepts the click, the hook frameworks like Next.js use for client-side navigation. Click the link to see the custom handler fire instead of a full-page load. · static: `static/LinkProviderCustomLink.html`
 
 ## Documentation
 
@@ -49,9 +49,9 @@ Wraps your app to replace the default <a> tag with a framework-specific link com
 
 ## Files
 
-- `src/LinkProvider.doc.mjs`
-- `src/LinkProvider.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/LinkProvider.doc.mjs`
+- `upstream/LinkProvider.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/LinkProvider

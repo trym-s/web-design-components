@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/layers/src/layers.tsx`
+- Entry point: `ui/icons/animateicons-lucide/layers/upstream/layers.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-layers.json`
 - Registry: https://animateicons.in/r/lu-layers.json
-- Local source fallback: `ui/icons/animateicons-lucide/layers/src/layers.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/layers/upstream/layers.tsx`

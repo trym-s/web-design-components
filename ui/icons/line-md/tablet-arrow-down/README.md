@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/tablet-arrow-down/src/tablet-arrow-down.svg`
+- Entry point: `ui/icons/line-md/tablet-arrow-down/upstream/tablet-arrow-down.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/tablet-arrow-down/src/tablet-arrow-down.svg`
+- Local source: `ui/icons/line-md/tablet-arrow-down/upstream/tablet-arrow-down.svg`

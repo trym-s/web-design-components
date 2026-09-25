@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/thumbs-down/src/thumbs-down.svelte`
+- Entry point: `ui/icons/movingicons/thumbs-down/upstream/thumbs-down.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/thumbs-down`
 - Registry: https://movingicons.dev/r/thumbs-down
-- Local source fallback: `ui/icons/movingicons/thumbs-down/src/thumbs-down.svelte`
+- Local source fallback: `ui/icons/movingicons/thumbs-down/upstream/thumbs-down.svelte`

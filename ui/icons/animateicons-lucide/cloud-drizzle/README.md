@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/cloud-drizzle/src/cloud-drizzle.tsx`
+- Entry point: `ui/icons/animateicons-lucide/cloud-drizzle/upstream/cloud-drizzle.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-drizzle.json`
 - Registry: https://animateicons.in/r/lu-cloud-drizzle.json
-- Local source fallback: `ui/icons/animateicons-lucide/cloud-drizzle/src/cloud-drizzle.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/cloud-drizzle/upstream/cloud-drizzle.tsx`

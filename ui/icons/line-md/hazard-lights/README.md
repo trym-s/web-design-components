@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/hazard-lights/src/hazard-lights.svg`
+- Entry point: `ui/icons/line-md/hazard-lights/upstream/hazard-lights.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/hazard-lights/src/hazard-lights.svg`
+- Local source: `ui/icons/line-md/hazard-lights/upstream/hazard-lights.svg`

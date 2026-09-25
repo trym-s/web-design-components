@@ -7,7 +7,7 @@ Headless hook for click-triggered popovers with focus trapping. Combines useLaye
 - Category: `hooks` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/usePopover.tsx`
+- Entry point: `upstream/usePopover.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Headless hook for click-triggered popovers with focus trapping. Combines useLaye
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -34,7 +34,7 @@ Headless hook for click-triggered popovers with focus trapping. Combines useLaye
 
 ## Examples
 
-- `src/examples/PopoverHookUsage.tsx` — usePopover — Quick Actions: Custom quick-actions popover using usePopover for trigger refs, ARIA attributes, and focus trapping. · static: `static/PopoverHookUsage.html`
+- `upstream/examples/PopoverHookUsage.tsx` — usePopover — Quick Actions: Custom quick-actions popover using usePopover for trigger refs, ARIA attributes, and focus trapping. · static: `static/PopoverHookUsage.html`
 
 ## Documentation
 
@@ -132,9 +132,9 @@ Headless hook for click-triggered popovers with focus trapping. Combines useLaye
 
 ## Files
 
-- `src/usePopover.doc.mjs`
-- `src/usePopover.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/usePopover.doc.mjs`
+- `upstream/usePopover.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/usePopover

@@ -7,7 +7,7 @@ TextInput collects short-form text like names, emails, or search queries. Use it
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/TextInput.tsx`
+- Entry point: `upstream/TextInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ TextInput collects short-form text like names, emails, or search queries. Use it
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ TextInput collects short-form text like names, emails, or search queries. Use it
 
 ## Examples
 
-- `src/examples/TextInputShowcase.tsx` — Text Input · static: `static/TextInputShowcase.html`
-- `src/examples/TextInputIcon.tsx` — TextInput — Icon: Inputs with a leading icon that hints at the expected content. Use when the icon helps users identify the field faster, like a lock for passwords or an envelope for email. · static: `static/TextInputIcon.html`
-- `src/examples/TextInputSearch.tsx` — TextInput — Search: Search input with a hidden label, start icon, and clear button. Use for toolbar and header search bars where the icon provides sufficient context. · static: `static/TextInputSearch.html`
-- `src/examples/TextInputSizes.tsx` — TextInput — Sizes: Small, medium, and large inputs side by side. Use small in dense UIs like table filters, medium for most forms, and large for prominent single-field pages. · static: `static/TextInputSizes.html`
-- `src/examples/TextInputStates.tsx` — TextInput — States: Error, warning, and success validation states with status messages. Use to show users what went wrong and how to fix it. · static: `static/TextInputStates.html`
-- `src/examples/TextInputStatusVariant.tsx` — TextInput — Status variant: The statusVariant prop controls whether the status message is attached to the bordered input (default, overlapping directly below) or detached from it (floating below as a separate element with spacing). · static: `static/TextInputStatusVariant.html`
-- `src/examples/TextInputTypes.tsx` — TextInput — Types: Text, password, and email types plus field-level features: tooltip, required, optional, description, disabled, and loading. · static: `static/TextInputTypes.html`
+- `upstream/examples/TextInputShowcase.tsx` — Text Input · static: `static/TextInputShowcase.html`
+- `upstream/examples/TextInputIcon.tsx` — TextInput — Icon: Inputs with a leading icon that hints at the expected content. Use when the icon helps users identify the field faster, like a lock for passwords or an envelope for email. · static: `static/TextInputIcon.html`
+- `upstream/examples/TextInputSearch.tsx` — TextInput — Search: Search input with a hidden label, start icon, and clear button. Use for toolbar and header search bars where the icon provides sufficient context. · static: `static/TextInputSearch.html`
+- `upstream/examples/TextInputSizes.tsx` — TextInput — Sizes: Small, medium, and large inputs side by side. Use small in dense UIs like table filters, medium for most forms, and large for prominent single-field pages. · static: `static/TextInputSizes.html`
+- `upstream/examples/TextInputStates.tsx` — TextInput — States: Error, warning, and success validation states with status messages. Use to show users what went wrong and how to fix it. · static: `static/TextInputStates.html`
+- `upstream/examples/TextInputStatusVariant.tsx` — TextInput — Status variant: The statusVariant prop controls whether the status message is attached to the bordered input (default, overlapping directly below) or detached from it (floating below as a separate element with spacing). · static: `static/TextInputStatusVariant.html`
+- `upstream/examples/TextInputTypes.tsx` — TextInput — Types: Text, password, and email types plus field-level features: tooltip, required, optional, description, disabled, and loading. · static: `static/TextInputTypes.html`
 
 ## Documentation
 
@@ -164,9 +164,9 @@ Styling hook class: `.astryx-text-input`
 
 ## Files
 
-- `src/TextInput.doc.mjs`
-- `src/TextInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/TextInput.doc.mjs`
+- `upstream/TextInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/TextInput

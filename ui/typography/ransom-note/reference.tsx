@@ -2,7 +2,7 @@
 
 "use client";
 
-import { RansomNotePlayground } from "./src/ransom/playground";
+import { RansomNotePlayground } from "./upstream/ransom/playground";
 
 export default function Reference() {
   return <RansomNotePlayground />;

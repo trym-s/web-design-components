@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/share/src/share.tsx`
+- Entry point: `ui/icons/heroicons-animated/share/upstream/share.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/share`
 - Registry: https://www.heroicons-animated.com/r/share.json
-- Local source fallback: `ui/icons/heroicons-animated/share/src/share.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/share/upstream/share.tsx`

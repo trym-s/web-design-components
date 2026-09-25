@@ -51,8 +51,8 @@ and only when the real file is genuinely absent, so a future fuller capture wins
 | `./use-compact` | `dashboard/shims/liquid-use-compact.ts` — reimplemented against the captured `scenes.tsx` |
 | `./cycle` (arcade) | `dashboard/shims/arcade-cycle.ts` — **deliberate failure marker**, see below |
 | `.../ransom/manifest.json` | `dashboard/shims/ransom-manifest.json` — `{}` (sprite data not captured) |
-| `../swirl/controls` | **real file**: `ui/effects/ascii-swirl/src/swirl/controls.tsx` |
-| `../../lib/video-sources` | **real file**: `ui/animation/hover-video-button/src/app/lib/video-sources.ts` |
+| `../swirl/controls` | **real file**: `ui/effects/ascii-swirl/upstream/swirl/controls.tsx` |
+| `../../lib/video-sources` | **real file**: `ui/animation/hover-video-button/upstream/app/lib/video-sources.ts` |
 
 The last two are not shims — those modules exist in the bank, just under a different entry's `src/`.
 

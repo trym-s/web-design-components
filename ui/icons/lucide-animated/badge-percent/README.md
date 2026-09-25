@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/badge-percent/src/badge-percent.tsx`
+- Entry point: `ui/icons/lucide-animated/badge-percent/upstream/badge-percent.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/badge-percent.json`
 - Registry: https://lucide-animated.com/r/badge-percent.json
-- Local source fallback: `ui/icons/lucide-animated/badge-percent/src/badge-percent.tsx`
+- Local source fallback: `ui/icons/lucide-animated/badge-percent/upstream/badge-percent.tsx`

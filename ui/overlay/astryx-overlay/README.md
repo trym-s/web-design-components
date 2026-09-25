@@ -7,7 +7,7 @@ Overlay layers action or supporting content over media, cards, video, or other b
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Overlay.tsx`
+- Entry point: `upstream/Overlay.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Overlay layers action or supporting content over media, cards, video, or other b
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Overlay layers action or supporting content over media, cards, video, or other b
 
 ## Examples
 
-- `src/examples/OverlayShowcase.tsx` — Overlay: A media card with an always-visible scrim and centered action content. · static: `static/OverlayShowcase.html`
-- `src/examples/OverlayBottomStrip.tsx` — Overlay — Bottom Strip: Places compact supporting content in a bottom scrim strip without covering the entire image. · static: `static/OverlayBottomStrip.html`
-- `src/examples/OverlayHoverReveal.tsx` — Overlay — Hover Reveal: Reveals an overlay action on hover or keyboard focus. Use when actions should stay visually quiet until the media receives attention. · static: `static/OverlayHoverReveal.html`
+- `upstream/examples/OverlayShowcase.tsx` — Overlay: A media card with an always-visible scrim and centered action content. · static: `static/OverlayShowcase.html`
+- `upstream/examples/OverlayBottomStrip.tsx` — Overlay — Bottom Strip: Places compact supporting content in a bottom scrim strip without covering the entire image. · static: `static/OverlayBottomStrip.html`
+- `upstream/examples/OverlayHoverReveal.tsx` — Overlay — Hover Reveal: Reveals an overlay action on hover or keyboard focus. Use when actions should stay visually quiet until the media receives attention. · static: `static/OverlayHoverReveal.html`
 
 ## Documentation
 
@@ -78,10 +78,10 @@ Styling hook class: `.astryx-overlay`, `.astryx-overlay-scrim`
 
 ## Files
 
-- `src/Overlay.doc.mjs`
-- `src/Overlay.tsx`
-- `src/OverlayScrim.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Overlay.doc.mjs`
+- `upstream/Overlay.tsx`
+- `upstream/OverlayScrim.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Overlay

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/phone-call/src/phone-call.vue`
+- Entry point: `ui/icons/lucide-motion-vue/phone-call/upstream/phone-call.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/phone-call/src/phone-call.vue`
+- Local source: `ui/icons/lucide-motion-vue/phone-call/upstream/phone-call.vue`

@@ -7,7 +7,7 @@ Renders a markdown string as Astryx-styled components. Use Markdown for user-gen
 - Category: `content` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Markdown.tsx`
+- Entry point: `upstream/Markdown.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Renders a markdown string as Astryx-styled components. Use Markdown for user-gen
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ Renders a markdown string as Astryx-styled components. Use Markdown for user-gen
 
 ## Examples
 
-- `src/examples/MarkdownShowcase.tsx` — Markdown: Rich markdown content with headings, lists, and formatting. · static: `static/MarkdownShowcase.html`
-- `src/examples/MarkdownCitedContent.tsx` — Markdown — Cited Content: Markdown with citation chips linked to external sources · static: `static/MarkdownCitedContent.html`
-- `src/examples/MarkdownCompactAIResponse.tsx` — Markdown — Compact AI Response: Compact markdown styled for AI responses with shifted heading levels · static: `static/MarkdownCompactAIResponse.html`
-- `src/examples/MarkdownDataTable.tsx` — Markdown — Data Table: Comparison table rendered from a markdown string · static: `static/MarkdownDataTable.html`
-- `src/examples/MarkdownRichContent.tsx` — Markdown — Rich Content: Markdown with headings, lists, code blocks, tables, blockquotes, and task lists · static: `static/MarkdownRichContent.html`
+- `upstream/examples/MarkdownShowcase.tsx` — Markdown: Rich markdown content with headings, lists, and formatting. · static: `static/MarkdownShowcase.html`
+- `upstream/examples/MarkdownCitedContent.tsx` — Markdown — Cited Content: Markdown with citation chips linked to external sources · static: `static/MarkdownCitedContent.html`
+- `upstream/examples/MarkdownCompactAIResponse.tsx` — Markdown — Compact AI Response: Compact markdown styled for AI responses with shifted heading levels · static: `static/MarkdownCompactAIResponse.html`
+- `upstream/examples/MarkdownDataTable.tsx` — Markdown — Data Table: Comparison table rendered from a markdown string · static: `static/MarkdownDataTable.html`
+- `upstream/examples/MarkdownRichContent.tsx` — Markdown — Rich Content: Markdown with headings, lists, code blocks, tables, blockquotes, and task lists · static: `static/MarkdownRichContent.html`
 
 ## Documentation
 
@@ -393,12 +393,12 @@ Styling hook class: `.astryx-markdown`, `.astryx-markdown-heading`, `.astryx-mar
 
 ## Files
 
-- `src/Markdown.doc.mjs`
-- `src/Markdown.fr23.bench.ts`
-- `src/Markdown.fr23.sampling.ts`
-- `src/Markdown.spec.md`
-- `src/Markdown.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Markdown.doc.mjs`
+- `upstream/Markdown.fr23.bench.ts`
+- `upstream/Markdown.fr23.sampling.ts`
+- `upstream/Markdown.spec.md`
+- `upstream/Markdown.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Markdown

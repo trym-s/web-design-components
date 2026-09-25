@@ -7,7 +7,7 @@ A calendar component that allows users to select a date or a range of dates.
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/calendar.tsx`
+- Entry point: `upstream/ui/calendar.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A calendar component that allows users to select a date or a range of dates.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A calendar component that allows users to select a date or a range of dates.
 
 ## Documentation
 
-> Example `calendar-demo` — `src/examples/calendar-demo.tsx`, `static/calendar-demo.html`
+> Example `calendar-demo` — `upstream/examples/calendar-demo.tsx`, `static/calendar-demo.html`
 
 ## Installation
 
@@ -92,7 +92,7 @@ To use the Persian calendar, edit `components/ui/calendar.tsx` and replace `reac
 + import { DayPicker } from "react-day-picker/persian"
 ```
 
-> Example `calendar-hijri` — `src/examples/calendar-hijri.tsx`, `static/calendar-hijri.html`
+> Example `calendar-hijri` — `upstream/examples/calendar-hijri.tsx`, `static/calendar-hijri.html`
 
 ## Selected Date (With TimeZone)
 
@@ -126,35 +126,35 @@ export function CalendarWithTimezone() {
 
 A basic calendar component. We used `className="rounded-lg border"` to style the calendar.
 
-> Example `calendar-basic` — `src/examples/calendar-basic.tsx`, `static/calendar-basic.html`
+> Example `calendar-basic` — `upstream/examples/calendar-basic.tsx`, `static/calendar-basic.html`
 
 ## Range Calendar
 
 Use the `mode="range"` prop to enable range selection.
 
-> Example `calendar-range` — `src/examples/calendar-range.tsx`, `static/calendar-range.html`
+> Example `calendar-range` — `upstream/examples/calendar-range.tsx`, `static/calendar-range.html`
 
 ## Month and Year Selector
 
 Use `captionLayout="dropdown"` to show month and year dropdowns.
 
-> Example `calendar-caption` — `src/examples/calendar-caption.tsx`, `static/calendar-caption.html`
+> Example `calendar-caption` — `upstream/examples/calendar-caption.tsx`, `static/calendar-caption.html`
 
 ## Presets
 
-> Example `calendar-presets` — `src/examples/calendar-presets.tsx`, `static/calendar-presets.html`
+> Example `calendar-presets` — `upstream/examples/calendar-presets.tsx`, `static/calendar-presets.html`
 
 ## Date and Time Picker
 
-> Example `calendar-time` — `src/examples/calendar-time.tsx`, `static/calendar-time.html`
+> Example `calendar-time` — `upstream/examples/calendar-time.tsx`, `static/calendar-time.html`
 
 ## Booked dates
 
-> Example `calendar-booked-dates` — `src/examples/calendar-booked-dates.tsx`, `static/calendar-booked-dates.html`
+> Example `calendar-booked-dates` — `upstream/examples/calendar-booked-dates.tsx`, `static/calendar-booked-dates.html`
 
 ## Custom Cell Size
 
-> Example `calendar-custom-days` — `src/examples/calendar-custom-days.tsx`, `static/calendar-custom-days.html`
+> Example `calendar-custom-days` — `upstream/examples/calendar-custom-days.tsx`, `static/calendar-custom-days.html`
 
 You can customize the size of calendar cells using the `--cell-size` CSS variable. You can also make it responsive by using breakpoint-specific values:
 
@@ -182,7 +182,7 @@ Or use fixed values:
 
 Use `showWeekNumber` to show week numbers.
 
-> Example `calendar-week-numbers` — `src/examples/calendar-week-numbers.tsx`, `static/calendar-week-numbers.html`
+> Example `calendar-week-numbers` — `upstream/examples/calendar-week-numbers.tsx`, `static/calendar-week-numbers.html`
 
 ## RTL
 
@@ -190,7 +190,7 @@ To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl)
 
 See also the [Hijri Guide](#persian--hijri--jalali-calendar) for enabling the Persian / Hijri / Jalali calendar.
 
-> Example `calendar-rtl` — `src/examples/calendar-rtl.tsx`, `static/calendar-rtl.html`
+> Example `calendar-rtl` — `upstream/examples/calendar-rtl.tsx`, `static/calendar-rtl.html`
 
 When using RTL, import the locale from `react-day-picker/locale` and pass both the `locale` and `dir` props to the Calendar component:
 
@@ -349,19 +349,19 @@ import { enUS } from "react-day-picker/locale"
 
 ## Files
 
-- `src/ui/calendar.tsx` — the ui file as the registry installs it
-- `src/examples/calendar-demo.tsx`
-- `src/examples/calendar-hijri.tsx`
-- `src/examples/calendar-basic.tsx`
-- `src/examples/calendar-range.tsx`
-- `src/examples/calendar-caption.tsx`
-- `src/examples/calendar-presets.tsx`
-- `src/examples/calendar-time.tsx`
-- `src/examples/calendar-booked-dates.tsx`
-- `src/examples/calendar-custom-days.tsx`
-- `src/examples/calendar-week-numbers.tsx`
-- `src/examples/calendar-multiple.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/calendar.tsx` — the ui file as the registry installs it
+- `upstream/examples/calendar-demo.tsx`
+- `upstream/examples/calendar-hijri.tsx`
+- `upstream/examples/calendar-basic.tsx`
+- `upstream/examples/calendar-range.tsx`
+- `upstream/examples/calendar-caption.tsx`
+- `upstream/examples/calendar-presets.tsx`
+- `upstream/examples/calendar-time.tsx`
+- `upstream/examples/calendar-booked-dates.tsx`
+- `upstream/examples/calendar-custom-days.tsx`
+- `upstream/examples/calendar-week-numbers.tsx`
+- `upstream/examples/calendar-multiple.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/calendar

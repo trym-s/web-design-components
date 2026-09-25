@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/rotate-180/src/rotate-180.svg`
+- Entry point: `ui/icons/line-md/rotate-180/upstream/rotate-180.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/rotate-180/src/rotate-180.svg`
+- Local source: `ui/icons/line-md/rotate-180/upstream/rotate-180.svg`

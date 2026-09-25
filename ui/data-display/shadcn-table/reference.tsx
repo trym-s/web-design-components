@@ -1,3 +1,3 @@
 /* Use when: A responsive table component. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

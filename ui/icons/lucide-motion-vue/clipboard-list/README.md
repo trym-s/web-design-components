@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/clipboard-list/src/clipboard-list.vue`
+- Entry point: `ui/icons/lucide-motion-vue/clipboard-list/upstream/clipboard-list.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/clipboard-list/src/clipboard-list.vue`
+- Local source: `ui/icons/lucide-motion-vue/clipboard-list/upstream/clipboard-list.vue`

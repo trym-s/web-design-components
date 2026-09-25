@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/volume-medium-filled/src/volume-medium-filled.svg`
+- Entry point: `ui/icons/line-md/volume-medium-filled/upstream/volume-medium-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/volume-medium-filled/src/volume-medium-filled.svg`
+- Local source: `ui/icons/line-md/volume-medium-filled/upstream/volume-medium-filled.svg`

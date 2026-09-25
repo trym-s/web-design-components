@@ -1,3 +1,3 @@
 /* Use when: A simple area chart. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

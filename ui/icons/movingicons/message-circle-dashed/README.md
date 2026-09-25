@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/message-circle-dashed/src/message-circle-dashed.svelte`
+- Entry point: `ui/icons/movingicons/message-circle-dashed/upstream/message-circle-dashed.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/message-circle-dashed`
 - Registry: https://movingicons.dev/r/message-circle-dashed
-- Local source fallback: `ui/icons/movingicons/message-circle-dashed/src/message-circle-dashed.svelte`
+- Local source fallback: `ui/icons/movingicons/message-circle-dashed/upstream/message-circle-dashed.svelte`

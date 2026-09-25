@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/save-off/src/save-off.svelte`
+- Entry point: `ui/icons/movingicons/save-off/upstream/save-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/save-off`
 - Registry: https://movingicons.dev/r/save-off
-- Local source fallback: `ui/icons/movingicons/save-off/src/save-off.svelte`
+- Local source fallback: `ui/icons/movingicons/save-off/upstream/save-off.svelte`

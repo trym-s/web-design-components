@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/car-light/src/car-light.svg`
+- Entry point: `ui/icons/line-md/car-light/upstream/car-light.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/car-light/src/car-light.svg`
+- Local source: `ui/icons/line-md/car-light/upstream/car-light.svg`

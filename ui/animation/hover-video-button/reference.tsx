@@ -3,7 +3,7 @@
 
 "use client";
 
-import { HoverVideoButton } from "./src/hover-video/HoverVideoButton";
+import { HoverVideoButton } from "./upstream/hover-video/HoverVideoButton";
 
 /* `video` is a base path without extension; video-sources.ts resolves it against
  * the upstream R2 bucket, so this reference needs network. */

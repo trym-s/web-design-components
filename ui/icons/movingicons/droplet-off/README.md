@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/droplet-off/src/droplet-off.svelte`
+- Entry point: `ui/icons/movingicons/droplet-off/upstream/droplet-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/droplet-off`
 - Registry: https://movingicons.dev/r/droplet-off
-- Local source fallback: `ui/icons/movingicons/droplet-off/src/droplet-off.svelte`
+- Local source fallback: `ui/icons/movingicons/droplet-off/upstream/droplet-off.svelte`

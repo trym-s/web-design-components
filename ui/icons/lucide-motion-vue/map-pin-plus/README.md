@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/map-pin-plus/src/map-pin-plus.vue`
+- Entry point: `ui/icons/lucide-motion-vue/map-pin-plus/upstream/map-pin-plus.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/map-pin-plus/src/map-pin-plus.vue`
+- Local source: `ui/icons/lucide-motion-vue/map-pin-plus/upstream/map-pin-plus.vue`

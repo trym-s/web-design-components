@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/confirm-square/src/confirm-square.svg`
+- Entry point: `ui/icons/line-md/confirm-square/upstream/confirm-square.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/confirm-square/src/confirm-square.svg`
+- Local source: `ui/icons/line-md/confirm-square/upstream/confirm-square.svg`

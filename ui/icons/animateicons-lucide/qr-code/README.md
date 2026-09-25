@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/qr-code/src/qr-code.tsx`
+- Entry point: `ui/icons/animateicons-lucide/qr-code/upstream/qr-code.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-qr-code.json`
 - Registry: https://animateicons.in/r/lu-qr-code.json
-- Local source fallback: `ui/icons/animateicons-lucide/qr-code/src/qr-code.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/qr-code/upstream/qr-code.tsx`

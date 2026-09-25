@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/mic-off/src/mic-off.svelte`
+- Entry point: `ui/icons/movingicons/mic-off/upstream/mic-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/mic-off`
 - Registry: https://movingicons.dev/r/mic-off
-- Local source fallback: `ui/icons/movingicons/mic-off/src/mic-off.svelte`
+- Local source fallback: `ui/icons/movingicons/mic-off/upstream/mic-off.svelte`

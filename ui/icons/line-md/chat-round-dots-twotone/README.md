@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-round-dots-twotone/src/chat-round-dots-twotone.svg`
+- Entry point: `ui/icons/line-md/chat-round-dots-twotone/upstream/chat-round-dots-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-round-dots-twotone/src/chat-round-dots-twotone.svg`
+- Local source: `ui/icons/line-md/chat-round-dots-twotone/upstream/chat-round-dots-twotone.svg`

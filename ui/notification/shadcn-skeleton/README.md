@@ -7,7 +7,7 @@ Use to show a placeholder while content is loading.
 - Category: `notification` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/skeleton.tsx`
+- Entry point: `upstream/ui/skeleton.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Use to show a placeholder while content is loading.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Use to show a placeholder while content is loading.
 
 ## Documentation
 
-> Example `skeleton-demo` — `src/examples/skeleton-demo.tsx`, `static/skeleton-demo.html`
+> Example `skeleton-demo` — `upstream/examples/skeleton-demo.tsx`, `static/skeleton-demo.html`
 
 ## Installation
 
@@ -56,40 +56,40 @@ import { Skeleton } from "@/components/ui/skeleton"
 
 ## Avatar
 
-> Example `skeleton-avatar` — `src/examples/skeleton-avatar.tsx`, `static/skeleton-avatar.html`
+> Example `skeleton-avatar` — `upstream/examples/skeleton-avatar.tsx`, `static/skeleton-avatar.html`
 
 ## Card
 
-> Example `skeleton-card` — `src/examples/skeleton-card.tsx`, `static/skeleton-card.html`
+> Example `skeleton-card` — `upstream/examples/skeleton-card.tsx`, `static/skeleton-card.html`
 
 ## Text
 
-> Example `skeleton-text` — `src/examples/skeleton-text.tsx`, `static/skeleton-text.html`
+> Example `skeleton-text` — `upstream/examples/skeleton-text.tsx`, `static/skeleton-text.html`
 
 ## Form
 
-> Example `skeleton-form` — `src/examples/skeleton-form.tsx`, `static/skeleton-form.html`
+> Example `skeleton-form` — `upstream/examples/skeleton-form.tsx`, `static/skeleton-form.html`
 
 ## Table
 
-> Example `skeleton-table` — `src/examples/skeleton-table.tsx`, `static/skeleton-table.html`
+> Example `skeleton-table` — `upstream/examples/skeleton-table.tsx`, `static/skeleton-table.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `skeleton-rtl` — `src/examples/skeleton-rtl.tsx`, `static/skeleton-rtl.html`
+> Example `skeleton-rtl` — `upstream/examples/skeleton-rtl.tsx`, `static/skeleton-rtl.html`
 
 ## Files
 
-- `src/ui/skeleton.tsx` — the ui file as the registry installs it
-- `src/examples/skeleton-demo.tsx`
-- `src/examples/skeleton-avatar.tsx`
-- `src/examples/skeleton-card.tsx`
-- `src/examples/skeleton-text.tsx`
-- `src/examples/skeleton-form.tsx`
-- `src/examples/skeleton-table.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/skeleton.tsx` — the ui file as the registry installs it
+- `upstream/examples/skeleton-demo.tsx`
+- `upstream/examples/skeleton-avatar.tsx`
+- `upstream/examples/skeleton-card.tsx`
+- `upstream/examples/skeleton-text.tsx`
+- `upstream/examples/skeleton-form.tsx`
+- `upstream/examples/skeleton-table.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/skeleton

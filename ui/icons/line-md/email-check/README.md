@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-check/src/email-check.svg`
+- Entry point: `ui/icons/line-md/email-check/upstream/email-check.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-check/src/email-check.svg`
+- Local source: `ui/icons/line-md/email-check/upstream/email-check.svg`

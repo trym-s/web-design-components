@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/folder-open/src/folder-open.tsx`
+- Entry point: `ui/icons/animateicons-lucide/folder-open/upstream/folder-open.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-folder-open.json`
 - Registry: https://animateicons.in/r/lu-folder-open.json
-- Local source fallback: `ui/icons/animateicons-lucide/folder-open/src/folder-open.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/folder-open/upstream/folder-open.tsx`

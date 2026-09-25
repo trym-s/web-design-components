@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/upload-outline-loop/src/upload-outline-loop.svg`
+- Entry point: `ui/icons/line-md/upload-outline-loop/upstream/upload-outline-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/upload-outline-loop/src/upload-outline-loop.svg`
+- Local source: `ui/icons/line-md/upload-outline-loop/upstream/upload-outline-loop.svg`

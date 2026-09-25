@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/git-compare/src/git-compare.vue`
+- Entry point: `ui/icons/lucide-motion-vue/git-compare/upstream/git-compare.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/git-compare/src/git-compare.vue`
+- Local source: `ui/icons/lucide-motion-vue/git-compare/upstream/git-compare.vue`

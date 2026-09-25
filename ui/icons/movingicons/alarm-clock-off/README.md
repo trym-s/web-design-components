@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/alarm-clock-off/src/alarm-clock-off.svelte`
+- Entry point: `ui/icons/movingicons/alarm-clock-off/upstream/alarm-clock-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/alarm-clock-off`
 - Registry: https://movingicons.dev/r/alarm-clock-off
-- Local source fallback: `ui/icons/movingicons/alarm-clock-off/src/alarm-clock-off.svelte`
+- Local source fallback: `ui/icons/movingicons/alarm-clock-off/upstream/alarm-clock-off.svelte`

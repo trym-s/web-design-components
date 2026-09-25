@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/pencil-square/src/pencil-square.tsx`
+- Entry point: `ui/icons/heroicons-animated/pencil-square/upstream/pencil-square.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/pencil-square`
 - Registry: https://www.heroicons-animated.com/r/pencil-square.json
-- Local source fallback: `ui/icons/heroicons-animated/pencil-square/src/pencil-square.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/pencil-square/upstream/pencil-square.tsx`

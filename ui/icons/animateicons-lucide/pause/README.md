@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/pause/src/pause.tsx`
+- Entry point: `ui/icons/animateicons-lucide/pause/upstream/pause.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-pause.json`
 - Registry: https://animateicons.in/r/lu-pause.json
-- Local source fallback: `ui/icons/animateicons-lucide/pause/src/pause.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/pause/upstream/pause.tsx`

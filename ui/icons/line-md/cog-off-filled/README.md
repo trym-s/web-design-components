@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cog-off-filled/src/cog-off-filled.svg`
+- Entry point: `ui/icons/line-md/cog-off-filled/upstream/cog-off-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cog-off-filled/src/cog-off-filled.svg`
+- Local source: `ui/icons/line-md/cog-off-filled/upstream/cog-off-filled.svg`

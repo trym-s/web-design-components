@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/chat-alert-filled/src/chat-alert-filled.svg`
+- Entry point: `ui/icons/line-md/chat-alert-filled/upstream/chat-alert-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/chat-alert-filled/src/chat-alert-filled.svg`
+- Local source: `ui/icons/line-md/chat-alert-filled/upstream/chat-alert-filled.svg`

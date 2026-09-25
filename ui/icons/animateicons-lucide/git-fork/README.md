@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/git-fork/src/git-fork.tsx`
+- Entry point: `ui/icons/animateicons-lucide/git-fork/upstream/git-fork.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-git-fork.json`
 - Registry: https://animateicons.in/r/lu-git-fork.json
-- Local source fallback: `ui/icons/animateicons-lucide/git-fork/src/git-fork.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/git-fork/upstream/git-fork.tsx`

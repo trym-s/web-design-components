@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/cloud-snow/src/cloud-snow.vue`
+- Entry point: `ui/icons/lucide-motion-vue/cloud-snow/upstream/cloud-snow.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/cloud-snow/src/cloud-snow.vue`
+- Local source: `ui/icons/lucide-motion-vue/cloud-snow/upstream/cloud-snow.vue`

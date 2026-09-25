@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/share/src/share.tsx`
+- Entry point: `ui/icons/animateicons-lucide/share/upstream/share.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-share.json`
 - Registry: https://animateicons.in/r/lu-share.json
-- Local source fallback: `ui/icons/animateicons-lucide/share/src/share.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/share/upstream/share.tsx`

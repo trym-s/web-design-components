@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/rotate-270/src/rotate-270.svg`
+- Entry point: `ui/icons/line-md/rotate-270/upstream/rotate-270.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/rotate-270/src/rotate-270.svg`
+- Local source: `ui/icons/line-md/rotate-270/upstream/rotate-270.svg`

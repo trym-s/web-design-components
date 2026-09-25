@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/euro/src/euro.tsx`
+- Entry point: `ui/icons/lucide-animated/euro/upstream/euro.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/euro.json`
 - Registry: https://lucide-animated.com/r/euro.json
-- Local source fallback: `ui/icons/lucide-animated/euro/src/euro.tsx`
+- Local source fallback: `ui/icons/lucide-animated/euro/upstream/euro.tsx`

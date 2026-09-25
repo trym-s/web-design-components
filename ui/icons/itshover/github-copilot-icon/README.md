@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/github-copilot-icon/src/github-copilot-icon.tsx`
+- Entry point: `ui/icons/itshover/github-copilot-icon/upstream/github-copilot-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/github-copilot-icon.json`
 - Registry: https://itshover.com/r/github-copilot-icon.json
-- Local source fallback: `ui/icons/itshover/github-copilot-icon/src/github-copilot-icon.tsx`
+- Local source fallback: `ui/icons/itshover/github-copilot-icon/upstream/github-copilot-icon.tsx`

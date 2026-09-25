@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cellphone-off-twotone/src/cellphone-off-twotone.svg`
+- Entry point: `ui/icons/line-md/cellphone-off-twotone/upstream/cellphone-off-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cellphone-off-twotone/src/cellphone-off-twotone.svg`
+- Local source: `ui/icons/line-md/cellphone-off-twotone/upstream/cellphone-off-twotone.svg`

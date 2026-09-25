@@ -331,7 +331,7 @@ Files are retained verbatim apart from image URLs, which point at the localized 
 const agentUse = (category) => `## How an agent uses this reference
 
 - **React 19 target** — install \`@astryxdesign/core\` + a theme and copy the example from
-  \`src/examples/\` as-is, or read \`src/\` to own the component (upstream calls this "swizzle").
+  \`upstream/examples/\` as-is, or read \`upstream/\` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open \`static/<example>.html\`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   \`ui/_sources/astryx/\` (\`frame.css\` pulls fonts, reset, component CSS and all seven themes).
@@ -366,7 +366,7 @@ const familyOf = (ref) => refs.find((r) => r !== ref && r.dir === ref.dir && has
 const report = { components: 0, hooks: 0, examples: 0, stories: 0, pages: 0, themes: 0, fallbacks: [] };
 for (const ref of refs) {
   const dir = join(UI, ref.category, ref.slug);
-  const srcDir = join(dir, "src");
+  const srcDir = join(dir, "upstream");
   const primary = ref.doc;
   for (const f of ref.files) await copySource(f, srcDir, ref.dir);
   // Stories reach into package source through relative paths; bring those along.
@@ -431,7 +431,7 @@ export default function Demo() {
     // a documented sibling in the same directory, else one in the same docs group.
     const sibling = familyOf(ref);
     ref.familyDemo = `${sibling.category}/${sibling.slug}`;
-    demo = `export { default } from ${JSON.stringify(rel(srcDir, join(UI, sibling.category, sibling.slug, "src/demo")))};\n`;
+    demo = `export { default } from ${JSON.stringify(rel(srcDir, join(UI, sibling.category, sibling.slug, "upstream/demo")))};\n`;
   } else {
     // No upstream example: mount the component with the docs playground defaults.
     report.fallbacks.push(`${ref.category}/${ref.slug}`);
@@ -456,7 +456,7 @@ export default function Demo() {
   const examples = [...blockExamples, ...storyExamples];
   const page = ref.pkg.pkg === "core" ? docsUrl(primary.name) : STORYBOOK;
   const entry = [...ref.files].map((f) => posix(relative(ref.dir, f))).find((f) => f === `${primary.name}.tsx` || f === `${primary.name}.ts`) ?? posix(relative(ref.dir, [...ref.files].find((f) => /\.tsx?$/.test(f)) ?? ref.file));
-  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   const nature = NATURE[ref.category];
   write(join(dir, "README.md"), `# ${primary.displayName ?? primary.name}
 
@@ -467,7 +467,7 @@ ${md(primary.usage?.description ?? primary.description ?? "")}
 - Category: \`${ref.category}\` — ${nature}
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: \`src/${entry}\`
+- Entry point: \`upstream/${entry}\`
 - Nature: ${nature}${nature === "decorative" ? "; supplies look-and-feel only" : "; reuse the behavior, hierarchy and tokens, adapt literal values to the target project"}.
 - Added: ${ADDED}
 - Curation: pending
@@ -487,8 +487,8 @@ ${examples.length ? examples.map((e) => `- \`${posix(relative(dir, e.local))}\` 
 ${ref.docs.map(docSection).join("\n")}
 ## Files
 
-${[...ref.files].map((f) => `- \`src/${posix(relative(ref.dir, f))}\``).sort().join("\n")}
-- \`src/demo.tsx\` — bank harness that mounts the examples in the neutral theme
+${[...ref.files].map((f) => `- \`upstream/${posix(relative(ref.dir, f))}\``).sort().join("\n")}
+- \`upstream/demo.tsx\` — bank harness that mounts the examples in the neutral theme
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${page}
@@ -509,10 +509,10 @@ for (const slug of readdirSync(PAGES).filter((d) => statSync(join(PAGES, d)).isD
   const { doc } = await import(pathToFileURL(join(PAGES, slug, "template.doc.mjs")).href);
   const dir = join(UI, "page", `astryx-${slug}`);
   const files = readdirSync(join(PAGES, slug));
-  for (const f of files) await copySource(join(PAGES, slug, f), join(dir, "src"), join(PAGES, slug));
-  write(join(dir, "src/demo.tsx"), `import Page from "./page";\nimport { AstryxFrame } from ${JSON.stringify(rel(join(dir, "src"), join(OUT, "frame")))};\n\nconst examples = [{ name: "page", title: ${JSON.stringify(doc.displayName ?? doc.name)}, component: Page }];\n\nexport default function Demo() {\n  return <AstryxFrame examples={examples} />;\n}\n`);
+  for (const f of files) await copySource(join(PAGES, slug, f), join(dir, "upstream"), join(PAGES, slug));
+  write(join(dir, "upstream/demo.tsx"), `import Page from "./page";\nimport { AstryxFrame } from ${JSON.stringify(rel(join(dir, "upstream"), join(OUT, "frame")))};\n\nconst examples = [{ name: "page", title: ${JSON.stringify(doc.displayName ?? doc.name)}, component: Page }];\n\nexport default function Demo() {\n  return <AstryxFrame examples={examples} />;\n}\n`);
   const use = firstSentence(doc.description);
-  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./src/demo";\n`);
+  write(join(dir, "reference.tsx"), `/* Use when: ${use.replaceAll("*/", "* /")} */\n\nexport { default } from "./upstream/demo";\n`);
   const used = [...new Set([...readFileSync(join(PAGES, slug, "page.tsx"), "utf8").matchAll(/import \{([^}]+)\} from '@astryxdesign\/core\/(\w+)'/g)].map((m) => m[2]))].sort();
   write(join(dir, "README.md"), `# ${doc.displayName ?? doc.name}
 
@@ -523,7 +523,7 @@ ${md(doc.description)}
 - Category: \`page\` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS snapshot
 - Framework: react
-- Entry point: \`src/page.tsx\`
+- Entry point: \`upstream/page.tsx\`
 - Nature: structural; reuse the page composition, hierarchy and density, not its sample data.
 - Added: ${ADDED}
 - Curation: pending
@@ -540,7 +540,7 @@ ${used.map((u) => `- ${u}`).join("\n")}
 
 ## Files
 
-${files.map((f) => `- \`src/${f}\``).join("\n")}
+${files.map((f) => `- \`upstream/${f}\``).join("\n")}
 - \`static/page.html\` — rendered markup
 - \`reference.tsx\` — dashboard entry point
 
@@ -556,13 +556,13 @@ const manifest = JSON.parse(readFileSync(join(THEME_SRC, "manifest.json"), "utf8
 for (const t of THEMES) {
   const meta = manifest.themes.find((m) => m.slug === t) ?? { displayName: t, description: "" };
   const dir = join(UI, "theme", `astryx-${t}`);
-  cpSync(join(THEME_SRC, t), join(dir, "src"), { recursive: true });
-  cpSync(nm(`theme-${t}/dist/theme.css`), join(dir, "src/theme.css"));
+  cpSync(join(THEME_SRC, t), join(dir, "upstream"), { recursive: true });
+  cpSync(nm(`theme-${t}/dist/theme.css`), join(dir, "upstream/theme.css"));
   const exportName = `${t}Theme`;
-  write(join(dir, "src/demo.tsx"), `import { ${exportName} } from "@astryxdesign/theme-${t}/built";\nimport Page from ${JSON.stringify(rel(join(dir, "src"), join(UI, "page/astryx-theme-showcase/src/page")))};\nimport { AstryxFrame } from ${JSON.stringify(rel(join(dir, "src"), join(OUT, "frame")))};\n\nconst examples = [{ name: "theme", title: ${JSON.stringify(meta.displayName)}, component: Page }];\n\nexport default function Demo() {\n  return <AstryxFrame examples={examples} theme={${exportName}} />;\n}\n`);
+  write(join(dir, "upstream/demo.tsx"), `import { ${exportName} } from "@astryxdesign/theme-${t}/built";\nimport Page from ${JSON.stringify(rel(join(dir, "upstream"), join(UI, "page/astryx-theme-showcase/upstream/page")))};\nimport { AstryxFrame } from ${JSON.stringify(rel(join(dir, "upstream"), join(OUT, "frame")))};\n\nconst examples = [{ name: "theme", title: ${JSON.stringify(meta.displayName)}, component: Page }];\n\nexport default function Demo() {\n  return <AstryxFrame examples={examples} theme={${exportName}} />;\n}\n`);
   const use = firstSentence(meta.description || `${meta.displayName} theme for Astryx.`);
-  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./src/demo";\n`);
-  const css = readFileSync(join(dir, "src/theme.css"), "utf8");
+  write(join(dir, "reference.tsx"), `/* Use when: ${use} */\n\nexport { default } from "./upstream/demo";\n`);
+  const css = readFileSync(join(dir, "upstream/theme.css"), "utf8");
   const pick = (name) => css.match(new RegExp(`${name}:\\s*([^;]+);`))?.[1]?.trim();
   const tokens = ["--font-family-body", "--font-family-heading", "--font-family-code", "--radius-element", "--radius-container", "--color-accent", "--color-background-body", "--color-text-primary"].map((k) => [k, pick(k)]).filter(([, v]) => v);
   write(join(dir, "README.md"), `# ${meta.displayName} theme
@@ -574,18 +574,18 @@ ${md(meta.description)}
 - Category: \`theme\` — decorative
 - Medium: CSS custom properties (built) + TypeScript theme source
 - Framework: css
-- Entry point: \`src/theme.css\`
+- Entry point: \`upstream/theme.css\`
 - Nature: decorative; supplies look-and-feel only — never lift layout or interaction from it.
 - Added: ${ADDED}
 - Curation: pending
 - Use when: ${use}
 - Provides: color, typography, radius, elevation and motion tokens scoped to \`[data-astryx-theme="${t}"]\`
-- Requires: \`src/theme.css\` after \`ui/_sources/astryx/css/astryx.css\`, and a \`data-astryx-theme="${t}"\` ancestor
+- Requires: \`upstream/theme.css\` after \`ui/_sources/astryx/css/astryx.css\`, and a \`data-astryx-theme="${t}"\` ancestor
 - Variants: default
 
 ## How an agent uses this reference
 
-- Any stack: link \`src/theme.css\` (or \`ui/_sources/astryx/css/themes/${t}.css\`) and put
+- Any stack: link \`upstream/theme.css\` (or \`ui/_sources/astryx/css/themes/${t}.css\`) and put
   \`data-astryx-theme="${t}"\` on the root; every Astryx token (\`--color-*\`, \`--text-*\`, \`--radius-*\`,
   \`--shadow-*\`) resolves to this theme. To take the palette only, copy the token values.
 - React: \`<Theme theme={${exportName}}>\` from \`@astryxdesign/theme-${t}/built\`.
@@ -597,8 +597,8 @@ ${tokens.map(([k, v]) => `- \`${k}\`: \`${v}\``).join("\n")}
 
 ## Files
 
-${readdirSync(join(dir, "src")).filter((f) => f !== "demo.tsx").map((f) => `- \`src/${f}\``).join("\n")}
-- \`src/demo.tsx\` — the Theme Showcase template rendered in this theme
+${readdirSync(join(dir, "upstream")).filter((f) => f !== "demo.tsx").map((f) => `- \`upstream/${f}\``).join("\n")}
+- \`upstream/demo.tsx\` — the Theme Showcase template rendered in this theme
 
 Upstream page: ${SITE}/themes?theme=${t}
 `);

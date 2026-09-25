@@ -7,7 +7,7 @@ A click-triggered overlay anchored to a button or trigger element. Use it for se
 - Category: `overlay` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Popover.tsx`
+- Entry point: `upstream/Popover.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A click-triggered overlay anchored to a button or trigger element. Use it for se
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ A click-triggered overlay anchored to a button or trigger element. Use it for se
 
 ## Examples
 
-- `src/examples/PopoverShowcase.tsx` — Popover · static: `static/PopoverShowcase.html`
-- `src/examples/PopoverBottomSheetAlternative.tsx` — Popover — Bottom Sheet Alternative: Opt-in BottomSheet alternative for compact touch surfaces where actions should use a modal presentation anchored to the bottom edge. · static: `static/PopoverBottomSheetAlternative.html`
-- `src/examples/PopoverConfirmAction.tsx` — Popover — Confirm Action: Inline confirmation popover for destructive actions with delete and cancel buttons. · static: `static/PopoverConfirmAction.html`
-- `src/examples/PopoverFilterPanel.tsx` — Popover — Filter Panel: Popover with checkbox filters and apply/reset actions. · static: `static/PopoverFilterPanel.html`
-- `src/examples/PopoverKeyboardShortcuts.tsx` — Popover — Keyboard Shortcuts: Popover displaying a list of keyboard shortcuts with key and description pairs. · static: `static/PopoverKeyboardShortcuts.html`
-- `src/examples/PopoverSettingsPanel.tsx` — Popover — Settings Panel: Popover with toggle switches for managing user preferences like notifications, dark mode, and sounds. · static: `static/PopoverSettingsPanel.html`
+- `upstream/examples/PopoverShowcase.tsx` — Popover · static: `static/PopoverShowcase.html`
+- `upstream/examples/PopoverBottomSheetAlternative.tsx` — Popover — Bottom Sheet Alternative: Opt-in BottomSheet alternative for compact touch surfaces where actions should use a modal presentation anchored to the bottom edge. · static: `static/PopoverBottomSheetAlternative.html`
+- `upstream/examples/PopoverConfirmAction.tsx` — Popover — Confirm Action: Inline confirmation popover for destructive actions with delete and cancel buttons. · static: `static/PopoverConfirmAction.html`
+- `upstream/examples/PopoverFilterPanel.tsx` — Popover — Filter Panel: Popover with checkbox filters and apply/reset actions. · static: `static/PopoverFilterPanel.html`
+- `upstream/examples/PopoverKeyboardShortcuts.tsx` — Popover — Keyboard Shortcuts: Popover displaying a list of keyboard shortcuts with key and description pairs. · static: `static/PopoverKeyboardShortcuts.html`
+- `upstream/examples/PopoverSettingsPanel.tsx` — Popover — Settings Panel: Popover with toggle switches for managing user preferences like notifications, dark mode, and sounds. · static: `static/PopoverSettingsPanel.html`
 
 ## Documentation
 
@@ -94,10 +94,10 @@ Styling hook class: `.astryx-popover`, `.astryx-popover-surface`
 
 ## Files
 
-- `src/Popover.doc.mjs`
-- `src/Popover.spec.md`
-- `src/Popover.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Popover.doc.mjs`
+- `upstream/Popover.spec.md`
+- `upstream/Popover.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Popover

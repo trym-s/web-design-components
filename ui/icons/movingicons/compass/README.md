@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/compass/src/compass.svelte`
+- Entry point: `ui/icons/movingicons/compass/upstream/compass.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/compass`
 - Registry: https://movingicons.dev/r/compass
-- Local source fallback: `ui/icons/movingicons/compass/src/compass.svelte`
+- Local source fallback: `ui/icons/movingicons/compass/upstream/compass.svelte`

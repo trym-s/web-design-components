@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/list-indented/src/list-indented.svg`
+- Entry point: `ui/icons/line-md/list-indented/upstream/list-indented.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/list-indented/src/list-indented.svg`
+- Local source: `ui/icons/line-md/list-indented/upstream/list-indented.svg`

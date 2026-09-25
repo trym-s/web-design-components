@@ -7,7 +7,7 @@ A customizable semi-circular gauge component for visualizing metrics and perform
 - Category: `data-visualization` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 + Motion; static HTML
 - Framework: react
-- Entry point: `src/examples/gauge-demo.tsx`
+- Entry point: `upstream/examples/gauge-demo.tsx`
 - Nature: structural; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -18,11 +18,11 @@ A customizable semi-circular gauge component for visualizing metrics and perform
 - Upstream: Chamaac UI · published
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/gauge.json`
 - Registry: https://www.chamaac.com/r/gauge.json
-- Local source fallback: `src/examples/gauge-demo.tsx`
+- Local source fallback: `upstream/examples/gauge-demo.tsx`
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/gauge.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Props
@@ -43,8 +43,8 @@ A customizable semi-circular gauge component for visualizing metrics and perform
 
 ## Files
 
-- `src/examples/gauge-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/gauge-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/sections/gauge

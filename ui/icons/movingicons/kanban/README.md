@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/kanban/src/kanban.svelte`
+- Entry point: `ui/icons/movingicons/kanban/upstream/kanban.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/kanban`
 - Registry: https://movingicons.dev/r/kanban
-- Local source fallback: `ui/icons/movingicons/kanban/src/kanban.svelte`
+- Local source fallback: `ui/icons/movingicons/kanban/upstream/kanban.svelte`

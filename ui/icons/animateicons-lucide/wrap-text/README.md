@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/wrap-text/src/wrap-text.tsx`
+- Entry point: `ui/icons/animateicons-lucide/wrap-text/upstream/wrap-text.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-wrap-text.json`
 - Registry: https://animateicons.in/r/lu-wrap-text.json
-- Local source fallback: `ui/icons/animateicons-lucide/wrap-text/src/wrap-text.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/wrap-text/upstream/wrap-text.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/sun-dim/src/sun-dim.vue`
+- Entry point: `ui/icons/lucide-motion-vue/sun-dim/upstream/sun-dim.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/sun-dim/src/sun-dim.vue`
+- Local source: `ui/icons/lucide-motion-vue/sun-dim/upstream/sun-dim.vue`

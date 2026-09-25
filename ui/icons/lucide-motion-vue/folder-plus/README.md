@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/folder-plus/src/folder-plus.vue`
+- Entry point: `ui/icons/lucide-motion-vue/folder-plus/upstream/folder-plus.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/folder-plus/src/folder-plus.vue`
+- Local source: `ui/icons/lucide-motion-vue/folder-plus/upstream/folder-plus.vue`

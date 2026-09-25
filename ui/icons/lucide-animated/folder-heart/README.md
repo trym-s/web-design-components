@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/folder-heart/src/folder-heart.tsx`
+- Entry point: `ui/icons/lucide-animated/folder-heart/upstream/folder-heart.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/folder-heart.json`
 - Registry: https://lucide-animated.com/r/folder-heart.json
-- Local source fallback: `ui/icons/lucide-animated/folder-heart/src/folder-heart.tsx`
+- Local source fallback: `ui/icons/lucide-animated/folder-heart/upstream/folder-heart.tsx`

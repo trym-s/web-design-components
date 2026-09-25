@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/arrow-turn-left-up/src/arrow-turn-left-up.tsx`
+- Entry point: `ui/icons/heroicons-animated/arrow-turn-left-up/upstream/arrow-turn-left-up.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/arrow-turn-left-up`
 - Registry: https://www.heroicons-animated.com/r/arrow-turn-left-up.json
-- Local source fallback: `ui/icons/heroicons-animated/arrow-turn-left-up/src/arrow-turn-left-up.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/arrow-turn-left-up/upstream/arrow-turn-left-up.tsx`

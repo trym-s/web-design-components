@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/align-center/src/align-center.tsx`
+- Entry point: `ui/icons/animateicons-lucide/align-center/upstream/align-center.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-align-center.json`
 - Registry: https://animateicons.in/r/lu-align-center.json
-- Local source fallback: `ui/icons/animateicons-lucide/align-center/src/align-center.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/align-center/upstream/align-center.tsx`

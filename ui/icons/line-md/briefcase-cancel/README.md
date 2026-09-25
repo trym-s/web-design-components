@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/briefcase-cancel/src/briefcase-cancel.svg`
+- Entry point: `ui/icons/line-md/briefcase-cancel/upstream/briefcase-cancel.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/briefcase-cancel/src/briefcase-cancel.svg`
+- Local source: `ui/icons/line-md/briefcase-cancel/upstream/briefcase-cancel.svg`

@@ -7,7 +7,7 @@ Displays a card with header, content, and footer.
 - Category: `surface` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/card.tsx`
+- Entry point: `upstream/ui/card.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays a card with header, content, and footer.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays a card with header, content, and footer.
 
 ## Documentation
 
-> Example `card-demo` — `src/examples/card-demo.tsx`, `static/card-demo.html`
+> Example `card-demo` — `upstream/examples/card-demo.tsx`, `static/card-demo.html`
 
 ## Installation
 
@@ -92,29 +92,29 @@ Card
 
 Use the `size="sm"` prop to set the size of the card to small. The small size variant uses smaller spacing.
 
-> Example `card-small` — `src/examples/card-small.tsx`, `static/card-small.html`
+> Example `card-small` — `upstream/examples/card-small.tsx`, `static/card-small.html`
 
 ## Spacing
 
 In addition to the `size` prop, you can use the `--card-spacing` CSS variable to control the spacing between sections and the inset of card parts.
 
-> Example `card-spacing` — `src/examples/card-spacing.tsx`, `static/card-spacing.html`
+> Example `card-spacing` — `upstream/examples/card-spacing.tsx`, `static/card-spacing.html`
 
 Use negative margins with `-mx-(--card-spacing)` to make content go edge to edge while keeping it aligned with the card inset. When the edge-to-edge content sits above a footer, use `-mb-(--card-spacing)` on `CardContent` to remove the section gap.
 
-> Example `card-edge-to-edge` — `src/examples/card-edge-to-edge.tsx`, `static/card-edge-to-edge.html`
+> Example `card-edge-to-edge` — `upstream/examples/card-edge-to-edge.tsx`, `static/card-edge-to-edge.html`
 
 ## Image
 
 Add an image before the card header to create a card with an image.
 
-> Example `card-image` — `src/examples/card-image.tsx`, `static/card-image.html`
+> Example `card-image` — `upstream/examples/card-image.tsx`, `static/card-image.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `card-rtl` — `src/examples/card-rtl.tsx`, `static/card-rtl.html`
+> Example `card-rtl` — `upstream/examples/card-rtl.tsx`, `static/card-rtl.html`
 
 ## API Reference
 
@@ -240,13 +240,13 @@ function Example() {
 
 ## Files
 
-- `src/ui/card.tsx` — the ui file as the registry installs it
-- `src/examples/card-demo.tsx`
-- `src/examples/card-small.tsx`
-- `src/examples/card-spacing.tsx`
-- `src/examples/card-edge-to-edge.tsx`
-- `src/examples/card-image.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/card.tsx` — the ui file as the registry installs it
+- `upstream/examples/card-demo.tsx`
+- `upstream/examples/card-small.tsx`
+- `upstream/examples/card-spacing.tsx`
+- `upstream/examples/card-edge-to-edge.tsx`
+- `upstream/examples/card-image.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/card

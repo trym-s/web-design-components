@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/arrow-close-down/src/arrow-close-down.svg`
+- Entry point: `ui/icons/line-md/arrow-close-down/upstream/arrow-close-down.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/arrow-close-down/src/arrow-close-down.svg`
+- Local source: `ui/icons/line-md/arrow-close-down/upstream/arrow-close-down.svg`

@@ -7,7 +7,7 @@ Wraps a subtree with a specific Astryx theme. For static production themes, use 
 - Category: `utility` — functional
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Theme.tsx`
+- Entry point: `upstream/Theme.tsx`
 - Nature: functional; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Wraps a subtree with a specific Astryx theme. For static production themes, use 
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ Wraps a subtree with a specific Astryx theme. For static production themes, use 
 
 ## Examples
 
-- `src/examples/ThemeShowcase.tsx` — Theme — Distinct Themes: Two visually distinct theme providers wrapping identical content to show how Theme changes the visual treatment of child components. · static: `static/ThemeShowcase.html`
-- `src/examples/ThemeApply.tsx` — Theme — Apply Theme: Wrap a subtree in Theme to apply a theme to every child component in that region. · static: `static/ThemeApply.html`
-- `src/examples/ThemeNested.tsx` — Theme — Nested Theme: Nested Theme providers let a local region use a different theme without affecting the rest of the page. · static: `static/ThemeNested.html`
-- `src/examples/ThemeSwitcher.tsx` — Theme — Switch Themes: Use state to switch the theme object passed to Theme and preview a different visual treatment. · static: `static/ThemeSwitcher.html`
+- `upstream/examples/ThemeShowcase.tsx` — Theme — Distinct Themes: Two visually distinct theme providers wrapping identical content to show how Theme changes the visual treatment of child components. · static: `static/ThemeShowcase.html`
+- `upstream/examples/ThemeApply.tsx` — Theme — Apply Theme: Wrap a subtree in Theme to apply a theme to every child component in that region. · static: `static/ThemeApply.html`
+- `upstream/examples/ThemeNested.tsx` — Theme — Nested Theme: Nested Theme providers let a local region use a different theme without affecting the rest of the page. · static: `static/ThemeNested.html`
+- `upstream/examples/ThemeSwitcher.tsx` — Theme — Switch Themes: Use state to switch the theme object passed to Theme and preview a different visual treatment. · static: `static/ThemeSwitcher.html`
 
 ## Documentation
 
@@ -64,9 +64,9 @@ Wraps a subtree with a specific Astryx theme. For static production themes, use 
 
 ## Files
 
-- `src/Theme.doc.mjs`
-- `src/Theme.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Theme.doc.mjs`
+- `upstream/Theme.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Theme

@@ -7,7 +7,7 @@ Use ComplexSelector when a selection needs richer custom content than a Selector
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ComplexSelector.tsx`
+- Entry point: `upstream/ComplexSelector.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Use ComplexSelector when a selection needs richer custom content than a Selector
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,9 +33,9 @@ Use ComplexSelector when a selection needs richer custom content than a Selector
 
 ## Examples
 
-- `src/examples/ComplexSelectorShowcase.tsx` — Complex Selector: A two-axis picker: choose a fruit and a ripeness level from one control. ComplexSelector owns the trigger, popover, and focus restore while the custom grid owns its keyboard semantics. · static: `static/ComplexSelectorShowcase.html`
-- `src/examples/ComplexSelectorDeadlinePicker.tsx` — Complex Selector — Deadline Picker: A multi-step deadline field: pick a preset like Today or Next week, or switch to a custom date and time before applying. The popup stays open until the user commits, so the content owns the Apply action. · static: `static/ComplexSelectorDeadlinePicker.html`
-- `src/examples/ComplexSelectorTreeSearch.tsx` — Complex Selector — Tree Search: A destination picker that combines a search field with a TreeList hierarchy. TreeList owns tree keyboard navigation; ComplexSelector owns the trigger, popover, and focus restore. Selecting a folder closes the popup. · static: `static/ComplexSelectorTreeSearch.html`
+- `upstream/examples/ComplexSelectorShowcase.tsx` — Complex Selector: A two-axis picker: choose a fruit and a ripeness level from one control. ComplexSelector owns the trigger, popover, and focus restore while the custom grid owns its keyboard semantics. · static: `static/ComplexSelectorShowcase.html`
+- `upstream/examples/ComplexSelectorDeadlinePicker.tsx` — Complex Selector — Deadline Picker: A multi-step deadline field: pick a preset like Today or Next week, or switch to a custom date and time before applying. The popup stays open until the user commits, so the content owns the Apply action. · static: `static/ComplexSelectorDeadlinePicker.html`
+- `upstream/examples/ComplexSelectorTreeSearch.tsx` — Complex Selector — Tree Search: A destination picker that combines a search field with a TreeList hierarchy. TreeList owns tree keyboard navigation; ComplexSelector owns the trigger, popover, and focus restore. Selecting a folder closes the popup. · static: `static/ComplexSelectorTreeSearch.html`
 
 ## Documentation
 
@@ -71,10 +71,10 @@ Styling hook class: `.astryx-complex-selector`, `.astryx-complex-selector-indica
 
 ## Files
 
-- `src/ComplexSelector.doc.mjs`
-- `src/ComplexSelector.spec.md`
-- `src/ComplexSelector.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ComplexSelector.doc.mjs`
+- `upstream/ComplexSelector.spec.md`
+- `upstream/ComplexSelector.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ComplexSelector

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-opened/src/email-opened.svg`
+- Entry point: `ui/icons/line-md/email-opened/upstream/email-opened.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-opened/src/email-opened.svg`
+- Local source: `ui/icons/line-md/email-opened/upstream/email-opened.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/chamaac-icons/edit-icon/src/edit-icon.tsx`
+- Entry point: `ui/icons/chamaac-icons/edit-icon/upstream/edit-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/chamaac-icons/edit-icon/src/edit-icon.tsx`
+- Local source: `ui/icons/chamaac-icons/edit-icon/upstream/edit-icon.tsx`

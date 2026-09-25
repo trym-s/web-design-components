@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/file-stack/src/file-stack.svelte`
+- Entry point: `ui/icons/movingicons/file-stack/upstream/file-stack.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/file-stack`
 - Registry: https://movingicons.dev/r/file-stack
-- Local source fallback: `ui/icons/movingicons/file-stack/src/file-stack.svelte`
+- Local source fallback: `ui/icons/movingicons/file-stack/upstream/file-stack.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/square-chevron-left/src/square-chevron-left.svelte`
+- Entry point: `ui/icons/movingicons/square-chevron-left/upstream/square-chevron-left.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/square-chevron-left`
 - Registry: https://movingicons.dev/r/square-chevron-left
-- Local source fallback: `ui/icons/movingicons/square-chevron-left/src/square-chevron-left.svelte`
+- Local source fallback: `ui/icons/movingicons/square-chevron-left/upstream/square-chevron-left.svelte`

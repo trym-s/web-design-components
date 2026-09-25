@@ -7,7 +7,7 @@ An animated button with a slide-up text effect on hover.
 - Category: `action-feedback` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 + Motion; static HTML
 - Framework: react
-- Entry point: `src/examples/slide-up-button-demo.tsx`
+- Entry point: `upstream/examples/slide-up-button-demo.tsx`
 - Nature: interactive; reuse the effect, motion and composition, adapt literal values to the target project.
 - Added: 2026-09-25T08:24:04Z
 - Curation: pending
@@ -22,7 +22,7 @@ An animated button with a slide-up text effect on hover.
 
 ## How an agent uses this reference
 
-- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `src/examples/`, changing only import paths.
+- **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/slideup-button.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
 ## Props
@@ -41,8 +41,8 @@ An animated button with a slide-up text effect on hover.
 ## Files
 
 - `ui/_sources/chamaac/registry/chamaac/slideup-button/slideup-button.tsx` — the component as the registry installs it
-- `src/examples/slide-up-button-demo.tsx` — the site's demo
-- `src/demo.tsx` — bank harness
+- `upstream/examples/slide-up-button-demo.tsx` — the site's demo
+- `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/buttons/slideup-button

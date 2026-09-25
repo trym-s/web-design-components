@@ -7,7 +7,7 @@ Use the Empty component to display an empty state.
 - Category: `content` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/empty.tsx`
+- Entry point: `upstream/ui/empty.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Use the Empty component to display an empty state.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Use the Empty component to display an empty state.
 
 ## Documentation
 
-> Example `empty-demo` — `src/examples/empty-demo.tsx`, `static/empty-demo.html`
+> Example `empty-demo` — `upstream/examples/empty-demo.tsx`, `static/empty-demo.html`
 
 ## Installation
 
@@ -89,37 +89,37 @@ Empty
 
 Use the `border` utility class to create an outline empty state.
 
-> Example `empty-outline` — `src/examples/empty-outline.tsx`, `static/empty-outline.html`
+> Example `empty-outline` — `upstream/examples/empty-outline.tsx`, `static/empty-outline.html`
 
 ## Background
 
 Use the `bg-*` and `bg-gradient-*` utilities to add a background to the empty state.
 
-> Example `empty-background` — `src/examples/empty-background.tsx`, `static/empty-background.html`
+> Example `empty-background` — `upstream/examples/empty-background.tsx`, `static/empty-background.html`
 
 ## Avatar
 
 Use the `EmptyMedia` component to display an avatar in the empty state.
 
-> Example `empty-avatar` — `src/examples/empty-avatar.tsx`, `static/empty-avatar.html`
+> Example `empty-avatar` — `upstream/examples/empty-avatar.tsx`, `static/empty-avatar.html`
 
 ## Avatar Group
 
 Use the `EmptyMedia` component to display an avatar group in the empty state.
 
-> Example `empty-avatar-group` — `src/examples/empty-avatar-group.tsx`, `static/empty-avatar-group.html`
+> Example `empty-avatar-group` — `upstream/examples/empty-avatar-group.tsx`, `static/empty-avatar-group.html`
 
 ## InputGroup
 
 You can add an `InputGroup` component to the `EmptyContent` component.
 
-> Example `empty-input-group` — `src/examples/empty-input-group.tsx`, `static/empty-input-group.html`
+> Example `empty-input-group` — `upstream/examples/empty-input-group.tsx`, `static/empty-input-group.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `empty-rtl` — `src/examples/empty-rtl.tsx`, `static/empty-rtl.html`
+> Example `empty-rtl` — `upstream/examples/empty-rtl.tsx`, `static/empty-rtl.html`
 
 ## API Reference
 
@@ -218,15 +218,15 @@ Use the `EmptyContent` component to display the content of the empty state such 
 
 ## Files
 
-- `src/ui/empty.tsx` — the ui file as the registry installs it
-- `src/examples/empty-demo.tsx`
-- `src/examples/empty-outline.tsx`
-- `src/examples/empty-background.tsx`
-- `src/examples/empty-avatar.tsx`
-- `src/examples/empty-avatar-group.tsx`
-- `src/examples/empty-input-group.tsx`
-- `src/examples/empty-card.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/empty.tsx` — the ui file as the registry installs it
+- `upstream/examples/empty-demo.tsx`
+- `upstream/examples/empty-outline.tsx`
+- `upstream/examples/empty-background.tsx`
+- `upstream/examples/empty-avatar.tsx`
+- `upstream/examples/empty-avatar-group.tsx`
+- `upstream/examples/empty-input-group.tsx`
+- `upstream/examples/empty-card.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/empty

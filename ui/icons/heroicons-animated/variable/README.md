@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/variable/src/variable.tsx`
+- Entry point: `ui/icons/heroicons-animated/variable/upstream/variable.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/variable`
 - Registry: https://www.heroicons-animated.com/r/variable.json
-- Local source fallback: `ui/icons/heroicons-animated/variable/src/variable.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/variable/upstream/variable.tsx`

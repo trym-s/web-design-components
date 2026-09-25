@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/circle-filled/src/circle-filled.svg`
+- Entry point: `ui/icons/line-md/circle-filled/upstream/circle-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/circle-filled/src/circle-filled.svg`
+- Local source: `ui/icons/line-md/circle-filled/upstream/circle-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/blocks/src/blocks.vue`
+- Entry point: `ui/icons/lucide-motion-vue/blocks/upstream/blocks.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/blocks/src/blocks.vue`
+- Local source: `ui/icons/lucide-motion-vue/blocks/upstream/blocks.vue`

@@ -7,7 +7,7 @@ CheckboxList shows a small group of checkboxes so users can turn several options
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/CheckboxList.tsx`
+- Entry point: `upstream/CheckboxList.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ CheckboxList shows a small group of checkboxes so users can turn several options
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,11 +33,11 @@ CheckboxList shows a small group of checkboxes so users can turn several options
 
 ## Examples
 
-- `src/examples/CheckboxListItemShowcase.tsx` — Checkbox List Item: Checkbox list items with labels, descriptions, and different states including disabled. · static: `static/CheckboxListItemShowcase.html`
-- `src/examples/CheckboxListShowcase.tsx` — Checkbox List · static: `static/CheckboxListShowcase.html`
-- `src/examples/CheckboxListItemBasic.tsx` — CheckboxListItem — Basic: Checkbox items with labels and descriptions inside a controlled CheckboxList. Use for multi-select option groups like notification preferences. · static: `static/CheckboxListItemBasic.html`
-- `src/examples/CheckboxListSelectAllPattern.tsx` — CheckboxList — Select All With Indeterminate: A "select all" toggle at the top of a checkbox list that switches to an indeterminate dash when only some items are checked, useful for bulk actions like exporting documents or assigning permissions where users often want everything at once. · static: `static/CheckboxListSelectAllPattern.html`
-- `src/examples/CheckboxListWithEndContent.tsx` — CheckboxList — With End Content: Badges in the trailing slot show contextual info, like a price or status, next to each option without cluttering the label, so users can compare choices at a glance. · static: `static/CheckboxListWithEndContent.html`
+- `upstream/examples/CheckboxListItemShowcase.tsx` — Checkbox List Item: Checkbox list items with labels, descriptions, and different states including disabled. · static: `static/CheckboxListItemShowcase.html`
+- `upstream/examples/CheckboxListShowcase.tsx` — Checkbox List · static: `static/CheckboxListShowcase.html`
+- `upstream/examples/CheckboxListItemBasic.tsx` — CheckboxListItem — Basic: Checkbox items with labels and descriptions inside a controlled CheckboxList. Use for multi-select option groups like notification preferences. · static: `static/CheckboxListItemBasic.html`
+- `upstream/examples/CheckboxListSelectAllPattern.tsx` — CheckboxList — Select All With Indeterminate: A "select all" toggle at the top of a checkbox list that switches to an indeterminate dash when only some items are checked, useful for bulk actions like exporting documents or assigning permissions where users often want everything at once. · static: `static/CheckboxListSelectAllPattern.html`
+- `upstream/examples/CheckboxListWithEndContent.tsx` — CheckboxList — With End Content: Badges in the trailing slot show contextual info, like a price or status, next to each option without cluttering the label, so users can compare choices at a glance. · static: `static/CheckboxListWithEndContent.html`
 
 ## Documentation
 
@@ -138,13 +138,13 @@ Styling hook class: `.astryx-checkbox-list`
 
 ## Files
 
-- `src/CheckboxList.doc.mjs`
-- `src/CheckboxList.spec.md`
-- `src/CheckboxList.tsx`
-- `src/CheckboxListContext.tsx`
-- `src/CheckboxListItem.doc.mjs`
-- `src/CheckboxListItem.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/CheckboxList.doc.mjs`
+- `upstream/CheckboxList.spec.md`
+- `upstream/CheckboxList.tsx`
+- `upstream/CheckboxListContext.tsx`
+- `upstream/CheckboxListItem.doc.mjs`
+- `upstream/CheckboxListItem.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/CheckboxList

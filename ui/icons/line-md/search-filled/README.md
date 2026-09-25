@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/search-filled/src/search-filled.svg`
+- Entry point: `ui/icons/line-md/search-filled/upstream/search-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/search-filled/src/search-filled.svg`
+- Local source: `ui/icons/line-md/search-filled/upstream/search-filled.svg`

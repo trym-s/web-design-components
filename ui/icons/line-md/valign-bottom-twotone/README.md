@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/valign-bottom-twotone/src/valign-bottom-twotone.svg`
+- Entry point: `ui/icons/line-md/valign-bottom-twotone/upstream/valign-bottom-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/valign-bottom-twotone/src/valign-bottom-twotone.svg`
+- Local source: `ui/icons/line-md/valign-bottom-twotone/upstream/valign-bottom-twotone.svg`

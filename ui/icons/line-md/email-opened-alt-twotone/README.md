@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-opened-alt-twotone/src/email-opened-alt-twotone.svg`
+- Entry point: `ui/icons/line-md/email-opened-alt-twotone/upstream/email-opened-alt-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-opened-alt-twotone/src/email-opened-alt-twotone.svg`
+- Local source: `ui/icons/line-md/email-opened-alt-twotone/upstream/email-opened-alt-twotone.svg`

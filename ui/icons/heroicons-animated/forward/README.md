@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/heroicons-animated/forward/src/forward.tsx`
+- Entry point: `ui/icons/heroicons-animated/forward/upstream/forward.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add @heroicons-animated/forward`
 - Registry: https://www.heroicons-animated.com/r/forward.json
-- Local source fallback: `ui/icons/heroicons-animated/forward/src/forward.tsx`
+- Local source fallback: `ui/icons/heroicons-animated/forward/upstream/forward.tsx`

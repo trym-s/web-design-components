@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/paint-drop/src/paint-drop.svg`
+- Entry point: `ui/icons/line-md/paint-drop/upstream/paint-drop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/paint-drop/src/paint-drop.svg`
+- Local source: `ui/icons/line-md/paint-drop/upstream/paint-drop.svg`

@@ -2,7 +2,7 @@
 
 "use client";
 
-import { SquirclePlayground } from "./src/squircle/playground";
+import { SquirclePlayground } from "./upstream/squircle/playground";
 
 export default function Reference() {
   return <SquirclePlayground />;

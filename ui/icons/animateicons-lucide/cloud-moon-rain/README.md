@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/cloud-moon-rain/src/cloud-moon-rain.tsx`
+- Entry point: `ui/icons/animateicons-lucide/cloud-moon-rain/upstream/cloud-moon-rain.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-cloud-moon-rain.json`
 - Registry: https://animateicons.in/r/lu-cloud-moon-rain.json
-- Local source fallback: `ui/icons/animateicons-lucide/cloud-moon-rain/src/cloud-moon-rain.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/cloud-moon-rain/upstream/cloud-moon-rain.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/moon-alt-off-filled/src/moon-alt-off-filled.svg`
+- Entry point: `ui/icons/line-md/moon-alt-off-filled/upstream/moon-alt-off-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/moon-alt-off-filled/src/moon-alt-off-filled.svg`
+- Local source: `ui/icons/line-md/moon-alt-off-filled/upstream/moon-alt-off-filled.svg`

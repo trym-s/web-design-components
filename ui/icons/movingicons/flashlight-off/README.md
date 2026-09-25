@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/flashlight-off/src/flashlight-off.svelte`
+- Entry point: `ui/icons/movingicons/flashlight-off/upstream/flashlight-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/flashlight-off`
 - Registry: https://movingicons.dev/r/flashlight-off
-- Local source fallback: `ui/icons/movingicons/flashlight-off/src/flashlight-off.svelte`
+- Local source fallback: `ui/icons/movingicons/flashlight-off/upstream/flashlight-off.svelte`

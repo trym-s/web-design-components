@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/alarm-clock-off/src/alarm-clock-off.tsx`
+- Entry point: `ui/icons/animateicons-lucide/alarm-clock-off/upstream/alarm-clock-off.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-alarm-clock-off.json`
 - Registry: https://animateicons.in/r/lu-alarm-clock-off.json
-- Local source fallback: `ui/icons/animateicons-lucide/alarm-clock-off/src/alarm-clock-off.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/alarm-clock-off/upstream/alarm-clock-off.tsx`

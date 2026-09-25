@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/snapchat-icon/src/snapchat-icon.tsx`
+- Entry point: `ui/icons/itshover/snapchat-icon/upstream/snapchat-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/snapchat-icon.json`
 - Registry: https://itshover.com/r/snapchat-icon.json
-- Local source fallback: `ui/icons/itshover/snapchat-icon/src/snapchat-icon.tsx`
+- Local source fallback: `ui/icons/itshover/snapchat-icon/upstream/snapchat-icon.tsx`

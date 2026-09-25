@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/monitor-off-filled/src/monitor-off-filled.svg`
+- Entry point: `ui/icons/line-md/monitor-off-filled/upstream/monitor-off-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/monitor-off-filled/src/monitor-off-filled.svg`
+- Local source: `ui/icons/line-md/monitor-off-filled/upstream/monitor-off-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/bookmark-icon/src/bookmark-icon.tsx`
+- Entry point: `ui/icons/itshover/bookmark-icon/upstream/bookmark-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/bookmark-icon.json`
 - Registry: https://itshover.com/r/bookmark-icon.json
-- Local source fallback: `ui/icons/itshover/bookmark-icon/src/bookmark-icon.tsx`
+- Local source fallback: `ui/icons/itshover/bookmark-icon/upstream/bookmark-icon.tsx`

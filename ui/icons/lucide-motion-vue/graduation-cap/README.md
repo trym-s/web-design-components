@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/graduation-cap/src/graduation-cap.vue`
+- Entry point: `ui/icons/lucide-motion-vue/graduation-cap/upstream/graduation-cap.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/graduation-cap/src/graduation-cap.vue`
+- Local source: `ui/icons/lucide-motion-vue/graduation-cap/upstream/graduation-cap.vue`

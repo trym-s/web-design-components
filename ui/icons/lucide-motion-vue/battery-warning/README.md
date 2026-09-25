@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/battery-warning/src/battery-warning.vue`
+- Entry point: `ui/icons/lucide-motion-vue/battery-warning/upstream/battery-warning.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/battery-warning/src/battery-warning.vue`
+- Local source: `ui/icons/lucide-motion-vue/battery-warning/upstream/battery-warning.vue`

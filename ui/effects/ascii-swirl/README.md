@@ -8,31 +8,31 @@
 
 - Category: `effects` — decorative
 - Medium: 2D canvas + glyph atlas
-- Entry point: `src/swirl/playground.tsx`
+- Entry point: `upstream/swirl/playground.tsx`
 - Nature: visual-only; it carries no UX flow of its own. Reuse the look, not the layout.
 
 ## Files
 
-- `src/swirl/playground.tsx`
-- `src/swirl/experiments.tsx`
-- `src/swirl/controls.tsx`
-- `src/swirl/use-swirl-stage.ts`
-- `src/swirl/renderer.ts`
-- `src/swirl/glyph-atlas.ts`
-- `src/swirl/vortex-field.ts`
-- `src/swirl/trail-field.ts`
-- `src/swirl/crt-pass.ts`
-- `src/swirl/block-font.ts`
-- `src/swirl/figlet-fonts.ts`
-- `src/swirl/resolver.ts`
-- `src/swirl/color.ts`
-- `src/swirl/default-text.ts`
-- `src/swirl/experiment-stage.tsx`
+- `upstream/swirl/playground.tsx`
+- `upstream/swirl/experiments.tsx`
+- `upstream/swirl/controls.tsx`
+- `upstream/swirl/use-swirl-stage.ts`
+- `upstream/swirl/renderer.ts`
+- `upstream/swirl/glyph-atlas.ts`
+- `upstream/swirl/vortex-field.ts`
+- `upstream/swirl/trail-field.ts`
+- `upstream/swirl/crt-pass.ts`
+- `upstream/swirl/block-font.ts`
+- `upstream/swirl/figlet-fonts.ts`
+- `upstream/swirl/resolver.ts`
+- `upstream/swirl/color.ts`
+- `upstream/swirl/default-text.ts`
+- `upstream/swirl/experiment-stage.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/midjourney

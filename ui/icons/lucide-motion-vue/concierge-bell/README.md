@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/concierge-bell/src/concierge-bell.vue`
+- Entry point: `ui/icons/lucide-motion-vue/concierge-bell/upstream/concierge-bell.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/concierge-bell/src/concierge-bell.vue`
+- Local source: `ui/icons/lucide-motion-vue/concierge-bell/upstream/concierge-bell.vue`

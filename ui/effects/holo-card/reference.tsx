@@ -2,7 +2,7 @@
 
 "use client";
 
-import { HoloCard } from "./src/holo/HoloCard";
+import { HoloCard } from "./upstream/holo/HoloCard";
 
 export default function Reference() {
   return <HoloCard />;

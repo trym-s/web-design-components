@@ -22,19 +22,19 @@ A composable audio player. One component, one install, fully owned by you.
 ## How an agent uses this reference
 
 - **React + shadcn target** — add the `@audio` registry (`https://audio-ui.xyz/docs/registry`) and install as above; the demos in
-  `src/examples/` show the exact usage. The elements live in `ui/_sources/audio-ui/registry-audio/bases/base/audio/`.
+  `upstream/examples/` show the exact usage. The elements live in `ui/_sources/audio-ui/registry-audio/bases/base/audio/`.
 - **Any other stack** — `static/<example>.html` is the rendered DOM against `ui/_sources/audio-ui/styles.css` (the
   site's Tailwind build with the Nova style); keep the markup, re-implement drag/keyboard behavior from the docs.
 
 ## Examples
 
-- `src/examples/player-playback-speed-demo.tsx` — Playback speed component example · static: `static/player-playback-speed-demo.html`
+- `upstream/examples/player-playback-speed-demo.tsx` — Playback speed component example · static: `static/player-playback-speed-demo.html`
 
 ## Files
 
 - `ui/_sources/audio-ui/registry-audio/bases/base/audio/player.tsx` — the element as the registry installs it
 - `ui/_sources/audio-ui/registry-audio/bases/base/hooks/use-audio-provider.ts` — the element as the registry installs it
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://audio-ui.xyz/docs/components/base/player

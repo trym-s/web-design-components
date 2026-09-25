@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/car-light-alert/src/car-light-alert.svg`
+- Entry point: `ui/icons/line-md/car-light-alert/upstream/car-light-alert.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/car-light-alert/src/car-light-alert.svg`
+- Local source: `ui/icons/line-md/car-light-alert/upstream/car-light-alert.svg`

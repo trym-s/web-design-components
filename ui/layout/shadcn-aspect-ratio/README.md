@@ -7,7 +7,7 @@ Displays content within a desired ratio.
 - Category: `layout` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/aspect-ratio.tsx`
+- Entry point: `upstream/ui/aspect-ratio.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ Displays content within a desired ratio.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ Displays content within a desired ratio.
 
 ## Documentation
 
-> Example `aspect-ratio-demo` — `src/examples/aspect-ratio-demo.tsx`, `static/aspect-ratio-demo.html`
+> Example `aspect-ratio-demo` — `upstream/examples/aspect-ratio-demo.tsx`, `static/aspect-ratio-demo.html`
 
 ## Installation
 
@@ -66,19 +66,19 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 A square aspect ratio component using the `ratio={1 / 1}` prop. This is useful for displaying images in a square format.
 
-> Example `aspect-ratio-square` — `src/examples/aspect-ratio-square.tsx`, `static/aspect-ratio-square.html`
+> Example `aspect-ratio-square` — `upstream/examples/aspect-ratio-square.tsx`, `static/aspect-ratio-square.html`
 
 ## Portrait
 
 A portrait aspect ratio component using the `ratio={9 / 16}` prop. This is useful for displaying images in a portrait format.
 
-> Example `aspect-ratio-portrait` — `src/examples/aspect-ratio-portrait.tsx`, `static/aspect-ratio-portrait.html`
+> Example `aspect-ratio-portrait` — `upstream/examples/aspect-ratio-portrait.tsx`, `static/aspect-ratio-portrait.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `aspect-ratio-rtl` — `src/examples/aspect-ratio-rtl.tsx`, `static/aspect-ratio-rtl.html`
+> Example `aspect-ratio-rtl` — `upstream/examples/aspect-ratio-rtl.tsx`, `static/aspect-ratio-rtl.html`
 
 ## API Reference
 
@@ -95,11 +95,11 @@ For more information, see the [Radix UI documentation](https://www.radix-ui.com/
 
 ## Files
 
-- `src/ui/aspect-ratio.tsx` — the ui file as the registry installs it
-- `src/examples/aspect-ratio-demo.tsx`
-- `src/examples/aspect-ratio-square.tsx`
-- `src/examples/aspect-ratio-portrait.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/aspect-ratio.tsx` — the ui file as the registry installs it
+- `upstream/examples/aspect-ratio-demo.tsx`
+- `upstream/examples/aspect-ratio-square.tsx`
+- `upstream/examples/aspect-ratio-portrait.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/aspect-ratio

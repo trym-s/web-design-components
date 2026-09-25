@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/lightbulb-off-filled-loop/src/lightbulb-off-filled-loop.svg`
+- Entry point: `ui/icons/line-md/lightbulb-off-filled-loop/upstream/lightbulb-off-filled-loop.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/lightbulb-off-filled-loop/src/lightbulb-off-filled-loop.svg`
+- Local source: `ui/icons/line-md/lightbulb-off-filled-loop/upstream/lightbulb-off-filled-loop.svg`

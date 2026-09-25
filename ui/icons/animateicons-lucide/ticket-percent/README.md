@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/ticket-percent/src/ticket-percent.tsx`
+- Entry point: `ui/icons/animateicons-lucide/ticket-percent/upstream/ticket-percent.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-ticket-percent.json`
 - Registry: https://animateicons.in/r/lu-ticket-percent.json
-- Local source fallback: `ui/icons/animateicons-lucide/ticket-percent/src/ticket-percent.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/ticket-percent/upstream/ticket-percent.tsx`

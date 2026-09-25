@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/email-opened-alt-filled/src/email-opened-alt-filled.svg`
+- Entry point: `ui/icons/line-md/email-opened-alt-filled/upstream/email-opened-alt-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/email-opened-alt-filled/src/email-opened-alt-filled.svg`
+- Local source: `ui/icons/line-md/email-opened-alt-filled/upstream/email-opened-alt-filled.svg`

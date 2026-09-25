@@ -7,7 +7,7 @@ AppShell is the page shell for an application. It provides slots for top navigat
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/AppShell.tsx`
+- Entry point: `upstream/AppShell.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ AppShell is the page shell for an application. It provides slots for top navigat
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,12 +33,12 @@ AppShell is the page shell for an application. It provides slots for top navigat
 
 ## Examples
 
-- `src/examples/AppShellShowcase.tsx` — App Shell: A basic app shell with content padding. · static: `static/AppShellShowcase.html`
-- `src/examples/AppShellContentOnly.tsx` — AppShell — Content Only: Minimal shell with no navigation, useful for full-bleed pages, auth screens, or embedded views. · static: `static/AppShellContentOnly.html`
-- `src/examples/AppShellSideNavOnly.tsx` — AppShell — Side Nav Only: App shell with SideNav header providing app identity, no TopNav needed. · static: `static/AppShellSideNavOnly.html`
-- `src/examples/AppShellTopNavOnly.tsx` — AppShell — Top Nav Only: Simple layout with TopNav and no side navigation, suitable for landing pages. · static: `static/AppShellTopNavOnly.html`
-- `src/examples/AppShellTopNavWithSideNav.tsx` — AppShell — Top Nav with Side Nav: The most common layout with TopNav for app identity and SideNav for page-level navigation. · static: `static/AppShellTopNavWithSideNav.html`
-- `src/examples/AppShellWithBanner.tsx` — AppShell — With Banner: Full layout with TopNav, SideNav, and a dismissable info banner between the nav and content. · static: `static/AppShellWithBanner.html`
+- `upstream/examples/AppShellShowcase.tsx` — App Shell: A basic app shell with content padding. · static: `static/AppShellShowcase.html`
+- `upstream/examples/AppShellContentOnly.tsx` — AppShell — Content Only: Minimal shell with no navigation, useful for full-bleed pages, auth screens, or embedded views. · static: `static/AppShellContentOnly.html`
+- `upstream/examples/AppShellSideNavOnly.tsx` — AppShell — Side Nav Only: App shell with SideNav header providing app identity, no TopNav needed. · static: `static/AppShellSideNavOnly.html`
+- `upstream/examples/AppShellTopNavOnly.tsx` — AppShell — Top Nav Only: Simple layout with TopNav and no side navigation, suitable for landing pages. · static: `static/AppShellTopNavOnly.html`
+- `upstream/examples/AppShellTopNavWithSideNav.tsx` — AppShell — Top Nav with Side Nav: The most common layout with TopNav for app identity and SideNav for page-level navigation. · static: `static/AppShellTopNavWithSideNav.html`
+- `upstream/examples/AppShellWithBanner.tsx` — AppShell — With Banner: Full layout with TopNav, SideNav, and a dismissable info banner between the nav and content. · static: `static/AppShellWithBanner.html`
 
 ## Documentation
 
@@ -117,10 +117,10 @@ Styling hook class: `.astryx-app-shell`, `.astryx-app-shell-header`, `.astryx-ap
 
 ## Files
 
-- `src/AppShell.doc.mjs`
-- `src/AppShell.tsx`
-- `src/AppShellMobileContext.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/AppShell.doc.mjs`
+- `upstream/AppShell.tsx`
+- `upstream/AppShellMobileContext.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/AppShell

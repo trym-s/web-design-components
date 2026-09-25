@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/briefcase-cancel-twotone/src/briefcase-cancel-twotone.svg`
+- Entry point: `ui/icons/line-md/briefcase-cancel-twotone/upstream/briefcase-cancel-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/briefcase-cancel-twotone/src/briefcase-cancel-twotone.svg`
+- Local source: `ui/icons/line-md/briefcase-cancel-twotone/upstream/briefcase-cancel-twotone.svg`

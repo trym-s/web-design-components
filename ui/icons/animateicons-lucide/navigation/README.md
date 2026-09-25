@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/navigation/src/navigation.tsx`
+- Entry point: `ui/icons/animateicons-lucide/navigation/upstream/navigation.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-navigation.json`
 - Registry: https://animateicons.in/r/lu-navigation.json
-- Local source fallback: `ui/icons/animateicons-lucide/navigation/src/navigation.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/navigation/upstream/navigation.tsx`

@@ -6,21 +6,21 @@
 
 - Category: `surface` — structural
 - Medium: SVG path / superellipse
-- Entry point: `src/squircle/playground.tsx`
+- Entry point: `upstream/squircle/playground.tsx`
 - Nature: affects real layout/geometry; safe to adopt as a structural primitive, not just a skin.
 
 ## Files
 
-- `src/squircle/superellipse.ts`
-- `src/squircle/tokens.ts`
-- `src/squircle/Squircle.tsx`
-- `src/squircle/parts.tsx`
-- `src/squircle/playground.tsx`
+- `upstream/squircle/superellipse.ts`
+- `upstream/squircle/tokens.ts`
+- `upstream/squircle/Squircle.tsx`
+- `upstream/squircle/parts.tsx`
+- `upstream/squircle/playground.tsx`
 
 ## Use in an agent run
 
 `PROMPT.md` is the upstream "Copy prompt" payload: intro plus every file inline. Hand it to an
-agent verbatim when you want the effect ported into a target project. Read `src/` directly when
+agent verbatim when you want the effect ported into a target project. Read `upstream/` directly when
 you only need the technique.
 
 Upstream page: https://www.arlan.me/vault/squircle

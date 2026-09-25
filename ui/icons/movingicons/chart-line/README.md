@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/chart-line/src/chart-line.svelte`
+- Entry point: `ui/icons/movingicons/chart-line/upstream/chart-line.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/chart-line`
 - Registry: https://movingicons.dev/r/chart-line
-- Local source fallback: `ui/icons/movingicons/chart-line/src/chart-line.svelte`
+- Local source fallback: `ui/icons/movingicons/chart-line/upstream/chart-line.svelte`

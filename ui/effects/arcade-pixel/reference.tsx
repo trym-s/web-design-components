@@ -2,7 +2,7 @@
 
 "use client";
 
-import { ArcadePlayground } from "./src/arcade/playground";
+import { ArcadePlayground } from "./upstream/arcade/playground";
 
 export default function Reference() {
   return <ArcadePlayground />;

@@ -5,10 +5,10 @@
  */
 import { lazy, type ComponentType, type ReactNode } from "react";
 
-const BorderBeam = lazy(() => import("/ui/animation/border-beam/src").then((m) => ({ default: m.BorderBeam })));
-const HoverVideoButton = lazy(() => import("/ui/animation/hover-video-button/src/hover-video/HoverVideoButton").then((m) => ({ default: m.HoverVideoButton })));
-const MetalFx = lazy(() => import("/ui/animation/metal-fx/src").then((m) => ({ default: m.MetalFx })));
-const ThinkingOrb = lazy(() => import("/ui/animation/thinking-orbs/src").then((m) => ({ default: m.ThinkingOrb })));
+const BorderBeam = lazy(() => import("/ui/animation/border-beam/upstream").then((m) => ({ default: m.BorderBeam })));
+const HoverVideoButton = lazy(() => import("/ui/animation/hover-video-button/upstream/hover-video/HoverVideoButton").then((m) => ({ default: m.HoverVideoButton })));
+const MetalFx = lazy(() => import("/ui/animation/metal-fx/upstream").then((m) => ({ default: m.MetalFx })));
+const ThinkingOrb = lazy(() => import("/ui/animation/thinking-orbs/upstream").then((m) => ({ default: m.ThinkingOrb })));
 
 type Demo = ComponentType;
 

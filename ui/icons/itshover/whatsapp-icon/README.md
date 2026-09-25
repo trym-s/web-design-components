@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/whatsapp-icon/src/whatsapp-icon.tsx`
+- Entry point: `ui/icons/itshover/whatsapp-icon/upstream/whatsapp-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/whatsapp-icon.json`
 - Registry: https://itshover.com/r/whatsapp-icon.json
-- Local source fallback: `ui/icons/itshover/whatsapp-icon/src/whatsapp-icon.tsx`
+- Local source fallback: `ui/icons/itshover/whatsapp-icon/upstream/whatsapp-icon.tsx`

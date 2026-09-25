@@ -7,7 +7,7 @@ Uniform grid of equal-ratio media tiles under a centered intro, with filter tabs
 - Category: `page` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS snapshot
 - Framework: react
-- Entry point: `src/page.tsx`
+- Entry point: `upstream/page.tsx`
 - Nature: structural; reuse the page composition, hierarchy and density, not its sample data.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -20,7 +20,7 @@ Uniform grid of equal-ratio media tiles under a centered intro, with filter tabs
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -40,8 +40,8 @@ Uniform grid of equal-ratio media tiles under a centered intro, with filter tabs
 
 ## Files
 
-- `src/page.tsx`
-- `src/template.doc.mjs`
+- `upstream/page.tsx`
+- `upstream/template.doc.mjs`
 - `static/page.html` — rendered markup
 - `reference.tsx` — dashboard entry point
 

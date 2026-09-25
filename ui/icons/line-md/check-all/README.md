@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/check-all/src/check-all.svg`
+- Entry point: `ui/icons/line-md/check-all/upstream/check-all.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/check-all/src/check-all.svg`
+- Local source: `ui/icons/line-md/check-all/upstream/check-all.svg`

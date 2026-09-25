@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/orbit/src/orbit.svelte`
+- Entry point: `ui/icons/movingicons/orbit/upstream/orbit.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/orbit`
 - Registry: https://movingicons.dev/r/orbit
-- Local source fallback: `ui/icons/movingicons/orbit/src/orbit.svelte`
+- Local source fallback: `ui/icons/movingicons/orbit/upstream/orbit.svelte`

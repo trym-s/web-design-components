@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/chamaac-icons/credit-card-icon/src/credit-card-icon.tsx`
+- Entry point: `ui/icons/chamaac-icons/credit-card-icon/upstream/credit-card-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://www.chamaac.com/r/credit-card-icon.json`
 - Registry: https://www.chamaac.com/r/credit-card-icon.json
-- Local source fallback: `ui/icons/chamaac-icons/credit-card-icon/src/credit-card-icon.tsx`
+- Local source fallback: `ui/icons/chamaac-icons/credit-card-icon/upstream/credit-card-icon.tsx`

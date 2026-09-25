@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/confirm-square-filled-to-square-filled-transition/src/confirm-square-filled-to-square-filled-transition.svg`
+- Entry point: `ui/icons/line-md/confirm-square-filled-to-square-filled-transition/upstream/confirm-square-filled-to-square-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/confirm-square-filled-to-square-filled-transition/src/confirm-square-filled-to-square-filled-transition.svg`
+- Local source: `ui/icons/line-md/confirm-square-filled-to-square-filled-transition/upstream/confirm-square-filled-to-square-filled-transition.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/square-chevron-right/src/square-chevron-right.tsx`
+- Entry point: `ui/icons/lucide-animated/square-chevron-right/upstream/square-chevron-right.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/square-chevron-right.json`
 - Registry: https://lucide-animated.com/r/square-chevron-right.json
-- Local source fallback: `ui/icons/lucide-animated/square-chevron-right/src/square-chevron-right.tsx`
+- Local source fallback: `ui/icons/lucide-animated/square-chevron-right/upstream/square-chevron-right.tsx`

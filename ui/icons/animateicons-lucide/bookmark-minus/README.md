@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/bookmark-minus/src/bookmark-minus.tsx`
+- Entry point: `ui/icons/animateicons-lucide/bookmark-minus/upstream/bookmark-minus.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-bookmark-minus.json`
 - Registry: https://animateicons.in/r/lu-bookmark-minus.json
-- Local source fallback: `ui/icons/animateicons-lucide/bookmark-minus/src/bookmark-minus.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/bookmark-minus/upstream/bookmark-minus.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/hazard-lights-filled/src/hazard-lights-filled.svg`
+- Entry point: `ui/icons/line-md/hazard-lights-filled/upstream/hazard-lights-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/hazard-lights-filled/src/hazard-lights-filled.svg`
+- Local source: `ui/icons/line-md/hazard-lights-filled/upstream/hazard-lights-filled.svg`

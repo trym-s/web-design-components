@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/brand-threads-icon/src/brand-threads-icon.tsx`
+- Entry point: `ui/icons/itshover/brand-threads-icon/upstream/brand-threads-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/brand-threads-icon.json`
 - Registry: https://itshover.com/r/brand-threads-icon.json
-- Local source fallback: `ui/icons/itshover/brand-threads-icon/src/brand-threads-icon.tsx`
+- Local source fallback: `ui/icons/itshover/brand-threads-icon/upstream/brand-threads-icon.tsx`

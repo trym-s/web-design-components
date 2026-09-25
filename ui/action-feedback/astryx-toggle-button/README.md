@@ -7,7 +7,7 @@ ToggleButton switches between selected and unselected states to represent a pers
 - Category: `action-feedback` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/ToggleButton.tsx`
+- Entry point: `upstream/ToggleButton.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ ToggleButton switches between selected and unselected states to represent a pers
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,14 +33,14 @@ ToggleButton switches between selected and unselected states to represent a pers
 
 ## Examples
 
-- `src/examples/ToggleButtonGroupShowcase.tsx` — Toggle Button Group: ToggleButtonGroup manages a set of ToggleButtons with single-select or multi-select behavior for options like view modes or filters. · static: `static/ToggleButtonGroupShowcase.html`
-- `src/examples/ToggleButtonShowcase.tsx` — Toggle Button · static: `static/ToggleButtonShowcase.html`
-- `src/examples/ToggleButtonColor.tsx` — ToggleButton — Color: Toggle buttons with colored icons in the pressed state. Shows accent-colored toolbar formatting and semantic reaction colors (yellow star, red heart, blue bookmark). · static: `static/ToggleButtonColor.html`
-- `src/examples/ToggleButtonGroup.tsx` — ToggleButton — Group: Toggle button groups in single-select and multi-select modes. Single selection acts as a view mode switcher; multiple selection forms a formatting toolbar. · static: `static/ToggleButtonGroup.html`
-- `src/examples/ToggleButtonGroupVertical.tsx` — ToggleButtonGroup — Vertical: A vertically stacked ToggleButtonGroup using the vertical orientation, shown with both single-select and multi-select behavior, ideal for sidebar-style option lists and vertical toolbars. · static: `static/ToggleButtonGroupVertical.html`
-- `src/examples/ToggleButtonIconSwap.tsx` — ToggleButton — Icon Swap: Icon-only toggle buttons that swap between outline and solid icons when pressed. Use for actions like favorite, bookmark, or mute where the icon itself communicates the state. · static: `static/ToggleButtonIconSwap.html`
-- `src/examples/ToggleButtonLabel.tsx` — ToggleButton — Label: Toggle buttons with visible text labels that show a font weight shift on press. Use when the icon alone is not enough to communicate the action. · static: `static/ToggleButtonLabel.html`
-- `src/examples/ToggleButtonStates.tsx` — ToggleButton — States: Default, pressed, disabled, and loading states of a standalone toggle button. Shows how visual treatment changes across states. · static: `static/ToggleButtonStates.html`
+- `upstream/examples/ToggleButtonGroupShowcase.tsx` — Toggle Button Group: ToggleButtonGroup manages a set of ToggleButtons with single-select or multi-select behavior for options like view modes or filters. · static: `static/ToggleButtonGroupShowcase.html`
+- `upstream/examples/ToggleButtonShowcase.tsx` — Toggle Button · static: `static/ToggleButtonShowcase.html`
+- `upstream/examples/ToggleButtonColor.tsx` — ToggleButton — Color: Toggle buttons with colored icons in the pressed state. Shows accent-colored toolbar formatting and semantic reaction colors (yellow star, red heart, blue bookmark). · static: `static/ToggleButtonColor.html`
+- `upstream/examples/ToggleButtonGroup.tsx` — ToggleButton — Group: Toggle button groups in single-select and multi-select modes. Single selection acts as a view mode switcher; multiple selection forms a formatting toolbar. · static: `static/ToggleButtonGroup.html`
+- `upstream/examples/ToggleButtonGroupVertical.tsx` — ToggleButtonGroup — Vertical: A vertically stacked ToggleButtonGroup using the vertical orientation, shown with both single-select and multi-select behavior, ideal for sidebar-style option lists and vertical toolbars. · static: `static/ToggleButtonGroupVertical.html`
+- `upstream/examples/ToggleButtonIconSwap.tsx` — ToggleButton — Icon Swap: Icon-only toggle buttons that swap between outline and solid icons when pressed. Use for actions like favorite, bookmark, or mute where the icon itself communicates the state. · static: `static/ToggleButtonIconSwap.html`
+- `upstream/examples/ToggleButtonLabel.tsx` — ToggleButton — Label: Toggle buttons with visible text labels that show a font weight shift on press. Use when the icon alone is not enough to communicate the action. · static: `static/ToggleButtonLabel.html`
+- `upstream/examples/ToggleButtonStates.tsx` — ToggleButton — States: Default, pressed, disabled, and loading states of a standalone toggle button. Shows how visual treatment changes across states. · static: `static/ToggleButtonStates.html`
 
 ## Documentation
 
@@ -121,11 +121,11 @@ Styling hook class: `.astryx-toggle-button-group`, `.astryx-toggle-button`
 
 ## Files
 
-- `src/ToggleButton.doc.mjs`
-- `src/ToggleButton.tsx`
-- `src/ToggleButtonGroup.doc.mjs`
-- `src/ToggleButtonGroup.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/ToggleButton.doc.mjs`
+- `upstream/ToggleButton.tsx`
+- `upstream/ToggleButtonGroup.doc.mjs`
+- `upstream/ToggleButtonGroup.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/ToggleButton

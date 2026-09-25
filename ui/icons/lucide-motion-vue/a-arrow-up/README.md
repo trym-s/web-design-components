@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/a-arrow-up/src/a-arrow-up.vue`
+- Entry point: `ui/icons/lucide-motion-vue/a-arrow-up/upstream/a-arrow-up.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/a-arrow-up/src/a-arrow-up.vue`
+- Local source: `ui/icons/lucide-motion-vue/a-arrow-up/upstream/a-arrow-up.vue`

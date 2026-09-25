@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/list-todo/src/list-todo.svelte`
+- Entry point: `ui/icons/movingicons/list-todo/upstream/list-todo.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/list-todo`
 - Registry: https://movingicons.dev/r/list-todo
-- Local source fallback: `ui/icons/movingicons/list-todo/src/list-todo.svelte`
+- Local source fallback: `ui/icons/movingicons/list-todo/upstream/list-todo.svelte`

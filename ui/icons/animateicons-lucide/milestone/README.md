@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/milestone/src/milestone.tsx`
+- Entry point: `ui/icons/animateicons-lucide/milestone/upstream/milestone.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-milestone.json`
 - Registry: https://animateicons.in/r/lu-milestone.json
-- Local source fallback: `ui/icons/animateicons-lucide/milestone/src/milestone.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/milestone/upstream/milestone.tsx`

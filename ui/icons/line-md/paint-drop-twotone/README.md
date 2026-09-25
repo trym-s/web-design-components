@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/paint-drop-twotone/src/paint-drop-twotone.svg`
+- Entry point: `ui/icons/line-md/paint-drop-twotone/upstream/paint-drop-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/paint-drop-twotone/src/paint-drop-twotone.svg`
+- Local source: `ui/icons/line-md/paint-drop-twotone/upstream/paint-drop-twotone.svg`

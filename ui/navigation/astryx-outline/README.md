@@ -7,7 +7,7 @@ A table-of-contents sidebar for documentation pages, help centers, wikis, and lo
 - Category: `navigation` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Outline.tsx`
+- Entry point: `upstream/Outline.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A table-of-contents sidebar for documentation pages, help centers, wikis, and lo
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ A table-of-contents sidebar for documentation pages, help centers, wikis, and lo
 
 ## Examples
 
-- `src/examples/OutlineShowcase.tsx` — Outline: A document outline with the active section highlighted by the sliding indicator track. · static: `static/OutlineShowcase.html`
-- `src/examples/OutlineControlled.tsx` — Outline — Controlled: Drive the active section yourself with activeId and onActiveIdChange. Providing activeId disables the built-in scroll-spy so your own logic owns the highlight. · static: `static/OutlineControlled.html`
-- `src/examples/OutlineDeepNesting.tsx` — Outline — Deep Nesting: Heading levels 1 through 4 map to progressively deeper indentation, so a long document with sub-sections stays scannable. · static: `static/OutlineDeepNesting.html`
-- `src/examples/OutlineDensity.tsx` — Outline — Density: Two density variants control item padding. Use compact for dense sidebars and default for standard documentation layouts. The sliding indicator automatically matches each item height. · static: `static/OutlineDensity.html`
+- `upstream/examples/OutlineShowcase.tsx` — Outline: A document outline with the active section highlighted by the sliding indicator track. · static: `static/OutlineShowcase.html`
+- `upstream/examples/OutlineControlled.tsx` — Outline — Controlled: Drive the active section yourself with activeId and onActiveIdChange. Providing activeId disables the built-in scroll-spy so your own logic owns the highlight. · static: `static/OutlineControlled.html`
+- `upstream/examples/OutlineDeepNesting.tsx` — Outline — Deep Nesting: Heading levels 1 through 4 map to progressively deeper indentation, so a long document with sub-sections stays scannable. · static: `static/OutlineDeepNesting.html`
+- `upstream/examples/OutlineDensity.tsx` — Outline — Density: Two density variants control item padding. Use compact for dense sidebars and default for standard documentation layouts. The sliding indicator automatically matches each item height. · static: `static/OutlineDensity.html`
 
 ## Documentation
 
@@ -97,10 +97,10 @@ Styling hook class: `.astryx-outline`, `.astryx-outline-indicator`, `.astryx-out
 
 ## Files
 
-- `src/Outline.doc.mjs`
-- `src/Outline.spec.md`
-- `src/Outline.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Outline.doc.mjs`
+- `upstream/Outline.spec.md`
+- `upstream/Outline.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Outline

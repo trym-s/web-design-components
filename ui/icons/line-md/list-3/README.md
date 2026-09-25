@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/list-3/src/list-3.svg`
+- Entry point: `ui/icons/line-md/list-3/upstream/list-3.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/list-3/src/list-3.svg`
+- Local source: `ui/icons/line-md/list-3/upstream/list-3.svg`

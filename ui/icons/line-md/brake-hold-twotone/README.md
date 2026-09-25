@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/brake-hold-twotone/src/brake-hold-twotone.svg`
+- Entry point: `ui/icons/line-md/brake-hold-twotone/upstream/brake-hold-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/brake-hold-twotone/src/brake-hold-twotone.svg`
+- Local source: `ui/icons/line-md/brake-hold-twotone/upstream/brake-hold-twotone.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/spray-can/src/spray-can.tsx`
+- Entry point: `ui/icons/animateicons-lucide/spray-can/upstream/spray-can.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-spray-can.json`
 - Registry: https://animateicons.in/r/lu-spray-can.json
-- Local source fallback: `ui/icons/animateicons-lucide/spray-can/src/spray-can.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/spray-can/upstream/spray-can.tsx`

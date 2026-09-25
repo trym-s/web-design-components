@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/haze/src/haze.tsx`
+- Entry point: `ui/icons/animateicons-lucide/haze/upstream/haze.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-haze.json`
 - Registry: https://animateicons.in/r/lu-haze.json
-- Local source fallback: `ui/icons/animateicons-lucide/haze/src/haze.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/haze/upstream/haze.tsx`

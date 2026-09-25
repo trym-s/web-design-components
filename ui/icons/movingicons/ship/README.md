@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/ship/src/ship.svelte`
+- Entry point: `ui/icons/movingicons/ship/upstream/ship.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/ship`
 - Registry: https://movingicons.dev/r/ship
-- Local source fallback: `ui/icons/movingicons/ship/src/ship.svelte`
+- Local source fallback: `ui/icons/movingicons/ship/upstream/ship.svelte`

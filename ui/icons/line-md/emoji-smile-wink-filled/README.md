@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/emoji-smile-wink-filled/src/emoji-smile-wink-filled.svg`
+- Entry point: `ui/icons/line-md/emoji-smile-wink-filled/upstream/emoji-smile-wink-filled.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/emoji-smile-wink-filled/src/emoji-smile-wink-filled.svg`
+- Local source: `ui/icons/line-md/emoji-smile-wink-filled/upstream/emoji-smile-wink-filled.svg`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/zap/src/zap.vue`
+- Entry point: `ui/icons/lucide-motion-vue/zap/upstream/zap.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/zap/src/zap.vue`
+- Local source: `ui/icons/lucide-motion-vue/zap/upstream/zap.vue`

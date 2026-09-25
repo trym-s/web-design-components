@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/map-marker-alt-off/src/map-marker-alt-off.svg`
+- Entry point: `ui/icons/line-md/map-marker-alt-off/upstream/map-marker-alt-off.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/map-marker-alt-off/src/map-marker-alt-off.svg`
+- Local source: `ui/icons/line-md/map-marker-alt-off/upstream/map-marker-alt-off.svg`

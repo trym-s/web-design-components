@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/chevrons-down/src/chevrons-down.tsx`
+- Entry point: `ui/icons/animateicons-lucide/chevrons-down/upstream/chevrons-down.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-chevrons-down.json`
 - Registry: https://animateicons.in/r/lu-chevrons-down.json
-- Local source fallback: `ui/icons/animateicons-lucide/chevrons-down/src/chevrons-down.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/chevrons-down/upstream/chevrons-down.tsx`

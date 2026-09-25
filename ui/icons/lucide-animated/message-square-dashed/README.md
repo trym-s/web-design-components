@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/message-square-dashed/src/message-square-dashed.tsx`
+- Entry point: `ui/icons/lucide-animated/message-square-dashed/upstream/message-square-dashed.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/message-square-dashed.json`
 - Registry: https://lucide-animated.com/r/message-square-dashed.json
-- Local source fallback: `ui/icons/lucide-animated/message-square-dashed/src/message-square-dashed.tsx`
+- Local source fallback: `ui/icons/lucide-animated/message-square-dashed/upstream/message-square-dashed.tsx`

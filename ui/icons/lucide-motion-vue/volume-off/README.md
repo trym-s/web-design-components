@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: vue
-- Entry point: `ui/icons/lucide-motion-vue/volume-off/src/volume-off.vue`
+- Entry point: `ui/icons/lucide-motion-vue/volume-off/upstream/volume-off.vue`
 - Nature: interactive
 - Framework: vue
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/lucide-motion-vue/volume-off/src/volume-off.vue`
+- Local source: `ui/icons/lucide-motion-vue/volume-off/upstream/volume-off.vue`

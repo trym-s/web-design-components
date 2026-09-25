@@ -7,7 +7,7 @@ A CSS grid layout container for arranging children in rows and columns. Use Grid
 - Category: `layout` — structural
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Grid.tsx`
+- Entry point: `upstream/Grid.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A CSS grid layout container for arranging children in rows and columns. Use Grid
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,13 +33,13 @@ A CSS grid layout container for arranging children in rows and columns. Use Grid
 
 ## Examples
 
-- `src/examples/GridShowcase.tsx` — Grid · static: `static/GridShowcase.html`
-- `src/examples/GridSpanShowcase.tsx` — Grid Span: GridSpan lets a grid item span multiple columns or rows within an Grid, enabling masonry-style and asymmetric layouts. · static: `static/GridSpanShowcase.html`
-- `src/examples/GridDashboardLayout.tsx` — Grid — Dashboard Layout: Dashboard layout with mixed-size widgets and a full-width summary row · static: `static/GridDashboardLayout.html`
-- `src/examples/GridGalleryExample.tsx` — Grid — Card Gallery: Card gallery with responsive columns that maintain consistent widths · static: `static/GridGalleryExample.html`
-- `src/examples/GridResponsiveAutoFit.tsx` — Grid — Responsive Auto-Fit: Responsive grid where cards stretch to fill remaining space · static: `static/GridResponsiveAutoFit.html`
-- `src/examples/GridSpanColumns.tsx` — GridSpan — Columns: Grid items spanning two of three columns. Wrap a grid child in GridSpan to make it occupy multiple columns for asymmetric layouts. · static: `static/GridSpanColumns.html`
-- `src/examples/GridWithGridSpan.tsx` — Grid — Column Spanning: Grid with featured items spanning multiple columns and rows · static: `static/GridWithGridSpan.html`
+- `upstream/examples/GridShowcase.tsx` — Grid · static: `static/GridShowcase.html`
+- `upstream/examples/GridSpanShowcase.tsx` — Grid Span: GridSpan lets a grid item span multiple columns or rows within an Grid, enabling masonry-style and asymmetric layouts. · static: `static/GridSpanShowcase.html`
+- `upstream/examples/GridDashboardLayout.tsx` — Grid — Dashboard Layout: Dashboard layout with mixed-size widgets and a full-width summary row · static: `static/GridDashboardLayout.html`
+- `upstream/examples/GridGalleryExample.tsx` — Grid — Card Gallery: Card gallery with responsive columns that maintain consistent widths · static: `static/GridGalleryExample.html`
+- `upstream/examples/GridResponsiveAutoFit.tsx` — Grid — Responsive Auto-Fit: Responsive grid where cards stretch to fill remaining space · static: `static/GridResponsiveAutoFit.html`
+- `upstream/examples/GridSpanColumns.tsx` — GridSpan — Columns: Grid items spanning two of three columns. Wrap a grid child in GridSpan to make it occupy multiple columns for asymmetric layouts. · static: `static/GridSpanColumns.html`
+- `upstream/examples/GridWithGridSpan.tsx` — Grid — Column Spanning: Grid with featured items spanning multiple columns and rows · static: `static/GridWithGridSpan.html`
 
 ## Documentation
 
@@ -107,12 +107,12 @@ Styling hook class: `.astryx-grid`, `.astryx-grid-span`
 
 ## Files
 
-- `src/Grid.doc.mjs`
-- `src/Grid.spec.md`
-- `src/Grid.tsx`
-- `src/GridSpan.doc.mjs`
-- `src/GridSpan.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Grid.doc.mjs`
+- `upstream/Grid.spec.md`
+- `upstream/Grid.tsx`
+- `upstream/GridSpan.doc.mjs`
+- `upstream/GridSpan.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Grid

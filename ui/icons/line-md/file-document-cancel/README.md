@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/file-document-cancel/src/file-document-cancel.svg`
+- Entry point: `ui/icons/line-md/file-document-cancel/upstream/file-document-cancel.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/file-document-cancel/src/file-document-cancel.svg`
+- Local source: `ui/icons/line-md/file-document-cancel/upstream/file-document-cancel.svg`

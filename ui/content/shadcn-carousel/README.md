@@ -7,7 +7,7 @@ A carousel with motion and swipe built using Embla.
 - Category: `content` — structural
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/carousel.tsx`
+- Entry point: `upstream/ui/carousel.tsx`
 - Nature: structural; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A carousel with motion and swipe built using Embla.
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A carousel with motion and swipe built using Embla.
 
 ## Documentation
 
-> Example `carousel-demo` — `src/examples/carousel-demo.tsx`, `static/carousel-demo.html`
+> Example `carousel-demo` — `upstream/examples/carousel-demo.tsx`, `static/carousel-demo.html`
 
 ## About
 
@@ -95,7 +95,7 @@ Carousel
 
 To set the size of the items, you can use the `basis` utility class on the `<CarouselItem />`.
 
-> Example `carousel-size` — `src/examples/carousel-size.tsx`, `static/carousel-size.html`
+> Example `carousel-size` — `upstream/examples/carousel-size.tsx`, `static/carousel-size.html`
 
 ```tsx showLineNumbers {4-6}
 // 33% of the carousel width.
@@ -123,7 +123,7 @@ To set the size of the items, you can use the `basis` utility class on the `<Car
 
 To set the spacing between the items, we use a `pl-[VALUE]` utility on the `<CarouselItem />` and a negative `-ml-[VALUE]` on the `<CarouselContent />`.
 
-> Example `carousel-spacing` — `src/examples/carousel-spacing.tsx`, `static/carousel-spacing.html`
+> Example `carousel-spacing` — `upstream/examples/carousel-spacing.tsx`, `static/carousel-spacing.html`
 
 ```tsx showLineNumbers /-ml-4/ /pl-4/
 <Carousel>
@@ -149,7 +149,7 @@ To set the spacing between the items, we use a `pl-[VALUE]` utility on the `<Car
 
 Use the `orientation` prop to set the orientation of the carousel.
 
-> Example `carousel-orientation` — `src/examples/carousel-orientation.tsx`, `static/carousel-orientation.html`
+> Example `carousel-orientation` — `upstream/examples/carousel-orientation.tsx`, `static/carousel-orientation.html`
 
 ```tsx showLineNumbers /vertical | horizontal/
 <Carousel orientation="vertical | horizontal">
@@ -184,7 +184,7 @@ You can pass options to the carousel using the `opts` prop. See the [Embla Carou
 
 Use a state and the `setApi` props to get an instance of the carousel API.
 
-> Example `carousel-api` — `src/examples/carousel-api.tsx`, `static/carousel-api.html`
+> Example `carousel-api` — `upstream/examples/carousel-api.tsx`, `static/carousel-api.html`
 
 ```tsx showLineNumbers {1,4,22}
 import { type CarouselApi } from "@/components/ui/carousel"
@@ -275,13 +275,13 @@ export function Example() {
 }
 ```
 
-> Example `carousel-plugin` — `src/examples/carousel-plugin.tsx`, `static/carousel-plugin.html`
+> Example `carousel-plugin` — `upstream/examples/carousel-plugin.tsx`, `static/carousel-plugin.html`
 
 ## RTL
 
 To enable RTL support in shadcn/ui, see the [RTL configuration guide](/docs/rtl).
 
-> Example `carousel-rtl` — `src/examples/carousel-rtl.tsx`, `static/carousel-rtl.html`
+> Example `carousel-rtl` — `upstream/examples/carousel-rtl.tsx`, `static/carousel-rtl.html`
 
 When localizing the carousel for RTL languages, you need to set the `direction` option in the `opts` prop to match the text direction. This ensures the carousel scrolls in the correct direction.
 
@@ -310,15 +310,15 @@ See the [Embla Carousel docs](https://www.embla-carousel.com/api/) for more info
 
 ## Files
 
-- `src/ui/carousel.tsx` — the ui file as the registry installs it
-- `src/examples/carousel-demo.tsx`
-- `src/examples/carousel-size.tsx`
-- `src/examples/carousel-spacing.tsx`
-- `src/examples/carousel-orientation.tsx`
-- `src/examples/carousel-api.tsx`
-- `src/examples/carousel-plugin.tsx`
-- `src/examples/carousel-multiple.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/carousel.tsx` — the ui file as the registry installs it
+- `upstream/examples/carousel-demo.tsx`
+- `upstream/examples/carousel-size.tsx`
+- `upstream/examples/carousel-spacing.tsx`
+- `upstream/examples/carousel-orientation.tsx`
+- `upstream/examples/carousel-api.tsx`
+- `upstream/examples/carousel-plugin.tsx`
+- `upstream/examples/carousel-multiple.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/carousel

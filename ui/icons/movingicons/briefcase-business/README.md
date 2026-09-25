@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/briefcase-business/src/briefcase-business.svelte`
+- Entry point: `ui/icons/movingicons/briefcase-business/upstream/briefcase-business.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/briefcase-business`
 - Registry: https://movingicons.dev/r/briefcase-business
-- Local source fallback: `ui/icons/movingicons/briefcase-business/src/briefcase-business.svelte`
+- Local source fallback: `ui/icons/movingicons/briefcase-business/upstream/briefcase-business.svelte`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/clipboard-to-clipboard-check-transition/src/clipboard-to-clipboard-check-transition.svg`
+- Entry point: `ui/icons/line-md/clipboard-to-clipboard-check-transition/upstream/clipboard-to-clipboard-check-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/clipboard-to-clipboard-check-transition/src/clipboard-to-clipboard-check-transition.svg`
+- Local source: `ui/icons/line-md/clipboard-to-clipboard-check-transition/upstream/clipboard-to-clipboard-check-transition.svg`

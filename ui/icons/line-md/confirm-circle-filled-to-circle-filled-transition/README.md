@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/confirm-circle-filled-to-circle-filled-transition/src/confirm-circle-filled-to-circle-filled-transition.svg`
+- Entry point: `ui/icons/line-md/confirm-circle-filled-to-circle-filled-transition/upstream/confirm-circle-filled-to-circle-filled-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/confirm-circle-filled-to-circle-filled-transition/src/confirm-circle-filled-to-circle-filled-transition.svg`
+- Local source: `ui/icons/line-md/confirm-circle-filled-to-circle-filled-transition/upstream/confirm-circle-filled-to-circle-filled-transition.svg`

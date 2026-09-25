@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/cloud-alt-upload-twotone/src/cloud-alt-upload-twotone.svg`
+- Entry point: `ui/icons/line-md/cloud-alt-upload-twotone/upstream/cloud-alt-upload-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/cloud-alt-upload-twotone/src/cloud-alt-upload-twotone.svg`
+- Local source: `ui/icons/line-md/cloud-alt-upload-twotone/upstream/cloud-alt-upload-twotone.svg`

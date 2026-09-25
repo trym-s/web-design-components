@@ -1,3 +1,3 @@
 /* Use when: Accessible resizable panel groups and layouts with keyboard support. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

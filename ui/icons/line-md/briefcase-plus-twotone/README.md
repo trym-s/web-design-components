@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/briefcase-plus-twotone/src/briefcase-plus-twotone.svg`
+- Entry point: `ui/icons/line-md/briefcase-plus-twotone/upstream/briefcase-plus-twotone.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/briefcase-plus-twotone/src/briefcase-plus-twotone.svg`
+- Local source: `ui/icons/line-md/briefcase-plus-twotone/upstream/briefcase-plus-twotone.svg`

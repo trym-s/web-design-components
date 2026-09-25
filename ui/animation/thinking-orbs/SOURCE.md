@@ -6,4 +6,4 @@
 - Version: `0.2.0`
 - License: MIT; see `LICENSE`
 - Runtime: React 18+
-- Retained source: `src/`
+- Retained source: `upstream/`

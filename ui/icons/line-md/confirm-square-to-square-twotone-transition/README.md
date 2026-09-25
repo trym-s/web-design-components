@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svg
-- Entry point: `ui/icons/line-md/confirm-square-to-square-twotone-transition/src/confirm-square-to-square-twotone-transition.svg`
+- Entry point: `ui/icons/line-md/confirm-square-to-square-twotone-transition/upstream/confirm-square-to-square-twotone-transition.svg`
 - Nature: interactive
 - Framework: svg
 - Availability: public
@@ -12,4 +12,4 @@
 
 ## Installation
 
-- Local source: `ui/icons/line-md/confirm-square-to-square-twotone-transition/src/confirm-square-to-square-twotone-transition.svg`
+- Local source: `ui/icons/line-md/confirm-square-to-square-twotone-transition/upstream/confirm-square-to-square-twotone-transition.svg`

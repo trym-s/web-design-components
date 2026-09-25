@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/arrow-big-down/src/arrow-big-down.tsx`
+- Entry point: `ui/icons/lucide-animated/arrow-big-down/upstream/arrow-big-down.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/arrow-big-down.json`
 - Registry: https://lucide-animated.com/r/arrow-big-down.json
-- Local source fallback: `ui/icons/lucide-animated/arrow-big-down/src/arrow-big-down.tsx`
+- Local source fallback: `ui/icons/lucide-animated/arrow-big-down/upstream/arrow-big-down.tsx`

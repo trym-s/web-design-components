@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/lucide-animated/receipt-swiss-franc/src/receipt-swiss-franc.tsx`
+- Entry point: `ui/icons/lucide-animated/receipt-swiss-franc/upstream/receipt-swiss-franc.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://lucide-animated.com/r/receipt-swiss-franc.json`
 - Registry: https://lucide-animated.com/r/receipt-swiss-franc.json
-- Local source fallback: `ui/icons/lucide-animated/receipt-swiss-franc/src/receipt-swiss-franc.tsx`
+- Local source fallback: `ui/icons/lucide-animated/receipt-swiss-franc/upstream/receipt-swiss-franc.tsx`

@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/vibrate-off/src/vibrate-off.svelte`
+- Entry point: `ui/icons/movingicons/vibrate-off/upstream/vibrate-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/vibrate-off`
 - Registry: https://movingicons.dev/r/vibrate-off
-- Local source fallback: `ui/icons/movingicons/vibrate-off/src/vibrate-off.svelte`
+- Local source fallback: `ui/icons/movingicons/vibrate-off/upstream/vibrate-off.svelte`

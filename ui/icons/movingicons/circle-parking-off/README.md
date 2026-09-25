@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: svelte
-- Entry point: `ui/icons/movingicons/circle-parking-off/src/circle-parking-off.svelte`
+- Entry point: `ui/icons/movingicons/circle-parking-off/upstream/circle-parking-off.svelte`
 - Nature: interactive
 - Framework: svelte
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn-svelte@latest add https://movingicons.dev/r/circle-parking-off`
 - Registry: https://movingicons.dev/r/circle-parking-off
-- Local source fallback: `ui/icons/movingicons/circle-parking-off/src/circle-parking-off.svelte`
+- Local source fallback: `ui/icons/movingicons/circle-parking-off/upstream/circle-parking-off.svelte`

@@ -7,7 +7,7 @@ A multi-step questionnaire with single-choice, multiple-choice, freeform, and sk
 - Category: `input` — interactive
 - Medium: React + TypeScript + Tailwind CSS v4 (radix-ui primitives); static HTML + compiled CSS per example
 - Framework: react
-- Entry point: `src/ui/questionnaire.tsx`
+- Entry point: `upstream/ui/questionnaire.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T16:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A multi-step questionnaire with single-choice, multiple-choice, freeform, and sk
 ## How an agent uses this reference
 
 - **React + Tailwind v4 target** — `npx shadcn@latest add` installs the same code; or copy the ui file
-  and the example from `src/`, changing only the `@/…` import paths.
+  and the example from `upstream/`, changing only the `@/…` import paths.
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the rendered DOM
   of each example; every class resolves through `ui/_sources/shadcn/styles.css` (the site's Tailwind
   build: tokens, utilities, animations). Keep the markup and the `--background`/`--primary`/… tokens;
@@ -30,7 +30,7 @@ A multi-step questionnaire with single-choice, multiple-choice, freeform, and sk
 
 ## Documentation
 
-> Example `questionnaire-demo` — `src/examples/questionnaire-demo.tsx`, `static/questionnaire-demo.html`
+> Example `questionnaire-demo` — `upstream/examples/questionnaire-demo.tsx`, `static/questionnaire-demo.html`
 
 ## Installation
 
@@ -193,79 +193,79 @@ shortcuts. See the
 
 Use `multiple` for an item that accepts more than one fixed answer.
 
-> Example `questionnaire-multiple` — `src/examples/questionnaire-multiple.tsx`, `static/questionnaire-multiple.html`
+> Example `questionnaire-multiple` — `upstream/examples/questionnaire-multiple.tsx`, `static/questionnaire-multiple.html`
 
 ## Freeform Answer
 
 Compose `QuestionnaireInput` with fixed choices when the user can provide another answer.
 
-> Example `questionnaire-freeform` — `src/examples/questionnaire-freeform.tsx`, `static/questionnaire-freeform.html`
+> Example `questionnaire-freeform` — `upstream/examples/questionnaire-freeform.tsx`, `static/questionnaire-freeform.html`
 
 ## Explicit Skip
 
 Add `QuestionnaireSkip` when an optional item may be intentionally left unanswered.
 
-> Example `questionnaire-skip` — `src/examples/questionnaire-skip.tsx`, `static/questionnaire-skip.html`
+> Example `questionnaire-skip` — `upstream/examples/questionnaire-skip.tsx`, `static/questionnaire-skip.html`
 
 ## Shortcuts
 
 Assign a letter or number key to each answer with `shortcuts`.
 
-> Example `questionnaire-shortcuts` — `src/examples/questionnaire-shortcuts.tsx`, `static/questionnaire-shortcuts.html`
+> Example `questionnaire-shortcuts` — `upstream/examples/questionnaire-shortcuts.tsx`, `static/questionnaire-shortcuts.html`
 
 ## Custom Validation
 
 Combine controlled navigation with an external schema such as Zod to return to an invalid item and present its error.
 
-> Example `questionnaire-validation` — `src/examples/questionnaire-validation.tsx`, `static/questionnaire-validation.html`
+> Example `questionnaire-validation` — `upstream/examples/questionnaire-validation.tsx`, `static/questionnaire-validation.html`
 
 ## Controlled
 
 Control the active item from host state, such as returning to an invalid step.
 
-> Example `questionnaire-controlled` — `src/examples/questionnaire-controlled.tsx`, `static/questionnaire-controlled.html`
+> Example `questionnaire-controlled` — `upstream/examples/questionnaire-controlled.tsx`, `static/questionnaire-controlled.html`
 
 ## Resume
 
 Restore a saved active item and default answers, then reset changes back to that saved state.
 
-> Example `questionnaire-resume` — `src/examples/questionnaire-resume.tsx`, `static/questionnaire-resume.html`
+> Example `questionnaire-resume` — `upstream/examples/questionnaire-resume.tsx`, `static/questionnaire-resume.html`
 
 ## Conditional Items
 
 Disable items that do not apply to the user's earlier answers.
 
-> Example `questionnaire-conditional` — `src/examples/questionnaire-conditional.tsx`, `static/questionnaire-conditional.html`
+> Example `questionnaire-conditional` — `upstream/examples/questionnaire-conditional.tsx`, `static/questionnaire-conditional.html`
 
 ## Navigation State
 
 Read item status to opt into disabled navigation and custom action styling.
 
-> Example `questionnaire-navigation-state` — `src/examples/questionnaire-navigation-state.tsx`, `static/questionnaire-navigation-state.html`
+> Example `questionnaire-navigation-state` — `upstream/examples/questionnaire-navigation-state.tsx`, `static/questionnaire-navigation-state.html`
 
 ## Custom Progress
 
 Use the Progress render state to build a custom progress indicator.
 
-> Example `questionnaire-progress` — `src/examples/questionnaire-progress.tsx`, `static/questionnaire-progress.html`
+> Example `questionnaire-progress` — `upstream/examples/questionnaire-progress.tsx`, `static/questionnaire-progress.html`
 
 ## Animated Items
 
 Animate the active item while keeping progress and navigation stationary.
 
-> Example `questionnaire-animated` — `src/examples/questionnaire-animated.tsx`, `static/questionnaire-animated.html`
+> Example `questionnaire-animated` — `upstream/examples/questionnaire-animated.tsx`, `static/questionnaire-animated.html`
 
 ## Card
 
 Compose Questionnaire with Card slots while keeping the question title and description semantic.
 
-> Example `questionnaire-card` — `src/examples/questionnaire-card.tsx`, `static/questionnaire-card.html`
+> Example `questionnaire-card` — `upstream/examples/questionnaire-card.tsx`, `static/questionnaire-card.html`
 
 ## Dialog
 
 Compose Questionnaire inside a Dialog while keeping cancellation and dismissal host-owned.
 
-> Example `questionnaire-dialog` — `src/examples/questionnaire-dialog.tsx`, `static/questionnaire-dialog.html`
+> Example `questionnaire-dialog` — `upstream/examples/questionnaire-dialog.tsx`, `static/questionnaire-dialog.html`
 
 ## Accessibility
 
@@ -299,22 +299,22 @@ components also accept Button `size` and `variant` props, and
 
 ## Files
 
-- `src/ui/questionnaire.tsx` — the ui file as the registry installs it
-- `src/examples/questionnaire-demo.tsx`
-- `src/examples/questionnaire-multiple.tsx`
-- `src/examples/questionnaire-freeform.tsx`
-- `src/examples/questionnaire-skip.tsx`
-- `src/examples/questionnaire-shortcuts.tsx`
-- `src/examples/questionnaire-validation.tsx`
-- `src/examples/questionnaire-controlled.tsx`
-- `src/examples/questionnaire-resume.tsx`
-- `src/examples/questionnaire-conditional.tsx`
-- `src/examples/questionnaire-navigation-state.tsx`
-- `src/examples/questionnaire-progress.tsx`
-- `src/examples/questionnaire-animated.tsx`
-- `src/examples/questionnaire-card.tsx`
-- `src/examples/questionnaire-dialog.tsx`
-- `src/demo.tsx` — bank harness mounting every example
+- `upstream/ui/questionnaire.tsx` — the ui file as the registry installs it
+- `upstream/examples/questionnaire-demo.tsx`
+- `upstream/examples/questionnaire-multiple.tsx`
+- `upstream/examples/questionnaire-freeform.tsx`
+- `upstream/examples/questionnaire-skip.tsx`
+- `upstream/examples/questionnaire-shortcuts.tsx`
+- `upstream/examples/questionnaire-validation.tsx`
+- `upstream/examples/questionnaire-controlled.tsx`
+- `upstream/examples/questionnaire-resume.tsx`
+- `upstream/examples/questionnaire-conditional.tsx`
+- `upstream/examples/questionnaire-navigation-state.tsx`
+- `upstream/examples/questionnaire-progress.tsx`
+- `upstream/examples/questionnaire-animated.tsx`
+- `upstream/examples/questionnaire-card.tsx`
+- `upstream/examples/questionnaire-dialog.tsx`
+- `upstream/demo.tsx` — bank harness mounting every example
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://ui.shadcn.com/docs/components/radix/questionnaire

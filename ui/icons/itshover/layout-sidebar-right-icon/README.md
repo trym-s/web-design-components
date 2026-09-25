@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/itshover/layout-sidebar-right-icon/src/layout-sidebar-right-icon.tsx`
+- Entry point: `ui/icons/itshover/layout-sidebar-right-icon/upstream/layout-sidebar-right-icon.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `npx shadcn@latest add https://itshover.com/r/layout-sidebar-right-icon.json`
 - Registry: https://itshover.com/r/layout-sidebar-right-icon.json
-- Local source fallback: `ui/icons/itshover/layout-sidebar-right-icon/src/layout-sidebar-right-icon.tsx`
+- Local source fallback: `ui/icons/itshover/layout-sidebar-right-icon/upstream/layout-sidebar-right-icon.tsx`

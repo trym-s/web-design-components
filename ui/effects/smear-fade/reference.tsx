@@ -2,7 +2,7 @@
 
 "use client";
 
-import { SmearCard } from "./src/smear/SmearCard";
+import { SmearCard } from "./upstream/smear/SmearCard";
 
 export default function Reference() {
   return <SmearCard />;

@@ -7,7 +7,7 @@ CheckboxInput toggles a single on/off value. Use it for settings like "Enable no
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/CheckboxInput.tsx`
+- Entry point: `upstream/CheckboxInput.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ CheckboxInput toggles a single on/off value. Use it for settings like "Enable no
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,10 +33,10 @@ CheckboxInput toggles a single on/off value. Use it for settings like "Enable no
 
 ## Examples
 
-- `src/examples/CheckboxInputShowcase.tsx` — Checkbox Input: Interactive checkboxes showing checked, unchecked, and indeterminate states with descriptions. · static: `static/CheckboxInputShowcase.html`
-- `src/examples/CheckboxInputBasic.tsx` — CheckboxInput — States: Checkboxes with labels and descriptions in checked, unchecked, and disabled states. Each checkbox controls a single on/off setting. Add a description to explain what the setting does. · static: `static/CheckboxInputBasic.html`
-- `src/examples/CheckboxInputIndeterminateState.tsx` — CheckboxInput — Indeterminate: A "select all" checkbox that controls a group of options. When only some options are checked, it shows a dash instead of a checkmark. Clicking it checks or unchecks everything. · static: `static/CheckboxInputIndeterminateState.html`
-- `src/examples/CheckboxInputStatusVariations.tsx` — CheckboxInput — Status: Checkboxes with error, warning, and success validation messages. Use the status prop to show feedback after form validation: errors block submission, warnings inform, and success confirms. · static: `static/CheckboxInputStatusVariations.html`
+- `upstream/examples/CheckboxInputShowcase.tsx` — Checkbox Input: Interactive checkboxes showing checked, unchecked, and indeterminate states with descriptions. · static: `static/CheckboxInputShowcase.html`
+- `upstream/examples/CheckboxInputBasic.tsx` — CheckboxInput — States: Checkboxes with labels and descriptions in checked, unchecked, and disabled states. Each checkbox controls a single on/off setting. Add a description to explain what the setting does. · static: `static/CheckboxInputBasic.html`
+- `upstream/examples/CheckboxInputIndeterminateState.tsx` — CheckboxInput — Indeterminate: A "select all" checkbox that controls a group of options. When only some options are checked, it shows a dash instead of a checkmark. Clicking it checks or unchecks everything. · static: `static/CheckboxInputIndeterminateState.html`
+- `upstream/examples/CheckboxInputStatusVariations.tsx` — CheckboxInput — Status: Checkboxes with error, warning, and success validation messages. Use the status prop to show feedback after form validation: errors block submission, warnings inform, and success confirms. · static: `static/CheckboxInputStatusVariations.html`
 
 ## Documentation
 
@@ -138,9 +138,9 @@ Styling hook class: `.astryx-checkbox-input`, `.astryx-checkbox-indicator`, `.as
 
 ## Files
 
-- `src/CheckboxInput.doc.mjs`
-- `src/CheckboxInput.tsx`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/CheckboxInput.doc.mjs`
+- `upstream/CheckboxInput.tsx`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/CheckboxInput

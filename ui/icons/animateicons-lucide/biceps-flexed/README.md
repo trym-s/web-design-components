@@ -4,7 +4,7 @@
 
 - Category: `icons` — interactive
 - Medium: react
-- Entry point: `ui/icons/animateicons-lucide/biceps-flexed/src/biceps-flexed.tsx`
+- Entry point: `ui/icons/animateicons-lucide/biceps-flexed/upstream/biceps-flexed.tsx`
 - Nature: interactive
 - Framework: react
 - Availability: public
@@ -14,4 +14,4 @@
 
 - Preferred install: `pnpm dlx shadcn@latest add https://animateicons.in/r/lu-biceps-flexed.json`
 - Registry: https://animateicons.in/r/lu-biceps-flexed.json
-- Local source fallback: `ui/icons/animateicons-lucide/biceps-flexed/src/biceps-flexed.tsx`
+- Local source fallback: `ui/icons/animateicons-lucide/biceps-flexed/upstream/biceps-flexed.tsx`

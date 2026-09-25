@@ -7,7 +7,7 @@ A dropdown selector for choosing a single value from a list of options. Supports
 - Category: `input` — interactive
 - Medium: React 19 + TypeScript + StyleX (prebuilt CSS); static HTML + CSS per example
 - Framework: react
-- Entry point: `src/Selector.tsx`
+- Entry point: `upstream/Selector.tsx`
 - Nature: interactive; reuse the behavior, hierarchy and tokens, adapt literal values to the target project.
 - Added: 2026-09-24T15:30:00Z
 - Curation: pending
@@ -22,7 +22,7 @@ A dropdown selector for choosing a single value from a list of options. Supports
 ## How an agent uses this reference
 
 - **React 19 target** — install `@astryxdesign/core` + a theme and copy the example from
-  `src/examples/` as-is, or read `src/` to own the component (upstream calls this "swizzle").
+  `upstream/examples/` as-is, or read `upstream/` to own the component (upstream calls this "swizzle").
 - **Any other stack (vanilla HTML/CSS/JS, Vue, Svelte…)** — open `static/<example>.html`: the
   rendered DOM of each example with every class resolved by the local stylesheets in
   `ui/_sources/astryx/` (`frame.css` pulls fonts, reset, component CSS and all seven themes).
@@ -33,15 +33,15 @@ A dropdown selector for choosing a single value from a list of options. Supports
 
 ## Examples
 
-- `src/examples/SelectorOptionShowcase.tsx` — Selector Option: Selector with custom-rendered options using SelectorOption for icons and descriptions. · static: `static/SelectorOptionShowcase.html`
-- `src/examples/SelectorShowcase.tsx` — Selector · static: `static/SelectorShowcase.html`
-- `src/examples/SelectorBottomSheet.tsx` — Selector — Bottom Sheet: Presents a single-selection list in a bottom sheet for compact touch interfaces. · static: `static/SelectorBottomSheet.html`
-- `src/examples/SelectorClearable.tsx` — Selector — Clearable: Selector with a clear button to reset the selected value. · static: `static/SelectorClearable.html`
-- `src/examples/SelectorGhostToolbar.tsx` — Selector — Ghost Toolbar: Borderless Selector variant composed with ghost buttons in a toolbar. · static: `static/SelectorGhostToolbar.html`
-- `src/examples/SelectorOptionBasic.tsx` — SelectorOption — Basic: A selector whose options are rendered with SelectorOption, adding a secondary description below each label. Use inside renderOption for consistent custom option styling. · static: `static/SelectorOptionBasic.html`
-- `src/examples/SelectorOptionDescriptions.tsx` — Selector — Option descriptions: Options carry a description, so the dropdown draws a two-line row. The closed trigger is sized by padding, so it is the size token for a one-line value and exactly one line taller for a two-line one; both on the 4px rhythm. An InputGroup pins the row, so the value folds back onto one line there. · static: `static/SelectorOptionDescriptions.html`
-- `src/examples/SelectorWithSections.tsx` — Selector — Grouped Sections: Selector with options grouped into labeled sections. · static: `static/SelectorWithSections.html`
-- `src/examples/SelectorWithStatus.tsx` — Selector — Validation States: Selector showing error, warning, and success validation states. · static: `static/SelectorWithStatus.html`
+- `upstream/examples/SelectorOptionShowcase.tsx` — Selector Option: Selector with custom-rendered options using SelectorOption for icons and descriptions. · static: `static/SelectorOptionShowcase.html`
+- `upstream/examples/SelectorShowcase.tsx` — Selector · static: `static/SelectorShowcase.html`
+- `upstream/examples/SelectorBottomSheet.tsx` — Selector — Bottom Sheet: Presents a single-selection list in a bottom sheet for compact touch interfaces. · static: `static/SelectorBottomSheet.html`
+- `upstream/examples/SelectorClearable.tsx` — Selector — Clearable: Selector with a clear button to reset the selected value. · static: `static/SelectorClearable.html`
+- `upstream/examples/SelectorGhostToolbar.tsx` — Selector — Ghost Toolbar: Borderless Selector variant composed with ghost buttons in a toolbar. · static: `static/SelectorGhostToolbar.html`
+- `upstream/examples/SelectorOptionBasic.tsx` — SelectorOption — Basic: A selector whose options are rendered with SelectorOption, adding a secondary description below each label. Use inside renderOption for consistent custom option styling. · static: `static/SelectorOptionBasic.html`
+- `upstream/examples/SelectorOptionDescriptions.tsx` — Selector — Option descriptions: Options carry a description, so the dropdown draws a two-line row. The closed trigger is sized by padding, so it is the size token for a one-line value and exactly one line taller for a two-line one; both on the 4px rhythm. An InputGroup pins the row, so the value folds back onto one line there. · static: `static/SelectorOptionDescriptions.html`
+- `upstream/examples/SelectorWithSections.tsx` — Selector — Grouped Sections: Selector with options grouped into labeled sections. · static: `static/SelectorWithSections.html`
+- `upstream/examples/SelectorWithStatus.tsx` — Selector — Validation States: Selector showing error, warning, and success validation states. · static: `static/SelectorWithStatus.html`
 
 ## Documentation
 
@@ -155,14 +155,14 @@ Styling hook class: `.astryx-selector`, `.astryx-selector-option`, `.astryx-sele
 
 ## Files
 
-- `src/Selector.doc.mjs`
-- `src/Selector.spec.md`
-- `src/Selector.tsx`
-- `src/SelectorBottomSheet.tsx`
-- `src/SelectorOption.doc.mjs`
-- `src/SelectorOption.tsx`
-- `src/SelectorRowLayoutContext.ts`
-- `src/demo.tsx` — bank harness that mounts the examples in the neutral theme
+- `upstream/Selector.doc.mjs`
+- `upstream/Selector.spec.md`
+- `upstream/Selector.tsx`
+- `upstream/SelectorBottomSheet.tsx`
+- `upstream/SelectorOption.doc.mjs`
+- `upstream/SelectorOption.tsx`
+- `upstream/SelectorRowLayoutContext.ts`
+- `upstream/demo.tsx` — bank harness that mounts the examples in the neutral theme
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://astryx.atmeta.com/components/Selector

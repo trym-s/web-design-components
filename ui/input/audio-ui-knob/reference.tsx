@@ -1,3 +1,3 @@
 /* Use when: Rotary control for parameters - drag, wheel, keyboard, optional fader-style vertical pan, and reset via double-tap. */
 
-export { default } from "./src/demo";
+export { default } from "./upstream/demo";

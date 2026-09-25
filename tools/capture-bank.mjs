@@ -30,6 +30,8 @@ const WORKERS = Number(opt("--workers") ?? 4);
 const SOURCES = {
   astryx: { list: "__astryxExamples", frame: "data-astryx-frame", example: "data-astryx-example", error: "data-astryx-error", css: "_sources/astryx/frame.css", label: (m) => `Astryx ${m.version} (${m.commit.slice(0, 7)})` },
   shadcn: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/shadcn/styles.css", label: (m) => `shadcn/ui ${m.commit.slice(0, 7)}` },
+  // Stylesheet per flavour (entry.css); emails are rendered by the importer, not captured.
+  "better-auth-ui": { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/better-auth-ui/shadcn.css", label: (m) => `Better Auth UI ${m.version} (${m.commit.slice(0, 7)})` },
 };
 const SOURCE = opt("--source") ?? "astryx";
 const S = SOURCES[SOURCE];
@@ -119,6 +121,7 @@ const SERIALIZE = `(() => {
 
 function staticPage(id, name, snap) {
   const dir = join(ROOT, "ui", id, "static");
+  const css = entries.find((e) => e.id === id)?.css ?? S.css;
   const up = relative(dir, join(ROOT, "ui")).split("\\").join("/");
   const localize = (html) => html
     .replaceAll(`${BASE}/ui/`, `${up}/`)
@@ -128,14 +131,14 @@ function staticPage(id, name, snap) {
   const title = `${id.split("/").at(-1)} — ${name}`;
   return `<!doctype html>
 <!-- ${S.label(manifest)}: static render of ${id} / ${name}.
-     Markup as React rendered it; class names resolve through ${S.css.split("/").pop()}. Behavior is not included:
+     Markup as React rendered it; class names resolve through ${css.split("/").pop()}. Behavior is not included:
      re-implement it from README.md.${snap.canvases ? ` This example draws ${snap.canvases} canvas element(s) at runtime; their pixels are not in the markup.` : ""} -->
 <html ${snap.htmlAttrs.join(" ")}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title}</title>
-<link rel="stylesheet" href="${up}/${S.css}">
+<link rel="stylesheet" href="${up}/${css}">
 ${snap.injected.length ? `<style>\n${snap.injected.join("\n")}\n</style>\n` : ""}</head>
 <body>
 ${localize(snap.body)}
@@ -149,7 +152,7 @@ const report = { rendered: 0, failed: [], empty: [], staticFiles: 0, previews: 0
 
 if (args.includes("--static")) {
   await pool(entries, async (entry, tab) => {
-    if (!existsSync(join(ROOT, "ui", entry.id, "src/demo.tsx"))) return; // documentation-only reference
+    if (!existsSync(join(ROOT, "ui", entry.id, "src/demo.tsx")) || entry.kind === "email") return; // documentation-only, or rendered by the importer
     const demo = readFileSync(join(ROOT, "ui", entry.id, "src/demo.tsx"), "utf8");
     const family = demo.startsWith("export { default }"); // shows another reference's demo
     const url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}`;
@@ -230,7 +233,7 @@ if (args.includes("--previews")) {
     await delay(2500);
     // Component and hook docs: the first live example on the page; templates and themes: the page.
     // shadcn: a docs page's first preview pane, a chart's card; blocks keep the whole viewport.
-    const shadcnTarget = SOURCE === "shadcn" ? (entry.kind === "component" && entry.page ? '[data-slot="preview"]' : entry.kind === "chart" ? '[data-slot="card"]' : null) : null;
+    const shadcnTarget = entry.clip ?? (SOURCE === "shadcn" ? (entry.kind === "component" && entry.page ? '[data-slot="preview"]' : entry.kind === "chart" ? '[data-slot="card"]' : null) : null);
     const clip = shadcnTarget ? await tab.evaluate(`(() => {
       const el = document.querySelector('${shadcnTarget}');
       if (!el) return null;
@@ -250,7 +253,7 @@ if (args.includes("--previews")) {
   });
 }
 
-const exited = new Promise((ok) => browser.once("exit", ok));
+const exited = browser.exitCode !== null || browser.signalCode ? Promise.resolve() : new Promise((ok) => browser.once("exit", ok));
 browser.kill();
 await exited;
 rmSync(profile, { recursive: true, force: true, maxRetries: 5 });

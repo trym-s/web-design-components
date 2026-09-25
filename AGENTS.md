@@ -38,7 +38,9 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
 - Use nearby `preview.png` as visual grounding; it is captured from the original reference site.
 - Current source sites: `https://beautiful-ui-five.vercel.app/` and `https://www.arlan.me/vault` (see `ui/_sources/arlan-vault/SOURCE.md`),
   plus the design systems Astryx (`astryx-*`, `ui/_sources/astryx/SOURCE.md`) and shadcn/ui (`shadcn-*`,
-  `ui/_sources/shadcn/SOURCE.md`), each rebuilt by `tools/import-<system>.mjs` and `tools/capture-bank.mjs`.
+  `ui/_sources/shadcn/SOURCE.md`) and the auth screens of Better Auth UI (`better-auth-ui-*` for its shadcn
+  flavour, `better-auth-ui-heroui-*` for HeroUI; `ui/_sources/better-auth-ui/SOURCE.md`), each rebuilt by
+  `tools/import-<system>.mjs` and `tools/capture-bank.mjs`.
 - Design-system references carry `static/<example>.html` (plus `.open.html` for overlays): the rendered DOM
   linked to the system's local stylesheet. Use it when the target is not React; it has markup and tokens,
   not behavior.

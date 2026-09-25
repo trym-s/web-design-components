@@ -1,0 +1,29 @@
+/* Close anticipation: the whole liquid layer — and the main button riding it — dips toward the returning
+   satellites' momentum, then settles. Longhands on purpose: WebKit mis-parses var() inside the
+   `animation` shorthand and falls back to 0s. */
+@keyframes gooey-pm-anticipate {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(var(--pm-anticip, 5px));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.gooey-pm-anticipating [data-gooey-svg],
+.gooey-pm-anticipating .gooey-pm-main {
+  animation-name: gooey-pm-anticipate;
+  animation-duration: var(--pm-anticip-dur, 700ms);
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gooey-pm-anticipating [data-gooey-svg],
+  .gooey-pm-anticipating .gooey-pm-main {
+    animation: none !important;
+  }
+}

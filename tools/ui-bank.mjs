@@ -13,6 +13,12 @@ const NATURES = new Set(["decorative", "structural", "interactive", "functional"
 const STATUSES = new Set(["ok", "shim", "broken"]);
 const EVIDENCE = new Set(["verified", "review", "limited", "blocked"]);
 const CURATIONS = new Set(["pending", "curated"]);
+/** AGENTS.md "Entry layout" rule 1: the only packages a copy-paste `src/` may import. */
+const SRC_ALLOWED = [
+  "react", "react-dom", "radix-ui", "@base-ui/react", "class-variance-authority", "clsx",
+  "tailwind-merge", "lucide-react", "motion", "three", "@react-three/fiber",
+];
+const SRC_ALLOWED_RE = new RegExp(`^(${SRC_ALLOWED.join("|")})(/.*)?$`);
 
 const ROLE_BY_CATEGORY = {
   animation: ["visual", "behavior"], effects: ["visual"], typography: ["visual"], surface: ["visual"],
@@ -103,6 +109,8 @@ function discover() {
     const sourcePath = join(dir, "SOURCE.md");
     const promptPath = join(dir, "PROMPT.md");
     const previewPath = join(dir, "preview.png");
+    const upstreamPath = join(dir, "upstream");
+    const srcPath = join(dir, "src");
     const readme = text(readmePath);
     const sourceDoc = text(sourcePath);
     const nature = natureOf(readme);
@@ -136,12 +144,15 @@ function discover() {
       framework, availability, variants,
       files,
       installation: { method: command ? "shadcn" : "source", command, registryUrl, fallbackPath },
+      copyPaste: existsSync(srcPath),
       paths: {
         directory: relative(ROOT, dir), reference: relative(ROOT, ref),
         readme: existsSync(readmePath) ? relative(ROOT, readmePath) : null,
         source: existsSync(sourcePath) ? relative(ROOT, sourcePath) : null,
         prompt: existsSync(promptPath) ? relative(ROOT, promptPath) : null,
         preview: preview ? relative(ROOT, previewPath) : null,
+        upstream: existsSync(upstreamPath) ? relative(ROOT, upstreamPath) : null,
+        src: existsSync(srcPath) ? relative(ROOT, srcPath) : null,
       },
     };
   }).sort((a, b) => a.id.localeCompare(b.id));
@@ -199,8 +210,31 @@ function validate(entries) {
       errors.push(`decorative entry has non-visual role: ${entry.id}`);
     }
   }
+  for (const entry of entries) if (entry.paths.src) errors.push(...srcImportErrors(join(ROOT, entry.paths.src)));
   const curated = Object.keys(JSON.parse(text(CURATION) || "{}"));
   for (const id of curated) if (!ids.has(id)) errors.push(`curation has no reference: ${id}`);
+  return errors;
+}
+
+/** Rule 1: a copy-paste `src/` imports only allowlisted packages and never leaves its own tree. */
+export function srcImportErrors(srcDir) {
+  const errors = [];
+  for (const file of walk(srcDir).filter((path) => /\.(ts|tsx|js|jsx|mjs|css)$/.test(path))) {
+    const code = text(file);
+    const specifiers = [...code.matchAll(/(?:^|[\s;])(?:import|export)\s[^'"]*?from\s*["']([^"']+)["']|(?:^|[\s;])import\s*["']([^"']+)["']|import\(\s*["']([^"']+)["']\s*\)|require\(\s*["']([^"']+)["']\s*\)|@import\s+(?:url\()?["']([^"']+)["']/gm)]
+      .map((m) => m.slice(1).find(Boolean));
+    for (const spec of specifiers) {
+      const where = `${relative(ROOT, file)} imports ${spec}`;
+      if (spec.startsWith(".")) {
+        const target = resolve(dirname(file), spec);
+        if (target !== srcDir && !target.startsWith(srcDir + sep)) errors.push(`src import leaves src/: ${where}`);
+      } else if (spec === "tailwindcss") {
+        continue; // Tailwind itself, pulled in from a stylesheet
+      } else if (!SRC_ALLOWED_RE.test(spec)) {
+        errors.push(`src import not allowed (AGENTS.md Entry layout rule 1): ${where}`);
+      }
+    }
+  }
   return errors;
 }
 
@@ -247,7 +281,7 @@ function search(entries, args) {
 }
 
 const [command = "help", ...args] = process.argv.slice(2);
-try {
+if (process.argv[1] === fileURLToPath(import.meta.url)) try {
   if (command === "build") {
     const entries = discover();
     const bans = discoverBans();

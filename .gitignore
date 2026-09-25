@@ -4,4 +4,6 @@
 **/dist/
 **/dist-demo/
 **/.vite/
-.cache/icon-bank/
+.cache/
+tools/portable-fixture/entry/
+tools/portable-fixture/.generated/

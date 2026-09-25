@@ -53,7 +53,11 @@ Inspect each serious candidate's reference, README, source, preview, and status 
 
 For Beautiful UI, search `ui/_sources/beautiful-ui/styles.css` for selectors used by the reference.
 For Arlan entries, pass `PROMPT.md` verbatim only when porting the whole effect; otherwise read
-`src/` for technique.
+`upstream/` for technique.
+
+Prefer entries whose `show` payload has `copyPaste: true`. Their `paths.src` is a copy-paste
+component (allowlisted imports, shadcn tokens, content through props); `paths.upstream` is the
+pinned original it was derived from, kept for provenance only.
 
 Apply these gates:
 
@@ -66,6 +70,11 @@ Completion criterion: each supported UI requirement has a fitting reference whos
 runtime cost, accessibility, and adaptation cost fit the target.
 
 ## 3. Adapt
+
+For a React + Tailwind target, copy the selected entry's `src/` into the target as-is (minus
+`demo.tsx`, which only holds sample data) and pass the target's content through its props. For any
+other stack, rebuild it from `src/` and the README's `## Usage` section. Fall back to adapting
+`upstream/` only when an entry has no `src/`.
 
 Implement the selected composition in the target project's framework, tokens, accessibility
 patterns, and domain language. Preserve useful behavior and hierarchy, not snapshot-specific layout

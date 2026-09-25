@@ -24,6 +24,7 @@ const ROLE_BY_CATEGORY = {
   insights: ["structure"], content: ["structure", "behavior"], code: ["structure", "behavior"],
   "action-feedback": ["behavior"], search: ["structure", "behavior"],
   icons: ["behavior", "visual"],
+  layout: ["structure"], page: ["structure"], theme: ["visual"], hooks: ["behavior"], utility: ["behavior"],
 };
 
 function walk(dir) {
@@ -68,6 +69,8 @@ function sourceOf(id, source, hasPrompt) {
   if (id.startsWith("animation/transitions/")) return "transitions.dev";
   if (hasPrompt) return "arlan-vault";
   if (source.includes("www.interior.dev")) return "interior.dev";
+  if (source.includes("github.com/facebook/astryx")) return "astryx";
+  if (source.includes("github.com/shadcn-ui/ui")) return "shadcn";
   if (source.includes("gooey.jakubantalik.com")) return "liquid-gooey";
   if (source || id.split("/").length === 2) return "standalone";
   return "beautiful-ui";

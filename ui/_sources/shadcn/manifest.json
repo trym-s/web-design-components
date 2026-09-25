@@ -1,0 +1,1801 @@
+{
+  "commit": "98a1fe67b439324ddc857f47fbdce056600a4329",
+  "captured": "2026-09-24T16:30:00Z",
+  "entries": [
+    {
+      "id": "navigation/shadcn-accordion",
+      "page": "https://ui.shadcn.com/docs/components/radix/accordion",
+      "captured": [
+        "accordion-demo",
+        "accordion-basic",
+        "accordion-multiple",
+        "accordion-disabled",
+        "accordion-borders",
+        "accordion-card"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-alert-dialog",
+      "page": "https://ui.shadcn.com/docs/components/radix/alert-dialog",
+      "captured": [
+        "alert-dialog-demo",
+        "alert-dialog-basic",
+        "alert-dialog-small",
+        "alert-dialog-media",
+        "alert-dialog-small-media",
+        "alert-dialog-destructive"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-alert",
+      "page": "https://ui.shadcn.com/docs/components/radix/alert",
+      "captured": [
+        "alert-demo",
+        "alert-basic",
+        "alert-destructive",
+        "alert-action",
+        "alert-colors"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "layout/shadcn-aspect-ratio",
+      "page": "https://ui.shadcn.com/docs/components/radix/aspect-ratio",
+      "captured": [
+        "aspect-ratio-demo",
+        "aspect-ratio-square",
+        "aspect-ratio-portrait"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-attachment",
+      "page": "https://ui.shadcn.com/docs/components/radix/attachment",
+      "captured": [
+        "attachment-demo",
+        "attachment-image",
+        "attachment-states",
+        "attachment-sizes",
+        "attachment-group",
+        "attachment-trigger"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-avatar",
+      "page": "https://ui.shadcn.com/docs/components/radix/avatar",
+      "captured": [
+        "avatar-demo",
+        "avatar-basic",
+        "avatar-badge",
+        "avatar-badge-icon",
+        "avatar-group",
+        "avatar-group-count",
+        "avatar-group-count-icon",
+        "avatar-size",
+        "avatar-dropdown"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-badge",
+      "page": "https://ui.shadcn.com/docs/components/radix/badge",
+      "captured": [
+        "badge-demo",
+        "badge-variants",
+        "badge-icon",
+        "badge-spinner",
+        "badge-link",
+        "badge-colors"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-breadcrumb",
+      "page": "https://ui.shadcn.com/docs/components/radix/breadcrumb",
+      "captured": [
+        "breadcrumb-demo",
+        "breadcrumb-basic",
+        "breadcrumb-separator",
+        "breadcrumb-dropdown",
+        "breadcrumb-ellipsis",
+        "breadcrumb-link"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "ai/shadcn-bubble",
+      "page": "https://ui.shadcn.com/docs/components/radix/bubble",
+      "captured": [
+        "bubble-demo",
+        "bubble-variants",
+        "bubble-alignment",
+        "bubble-group-demo",
+        "bubble-link-button",
+        "bubble-reactions",
+        "bubble-collapsible",
+        "bubble-tooltip",
+        "bubble-popover",
+        "bubble-markdown"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/shadcn-button-group",
+      "page": "https://ui.shadcn.com/docs/components/radix/button-group",
+      "captured": [
+        "button-group-demo",
+        "button-group-orientation",
+        "button-group-size",
+        "button-group-nested",
+        "button-group-separator",
+        "button-group-split",
+        "button-group-input",
+        "button-group-input-group",
+        "button-group-dropdown",
+        "button-group-select",
+        "button-group-popover"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/shadcn-button",
+      "page": "https://ui.shadcn.com/docs/components/radix/button",
+      "captured": [
+        "button-demo",
+        "button-size",
+        "button-default",
+        "button-outline",
+        "button-secondary",
+        "button-ghost",
+        "button-destructive",
+        "button-link",
+        "button-icon",
+        "button-with-icon",
+        "button-rounded",
+        "button-spinner",
+        "button-group-demo",
+        "button-aschild"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-calendar",
+      "page": "https://ui.shadcn.com/docs/components/radix/calendar",
+      "captured": [
+        "calendar-demo",
+        "calendar-hijri",
+        "calendar-basic",
+        "calendar-range",
+        "calendar-caption",
+        "calendar-presets",
+        "calendar-time",
+        "calendar-booked-dates",
+        "calendar-custom-days",
+        "calendar-week-numbers",
+        "calendar-multiple"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "surface/shadcn-card",
+      "page": "https://ui.shadcn.com/docs/components/radix/card",
+      "captured": [
+        "card-demo",
+        "card-small",
+        "card-spacing",
+        "card-edge-to-edge",
+        "card-image"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-carousel",
+      "page": "https://ui.shadcn.com/docs/components/radix/carousel",
+      "captured": [
+        "carousel-demo",
+        "carousel-size",
+        "carousel-spacing",
+        "carousel-orientation",
+        "carousel-api",
+        "carousel-plugin",
+        "carousel-multiple"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-visualization/shadcn-chart",
+      "page": "https://ui.shadcn.com/docs/components/radix/chart",
+      "captured": [
+        "chart-demo",
+        "chart-example",
+        "chart-example-grid",
+        "chart-example-axis",
+        "chart-example-tooltip",
+        "chart-example-legend",
+        "chart-tooltip"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-checkbox",
+      "page": "https://ui.shadcn.com/docs/components/radix/checkbox",
+      "captured": [
+        "checkbox-demo",
+        "checkbox-invalid",
+        "checkbox-basic",
+        "checkbox-description",
+        "checkbox-disabled",
+        "checkbox-group",
+        "checkbox-table"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-collapsible",
+      "page": "https://ui.shadcn.com/docs/components/radix/collapsible",
+      "captured": [
+        "collapsible-demo",
+        "collapsible-basic",
+        "collapsible-settings",
+        "collapsible-file-tree"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-combobox",
+      "page": "https://ui.shadcn.com/docs/components/radix/combobox",
+      "captured": [
+        "combobox-demo",
+        "combobox-basic",
+        "combobox-multiple",
+        "combobox-clear",
+        "combobox-groups",
+        "combobox-custom",
+        "combobox-invalid",
+        "combobox-disabled",
+        "combobox-auto-highlight",
+        "combobox-popup",
+        "combobox-input-group",
+        "combobox-auto-highlight",
+        "combobox-basic",
+        "combobox-clear",
+        "combobox-custom",
+        "combobox-demo",
+        "combobox-disabled",
+        "combobox-groups",
+        "combobox-invalid",
+        "combobox-multiple",
+        "combobox-popup"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "search/shadcn-command",
+      "page": "https://ui.shadcn.com/docs/components/radix/command",
+      "captured": [
+        "command-demo",
+        "command-basic",
+        "command-shortcuts",
+        "command-groups",
+        "command-scrollable",
+        "command-dialog"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-context-menu",
+      "page": "https://ui.shadcn.com/docs/components/radix/context-menu",
+      "captured": [
+        "context-menu-demo",
+        "context-menu-basic",
+        "context-menu-submenu",
+        "context-menu-shortcuts",
+        "context-menu-groups",
+        "context-menu-icons",
+        "context-menu-checkboxes",
+        "context-menu-radio",
+        "context-menu-destructive",
+        "context-menu-sides"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/shadcn-data-table",
+      "page": "https://ui.shadcn.com/docs/components/radix/data-table",
+      "captured": [
+        "data-table-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-date-picker",
+      "page": "https://ui.shadcn.com/docs/components/radix/date-picker",
+      "captured": [
+        "date-picker-demo",
+        "date-picker-basic",
+        "date-picker-range",
+        "date-picker-dob",
+        "date-picker-input",
+        "date-picker-time",
+        "date-picker-natural-language"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-dialog",
+      "page": "https://ui.shadcn.com/docs/components/radix/dialog",
+      "captured": [
+        "dialog-demo",
+        "dialog-close-button",
+        "dialog-no-close-button",
+        "dialog-sticky-footer",
+        "dialog-scrollable-content"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "utility/shadcn-direction",
+      "page": "https://ui.shadcn.com/docs/components/radix/direction",
+      "captured": [],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-drawer",
+      "page": "https://ui.shadcn.com/docs/components/radix/drawer",
+      "captured": [
+        "drawer-demo",
+        "drawer-scrollable-content",
+        "drawer-sides",
+        "drawer-dialog"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-dropdown-menu",
+      "page": "https://ui.shadcn.com/docs/components/radix/dropdown-menu",
+      "captured": [
+        "dropdown-menu-demo",
+        "dropdown-menu-basic",
+        "dropdown-menu-submenu",
+        "dropdown-menu-shortcuts",
+        "dropdown-menu-icons",
+        "dropdown-menu-checkboxes",
+        "dropdown-menu-checkboxes-icons",
+        "dropdown-menu-radio-group",
+        "dropdown-menu-radio-icons",
+        "dropdown-menu-destructive",
+        "dropdown-menu-avatar",
+        "dropdown-menu-complex"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-empty",
+      "page": "https://ui.shadcn.com/docs/components/radix/empty",
+      "captured": [
+        "empty-demo",
+        "empty-outline",
+        "empty-background",
+        "empty-avatar",
+        "empty-avatar-group",
+        "empty-input-group",
+        "empty-card"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-field",
+      "page": "https://ui.shadcn.com/docs/components/radix/field",
+      "captured": [
+        "field-demo",
+        "field-input",
+        "field-textarea",
+        "field-select",
+        "field-slider",
+        "field-fieldset",
+        "field-checkbox",
+        "field-radio",
+        "field-switch",
+        "field-choice-card",
+        "field-group",
+        "field-responsive"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-hover-card",
+      "page": "https://ui.shadcn.com/docs/components/radix/hover-card",
+      "captured": [
+        "hover-card-demo",
+        "hover-card-sides"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-input-group",
+      "page": "https://ui.shadcn.com/docs/components/radix/input-group",
+      "captured": [
+        "input-group-demo",
+        "input-group-inline-start",
+        "input-group-inline-end",
+        "input-group-block-start",
+        "input-group-block-end",
+        "input-group-icon",
+        "input-group-text",
+        "input-group-button",
+        "input-group-kbd",
+        "input-group-dropdown",
+        "input-group-spinner",
+        "input-group-textarea",
+        "input-group-custom",
+        "input-group-basic",
+        "input-group-button-group",
+        "input-group-in-card",
+        "input-group-label",
+        "input-group-textarea-examples",
+        "input-group-tooltip",
+        "input-group-with-addons",
+        "input-group-with-buttons",
+        "input-group-with-kbd",
+        "input-group-with-tooltip"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-input-otp",
+      "page": "https://ui.shadcn.com/docs/components/radix/input-otp",
+      "captured": [
+        "input-otp-demo",
+        "input-otp-pattern",
+        "input-otp-separator",
+        "input-otp-disabled",
+        "input-otp-controlled",
+        "input-otp-invalid",
+        "input-otp-four-digits",
+        "input-otp-alphanumeric",
+        "input-otp-form"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-input",
+      "page": "https://ui.shadcn.com/docs/components/radix/input",
+      "captured": [
+        "input-demo",
+        "input-basic",
+        "input-field",
+        "input-fieldgroup",
+        "input-disabled",
+        "input-invalid",
+        "input-file",
+        "input-inline",
+        "input-grid",
+        "input-required",
+        "input-badge",
+        "input-input-group",
+        "input-button-group",
+        "input-form"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/shadcn-item",
+      "page": "https://ui.shadcn.com/docs/components/radix/item",
+      "captured": [
+        "item-demo",
+        "item-variant",
+        "item-size",
+        "item-icon",
+        "item-avatar",
+        "item-image",
+        "item-group",
+        "item-header",
+        "item-link",
+        "item-dropdown"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-kbd",
+      "page": "https://ui.shadcn.com/docs/components/radix/kbd",
+      "captured": [
+        "kbd-demo",
+        "kbd-group",
+        "kbd-button",
+        "kbd-tooltip",
+        "kbd-input-group"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-label",
+      "page": "https://ui.shadcn.com/docs/components/radix/label",
+      "captured": [
+        "label-demo",
+        "field-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-marker",
+      "page": "https://ui.shadcn.com/docs/components/radix/marker",
+      "captured": [
+        "marker-demo",
+        "marker-variants",
+        "marker-status",
+        "marker-shimmer",
+        "marker-separator",
+        "marker-border",
+        "marker-icon",
+        "marker-link-button"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-menubar",
+      "page": "https://ui.shadcn.com/docs/components/radix/menubar",
+      "captured": [
+        "menubar-demo",
+        "menubar-checkbox",
+        "menubar-radio",
+        "menubar-submenu",
+        "menubar-icons"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "ai/shadcn-message-scroller",
+      "page": "https://ui.shadcn.com/docs/components/radix/message-scroller",
+      "captured": [
+        "message-scroller-demo",
+        "message-scroller-anchoring",
+        "message-scroller-group-chat",
+        "message-scroller-previous-context",
+        "message-scroller-streaming",
+        "message-scroller-opening-position",
+        "message-scroller-load-history",
+        "message-scroller-animation",
+        "message-scroller-commands",
+        "message-scroller-visibility",
+        "message-scroller-scrollable"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "ai/shadcn-message",
+      "page": "https://ui.shadcn.com/docs/components/radix/message",
+      "captured": [
+        "message-demo",
+        "message-avatar",
+        "message-group",
+        "message-header-footer",
+        "message-actions",
+        "message-attachment",
+        "message-markdown"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-native-select",
+      "page": "https://ui.shadcn.com/docs/components/radix/native-select",
+      "captured": [
+        "native-select-demo",
+        "native-select-groups",
+        "native-select-disabled",
+        "native-select-invalid"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-navigation-menu",
+      "page": "https://ui.shadcn.com/docs/components/radix/navigation-menu",
+      "captured": [
+        "navigation-menu-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-pagination",
+      "page": "https://ui.shadcn.com/docs/components/radix/pagination",
+      "captured": [
+        "pagination-demo",
+        "pagination-simple",
+        "pagination-icons-only"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-popover",
+      "page": "https://ui.shadcn.com/docs/components/radix/popover",
+      "captured": [
+        "popover-demo",
+        "popover-basic",
+        "popover-alignments",
+        "popover-form"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-progress",
+      "page": "https://ui.shadcn.com/docs/components/radix/progress",
+      "captured": [
+        "progress-demo",
+        "progress-label",
+        "progress-controlled"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-questionnaire",
+      "page": "https://ui.shadcn.com/docs/components/radix/questionnaire",
+      "captured": [
+        "questionnaire-demo",
+        "questionnaire-multiple",
+        "questionnaire-freeform",
+        "questionnaire-skip",
+        "questionnaire-shortcuts",
+        "questionnaire-validation",
+        "questionnaire-controlled",
+        "questionnaire-resume",
+        "questionnaire-conditional",
+        "questionnaire-navigation-state",
+        "questionnaire-progress",
+        "questionnaire-animated",
+        "questionnaire-card",
+        "questionnaire-dialog"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-radio-group",
+      "page": "https://ui.shadcn.com/docs/components/radix/radio-group",
+      "captured": [
+        "radio-group-demo",
+        "radio-group-description",
+        "radio-group-choice-card",
+        "radio-group-fieldset",
+        "radio-group-disabled",
+        "radio-group-invalid"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "layout/shadcn-resizable",
+      "page": "https://ui.shadcn.com/docs/components/radix/resizable",
+      "captured": [
+        "resizable-demo",
+        "resizable-vertical",
+        "resizable-handle"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "layout/shadcn-scroll-area",
+      "page": "https://ui.shadcn.com/docs/components/radix/scroll-area",
+      "captured": [
+        "scroll-area-demo",
+        "scroll-area-horizontal-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-select",
+      "page": "https://ui.shadcn.com/docs/components/radix/select",
+      "captured": [
+        "select-demo",
+        "select-align-item",
+        "select-groups",
+        "select-scrollable",
+        "select-disabled",
+        "select-invalid"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "layout/shadcn-separator",
+      "page": "https://ui.shadcn.com/docs/components/radix/separator",
+      "captured": [
+        "separator-demo",
+        "separator-vertical",
+        "separator-menu",
+        "separator-list"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-sheet",
+      "page": "https://ui.shadcn.com/docs/components/radix/sheet",
+      "captured": [
+        "sheet-demo",
+        "sheet-side",
+        "sheet-no-close-button"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-sidebar",
+      "page": "https://ui.shadcn.com/docs/components/radix/sidebar",
+      "captured": [
+        "sidebar-demo",
+        "sidebar-controlled",
+        "sidebar-footer",
+        "sidebar-group-action",
+        "sidebar-group-collapsible",
+        "sidebar-group",
+        "sidebar-header",
+        "sidebar-menu-action",
+        "sidebar-menu-badge",
+        "sidebar-menu-collapsible",
+        "sidebar-menu-sub",
+        "sidebar-menu",
+        "sidebar-rsc"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-skeleton",
+      "page": "https://ui.shadcn.com/docs/components/radix/skeleton",
+      "captured": [
+        "skeleton-demo",
+        "skeleton-avatar",
+        "skeleton-card",
+        "skeleton-text",
+        "skeleton-form",
+        "skeleton-table"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-slider",
+      "page": "https://ui.shadcn.com/docs/components/radix/slider",
+      "captured": [
+        "slider-demo",
+        "slider-range",
+        "slider-multiple",
+        "slider-vertical",
+        "slider-controlled",
+        "slider-disabled"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-sonner",
+      "page": "https://ui.shadcn.com/docs/components/radix/sonner",
+      "captured": [
+        "sonner-demo",
+        "sonner-types",
+        "sonner-description",
+        "sonner-position"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-spinner",
+      "page": "https://ui.shadcn.com/docs/components/radix/spinner",
+      "captured": [
+        "spinner-demo",
+        "spinner-custom",
+        "spinner-size",
+        "spinner-button",
+        "spinner-badge",
+        "spinner-input-group",
+        "spinner-empty"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-switch",
+      "page": "https://ui.shadcn.com/docs/components/radix/switch",
+      "captured": [
+        "switch-demo",
+        "switch-description",
+        "switch-choice-card",
+        "switch-disabled",
+        "switch-invalid",
+        "switch-sizes"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/shadcn-table",
+      "page": "https://ui.shadcn.com/docs/components/radix/table",
+      "captured": [
+        "table-demo",
+        "table-footer",
+        "table-actions"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "navigation/shadcn-tabs",
+      "page": "https://ui.shadcn.com/docs/components/radix/tabs",
+      "captured": [
+        "tabs-demo",
+        "tabs-line",
+        "tabs-vertical",
+        "tabs-disabled",
+        "tabs-icons"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-textarea",
+      "page": "https://ui.shadcn.com/docs/components/radix/textarea",
+      "captured": [
+        "textarea-demo",
+        "textarea-field",
+        "textarea-disabled",
+        "textarea-invalid",
+        "textarea-button"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "notification/shadcn-toast",
+      "page": "https://ui.shadcn.com/docs/components/radix/toast",
+      "captured": [],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/shadcn-toggle-group",
+      "page": "https://ui.shadcn.com/docs/components/radix/toggle-group",
+      "captured": [
+        "toggle-group-demo",
+        "toggle-group-outline",
+        "toggle-group-sizes",
+        "toggle-group-spacing",
+        "toggle-group-vertical",
+        "toggle-group-disabled",
+        "toggle-group-font-weight-selector"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "action-feedback/shadcn-toggle",
+      "page": "https://ui.shadcn.com/docs/components/radix/toggle",
+      "captured": [
+        "toggle-demo",
+        "toggle-outline",
+        "toggle-text",
+        "toggle-sizes",
+        "toggle-disabled"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "overlay/shadcn-tooltip",
+      "page": "https://ui.shadcn.com/docs/components/radix/tooltip",
+      "captured": [
+        "tooltip-demo",
+        "tooltip-sides",
+        "tooltip-keyboard",
+        "tooltip-disabled"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "typography/shadcn-typography",
+      "page": "https://ui.shadcn.com/docs/components/radix/typography",
+      "captured": [
+        "typography-demo",
+        "typography-h1",
+        "typography-h2",
+        "typography-h3",
+        "typography-h4",
+        "typography-p",
+        "typography-blockquote",
+        "typography-table",
+        "typography-list",
+        "typography-inline-code",
+        "typography-lead",
+        "typography-large",
+        "typography-small",
+        "typography-muted"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-data-picker-with-dropdowns",
+      "page": null,
+      "captured": [
+        "data-picker-with-dropdowns"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-file-upload-list",
+      "page": null,
+      "captured": [
+        "file-upload-list"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "content/shadcn-markdown",
+      "page": null,
+      "captured": [
+        "markdown-demo"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/shadcn-muted-item-group",
+      "page": null,
+      "captured": [
+        "muted-item-group"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "data-display/shadcn-outline-item-group",
+      "page": null,
+      "captured": [
+        "outline-item-group"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "input/shadcn-radio-fields",
+      "page": null,
+      "captured": [
+        "radio-fields"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "scroll/shadcn-scroll-fade",
+      "page": null,
+      "captured": [
+        "scroll-fade-demo",
+        "scroll-fade-edge",
+        "scroll-fade-horizontal",
+        "scroll-fade-none",
+        "scroll-fade-overflow",
+        "scroll-fade-size"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "effects/shadcn-shimmer",
+      "page": null,
+      "captured": [
+        "shimmer-angle",
+        "shimmer-color",
+        "shimmer-demo",
+        "shimmer-duration",
+        "shimmer-marker",
+        "shimmer-none",
+        "shimmer-once",
+        "shimmer-spread"
+      ],
+      "kind": "component"
+    },
+    {
+      "id": "page/shadcn-dashboard-01",
+      "page": "https://ui.shadcn.com/view/new-york-v4/dashboard-01",
+      "captured": [
+        "dashboard-01"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-login-01",
+      "page": "https://ui.shadcn.com/view/new-york-v4/login-01",
+      "captured": [
+        "login-01"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-login-02",
+      "page": "https://ui.shadcn.com/view/new-york-v4/login-02",
+      "captured": [
+        "login-02"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-login-03",
+      "page": "https://ui.shadcn.com/view/new-york-v4/login-03",
+      "captured": [
+        "login-03"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-login-04",
+      "page": "https://ui.shadcn.com/view/new-york-v4/login-04",
+      "captured": [
+        "login-04"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-login-05",
+      "page": "https://ui.shadcn.com/view/new-york-v4/login-05",
+      "captured": [
+        "login-05"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-01",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-01",
+      "captured": [
+        "sidebar-01"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-02",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-02",
+      "captured": [
+        "sidebar-02"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-03",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-03",
+      "captured": [
+        "sidebar-03"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-04",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-04",
+      "captured": [
+        "sidebar-04"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-05",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-05",
+      "captured": [
+        "sidebar-05"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-06",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-06",
+      "captured": [
+        "sidebar-06"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-07",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-07",
+      "captured": [
+        "sidebar-07"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-08",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-08",
+      "captured": [
+        "sidebar-08"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-09",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-09",
+      "captured": [
+        "sidebar-09"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-10",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-10",
+      "captured": [
+        "sidebar-10"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-11",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-11",
+      "captured": [
+        "sidebar-11"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-12",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-12",
+      "captured": [
+        "sidebar-12"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-13",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-13",
+      "captured": [
+        "sidebar-13"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-14",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-14",
+      "captured": [
+        "sidebar-14"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-15",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-15",
+      "captured": [
+        "sidebar-15"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "layout/shadcn-sidebar-16",
+      "page": "https://ui.shadcn.com/view/new-york-v4/sidebar-16",
+      "captured": [
+        "sidebar-16"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-signup-01",
+      "page": "https://ui.shadcn.com/view/new-york-v4/signup-01",
+      "captured": [
+        "signup-01"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-signup-02",
+      "page": "https://ui.shadcn.com/view/new-york-v4/signup-02",
+      "captured": [
+        "signup-02"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-signup-03",
+      "page": "https://ui.shadcn.com/view/new-york-v4/signup-03",
+      "captured": [
+        "signup-03"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-signup-04",
+      "page": "https://ui.shadcn.com/view/new-york-v4/signup-04",
+      "captured": [
+        "signup-04"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "page/shadcn-signup-05",
+      "page": "https://ui.shadcn.com/view/new-york-v4/signup-05",
+      "captured": [
+        "signup-05"
+      ],
+      "kind": "block"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-axes",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-axes",
+      "captured": [
+        "chart-area-axes"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-default",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-default",
+      "captured": [
+        "chart-area-default"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-gradient",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-gradient",
+      "captured": [
+        "chart-area-gradient"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-icons",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-icons",
+      "captured": [
+        "chart-area-icons"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-interactive",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-interactive",
+      "captured": [
+        "chart-area-interactive"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-legend",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-legend",
+      "captured": [
+        "chart-area-legend"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-linear",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-linear",
+      "captured": [
+        "chart-area-linear"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-stacked-expand",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-stacked-expand",
+      "captured": [
+        "chart-area-stacked-expand"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-stacked",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-stacked",
+      "captured": [
+        "chart-area-stacked"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-area-step",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-area-step",
+      "captured": [
+        "chart-area-step"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-active",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-active",
+      "captured": [
+        "chart-bar-active"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-default",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-default",
+      "captured": [
+        "chart-bar-default"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-horizontal",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-horizontal",
+      "captured": [
+        "chart-bar-horizontal"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-interactive",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-interactive",
+      "captured": [
+        "chart-bar-interactive"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-label-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-label-custom",
+      "captured": [
+        "chart-bar-label-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-label",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-label",
+      "captured": [
+        "chart-bar-label"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-mixed",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-mixed",
+      "captured": [
+        "chart-bar-mixed"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-multiple",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-multiple",
+      "captured": [
+        "chart-bar-multiple"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-negative",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-negative",
+      "captured": [
+        "chart-bar-negative"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-bar-stacked",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-bar-stacked",
+      "captured": [
+        "chart-bar-stacked"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-default",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-default",
+      "captured": [
+        "chart-line-default"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-dots-colors",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-dots-colors",
+      "captured": [
+        "chart-line-dots-colors"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-dots-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-dots-custom",
+      "captured": [
+        "chart-line-dots-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-dots",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-dots",
+      "captured": [
+        "chart-line-dots"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-interactive",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-interactive",
+      "captured": [
+        "chart-line-interactive"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-label-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-label-custom",
+      "captured": [
+        "chart-line-label-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-label",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-label",
+      "captured": [
+        "chart-line-label"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-linear",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-linear",
+      "captured": [
+        "chart-line-linear"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-multiple",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-multiple",
+      "captured": [
+        "chart-line-multiple"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-line-step",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-line-step",
+      "captured": [
+        "chart-line-step"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-donut-active",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-donut-active",
+      "captured": [
+        "chart-pie-donut-active"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-donut-text",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-donut-text",
+      "captured": [
+        "chart-pie-donut-text"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-donut",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-donut",
+      "captured": [
+        "chart-pie-donut"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-interactive",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-interactive",
+      "captured": [
+        "chart-pie-interactive"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-label-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-label-custom",
+      "captured": [
+        "chart-pie-label-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-label-list",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-label-list",
+      "captured": [
+        "chart-pie-label-list"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-label",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-label",
+      "captured": [
+        "chart-pie-label"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-legend",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-legend",
+      "captured": [
+        "chart-pie-legend"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-separator-none",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-separator-none",
+      "captured": [
+        "chart-pie-separator-none"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-simple",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-simple",
+      "captured": [
+        "chart-pie-simple"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-pie-stacked",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-pie-stacked",
+      "captured": [
+        "chart-pie-stacked"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-default",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-default",
+      "captured": [
+        "chart-radar-default"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-dots",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-dots",
+      "captured": [
+        "chart-radar-dots"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-circle-fill",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-circle-fill",
+      "captured": [
+        "chart-radar-grid-circle-fill"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-circle-no-lines",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-circle-no-lines",
+      "captured": [
+        "chart-radar-grid-circle-no-lines"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-circle",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-circle",
+      "captured": [
+        "chart-radar-grid-circle"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-custom",
+      "captured": [
+        "chart-radar-grid-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-fill",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-fill",
+      "captured": [
+        "chart-radar-grid-fill"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-grid-none",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-grid-none",
+      "captured": [
+        "chart-radar-grid-none"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-icons",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-icons",
+      "captured": [
+        "chart-radar-icons"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-label-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-label-custom",
+      "captured": [
+        "chart-radar-label-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-legend",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-legend",
+      "captured": [
+        "chart-radar-legend"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-lines-only",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-lines-only",
+      "captured": [
+        "chart-radar-lines-only"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-multiple",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-multiple",
+      "captured": [
+        "chart-radar-multiple"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radar-radius",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radar-radius",
+      "captured": [
+        "chart-radar-radius"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-grid",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-grid",
+      "captured": [
+        "chart-radial-grid"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-label",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-label",
+      "captured": [
+        "chart-radial-label"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-shape",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-shape",
+      "captured": [
+        "chart-radial-shape"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-simple",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-simple",
+      "captured": [
+        "chart-radial-simple"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-stacked",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-stacked",
+      "captured": [
+        "chart-radial-stacked"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-radial-text",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-radial-text",
+      "captured": [
+        "chart-radial-text"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-advanced",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-advanced",
+      "captured": [
+        "chart-tooltip-advanced"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-default",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-default",
+      "captured": [
+        "chart-tooltip-default"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-formatter",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-formatter",
+      "captured": [
+        "chart-tooltip-formatter"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-icons",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-icons",
+      "captured": [
+        "chart-tooltip-icons"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-indicator-line",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-indicator-line",
+      "captured": [
+        "chart-tooltip-indicator-line"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-indicator-none",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-indicator-none",
+      "captured": [
+        "chart-tooltip-indicator-none"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-label-custom",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-label-custom",
+      "captured": [
+        "chart-tooltip-label-custom"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-label-formatter",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-label-formatter",
+      "captured": [
+        "chart-tooltip-label-formatter"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "data-visualization/shadcn-chart-tooltip-label-none",
+      "page": "https://ui.shadcn.com/view/new-york-v4/chart-tooltip-label-none",
+      "captured": [
+        "chart-tooltip-label-none"
+      ],
+      "kind": "chart"
+    },
+    {
+      "id": "theme/shadcn-style-nova",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-luma",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-lyra",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-maia",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-mira",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-rhea",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-sera",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    },
+    {
+      "id": "theme/shadcn-style-vega",
+      "page": null,
+      "captured": [],
+      "kind": "style"
+    }
+  ]
+}

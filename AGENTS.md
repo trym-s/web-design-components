@@ -36,7 +36,12 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
 - Beautiful UI references use the exact shared snapshot at `ui/_sources/beautiful-ui/styles.css`; search it for the selectors used by the chosen reference instead of reading the whole compiled file.
 - `ui/animation/transitions/` holds one free transition per directory; `SOURCE.md` records the upstream source and captured commit.
 - Use nearby `preview.png` as visual grounding; it is captured from the original reference site.
-- Current source sites: `https://beautiful-ui-five.vercel.app/` and `https://www.arlan.me/vault` (see `ui/_sources/arlan-vault/SOURCE.md`).
+- Current source sites: `https://beautiful-ui-five.vercel.app/` and `https://www.arlan.me/vault` (see `ui/_sources/arlan-vault/SOURCE.md`),
+  plus the design systems Astryx (`astryx-*`, `ui/_sources/astryx/SOURCE.md`) and shadcn/ui (`shadcn-*`,
+  `ui/_sources/shadcn/SOURCE.md`), each rebuilt by `tools/import-<system>.mjs` and `tools/capture-bank.mjs`.
+- Design-system references carry `static/<example>.html` (plus `.open.html` for overlays): the rendered DOM
+  linked to the system's local stylesheet. Use it when the target is not React; it has markup and tokens,
+  not behavior.
 - Every reference README carries a `## Classification` block: category, medium, entry point, and
   nature (`decorative` visual-only vs `structural` / `interactive` / `functional`), plus an
   ISO-8601 `Added` timestamp for newest-first browsing. Decorative

@@ -1,0 +1,30 @@
+/* Astryx Charts Pre-compiled StyleX CSS — data visualization components */
+/* Auto-generated. Do not edit manually. */
+
+@layer astryx-base {
+  @property --x-backgroundColor { syntax: "*"; inherits: false;}
+  .xbvija:not(#\#){border-radius:1.5px}
+  .x1cum3z5:not(#\#){border-radius:2px}
+  .x1hviunn:not(#\#){border-radius:var(--radius-container)}
+  .x98rzlu:not(#\#){flex:1}
+  .xckhbgb:not(#\#){margin-inline:1px}
+  .x7giv3:not(#\#){overflow:clip}
+  .xce4md1:not(#\#){padding-block:var(--spacing-2)}
+  .xrrkdod:not(#\#){padding-inline:var(--spacing-3)}
+  .x1prclbq:not(#\#):not(#\#){background-color:var(--color-background-popover)}
+  .xl8spv7:not(#\#):not(#\#){background-color:var(--x-backgroundColor)}
+  .x14hfi27:not(#\#):not(#\#){box-shadow:var(--shadow-med)}
+  .x2lah0s:not(#\#):not(#\#){flex-shrink:0}
+  .x47corl:not(#\#):not(#\#){pointer-events:none}
+  .xnpr05h:not(#\#):not(#\#){stroke-width:1}
+  .x113i6qz:not(#\#):not(#\#){stroke:var(--color-border-emphasized)}
+  .x1lo1t26:not(#\#):not(#\#){stroke:var(--color-text-primary)}
+  .xuxw1ft:not(#\#):not(#\#){white-space:nowrap}
+  .xuoj239:not(#\#):not(#\#):not(#\#){height:3px}
+  .xdk7pt:not(#\#):not(#\#):not(#\#){height:8px}
+  .xwh1t77:not(#\#):not(#\#):not(#\#){margin-bottom:var(--spacing-4)}
+  .xeuugli:not(#\#):not(#\#):not(#\#){min-width:0}
+  .xh8yej3:not(#\#):not(#\#):not(#\#){width:100%}
+  .x1fsd2vl:not(#\#):not(#\#):not(#\#){width:10px}
+  .x1xc55vz:not(#\#):not(#\#):not(#\#){width:8px}
+}

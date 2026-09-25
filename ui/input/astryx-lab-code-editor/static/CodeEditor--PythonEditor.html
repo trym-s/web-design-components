@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- Astryx 0.6.3-canary.e073c9f (e073c9f): static render of input/astryx-lab-code-editor / CodeEditor--PythonEditor.
+     Markup as React rendered it; class names resolve through frame.css. Behavior is not included:
+     re-implement it from README.md. -->
+<html lang="en" data-astryx-theme="neutral">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>astryx-lab-code-editor — CodeEditor--PythonEditor</title>
+<link rel="stylesheet" href="../../../_sources/astryx/frame.css">
+<style>
+:root { --color-syntax-keyword: var(--color-text-accent); --color-syntax-string: var(--color-text-green); --color-syntax-comment: var(--color-text-secondary); --color-syntax-number: var(--color-text-orange); --color-syntax-function: var(--color-text-blue); --color-syntax-type: var(--color-text-purple); --color-syntax-variable: var(--color-text-primary); --color-syntax-operator: var(--color-text-cyan); --color-syntax-constant: var(--color-text-orange); --color-syntax-tag: var(--color-text-red); --color-syntax-attribute: var(--color-text-teal); --color-syntax-property: var(--color-text-cyan); --color-syntax-punctuation: var(--color-text-secondary); --color-syntax-background: var(--color-background-muted); }
+.astryx-code-block code::highlight(astryx-keyword), .astryx-codeeditor code::highlight(astryx-keyword) { color: var(--color-syntax-keyword); }
+.astryx-code-block code::highlight(astryx-string), .astryx-codeeditor code::highlight(astryx-string) { color: var(--color-syntax-string); }
+.astryx-code-block code::highlight(astryx-comment), .astryx-codeeditor code::highlight(astryx-comment) { color: var(--color-syntax-comment); }
+.astryx-code-block code::highlight(astryx-number), .astryx-codeeditor code::highlight(astryx-number) { color: var(--color-syntax-number); }
+.astryx-code-block code::highlight(astryx-function), .astryx-codeeditor code::highlight(astryx-function) { color: var(--color-syntax-function); }
+.astryx-code-block code::highlight(astryx-type), .astryx-codeeditor code::highlight(astryx-type) { color: var(--color-syntax-type); }
+.astryx-code-block code::highlight(astryx-tag), .astryx-codeeditor code::highlight(astryx-tag) { color: var(--color-syntax-tag); }
+.astryx-code-block code::highlight(astryx-attribute), .astryx-codeeditor code::highlight(astryx-attribute) { color: var(--color-syntax-attribute); }
+.astryx-code-block code::highlight(astryx-property), .astryx-codeeditor code::highlight(astryx-property) { color: var(--color-syntax-property); }
+.astryx-code-block code::highlight(astryx-operator), .astryx-codeeditor code::highlight(astryx-operator) { color: var(--color-syntax-operator); }
+.astryx-code-block code::highlight(astryx-constant), .astryx-codeeditor code::highlight(astryx-constant) { color: var(--color-syntax-constant); }
+.astryx-code-block code::highlight(astryx-punctuation), .astryx-codeeditor code::highlight(astryx-punctuation) { color: var(--color-syntax-punctuation); }
+.astryx-code-block code::highlight(astryx-variable), .astryx-codeeditor code::highlight(astryx-variable) { color: var(--color-syntax-variable); }
+.astryx-token-keyword { color: var(--color-syntax-keyword); }
+.astryx-token-string { color: var(--color-syntax-string); }
+.astryx-token-comment { color: var(--color-syntax-comment); }
+.astryx-token-number { color: var(--color-syntax-number); }
+.astryx-token-function { color: var(--color-syntax-function); }
+.astryx-token-type { color: var(--color-syntax-type); }
+.astryx-token-tag { color: var(--color-syntax-tag); }
+.astryx-token-attribute { color: var(--color-syntax-attribute); }
+.astryx-token-property { color: var(--color-syntax-property); }
+.astryx-token-operator { color: var(--color-syntax-operator); }
+.astryx-token-constant { color: var(--color-syntax-constant); }
+.astryx-token-punctuation { color: var(--color-syntax-punctuation); }
+.astryx-token-variable { color: var(--color-syntax-variable); }
+</style>
+</head>
+<body>
+<div class="xjp7ctv x1tgivj0 x9ynric x108lcm5" data-astryx-theme="neutral"><div data-astryx-frame="true" style="width: 100%; min-height: 100vh; padding: 24px; box-sizing: border-box; background: var(--color-background-body, transparent);"><div data-astryx-example="CodeEditor--PythonEditor"><div class="astryx-codeeditor md python x1n2onr6 x78zum5 xh6dtrn xwmxj5m xb3r6kr" data-size="md" data-language="python"><div class="x78zum5 x98rzlu xysyzu8"><div class="x2lah0s x8o8v82 x1rey3nv x1t818jl xp4054r x87ps6o xnbbluu x1j29vfg" aria-hidden="true"><div class="x9m5x89 x17iicif">1</div><div class="x9m5x89 x17iicif">2</div><div class="x9m5x89 x17iicif">3</div><div class="x9m5x89 x17iicif">4</div><div class="x9m5x89 x17iicif">5</div><div class="x9m5x89 x17iicif">6</div><div class="x9m5x89 x17iicif">7</div><div class="x9m5x89 x17iicif">8</div><div class="x9m5x89 x17iicif">9</div><div class="x9m5x89 x17iicif">10</div><div class="x9m5x89 x17iicif">11</div></div><div style="position: relative; flex: 1 1 0%;"><code contenteditable="plaintext-only" tabindex="0" role="textbox" aria-multiline="true" aria-label="Code editor" aria-readonly="false" aria-describedby="_r_1_" spellcheck="false" class="x1lliihq x1cy360x x8o8v82 x1pzlopt x1ghz6dp x9m5x89 x1tgivj0 xeq4nuv x1sdyfia x1lldw8n x1h4wwuj x1a2a7pz x1ftfhsn x17iicif x1j29vfg">def fibonacci(n: int) -&gt; list[int]:
+    """Generate Fibonacci sequence."""
+    if n &lt;= 0:
+        return []
+    fib = [0, 1]
+    for i in range(2, n):
+        fib.append(fib[-1] + fib[-2])
+    return fib[:n]
+
+result = fibonacci(10)
+print(result)</code><span id="_r_1_" class="x10l6tqk x1i1rx1s xjm9jq1 xkdpibf x1717udv xb3r6kr xzpqnlu xuxw1ft xng3xce x13vifvy x1o0tod x47corl x87ps6o">Press Escape then Tab to move focus out of the editor.</span></div></div></div></div></div></div>
+
+</body>
+</html>

@@ -84,7 +84,11 @@ Apply this to every new component and to every re-import.
      `--foreground`, `--primary`, `--muted`, `--border`, `--radius`, …) or a CSS variable the
      component declares with a default. Literal hex/rgb may appear only as such a default (shader
      palettes: a colour prop defaulting to the upstream value), so rebranding means changing
-     tokens or props. Vendored shadcn/ui files in `src/ui/` are exempt.
+     tokens or props. Vendored shadcn/ui files in `src/ui/` are exempt, and so are hand-tuned effect
+     palettes (gradient stops, foil or shader colour tables) as long as the component's own UI
+     surfaces use tokens. Document overriding a component variable through inline `style` or an
+     outer rule: two arbitrary-property classes setting one variable resolve by stylesheet order,
+     not class order.
   3. Content and behavior arrive through props and callbacks; sample data and example
      wiring (a simulated clock, a demo audio engine) live only in `src/demo.tsx`. Components that front a service (auth, audio engine, network) expose UI state
      and callbacks, not a client for that service.

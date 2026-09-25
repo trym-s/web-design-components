@@ -235,7 +235,7 @@ const EXTERNAL_URL = /^(?:[a-z][a-z\d+.-]*:|#|$)/i; // data:, https:, fragment r
 export function srcImportErrors(srcDir) {
   const errors = [];
   for (const file of walk(srcDir).filter((path) => /\.(ts|tsx|mts|cts|js|jsx|mjs|cjs|css)$/.test(path))) {
-    const code = text(file);
+    const code = text(file).replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
     const css = file.endsWith(".css");
     for (const { kind, css: cssOnly, re } of REFERENCES) {
       if (cssOnly && !css) continue;

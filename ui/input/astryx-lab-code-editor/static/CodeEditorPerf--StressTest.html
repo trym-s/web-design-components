@@ -1,0 +1,544 @@
+<!doctype html>
+<!-- Astryx 0.6.3-canary.e073c9f (e073c9f): static render of input/astryx-lab-code-editor / CodeEditorPerf--StressTest.
+     Markup as React rendered it; class names resolve through frame.css. Behavior is not included:
+     re-implement it from README.md. -->
+<html lang="en" data-astryx-theme="neutral">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>astryx-lab-code-editor — CodeEditorPerf--StressTest</title>
+<link rel="stylesheet" href="../../../_sources/astryx/frame.css">
+<style>
+:root { --color-syntax-keyword: var(--color-text-accent); --color-syntax-string: var(--color-text-green); --color-syntax-comment: var(--color-text-secondary); --color-syntax-number: var(--color-text-orange); --color-syntax-function: var(--color-text-blue); --color-syntax-type: var(--color-text-purple); --color-syntax-variable: var(--color-text-primary); --color-syntax-operator: var(--color-text-cyan); --color-syntax-constant: var(--color-text-orange); --color-syntax-tag: var(--color-text-red); --color-syntax-attribute: var(--color-text-teal); --color-syntax-property: var(--color-text-cyan); --color-syntax-punctuation: var(--color-text-secondary); --color-syntax-background: var(--color-background-muted); }
+.astryx-code-block code::highlight(astryx-keyword), .astryx-codeeditor code::highlight(astryx-keyword) { color: var(--color-syntax-keyword); }
+.astryx-code-block code::highlight(astryx-string), .astryx-codeeditor code::highlight(astryx-string) { color: var(--color-syntax-string); }
+.astryx-code-block code::highlight(astryx-comment), .astryx-codeeditor code::highlight(astryx-comment) { color: var(--color-syntax-comment); }
+.astryx-code-block code::highlight(astryx-number), .astryx-codeeditor code::highlight(astryx-number) { color: var(--color-syntax-number); }
+.astryx-code-block code::highlight(astryx-function), .astryx-codeeditor code::highlight(astryx-function) { color: var(--color-syntax-function); }
+.astryx-code-block code::highlight(astryx-type), .astryx-codeeditor code::highlight(astryx-type) { color: var(--color-syntax-type); }
+.astryx-code-block code::highlight(astryx-tag), .astryx-codeeditor code::highlight(astryx-tag) { color: var(--color-syntax-tag); }
+.astryx-code-block code::highlight(astryx-attribute), .astryx-codeeditor code::highlight(astryx-attribute) { color: var(--color-syntax-attribute); }
+.astryx-code-block code::highlight(astryx-property), .astryx-codeeditor code::highlight(astryx-property) { color: var(--color-syntax-property); }
+.astryx-code-block code::highlight(astryx-operator), .astryx-codeeditor code::highlight(astryx-operator) { color: var(--color-syntax-operator); }
+.astryx-code-block code::highlight(astryx-constant), .astryx-codeeditor code::highlight(astryx-constant) { color: var(--color-syntax-constant); }
+.astryx-code-block code::highlight(astryx-punctuation), .astryx-codeeditor code::highlight(astryx-punctuation) { color: var(--color-syntax-punctuation); }
+.astryx-code-block code::highlight(astryx-variable), .astryx-codeeditor code::highlight(astryx-variable) { color: var(--color-syntax-variable); }
+.astryx-token-keyword { color: var(--color-syntax-keyword); }
+.astryx-token-string { color: var(--color-syntax-string); }
+.astryx-token-comment { color: var(--color-syntax-comment); }
+.astryx-token-number { color: var(--color-syntax-number); }
+.astryx-token-function { color: var(--color-syntax-function); }
+.astryx-token-type { color: var(--color-syntax-type); }
+.astryx-token-tag { color: var(--color-syntax-tag); }
+.astryx-token-attribute { color: var(--color-syntax-attribute); }
+.astryx-token-property { color: var(--color-syntax-property); }
+.astryx-token-operator { color: var(--color-syntax-operator); }
+.astryx-token-constant { color: var(--color-syntax-constant); }
+.astryx-token-punctuation { color: var(--color-syntax-punctuation); }
+.astryx-token-variable { color: var(--color-syntax-variable); }
+</style>
+</head>
+<body>
+<div class="xjp7ctv x1tgivj0 x9ynric x108lcm5" data-astryx-theme="neutral"><div data-astryx-frame="true" style="width: 100%; min-height: 100vh; padding: 24px; box-sizing: border-box; background: var(--color-background-body, transparent);"><div data-astryx-example="CodeEditorPerf--StressTest"><div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;"><div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;"><span style="font-size: 13px; font-weight: 600;">Lines:</span><button style="padding: 4px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); background: white; cursor: pointer; font-size: 12px;">100</button><button style="padding: 4px 10px; border-radius: 4px; border: 2px solid rgb(0, 102, 204); background: rgb(230, 240, 255); cursor: pointer; font-size: 12px;">500</button><button style="padding: 4px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); background: white; cursor: pointer; font-size: 12px;">1000</button><button style="padding: 4px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); background: white; cursor: pointer; font-size: 12px;">2000</button><button style="padding: 4px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); background: white; cursor: pointer; font-size: 12px;">5000</button></div><div class="astryx-codeeditor md typescript x1n2onr6 x78zum5 xh6dtrn xwmxj5m xb3r6kr" data-size="md" data-language="typescript"><div class="x78zum5 x98rzlu xysyzu8" style="max-height: 600px;"><div class="x2lah0s x8o8v82 x1rey3nv x1t818jl xp4054r x87ps6o xnbbluu x1j29vfg" aria-hidden="true"><div class="x9m5x89 x17iicif">1</div><div class="x9m5x89 x17iicif">2</div><div class="x9m5x89 x17iicif">3</div><div class="x9m5x89 x17iicif">4</div><div class="x9m5x89 x17iicif">5</div><div class="x9m5x89 x17iicif">6</div><div class="x9m5x89 x17iicif">7</div><div class="x9m5x89 x17iicif">8</div><div class="x9m5x89 x17iicif">9</div><div class="x9m5x89 x17iicif">10</div><div class="x9m5x89 x17iicif">11</div><div class="x9m5x89 x17iicif">12</div><div class="x9m5x89 x17iicif">13</div><div class="x9m5x89 x17iicif">14</div><div class="x9m5x89 x17iicif">15</div><div class="x9m5x89 x17iicif">16</div><div class="x9m5x89 x17iicif">17</div><div class="x9m5x89 x17iicif">18</div><div class="x9m5x89 x17iicif">19</div><div class="x9m5x89 x17iicif">20</div><div class="x9m5x89 x17iicif">21</div><div class="x9m5x89 x17iicif">22</div><div class="x9m5x89 x17iicif">23</div><div class="x9m5x89 x17iicif">24</div><div class="x9m5x89 x17iicif">25</div><div class="x9m5x89 x17iicif">26</div><div class="x9m5x89 x17iicif">27</div><div class="x9m5x89 x17iicif">28</div><div class="x9m5x89 x17iicif">29</div><div class="x9m5x89 x17iicif">30</div><div class="x9m5x89 x17iicif">31</div><div class="x9m5x89 x17iicif">32</div><div class="x9m5x89 x17iicif">33</div><div class="x9m5x89 x17iicif">34</div><div class="x9m5x89 x17iicif">35</div><div class="x9m5x89 x17iicif">36</div><div class="x9m5x89 x17iicif">37</div><div class="x9m5x89 x17iicif">38</div><div class="x9m5x89 x17iicif">39</div><div class="x9m5x89 x17iicif">40</div><div class="x9m5x89 x17iicif">41</div><div class="x9m5x89 x17iicif">42</div><div class="x9m5x89 x17iicif">43</div><div class="x9m5x89 x17iicif">44</div><div class="x9m5x89 x17iicif">45</div><div class="x9m5x89 x17iicif">46</div><div class="x9m5x89 x17iicif">47</div><div class="x9m5x89 x17iicif">48</div><div class="x9m5x89 x17iicif">49</div><div class="x9m5x89 x17iicif">50</div><div class="x9m5x89 x17iicif">51</div><div class="x9m5x89 x17iicif">52</div><div class="x9m5x89 x17iicif">53</div><div class="x9m5x89 x17iicif">54</div><div class="x9m5x89 x17iicif">55</div><div class="x9m5x89 x17iicif">56</div><div class="x9m5x89 x17iicif">57</div><div class="x9m5x89 x17iicif">58</div><div class="x9m5x89 x17iicif">59</div><div class="x9m5x89 x17iicif">60</div><div class="x9m5x89 x17iicif">61</div><div class="x9m5x89 x17iicif">62</div><div class="x9m5x89 x17iicif">63</div><div class="x9m5x89 x17iicif">64</div><div class="x9m5x89 x17iicif">65</div><div class="x9m5x89 x17iicif">66</div><div class="x9m5x89 x17iicif">67</div><div class="x9m5x89 x17iicif">68</div><div class="x9m5x89 x17iicif">69</div><div class="x9m5x89 x17iicif">70</div><div class="x9m5x89 x17iicif">71</div><div class="x9m5x89 x17iicif">72</div><div class="x9m5x89 x17iicif">73</div><div class="x9m5x89 x17iicif">74</div><div class="x9m5x89 x17iicif">75</div><div class="x9m5x89 x17iicif">76</div><div class="x9m5x89 x17iicif">77</div><div class="x9m5x89 x17iicif">78</div><div class="x9m5x89 x17iicif">79</div><div class="x9m5x89 x17iicif">80</div><div class="x9m5x89 x17iicif">81</div><div class="x9m5x89 x17iicif">82</div><div class="x9m5x89 x17iicif">83</div><div class="x9m5x89 x17iicif">84</div><div class="x9m5x89 x17iicif">85</div><div class="x9m5x89 x17iicif">86</div><div class="x9m5x89 x17iicif">87</div><div class="x9m5x89 x17iicif">88</div><div class="x9m5x89 x17iicif">89</div><div class="x9m5x89 x17iicif">90</div><div class="x9m5x89 x17iicif">91</div><div class="x9m5x89 x17iicif">92</div><div class="x9m5x89 x17iicif">93</div><div class="x9m5x89 x17iicif">94</div><div class="x9m5x89 x17iicif">95</div><div class="x9m5x89 x17iicif">96</div><div class="x9m5x89 x17iicif">97</div><div class="x9m5x89 x17iicif">98</div><div class="x9m5x89 x17iicif">99</div><div class="x9m5x89 x17iicif">100</div><div class="x9m5x89 x17iicif">101</div><div class="x9m5x89 x17iicif">102</div><div class="x9m5x89 x17iicif">103</div><div class="x9m5x89 x17iicif">104</div><div class="x9m5x89 x17iicif">105</div><div class="x9m5x89 x17iicif">106</div><div class="x9m5x89 x17iicif">107</div><div class="x9m5x89 x17iicif">108</div><div class="x9m5x89 x17iicif">109</div><div class="x9m5x89 x17iicif">110</div><div class="x9m5x89 x17iicif">111</div><div class="x9m5x89 x17iicif">112</div><div class="x9m5x89 x17iicif">113</div><div class="x9m5x89 x17iicif">114</div><div class="x9m5x89 x17iicif">115</div><div class="x9m5x89 x17iicif">116</div><div class="x9m5x89 x17iicif">117</div><div class="x9m5x89 x17iicif">118</div><div class="x9m5x89 x17iicif">119</div><div class="x9m5x89 x17iicif">120</div><div class="x9m5x89 x17iicif">121</div><div class="x9m5x89 x17iicif">122</div><div class="x9m5x89 x17iicif">123</div><div class="x9m5x89 x17iicif">124</div><div class="x9m5x89 x17iicif">125</div><div class="x9m5x89 x17iicif">126</div><div class="x9m5x89 x17iicif">127</div><div class="x9m5x89 x17iicif">128</div><div class="x9m5x89 x17iicif">129</div><div class="x9m5x89 x17iicif">130</div><div class="x9m5x89 x17iicif">131</div><div class="x9m5x89 x17iicif">132</div><div class="x9m5x89 x17iicif">133</div><div class="x9m5x89 x17iicif">134</div><div class="x9m5x89 x17iicif">135</div><div class="x9m5x89 x17iicif">136</div><div class="x9m5x89 x17iicif">137</div><div class="x9m5x89 x17iicif">138</div><div class="x9m5x89 x17iicif">139</div><div class="x9m5x89 x17iicif">140</div><div class="x9m5x89 x17iicif">141</div><div class="x9m5x89 x17iicif">142</div><div class="x9m5x89 x17iicif">143</div><div class="x9m5x89 x17iicif">144</div><div class="x9m5x89 x17iicif">145</div><div class="x9m5x89 x17iicif">146</div><div class="x9m5x89 x17iicif">147</div><div class="x9m5x89 x17iicif">148</div><div class="x9m5x89 x17iicif">149</div><div class="x9m5x89 x17iicif">150</div><div class="x9m5x89 x17iicif">151</div><div class="x9m5x89 x17iicif">152</div><div class="x9m5x89 x17iicif">153</div><div class="x9m5x89 x17iicif">154</div><div class="x9m5x89 x17iicif">155</div><div class="x9m5x89 x17iicif">156</div><div class="x9m5x89 x17iicif">157</div><div class="x9m5x89 x17iicif">158</div><div class="x9m5x89 x17iicif">159</div><div class="x9m5x89 x17iicif">160</div><div class="x9m5x89 x17iicif">161</div><div class="x9m5x89 x17iicif">162</div><div class="x9m5x89 x17iicif">163</div><div class="x9m5x89 x17iicif">164</div><div class="x9m5x89 x17iicif">165</div><div class="x9m5x89 x17iicif">166</div><div class="x9m5x89 x17iicif">167</div><div class="x9m5x89 x17iicif">168</div><div class="x9m5x89 x17iicif">169</div><div class="x9m5x89 x17iicif">170</div><div class="x9m5x89 x17iicif">171</div><div class="x9m5x89 x17iicif">172</div><div class="x9m5x89 x17iicif">173</div><div class="x9m5x89 x17iicif">174</div><div class="x9m5x89 x17iicif">175</div><div class="x9m5x89 x17iicif">176</div><div class="x9m5x89 x17iicif">177</div><div class="x9m5x89 x17iicif">178</div><div class="x9m5x89 x17iicif">179</div><div class="x9m5x89 x17iicif">180</div><div class="x9m5x89 x17iicif">181</div><div class="x9m5x89 x17iicif">182</div><div class="x9m5x89 x17iicif">183</div><div class="x9m5x89 x17iicif">184</div><div class="x9m5x89 x17iicif">185</div><div class="x9m5x89 x17iicif">186</div><div class="x9m5x89 x17iicif">187</div><div class="x9m5x89 x17iicif">188</div><div class="x9m5x89 x17iicif">189</div><div class="x9m5x89 x17iicif">190</div><div class="x9m5x89 x17iicif">191</div><div class="x9m5x89 x17iicif">192</div><div class="x9m5x89 x17iicif">193</div><div class="x9m5x89 x17iicif">194</div><div class="x9m5x89 x17iicif">195</div><div class="x9m5x89 x17iicif">196</div><div class="x9m5x89 x17iicif">197</div><div class="x9m5x89 x17iicif">198</div><div class="x9m5x89 x17iicif">199</div><div class="x9m5x89 x17iicif">200</div><div class="x9m5x89 x17iicif">201</div><div class="x9m5x89 x17iicif">202</div><div class="x9m5x89 x17iicif">203</div><div class="x9m5x89 x17iicif">204</div><div class="x9m5x89 x17iicif">205</div><div class="x9m5x89 x17iicif">206</div><div class="x9m5x89 x17iicif">207</div><div class="x9m5x89 x17iicif">208</div><div class="x9m5x89 x17iicif">209</div><div class="x9m5x89 x17iicif">210</div><div class="x9m5x89 x17iicif">211</div><div class="x9m5x89 x17iicif">212</div><div class="x9m5x89 x17iicif">213</div><div class="x9m5x89 x17iicif">214</div><div class="x9m5x89 x17iicif">215</div><div class="x9m5x89 x17iicif">216</div><div class="x9m5x89 x17iicif">217</div><div class="x9m5x89 x17iicif">218</div><div class="x9m5x89 x17iicif">219</div><div class="x9m5x89 x17iicif">220</div><div class="x9m5x89 x17iicif">221</div><div class="x9m5x89 x17iicif">222</div><div class="x9m5x89 x17iicif">223</div><div class="x9m5x89 x17iicif">224</div><div class="x9m5x89 x17iicif">225</div><div class="x9m5x89 x17iicif">226</div><div class="x9m5x89 x17iicif">227</div><div class="x9m5x89 x17iicif">228</div><div class="x9m5x89 x17iicif">229</div><div class="x9m5x89 x17iicif">230</div><div class="x9m5x89 x17iicif">231</div><div class="x9m5x89 x17iicif">232</div><div class="x9m5x89 x17iicif">233</div><div class="x9m5x89 x17iicif">234</div><div class="x9m5x89 x17iicif">235</div><div class="x9m5x89 x17iicif">236</div><div class="x9m5x89 x17iicif">237</div><div class="x9m5x89 x17iicif">238</div><div class="x9m5x89 x17iicif">239</div><div class="x9m5x89 x17iicif">240</div><div class="x9m5x89 x17iicif">241</div><div class="x9m5x89 x17iicif">242</div><div class="x9m5x89 x17iicif">243</div><div class="x9m5x89 x17iicif">244</div><div class="x9m5x89 x17iicif">245</div><div class="x9m5x89 x17iicif">246</div><div class="x9m5x89 x17iicif">247</div><div class="x9m5x89 x17iicif">248</div><div class="x9m5x89 x17iicif">249</div><div class="x9m5x89 x17iicif">250</div><div class="x9m5x89 x17iicif">251</div><div class="x9m5x89 x17iicif">252</div><div class="x9m5x89 x17iicif">253</div><div class="x9m5x89 x17iicif">254</div><div class="x9m5x89 x17iicif">255</div><div class="x9m5x89 x17iicif">256</div><div class="x9m5x89 x17iicif">257</div><div class="x9m5x89 x17iicif">258</div><div class="x9m5x89 x17iicif">259</div><div class="x9m5x89 x17iicif">260</div><div class="x9m5x89 x17iicif">261</div><div class="x9m5x89 x17iicif">262</div><div class="x9m5x89 x17iicif">263</div><div class="x9m5x89 x17iicif">264</div><div class="x9m5x89 x17iicif">265</div><div class="x9m5x89 x17iicif">266</div><div class="x9m5x89 x17iicif">267</div><div class="x9m5x89 x17iicif">268</div><div class="x9m5x89 x17iicif">269</div><div class="x9m5x89 x17iicif">270</div><div class="x9m5x89 x17iicif">271</div><div class="x9m5x89 x17iicif">272</div><div class="x9m5x89 x17iicif">273</div><div class="x9m5x89 x17iicif">274</div><div class="x9m5x89 x17iicif">275</div><div class="x9m5x89 x17iicif">276</div><div class="x9m5x89 x17iicif">277</div><div class="x9m5x89 x17iicif">278</div><div class="x9m5x89 x17iicif">279</div><div class="x9m5x89 x17iicif">280</div><div class="x9m5x89 x17iicif">281</div><div class="x9m5x89 x17iicif">282</div><div class="x9m5x89 x17iicif">283</div><div class="x9m5x89 x17iicif">284</div><div class="x9m5x89 x17iicif">285</div><div class="x9m5x89 x17iicif">286</div><div class="x9m5x89 x17iicif">287</div><div class="x9m5x89 x17iicif">288</div><div class="x9m5x89 x17iicif">289</div><div class="x9m5x89 x17iicif">290</div><div class="x9m5x89 x17iicif">291</div><div class="x9m5x89 x17iicif">292</div><div class="x9m5x89 x17iicif">293</div><div class="x9m5x89 x17iicif">294</div><div class="x9m5x89 x17iicif">295</div><div class="x9m5x89 x17iicif">296</div><div class="x9m5x89 x17iicif">297</div><div class="x9m5x89 x17iicif">298</div><div class="x9m5x89 x17iicif">299</div><div class="x9m5x89 x17iicif">300</div><div class="x9m5x89 x17iicif">301</div><div class="x9m5x89 x17iicif">302</div><div class="x9m5x89 x17iicif">303</div><div class="x9m5x89 x17iicif">304</div><div class="x9m5x89 x17iicif">305</div><div class="x9m5x89 x17iicif">306</div><div class="x9m5x89 x17iicif">307</div><div class="x9m5x89 x17iicif">308</div><div class="x9m5x89 x17iicif">309</div><div class="x9m5x89 x17iicif">310</div><div class="x9m5x89 x17iicif">311</div><div class="x9m5x89 x17iicif">312</div><div class="x9m5x89 x17iicif">313</div><div class="x9m5x89 x17iicif">314</div><div class="x9m5x89 x17iicif">315</div><div class="x9m5x89 x17iicif">316</div><div class="x9m5x89 x17iicif">317</div><div class="x9m5x89 x17iicif">318</div><div class="x9m5x89 x17iicif">319</div><div class="x9m5x89 x17iicif">320</div><div class="x9m5x89 x17iicif">321</div><div class="x9m5x89 x17iicif">322</div><div class="x9m5x89 x17iicif">323</div><div class="x9m5x89 x17iicif">324</div><div class="x9m5x89 x17iicif">325</div><div class="x9m5x89 x17iicif">326</div><div class="x9m5x89 x17iicif">327</div><div class="x9m5x89 x17iicif">328</div><div class="x9m5x89 x17iicif">329</div><div class="x9m5x89 x17iicif">330</div><div class="x9m5x89 x17iicif">331</div><div class="x9m5x89 x17iicif">332</div><div class="x9m5x89 x17iicif">333</div><div class="x9m5x89 x17iicif">334</div><div class="x9m5x89 x17iicif">335</div><div class="x9m5x89 x17iicif">336</div><div class="x9m5x89 x17iicif">337</div><div class="x9m5x89 x17iicif">338</div><div class="x9m5x89 x17iicif">339</div><div class="x9m5x89 x17iicif">340</div><div class="x9m5x89 x17iicif">341</div><div class="x9m5x89 x17iicif">342</div><div class="x9m5x89 x17iicif">343</div><div class="x9m5x89 x17iicif">344</div><div class="x9m5x89 x17iicif">345</div><div class="x9m5x89 x17iicif">346</div><div class="x9m5x89 x17iicif">347</div><div class="x9m5x89 x17iicif">348</div><div class="x9m5x89 x17iicif">349</div><div class="x9m5x89 x17iicif">350</div><div class="x9m5x89 x17iicif">351</div><div class="x9m5x89 x17iicif">352</div><div class="x9m5x89 x17iicif">353</div><div class="x9m5x89 x17iicif">354</div><div class="x9m5x89 x17iicif">355</div><div class="x9m5x89 x17iicif">356</div><div class="x9m5x89 x17iicif">357</div><div class="x9m5x89 x17iicif">358</div><div class="x9m5x89 x17iicif">359</div><div class="x9m5x89 x17iicif">360</div><div class="x9m5x89 x17iicif">361</div><div class="x9m5x89 x17iicif">362</div><div class="x9m5x89 x17iicif">363</div><div class="x9m5x89 x17iicif">364</div><div class="x9m5x89 x17iicif">365</div><div class="x9m5x89 x17iicif">366</div><div class="x9m5x89 x17iicif">367</div><div class="x9m5x89 x17iicif">368</div><div class="x9m5x89 x17iicif">369</div><div class="x9m5x89 x17iicif">370</div><div class="x9m5x89 x17iicif">371</div><div class="x9m5x89 x17iicif">372</div><div class="x9m5x89 x17iicif">373</div><div class="x9m5x89 x17iicif">374</div><div class="x9m5x89 x17iicif">375</div><div class="x9m5x89 x17iicif">376</div><div class="x9m5x89 x17iicif">377</div><div class="x9m5x89 x17iicif">378</div><div class="x9m5x89 x17iicif">379</div><div class="x9m5x89 x17iicif">380</div><div class="x9m5x89 x17iicif">381</div><div class="x9m5x89 x17iicif">382</div><div class="x9m5x89 x17iicif">383</div><div class="x9m5x89 x17iicif">384</div><div class="x9m5x89 x17iicif">385</div><div class="x9m5x89 x17iicif">386</div><div class="x9m5x89 x17iicif">387</div><div class="x9m5x89 x17iicif">388</div><div class="x9m5x89 x17iicif">389</div><div class="x9m5x89 x17iicif">390</div><div class="x9m5x89 x17iicif">391</div><div class="x9m5x89 x17iicif">392</div><div class="x9m5x89 x17iicif">393</div><div class="x9m5x89 x17iicif">394</div><div class="x9m5x89 x17iicif">395</div><div class="x9m5x89 x17iicif">396</div><div class="x9m5x89 x17iicif">397</div><div class="x9m5x89 x17iicif">398</div><div class="x9m5x89 x17iicif">399</div><div class="x9m5x89 x17iicif">400</div><div class="x9m5x89 x17iicif">401</div><div class="x9m5x89 x17iicif">402</div><div class="x9m5x89 x17iicif">403</div><div class="x9m5x89 x17iicif">404</div><div class="x9m5x89 x17iicif">405</div><div class="x9m5x89 x17iicif">406</div><div class="x9m5x89 x17iicif">407</div><div class="x9m5x89 x17iicif">408</div><div class="x9m5x89 x17iicif">409</div><div class="x9m5x89 x17iicif">410</div><div class="x9m5x89 x17iicif">411</div><div class="x9m5x89 x17iicif">412</div><div class="x9m5x89 x17iicif">413</div><div class="x9m5x89 x17iicif">414</div><div class="x9m5x89 x17iicif">415</div><div class="x9m5x89 x17iicif">416</div><div class="x9m5x89 x17iicif">417</div><div class="x9m5x89 x17iicif">418</div><div class="x9m5x89 x17iicif">419</div><div class="x9m5x89 x17iicif">420</div><div class="x9m5x89 x17iicif">421</div><div class="x9m5x89 x17iicif">422</div><div class="x9m5x89 x17iicif">423</div><div class="x9m5x89 x17iicif">424</div><div class="x9m5x89 x17iicif">425</div><div class="x9m5x89 x17iicif">426</div><div class="x9m5x89 x17iicif">427</div><div class="x9m5x89 x17iicif">428</div><div class="x9m5x89 x17iicif">429</div><div class="x9m5x89 x17iicif">430</div><div class="x9m5x89 x17iicif">431</div><div class="x9m5x89 x17iicif">432</div><div class="x9m5x89 x17iicif">433</div><div class="x9m5x89 x17iicif">434</div><div class="x9m5x89 x17iicif">435</div><div class="x9m5x89 x17iicif">436</div><div class="x9m5x89 x17iicif">437</div><div class="x9m5x89 x17iicif">438</div><div class="x9m5x89 x17iicif">439</div><div class="x9m5x89 x17iicif">440</div><div class="x9m5x89 x17iicif">441</div><div class="x9m5x89 x17iicif">442</div><div class="x9m5x89 x17iicif">443</div><div class="x9m5x89 x17iicif">444</div><div class="x9m5x89 x17iicif">445</div><div class="x9m5x89 x17iicif">446</div><div class="x9m5x89 x17iicif">447</div><div class="x9m5x89 x17iicif">448</div><div class="x9m5x89 x17iicif">449</div><div class="x9m5x89 x17iicif">450</div><div class="x9m5x89 x17iicif">451</div><div class="x9m5x89 x17iicif">452</div><div class="x9m5x89 x17iicif">453</div><div class="x9m5x89 x17iicif">454</div><div class="x9m5x89 x17iicif">455</div><div class="x9m5x89 x17iicif">456</div><div class="x9m5x89 x17iicif">457</div><div class="x9m5x89 x17iicif">458</div><div class="x9m5x89 x17iicif">459</div><div class="x9m5x89 x17iicif">460</div><div class="x9m5x89 x17iicif">461</div><div class="x9m5x89 x17iicif">462</div><div class="x9m5x89 x17iicif">463</div><div class="x9m5x89 x17iicif">464</div><div class="x9m5x89 x17iicif">465</div><div class="x9m5x89 x17iicif">466</div><div class="x9m5x89 x17iicif">467</div><div class="x9m5x89 x17iicif">468</div><div class="x9m5x89 x17iicif">469</div><div class="x9m5x89 x17iicif">470</div><div class="x9m5x89 x17iicif">471</div><div class="x9m5x89 x17iicif">472</div><div class="x9m5x89 x17iicif">473</div><div class="x9m5x89 x17iicif">474</div><div class="x9m5x89 x17iicif">475</div><div class="x9m5x89 x17iicif">476</div><div class="x9m5x89 x17iicif">477</div><div class="x9m5x89 x17iicif">478</div><div class="x9m5x89 x17iicif">479</div><div class="x9m5x89 x17iicif">480</div><div class="x9m5x89 x17iicif">481</div><div class="x9m5x89 x17iicif">482</div><div class="x9m5x89 x17iicif">483</div><div class="x9m5x89 x17iicif">484</div><div class="x9m5x89 x17iicif">485</div><div class="x9m5x89 x17iicif">486</div><div class="x9m5x89 x17iicif">487</div><div class="x9m5x89 x17iicif">488</div><div class="x9m5x89 x17iicif">489</div><div class="x9m5x89 x17iicif">490</div><div class="x9m5x89 x17iicif">491</div><div class="x9m5x89 x17iicif">492</div><div class="x9m5x89 x17iicif">493</div><div class="x9m5x89 x17iicif">494</div><div class="x9m5x89 x17iicif">495</div><div class="x9m5x89 x17iicif">496</div><div class="x9m5x89 x17iicif">497</div><div class="x9m5x89 x17iicif">498</div><div class="x9m5x89 x17iicif">499</div><div class="x9m5x89 x17iicif">500</div></div><div style="position: relative; flex: 1 1 0%;"><code contenteditable="plaintext-only" tabindex="0" role="textbox" aria-multiline="true" aria-label="Code editor" aria-readonly="false" aria-describedby="_r_1_" spellcheck="false" class="x1lliihq x1cy360x x8o8v82 x1pzlopt x1ghz6dp x9m5x89 x1tgivj0 xeq4nuv x1sdyfia x1lldw8n x1h4wwuj x1a2a7pz x1ftfhsn x17iicif x1j29vfg">import {Component0} from './module0';
+const value1 = 1 + Math.random();
+function compute2(x: number): number {
+  return x * 3 + value1;
+}
+// Line 6: performance test
+import {Component6} from './module6';
+const value7 = 7 + Math.random();
+function compute8(x: number): number {
+  return x * 9 + value7;
+}
+// Line 12: performance test
+import {Component12} from './module12';
+const value13 = 13 + Math.random();
+function compute14(x: number): number {
+  return x * 15 + value13;
+}
+// Line 18: performance test
+import {Component18} from './module18';
+const value19 = 19 + Math.random();
+function compute20(x: number): number {
+  return x * 21 + value19;
+}
+// Line 24: performance test
+import {Component24} from './module24';
+const value25 = 25 + Math.random();
+function compute26(x: number): number {
+  return x * 27 + value25;
+}
+// Line 30: performance test
+import {Component30} from './module30';
+const value31 = 31 + Math.random();
+function compute32(x: number): number {
+  return x * 33 + value31;
+}
+// Line 36: performance test
+import {Component36} from './module36';
+const value37 = 37 + Math.random();
+function compute38(x: number): number {
+  return x * 39 + value37;
+}
+// Line 42: performance test
+import {Component42} from './module42';
+const value43 = 43 + Math.random();
+function compute44(x: number): number {
+  return x * 45 + value43;
+}
+// Line 48: performance test
+import {Component48} from './module48';
+const value49 = 49 + Math.random();
+function compute50(x: number): number {
+  return x * 51 + value49;
+}
+// Line 54: performance test
+import {Component54} from './module54';
+const value55 = 55 + Math.random();
+function compute56(x: number): number {
+  return x * 57 + value55;
+}
+// Line 60: performance test
+import {Component60} from './module60';
+const value61 = 61 + Math.random();
+function compute62(x: number): number {
+  return x * 63 + value61;
+}
+// Line 66: performance test
+import {Component66} from './module66';
+const value67 = 67 + Math.random();
+function compute68(x: number): number {
+  return x * 69 + value67;
+}
+// Line 72: performance test
+import {Component72} from './module72';
+const value73 = 73 + Math.random();
+function compute74(x: number): number {
+  return x * 75 + value73;
+}
+// Line 78: performance test
+import {Component78} from './module78';
+const value79 = 79 + Math.random();
+function compute80(x: number): number {
+  return x * 81 + value79;
+}
+// Line 84: performance test
+import {Component84} from './module84';
+const value85 = 85 + Math.random();
+function compute86(x: number): number {
+  return x * 87 + value85;
+}
+// Line 90: performance test
+import {Component90} from './module90';
+const value91 = 91 + Math.random();
+function compute92(x: number): number {
+  return x * 93 + value91;
+}
+// Line 96: performance test
+import {Component96} from './module96';
+const value97 = 97 + Math.random();
+function compute98(x: number): number {
+  return x * 99 + value97;
+}
+// Line 102: performance test
+import {Component102} from './module102';
+const value103 = 103 + Math.random();
+function compute104(x: number): number {
+  return x * 105 + value103;
+}
+// Line 108: performance test
+import {Component108} from './module108';
+const value109 = 109 + Math.random();
+function compute110(x: number): number {
+  return x * 111 + value109;
+}
+// Line 114: performance test
+import {Component114} from './module114';
+const value115 = 115 + Math.random();
+function compute116(x: number): number {
+  return x * 117 + value115;
+}
+// Line 120: performance test
+import {Component120} from './module120';
+const value121 = 121 + Math.random();
+function compute122(x: number): number {
+  return x * 123 + value121;
+}
+// Line 126: performance test
+import {Component126} from './module126';
+const value127 = 127 + Math.random();
+function compute128(x: number): number {
+  return x * 129 + value127;
+}
+// Line 132: performance test
+import {Component132} from './module132';
+const value133 = 133 + Math.random();
+function compute134(x: number): number {
+  return x * 135 + value133;
+}
+// Line 138: performance test
+import {Component138} from './module138';
+const value139 = 139 + Math.random();
+function compute140(x: number): number {
+  return x * 141 + value139;
+}
+// Line 144: performance test
+import {Component144} from './module144';
+const value145 = 145 + Math.random();
+function compute146(x: number): number {
+  return x * 147 + value145;
+}
+// Line 150: performance test
+import {Component150} from './module150';
+const value151 = 151 + Math.random();
+function compute152(x: number): number {
+  return x * 153 + value151;
+}
+// Line 156: performance test
+import {Component156} from './module156';
+const value157 = 157 + Math.random();
+function compute158(x: number): number {
+  return x * 159 + value157;
+}
+// Line 162: performance test
+import {Component162} from './module162';
+const value163 = 163 + Math.random();
+function compute164(x: number): number {
+  return x * 165 + value163;
+}
+// Line 168: performance test
+import {Component168} from './module168';
+const value169 = 169 + Math.random();
+function compute170(x: number): number {
+  return x * 171 + value169;
+}
+// Line 174: performance test
+import {Component174} from './module174';
+const value175 = 175 + Math.random();
+function compute176(x: number): number {
+  return x * 177 + value175;
+}
+// Line 180: performance test
+import {Component180} from './module180';
+const value181 = 181 + Math.random();
+function compute182(x: number): number {
+  return x * 183 + value181;
+}
+// Line 186: performance test
+import {Component186} from './module186';
+const value187 = 187 + Math.random();
+function compute188(x: number): number {
+  return x * 189 + value187;
+}
+// Line 192: performance test
+import {Component192} from './module192';
+const value193 = 193 + Math.random();
+function compute194(x: number): number {
+  return x * 195 + value193;
+}
+// Line 198: performance test
+import {Component198} from './module198';
+const value199 = 199 + Math.random();
+function compute200(x: number): number {
+  return x * 201 + value199;
+}
+// Line 204: performance test
+import {Component204} from './module204';
+const value205 = 205 + Math.random();
+function compute206(x: number): number {
+  return x * 207 + value205;
+}
+// Line 210: performance test
+import {Component210} from './module210';
+const value211 = 211 + Math.random();
+function compute212(x: number): number {
+  return x * 213 + value211;
+}
+// Line 216: performance test
+import {Component216} from './module216';
+const value217 = 217 + Math.random();
+function compute218(x: number): number {
+  return x * 219 + value217;
+}
+// Line 222: performance test
+import {Component222} from './module222';
+const value223 = 223 + Math.random();
+function compute224(x: number): number {
+  return x * 225 + value223;
+}
+// Line 228: performance test
+import {Component228} from './module228';
+const value229 = 229 + Math.random();
+function compute230(x: number): number {
+  return x * 231 + value229;
+}
+// Line 234: performance test
+import {Component234} from './module234';
+const value235 = 235 + Math.random();
+function compute236(x: number): number {
+  return x * 237 + value235;
+}
+// Line 240: performance test
+import {Component240} from './module240';
+const value241 = 241 + Math.random();
+function compute242(x: number): number {
+  return x * 243 + value241;
+}
+// Line 246: performance test
+import {Component246} from './module246';
+const value247 = 247 + Math.random();
+function compute248(x: number): number {
+  return x * 249 + value247;
+}
+// Line 252: performance test
+import {Component252} from './module252';
+const value253 = 253 + Math.random();
+function compute254(x: number): number {
+  return x * 255 + value253;
+}
+// Line 258: performance test
+import {Component258} from './module258';
+const value259 = 259 + Math.random();
+function compute260(x: number): number {
+  return x * 261 + value259;
+}
+// Line 264: performance test
+import {Component264} from './module264';
+const value265 = 265 + Math.random();
+function compute266(x: number): number {
+  return x * 267 + value265;
+}
+// Line 270: performance test
+import {Component270} from './module270';
+const value271 = 271 + Math.random();
+function compute272(x: number): number {
+  return x * 273 + value271;
+}
+// Line 276: performance test
+import {Component276} from './module276';
+const value277 = 277 + Math.random();
+function compute278(x: number): number {
+  return x * 279 + value277;
+}
+// Line 282: performance test
+import {Component282} from './module282';
+const value283 = 283 + Math.random();
+function compute284(x: number): number {
+  return x * 285 + value283;
+}
+// Line 288: performance test
+import {Component288} from './module288';
+const value289 = 289 + Math.random();
+function compute290(x: number): number {
+  return x * 291 + value289;
+}
+// Line 294: performance test
+import {Component294} from './module294';
+const value295 = 295 + Math.random();
+function compute296(x: number): number {
+  return x * 297 + value295;
+}
+// Line 300: performance test
+import {Component300} from './module300';
+const value301 = 301 + Math.random();
+function compute302(x: number): number {
+  return x * 303 + value301;
+}
+// Line 306: performance test
+import {Component306} from './module306';
+const value307 = 307 + Math.random();
+function compute308(x: number): number {
+  return x * 309 + value307;
+}
+// Line 312: performance test
+import {Component312} from './module312';
+const value313 = 313 + Math.random();
+function compute314(x: number): number {
+  return x * 315 + value313;
+}
+// Line 318: performance test
+import {Component318} from './module318';
+const value319 = 319 + Math.random();
+function compute320(x: number): number {
+  return x * 321 + value319;
+}
+// Line 324: performance test
+import {Component324} from './module324';
+const value325 = 325 + Math.random();
+function compute326(x: number): number {
+  return x * 327 + value325;
+}
+// Line 330: performance test
+import {Component330} from './module330';
+const value331 = 331 + Math.random();
+function compute332(x: number): number {
+  return x * 333 + value331;
+}
+// Line 336: performance test
+import {Component336} from './module336';
+const value337 = 337 + Math.random();
+function compute338(x: number): number {
+  return x * 339 + value337;
+}
+// Line 342: performance test
+import {Component342} from './module342';
+const value343 = 343 + Math.random();
+function compute344(x: number): number {
+  return x * 345 + value343;
+}
+// Line 348: performance test
+import {Component348} from './module348';
+const value349 = 349 + Math.random();
+function compute350(x: number): number {
+  return x * 351 + value349;
+}
+// Line 354: performance test
+import {Component354} from './module354';
+const value355 = 355 + Math.random();
+function compute356(x: number): number {
+  return x * 357 + value355;
+}
+// Line 360: performance test
+import {Component360} from './module360';
+const value361 = 361 + Math.random();
+function compute362(x: number): number {
+  return x * 363 + value361;
+}
+// Line 366: performance test
+import {Component366} from './module366';
+const value367 = 367 + Math.random();
+function compute368(x: number): number {
+  return x * 369 + value367;
+}
+// Line 372: performance test
+import {Component372} from './module372';
+const value373 = 373 + Math.random();
+function compute374(x: number): number {
+  return x * 375 + value373;
+}
+// Line 378: performance test
+import {Component378} from './module378';
+const value379 = 379 + Math.random();
+function compute380(x: number): number {
+  return x * 381 + value379;
+}
+// Line 384: performance test
+import {Component384} from './module384';
+const value385 = 385 + Math.random();
+function compute386(x: number): number {
+  return x * 387 + value385;
+}
+// Line 390: performance test
+import {Component390} from './module390';
+const value391 = 391 + Math.random();
+function compute392(x: number): number {
+  return x * 393 + value391;
+}
+// Line 396: performance test
+import {Component396} from './module396';
+const value397 = 397 + Math.random();
+function compute398(x: number): number {
+  return x * 399 + value397;
+}
+// Line 402: performance test
+import {Component402} from './module402';
+const value403 = 403 + Math.random();
+function compute404(x: number): number {
+  return x * 405 + value403;
+}
+// Line 408: performance test
+import {Component408} from './module408';
+const value409 = 409 + Math.random();
+function compute410(x: number): number {
+  return x * 411 + value409;
+}
+// Line 414: performance test
+import {Component414} from './module414';
+const value415 = 415 + Math.random();
+function compute416(x: number): number {
+  return x * 417 + value415;
+}
+// Line 420: performance test
+import {Component420} from './module420';
+const value421 = 421 + Math.random();
+function compute422(x: number): number {
+  return x * 423 + value421;
+}
+// Line 426: performance test
+import {Component426} from './module426';
+const value427 = 427 + Math.random();
+function compute428(x: number): number {
+  return x * 429 + value427;
+}
+// Line 432: performance test
+import {Component432} from './module432';
+const value433 = 433 + Math.random();
+function compute434(x: number): number {
+  return x * 435 + value433;
+}
+// Line 438: performance test
+import {Component438} from './module438';
+const value439 = 439 + Math.random();
+function compute440(x: number): number {
+  return x * 441 + value439;
+}
+// Line 444: performance test
+import {Component444} from './module444';
+const value445 = 445 + Math.random();
+function compute446(x: number): number {
+  return x * 447 + value445;
+}
+// Line 450: performance test
+import {Component450} from './module450';
+const value451 = 451 + Math.random();
+function compute452(x: number): number {
+  return x * 453 + value451;
+}
+// Line 456: performance test
+import {Component456} from './module456';
+const value457 = 457 + Math.random();
+function compute458(x: number): number {
+  return x * 459 + value457;
+}
+// Line 462: performance test
+import {Component462} from './module462';
+const value463 = 463 + Math.random();
+function compute464(x: number): number {
+  return x * 465 + value463;
+}
+// Line 468: performance test
+import {Component468} from './module468';
+const value469 = 469 + Math.random();
+function compute470(x: number): number {
+  return x * 471 + value469;
+}
+// Line 474: performance test
+import {Component474} from './module474';
+const value475 = 475 + Math.random();
+function compute476(x: number): number {
+  return x * 477 + value475;
+}
+// Line 480: performance test
+import {Component480} from './module480';
+const value481 = 481 + Math.random();
+function compute482(x: number): number {
+  return x * 483 + value481;
+}
+// Line 486: performance test
+import {Component486} from './module486';
+const value487 = 487 + Math.random();
+function compute488(x: number): number {
+  return x * 489 + value487;
+}
+// Line 492: performance test
+import {Component492} from './module492';
+const value493 = 493 + Math.random();
+function compute494(x: number): number {
+  return x * 495 + value493;
+}
+// Line 498: performance test
+import {Component498} from './module498';
+const value499 = 499 + Math.random();</code><span id="_r_1_" class="x10l6tqk x1i1rx1s xjm9jq1 xkdpibf x1717udv xb3r6kr xzpqnlu xuxw1ft xng3xce x13vifvy x1o0tod x47corl x87ps6o">Press Escape then Tab to move focus out of the editor.</span></div></div></div></div></div></div></div>
+
+</body>
+</html>

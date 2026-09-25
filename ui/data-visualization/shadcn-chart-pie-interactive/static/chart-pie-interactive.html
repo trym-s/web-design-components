@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- shadcn/ui 98a1fe6: static render of data-visualization/shadcn-chart-pie-interactive / chart-pie-interactive.
+     Markup as React rendered it; class names resolve through styles.css. Behavior is not included:
+     re-implement it from README.md. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>shadcn-chart-pie-interactive — chart-pie-interactive</title>
+<link rel="stylesheet" href="../../../_sources/shadcn/styles.css">
+<style>
+[data-chart="pie-interactive"] { --color-january: var(--chart-1); --color-february: var(--chart-2); --color-march: var(--chart-3); --color-april: var(--chart-4); --color-may: var(--chart-5); }
+.dark [data-chart="pie-interactive"] { --color-january: var(--chart-1); --color-february: var(--chart-2); --color-march: var(--chart-3); --color-april: var(--chart-4); --color-may: var(--chart-5); }
+[data-chart="chart-pie-interactive"] { --color-january: var(--chart-1); --color-february: var(--chart-2); --color-march: var(--chart-3); --color-april: var(--chart-4); --color-may: var(--chart-5); }
+.dark [data-chart="chart-pie-interactive"] { --color-january: var(--chart-1); --color-february: var(--chart-2); --color-march: var(--chart-3); --color-april: var(--chart-4); --color-may: var(--chart-5); }
+</style>
+</head>
+<body>
+<div data-bank-frame="true" class="bg-background text-foreground font-sans antialiased" style="width: 100%; min-height: 100vh; box-sizing: border-box; padding: 24px;"><div data-bank-example="chart-pie-interactive" class="flex min-h-[320px] w-full items-center justify-center"><div data-slot="card" class="gap-6 rounded-xl border bg-card py-6 text-card-foreground shadow-sm flex flex-col" data-chart="pie-interactive"><style>
+ [data-chart=pie-interactive] {
+  --color-january: var(--chart-1);
+  --color-february: var(--chart-2);
+  --color-march: var(--chart-3);
+  --color-april: var(--chart-4);
+  --color-may: var(--chart-5);
+}
+
+
+.dark [data-chart=pie-interactive] {
+  --color-january: var(--chart-1);
+  --color-february: var(--chart-2);
+  --color-march: var(--chart-3);
+  --color-april: var(--chart-4);
+  --color-may: var(--chart-5);
+}
+</style><div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 flex-row items-start space-y-0 pb-0"><div class="grid gap-1"><div data-slot="card-title" class="leading-none font-semibold">Pie Chart - Interactive</div><div data-slot="card-description" class="text-sm text-muted-foreground">January - June 2024</div></div><button type="button" role="combobox" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-slot="select-trigger" data-size="default" class="flex items-center justify-between gap-2 border border-input bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-xs transition-[color,box-shadow] outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[placeholder]:text-muted-foreground data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 [&amp;_svg:not([class*='text-'])]:text-muted-foreground ml-auto h-7 w-[130px] rounded-lg pl-2.5" aria-label="Select a value"><span data-slot="select-value" style="pointer-events: none;"><div class="flex items-center gap-2 text-xs"><span class="flex h-3 w-3 shrink-0 rounded-xs" style="background-color: var(--color-january);"></span>January</div></span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 opacity-50" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><div data-slot="card-content" class="px-6 flex flex-1 justify-center pb-0"><div data-slot="chart" data-chart="chart-pie-interactive" class="flex justify-center text-xs [&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden mx-auto aspect-square w-full max-w-[300px]"><style>
+ [data-chart=chart-pie-interactive] {
+  --color-january: var(--chart-1);
+  --color-february: var(--chart-2);
+  --color-march: var(--chart-3);
+  --color-april: var(--chart-4);
+  --color-may: var(--chart-5);
+}
+
+
+.dark [data-chart=chart-pie-interactive] {
+  --color-january: var(--chart-1);
+  --color-february: var(--chart-2);
+  --color-march: var(--chart-3);
+  --color-april: var(--chart-4);
+  --color-may: var(--chart-5);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"></div></div></div></div></div></div></div>
+
+</body>
+</html>

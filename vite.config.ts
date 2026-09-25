@@ -50,6 +50,33 @@ function bankShims(): Plugin {
   };
 }
 
+/**
+ * A few Astryx examples author their own styles with `stylex.create`, which only
+ * works compiled. Compile just those files with runtime injection so the snapshot
+ * stays verbatim and the viewer needs no CSS extraction step.
+ */
+function astryxStylex(): Plugin {
+  return {
+    name: "astryx-stylex",
+    enforce: "pre",
+    async transform(code, id) {
+      if (!/\/ui\/(?:[^/]+\/astryx-|_sources\/astryx\/)/.test(id) || !/\.[jt]sx?$/.test(id)) return null;
+      if (!/stylex\.(create|defineVars|keyframes|firstThatWorks)/.test(code)) return null;
+      const { transformAsync } = await import("@babel/core");
+      const { default: stylex } = await import("@stylexjs/babel-plugin");
+      const out = await transformAsync(code, {
+        filename: id,
+        babelrc: false,
+        configFile: false,
+        sourceMaps: true,
+        parserOpts: { plugins: ["typescript", "jsx"] },
+        plugins: [[stylex, { dev: false, runtimeInjection: true, unstable_moduleResolution: { type: "commonJS", rootDir: __dirname } }]],
+      });
+      return out?.code ? { code: out.code, map: out.map } : null;
+    },
+  };
+}
+
 function personalIcons(): Plugin {
   const root = resolve(__dirname, ".cache/icon-bank/personal/react-useanimations/src");
   return {
@@ -71,7 +98,7 @@ function personalIcons(): Plugin {
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), personalIcons(), react(), vue(), svelte()],
+  plugins: [bankShims(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(
@@ -82,7 +109,13 @@ export default defineConfig({
   // Some bank dependencies (liveline) ship their own React copy; without dedupe
   // a second copy loads and every hook call inside them throws.
   resolve: {
-    alias: { "@/lib/utils": resolve(__dirname, "dashboard/shims/cn.ts") },
+    alias: {
+      "@/lib/utils": resolve(__dirname, "dashboard/shims/cn.ts"),
+      // shadcn examples and blocks are written for Next.js; previews run them in plain Vite.
+      "next/link": resolve(__dirname, "dashboard/shims/next/link.tsx"),
+      "next/image": resolve(__dirname, "dashboard/shims/next/image.tsx"),
+      "next/font/google": resolve(__dirname, "dashboard/shims/next/font-google.ts"),
+    },
     dedupe: ["react", "react-dom"],
   },
   server: {

@@ -1,0 +1,53 @@
+<!doctype html>
+<!-- Astryx 0.6.3-canary.e073c9f (e073c9f): static render of content/astryx-lab-svg-icon / XIFSpec--AnimationIntent.
+     Markup as React rendered it; class names resolve through frame.css. Behavior is not included:
+     re-implement it from README.md. -->
+<html lang="en" data-astryx-theme="neutral">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>astryx-lab-svg-icon — XIFSpec--AnimationIntent</title>
+<link rel="stylesheet" href="../../../_sources/astryx/frame.css">
+<style>
+@keyframes xif-draw { 
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes xif-fade { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes xif-scale { 
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+@keyframes xif-rotate { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.xif-draw path { stroke-dasharray: 100; stroke-dashoffset: 100; animation: 1.2s ease-out 0s 1 normal forwards running xif-draw; }
+.xif-draw path:nth-child(2) { animation-delay: 0.4s; }
+.xif-fade path { opacity: 0; animation: 0.6s ease-out 0s 1 normal forwards running xif-fade; }
+.xif-fade path:nth-child(2) { animation-delay: 0.3s; }
+.xif-scale path { transform-origin: center center; transform: scale(0); animation: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards running xif-scale; }
+.xif-scale path:nth-child(2) { animation-delay: 0.2s; }
+.xif-rotate { transform-origin: center center; animation: 2s linear 0s infinite normal none running xif-rotate; }
+</style>
+</head>
+<body>
+<div class="xjp7ctv x1tgivj0 x9ynric x108lcm5" data-astryx-theme="neutral"><div data-astryx-frame="true" style="width: 100%; min-height: 100vh; padding: 24px; box-sizing: border-box; background: var(--color-background-body, transparent);"><div data-astryx-example="XIFSpec--AnimationIntent"><div class="astryx-stack vertical gap-3 x78zum5 xdt5ytf xewh9hi x4olc9o" data-direction="vertical" data-gap="3"><style>
+      @keyframes xif-draw { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+      @keyframes xif-fade { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes xif-scale { from { transform: scale(0); } to { transform: scale(1); } }
+      @keyframes xif-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .xif-draw path { stroke-dasharray: 100; stroke-dashoffset: 100; animation: xif-draw 1.2s ease-out forwards; }
+      .xif-draw path:nth-child(2) { animation-delay: 0.4s; }
+      .xif-fade path { opacity: 0; animation: xif-fade 0.6s ease-out forwards; }
+      .xif-fade path:nth-child(2) { animation-delay: 0.3s; }
+      .xif-scale path { transform-origin: center; transform: scale(0); animation: xif-scale 0.5s cubic-bezier(0.34,1.56,0.64,1) forwards; }
+      .xif-scale path:nth-child(2) { animation-delay: 0.2s; }
+      .xif-rotate { transform-origin: center; animation: xif-rotate 2s linear infinite; }
+    </style><h3 class="astryx-heading level-3 primary x1tgivj0 xii13ha xwjzt0u x1jcxfy8 x1lliihq" data-level="3" data-color="primary">Animation Types (Live)</h3><span class="astryx-text supporting secondary xv1l7n4 x141an7d x1ltkj2j xv8on6e xt0psk2" data-type="supporting" data-color="secondary">Icons declare animation intent per path. The theme resolves timing. Each demo loops on page load.</span><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;"><div class="astryx-stack vertical gap-1 x78zum5 xdt5ytf x1lfs0n9 x1ngg2t4 x6s0dn4" data-direction="vertical" data-gap="1" style="padding: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="xif-draw"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg><span class="astryx-text label primary x1tgivj0 xcr08ib x1kq96og xmhvcl5 xt0psk2" data-type="label" data-color="primary" style="font-size: 12px; margin-top: 8px;">draw</span><span class="astryx-text supporting secondary xv1l7n4 x141an7d x1ltkj2j xv8on6e xt0psk2" data-type="supporting" data-color="secondary" style="font-size: 10px; text-align: center;">Stroke reveals along path</span></div><div class="astryx-stack vertical gap-1 x78zum5 xdt5ytf x1lfs0n9 x1ngg2t4 x6s0dn4" data-direction="vertical" data-gap="1" style="padding: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="xif-fade"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="M9 12l2 2 4-4"></path></svg><span class="astryx-text label primary x1tgivj0 xcr08ib x1kq96og xmhvcl5 xt0psk2" data-type="label" data-color="primary" style="font-size: 12px; margin-top: 8px;">fade</span><span class="astryx-text supporting secondary xv1l7n4 x141an7d x1ltkj2j xv8on6e xt0psk2" data-type="supporting" data-color="secondary" style="font-size: 10px; text-align: center;">Opacity entrance per layer</span></div><div class="astryx-stack vertical gap-1 x78zum5 xdt5ytf x1lfs0n9 x1ngg2t4 x6s0dn4" data-direction="vertical" data-gap="1" style="padding: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="xif-scale"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><span class="astryx-text label primary x1tgivj0 xcr08ib x1kq96og xmhvcl5 xt0psk2" data-type="label" data-color="primary" style="font-size: 12px; margin-top: 8px;">scale</span><span class="astryx-text supporting secondary xv1l7n4 x141an7d x1ltkj2j xv8on6e xt0psk2" data-type="supporting" data-color="secondary" style="font-size: 10px; text-align: center;">Grow from center</span></div><div class="astryx-stack vertical gap-1 x78zum5 xdt5ytf x1lfs0n9 x1ngg2t4 x6s0dn4" data-direction="vertical" data-gap="1" style="padding: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="xif-rotate"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path></svg><span class="astryx-text label primary x1tgivj0 xcr08ib x1kq96og xmhvcl5 xt0psk2" data-type="label" data-color="primary" style="font-size: 12px; margin-top: 8px;">rotate</span><span class="astryx-text supporting secondary xv1l7n4 x141an7d x1ltkj2j xv8on6e xt0psk2" data-type="supporting" data-color="secondary" style="font-size: 10px; text-align: center;">Continuous spin</span></div></div></div></div></div></div>
+
+</body>
+</html>

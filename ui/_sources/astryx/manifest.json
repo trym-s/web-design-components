@@ -1,0 +1,2792 @@
+{
+  "commit": "e073c9f8df371455086b384a6c221acdcfdcd57c",
+  "version": "0.6.3-canary.e073c9f",
+  "captured": "2026-09-24T15:30:00Z",
+  "entries": [
+    {
+      "id": "overlay/astryx-alert-dialog",
+      "name": "AlertDialog",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/AlertDialog",
+      "examples": [
+        "AlertDialogAsyncAction",
+        "AlertDialogDeleteConfirmation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-app-shell",
+      "name": "AppShell",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/AppShell",
+      "examples": [
+        "AppShellShowcase",
+        "AppShellContentOnly",
+        "AppShellSideNavOnly",
+        "AppShellTopNavOnly",
+        "AppShellTopNavWithSideNav",
+        "AppShellWithBanner"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-app-shell-mobile",
+      "name": "useAppShellMobile",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useAppShellMobile",
+      "examples": [
+        "AppShellMobileHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-aspect-ratio",
+      "name": "AspectRatio",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/AspectRatio",
+      "examples": [
+        "AspectRatioShowcase",
+        "AspectRatioCircleImage",
+        "AspectRatioImageGallery",
+        "AspectRatioSquareImage",
+        "AspectRatioWidescreen",
+        "AspectRatioWithSkeleton"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-avatar",
+      "name": "Avatar",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Avatar",
+      "examples": [
+        "AvatarShowcase",
+        "AvatarStatusDotShowcase",
+        "AvatarFallbackChain",
+        "AvatarInitialsFallback",
+        "AvatarInteractive",
+        "AvatarStatusDotVariants",
+        "AvatarTooltip",
+        "AvatarUserCard",
+        "AvatarWithImage",
+        "AvatarWithStatus"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-avatar-group",
+      "name": "AvatarGroup",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/AvatarGroup",
+      "examples": [
+        "AvatarGroupOverflowShowcase",
+        "AvatarGroupShowcase",
+        "AvatarGroup",
+        "AvatarGroupInteractive",
+        "AvatarGroupOverflowCustomText",
+        "AvatarGroupOverflowDefault"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-badge",
+      "name": "Badge",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Badge",
+      "examples": [
+        "BadgeShowcase",
+        "BadgeCategoryTags",
+        "BadgeCountBadges",
+        "BadgeStatusLabels"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-banner",
+      "name": "Banner",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Banner",
+      "examples": [
+        "BannerShowcase",
+        "BannerCollapsibleContent",
+        "BannerDismissable",
+        "BannerFloating",
+        "BannerSectionVariant",
+        "BannerStatuses",
+        "BannerWithActionButton"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-blockquote",
+      "name": "Blockquote",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Blockquote",
+      "examples": [
+        "BlockquoteShowcase",
+        "BlockquoteTestimonials",
+        "BlockquoteWithCite"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-bottom-sheet",
+      "name": "BottomSheet",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/BottomSheet",
+      "examples": [
+        "BottomSheetShowcase",
+        "BottomSheetHeights",
+        "BottomSheetMobileKeyboard",
+        "BottomSheetNoScrim",
+        "BottomSheetSnapPoints"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-bottom-sheet-switcher",
+      "name": "BottomSheetSwitcher",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/BottomSheetSwitcher",
+      "examples": [
+        "BottomSheetSwitcherShowcase",
+        "BottomSheetSwitcherReviewFlow"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-breadcrumbs",
+      "name": "Breadcrumbs",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Breadcrumbs",
+      "examples": [
+        "BreadcrumbItemShowcase",
+        "BreadcrumbsShowcase",
+        "BreadcrumbItemBasic",
+        "BreadcrumbsCustomSeparator",
+        "BreadcrumbsDeepHierarchy",
+        "BreadcrumbsMenuItem",
+        "BreadcrumbsSupportingVariant",
+        "BreadcrumbsWithIcons"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-button",
+      "name": "Button",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Button",
+      "examples": [
+        "ButtonShowcase",
+        "ButtonFloating",
+        "ButtonSizeVariants",
+        "ButtonVariants",
+        "ButtonWithEndSlot",
+        "ButtonWithIcon"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-button-group",
+      "name": "ButtonGroup",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ButtonGroup",
+      "examples": [
+        "ButtonGroupShowcase",
+        "ButtonGroupBasic",
+        "ButtonGroupFloating"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-calendar",
+      "name": "Calendar",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Calendar",
+      "examples": [
+        "CalendarShowcase",
+        "CalendarConstraints",
+        "CalendarRangeWithValue",
+        "CalendarSingle",
+        "CalendarTwoMonths"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "surface/astryx-card",
+      "name": "Card",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Card",
+      "examples": [
+        "CardShowcase",
+        "CardCallout",
+        "CardElevations",
+        "CardVariants",
+        "CardWithInnerLayout",
+        "CardWithSimpleContent"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "surface/astryx-carousel",
+      "name": "Carousel",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Carousel",
+      "examples": [
+        "CarouselShowcase",
+        "CarouselCards",
+        "CarouselSnap"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-center",
+      "name": "Center",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Center",
+      "examples": [
+        "CenterShowcase",
+        "CenterHorizontal",
+        "CenterInsideACard"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-chat",
+      "name": "Chat",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Chat",
+      "examples": [
+        "ChatComposerDrawerShowcase",
+        "ChatComposerInputShowcase",
+        "ChatComposerShowcase",
+        "ChatLayoutShowcase",
+        "ChatMessageBubbleShowcase",
+        "ChatMessageListShowcase",
+        "ChatMessageMetadataShowcase",
+        "ChatMessageShowcase",
+        "ChatSendButtonShowcase",
+        "ChatSystemMessageShowcase",
+        "ChatComposerAttachments",
+        "ChatComposerDrawerAttachments",
+        "ChatComposerDrawerCollapsible",
+        "ChatComposerDrawerFeedback",
+        "ChatComposerDrawerWithProgress",
+        "ChatComposerFlat",
+        "ChatComposerFooterActions",
+        "ChatComposerFullFeatured",
+        "ChatComposerInputControlledInput",
+        "ChatComposerInputDisabled",
+        "ChatComposerInputMentionTrigger",
+        "ChatComposerInputMultipleTriggers",
+        "ChatComposerInputSlashCommands",
+        "ChatComposerSimple",
+        "ChatComposerStreaming",
+        "ChatComposerValidation",
+        "ChatLayoutPanelChat",
+        "ChatLayoutScrollButtonLabels",
+        "ChatLayoutScrollButtonStates",
+        "ChatMessageAvatarName",
+        "ChatMessageBubbleCustomContent",
+        "ChatMessageBubbleDensity",
+        "ChatMessageBubbleGrouping",
+        "ChatMessageBubbleMetadata",
+        "ChatMessageBubbleVariants",
+        "ChatMessageGhost",
+        "ChatMessageListDensity",
+        "ChatMessageListFullFeatured",
+        "ChatMessageMetadataFooter",
+        "ChatMessageMetadataStatus",
+        "ChatMessageMetadataTimestamp",
+        "ChatMessageMultiBubble",
+        "ChatSendButtonCustomIcon",
+        "ChatSendButtonInComposer",
+        "ChatSendButtonStates",
+        "ChatSystemMessageStatusUpdates",
+        "ChatSystemMessageVariants",
+        "ChatSystemMessageWithIcon"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-chat-dictation-button",
+      "name": "ChatDictationButton",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ChatDictationButton",
+      "examples": [
+        "ChatDictationButtonShowcase",
+        "ChatDictationButtonBasic",
+        "ChatDictationDictationInComposer",
+        "ChatDictationDictationStates",
+        "ChatDictationSizes"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-chat-tool-calls",
+      "name": "ChatToolCalls",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ChatToolCalls",
+      "examples": [
+        "ChatTokenizedTextShowcase",
+        "ChatToolCallsShowcase",
+        "ChatTokenizedTextBasic",
+        "ChatTokenizedTextColors",
+        "ChatToolCallsInteractiveToolCalls",
+        "ChatToolCallsStatuses",
+        "ChatToolCallsToolCallsWithNodes"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-checkbox-input",
+      "name": "CheckboxInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/CheckboxInput",
+      "examples": [
+        "CheckboxInputShowcase",
+        "CheckboxInputBasic",
+        "CheckboxInputIndeterminateState",
+        "CheckboxInputStatusVariations"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-checkbox-list",
+      "name": "CheckboxList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/CheckboxList",
+      "examples": [
+        "CheckboxListItemShowcase",
+        "CheckboxListShowcase",
+        "CheckboxListItemBasic",
+        "CheckboxListSelectAllPattern",
+        "CheckboxListWithEndContent"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-citation",
+      "name": "Citation",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Citation",
+      "examples": [
+        "CitationShowcase",
+        "CitationInlineText",
+        "CitationSourceList"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "surface/astryx-clickable-card",
+      "name": "ClickableCard",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ClickableCard",
+      "examples": [
+        "ClickableCardShowcase",
+        "ClickableCardElevated",
+        "ClickableCardWithNestedButton"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-code-block",
+      "name": "CodeBlock",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/CodeBlock",
+      "examples": [
+        "CodeBlockShowcase",
+        "CodeShowcase",
+        "CodeAcrossTextSizes",
+        "CodeBlockBashCommand",
+        "CodeBlockHighlightedLines",
+        "CodeBlockJSONConfig",
+        "CodeBlockScrollableBlock",
+        "CodeBlockTerminal",
+        "CodeInlineInParagraph",
+        "CodeVariousContent"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "surface/astryx-collapsible",
+      "name": "Collapsible",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Collapsible",
+      "examples": [
+        "CollapsibleGroupShowcase",
+        "CollapsibleShowcase",
+        "CollapsibleControlledAccordion",
+        "CollapsibleDividedAccordion",
+        "CollapsibleGroupAccordion",
+        "CollapsibleMultipleAccordion",
+        "CollapsibleSingleAccordion",
+        "CollapsibleWithoutCard"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-collapsible",
+      "name": "useCollapsible",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useCollapsible",
+      "examples": [
+        "CollapsibleHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-command-palette",
+      "name": "CommandPalette",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/CommandPalette",
+      "examples": [
+        "CommandPaletteEmptyShowcase",
+        "CommandPaletteFooterShowcase",
+        "CommandPaletteGroupShowcase",
+        "CommandPaletteInputShowcase",
+        "CommandPaletteItemShowcase",
+        "CommandPaletteListShowcase",
+        "CommandPaletteShowcase",
+        "CommandPaletteAsyncSearch",
+        "CommandPaletteAutoGrouped",
+        "CommandPaletteCustomFooter",
+        "CommandPaletteEmptyBasic",
+        "CommandPaletteFooterBasic",
+        "CommandPaletteGroupBasic",
+        "CommandPaletteInputBasic",
+        "CommandPaletteItemBasic",
+        "CommandPaletteListBasic",
+        "CommandPalettePickerMode",
+        "CommandPaletteRichItems"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-complex-selector",
+      "name": "ComplexSelector",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ComplexSelector",
+      "examples": [
+        "ComplexSelectorShowcase",
+        "ComplexSelectorDeadlinePicker",
+        "ComplexSelectorTreeSearch"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-context-menu",
+      "name": "ContextMenu",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ContextMenu",
+      "examples": [
+        "ContextMenuItemShowcase",
+        "ContextMenuShowcase",
+        "ContextMenuBasic",
+        "ContextMenuBottomSheet",
+        "ContextMenuItemBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-date-input",
+      "name": "DateInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/DateInput",
+      "examples": [
+        "DateInputShowcase",
+        "DateInputClearable",
+        "DateInputDateRange",
+        "DateInputFormats",
+        "DateInputWithDescription",
+        "DateInputWithValidation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-date-range-input",
+      "name": "DateRangeInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/DateRangeInput",
+      "examples": [
+        "DateRangeInputShowcase",
+        "DateRangeInputWithPresets",
+        "DateRangeInputWithValidation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-date-time-input",
+      "name": "DateTimeInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/DateTimeInput",
+      "examples": [
+        "DateTimeInputShowcase",
+        "DateTimeInputWithValidation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-dialog",
+      "name": "Dialog",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Dialog",
+      "examples": [
+        "DialogHeaderShowcase",
+        "DialogShowcase",
+        "DialogAdaptivePresentation",
+        "DialogConfirmationDialog",
+        "DialogFormDialog",
+        "DialogFullscreenDialog",
+        "DialogHeaderBasic",
+        "DialogScrollingContent",
+        "DialogWithSubtitle"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-divider",
+      "name": "Divider",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Divider",
+      "examples": [
+        "DividerShowcase",
+        "DividerFullBleed",
+        "DividerVariants",
+        "DividerVertical"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-dropdown-menu",
+      "name": "DropdownMenu",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/DropdownMenu",
+      "examples": [
+        "DropdownMenuItemShowcase",
+        "DropdownMenuShowcase",
+        "DropdownMenuActions",
+        "DropdownMenuBottomSheet",
+        "DropdownMenuItemBasic",
+        "DropdownMenuNoChevron",
+        "DropdownMenuWithDisabledItems",
+        "DropdownMenuWithSections",
+        "DropdownMenuWithSubmenu"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-empty-state",
+      "name": "EmptyState",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/EmptyState",
+      "examples": [
+        "EmptyStateShowcase",
+        "EmptyStateActions",
+        "EmptyStateCompact",
+        "EmptyStateContainer"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-field",
+      "name": "Field",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Field",
+      "examples": [
+        "FieldLabelShowcase",
+        "FieldShowcase",
+        "FieldLabelBasic",
+        "FieldRequired",
+        "FieldStatusVariants",
+        "FieldWithDescription"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-field-status",
+      "name": "FieldStatus",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/FieldStatus",
+      "examples": [
+        "FieldStatusShowcase",
+        "FieldStatusBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-file-input",
+      "name": "FileInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/FileInput",
+      "examples": [
+        "FileInputShowcase",
+        "FileInputBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-form-layout",
+      "name": "FormLayout",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/FormLayout",
+      "examples": [
+        "FormLayoutShowcase",
+        "FormLayoutHorizontal",
+        "FormLayoutHorizontalLabels",
+        "FormLayoutMixedControls",
+        "FormLayoutNested"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-grid",
+      "name": "Grid",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Grid",
+      "examples": [
+        "GridShowcase",
+        "GridSpanShowcase",
+        "GridDashboardLayout",
+        "GridGalleryExample",
+        "GridResponsiveAutoFit",
+        "GridSpanColumns",
+        "GridWithGridSpan"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-hover-card",
+      "name": "HoverCard",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/HoverCard",
+      "examples": [
+        "HoverCardShowcase",
+        "HoverCardInlineTextHoverCard",
+        "HoverCardInteractiveContent",
+        "HoverCardProfileHoverCard"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-hover-card",
+      "name": "useHoverCard",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useHoverCard",
+      "examples": [
+        "HoverCardHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-icon",
+      "name": "Icon",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Icon",
+      "examples": [
+        "IconShowcase",
+        "IconNonSemanticColors",
+        "IconSemanticColors",
+        "IconSizes",
+        "IconStatusIcons"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-icon-button",
+      "name": "IconButton",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/IconButton",
+      "examples": [
+        "IconButtonShowcase",
+        "IconButtonActionBar",
+        "IconButtonFloating",
+        "IconButtonLoadingToggle",
+        "IconButtonTooltipIconButton"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-indicator",
+      "name": "Indicator",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Indicator",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-input-group",
+      "name": "InputGroup",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/InputGroup",
+      "examples": [
+        "InputGroupShowcase",
+        "InputGroupBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-item",
+      "name": "Item",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Item",
+      "examples": [
+        "ItemShowcase",
+        "ItemBasicItem",
+        "ItemWithMedia",
+        "ItemWithMetadata"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-kbd",
+      "name": "Kbd",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Kbd",
+      "examples": [
+        "KbdShowcase",
+        "KbdInlineInstructions",
+        "KbdMenuShortcuts",
+        "KbdModifierCombos"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-layer",
+      "name": "Layer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Layer",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-layer",
+      "name": "useLayer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useLayer",
+      "examples": [
+        "LayerHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-layout",
+      "name": "Layout",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Layout",
+      "examples": [
+        "LayoutContentShowcase",
+        "LayoutFooterShowcase",
+        "LayoutHeaderShowcase",
+        "LayoutPanelShowcase",
+        "LayoutShowcase",
+        "LayoutBasicCardLayout",
+        "LayoutContentBasic",
+        "LayoutContentOnlyLayout",
+        "LayoutContentWidth",
+        "LayoutDualPanelLayout",
+        "LayoutFooterActions",
+        "LayoutFullBleedContent",
+        "LayoutHeaderWithActions",
+        "LayoutPanelNavigation",
+        "LayoutSidebarLayout"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-lightbox",
+      "name": "Lightbox",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Lightbox",
+      "examples": [
+        "LightboxShowcase",
+        "LightboxGallery",
+        "LightboxVideo",
+        "LightboxZoom"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-link",
+      "name": "Link",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Link",
+      "examples": [
+        "LinkShowcase",
+        "LinkExternalLinks",
+        "LinkInlineLink",
+        "LinksWithTooltips"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-link-provider",
+      "name": "LinkProvider",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/LinkProvider",
+      "examples": [
+        "LinkProviderCustomLink"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-list",
+      "name": "List",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/List",
+      "examples": [
+        "ListItemShowcase",
+        "ListShowcase",
+        "ListBasicList",
+        "ListBulletedFeatures",
+        "ListItemBasicItem",
+        "ListItemWithMedia",
+        "ListItemWithMetadata",
+        "ListMessageList",
+        "ListOrderedSteps"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-markdown",
+      "name": "Markdown",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Markdown",
+      "examples": [
+        "MarkdownShowcase",
+        "MarkdownCitedContent",
+        "MarkdownCompactAIResponse",
+        "MarkdownDataTable",
+        "MarkdownRichContent"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-metadata-list",
+      "name": "MetadataList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/MetadataList",
+      "examples": [
+        "MetadataListItemShowcase",
+        "MetadataListShowcase",
+        "MetadataListBasicMetadata",
+        "MetadataListCollapsibleMetadata",
+        "MetadataListHorizontalMetadata",
+        "MetadataListItemBasic",
+        "MetadataListMultiColumnMetadata"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-mobile-nav",
+      "name": "MobileNav",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/MobileNav",
+      "examples": [
+        "MobileNavShowcase",
+        "MobileNavToggleShowcase",
+        "MobileNavBasicMobileNav",
+        "MobileNavEndSideMobileNav",
+        "MobileNavToggleBasic",
+        "MobileNavWithoutTitleMobileNav"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-more-menu",
+      "name": "MoreMenu",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/MoreMenu",
+      "examples": [
+        "MoreMenuShowcase",
+        "MoreMenuBottomSheet",
+        "MoreMenuDefaultMoreMenu",
+        "MoreMenuWithDividers",
+        "MoreMenuWithSections"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-multi-selector",
+      "name": "MultiSelector",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/MultiSelector",
+      "examples": [
+        "MultiSelectorShowcase",
+        "MultiSelectorBottomSheet",
+        "MultiSelectorColumnVisibilitySelector",
+        "MultiSelectorForm",
+        "MultiSelectorGhostToolbar",
+        "MultiSelectorSearchableMultiSelector",
+        "MultiSelectorSectionedMultiSelector"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-nav-icon",
+      "name": "NavIcon",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/NavIcon",
+      "examples": [
+        "NavIconShowcase",
+        "NavIconBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-nav-heading-menu",
+      "name": "NavHeadingMenu",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/NavHeadingMenu",
+      "examples": [
+        "NavHeadingMenuShowcase"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-number-input",
+      "name": "NumberInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/NumberInput",
+      "examples": [
+        "NumberInputShowcase",
+        "NumberInputClearableNumberInput",
+        "NumberInputRangeNumberInput",
+        "NumberInputStatuses",
+        "NumberInputWithUnits"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-outline",
+      "name": "Outline",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Outline",
+      "examples": [
+        "OutlineShowcase",
+        "OutlineControlled",
+        "OutlineDeepNesting",
+        "OutlineDensity"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-overflow-list",
+      "name": "OverflowList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/OverflowList",
+      "examples": [
+        "OverflowListShowcase",
+        "OverflowListCappedToolbar",
+        "OverflowListCollapseFromStartList",
+        "OverflowListMultiRowTags",
+        "OverflowListOverflowBadges",
+        "OverflowListOverflowDropdownActions"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-overlay",
+      "name": "Overlay",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Overlay",
+      "examples": [
+        "OverlayShowcase",
+        "OverlayBottomStrip",
+        "OverlayHoverReveal"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-pagination",
+      "name": "Pagination",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Pagination",
+      "examples": [
+        "PaginationDotsCarousel",
+        "PaginationPageSize",
+        "PaginationVariants",
+        "PaginationWithTable"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-popover",
+      "name": "Popover",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Popover",
+      "examples": [
+        "PopoverShowcase",
+        "PopoverBottomSheetAlternative",
+        "PopoverConfirmAction",
+        "PopoverFilterPanel",
+        "PopoverKeyboardShortcuts",
+        "PopoverSettingsPanel"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-popover",
+      "name": "usePopover",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/usePopover",
+      "examples": [
+        "PopoverHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-power-search",
+      "name": "PowerSearch",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/PowerSearch",
+      "examples": [
+        "PowerSearchShowcase",
+        "PowerSearchContentSearch",
+        "PowerSearchFullFeatured",
+        "PowerSearchPresetFilters",
+        "PowerSearchSearchWithTable"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-progress-bar",
+      "name": "ProgressBar",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ProgressBar",
+      "examples": [
+        "ProgressBarShowcase",
+        "ProgressBarCustomFormat",
+        "ProgressBarIndeterminate",
+        "ProgressBarSemanticVariants",
+        "ProgressBarWithValueLabel"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-radio-list",
+      "name": "RadioList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/RadioList",
+      "examples": [
+        "RadioListItemShowcase",
+        "RadioListShowcase",
+        "RadioListHorizontalLayout",
+        "RadioListItemBasic",
+        "RadioListPricingTier",
+        "RadioListWithDescriptions",
+        "RadioListWithValidation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-resizable",
+      "name": "Resizable",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Resizable",
+      "examples": [
+        "ResizableShowcase",
+        "ResizableSidebar"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-resizable",
+      "name": "useResizable",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useResizable",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-scrollable-area",
+      "name": "ScrollableArea",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ScrollableArea",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-section",
+      "name": "Section",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Section",
+      "examples": [
+        "SectionVariants",
+        "SectionWashHighlight",
+        "SectionWithDividers"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-segmented-control",
+      "name": "SegmentedControl",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/SegmentedControl",
+      "examples": [
+        "SegmentedControlItemShowcase",
+        "SegmentedControlShowcase",
+        "SegmentedControlDisabledItem",
+        "SegmentedControlFillLayout",
+        "SegmentedControlIconOnly",
+        "SegmentedControlItemBasic",
+        "SegmentedControlWithIcons"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "surface/astryx-selectable-card",
+      "name": "SelectableCard",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/SelectableCard",
+      "examples": [
+        "SelectableCardShowcase",
+        "SelectableCardElevated",
+        "SelectableCardMulti"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-selector",
+      "name": "Selector",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Selector",
+      "examples": [
+        "SelectorOptionShowcase",
+        "SelectorShowcase",
+        "SelectorBottomSheet",
+        "SelectorClearable",
+        "SelectorGhostToolbar",
+        "SelectorOptionBasic",
+        "SelectorOptionDescriptions",
+        "SelectorWithSections",
+        "SelectorWithStatus"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-side-nav",
+      "name": "SideNav",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/SideNav",
+      "examples": [
+        "SideNavCollapseButtonShowcase",
+        "SideNavHeadingShowcase",
+        "SideNavItemShowcase",
+        "SideNavSectionShowcase",
+        "SideNavShowcase",
+        "SideNavCollapseButtonBasic",
+        "SideNavEndContent",
+        "SideNavHeadingBasic",
+        "SideNavItemBasic",
+        "SideNavNestedItems",
+        "SideNavSectionBasic",
+        "SideNavWithHeaderMenu"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-skeleton",
+      "name": "Skeleton",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Skeleton",
+      "examples": [
+        "SkeletonShowcase",
+        "SkeletonCardSkeleton",
+        "SkeletonStaggeredList",
+        "SkeletonTableRowSkeleton"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-slider",
+      "name": "Slider",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Slider",
+      "examples": [
+        "SliderShowcase",
+        "SliderFormattedValue",
+        "SliderRangeSlider",
+        "SliderWithMarks",
+        "SliderWithStatus"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-spinner",
+      "name": "Spinner",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Spinner",
+      "examples": [
+        "SpinnerShowcase",
+        "SpinnerOnMedia",
+        "SpinnerSizes",
+        "SpinnerWithLabel"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "layout/astryx-stack",
+      "name": "Stack",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Stack",
+      "examples": [
+        "HStackShowcase",
+        "StackItemShowcase",
+        "VStackShowcase",
+        "HStackBasic",
+        "StackAlignment",
+        "StackDirections",
+        "StackFillItem",
+        "StackItemFill",
+        "VStackBasic"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-status-dot",
+      "name": "StatusDot",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/StatusDot",
+      "examples": [
+        "StatusDotShowcase",
+        "StatusDotPulsing",
+        "StatusDotStatusIndicators",
+        "StatusDotVariants"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-step",
+      "name": "Step",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Step",
+      "examples": [
+        "StepShowcase",
+        "StepContent",
+        "StepIndicator",
+        "StepStates"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-stepper",
+      "name": "Stepper",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Stepper",
+      "examples": [
+        "StepperShowcase",
+        "StepperCustomContent",
+        "StepperIndicatorModes",
+        "StepperOnTrackHorizontal",
+        "StepperOnTrackVertical",
+        "StepperStatus",
+        "StepperWidthResponsiveCollapse"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-switch",
+      "name": "Switch",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Switch",
+      "examples": [
+        "SwitchShowcase",
+        "SwitchDisabled",
+        "SwitchSettingsPanel",
+        "SwitchWithDescription",
+        "SwitchWithStatus"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-tab-list",
+      "name": "TabList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TabList",
+      "examples": [
+        "TabListShowcase",
+        "TabMenuShowcase",
+        "TabShowcase",
+        "TabListTabsFillLayout",
+        "TabListTabsWithActions",
+        "TabListTabsWithBadge",
+        "TabListTabsWithIcons",
+        "TabListTabsWithMenu",
+        "TabListTabsWithStatusDot",
+        "TabMenuBasic",
+        "TabWithSelectedIcon"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-table",
+      "name": "Table",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Table",
+      "examples": [
+        "TableShowcase",
+        "ColumnResizeHookUsage",
+        "StickyColumnsHookUsage",
+        "TableColumnSettingsTable",
+        "TableFilterableTable",
+        "TableGridDividersTable",
+        "TableGroupedRowsTable",
+        "TableInCard",
+        "TableInlineFilterTable",
+        "TablePaginatedTable",
+        "TableResizableTable",
+        "TableRichCellTable",
+        "TableRowExpansionTable",
+        "TableRowIndexTable",
+        "TableRowStatusTable",
+        "TableSelectableTable",
+        "TableSortableTable",
+        "TableStripedTable",
+        "TableTreeTable"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-text",
+      "name": "Text",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Text",
+      "examples": [
+        "HeadingShowcase",
+        "TextShowcase",
+        "HeadingCardGrid",
+        "HeadingPageLayout",
+        "HeadingTruncation",
+        "TextColors",
+        "TextHeadingLevels",
+        "TextInline",
+        "TextTruncation",
+        "TextTypes",
+        "TextWeight",
+        "TextWordBreak",
+        "TextWrap"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-text-area",
+      "name": "TextArea",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TextArea",
+      "examples": [
+        "TextAreaShowcase",
+        "TextAreaCharacterCount",
+        "TextAreaStates",
+        "TextAreaValidation",
+        "TextAreaWithIcon"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-text-input",
+      "name": "TextInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TextInput",
+      "examples": [
+        "TextInputShowcase",
+        "TextInputIcon",
+        "TextInputSearch",
+        "TextInputSizes",
+        "TextInputStates",
+        "TextInputStatusVariant",
+        "TextInputTypes"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-thumbnail",
+      "name": "Thumbnail",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Thumbnail",
+      "examples": [
+        "ThumbnailShowcase",
+        "ThumbnailDisabled",
+        "ThumbnailGallery",
+        "ThumbnailRemovable",
+        "ThumbnailStates"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-time-input",
+      "name": "TimeInput",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TimeInput",
+      "examples": [
+        "TimeInputShowcase",
+        "TimeInputConstrained",
+        "TimeInputFormats",
+        "TimeInputIncrement",
+        "TimeInputStates"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-timer",
+      "name": "Timer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Timer",
+      "examples": [
+        "TimerShowcase",
+        "TimerFormats",
+        "TimerInline",
+        "TimerTypography"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-timestamp",
+      "name": "Timestamp",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Timestamp",
+      "examples": [
+        "TimestampShowcase",
+        "TimestampAutoFormat",
+        "TimestampColors",
+        "TimestampFormats",
+        "TimestampRelativeFormat",
+        "TimestampTimezone",
+        "TimestampTooltipTimezones"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-toast",
+      "name": "Toast",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Toast",
+      "examples": [
+        "ToastShowcase",
+        "ToastAction",
+        "ToastDeduplication",
+        "ToastDismiss",
+        "ToastStacking",
+        "ToastTypes"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-toast",
+      "name": "useToast",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useToast",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-toggle-button",
+      "name": "ToggleButton",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/ToggleButton",
+      "examples": [
+        "ToggleButtonGroupShowcase",
+        "ToggleButtonShowcase",
+        "ToggleButtonColor",
+        "ToggleButtonGroup",
+        "ToggleButtonGroupVertical",
+        "ToggleButtonIconSwap",
+        "ToggleButtonLabel",
+        "ToggleButtonStates"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "content/astryx-token",
+      "name": "Token",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Token",
+      "examples": [
+        "TokenShowcase",
+        "TokenClickable",
+        "TokenColors",
+        "TokenEndContent",
+        "TokenIcon",
+        "TokenRemovable"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-tokenizer",
+      "name": "Tokenizer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Tokenizer",
+      "examples": [
+        "TokenizerShowcase",
+        "TokenizerClear",
+        "TokenizerCreatable",
+        "TokenizerEndContent",
+        "TokenizerIcon",
+        "TokenizerMaxEntries",
+        "TokenizerOverflow",
+        "TokenizerStates"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "action-feedback/astryx-toolbar",
+      "name": "Toolbar",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Toolbar",
+      "examples": [
+        "ToolbarBulkActions",
+        "ToolbarCardHeader",
+        "ToolbarSizes",
+        "ToolbarTableFilter",
+        "ToolbarThreeSlot",
+        "ToolbarWithTabs"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "overlay/astryx-tooltip",
+      "name": "Tooltip",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Tooltip",
+      "examples": [
+        "TooltipShowcase",
+        "TooltipActionBarTooltips",
+        "TooltipHookUsage",
+        "TooltipInlineTextTooltips"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-tooltip",
+      "name": "useTooltip",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useTooltip",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "navigation/astryx-top-nav",
+      "name": "TopNav",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TopNav",
+      "examples": [
+        "TopNavHeadingShowcase",
+        "TopNavItemShowcase",
+        "TopNavMegaMenuFeaturedCardShowcase",
+        "TopNavMegaMenuItemShowcase",
+        "TopNavMegaMenuShowcase",
+        "TopNavMenuShowcase",
+        "TopNavShowcase",
+        "TopNavCenteredNavigation",
+        "TopNavEnterpriseDashboard",
+        "TopNavHeadingBasic",
+        "TopNavHoverMenu",
+        "TopNavItemBasic",
+        "TopNavMegaMenu",
+        "TopNavMegaMenuBasic",
+        "TopNavMegaMenuFeaturedCardBasic",
+        "TopNavMegaMenuItemBasic",
+        "TopNavMenuBasic",
+        "TopNavMultipleDropdowns",
+        "TopNavWithLogo"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-display/astryx-tree-list",
+      "name": "TreeList",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/TreeList",
+      "examples": [
+        "TreeListShowcase",
+        "TreeListFileTreeWithIcons",
+        "TreeListInteractiveSettings",
+        "TreeListMailboxTree",
+        "TreeListNavigationTree",
+        "TreeListVariants"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "input/astryx-typeahead",
+      "name": "Typeahead",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Typeahead",
+      "examples": [
+        "BaseTypeaheadShowcase",
+        "TypeaheadItemShowcase",
+        "TypeaheadShowcase",
+        "BaseTypeaheadCustomSearch",
+        "TypeaheadItemBasic",
+        "TypeaheadLimitedResults",
+        "TypeaheadSearchField",
+        "TypeaheadWithHelperText",
+        "TypeaheadWithValidation"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-visually-hidden",
+      "name": "VisuallyHidden",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/VisuallyHidden",
+      "examples": [
+        "VisuallyHiddenShowcase",
+        "VisuallyHiddenLiveRegion",
+        "VisuallyHiddenStructuralHeading",
+        "VisuallyHiddenSupplementaryContext"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-announce",
+      "name": "useAnnounce",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useAnnounce",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-clickable-container",
+      "name": "useClickableContainer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useClickableContainer",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-clipboard",
+      "name": "useClipboard",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useClipboard",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-container-reveal",
+      "name": "useContainerReveal",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useContainerReveal",
+      "examples": [
+        "useContainerRevealHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-dev-warning",
+      "name": "useDevWarning",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useDevWarning",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-entry-animation",
+      "name": "useEntryAnimation",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useEntryAnimation",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-focus-trap",
+      "name": "useFocusTrap",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useFocusTrap",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-grid-focus",
+      "name": "useGridFocus",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useGridFocus",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-hotkeys",
+      "name": "useHotkeys",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useHotkeys",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-image-mode",
+      "name": "useImageMode",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useImageMode",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-indicator-focus-ring",
+      "name": "useIndicatorFocusRing",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useIndicatorFocusRing",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-input-container",
+      "name": "useInputContainer",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useInputContainer",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-input-status-icon",
+      "name": "useInputStatusIcon",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useInputStatusIcon",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-interactive-role",
+      "name": "useInteractiveRole",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useInteractiveRole",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-keyboard-hint",
+      "name": "useKeyboardHint",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useKeyboardHint",
+      "examples": [
+        "useKeyboardHintHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-list-focus",
+      "name": "useListFocus",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useListFocus",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-long-press",
+      "name": "useLongPress",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useLongPress",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-media-query",
+      "name": "useMediaQuery",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useMediaQuery",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-merged-refs",
+      "name": "useMergedRefs",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useMergedRefs",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-overflow",
+      "name": "useOverflow",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useOverflow",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-scroll-lock",
+      "name": "useScrollLock",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useScrollLock",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-scroll-overflow",
+      "name": "useScrollOverflow",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useScrollOverflow",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-scrollable-area",
+      "name": "useScrollableArea",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useScrollableArea",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-streaming-text",
+      "name": "useStreamingText",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useStreamingText",
+      "examples": [
+        "useStreamingTextHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-tree-focus",
+      "name": "useTreeFocus",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useTreeFocus",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-typeahead",
+      "name": "useTypeahead",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useTypeahead",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-internationalization-provider",
+      "name": "InternationalizationProvider",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/InternationalizationProvider",
+      "examples": [
+        "InternationalizationProvider01ShippedLocale",
+        "InternationalizationProvider02Overrides",
+        "InternationalizationProvider03RtlDirection"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-collator",
+      "name": "useCollator",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useCollator",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-locale",
+      "name": "useLocale",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useLocale",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-translator",
+      "name": "useTranslator",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useTranslator",
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-media-theme",
+      "name": "MediaTheme",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/MediaTheme",
+      "examples": [
+        "MediaThemeShowcase",
+        "MediaThemeImageOverlay",
+        "MediaThemeLightScrim"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-syntax-theme",
+      "name": "SyntaxTheme",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/SyntaxTheme",
+      "examples": [
+        "SyntaxThemeShowcase",
+        "SyntaxThemeDarkPreset",
+        "SyntaxThemeLightPreset"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "utility/astryx-theme",
+      "name": "Theme",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/Theme",
+      "examples": [
+        "ThemeShowcase",
+        "ThemeApply",
+        "ThemeNested",
+        "ThemeSwitcher"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "hooks/astryx-use-theme",
+      "name": "useTheme",
+      "pkg": "core",
+      "page": "https://astryx.atmeta.com/components/useTheme",
+      "examples": [
+        "useThemeHookUsage"
+      ],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-area",
+      "name": "ChartArea",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-bar",
+      "name": "ChartBar",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-candlestick",
+      "name": "ChartCandlestick",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-dot",
+      "name": "ChartDot",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-dot-gl",
+      "name": "ChartDotGL",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-dot-gl-interactive",
+      "name": "ChartDotGLInteractive",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-heatmap-gl",
+      "name": "ChartHeatmapGL",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-line",
+      "name": "ChartLine",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-chart-stream-gl",
+      "name": "ChartStreamGL",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-lab-chat-emoji-picker",
+      "name": "ChatEmojiPicker",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "ai/astryx-lab-chat-reaction-bar",
+      "name": "ChatReactionBar",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-lab-chat-typing-indicator",
+      "name": "ChatTypingIndicator",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-lab-chat-unread-divider",
+      "name": "ChatUnreadDivider",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "ai/astryx-lab-chat-reasoning",
+      "name": "ChatReasoning",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "notification/astryx-lab-circular-progress",
+      "name": "CircularProgress",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "input/astryx-lab-code-editor",
+      "name": "CodeEditor",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 3
+    },
+    {
+      "id": "overlay/astryx-lab-drawer",
+      "name": "Drawer",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "notification/astryx-lab-info-tip",
+      "name": "InfoTip",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 2
+    },
+    {
+      "id": "input/astryx-lab-list-input",
+      "name": "ListInput",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "content/astryx-lab-log-stream",
+      "name": "LogStream",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "data-visualization/astryx-lab-radial-chart",
+      "name": "RadialChart",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "content/astryx-lab-svg-icon",
+      "name": "SVGIcon",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 3
+    },
+    {
+      "id": "data-visualization/astryx-lab-sankey-chart",
+      "name": "SankeyChart",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "content/astryx-lab-schedule",
+      "name": "Schedule",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "content/astryx-lab-stat",
+      "name": "Stat",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "data-visualization/astryx-lab-three-d-bar",
+      "name": "ThreeDBar",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-three-d-chart",
+      "name": "ThreeDChart",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 2
+    },
+    {
+      "id": "data-visualization/astryx-lab-three-d-scatter",
+      "name": "ThreeDScatter",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "data-visualization/astryx-lab-three-d-scatter-gl",
+      "name": "ThreeDScatterGL",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-lab-three-d-surface",
+      "name": "ThreeDSurface",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "notification/astryx-lab-tour",
+      "name": "Tour",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 1
+    },
+    {
+      "id": "input/astryx-lab-transfer-list-selector",
+      "name": "TransferListSelector",
+      "pkg": "lab",
+      "page": null,
+      "examples": [],
+      "stories": 2
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart",
+      "name": "Chart",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 10
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart-axis",
+      "name": "ChartAxis",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart-grid",
+      "name": "ChartGrid",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart-legend",
+      "name": "ChartLegend",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart-swatch",
+      "name": "ChartSwatch",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "data-visualization/astryx-charts-chart-tooltip",
+      "name": "ChartTooltip",
+      "pkg": "charts",
+      "page": null,
+      "examples": [],
+      "stories": 0
+    },
+    {
+      "id": "page/astryx-ai-chat",
+      "name": "ai-chat",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/ai-chat",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-ai-chat-landing",
+      "name": "ai-chat-landing",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/ai-chat-landing",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-blank",
+      "name": "blank",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/blank",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-canvas-editor",
+      "name": "canvas-editor",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/canvas-editor",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-centered-hero",
+      "name": "centered-hero",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/centered-hero",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-checkout-wizard",
+      "name": "checkout-wizard",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/checkout-wizard",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-classic-gallery",
+      "name": "classic-gallery",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/classic-gallery",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-contact-form",
+      "name": "contact-form",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/contact-form",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard",
+      "name": "dashboard",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-alert-rail",
+      "name": "dashboard-alert-rail",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-alert-rail",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-cohort-funnel",
+      "name": "dashboard-cohort-funnel",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-cohort-funnel",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-comparison",
+      "name": "dashboard-comparison",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-comparison",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-composition",
+      "name": "dashboard-composition",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-composition",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-progress",
+      "name": "dashboard-progress",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-progress",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-dashboard-scorecard",
+      "name": "dashboard-scorecard",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/dashboard-scorecard",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-detail-page",
+      "name": "detail-page",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/detail-page",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-documentation",
+      "name": "documentation",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/documentation",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-documentation-design",
+      "name": "documentation-design",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/documentation-design",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-documentation-technical",
+      "name": "documentation-technical",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/documentation-technical",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-editor",
+      "name": "editor",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/editor",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-file-explorer",
+      "name": "file-explorer",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/file-explorer",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-form-two-column",
+      "name": "form-two-column",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/form-two-column",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-form-wizard",
+      "name": "form-wizard",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/form-wizard",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-form-wizard-dialog",
+      "name": "form-wizard-dialog",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/form-wizard-dialog",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-form-wizard-inline",
+      "name": "form-wizard-inline",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/form-wizard-inline",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-form-wizard-vertical",
+      "name": "form-wizard-vertical",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/form-wizard-vertical",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-gallery-hero",
+      "name": "gallery-hero",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/gallery-hero",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-ide",
+      "name": "ide",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/ide",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-incident-console",
+      "name": "incident-console",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/incident-console",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-kanban-board",
+      "name": "kanban-board",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/kanban-board",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-library",
+      "name": "library",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/library",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-login",
+      "name": "login",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/login",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-login-card",
+      "name": "login-card",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/login-card",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-login-split",
+      "name": "login-split",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/login-split",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-login-sso",
+      "name": "login-sso",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/login-sso",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-messaging-shell",
+      "name": "messaging-shell",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/messaging-shell",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-mixed-gallery",
+      "name": "mixed-gallery",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/mixed-gallery",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-payment-form",
+      "name": "payment-form",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/payment-form",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-product-detail",
+      "name": "product-detail",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/product-detail",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-product-gallery",
+      "name": "product-gallery",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/product-gallery",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-settings",
+      "name": "settings",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/settings",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-settings-dialog",
+      "name": "settings-dialog",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/settings-dialog",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-settings-sidebar",
+      "name": "settings-sidebar",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/settings-sidebar",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-shell-nav",
+      "name": "shell-nav",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/shell-nav",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-shell-side-nav",
+      "name": "shell-side-nav",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/shell-side-nav",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-shell-top-nav",
+      "name": "shell-top-nav",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/shell-top-nav",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-side-gallery",
+      "name": "side-gallery",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/side-gallery",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-table",
+      "name": "table",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/table",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-table-filter",
+      "name": "table-filter",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/table-filter",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-table-grouped",
+      "name": "table-grouped",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/table-grouped",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-table-inbox",
+      "name": "table-inbox",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/table-inbox",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-table-page",
+      "name": "table-page",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/table-page",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-theme-showcase",
+      "name": "theme-showcase",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/theme-showcase",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "page/astryx-work-item-detail",
+      "name": "work-item-detail",
+      "pkg": "template",
+      "page": "https://astryx.atmeta.com/templates/work-item-detail",
+      "examples": [
+        "page"
+      ]
+    },
+    {
+      "id": "theme/astryx-neutral",
+      "name": "neutral",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=neutral",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-butter",
+      "name": "butter",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=butter",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-chocolate",
+      "name": "chocolate",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=chocolate",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-gothic",
+      "name": "gothic",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=gothic",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-matcha",
+      "name": "matcha",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=matcha",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-stone",
+      "name": "stone",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=stone",
+      "examples": [
+        "theme"
+      ]
+    },
+    {
+      "id": "theme/astryx-y2k",
+      "name": "y2k",
+      "pkg": "theme",
+      "page": "https://astryx.atmeta.com/themes?theme=y2k",
+      "examples": [
+        "theme"
+      ]
+    }
+  ]
+}

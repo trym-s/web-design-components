@@ -26,10 +26,11 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
   symlinks `.agents/skills/ui-bank` into every agent runtime already present on the machine —
   Claude Code, Codex, Hermes, Antigravity, and the cross-runtime `~/.agents/skills` alias. Use
   `--host <name>` to target one runtime and `--all` to install for absent runtimes too.
-- The skill may adapt references into a target project, but `ui/` remains a read-only snapshot and
-  must never become the target project's runtime dependency.
+- The skill copies an entry's `src/` into a React target, or rebuilds it from `src/` and its README
+  for any other stack. `ui/` itself never becomes the target project's runtime dependency.
 
-`ui/` contains visual references, not reusable packages.
+`ui/` contains references. An entry's `src/` is the copy-paste component; its `upstream/` is the
+pinned original it was derived from (see *Entry layout* below).
 
 - Search directory names and `Use when:` comments with `rg`.
 - Read source and any accompanying styles together.
@@ -51,7 +52,7 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
   ISO-8601 `Added` timestamp for newest-first browsing. Decorative
   entries supply look-and-feel only — never lift their layout or interaction as a UX pattern.
 - Arlan vault entries ship a `PROMPT.md`: the upstream agent prompt with the whole source inline.
-  Pass it verbatim to an agent that must port the effect; read `src/` when you only need technique.
+  Pass it verbatim to an agent that must port the effect; read `upstream/` when you only need technique.
 - Reuse visual hierarchy, spacing, color, radius, shadow, and interaction decisions.
 - Translate the reference into the target project's framework and conventions.
 - Bans live in `bans/`, one Markdown file per ban, and are compiled into `catalog/catalog.json` by
@@ -61,9 +62,36 @@ Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/
   ban by adding a file with `id`/`title` front matter and `## Rule` / `## Instead` sections; never
   restate its text anywhere else.
 - Do not invent missing design values or combine conflicting references.
-- Treat every retained `src/` or `registry/` tree as a pinned source snapshot, not an installable package.
+- Treat every `upstream/` or `registry/` tree as a pinned source snapshot, not an installable package.
 
-`dashboard/` is a viewer only; keep `ui/` as a read-only source snapshot. Run `npm run dev` to browse it.
+`dashboard/` is a viewer only; keep every `upstream/` read-only. Run `npm run dev` to browse it.
+
+## Entry layout: `upstream/` and `src/`
+
+Apply this to every new component and to every re-import.
+
+- `upstream/` — the pinned upstream source, unchanged except import and asset rewrites needed to run
+  it in this repo. Provenance and diff base for later re-imports. Never edited by hand.
+- `src/` — the component a target project uses. React targets copy it as-is; other stacks rebuild it
+  from `src/` plus the README. It must satisfy all of:
+  1. Imports only: `react`, `react-dom`, Tailwind classes, shadcn/ui components and their primitives
+     (`radix-ui`, `@base-ui/react`), `class-variance-authority`, `clsx`, `tailwind-merge`,
+     `lucide-react`, and — where the effect needs them — `motion` and `three` /
+     `@react-three/fiber`. No source-library package, no Next.js (`next/*`, `next-themes`, `geist`),
+     no alias into this repo (`@/…`, `../../_sources/…`). Vendor what is needed into `src/`.
+  2. Every color, radius, font, and shadow resolves through shadcn tokens (`--background`,
+     `--foreground`, `--primary`, `--muted`, `--border`, `--radius`, …) or a CSS variable the
+     component declares with a default. No literal hex/rgb in component code, so rebranding means
+     changing tokens.
+  3. Content and behavior arrive through props and callbacks; sample data lives only in
+     `src/demo.tsx`. Components that front a service (auth, audio engine, network) expose UI state
+     and callbacks, not a client for that service.
+  4. The README's `## Usage` section lists props, states, interactions, and keyboard behavior —
+     enough to rebuild the component in plain HTML/CSS/JS without reading React.
+- Entries whose upstream cannot meet these rules (Astryx: StyleX; Better Auth UI HeroUI flavour:
+  HeroUI package) carry `upstream/` only and stay visual references. Single-file captures may keep
+  their upstream code in `reference.tsx` instead of `upstream/`.
+- `npm run catalog:check` enforces rule 1 on every `src/`.
 
 ## Investigate mode: when the user sends a URL and asks to find or capture components
 
@@ -109,13 +137,16 @@ ui/<category>/<slug>/
 ├── README.md            # classification, files, use guidance
 ├── SOURCE.md            # provenance, license, pinned revision
 ├── preview.png          # Chromium capture from the original component page
-└── src/
-    ├── <slug>.tsx       # pinned component/hook source
-    └── demo.tsx         # minimal replayable upstream demo
+├── upstream/
+│   ├── <slug>.tsx       # pinned component/hook source
+│   └── demo.tsx         # minimal replayable upstream demo
+└── src/                 # copy-paste component (see Entry layout)
+    ├── <slug>.tsx
+    └── demo.tsx
 ```
 
-- Preserve upstream component behavior and values. Only rewrite imports and asset paths needed to
-  make the snapshot run inside this repository.
+- In `upstream/`, preserve upstream component behavior and values. Only rewrite imports and asset
+  paths needed to make the snapshot run inside this repository. Derive `src/` from it.
 - Keep shared styles, licenses, fonts, images, video, audio, manifests, and other common material
   in `ui/_sources/<upstream>/`.
 - Prefer a repeatable importer under `tools/` when capturing multiple components. It must pin the

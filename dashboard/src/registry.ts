@@ -61,7 +61,7 @@ const fetchText = (url: string) => () =>
   });
 const bundledSource = (path: string): (() => Promise<string>) =>
   import.meta.env.DEV
-    ? () => import(/* @vite-ignore */ `/${path}?raw`).then((module) => module.default as string)
+    ? fetchText(`/${path}?raw`) // the dev server answers a plain `?raw` request with the file's text
     : fetchText(`${SOURCE_ROOT}${path}`);
 
 const refLoaders = import.meta.glob("/ui/**/reference.tsx");

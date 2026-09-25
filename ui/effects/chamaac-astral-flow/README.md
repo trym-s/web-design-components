@@ -22,6 +22,8 @@ A majestic, constantly breathing radial shader with deep cosmic wisps and a beau
 
 ## How an agent uses this reference
 
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (Next.js removed; it imports only allowlisted packages);
+  `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
 - **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/astral-flow.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`. Shader backgrounds draw on a canvas at runtime: port the GLSL from the component source, not the markup.
 
@@ -39,9 +41,27 @@ A majestic, constantly breathing radial shader with deep cosmic wisps and a beau
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `ui/_sources/chamaac/registry/chamaac/astral-flow/astral-flow.tsx` — the component as the registry installs it
 - `upstream/examples/astral-flow-demo.tsx` — the site's demo
 - `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/backgrounds/astral-flow
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--foreground`, `--border`, …).
+It imports only `react`, `three`, `@react-three/fiber`, `clsx`, `tailwind-merge`. `src/LICENSE` is Chamaac UI's MIT licence (Copyright (c) 2026 Amarnath); keep it with the files.
+`src/demo.tsx` is sample data and wiring only. Colours without a shadcn equivalent are
+props or CSS variables whose defaults are the upstream values; fonts come from the target project.
+
+### Astral Flow — `astral-flow.tsx`
+
+Full-bleed smoke that breathes outward from the centre: simplex fbm warped twice, the flow distance oscillating between `flowMin` and `flowMax`, with a vignette and an SVG film-grain overlay (`mix-blend-overlay`, 40 %). The container background is `color1`, so there is no flash before WebGL starts.
+
+- Props: `speed` (1.5), `color1` base (`#05070a`), `color2` mid (`#2e1a38`), `color3` wisps (`#a0769a`), `flowMin` (3), `flowMax` (7), `className`.
+- States: none; purely decorative, `aria`-silent. The canvas is WebGL (three.js via @react-three/fiber); it resizes with its box.
+- Interactions: none — the container has `pointer-events: none`.
+- Keyboard: none (not focusable).
+- Reduced motion: with `prefers-reduced-motion: reduce` the canvas renders one still frame (`frameloop="demand"`) instead of animating.

@@ -1,0 +1,1087 @@
+{
+  "commit": "a036e9a1198aadfd320a81247d463e788c200158",
+  "version": "1.7.26",
+  "captured": "2026-09-25T07:33:05Z",
+  "entries": [
+    {
+      "id": "input/better-auth-ui-heroui-account-settings",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/account/account-settings",
+      "clip": ".preview[data-name=\"heroui-account-settings\"]",
+      "captured": [
+        "account-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-active-sessions",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/security/active-sessions",
+      "clip": ".preview[data-name=\"heroui-active-sessions\"]",
+      "captured": [
+        "active-sessions"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-api-keys",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/api-key",
+      "clip": ".preview[data-name=\"heroui-api-keys\"]",
+      "captured": [
+        "api-keys"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-theme-appearance",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/theme",
+      "clip": ".preview[data-name=\"heroui-theme-appearance\"]",
+      "captured": [
+        "theme-appearance"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-auth",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/auth",
+      "clip": ".preview[data-name=\"heroui-auth\"]",
+      "captured": [
+        "auth"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-change-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/account/change-email",
+      "clip": ".preview[data-name=\"heroui-change-email\"]",
+      "captured": [
+        "change-email"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-change-password",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/security/change-password",
+      "clip": ".preview[data-name=\"heroui-change-password\"]",
+      "captured": [
+        "change-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-delete-user-danger-zone",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/delete-user",
+      "clip": ".preview[data-name=\"heroui-delete-user-danger-zone\"]",
+      "captured": [
+        "delete-user-danger-zone"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-device-authorization",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/device-authorization",
+      "clip": ".preview[data-name=\"heroui-device-authorization\"]",
+      "captured": [
+        "device-authorization"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-change-email-confirmation-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/change-email-confirmation-email",
+      "clip": ".preview[data-name=\"heroui-change-email-confirmation-email\"]",
+      "captured": [
+        "change-email-confirmation-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-heroui-delete-account-verification-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/delete-account-verification-email",
+      "clip": ".preview[data-name=\"heroui-delete-account-verification-email\"]",
+      "captured": [
+        "delete-account-verification-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-heroui-email-changed-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/email-changed-email",
+      "clip": ".preview[data-name=\"heroui-email-changed-email\"]",
+      "captured": [
+        "email-changed-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-heroui-email-verification-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/email-verification-email",
+      "clip": ".preview[data-name=\"heroui-email-verification-email\"]",
+      "captured": [
+        "email-verification-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-heroui-forgot-password",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/forgot-password",
+      "clip": ".preview[data-name=\"heroui-forgot-password\"]",
+      "captured": [
+        "forgot-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-linked-accounts",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/security/linked-accounts",
+      "clip": ".preview[data-name=\"heroui-linked-accounts\"]",
+      "captured": [
+        "linked-accounts"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-magic-link",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/magic-link",
+      "clip": ".preview[data-name=\"heroui-magic-link\"]",
+      "captured": [
+        "magic-link"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-magic-link-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/magic-link-email",
+      "clip": ".preview[data-name=\"heroui-magic-link-email\"]",
+      "captured": [
+        "magic-link-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-manage-accounts",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/multi-session",
+      "clip": ".preview[data-name=\"heroui-manage-accounts\"]",
+      "captured": [
+        "manage-accounts"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-new-device-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/new-device-email",
+      "clip": ".preview[data-name=\"heroui-new-device-email\"]",
+      "captured": [
+        "new-device-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "input/better-auth-ui-heroui-organization",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization\"]",
+      "captured": [
+        "organization"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-organization-danger-zone",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-danger-zone\"]",
+      "captured": [
+        "organization-danger-zone"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-organization-invitations",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-invitations\"]",
+      "captured": [
+        "organization-invitations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-organization-members",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-members\"]",
+      "captured": [
+        "organization-members"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-organization-people",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-people\"]",
+      "captured": [
+        "organization-people"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-organization-profile",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-profile\"]",
+      "captured": [
+        "organization-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-organization-settings",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-settings\"]",
+      "captured": [
+        "organization-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-organization-switcher",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organization-switcher\"]",
+      "captured": [
+        "organization-switcher"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-organizations",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organizations\"]",
+      "captured": [
+        "organizations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-organizations-settings",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-organizations-settings\"]",
+      "captured": [
+        "organizations-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-user-invitations",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/organization",
+      "clip": ".preview[data-name=\"heroui-user-invitations\"]",
+      "captured": [
+        "user-invitations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-organization-invitation-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/organization-invitation-email",
+      "clip": ".preview[data-name=\"heroui-organization-invitation-email\"]",
+      "captured": [
+        "organization-invitation-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-heroui-otp-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/otp-email",
+      "clip": ".preview[data-name=\"heroui-otp-email\"]",
+      "captured": [
+        "otp-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-heroui-passkey-sign-in",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/passkey",
+      "clip": ".preview[data-name=\"heroui-passkey-sign-in\"]",
+      "captured": [
+        "passkey-sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-heroui-passkeys",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/passkey",
+      "clip": ".preview[data-name=\"heroui-passkeys\"]",
+      "captured": [
+        "passkeys"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-password-changed-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/password-changed-email",
+      "clip": ".preview[data-name=\"heroui-password-changed-email\"]",
+      "captured": [
+        "password-changed-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-heroui-reset-password",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/reset-password",
+      "clip": ".preview[data-name=\"heroui-reset-password\"]",
+      "captured": [
+        "reset-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "content/better-auth-ui-heroui-reset-password-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/email/reset-password-email",
+      "clip": ".preview[data-name=\"heroui-reset-password-email\"]",
+      "captured": [
+        "reset-password-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "input/better-auth-ui-heroui-security-settings",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/security/security-settings",
+      "clip": ".preview[data-name=\"heroui-security-settings\"]",
+      "captured": [
+        "security-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-settings",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/settings",
+      "clip": ".preview[data-name=\"heroui-settings\"]",
+      "captured": [
+        "settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-sign-in",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/sign-in",
+      "clip": ".preview[data-name=\"heroui-sign-in\"]",
+      "captured": [
+        "sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-sign-out",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/sign-out",
+      "clip": ".preview[data-name=\"heroui-sign-out\"]",
+      "captured": [
+        "sign-out"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-sign-up",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/sign-up",
+      "clip": ".preview[data-name=\"heroui-sign-up\"]",
+      "captured": [
+        "sign-up"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-switch-account-submenu",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/multi-session",
+      "clip": ".preview[data-name=\"heroui-switch-account-submenu\"]",
+      "captured": [
+        "switch-account-submenu"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-user-avatar",
+      "page": "https://better-auth-ui.com/docs/heroui/components/user/user-avatar",
+      "clip": ".preview[data-name=\"heroui-user-avatar\"]",
+      "captured": [
+        "user-avatar"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-user-button",
+      "page": "https://better-auth-ui.com/docs/heroui/components/user/user-button",
+      "clip": ".preview[data-name=\"heroui-user-button\"]",
+      "captured": [
+        "user-button"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-user-button-icon",
+      "page": "https://better-auth-ui.com/docs/heroui/components/user/user-button",
+      "clip": ".preview[data-name=\"heroui-user-button-icon\"]",
+      "captured": [
+        "user-button-icon"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-user-button-links",
+      "page": "https://better-auth-ui.com/docs/heroui/components/user/user-button",
+      "clip": ".preview[data-name=\"heroui-user-button-links\"]",
+      "captured": [
+        "user-button-links"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-user-profile",
+      "page": "https://better-auth-ui.com/docs/heroui/components/settings/account/user-profile",
+      "clip": ".preview[data-name=\"heroui-user-profile\"]",
+      "captured": [
+        "user-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "action-feedback/better-auth-ui-heroui-theme-toggle-item",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/theme",
+      "clip": ".preview[data-name=\"heroui-theme-toggle-item\"]",
+      "captured": [
+        "theme-toggle-item"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-heroui-user-view",
+      "page": "https://better-auth-ui.com/docs/heroui/components/user/user-view",
+      "clip": ".preview[data-name=\"heroui-user-view\"]",
+      "captured": [
+        "user-view"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-username-sign-in",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/username",
+      "clip": ".preview[data-name=\"heroui-username-sign-in\"]",
+      "captured": [
+        "username-sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-username-sign-up",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/username",
+      "clip": ".preview[data-name=\"heroui-username-sign-up\"]",
+      "captured": [
+        "username-sign-up"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-heroui-username-user-profile",
+      "page": "https://better-auth-ui.com/docs/heroui/plugins/username",
+      "clip": ".preview[data-name=\"heroui-username-user-profile\"]",
+      "captured": [
+        "username-user-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "page/better-auth-ui-heroui-verify-email",
+      "page": "https://better-auth-ui.com/docs/heroui/components/auth/verify-email",
+      "clip": ".preview[data-name=\"heroui-verify-email\"]",
+      "captured": [
+        "verify-email"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/heroui.css"
+    },
+    {
+      "id": "input/better-auth-ui-account-settings",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/account/account-settings",
+      "clip": ".preview[data-name=\"shadcn-account-settings\"]",
+      "captured": [
+        "account-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-active-sessions",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/security/active-sessions",
+      "clip": ".preview[data-name=\"shadcn-active-sessions\"]",
+      "captured": [
+        "active-sessions"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-api-keys",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/api-key",
+      "clip": ".preview[data-name=\"shadcn-api-keys\"]",
+      "captured": [
+        "api-keys"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-theme-appearance",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/theme",
+      "clip": ".preview[data-name=\"shadcn-theme-appearance\"]",
+      "captured": [
+        "theme-appearance"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-auth",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/auth",
+      "clip": ".preview[data-name=\"shadcn-auth\"]",
+      "captured": [
+        "auth"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-change-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/account/change-email",
+      "clip": ".preview[data-name=\"shadcn-change-email\"]",
+      "captured": [
+        "change-email"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-change-password",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/security/change-password",
+      "clip": ".preview[data-name=\"shadcn-change-password\"]",
+      "captured": [
+        "change-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-delete-user-danger-zone",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/delete-user",
+      "clip": ".preview[data-name=\"shadcn-delete-user-danger-zone\"]",
+      "captured": [
+        "delete-user-danger-zone"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-device-authorization",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/device-authorization",
+      "clip": ".preview[data-name=\"shadcn-device-authorization\"]",
+      "captured": [
+        "device-authorization"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-change-email-confirmation-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/change-email-confirmation-email",
+      "clip": ".preview[data-name=\"shadcn-change-email-confirmation-email\"]",
+      "captured": [
+        "change-email-confirmation-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-delete-account-verification-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/delete-account-verification-email",
+      "clip": ".preview[data-name=\"shadcn-delete-account-verification-email\"]",
+      "captured": [
+        "delete-account-verification-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-email-changed-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/email-changed-email",
+      "clip": ".preview[data-name=\"shadcn-email-changed-email\"]",
+      "captured": [
+        "email-changed-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-email-verification-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/email-verification-email",
+      "clip": ".preview[data-name=\"shadcn-email-verification-email\"]",
+      "captured": [
+        "email-verification-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-forgot-password",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/forgot-password",
+      "clip": ".preview[data-name=\"shadcn-forgot-password\"]",
+      "captured": [
+        "forgot-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-linked-accounts",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/security/linked-accounts",
+      "clip": ".preview[data-name=\"shadcn-linked-accounts\"]",
+      "captured": [
+        "linked-accounts"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-magic-link",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/magic-link",
+      "clip": ".preview[data-name=\"shadcn-magic-link\"]",
+      "captured": [
+        "magic-link"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-magic-link-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/magic-link-email",
+      "clip": ".preview[data-name=\"shadcn-magic-link-email\"]",
+      "captured": [
+        "magic-link-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "data-display/better-auth-ui-manage-accounts",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/multi-session",
+      "clip": ".preview[data-name=\"shadcn-manage-accounts\"]",
+      "captured": [
+        "manage-accounts"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-new-device-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/new-device-email",
+      "clip": ".preview[data-name=\"shadcn-new-device-email\"]",
+      "captured": [
+        "new-device-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "input/better-auth-ui-organization",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization\"]",
+      "captured": [
+        "organization"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-organization-danger-zone",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-danger-zone\"]",
+      "captured": [
+        "organization-danger-zone"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-organization-invitations",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-invitations\"]",
+      "captured": [
+        "organization-invitations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-organization-members",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-members\"]",
+      "captured": [
+        "organization-members"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-organization-people",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-people\"]",
+      "captured": [
+        "organization-people"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-organization-profile",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-profile\"]",
+      "captured": [
+        "organization-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-organization-settings",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-settings\"]",
+      "captured": [
+        "organization-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-organization-switcher",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organization-switcher\"]",
+      "captured": [
+        "organization-switcher"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-organizations",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organizations\"]",
+      "captured": [
+        "organizations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-organizations-settings",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-organizations-settings\"]",
+      "captured": [
+        "organizations-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-user-invitations",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/organization",
+      "clip": ".preview[data-name=\"shadcn-user-invitations\"]",
+      "captured": [
+        "user-invitations"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-organization-invitation-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/organization-invitation-email",
+      "clip": ".preview[data-name=\"shadcn-organization-invitation-email\"]",
+      "captured": [
+        "organization-invitation-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "content/better-auth-ui-otp-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/otp-email",
+      "clip": ".preview[data-name=\"shadcn-otp-email\"]",
+      "captured": [
+        "otp-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-passkey-sign-in",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/passkey",
+      "clip": ".preview[data-name=\"shadcn-passkey-sign-in\"]",
+      "captured": [
+        "passkey-sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "data-display/better-auth-ui-passkeys",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/passkey",
+      "clip": ".preview[data-name=\"shadcn-passkeys\"]",
+      "captured": [
+        "passkeys"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-password-changed-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/password-changed-email",
+      "clip": ".preview[data-name=\"shadcn-password-changed-email\"]",
+      "captured": [
+        "password-changed-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "page/better-auth-ui-reset-password",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/reset-password",
+      "clip": ".preview[data-name=\"shadcn-reset-password\"]",
+      "captured": [
+        "reset-password"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "content/better-auth-ui-reset-password-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/email/reset-password-email",
+      "clip": ".preview[data-name=\"shadcn-reset-password-email\"]",
+      "captured": [
+        "reset-password-email"
+      ],
+      "kind": "email",
+      "css": null
+    },
+    {
+      "id": "input/better-auth-ui-security-settings",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/security/security-settings",
+      "clip": ".preview[data-name=\"shadcn-security-settings\"]",
+      "captured": [
+        "security-settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-settings",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/settings",
+      "clip": ".preview[data-name=\"shadcn-settings\"]",
+      "captured": [
+        "settings"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-sign-in",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/sign-in",
+      "clip": ".preview[data-name=\"shadcn-sign-in\"]",
+      "captured": [
+        "sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-sign-out",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/sign-out",
+      "clip": ".preview[data-name=\"shadcn-sign-out\"]",
+      "captured": [
+        "sign-out"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-sign-up",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/sign-up",
+      "clip": ".preview[data-name=\"shadcn-sign-up\"]",
+      "captured": [
+        "sign-up"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-switch-account-submenu",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/multi-session",
+      "clip": ".preview[data-name=\"shadcn-switch-account-submenu\"]",
+      "captured": [
+        "switch-account-submenu"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-user-avatar",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/user/user-avatar",
+      "clip": ".preview[data-name=\"shadcn-user-avatar\"]",
+      "captured": [
+        "user-avatar"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-user-button",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/user/user-button",
+      "clip": ".preview[data-name=\"shadcn-user-button\"]",
+      "captured": [
+        "user-button"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-user-button-icon",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/user/user-button",
+      "clip": ".preview[data-name=\"shadcn-user-button-icon\"]",
+      "captured": [
+        "user-button-icon"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-user-button-links",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/user/user-button",
+      "clip": ".preview[data-name=\"shadcn-user-button-links\"]",
+      "captured": [
+        "user-button-links"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-user-profile",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/settings/account/user-profile",
+      "clip": ".preview[data-name=\"shadcn-user-profile\"]",
+      "captured": [
+        "user-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "navigation/better-auth-ui-user-view",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/user/user-view",
+      "clip": ".preview[data-name=\"shadcn-user-view\"]",
+      "captured": [
+        "user-view"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-username-sign-in",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/username",
+      "clip": ".preview[data-name=\"shadcn-username-sign-in\"]",
+      "captured": [
+        "username-sign-in"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-username-sign-up",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/username",
+      "clip": ".preview[data-name=\"shadcn-username-sign-up\"]",
+      "captured": [
+        "username-sign-up"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "input/better-auth-ui-username-user-profile",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/username",
+      "clip": ".preview[data-name=\"shadcn-username-user-profile\"]",
+      "captured": [
+        "username-user-profile"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "page/better-auth-ui-verify-email",
+      "page": "https://better-auth-ui.com/docs/shadcn/components/auth/verify-email",
+      "clip": ".preview[data-name=\"shadcn-verify-email\"]",
+      "captured": [
+        "verify-email"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    },
+    {
+      "id": "action-feedback/better-auth-ui-theme-toggle-item",
+      "page": "https://better-auth-ui.com/docs/shadcn/plugins/theme",
+      "clip": ".preview[data-name=\"shadcn-theme-toggle-item\"]",
+      "captured": [
+        "theme-toggle-item"
+      ],
+      "kind": "component",
+      "css": "_sources/better-auth-ui/shadcn.css"
+    }
+  ]
+}

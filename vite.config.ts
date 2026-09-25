@@ -51,6 +51,23 @@ function bankShims(): Plugin {
 }
 
 /**
+ * Better Auth UI declares zod 4 and tailwind-merge 3; the rest of the bank keeps its older
+ * versions, so only Better Auth UI files get the newer ones (installed as `zod-v4`, `tailwind-merge-v3`).
+ */
+function betterAuthPeers(): Plugin {
+  const NEWER: Record<string, string> = { zod: "zod-v4", "tailwind-merge": "tailwind-merge-v3" };
+  return {
+    name: "better-auth-peers",
+    enforce: "pre",
+    resolveId(source, importer) {
+      const pkg = source.split("/")[0];
+      if (!importer || !(pkg in NEWER) || !/\/(_sources\/better-auth-ui|better-auth-ui-[\w-]+)\//.test(importer)) return null;
+      return this.resolve(NEWER[pkg] + source.slice(pkg.length), importer, { skipSelf: true });
+    },
+  };
+}
+
+/**
  * A few Astryx examples author their own styles with `stylex.create`, which only
  * works compiled. Compile just those files with runtime injection so the snapshot
  * stays verbatim and the viewer needs no CSS extraction step.
@@ -98,7 +115,7 @@ function personalIcons(): Plugin {
 // can reach the bank. The bank itself is never modified by the dashboard.
 export default defineConfig({
   root: ".",
-  plugins: [bankShims(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
+  plugins: [bankShims(), betterAuthPeers(), astryxStylex(), personalIcons(), react(), vue(), svelte()],
   define: {
     // hover-video-button reads this Next-flavored env var for its R2 media base.
     "process.env.NEXT_PUBLIC_MEDIA_BASE": JSON.stringify(

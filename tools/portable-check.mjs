@@ -27,7 +27,7 @@ const entries = catalog.entries.filter((entry) => entry.paths.src && (!wanted.le
 if (!entries.length) throw new Error(`no entry with a src/ matches ${wanted.join(" ") || "(all)"}`);
 
 const node = (bin, ...rest) => execFileSync(process.execPath, [join(ROOT, "node_modules", bin), ...rest], { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
-const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".svg": "image/svg+xml", ".png": "image/png", ".woff2": "font/woff2" };
+const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif", ".webp": "image/webp", ".webm": "video/webm", ".mp4": "video/mp4", ".woff2": "font/woff2" };
 const server = createServer((req, res) => {
   const path = join(OUT, decodeURIComponent(new URL(req.url, "http://x").pathname));
   if (!path.startsWith(OUT) || !existsSync(path)) return res.writeHead(404).end();

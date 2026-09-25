@@ -82,8 +82,9 @@ Apply this to every new component and to every re-import.
      go in `src/ui/`, which a target that already has them points at its own copies.
   2. Every color, radius, font, and shadow resolves through shadcn tokens (`--background`,
      `--foreground`, `--primary`, `--muted`, `--border`, `--radius`, …) or a CSS variable the
-     component declares with a default. No literal hex/rgb in component code, so rebranding means
-     changing tokens. Vendored shadcn/ui files in `src/ui/` are exempt.
+     component declares with a default. Literal hex/rgb may appear only as such a default (shader
+     palettes: a colour prop defaulting to the upstream value), so rebranding means changing
+     tokens or props. Vendored shadcn/ui files in `src/ui/` are exempt.
   3. Content and behavior arrive through props and callbacks; sample data and example
      wiring (a simulated clock, a demo audio engine) live only in `src/demo.tsx`. Components that front a service (auth, audio engine, network) expose UI state
      and callbacks, not a client for that service.

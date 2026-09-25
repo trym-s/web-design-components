@@ -90,11 +90,18 @@ function propsOf(page) {
 }
 
 // ---------------------------------------------------------------- clean slate (captures survive)
+// `src/` (the copy-paste component) and the README's `## Usage` section are hand-derived from
+// `upstream/` (AGENTS.md, Entry layout): a re-import keeps both and regenerates everything else.
+const KEEP = new Set(["static", "preview.png", "src"]);
+const usage = new Map();
 for (const cat of readdirSync(UI)) {
   if (cat === "_sources" || cat === "icons" || !statSync(join(UI, cat)).isDirectory()) continue; // icons: the chamaac-icons set
   for (const d of readdirSync(join(UI, cat))) {
     if (!d.startsWith("chamaac-")) continue;
-    for (const f of readdirSync(join(UI, cat, d))) if (f !== "static" && f !== "preview.png") rmSync(join(UI, cat, d, f), { recursive: true });
+    const readme = join(UI, cat, d, "README.md");
+    const section = existsSync(readme) && readFileSync(readme, "utf8").match(/^## Usage\n[\s\S]*?(?=\n## |(?![\s\S]))/m)?.[0];
+    if (section) usage.set(d, `${section.trimEnd()}\n`);
+    for (const f of readdirSync(join(UI, cat, d))) if (!KEEP.has(f)) rmSync(join(UI, cat, d, f), { recursive: true });
   }
 }
 rmSync(OUT, { recursive: true, force: true });
@@ -255,7 +262,9 @@ ${md(ref.description)}${ref.status === "published" ? "" : `\n\n> ${ref.status ==
 ${reg ? `- Preferred install: \`npx shadcn@latest add ${SITE}/r/${ref.name}.json\`\n- Registry: ${SITE}/r/${ref.name}.json\n` : ""}- Local source fallback: \`${componentFiles[0] ?? entryPoint}\`
 
 ## How an agent uses this reference
-
+${existsSync(join(dir, "src")) ? `
+- **React + Tailwind v4 + shadcn tokens** — copy \`src/\` as-is (Next.js removed; it imports only allowlisted packages);
+  \`src/demo.tsx\` shows the wiring with sample data. See \`## Usage\`.` : ""}
 - **React + Tailwind target** — ${reg ? `install from the registry above, or ` : ""}copy the component from \`ui/_sources/chamaac/\` and the demo from \`upstream/examples/\`, changing only import paths.
 - **Any other stack** — \`static/${ref.name}.html\` is the rendered DOM against \`ui/_sources/chamaac/styles.css\`.${deps.includes("three") ? " Shader backgrounds draw on a canvas at runtime: port the GLSL from the component source, not the markup." : ""}
 ${ref.props.length ? `
@@ -267,11 +276,11 @@ ${ref.props.map((p) => `| \`${md(p.name)}\` | \`${md(p.type)}\` | ${p.default ==
 ` : ""}
 ## Files
 
-${componentFiles.map((f) => `- \`${f}\` — the component as the registry installs it`).join("\n")}${componentFiles.length ? "\n" : ""}${ref.demo ? `- \`upstream/examples/${basename(ref.demo)}\` — the site's demo\n` : ""}- \`upstream/demo.tsx\` — bank harness
+${existsSync(join(dir, "src")) ? "- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it\n" : ""}${componentFiles.map((f) => `- \`${f}\` — the component as the registry installs it`).join("\n")}${componentFiles.length ? "\n" : ""}${ref.demo ? `- \`upstream/examples/${basename(ref.demo)}\` — the site's demo\n` : ""}- \`upstream/demo.tsx\` — bank harness
 - \`reference.tsx\` — dashboard entry point
 
 Upstream page: ${ref.page ?? `${REPO}/tree/main/${posix(relative(REPO_ROOT, dirname(ref.demo ?? ref.component)))}`}
-`);
+${usage.has(`chamaac-${ref.name}`) ? `\n${usage.get(`chamaac-${ref.name}`)}` : ""}`);
   write(join(dir, "SOURCE.md"), `# Source
 
 - Site: ${ref.page ?? SITE}

@@ -22,6 +22,8 @@ A stunning text effect that uses a GIF as the fill color.
 
 ## How an agent uses this reference
 
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (Next.js removed; it imports only allowlisted packages);
+  `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
 - **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/gif-text.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
@@ -36,8 +38,26 @@ A stunning text effect that uses a GIF as the fill color.
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `upstream/examples/gif-text-demo.tsx` — the site's demo
 - `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/text-animations/gif-text
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--foreground`, `--border`, …).
+It imports only `react`, `clsx`, `tailwind-merge`. `src/LICENSE` is Chamaac UI's MIT licence (Copyright (c) 2026 Amarnath); keep it with the files.
+`src/demo.tsx` is sample data and wiring only; `src/demo-assets/` holds its sample media. Colours without a shadcn equivalent are
+props or CSS variables whose defaults are the upstream values; fonts come from the target project.
+
+### GifText — `gif-text.tsx`
+
+A huge uppercase heading (`clamp(80px, 12vw, 150px)`, extra-bold) whose letters are windows onto an image or animated GIF (`background-clip: text`), on a `--background` container. `gif` is required — upstream defaulted to a GIF on the author's CDN; the demo passes a local, downscaled copy.
+
+- Props: `text` ("CHAMAAC"), `gif` (image URL), `className` (heading), `containerClassName` (e.g. `h-full`).
+- States: loading — text in `--muted-foreground`, pulsing; loaded — transparent text over the cover-fitted image.
+- Interactions: none.
+- Keyboard: none.
+- Reduced motion: the loading pulse is disabled; an animated GIF keeps playing (swap in a still image if needed).

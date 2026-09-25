@@ -22,6 +22,8 @@ A bold, retro-styled button with skewed design, offset shadow, and shimmer effec
 
 ## How an agent uses this reference
 
+- **React + Tailwind v4 + shadcn tokens** — copy `src/` as-is (Next.js removed; it imports only allowlisted packages);
+  `src/demo.tsx` shows the wiring with sample data. See `## Usage`.
 - **React + Tailwind target** — install from the registry above, or copy the component from `ui/_sources/chamaac/` and the demo from `upstream/examples/`, changing only import paths.
 - **Any other stack** — `static/neo-brutalist-button.html` is the rendered DOM against `ui/_sources/chamaac/styles.css`.
 
@@ -35,9 +37,27 @@ A bold, retro-styled button with skewed design, offset shadow, and shimmer effec
 
 ## Files
 
+- `src/` — copy-paste component, hand-derived from `upstream/`; a re-import preserves it
 - `ui/_sources/chamaac/registry/chamaac/neo-brutalist-button/neo-brutalist-button.tsx` — the component as the registry installs it
 - `upstream/examples/neo-brutalist-button-demo.tsx` — the site's demo
 - `upstream/demo.tsx` — bank harness
 - `reference.tsx` — dashboard entry point
 
 Upstream page: https://www.chamaac.com/components/buttons/neo-brutalist-button
+
+## Usage
+
+Copy `src/` into a React + Tailwind v4 project that has the shadcn tokens (`--background`, `--foreground`, `--border`, …).
+It imports only `clsx`, `tailwind-merge`. `src/LICENSE` is Chamaac UI's MIT licence (Copyright (c) 2026 Amarnath); keep it with the files.
+`src/demo.tsx` is sample data and wiring only. Colours without a shadcn equivalent are
+props or CSS variables whose defaults are the upstream values; fonts come from the target project.
+
+### NeoBrutalistButton — `neo-brutalist-button.tsx`
+
+A button skewed −10° (label counter-skewed upright) with a flat fill, 1.5 px ink border and a hard 4 px offset shadow. Colours: `--neo-brutalist-fill` (default `#ff90e8`) and `--neo-brutalist-ink` (default black).
+
+- Props: `text` ("Click Me"), `onClick`, `className`.
+- States: hover or focus — the shadow grows to 8 px; on hover a white sheen sweeps across once in 0.2 s (upstream's styled-jsx keyframes, rebuilt as a one-way CSS transition that snaps back when the pointer leaves).
+- Interactions: hover, click.
+- Keyboard: native button.
+- Reduced motion: the sheen is hidden.

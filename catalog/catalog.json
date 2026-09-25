@@ -941,6 +941,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/focus-button.tsx",
+        "src/lib/utils.ts",
         "static/focus-button.html",
         "upstream/demo.tsx",
         "upstream/examples/focus-button-demo.tsx"
@@ -951,7 +954,7 @@
         "registryUrl": "https://www.chamaac.com/r/focus-button.json",
         "fallbackPath": "upstream/examples/focus-button-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-focus-button",
         "reference": "ui/action-feedback/chamaac-focus-button/reference.tsx",
@@ -960,7 +963,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-focus-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-focus-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-focus-button/src"
       }
     },
     {
@@ -1004,6 +1007,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/glowing-border-button.tsx",
+        "src/lib/utils.ts",
         "static/glowing-border-button.html",
         "upstream/demo.tsx",
         "upstream/examples/glowing-border-button-demo.tsx"
@@ -1014,7 +1020,7 @@
         "registryUrl": "https://www.chamaac.com/r/glowing-border-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/glowing-border-button/glowing-border-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-glowing-border-button",
         "reference": "ui/action-feedback/chamaac-glowing-border-button/reference.tsx",
@@ -1023,7 +1029,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-glowing-border-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-glowing-border-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-glowing-border-button/src"
       }
     },
     {
@@ -1066,6 +1072,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/hover-arrow-button.tsx",
+        "src/lib/utils.ts",
         "static/hover-arrow-button.html",
         "upstream/demo.tsx",
         "upstream/examples/hover-arrow-button-demo.tsx"
@@ -1076,7 +1085,7 @@
         "registryUrl": "https://www.chamaac.com/r/hover-arrow-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/hover-arrow-button/hover-arrow-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-hover-arrow-button",
         "reference": "ui/action-feedback/chamaac-hover-arrow-button/reference.tsx",
@@ -1085,7 +1094,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-hover-arrow-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-hover-arrow-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-hover-arrow-button/src"
       }
     },
     {
@@ -1135,6 +1144,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/neo-brutalist-button.tsx",
         "static/neo-brutalist-button.html",
         "upstream/demo.tsx",
         "upstream/examples/neo-brutalist-button-demo.tsx"
@@ -1145,7 +1157,7 @@
         "registryUrl": "https://www.chamaac.com/r/neo-brutalist-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/neo-brutalist-button/neo-brutalist-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-neo-brutalist-button",
         "reference": "ui/action-feedback/chamaac-neo-brutalist-button/reference.tsx",
@@ -1154,7 +1166,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-neo-brutalist-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-neo-brutalist-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-neo-brutalist-button/src"
       }
     },
     {
@@ -1198,6 +1210,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/premium-button.tsx",
         "static/premium-button.html",
         "upstream/demo.tsx",
         "upstream/examples/premium-button-demo.tsx"
@@ -1208,7 +1223,7 @@
         "registryUrl": "https://www.chamaac.com/r/premium-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/premium-button/premium-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-premium-button",
         "reference": "ui/action-feedback/chamaac-premium-button/reference.tsx",
@@ -1217,7 +1232,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-premium-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-premium-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-premium-button/src"
       }
     },
     {
@@ -1260,6 +1275,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/shimmer-button.tsx",
         "static/shimmer-button.html",
         "upstream/demo.tsx",
         "upstream/examples/shimmer-button-demo.tsx"
@@ -1270,7 +1288,7 @@
         "registryUrl": "https://www.chamaac.com/r/shimmer-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/shimmer-button/shimmer-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-shimmer-button",
         "reference": "ui/action-feedback/chamaac-shimmer-button/reference.tsx",
@@ -1279,7 +1297,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-shimmer-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-shimmer-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-shimmer-button/src"
       }
     },
     {
@@ -1323,6 +1341,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/slideup-button.tsx",
         "static/slideup-button.html",
         "upstream/demo.tsx",
         "upstream/examples/slide-up-button-demo.tsx"
@@ -1333,7 +1354,7 @@
         "registryUrl": "https://www.chamaac.com/r/slideup-button.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/slideup-button/slideup-button.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/chamaac-slideup-button",
         "reference": "ui/action-feedback/chamaac-slideup-button/reference.tsx",
@@ -1342,7 +1363,7 @@
         "prompt": null,
         "preview": "ui/action-feedback/chamaac-slideup-button/preview.png",
         "upstream": "ui/action-feedback/chamaac-slideup-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/chamaac-slideup-button/src"
       }
     },
     {
@@ -2883,6 +2904,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/ai-input.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "static/ai-input.html",
         "upstream/demo.tsx",
         "upstream/examples/ai-input-demo.tsx"
@@ -2893,7 +2917,7 @@
         "registryUrl": "https://www.chamaac.com/r/ai-input.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/ai-input/ai-input.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/chamaac-ai-input",
         "reference": "ui/ai/chamaac-ai-input/reference.tsx",
@@ -2902,7 +2926,7 @@
         "prompt": null,
         "preview": "ui/ai/chamaac-ai-input/preview.png",
         "upstream": "ui/ai/chamaac-ai-input/upstream",
-        "src": null
+        "src": "ui/ai/chamaac-ai-input/src"
       }
     },
     {
@@ -3836,6 +3860,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/dancing-letters.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "static/dancing-letters.html",
         "upstream/demo.tsx",
         "upstream/examples/dancing-letters-demo.tsx"
@@ -3846,7 +3873,7 @@
         "registryUrl": "https://www.chamaac.com/r/dancing-letters.json",
         "fallbackPath": "upstream/examples/dancing-letters-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/chamaac-dancing-letters",
         "reference": "ui/animation/chamaac-dancing-letters/reference.tsx",
@@ -3855,7 +3882,7 @@
         "prompt": null,
         "preview": "ui/animation/chamaac-dancing-letters/preview.png",
         "upstream": "ui/animation/chamaac-dancing-letters/upstream",
-        "src": null
+        "src": "ui/animation/chamaac-dancing-letters/src"
       }
     },
     {
@@ -3899,6 +3926,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gif-text.tsx",
+        "src/lib/utils.ts",
         "static/gif-text.html",
         "upstream/demo.tsx",
         "upstream/examples/gif-text-demo.tsx"
@@ -3909,7 +3939,7 @@
         "registryUrl": "https://www.chamaac.com/r/gif-text.json",
         "fallbackPath": "upstream/examples/gif-text-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/chamaac-gif-text",
         "reference": "ui/animation/chamaac-gif-text/reference.tsx",
@@ -3918,7 +3948,7 @@
         "prompt": null,
         "preview": "ui/animation/chamaac-gif-text/preview.png",
         "upstream": "ui/animation/chamaac-gif-text/upstream",
-        "src": null
+        "src": "ui/animation/chamaac-gif-text/src"
       }
     },
     {
@@ -3959,6 +3989,14 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo-assets/gmail.svg",
+        "src/demo-assets/linear.svg",
+        "src/demo-assets/slack.svg",
+        "src/demo-assets/whatsapp.svg",
+        "src/demo-assets/x.svg",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/orbiting-icons.tsx",
         "static/orbiting-icons.html",
         "upstream/demo.tsx",
         "upstream/examples/orbiting-icons-demo.tsx"
@@ -3967,7 +4005,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/orbiting-icons-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/chamaac-orbiting-icons",
         "reference": "ui/animation/chamaac-orbiting-icons/reference.tsx",
@@ -3976,7 +4014,7 @@
         "prompt": null,
         "preview": "ui/animation/chamaac-orbiting-icons/preview.png",
         "upstream": "ui/animation/chamaac-orbiting-icons/upstream",
-        "src": null
+        "src": "ui/animation/chamaac-orbiting-icons/src"
       }
     },
     {
@@ -4016,6 +4054,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/svg-animation.tsx",
         "static/svg-animation.html",
         "upstream/demo.tsx",
         "upstream/examples/svg-animation-demo.tsx"
@@ -4024,7 +4065,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/svg-animation-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/chamaac-svg-animation",
         "reference": "ui/animation/chamaac-svg-animation/reference.tsx",
@@ -4033,7 +4074,7 @@
         "prompt": null,
         "preview": "ui/animation/chamaac-svg-animation/preview.png",
         "upstream": "ui/animation/chamaac-svg-animation/upstream",
-        "src": null
+        "src": "ui/animation/chamaac-svg-animation/src"
       }
     },
     {
@@ -4076,6 +4117,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/text-loop.tsx",
         "static/text-loop.html",
         "upstream/demo.tsx",
         "upstream/examples/text-loop-demo.tsx"
@@ -4086,7 +4130,7 @@
         "registryUrl": "https://www.chamaac.com/r/text-loop.json",
         "fallbackPath": "upstream/examples/text-loop-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/chamaac-text-loop",
         "reference": "ui/animation/chamaac-text-loop/reference.tsx",
@@ -4095,7 +4139,7 @@
         "prompt": null,
         "preview": "ui/animation/chamaac-text-loop/preview.png",
         "upstream": "ui/animation/chamaac-text-loop/upstream",
-        "src": null
+        "src": "ui/animation/chamaac-text-loop/src"
       }
     },
     {
@@ -10216,6 +10260,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/carousel.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "static/carousel.html",
         "upstream/demo.tsx",
         "upstream/examples/coursel-demo.tsx"
@@ -10226,7 +10273,7 @@
         "registryUrl": "https://www.chamaac.com/r/carousel.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/carousel/carousel.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/content/chamaac-carousel",
         "reference": "ui/content/chamaac-carousel/reference.tsx",
@@ -10235,7 +10282,7 @@
         "prompt": null,
         "preview": "ui/content/chamaac-carousel/preview.png",
         "upstream": "ui/content/chamaac-carousel/upstream",
-        "src": null
+        "src": "ui/content/chamaac-carousel/src"
       }
     },
     {
@@ -13336,6 +13383,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/invoice-card.tsx",
+        "src/lib/utils.ts",
         "static/invoice-card.html",
         "upstream/demo.tsx",
         "upstream/examples/invoice-card-demo.tsx"
@@ -13344,7 +13394,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/invoice-card-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-display/chamaac-invoice-card",
         "reference": "ui/data-display/chamaac-invoice-card/reference.tsx",
@@ -13353,7 +13403,7 @@
         "prompt": null,
         "preview": "ui/data-display/chamaac-invoice-card/preview.png",
         "upstream": "ui/data-display/chamaac-invoice-card/upstream",
-        "src": null
+        "src": "ui/data-display/chamaac-invoice-card/src"
       }
     },
     {
@@ -13397,6 +13447,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/stats-cards.tsx",
         "static/stats-cards.html",
         "upstream/demo.tsx",
         "upstream/examples/stats-cards-demo.tsx"
@@ -13407,7 +13460,7 @@
         "registryUrl": "https://www.chamaac.com/r/stats-cards.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/stats-cards/stats-cards.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-display/chamaac-stats-cards",
         "reference": "ui/data-display/chamaac-stats-cards/reference.tsx",
@@ -13416,7 +13469,7 @@
         "prompt": null,
         "preview": "ui/data-display/chamaac-stats-cards/preview.png",
         "upstream": "ui/data-display/chamaac-stats-cards/upstream",
-        "src": null
+        "src": "ui/data-display/chamaac-stats-cards/src"
       }
     },
     {
@@ -15433,6 +15486,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gauge.tsx",
+        "src/lib/utils.ts",
         "static/gauge.html",
         "upstream/demo.tsx",
         "upstream/examples/gauge-demo.tsx"
@@ -15443,7 +15499,7 @@
         "registryUrl": "https://www.chamaac.com/r/gauge.json",
         "fallbackPath": "upstream/examples/gauge-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-visualization/chamaac-gauge",
         "reference": "ui/data-visualization/chamaac-gauge/reference.tsx",
@@ -15452,7 +15508,7 @@
         "prompt": null,
         "preview": "ui/data-visualization/chamaac-gauge/preview.png",
         "upstream": "ui/data-visualization/chamaac-gauge/upstream",
-        "src": null
+        "src": "ui/data-visualization/chamaac-gauge/src"
       }
     },
     {
@@ -20275,6 +20331,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/astral-flow.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/astral-flow.html",
         "upstream/demo.tsx",
         "upstream/examples/astral-flow-demo.tsx"
@@ -20285,7 +20345,7 @@
         "registryUrl": "https://www.chamaac.com/r/astral-flow.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/astral-flow/astral-flow.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-astral-flow",
         "reference": "ui/effects/chamaac-astral-flow/reference.tsx",
@@ -20294,7 +20354,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-astral-flow/preview.png",
         "upstream": "ui/effects/chamaac-astral-flow/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-astral-flow/src"
       }
     },
     {
@@ -20338,6 +20398,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/bokeh-grid.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/bokeh-grid.html",
         "upstream/demo.tsx"
       ],
@@ -20345,7 +20409,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/bokeh-grid/bokeh-grid.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-bokeh-grid",
         "reference": "ui/effects/chamaac-bokeh-grid/reference.tsx",
@@ -20354,7 +20418,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-bokeh-grid/preview.png",
         "upstream": "ui/effects/chamaac-bokeh-grid/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-bokeh-grid/src"
       }
     },
     {
@@ -20395,6 +20459,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/deform-tunnel.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/deform-tunnel.html",
         "upstream/demo.tsx",
         "upstream/examples/deform-tunnel-demo.tsx"
@@ -20403,7 +20471,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/deform-tunnel-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-deform-tunnel",
         "reference": "ui/effects/chamaac-deform-tunnel/reference.tsx",
@@ -20412,7 +20480,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-deform-tunnel/preview.png",
         "upstream": "ui/effects/chamaac-deform-tunnel/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-deform-tunnel/src"
       }
     },
     {
@@ -20458,6 +20526,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/electric-mist.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/electric-mist.html",
         "upstream/demo.tsx",
         "upstream/examples/electric-mist-demo.tsx"
@@ -20468,7 +20540,7 @@
         "registryUrl": "https://www.chamaac.com/r/electric-mist.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/electric-mist/electric-mist.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-electric-mist",
         "reference": "ui/effects/chamaac-electric-mist/reference.tsx",
@@ -20477,7 +20549,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-electric-mist/preview.png",
         "upstream": "ui/effects/chamaac-electric-mist/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-electric-mist/src"
       }
     },
     {
@@ -20521,6 +20593,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/glassy-boxes.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/glassy-boxes.html",
         "upstream/demo.tsx"
       ],
@@ -20528,7 +20604,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/glassy-boxes/glassy-boxes.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-glassy-boxes",
         "reference": "ui/effects/chamaac-glassy-boxes/reference.tsx",
@@ -20537,7 +20613,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-glassy-boxes/preview.png",
         "upstream": "ui/effects/chamaac-glassy-boxes/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-glassy-boxes/src"
       }
     },
     {
@@ -20590,6 +20666,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/grid-bloom.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/grid-bloom.html",
         "upstream/demo.tsx",
         "upstream/examples/grid-bloom-demo.tsx"
@@ -20600,7 +20680,7 @@
         "registryUrl": "https://www.chamaac.com/r/grid-bloom.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/grid-bloom/grid-bloom.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-grid-bloom",
         "reference": "ui/effects/chamaac-grid-bloom/reference.tsx",
@@ -20609,7 +20689,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-grid-bloom/preview.png",
         "upstream": "ui/effects/chamaac-grid-bloom/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-grid-bloom/src"
       }
     },
     {
@@ -20650,6 +20730,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/interactive-grid-background.tsx",
+        "src/lib/utils.ts",
         "static/interactive-grid.html",
         "upstream/demo.tsx",
         "upstream/examples/interactive-grid-demo.tsx"
@@ -20658,7 +20741,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/interactive-grid-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-interactive-grid",
         "reference": "ui/effects/chamaac-interactive-grid/reference.tsx",
@@ -20667,7 +20750,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-interactive-grid/preview.png",
         "upstream": "ui/effects/chamaac-interactive-grid/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-interactive-grid/src"
       }
     },
     {
@@ -20711,6 +20794,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/iridescent-windows.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
         "static/iridescent-windows.html",
         "upstream/demo.tsx"
       ],
@@ -20718,7 +20805,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/iridescent-windows/iridescent-windows.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-iridescent-windows",
         "reference": "ui/effects/chamaac-iridescent-windows/reference.tsx",
@@ -20727,7 +20814,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-iridescent-windows/preview.png",
         "upstream": "ui/effects/chamaac-iridescent-windows/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-iridescent-windows/src"
       }
     },
     {
@@ -20772,6 +20859,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/light-speed.tsx",
         "static/light-speed.html",
         "upstream/demo.tsx",
         "upstream/examples/light-speed-demo.tsx"
@@ -20782,7 +20873,7 @@
         "registryUrl": "https://www.chamaac.com/r/light-speed.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/light-speed/light-speed.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-light-speed",
         "reference": "ui/effects/chamaac-light-speed/reference.tsx",
@@ -20791,7 +20882,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-light-speed/preview.png",
         "upstream": "ui/effects/chamaac-light-speed/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-light-speed/src"
       }
     },
     {
@@ -20832,6 +20923,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/liquid-chrome.tsx",
         "static/liquid-chrome.html",
         "upstream/demo.tsx",
         "upstream/examples/liquid-chrome-demo.tsx"
@@ -20842,7 +20937,7 @@
         "registryUrl": "https://www.chamaac.com/r/liquid-chrome.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/liquid-chrome/liquid-chrome.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-liquid-chrome",
         "reference": "ui/effects/chamaac-liquid-chrome/reference.tsx",
@@ -20851,7 +20946,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-liquid-chrome/preview.png",
         "upstream": "ui/effects/chamaac-liquid-chrome/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-liquid-chrome/src"
       }
     },
     {
@@ -20895,6 +20990,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/liquid-morph.tsx",
         "static/liquid-morph.html",
         "upstream/demo.tsx"
       ],
@@ -20902,7 +21001,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/liquid-morph/liquid-morph.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-liquid-morph",
         "reference": "ui/effects/chamaac-liquid-morph/reference.tsx",
@@ -20911,7 +21010,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-liquid-morph/preview.png",
         "upstream": "ui/effects/chamaac-liquid-morph/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-liquid-morph/src"
       }
     },
     {
@@ -20955,6 +21054,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/modern-smoke.tsx",
         "static/modern-smoke.html",
         "upstream/demo.tsx"
       ],
@@ -20962,7 +21065,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/modern-smoke/page.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-modern-smoke",
         "reference": "ui/effects/chamaac-modern-smoke/reference.tsx",
@@ -20971,7 +21074,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-modern-smoke/preview.png",
         "upstream": "ui/effects/chamaac-modern-smoke/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-modern-smoke/src"
       }
     },
     {
@@ -21018,6 +21121,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/nebula.tsx",
         "static/nebula.html",
         "upstream/demo.tsx",
         "upstream/examples/nebula-demo.tsx"
@@ -21028,7 +21135,7 @@
         "registryUrl": "https://www.chamaac.com/r/nebula.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/nebula/nebula.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-nebula",
         "reference": "ui/effects/chamaac-nebula/reference.tsx",
@@ -21037,7 +21144,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-nebula/preview.png",
         "upstream": "ui/effects/chamaac-nebula/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-nebula/src"
       }
     },
     {
@@ -21078,6 +21185,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/reveal-card.tsx",
         "static/reveal-card.html",
         "upstream/demo.tsx",
         "upstream/examples/reveal-card-demo.tsx"
@@ -21086,7 +21196,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/reveal-card-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-reveal-card",
         "reference": "ui/effects/chamaac-reveal-card/reference.tsx",
@@ -21095,7 +21205,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-reveal-card/preview.png",
         "upstream": "ui/effects/chamaac-reveal-card/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-reveal-card/src"
       }
     },
     {
@@ -21138,6 +21248,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/watery-noise.tsx",
         "static/shader-test.html",
         "upstream/demo.tsx"
       ],
@@ -21145,7 +21259,7 @@
         "method": "source",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/shader-test/page.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-shader-test",
         "reference": "ui/effects/chamaac-shader-test/reference.tsx",
@@ -21154,7 +21268,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-shader-test/preview.png",
         "upstream": "ui/effects/chamaac-shader-test/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-shader-test/src"
       }
     },
     {
@@ -21200,6 +21314,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/synthesis.tsx",
         "static/synthesis.html",
         "upstream/demo.tsx",
         "upstream/examples/synthesis-demo.tsx"
@@ -21210,7 +21328,7 @@
         "registryUrl": "https://www.chamaac.com/r/synthesis.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/synthesis/synthesis.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-synthesis",
         "reference": "ui/effects/chamaac-synthesis/reference.tsx",
@@ -21219,7 +21337,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-synthesis/preview.png",
         "upstream": "ui/effects/chamaac-synthesis/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-synthesis/src"
       }
     },
     {
@@ -21263,6 +21381,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/water-caustic.tsx",
         "static/water-caustic.html",
         "upstream/demo.tsx",
         "upstream/examples/water-caustic-demo.tsx"
@@ -21273,7 +21395,7 @@
         "registryUrl": "https://www.chamaac.com/r/water-caustic.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/water-caustic/water-caustic.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-water-caustic",
         "reference": "ui/effects/chamaac-water-caustic/reference.tsx",
@@ -21282,7 +21404,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-water-caustic/preview.png",
         "upstream": "ui/effects/chamaac-water-caustic/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-water-caustic/src"
       }
     },
     {
@@ -21324,6 +21446,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/utils.ts",
+        "src/waves.tsx",
         "static/waves.html",
         "upstream/demo.tsx",
         "upstream/examples/waves-demo.tsx"
@@ -21334,7 +21460,7 @@
         "registryUrl": "https://www.chamaac.com/r/waves.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/waves/waves.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chamaac-waves",
         "reference": "ui/effects/chamaac-waves/reference.tsx",
@@ -21343,7 +21469,7 @@
         "prompt": null,
         "preview": "ui/effects/chamaac-waves/preview.png",
         "upstream": "ui/effects/chamaac-waves/upstream",
-        "src": null
+        "src": "ui/effects/chamaac-waves/src"
       }
     },
     {
@@ -263932,6 +264058,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/dock.tsx",
+        "src/lib/utils.ts",
         "static/dock.html",
         "upstream/demo.tsx",
         "upstream/examples/dock-demo.tsx"
@@ -263942,7 +264071,7 @@
         "registryUrl": "https://www.chamaac.com/r/dock.json",
         "fallbackPath": "upstream/examples/dock-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/chamaac-dock",
         "reference": "ui/navigation/chamaac-dock/reference.tsx",
@@ -263951,7 +264080,7 @@
         "prompt": null,
         "preview": "ui/navigation/chamaac-dock/preview.png",
         "upstream": "ui/navigation/chamaac-dock/upstream",
-        "src": null
+        "src": "ui/navigation/chamaac-dock/src"
       }
     },
     {
@@ -274348,6 +274477,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/feature-steps.tsx",
+        "src/lib/utils.ts",
         "static/feature-steps.html",
         "upstream/demo.tsx",
         "upstream/examples/feature-steps-demo.tsx"
@@ -274358,7 +274490,7 @@
         "registryUrl": "https://www.chamaac.com/r/feature-steps.json",
         "fallbackPath": "upstream/examples/feature-steps-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/page/chamaac-feature-steps",
         "reference": "ui/page/chamaac-feature-steps/reference.tsx",
@@ -274367,7 +274499,7 @@
         "prompt": null,
         "preview": "ui/page/chamaac-feature-steps/preview.png",
         "upstream": "ui/page/chamaac-feature-steps/upstream",
-        "src": null
+        "src": "ui/page/chamaac-feature-steps/src"
       }
     },
     {
@@ -274412,6 +274544,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/how-it-works.tsx",
+        "src/lib/utils.ts",
         "static/how-it-works.html",
         "upstream/demo.tsx",
         "upstream/examples/how-it-works-demo.tsx"
@@ -274422,7 +274557,7 @@
         "registryUrl": "https://www.chamaac.com/r/how-it-works.json",
         "fallbackPath": "ui/_sources/chamaac/registry/chamaac/how-it-works/how-it-works.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/page/chamaac-how-it-works",
         "reference": "ui/page/chamaac-how-it-works/reference.tsx",
@@ -274431,7 +274566,7 @@
         "prompt": null,
         "preview": "ui/page/chamaac-how-it-works/preview.png",
         "upstream": "ui/page/chamaac-how-it-works/upstream",
-        "src": null
+        "src": "ui/page/chamaac-how-it-works/src"
       }
     },
     {
@@ -275129,6 +275264,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/stack-scroll.tsx",
         "static/stack-scroll.html",
         "upstream/demo.tsx",
         "upstream/examples/stack-scroll-demo.tsx"
@@ -275137,7 +275275,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/stack-scroll-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/chamaac-stack-scroll",
         "reference": "ui/scroll/chamaac-stack-scroll/reference.tsx",
@@ -275146,7 +275284,7 @@
         "prompt": null,
         "preview": "ui/scroll/chamaac-stack-scroll/preview.png",
         "upstream": "ui/scroll/chamaac-stack-scroll/upstream",
-        "src": null
+        "src": "ui/scroll/chamaac-stack-scroll/src"
       }
     },
     {
@@ -276080,6 +276218,9 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/tilt-card.tsx",
         "static/tilt-card.html",
         "upstream/demo.tsx",
         "upstream/examples/tilt-card-demo.tsx"
@@ -276088,7 +276229,7 @@
         "method": "source",
         "fallbackPath": "upstream/examples/tilt-card-demo.tsx"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/surface/chamaac-tilt-card",
         "reference": "ui/surface/chamaac-tilt-card/reference.tsx",
@@ -276097,7 +276238,7 @@
         "prompt": null,
         "preview": "ui/surface/chamaac-tilt-card/preview.png",
         "upstream": "ui/surface/chamaac-tilt-card/upstream",
-        "src": null
+        "src": "ui/surface/chamaac-tilt-card/src"
       }
     },
     {

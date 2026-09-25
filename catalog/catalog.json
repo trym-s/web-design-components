@@ -1380,13 +1380,16 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/copy-button.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "upstream/copy-button.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/copy-button",
         "reference": "ui/action-feedback/copy-button/reference.tsx",
@@ -1395,7 +1398,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/copy-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/copy-button/src"
       }
     },
     {
@@ -1433,13 +1436,16 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/hold-to-confirm.tsx",
+        "src/lib/utils.ts",
         "upstream/demo.tsx",
         "upstream/hold-to-confirm.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/hold-to-confirm",
         "reference": "ui/action-feedback/hold-to-confirm/reference.tsx",
@@ -1448,7 +1454,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/hold-to-confirm/upstream",
-        "src": null
+        "src": "ui/action-feedback/hold-to-confirm/src"
       }
     },
     {
@@ -1487,13 +1493,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/icon-morph.tsx",
         "upstream/demo.tsx",
         "upstream/icon-morph.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/icon-morph",
         "reference": "ui/action-feedback/icon-morph/reference.tsx",
@@ -1502,7 +1510,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/icon-morph/upstream",
-        "src": null
+        "src": "ui/action-feedback/icon-morph/src"
       }
     },
     {
@@ -1540,13 +1548,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/like-burst.tsx",
         "upstream/demo.tsx",
         "upstream/like-burst.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/like-burst",
         "reference": "ui/action-feedback/like-burst/reference.tsx",
@@ -1555,7 +1565,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/like-burst/upstream",
-        "src": null
+        "src": "ui/action-feedback/like-burst/src"
       }
     },
     {
@@ -1593,13 +1603,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/loading-button.tsx",
         "upstream/demo.tsx",
         "upstream/loading-button.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/loading-button",
         "reference": "ui/action-feedback/loading-button/reference.tsx",
@@ -1608,7 +1620,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/loading-button/upstream",
-        "src": null
+        "src": "ui/action-feedback/loading-button/src"
       }
     },
     {
@@ -1645,13 +1657,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/press-depth.tsx",
         "upstream/demo.tsx",
         "upstream/press-depth.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/press-depth",
         "reference": "ui/action-feedback/press-depth/reference.tsx",
@@ -1660,7 +1674,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/press-depth/upstream",
-        "src": null
+        "src": "ui/action-feedback/press-depth/src"
       }
     },
     {
@@ -1697,13 +1711,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/ripple.tsx",
         "upstream/demo.tsx",
         "upstream/ripple.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/action-feedback/ripple",
         "reference": "ui/action-feedback/ripple/reference.tsx",
@@ -1712,7 +1728,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/action-feedback/ripple/upstream",
-        "src": null
+        "src": "ui/action-feedback/ripple/src"
       }
     },
     {
@@ -2074,7 +2090,7 @@
       "title": "Approval Card",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -2089,39 +2105,44 @@
         "card",
         "collect",
         "human",
+        "interactive",
         "loop",
         "must",
         "question",
         "selected",
         "the",
-        "typed",
-        "unknown"
+        "typed"
       ],
       "useWhen": "a human-in-the-loop question must collect a selected or typed answer before an agent acts.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/approval-card.css",
+        "src/approval-card.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/approval/approval-card",
         "reference": "ui/ai/approval/approval-card/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/approval/approval-card/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/approval/approval-card/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/approval/approval-card/src"
       }
     },
     {
@@ -2910,7 +2931,7 @@
       "title": "Chat Composer",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -2924,37 +2945,42 @@
         "composer",
         "context",
         "conversation",
+        "interactive",
         "reasoning",
         "replies",
         "tabbed",
-        "tool",
-        "unknown"
+        "tool"
       ],
       "useWhen": "a tabbed AI conversation combines reasoning replies, tool context, and a compact composer.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/chat-composer.css",
+        "src/chat-composer.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/chat/chat-composer",
         "reference": "ui/ai/chat/chat-composer/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/chat/chat-composer/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/chat/chat-composer/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/chat/chat-composer/src"
       }
     },
     {
@@ -2962,7 +2988,7 @@
       "title": "Recommendation Card",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -2978,36 +3004,41 @@
         "confidence",
         "decision",
         "explicit",
+        "interactive",
         "needs",
         "recommendation",
-        "suggestion",
-        "unknown"
+        "suggestion"
       ],
       "useWhen": "an agent suggestion needs confidence, alternatives, and an explicit accept action.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/recommendation-card.css",
+        "src/recommendation-card.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/decision/recommendation-card",
         "reference": "ui/ai/decision/recommendation-card/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/decision/recommendation-card/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/decision/recommendation-card/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/decision/recommendation-card/src"
       }
     },
     {
@@ -3015,7 +3046,7 @@
       "title": "Prompt Bar",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3030,39 +3061,44 @@
         "controls",
         "dictation",
         "input",
+        "interactive",
         "model",
         "needs",
         "prompt",
         "selection",
         "send",
-        "sources",
-        "unknown"
+        "sources"
       ],
       "useWhen": "an AI composer needs attachments, @ sources, / commands, model selection, dictation, and send controls.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/prompt-bar.css",
+        "src/prompt-bar.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/input/prompt-bar",
         "reference": "ui/ai/input/prompt-bar/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/input/prompt-bar/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/input/prompt-bar/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/input/prompt-bar/src"
       }
     },
     {
@@ -3070,7 +3106,7 @@
       "title": "Long Running Work Loader",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "functional",
       "roles": [
         "structure",
         "behavior"
@@ -3083,6 +3119,7 @@
         "dots",
         "drive",
         "elapsed",
+        "functional",
         "loader",
         "loading",
         "long",
@@ -3093,35 +3130,39 @@
         "progress",
         "running",
         "time",
-        "unknown",
         "visible",
         "work"
       ],
       "useWhen": "an agent operation needs visible progress, elapsed time, or distinct drive, dots, and orbit loading modes.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/work-loader.css",
+        "src/work-loader.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/progress/long-running-work-loader",
         "reference": "ui/ai/progress/long-running-work-loader/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/progress/long-running-work-loader/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/progress/long-running-work-loader/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/progress/long-running-work-loader/src"
       }
     },
     {
@@ -3129,7 +3170,7 @@
       "title": "Expandable Agent Trace",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3142,6 +3183,7 @@
         "dominating",
         "expand",
         "expandable",
+        "interactive",
         "into",
         "multi",
         "readable",
@@ -3151,35 +3193,39 @@
         "step",
         "the",
         "trace",
-        "unknown",
         "without",
         "work"
       ],
       "useWhen": "agent reasoning, search, coding, or multi-step work should expand into a readable trace without dominating the conversation.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/agent-trace.css",
+        "src/agent-trace.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/reasoning/expandable-agent-trace",
         "reference": "ui/ai/reasoning/expandable-agent-trace/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/reasoning/expandable-agent-trace/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/reasoning/expandable-agent-trace/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/reasoning/expandable-agent-trace/src"
       }
     },
     {
@@ -3187,7 +3233,7 @@
       "title": "Retrieved Chunks List",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "structural",
       "roles": [
         "structure",
         "behavior"
@@ -3207,35 +3253,40 @@
         "retrieval",
         "retrieved",
         "source",
+        "structural",
         "type",
-        "unknown",
         "with"
       ],
       "useWhen": "retrieved knowledge chunks need compact previews with source type, filename, and character count.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/chunks-list.css",
+        "src/chunks-list.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/retrieval/retrieved-chunks-list",
         "reference": "ui/ai/retrieval/retrieved-chunks-list/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/retrieval/retrieved-chunks-list/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/retrieval/retrieved-chunks-list/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/retrieval/retrieved-chunks-list/src"
       }
     },
     {
@@ -3243,7 +3294,7 @@
       "title": "Selection Actions",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3258,40 +3309,45 @@
         "for",
         "grammar",
         "improving",
+        "interactive",
         "needs",
         "selected",
         "selection",
         "shortening",
         "text",
         "tone",
-        "toolbar",
-        "unknown"
+        "toolbar"
       ],
       "useWhen": "selected text needs an anchored AI toolbar for explaining, improving, shortening, changing tone, or fixing grammar.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/selection-actions.css",
+        "src/selection-actions.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/selection/selection-actions",
         "reference": "ui/ai/selection/selection-actions/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/selection/selection-actions/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/selection/selection-actions/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/selection/selection-actions/src"
       }
     },
     {
@@ -3572,7 +3628,7 @@
       "title": "Streaming Text",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3584,6 +3640,7 @@
         "answer",
         "follow",
         "inline",
+        "interactive",
         "progressively",
         "prompts",
         "response",
@@ -3592,34 +3649,38 @@
         "streams",
         "suggested",
         "text",
-        "unknown",
         "with"
       ],
       "useWhen": "an answer streams progressively with inline sources, response actions, and suggested follow-up prompts.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/streaming-text.css",
+        "src/streaming-text.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/streaming/streaming-text",
         "reference": "ui/ai/streaming/streaming-text/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/streaming/streaming-text/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/streaming/streaming-text/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/streaming/streaming-text/src"
       }
     },
     {
@@ -3627,7 +3688,7 @@
       "title": "Task Rows",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3639,6 +3700,7 @@
         "capsule",
         "completed",
         "failed",
+        "interactive",
         "layouts",
         "list",
         "live",
@@ -3647,34 +3709,38 @@
         "running",
         "status",
         "task",
-        "tasks",
-        "unknown"
+        "tasks"
       ],
       "useWhen": "live agent tasks need running, failed, and completed status in capsule or list layouts.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/task-rows.css",
+        "src/task-rows.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/tasks/task-rows",
         "reference": "ui/ai/tasks/task-rows/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/tasks/task-rows/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/tasks/task-rows/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/tasks/task-rows/src"
       }
     },
     {
@@ -3682,7 +3748,7 @@
       "title": "Tool Call Chips",
       "category": "ai",
       "source": "beautiful-ui",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -3697,40 +3763,45 @@
         "compact",
         "completed",
         "edits",
+        "interactive",
         "need",
         "running",
         "states",
         "their",
         "tool",
         "tooling",
-        "transcript",
-        "unknown"
+        "transcript"
       ],
       "useWhen": "code edits, tool calls, and their running or completed states need compact transcript chips.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/tool-call-chips.css",
+        "src/tool-call-chips.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/ai/tooling/tool-call-chips",
         "reference": "ui/ai/tooling/tool-call-chips/reference.tsx",
-        "readme": null,
+        "readme": "ui/ai/tooling/tool-call-chips/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/ai/tooling/tool-call-chips/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/ai/tooling/tool-call-chips/src"
       }
     },
     {
@@ -4135,13 +4206,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/dice-roll.tsx",
         "upstream/demo.tsx",
         "upstream/dice-roll.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/dice-roll",
         "reference": "ui/animation/dice-roll/reference.tsx",
@@ -4150,7 +4223,7 @@
         "prompt": null,
         "preview": "ui/animation/dice-roll/preview.png",
         "upstream": "ui/animation/dice-roll/upstream",
-        "src": null
+        "src": "ui/animation/dice-roll/src"
       }
     },
     {
@@ -4195,12 +4268,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/ghost-reveal.tsx",
+        "src/lib/utils.ts",
         "upstream/ghosty-reveal/standalone/GhostReveal.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/ghosty-reveal",
         "reference": "ui/animation/ghosty-reveal/reference.tsx",
@@ -4209,7 +4285,7 @@
         "prompt": "ui/animation/ghosty-reveal/PROMPT.md",
         "preview": null,
         "upstream": "ui/animation/ghosty-reveal/upstream",
-        "src": null
+        "src": "ui/animation/ghosty-reveal/src"
       }
     },
     {
@@ -4248,13 +4324,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gyro-rings.tsx",
         "upstream/demo.tsx",
         "upstream/gyro-rings.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/gyro-rings",
         "reference": "ui/animation/gyro-rings/reference.tsx",
@@ -4263,7 +4341,7 @@
         "prompt": null,
         "preview": "ui/animation/gyro-rings/preview.png",
         "upstream": "ui/animation/gyro-rings/upstream",
-        "src": null
+        "src": "ui/animation/gyro-rings/src"
       }
     },
     {
@@ -4458,6 +4536,20 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/engine/braid.ts",
+        "src/engine/core.ts",
+        "src/engine/lattice.ts",
+        "src/engine/morph.ts",
+        "src/engine/orbits.ts",
+        "src/engine/profiles.ts",
+        "src/engine/registry.ts",
+        "src/engine/ribbon.ts",
+        "src/engine/types.ts",
+        "src/engine/web.ts",
+        "src/presets.ts",
+        "src/thinking-orb.tsx",
+        "src/types.ts",
         "upstream/ThinkingOrb.tsx",
         "upstream/engine/braid.ts",
         "upstream/engine/core.ts",
@@ -4477,7 +4569,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/thinking-orbs",
         "reference": "ui/animation/thinking-orbs/reference.tsx",
@@ -4486,7 +4578,7 @@
         "prompt": null,
         "preview": "ui/animation/thinking-orbs/preview.png",
         "upstream": "ui/animation/thinking-orbs/upstream",
-        "src": null
+        "src": "ui/animation/thinking-orbs/src"
       }
     },
     {
@@ -4494,7 +4586,7 @@
       "title": "Accordion",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -4530,6 +4622,7 @@
         "grows",
         "header",
         "height",
+        "interactive",
         "line",
         "measuring",
         "midpoint",
@@ -4553,7 +4646,6 @@
         "through",
         "toggled",
         "transitions",
-        "unknown",
         "upward",
         "use",
         "vertically",
@@ -4563,31 +4655,36 @@
         "with"
       ],
       "useWhen": "A disclosure / accordion / collapsible section whose panel grows and shrinks in height when toggled, with the header chevron flipping between a downward \"v\" and an upward \"^\". Use for settings groups, FAQs, filter sections, \"show more\" details — any header + collapsible body. Height animates via `grid-template-rows: 0fr ↔ 1fr`, so there's **no JS height measuring** and content of any size animates cleanly. The chevron flips vertically (`scaleY`) from a \"v\" to a \"^\", passing through a flat line at the midpoint. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/accordion.css",
+        "src/accordion.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/accordion",
         "reference": "ui/animation/transitions/accordion/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/accordion/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/accordion/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/accordion/src"
       }
     },
     {
@@ -4595,7 +4692,7 @@
       "title": "Avatar Group Hover",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -4639,6 +4736,7 @@
         "hovered",
         "hovering",
         "interaction",
+        "interactive",
         "item",
         "its",
         "lift",
@@ -4668,36 +4766,40 @@
         "the",
         "then",
         "transitions",
-        "unknown",
         "what",
         "with"
       ],
       "useWhen": "Hovering an item in a horizontal stack (avatar row, chip group, badge cluster, segmented button) should lift the hovered item, gently lift its neighbors with a power-falloff, then snap everything back with an overshoot spring on `mouseleave`. Direction-aware easing (clean ease-in on hover, bouncy ease-out on return) is what gives the group its springy, physical feel. Equally good for: pill stacks in a tag editor, chips in a filter bar, reaction-emoji rows, anywhere a horizontal row benefits from a \"comb\" interaction signal. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/avatar-group-hover.css",
+        "src/avatar-group-hover.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/avatar-group-hover",
         "reference": "ui/animation/transitions/avatar-group-hover/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/avatar-group-hover/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/avatar-group-hover/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/avatar-group-hover/src"
       }
     },
     {
@@ -4705,7 +4807,7 @@
       "title": "Card Resize",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -4728,6 +4830,7 @@
         "expanded",
         "extra",
         "height",
+        "interactive",
         "its",
         "layout",
         "list",
@@ -4747,36 +4850,40 @@
         "toggling",
         "transitions",
         "tweening",
-        "unknown",
         "when",
         "width"
       ],
       "useWhen": "Tweening a container's width or height when its layout state changes (compact ↔ expanded card, collapsing panel, list row toggling extra detail). Pure CSS — no JS required beyond the class toggle that drives the size change. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/card-resize.css",
+        "src/card-resize.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/card-resize",
         "reference": "ui/animation/transitions/card-resize/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/card-resize/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/card-resize/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/card-resize/src"
       }
     },
     {
@@ -4784,7 +4891,7 @@
       "title": "Card Tilt",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -4818,6 +4925,7 @@
         "hover",
         "hovered",
         "inner",
+        "interactive",
         "its",
         "light",
         "media",
@@ -4856,7 +4964,6 @@
         "transforms",
         "transitions",
         "under",
-        "unknown",
         "use",
         "which",
         "while",
@@ -4864,31 +4971,36 @@
         "wrapper"
       ],
       "useWhen": "A card / tile / media surface that tilts in 3D toward the pointer while hovered, with a soft light \"glare\" tracking the cursor across it. Use for product cards, credit / membership cards, feature tiles, cover art — anything that should feel physical and reactive on hover. Pointer-only (skips touch) and flattens under reduced motion. The pointer is tracked on an **outer flat wrapper** (`.t-tilt`) that never transforms, so the tilting card can't rotate its own edges out from under the cursor (which causes hover flicker). The inner `.t-tilt-card` is the element that actually rotates. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/card-tilt.css",
+        "src/card-tilt.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/card-tilt",
         "reference": "ui/animation/transitions/card-tilt/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/card-tilt/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/card-tilt/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/card-tilt/src"
       }
     },
     {
@@ -4896,7 +5008,7 @@
       "title": "Checkbox Check",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -4918,6 +5030,7 @@
         "for",
         "free",
         "has",
+        "interactive",
         "its",
         "needs",
         "newer",
@@ -4929,35 +5042,39 @@
         "then",
         "this",
         "transition",
-        "transitions",
-        "unknown"
+        "transitions"
       ],
       "useWhen": "A checkbox needs a clear completion cue: fill the box, then draw its checkmark. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/checkbox-check.css",
+        "src/checkbox-check.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/checkbox-check",
         "reference": "ui/animation/transitions/checkbox-check/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/checkbox-check/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/checkbox-check/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/checkbox-check/src"
       }
     },
     {
@@ -4965,7 +5082,7 @@
       "title": "Error State Shake",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5003,6 +5120,7 @@
         "hold",
         "immediately",
         "input",
+        "interactive",
         "into",
         "invalid",
         "left",
@@ -5044,7 +5162,6 @@
         "transitions",
         "try",
         "typing",
-        "unknown",
         "username",
         "validation",
         "warning",
@@ -5053,31 +5170,36 @@
         "wrong"
       ],
       "useWhen": "Form validation feedback — invalid email, wrong password, missing required field, mismatched confirmation. The input shakes left/right with overshoot, the border switches to error color, and a message reveals beneath. After a hold timer (long enough to read the message), border + message fade back to neutral. Optional: typing into the input cancels the auto-revert immediately. The `t-` snippet is also a fit for any \"this is wrong, try again\" moment that needs a percussive hint without an OS-level alert — a wrong-PIN field on a lock screen, a duplicate-tag warning in a tag editor, a \"name already taken\" username field. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/error-state-shake.css",
+        "src/error-state-shake.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/error-state-shake",
         "reference": "ui/animation/transitions/error-state-shake/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/error-state-shake/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/error-state-shake/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/error-state-shake/src"
       }
     },
     {
@@ -5085,7 +5207,7 @@
       "title": "Icon Swap",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5106,6 +5228,7 @@
         "hamburger",
         "icon",
         "icons",
+        "interactive",
         "moon",
         "pause",
         "play",
@@ -5120,35 +5243,39 @@
         "tab",
         "the",
         "transitions",
-        "two",
-        "unknown"
+        "two"
       ],
       "useWhen": "Cross-fading two icons in the same slot — hamburger ↔ close, sun ↔ moon, play ↔ pause, expand ↔ collapse. Both icons stay in the DOM stacked in the same grid cell. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/icon-swap.css",
+        "src/icon-swap.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/icon-swap",
         "reference": "ui/animation/transitions/icon-swap/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/icon-swap/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/icon-swap/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/icon-swap/src"
       }
     },
     {
@@ -5156,7 +5283,7 @@
       "title": "Input Clear Dissolve",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5189,6 +5316,7 @@
         "gradient",
         "ignites",
         "input",
+        "interactive",
         "keyframes",
         "per",
         "placeholder",
@@ -5206,37 +5334,41 @@
         "transitions",
         "typed",
         "under",
-        "unknown",
         "while",
         "with",
         "word"
       ],
       "useWhen": "Clearing a text field — search box, filter input, any field with a clear (×) button. The typed text flies down + blurs + fades while a soft per-word streak ignites under each word, and the placeholder falls in from above. Per-frame JS is required: the streak envelope and per-word gradient stack cannot be expressed as static @keyframes. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/input-clear-dissolve.css",
+        "src/input-clear-dissolve.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/input-clear-dissolve",
         "reference": "ui/animation/transitions/input-clear-dissolve/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/input-clear-dissolve/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/input-clear-dissolve/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/input-clear-dissolve/src"
       }
     },
     {
@@ -5244,7 +5376,7 @@
       "title": "Learn More Hover",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5261,6 +5393,7 @@
         "free",
         "has",
         "hover",
+        "interactive",
         "learn",
         "loading",
         "more",
@@ -5278,35 +5411,39 @@
         "the",
         "this",
         "transition",
-        "transitions",
-        "unknown"
+        "transitions"
       ],
       "useWhen": "A compact “learn more” action needs a restrained hover cue rather than a separate loading or navigation animation. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/learn-more-hover.css",
+        "src/learn-more-hover.tsx",
+        "src/lib/utils.ts",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/learn-more-hover",
         "reference": "ui/animation/transitions/learn-more-hover/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/learn-more-hover/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/learn-more-hover/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/learn-more-hover/src"
       }
     },
     {
@@ -5314,7 +5451,7 @@
       "title": "Like Button",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5335,6 +5472,7 @@
         "free",
         "has",
         "heart",
+        "interactive",
         "lightweight",
         "like",
         "new",
@@ -5351,35 +5489,39 @@
         "this",
         "transition",
         "transitions",
-        "unknown",
         "with"
       ],
       "useWhen": "A lightweight like/favourite control should acknowledge a new selection with a heart fill, pop, and particle burst. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/like-button.css",
+        "src/like-button.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/like-button",
         "reference": "ui/animation/transitions/like-button/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/like-button/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/like-button/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/like-button/src"
       }
     },
     {
@@ -5387,7 +5529,7 @@
       "title": "Menu Dropdown",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5407,6 +5549,7 @@
         "dropdowns",
         "from",
         "grow",
+        "interactive",
         "left",
         "menu",
         "menus",
@@ -5423,36 +5566,40 @@
         "top",
         "transitions",
         "trigger",
-        "unknown",
         "via",
         "visually"
       ],
       "useWhen": "Contextual menus, dropdowns, popovers — anything that opens from a trigger and should visually grow from that trigger's position. Origin-aware via `data-origin` (top-left, top-center, top-right, bottom-*). Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/menu-dropdown.css",
+        "src/menu-dropdown.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/menu-dropdown",
         "reference": "ui/animation/transitions/menu-dropdown/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/menu-dropdown/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/menu-dropdown/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/menu-dropdown/src"
       }
     },
     {
@@ -5460,7 +5607,7 @@
       "title": "Modal",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5476,6 +5623,7 @@
         "dialogs",
         "from",
         "full",
+        "interactive",
         "modal",
         "overlay",
         "page",
@@ -5492,36 +5640,40 @@
         "top",
         "transitions",
         "trigger",
-        "unknown",
         "use",
         "when"
       ],
       "useWhen": "Modal dialogs and full-overlay surfaces that scale up from center. Use when the surface is conceptually \"on top of\" the page rather than anchored to a trigger. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/modal.css",
+        "src/modal.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/modal",
         "reference": "ui/animation/transitions/modal/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/modal/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/modal/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/modal/src"
       }
     },
     {
@@ -5529,7 +5681,7 @@
       "title": "Notification Badge",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5547,6 +5699,7 @@
         "dot",
         "inbox",
         "independently",
+        "interactive",
         "itself",
         "moves",
         "never",
@@ -5560,35 +5713,39 @@
         "the",
         "top",
         "transitions",
-        "trigger",
-        "unknown"
+        "trigger"
       ],
       "useWhen": "A small badge appearing on top of a trigger (bell, inbox, button). Slides in diagonally and pops the dot independently of the trigger so the trigger itself never moves. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/notification-badge.css",
+        "src/notification-badge.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/notification-badge",
         "reference": "ui/animation/transitions/notification-badge/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/notification-badge/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/notification-badge/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/notification-badge/src"
       }
     },
     {
@@ -5596,10 +5753,9 @@
       "title": "Number Pop In",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
@@ -5614,6 +5770,7 @@
         "character",
         "counters",
         "decimals",
+        "decorative",
         "dev",
         "digits",
         "direction",
@@ -5636,37 +5793,41 @@
         "the",
         "transitions",
         "two",
-        "unknown",
         "updates",
         "with",
         "without"
       ],
       "useWhen": "Counters, prices, balances, or any number that updates and should re-enter from a direction with blur. Each character animates independently and the last two digits stagger so decimals feel alive without looking chaotic. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/number-pop-in.css",
+        "src/number-pop-in.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/number-pop-in",
         "reference": "ui/animation/transitions/number-pop-in/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/number-pop-in/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/number-pop-in/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/number-pop-in/src"
       }
     },
     {
@@ -5674,7 +5835,7 @@
       "title": "Page Side By Side",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5687,6 +5848,7 @@
         "dev",
         "exits",
         "full",
+        "interactive",
         "left",
         "list",
         "live",
@@ -5703,35 +5865,39 @@
         "that",
         "transitions",
         "two",
-        "unknown",
         "wizard"
       ],
       "useWhen": "Sliding between two full pages or screens that live side-by-side: list ↔ detail, step 1 ↔ step 2 in a wizard. Page 1 exits left, page 2 exits right. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/page-side-by-side.css",
+        "src/page-side-by-side.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/page-side-by-side",
         "reference": "ui/animation/transitions/page-side-by-side/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/page-side-by-side/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/page-side-by-side/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/page-side-by-side/src"
       }
     },
     {
@@ -5739,7 +5905,7 @@
       "title": "Panel Reveal",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5762,6 +5928,7 @@
         "half",
         "height",
         "inside",
+        "interactive",
         "into",
         "opacity",
         "open",
@@ -5779,35 +5946,39 @@
         "transitions",
         "translate",
         "travel",
-        "unknown",
         "view"
       ],
       "useWhen": "A panel that slides into view inside an existing container — e.g. detail panel inside a card, expanding section. Combines a short translate, opacity, and a 2px cross-blur so a half-height travel still reads as a full open. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/panel-reveal.css",
+        "src/panel-reveal.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/panel-reveal",
         "reference": "ui/animation/transitions/panel-reveal/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/panel-reveal/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/panel-reveal/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/panel-reveal/src"
       }
     },
     {
@@ -5815,7 +5986,7 @@
       "title": "Plus Menu Morph",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -5848,6 +6019,7 @@
         "height",
         "icon",
         "instead",
+        "interactive",
         "into",
         "its",
         "menu",
@@ -5881,38 +6053,42 @@
         "this",
         "transitions",
         "trigger",
-        "unknown",
         "use",
         "when",
         "while",
         "width"
       ],
       "useWhen": "A small circular trigger (a \"+\" FAB, a compose button, an add-action affordance) that **morphs into the menu / panel it opens** instead of popping a separate surface next to it. The button's box grows in width / height and relaxes its corner radius into a rounded panel while the plus icon cross-fades + rotates out and the menu content slides in. Reach for this over **menu dropdown** when the trigger and the surface are the *same* element (the button becomes the panel). Use plain **menu dropdown** when the surface is a distinct popover that merely grows from the trigger's corner. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/plus-menu-morph.css",
+        "src/plus-menu-morph.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/plus-menu-morph",
         "reference": "ui/animation/transitions/plus-menu-morph/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/plus-menu-morph/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/plus-menu-morph/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/plus-menu-morph/src"
       }
     },
     {
@@ -5920,10 +6096,9 @@
       "title": "Shimmer Text",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
@@ -5935,6 +6110,7 @@
         "copy",
         "css",
         "data",
+        "decorative",
         "dev",
         "duplicate",
         "feel",
@@ -5963,35 +6139,39 @@
         "thinking",
         "transitions",
         "tune",
-        "unknown",
         "without"
       ],
       "useWhen": "A loading / \"thinking\" label that shimmers — streaming status, \"Generating…\", any in-progress copy that should feel alive without a spinner. Pure CSS: duplicate the string into `data-text` on `.t-shimmer` and tune `--shimmer-base` / `--shimmer-highlight` per theme. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/shimmer-text.css",
+        "src/shimmer-text.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/shimmer-text",
         "reference": "ui/animation/transitions/shimmer-text/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/shimmer-text/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/shimmer-text/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/shimmer-text/src"
       }
     },
     {
@@ -5999,7 +6179,7 @@
       "title": "Skeleton Reveal",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -6019,6 +6199,7 @@
         "fade",
         "free",
         "headers",
+        "interactive",
         "layers",
         "layout",
         "list",
@@ -6045,36 +6226,40 @@
         "the",
         "then",
         "transitions",
-        "unknown",
         "with",
         "your"
       ],
       "useWhen": "A placeholder that loads then reveals real content — list rows, cards, profile headers. The skeleton pulses, then both layers cross-fade with a matching cross-blur. Bring your own bars / avatar / text; the skeleton stays in the same slot as the content so the swap is layout-free. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/skeleton-reveal.css",
+        "src/skeleton-reveal.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/skeleton-reveal",
         "reference": "ui/animation/transitions/skeleton-reveal/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/skeleton-reveal/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/skeleton-reveal/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/skeleton-reveal/src"
       }
     },
     {
@@ -6082,10 +6267,9 @@
       "title": "Spinning Counter",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
@@ -6094,6 +6278,7 @@
         "count",
         "counter",
         "css",
+        "decorative",
         "dev",
         "for",
         "free",
@@ -6117,36 +6302,40 @@
         "this",
         "transition",
         "transitions",
-        "unknown",
         "value",
         "visibly"
       ],
       "useWhen": "A compact numeric value should visibly roll to its next value, such as a score, price, or live count. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/spinning-counter.css",
+        "src/spinning-counter.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/spinning-counter",
         "reference": "ui/animation/transitions/spinning-counter/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/spinning-counter/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/spinning-counter/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/spinning-counter/src"
       }
     },
     {
@@ -6154,10 +6343,9 @@
       "title": "Success Check",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
@@ -6175,6 +6363,7 @@
         "confirming",
         "covers",
         "custom",
+        "decorative",
         "dev",
         "dom",
         "draws",
@@ -6241,31 +6430,36 @@
         "your"
       ],
       "useWhen": "Confirming a completed action — payment processed, file uploaded, message sent, form saved. The icon fades in, rotates upright, settles with a Y-bob, and (for SVG icons) draws its path stroke. Use whenever a status changes from \"pending / unknown\" to \"success\" and you want the moment to feel earned rather than instantaneous. The snippet covers the **appear transition only** — bring your own hide behavior (e.g. unmount, opacity:0, or a custom exit). This is intentional: success states are usually persistent, and a soft fade-out is rarely worth the extra DOM/JS surface. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/success-check.css",
+        "src/success-check.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/success-check",
         "reference": "ui/animation/transitions/success-check/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/success-check/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/success-check/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/success-check/src"
       }
     },
     {
@@ -6273,7 +6467,7 @@
       "title": "Tabs Sliding",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -6290,6 +6484,7 @@
         "dev",
         "exclusive",
         "filter",
+        "interactive",
         "mutually",
         "offsetleft",
         "offsetwidth",
@@ -6311,37 +6506,41 @@
         "the",
         "transitions",
         "tween",
-        "unknown",
         "view",
         "where",
         "writes"
       ],
       "useWhen": "A segmented control / tab bar where the active pill slides between options — view switchers, filter segments, small mutually-exclusive button sets. JS writes the active tab's `offsetLeft` / `offsetWidth` onto the pill; CSS owns the tween. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/tabs-sliding.css",
+        "src/tabs-sliding.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/tabs-sliding",
         "reference": "ui/animation/transitions/tabs-sliding/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/tabs-sliding/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/tabs-sliding/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/tabs-sliding/src"
       }
     },
     {
@@ -6349,16 +6548,16 @@
       "title": "Text States Swap",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
         "animation",
         "below",
         "blur",
+        "decorative",
         "dev",
         "done",
         "enters",
@@ -6381,35 +6580,39 @@
         "text",
         "the",
         "transitions",
-        "unknown",
         "with"
       ],
       "useWhen": "Swapping the text of a status indicator in place — \"Processing…\" → \"Done\", \"Save\" → \"Saved\". The old text exits up with blur, the new text enters from below. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/text-states-swap.css",
+        "src/text-states-swap.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/text-states-swap",
         "reference": "ui/animation/transitions/text-states-swap/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/text-states-swap/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/text-states-swap/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/text-states-swap/src"
       }
     },
     {
@@ -6417,16 +6620,16 @@
       "title": "Texts Reveal",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "decorative",
       "roles": [
-        "visual",
-        "behavior"
+        "visual"
       ],
       "curation": "pending",
       "capabilities": [
         "animation",
         "blur",
         "copy",
+        "decorative",
         "decoupled",
         "dev",
         "dismissing",
@@ -6457,36 +6660,40 @@
         "that",
         "the",
         "transitions",
-        "unknown",
         "view",
         "with"
       ],
       "useWhen": "A headline + supporting line that rise into view with staggered blur — hero copy, empty states, onboarding steps. Exit is decoupled: a single quiet fade with no Y-return so dismissing doesn't replay the reveal in reverse. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/texts-reveal.css",
+        "src/texts-reveal.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/texts-reveal",
         "reference": "ui/animation/transitions/texts-reveal/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/texts-reveal/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/texts-reveal/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/texts-reveal/src"
       }
     },
     {
@@ -6494,7 +6701,7 @@
       "title": "Toast",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -6513,6 +6720,7 @@
         "free",
         "from",
         "has",
+        "interactive",
         "into",
         "message",
         "newer",
@@ -6532,35 +6740,39 @@
         "transient",
         "transition",
         "transitions",
-        "unknown",
         "view"
       ],
       "useWhen": "Toasts, snackbars, and transient confirmations that rise into view from the bottom edge — “Saved”, “Copied”, “Message sent”. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/toast.css",
+        "src/toast.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/toast",
         "reference": "ui/animation/transitions/toast/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/toast/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/toast/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/toast/src"
       }
     },
     {
@@ -6568,7 +6780,7 @@
       "title": "Toggle",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -6584,6 +6796,7 @@
         "for",
         "free",
         "has",
+        "interactive",
         "newer",
         "overshoot",
         "physical",
@@ -6601,35 +6814,39 @@
         "transition",
         "transitions",
         "travel",
-        "unknown",
         "with"
       ],
       "useWhen": "A binary switch should feel physical, with a thumb travel and subtle overshoot. Source: transitions.dev CSS tab; the site has no React tab for this newer free transition.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/toggle.css",
+        "src/toggle.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/toggle",
         "reference": "ui/animation/transitions/toggle/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/toggle/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/toggle/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/toggle/src"
       }
     },
     {
@@ -6637,7 +6854,7 @@
       "title": "Tooltip",
       "category": "animation",
       "source": "transitions.dev",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "visual",
         "behavior"
@@ -6658,6 +6875,7 @@
         "focus",
         "hover",
         "immediately",
+        "interactive",
         "leave",
         "not",
         "onto",
@@ -6674,37 +6892,41 @@
         "tooltip",
         "transitions",
         "trigger",
-        "unknown",
         "with",
         "without",
         "wrap"
       ],
       "useWhen": "A hover/focus tooltip that fades + scales in with a short appear-delay but disappears immediately on leave. Pure CSS — the wrap (not the trigger) is the hover target so the pointer can drift onto the tooltip without flicker. Source: transitions.dev — React tab.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + CSS transitions (Tailwind v4 for layout)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
+        "README.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/tooltip.css",
+        "src/tooltip.tsx",
         "styles.css"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/transitions/tooltip",
         "reference": "ui/animation/transitions/tooltip/reference.tsx",
-        "readme": null,
+        "readme": "ui/animation/transitions/tooltip/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/animation/transitions/tooltip/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/animation/transitions/tooltip/src"
       }
     },
     {
@@ -6748,13 +6970,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/twin-galaxy-rings.tsx",
         "upstream/demo.tsx",
         "upstream/twin-galaxy-rings.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/animation/twin-galaxy-rings",
         "reference": "ui/animation/twin-galaxy-rings/reference.tsx",
@@ -6763,7 +6987,7 @@
         "prompt": null,
         "preview": "ui/animation/twin-galaxy-rings/preview.png",
         "upstream": "ui/animation/twin-galaxy-rings/upstream",
-        "src": null
+        "src": "ui/animation/twin-galaxy-rings/src"
       }
     },
     {
@@ -6803,13 +7027,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/load-more.tsx",
         "upstream/demo.tsx",
         "upstream/load-more.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/async/load-more",
         "reference": "ui/async/load-more/reference.tsx",
@@ -6818,7 +7044,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/async/load-more/upstream",
-        "src": null
+        "src": "ui/async/load-more/src"
       }
     },
     {
@@ -6854,13 +7080,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/progress-bar.tsx",
         "upstream/demo.tsx",
         "upstream/progress-bar.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/async/progress-bar",
         "reference": "ui/async/progress-bar/reference.tsx",
@@ -6869,7 +7097,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/async/progress-bar/upstream",
-        "src": null
+        "src": "ui/async/progress-bar/src"
       }
     },
     {
@@ -6906,13 +7134,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/skeleton-swap.tsx",
         "upstream/demo.tsx",
         "upstream/skeleton-swap.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/async/skeleton-swap",
         "reference": "ui/async/skeleton-swap/reference.tsx",
@@ -6921,7 +7151,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/async/skeleton-swap/upstream",
-        "src": null
+        "src": "ui/async/skeleton-swap/src"
       }
     },
     {
@@ -6956,13 +7186,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/streaming-text.tsx",
         "upstream/demo.tsx",
         "upstream/streaming-text.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/async/streaming-text",
         "reference": "ui/async/streaming-text/reference.tsx",
@@ -6971,7 +7203,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/async/streaming-text/upstream",
-        "src": null
+        "src": "ui/async/streaming-text/src"
       }
     },
     {
@@ -7008,13 +7240,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/task-steps.tsx",
         "upstream/demo.tsx",
         "upstream/task-steps.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/async/task-steps",
         "reference": "ui/async/task-steps/reference.tsx",
@@ -7023,7 +7257,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/async/task-steps/upstream",
-        "src": null
+        "src": "ui/async/task-steps/src"
       }
     },
     {
@@ -7031,7 +7265,7 @@
       "title": "Code Block",
       "category": "code",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -7045,39 +7279,44 @@
         "controls",
         "copy",
         "filename",
+        "interactive",
         "language",
         "line",
         "should",
         "stream",
-        "unknown",
         "with",
         "written"
       ],
       "useWhen": "agent-written code should stream line by line with filename, language, and copy controls.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/code-block.css",
+        "src/code-block.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/code/code-block",
         "reference": "ui/code/code-block/reference.tsx",
-        "readme": null,
+        "readme": "ui/code/code-block/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/code/code-block/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/code/code-block/src"
       }
     },
     {
@@ -10154,13 +10393,16 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/blur-up-image.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
         "upstream/blur-up-image.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/content/blur-up-image",
         "reference": "ui/content/blur-up-image/reference.tsx",
@@ -10169,7 +10411,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/content/blur-up-image/upstream",
-        "src": null
+        "src": "ui/content/blur-up-image/src"
       }
     },
     {
@@ -10272,13 +10514,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/logo-marquee.tsx",
         "upstream/demo.tsx",
         "upstream/logo-marquee.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/content/logo-marquee",
         "reference": "ui/content/logo-marquee/reference.tsx",
@@ -10287,7 +10531,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/content/logo-marquee/upstream",
-        "src": null
+        "src": "ui/content/logo-marquee/src"
       }
     },
     {
@@ -10954,13 +11198,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/show-more.tsx",
         "upstream/demo.tsx",
         "upstream/show-more.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/content/show-more",
         "reference": "ui/content/show-more/reference.tsx",
@@ -10969,7 +11215,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/content/show-more/upstream",
-        "src": null
+        "src": "ui/content/show-more/src"
       }
     },
     {
@@ -11006,13 +11252,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/text-reveal.tsx",
         "upstream/demo.tsx",
         "upstream/text-reveal.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/content/text-reveal",
         "reference": "ui/content/text-reveal/reference.tsx",
@@ -11021,7 +11269,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/content/text-reveal/upstream",
-        "src": null
+        "src": "ui/content/text-reveal/src"
       }
     },
     {
@@ -13424,7 +13672,7 @@
       "title": "Diff Table",
       "category": "data-display",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure"
       ],
@@ -13439,40 +13687,44 @@
         "diff",
         "display",
         "edits",
+        "interactive",
         "need",
         "proposed",
         "review",
         "rows",
         "state",
         "table",
-        "tabular",
-        "unknown"
+        "tabular"
       ],
       "useWhen": "AI-proposed edits to tabular data need clear before-and-after rows and an animated review state.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/diff-table.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-display/diff-table",
         "reference": "ui/data-display/diff-table/reference.tsx",
-        "readme": null,
+        "readme": "ui/data-display/diff-table/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/data-display/diff-table/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/data-display/diff-table/src"
       }
     },
     {
@@ -13480,7 +13732,7 @@
       "title": "Filter Table",
       "category": "data-display",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure"
       ],
@@ -13492,6 +13744,7 @@
         "data",
         "display",
         "filter",
+        "interactive",
         "losing",
         "reorganize",
         "row",
@@ -13499,34 +13752,37 @@
         "status",
         "table",
         "task",
-        "unknown",
         "without"
       ],
       "useWhen": "status filter chips should reorganize a compact task table without losing row context.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/filter-table.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-display/filter-table",
         "reference": "ui/data-display/filter-table/reference.tsx",
-        "readme": null,
+        "readme": "ui/data-display/filter-table/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/data-display/filter-table/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/data-display/filter-table/src"
       }
     },
     {
@@ -13534,7 +13790,7 @@
       "title": "Records Table",
       "category": "data-display",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "functional",
       "roles": [
         "structure"
       ],
@@ -13547,6 +13803,7 @@
         "dense",
         "display",
         "first",
+        "functional",
         "links",
         "needs",
         "records",
@@ -13556,34 +13813,37 @@
         "status",
         "sticky",
         "table",
-        "tags",
-        "unknown"
+        "tags"
       ],
       "useWhen": "a dense CRM table needs tags, sorting, selection, relationship status, links, and a sticky first column.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/records-table.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data-display/records-table",
         "reference": "ui/data-display/records-table/reference.tsx",
-        "readme": null,
+        "readme": "ui/data-display/records-table/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/data-display/records-table/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/data-display/records-table/src"
       }
     },
     {
@@ -19851,13 +20111,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/filter-grid.tsx",
         "upstream/demo.tsx",
         "upstream/filter-grid.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data/filter-grid",
         "reference": "ui/data/filter-grid/reference.tsx",
@@ -19866,7 +20128,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/data/filter-grid/upstream",
-        "src": null
+        "src": "ui/data/filter-grid/src"
       }
     },
     {
@@ -19903,13 +20165,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/poll-results.tsx",
         "upstream/demo.tsx",
         "upstream/poll-results.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data/poll-results",
         "reference": "ui/data/poll-results/reference.tsx",
@@ -19918,7 +20182,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/data/poll-results/upstream",
-        "src": null
+        "src": "ui/data/poll-results/src"
       }
     },
     {
@@ -19956,13 +20220,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/sortable-table.tsx",
         "upstream/demo.tsx",
         "upstream/sortable-table.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data/sortable-table",
         "reference": "ui/data/sortable-table/reference.tsx",
@@ -19971,7 +20237,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/data/sortable-table/upstream",
-        "src": null
+        "src": "ui/data/sortable-table/src"
       }
     },
     {
@@ -20008,13 +20274,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/value-flash.tsx",
         "upstream/demo.tsx",
         "upstream/value-flash.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/data/value-flash",
         "reference": "ui/data/value-flash/reference.tsx",
@@ -20023,7 +20291,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/data/value-flash/upstream",
-        "src": null
+        "src": "ui/data/value-flash/src"
       }
     },
     {
@@ -20072,6 +20340,13 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/figma-frame.tsx",
+        "src/lib/utils.ts",
+        "src/parse.ts",
+        "src/types.ts",
+        "src/vector-editor.css",
+        "src/vector-editor.tsx",
         "upstream/svg-editor/standalone/FigmaFrame.tsx",
         "upstream/svg-editor/standalone/VectorEditor.tsx",
         "upstream/svg-editor/standalone/parse.ts",
@@ -20080,7 +20355,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/editor/vector-editor",
         "reference": "ui/editor/vector-editor/reference.tsx",
@@ -20089,7 +20364,7 @@
         "prompt": "ui/editor/vector-editor/PROMPT.md",
         "preview": null,
         "upstream": "ui/editor/vector-editor/upstream",
-        "src": null
+        "src": "ui/editor/vector-editor/src"
       }
     },
     {
@@ -20196,6 +20471,18 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/ascii-swirl.tsx",
+        "src/block-font.ts",
+        "src/color.ts",
+        "src/crt-pass.ts",
+        "src/default-text.ts",
+        "src/demo.tsx",
+        "src/figlet-fonts.ts",
+        "src/glyph-atlas.ts",
+        "src/renderer.ts",
+        "src/trail-field.ts",
+        "src/use-swirl-stage.ts",
+        "src/vortex-field.ts",
         "upstream/swirl/block-font.ts",
         "upstream/swirl/color.ts",
         "upstream/swirl/controls.tsx",
@@ -20215,7 +20502,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/ascii-swirl",
         "reference": "ui/effects/ascii-swirl/reference.tsx",
@@ -20224,7 +20511,7 @@
         "prompt": "ui/effects/ascii-swirl/PROMPT.md",
         "preview": "ui/effects/ascii-swirl/preview.png",
         "upstream": "ui/effects/ascii-swirl/upstream",
-        "src": null
+        "src": "ui/effects/ascii-swirl/src"
       }
     },
     {
@@ -21392,6 +21679,11 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/chroma-glow.tsx",
+        "src/demo.tsx",
+        "src/engine.ts",
+        "src/shaders.ts",
+        "src/text-mask.ts",
         "upstream/chroma/engine.ts",
         "upstream/chroma/params.ts",
         "upstream/chroma/playground.tsx",
@@ -21401,7 +21693,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/chroma-glow",
         "reference": "ui/effects/chroma-glow/reference.tsx",
@@ -21410,7 +21702,7 @@
         "prompt": "ui/effects/chroma-glow/PROMPT.md",
         "preview": null,
         "upstream": "ui/effects/chroma-glow/upstream",
-        "src": null
+        "src": "ui/effects/chroma-glow/src"
       }
     },
     {
@@ -21455,6 +21747,12 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/dia-gradient.tsx",
+        "src/dodge-gradient.tsx",
+        "src/lib/utils.ts",
+        "src/palette.ts",
+        "src/peaked-gradient.tsx",
         "upstream/dia-gradient/standalone/DiaGradient.tsx",
         "upstream/dia-gradient/standalone/DodgeGradient.tsx",
         "upstream/dia-gradient/standalone/PeakedGradient.tsx"
@@ -21462,7 +21760,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/dia-gradient",
         "reference": "ui/effects/dia-gradient/reference.tsx",
@@ -21471,7 +21769,7 @@
         "prompt": "ui/effects/dia-gradient/PROMPT.md",
         "preview": "ui/effects/dia-gradient/preview.png",
         "upstream": "ui/effects/dia-gradient/upstream",
-        "src": null
+        "src": "ui/effects/dia-gradient/src"
       }
     },
     {
@@ -21645,6 +21943,11 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/engine.ts",
+        "src/liquid-group.tsx",
+        "src/marching-squares.ts",
+        "src/sdf.ts",
         "upstream/liquid/LiquidCard.tsx",
         "upstream/liquid/LiquidGroup.tsx",
         "upstream/liquid/engine.ts",
@@ -21656,7 +21959,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/liquid-ui",
         "reference": "ui/effects/liquid-ui/reference.tsx",
@@ -21665,7 +21968,7 @@
         "prompt": "ui/effects/liquid-ui/PROMPT.md",
         "preview": null,
         "upstream": "ui/effects/liquid-ui/upstream",
-        "src": null
+        "src": "ui/effects/liquid-ui/src"
       }
     },
     {
@@ -21711,6 +22014,10 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/brushes.ts",
+        "src/demo.tsx",
+        "src/engine.ts",
+        "src/pixel-brush-sheet.tsx",
         "upstream/pixel-brush/PixelBrushCard.tsx",
         "upstream/pixel-brush/brushes.ts",
         "upstream/pixel-brush/engine.ts"
@@ -21718,7 +22025,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/pixel-brushes",
         "reference": "ui/effects/pixel-brushes/reference.tsx",
@@ -21727,7 +22034,7 @@
         "prompt": "ui/effects/pixel-brushes/PROMPT.md",
         "preview": null,
         "upstream": "ui/effects/pixel-brushes/upstream",
-        "src": null
+        "src": "ui/effects/pixel-brushes/src"
       }
     },
     {
@@ -21856,6 +22163,11 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/engine.ts",
+        "src/shaders.ts",
+        "src/smear-fade.tsx",
+        "src/text-mask.ts",
         "upstream/smear/SmearCard.tsx",
         "upstream/smear/engine.ts",
         "upstream/smear/shaders.ts",
@@ -21864,7 +22176,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/smear-fade",
         "reference": "ui/effects/smear-fade/reference.tsx",
@@ -21873,7 +22185,7 @@
         "prompt": "ui/effects/smear-fade/PROMPT.md",
         "preview": null,
         "upstream": "ui/effects/smear-fade/upstream",
-        "src": null
+        "src": "ui/effects/smear-fade/src"
       }
     },
     {
@@ -21919,6 +22231,11 @@
         "README.md",
         "SOURCE.md",
         "reference.md",
+        "src/demo.tsx",
+        "src/glyphs.ts",
+        "src/shaders.ts",
+        "src/symbols-canvas.tsx",
+        "src/symbols-effect.ts",
         "upstream/sandbox/glyphs.ts",
         "upstream/sandbox/shaders.ts",
         "upstream/sandbox/standalone/SymbolsEffect.ts"
@@ -21926,7 +22243,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/effects/symbols-effect",
         "reference": "ui/effects/symbols-effect/reference.md",
@@ -21935,7 +22252,7 @@
         "prompt": "ui/effects/symbols-effect/PROMPT.md",
         "preview": null,
         "upstream": "ui/effects/symbols-effect/upstream",
-        "src": null
+        "src": "ui/effects/symbols-effect/src"
       }
     },
     {
@@ -21980,6 +22297,21 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-avatar-group.css",
+        "src/gooey-avatar-group.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/assets/drag-me-arrow.svg",
         "upstream/demo.tsx",
         "upstream/types.ts"
@@ -21987,7 +22319,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/gooey-avatar-group",
         "reference": "ui/gesture/gooey-avatar-group/reference.tsx",
@@ -21996,7 +22328,7 @@
         "prompt": null,
         "preview": "ui/gesture/gooey-avatar-group/preview.png",
         "upstream": "ui/gesture/gooey-avatar-group/upstream",
-        "src": null
+        "src": "ui/gesture/gooey-avatar-group/src"
       }
     },
     {
@@ -22039,13 +22371,27 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-liquid-slider.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/demo.tsx",
         "upstream/types.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/gooey-liquid-slider",
         "reference": "ui/gesture/gooey-liquid-slider/reference.tsx",
@@ -22054,7 +22400,7 @@
         "prompt": null,
         "preview": "ui/gesture/gooey-liquid-slider/preview.png",
         "upstream": "ui/gesture/gooey-liquid-slider/upstream",
-        "src": null
+        "src": "ui/gesture/gooey-liquid-slider/src"
       }
     },
     {
@@ -22099,13 +22445,27 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-melting-cards.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/demo.tsx",
         "upstream/types.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/gooey-melting-cards",
         "reference": "ui/gesture/gooey-melting-cards/reference.tsx",
@@ -22114,7 +22474,7 @@
         "prompt": null,
         "preview": "ui/gesture/gooey-melting-cards/preview.png",
         "upstream": "ui/gesture/gooey-melting-cards/upstream",
-        "src": null
+        "src": "ui/gesture/gooey-melting-cards/src"
       }
     },
     {
@@ -22156,13 +22516,16 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/interactive-grid.css",
+        "src/interactive-grid.tsx",
         "upstream/demo.tsx",
         "upstream/interactive-grid.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/interactive-grid",
         "reference": "ui/gesture/interactive-grid/reference.tsx",
@@ -22171,7 +22534,7 @@
         "prompt": null,
         "preview": "ui/gesture/interactive-grid/preview.png",
         "upstream": "ui/gesture/interactive-grid/upstream",
-        "src": null
+        "src": "ui/gesture/interactive-grid/src"
       }
     },
     {
@@ -22207,13 +22570,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lightbox.tsx",
         "upstream/demo.tsx",
         "upstream/lightbox.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/lightbox",
         "reference": "ui/gesture/lightbox/reference.tsx",
@@ -22222,7 +22587,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/gesture/lightbox/upstream",
-        "src": null
+        "src": "ui/gesture/lightbox/src"
       }
     },
     {
@@ -22261,13 +22626,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/long-press.tsx",
         "upstream/demo.tsx",
         "upstream/long-press.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/long-press",
         "reference": "ui/gesture/long-press/reference.tsx",
@@ -22276,7 +22643,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/gesture/long-press/upstream",
-        "src": null
+        "src": "ui/gesture/long-press/src"
       }
     },
     {
@@ -22314,13 +22681,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/reorder-list.tsx",
         "upstream/demo.tsx",
         "upstream/reorder-list.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/reorder-list",
         "reference": "ui/gesture/reorder-list/reference.tsx",
@@ -22329,7 +22698,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/gesture/reorder-list/upstream",
-        "src": null
+        "src": "ui/gesture/reorder-list/src"
       }
     },
     {
@@ -22365,13 +22734,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/slider-detents.tsx",
         "upstream/demo.tsx",
         "upstream/slider-detents.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/slider-detents",
         "reference": "ui/gesture/slider-detents/reference.tsx",
@@ -22380,7 +22751,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/gesture/slider-detents/upstream",
-        "src": null
+        "src": "ui/gesture/slider-detents/src"
       }
     },
     {
@@ -22416,13 +22787,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/swipe-deck.tsx",
         "upstream/demo.tsx",
         "upstream/swipe-deck.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/gesture/swipe-deck",
         "reference": "ui/gesture/swipe-deck/reference.tsx",
@@ -22431,7 +22804,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/gesture/swipe-deck/upstream",
-        "src": null
+        "src": "ui/gesture/swipe-deck/src"
       }
     },
     {
@@ -257818,13 +258191,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/expanding-search.tsx",
         "upstream/demo.tsx",
         "upstream/expanding-search.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/expanding-search",
         "reference": "ui/input/expanding-search/reference.tsx",
@@ -257833,7 +258208,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/expanding-search/upstream",
-        "src": null
+        "src": "ui/input/expanding-search/src"
       }
     },
     {
@@ -257871,13 +258246,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/floating-label.tsx",
         "upstream/demo.tsx",
         "upstream/floating-label.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/floating-label",
         "reference": "ui/input/floating-label/reference.tsx",
@@ -257886,7 +258263,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/floating-label/upstream",
-        "src": null
+        "src": "ui/input/floating-label/src"
       }
     },
     {
@@ -257930,13 +258307,28 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-email-input.css",
+        "src/gooey-email-input.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/demo.tsx",
         "upstream/types.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/gooey-email-input",
         "reference": "ui/input/gooey-email-input/reference.tsx",
@@ -257945,7 +258337,7 @@
         "prompt": null,
         "preview": "ui/input/gooey-email-input/preview.png",
         "upstream": "ui/input/gooey-email-input/upstream",
-        "src": null
+        "src": "ui/input/gooey-email-input/src"
       }
     },
     {
@@ -257986,13 +258378,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/inline-validation.tsx",
         "upstream/demo.tsx",
         "upstream/inline-validation.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/inline-validation",
         "reference": "ui/input/inline-validation/reference.tsx",
@@ -258001,7 +258395,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/inline-validation/upstream",
-        "src": null
+        "src": "ui/input/inline-validation/src"
       }
     },
     {
@@ -258038,13 +258432,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/otp-input.tsx",
         "upstream/demo.tsx",
         "upstream/otp-input.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/otp-input",
         "reference": "ui/input/otp-input/reference.tsx",
@@ -258053,7 +258449,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/otp-input/upstream",
-        "src": null
+        "src": "ui/input/otp-input/src"
       }
     },
     {
@@ -258088,13 +258484,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/password-strength.tsx",
         "upstream/demo.tsx",
         "upstream/password-strength.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/password-strength",
         "reference": "ui/input/password-strength/reference.tsx",
@@ -258103,7 +258501,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/password-strength/upstream",
-        "src": null
+        "src": "ui/input/password-strength/src"
       }
     },
     {
@@ -259763,13 +260161,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/tag-input.tsx",
         "upstream/demo.tsx",
         "upstream/tag-input.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/input/tag-input",
         "reference": "ui/input/tag-input/reference.tsx",
@@ -259778,7 +260178,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/input/tag-input/upstream",
-        "src": null
+        "src": "ui/input/tag-input/src"
       }
     },
     {
@@ -259786,7 +260186,7 @@
       "title": "Insight Cards",
       "category": "insights",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure"
       ],
@@ -259803,37 +260203,42 @@
         "follow",
         "insight",
         "insights",
+        "interactive",
         "narrative",
         "need",
         "paged",
-        "scrub",
-        "unknown"
+        "scrub"
       ],
       "useWhen": "paged agent insights need compact charts, scrub details, narrative context, and follow-up actions.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4 (upstream: + liveline charts)",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/insight-cards.tsx",
+        "src/lib/utils.ts",
+        "src/snapshot-chart.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/insights/insight-cards",
         "reference": "ui/insights/insight-cards/reference.tsx",
-        "readme": null,
+        "readme": "ui/insights/insight-cards/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/insights/insight-cards/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/insights/insight-cards/src"
       }
     },
     {
@@ -259841,7 +260246,7 @@
       "title": "Fine Tune Card",
       "category": "inspector",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure"
       ],
@@ -259853,40 +260258,45 @@
         "compact",
         "fine",
         "inspector",
+        "interactive",
         "layout",
         "numeric",
         "opacity",
         "properties",
         "radius",
         "tune",
-        "type",
-        "unknown"
+        "type"
       ],
       "useWhen": "an agent adjusts layout, numeric, opacity, radius, or type properties in a compact inspector.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/fine-tune-card.css",
+        "src/fine-tune-card.tsx",
+        "src/lib/utils.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/inspector/fine-tune-card",
         "reference": "ui/inspector/fine-tune-card/reference.tsx",
-        "readme": null,
+        "readme": "ui/inspector/fine-tune-card/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/inspector/fine-tune-card/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/inspector/fine-tune-card/src"
       }
     },
     {
@@ -262013,13 +262423,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/accordion.tsx",
+        "src/demo.tsx",
         "upstream/accordion.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/accordion",
         "reference": "ui/navigation/accordion/reference.tsx",
@@ -262028,7 +262440,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/accordion/upstream",
-        "src": null
+        "src": "ui/navigation/accordion/src"
       }
     },
     {
@@ -263996,13 +264408,28 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-plus-menu.css",
+        "src/gooey-plus-menu.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/demo.tsx",
         "upstream/types.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/gooey-plus-menu",
         "reference": "ui/navigation/gooey-plus-menu/reference.tsx",
@@ -264011,7 +264438,7 @@
         "prompt": null,
         "preview": "ui/navigation/gooey-plus-menu/preview.png",
         "upstream": "ui/navigation/gooey-plus-menu/upstream",
-        "src": null
+        "src": "ui/navigation/gooey-plus-menu/src"
       }
     },
     {
@@ -264055,13 +264482,27 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/gooey-tabs.tsx",
+        "src/lib/utils.ts",
+        "src/liquid-gooey/Gooey.tsx",
+        "src/liquid-gooey/GooeyItem.tsx",
+        "src/liquid-gooey/LiquidItem.tsx",
+        "src/liquid-gooey/context.ts",
+        "src/liquid-gooey/filter.tsx",
+        "src/liquid-gooey/geometry.ts",
+        "src/liquid-gooey/hooks.ts",
+        "src/liquid-gooey/index.ts",
+        "src/liquid-gooey/observer.ts",
+        "src/liquid-gooey/shadow.ts",
+        "src/liquid-gooey/spring.ts",
         "upstream/demo.tsx",
         "upstream/types.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/gooey-tabs",
         "reference": "ui/navigation/gooey-tabs/reference.tsx",
@@ -264070,7 +264511,7 @@
         "prompt": null,
         "preview": "ui/navigation/gooey-tabs/preview.png",
         "upstream": "ui/navigation/gooey-tabs/upstream",
-        "src": null
+        "src": "ui/navigation/gooey-tabs/src"
       }
     },
     {
@@ -264108,13 +264549,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/pagination.tsx",
         "upstream/demo.tsx",
         "upstream/pagination.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/pagination",
         "reference": "ui/navigation/pagination/reference.tsx",
@@ -264123,7 +264566,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/pagination/upstream",
-        "src": null
+        "src": "ui/navigation/pagination/src"
       }
     },
     {
@@ -264161,13 +264604,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/segmented-control.tsx",
         "upstream/demo.tsx",
         "upstream/segmented-control.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/segmented-control",
         "reference": "ui/navigation/segmented-control/reference.tsx",
@@ -264176,7 +264621,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/segmented-control/upstream",
-        "src": null
+        "src": "ui/navigation/segmented-control/src"
       }
     },
     {
@@ -264800,7 +265245,7 @@
       "title": "Sidebar Nav",
       "category": "navigation",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -264812,6 +265257,7 @@
         "and",
         "counts",
         "grouped",
+        "interactive",
         "links",
         "nav",
         "navigation",
@@ -264821,34 +265267,38 @@
         "search",
         "sidebar",
         "state",
-        "unknown",
         "workspace"
       ],
       "useWhen": "workspace navigation needs quick search, primary actions, grouped links, counts, and active state.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/sidebar-nav.css",
+        "src/sidebar-nav.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/sidebar-nav",
         "reference": "ui/navigation/sidebar-nav/reference.tsx",
-        "readme": null,
+        "readme": "ui/navigation/sidebar-nav/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/navigation/sidebar-nav/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/navigation/sidebar-nav/src"
       }
     },
     {
@@ -264884,13 +265334,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/tabs.tsx",
         "upstream/demo.tsx",
         "upstream/tabs.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/tabs",
         "reference": "ui/navigation/tabs/reference.tsx",
@@ -264899,7 +265351,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/tabs/upstream",
-        "src": null
+        "src": "ui/navigation/tabs/src"
       }
     },
     {
@@ -264938,13 +265390,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/tree-view.tsx",
         "upstream/demo.tsx",
         "upstream/tree-view.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/tree-view",
         "reference": "ui/navigation/tree-view/reference.tsx",
@@ -264953,7 +265407,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/tree-view/upstream",
-        "src": null
+        "src": "ui/navigation/tree-view/src"
       }
     },
     {
@@ -264991,13 +265445,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/wizard-steps.tsx",
         "upstream/demo.tsx",
         "upstream/wizard-steps.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/navigation/wizard-steps",
         "reference": "ui/navigation/wizard-steps/reference.tsx",
@@ -265006,7 +265462,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/navigation/wizard-steps/upstream",
-        "src": null
+        "src": "ui/navigation/wizard-steps/src"
       }
     },
     {
@@ -265735,13 +266191,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/collapsible-banner.tsx",
+        "src/demo.tsx",
         "upstream/collapsible-banner.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/notification/collapsible-banner",
         "reference": "ui/notification/collapsible-banner/reference.tsx",
@@ -265750,7 +266208,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/notification/collapsible-banner/upstream",
-        "src": null
+        "src": "ui/notification/collapsible-banner/src"
       }
     },
     {
@@ -265790,13 +266248,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/live-activity.tsx",
         "upstream/demo.tsx",
         "upstream/live-activity.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/notification/live-activity",
         "reference": "ui/notification/live-activity/reference.tsx",
@@ -265805,7 +266265,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/notification/live-activity/upstream",
-        "src": null
+        "src": "ui/notification/live-activity/src"
       }
     },
     {
@@ -265844,13 +266304,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/new-items-pill.tsx",
         "upstream/demo.tsx",
         "upstream/new-items-pill.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/notification/new-items-pill",
         "reference": "ui/notification/new-items-pill/reference.tsx",
@@ -265859,7 +266321,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/notification/new-items-pill/upstream",
-        "src": null
+        "src": "ui/notification/new-items-pill/src"
       }
     },
     {
@@ -265897,13 +266359,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/presence-avatars.tsx",
         "upstream/demo.tsx",
         "upstream/presence-avatars.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/notification/presence-avatars",
         "reference": "ui/notification/presence-avatars/reference.tsx",
@@ -265912,7 +266376,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/notification/presence-avatars/upstream",
-        "src": null
+        "src": "ui/notification/presence-avatars/src"
       }
     },
     {
@@ -266376,13 +266840,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/typing-indicator.tsx",
         "upstream/demo.tsx",
         "upstream/typing-indicator.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/notification/typing-indicator",
         "reference": "ui/notification/typing-indicator/reference.tsx",
@@ -266391,7 +266857,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/notification/typing-indicator/upstream",
-        "src": null
+        "src": "ui/notification/typing-indicator/src"
       }
     },
     {
@@ -267686,13 +268152,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/command-palette.tsx",
+        "src/demo.tsx",
         "upstream/command-palette.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/command-palette",
         "reference": "ui/overlay/command-palette/reference.tsx",
@@ -267701,7 +268169,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/command-palette/upstream",
-        "src": null
+        "src": "ui/overlay/command-palette/src"
       }
     },
     {
@@ -267740,13 +268208,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/context-menu.tsx",
+        "src/demo.tsx",
         "upstream/context-menu.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/context-menu",
         "reference": "ui/overlay/context-menu/reference.tsx",
@@ -267755,7 +268225,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/context-menu/upstream",
-        "src": null
+        "src": "ui/overlay/context-menu/src"
       }
     },
     {
@@ -267793,13 +268263,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/drawer.tsx",
         "upstream/demo.tsx",
         "upstream/drawer.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/drawer",
         "reference": "ui/overlay/drawer/reference.tsx",
@@ -267808,7 +268280,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/drawer/upstream",
-        "src": null
+        "src": "ui/overlay/drawer/src"
       }
     },
     {
@@ -267845,13 +268317,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/dropdown.tsx",
         "upstream/demo.tsx",
         "upstream/dropdown.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/dropdown",
         "reference": "ui/overlay/dropdown/reference.tsx",
@@ -267860,7 +268334,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/dropdown/upstream",
-        "src": null
+        "src": "ui/overlay/dropdown/src"
       }
     },
     {
@@ -267897,13 +268371,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/modal.tsx",
         "upstream/demo.tsx",
         "upstream/modal.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/modal",
         "reference": "ui/overlay/modal/reference.tsx",
@@ -267912,7 +268388,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/modal/upstream",
-        "src": null
+        "src": "ui/overlay/modal/src"
       }
     },
     {
@@ -267949,13 +268425,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/popover.tsx",
         "upstream/demo.tsx",
         "upstream/popover.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/popover",
         "reference": "ui/overlay/popover/reference.tsx",
@@ -267964,7 +268442,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/popover/upstream",
-        "src": null
+        "src": "ui/overlay/popover/src"
       }
     },
     {
@@ -268743,13 +269221,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/tooltip-group.tsx",
         "upstream/demo.tsx",
         "upstream/tooltip-group.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/overlay/tooltip-group",
         "reference": "ui/overlay/tooltip-group/reference.tsx",
@@ -268758,7 +269238,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/overlay/tooltip-group/upstream",
-        "src": null
+        "src": "ui/overlay/tooltip-group/src"
       }
     },
     {
@@ -275187,13 +275667,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/coverflow-gallery.tsx",
+        "src/demo.tsx",
         "upstream/coverflow-gallery.tsx",
         "upstream/demo.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/coverflow-gallery",
         "reference": "ui/scroll/coverflow-gallery/reference.tsx",
@@ -275202,7 +275684,7 @@
         "prompt": null,
         "preview": "ui/scroll/coverflow-gallery/preview.png",
         "upstream": "ui/scroll/coverflow-gallery/upstream",
-        "src": null
+        "src": "ui/scroll/coverflow-gallery/src"
       }
     },
     {
@@ -275237,13 +275719,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/hide-on-scroll.tsx",
         "upstream/demo.tsx",
         "upstream/hide-on-scroll.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/hide-on-scroll",
         "reference": "ui/scroll/hide-on-scroll/reference.tsx",
@@ -275252,7 +275736,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/scroll/hide-on-scroll/upstream",
-        "src": null
+        "src": "ui/scroll/hide-on-scroll/src"
       }
     },
     {
@@ -275287,13 +275771,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/reading-progress.tsx",
         "upstream/demo.tsx",
         "upstream/reading-progress.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/reading-progress",
         "reference": "ui/scroll/reading-progress/reference.tsx",
@@ -275302,7 +275788,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/scroll/reading-progress/upstream",
-        "src": null
+        "src": "ui/scroll/reading-progress/src"
       }
     },
     {
@@ -275338,13 +275824,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/scroll-spy.tsx",
         "upstream/demo.tsx",
         "upstream/scroll-spy.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/scroll-spy",
         "reference": "ui/scroll/scroll-spy/reference.tsx",
@@ -275353,7 +275841,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/scroll/scroll-spy/upstream",
-        "src": null
+        "src": "ui/scroll/scroll-spy/src"
       }
     },
     {
@@ -275466,13 +275954,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/snap-carousel.tsx",
         "upstream/demo.tsx",
         "upstream/snap-carousel.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/snap-carousel",
         "reference": "ui/scroll/snap-carousel/reference.tsx",
@@ -275481,7 +275971,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/scroll/snap-carousel/upstream",
-        "src": null
+        "src": "ui/scroll/snap-carousel/src"
       }
     },
     {
@@ -275516,13 +276006,15 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/sticky-header.tsx",
         "upstream/demo.tsx",
         "upstream/sticky-header.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/scroll/sticky-header",
         "reference": "ui/scroll/sticky-header/reference.tsx",
@@ -275531,7 +276023,7 @@
         "prompt": null,
         "preview": null,
         "upstream": "ui/scroll/sticky-header/upstream",
-        "src": null
+        "src": "ui/scroll/sticky-header/src"
       }
     },
     {
@@ -275539,7 +276031,7 @@
       "title": "Search List",
       "category": "search",
       "source": "standalone",
-      "nature": "unknown",
+      "nature": "interactive",
       "roles": [
         "structure",
         "behavior"
@@ -275551,6 +276043,7 @@
         "empty",
         "filtering",
         "friendly",
+        "interactive",
         "keyboard",
         "list",
         "live",
@@ -275559,34 +276052,38 @@
         "results",
         "search",
         "state",
-        "suggested",
-        "unknown"
+        "suggested"
       ],
       "useWhen": "command search needs live filtering, suggested prompts, keyboard-friendly results, and an empty state.",
-      "medium": "unknown",
+      "medium": "React + TypeScript + Tailwind CSS v4",
       "entryPoint": "reference.tsx",
       "status": "ok",
-      "evidence": "review",
+      "evidence": "verified",
       "availability": "public",
       "variants": [
         "default"
       ],
       "files": [
-        "reference.tsx"
+        "README.md",
+        "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/search-list.css",
+        "src/search-list.tsx"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/search/search-list",
         "reference": "ui/search/search-list/reference.tsx",
-        "readme": null,
+        "readme": "ui/search/search-list/README.md",
         "source": null,
         "prompt": null,
         "preview": "ui/search/search-list/preview.png",
         "upstream": null,
-        "src": null
+        "src": "ui/search/search-list/src"
       }
     },
     {
@@ -276145,6 +276642,10 @@
         "README.md",
         "SOURCE.md",
         "reference.md",
+        "src/color-depth.css",
+        "src/demo.tsx",
+        "src/depth-button.tsx",
+        "src/lib/utils.ts",
         "upstream/color-depth/standalone/SKILL.md",
         "upstream/color-depth/standalone/color-depth.css",
         "upstream/color-depth/standalone/color-depth.html",
@@ -276153,7 +276654,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/surface/color-depth",
         "reference": "ui/surface/color-depth/reference.md",
@@ -276162,7 +276663,7 @@
         "prompt": "ui/surface/color-depth/PROMPT.md",
         "preview": null,
         "upstream": "ui/surface/color-depth/upstream",
-        "src": null
+        "src": "ui/surface/color-depth/src"
       }
     },
     {
@@ -276281,6 +276782,13 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/parts.tsx",
+        "src/squircle.css",
+        "src/squircle.tsx",
+        "src/superellipse.ts",
+        "src/tokens.ts",
         "upstream/squircle/Squircle.tsx",
         "upstream/squircle/parts.tsx",
         "upstream/squircle/playground.tsx",
@@ -276290,7 +276798,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/surface/squircle",
         "reference": "ui/surface/squircle/reference.tsx",
@@ -276299,7 +276807,7 @@
         "prompt": "ui/surface/squircle/PROMPT.md",
         "preview": null,
         "upstream": "ui/surface/squircle/upstream",
-        "src": null
+        "src": "ui/surface/squircle/src"
       }
     },
     {
@@ -277234,13 +277742,16 @@
         "README.md",
         "SOURCE.md",
         "reference.tsx",
+        "src/demo.tsx",
+        "src/engine.ts",
+        "src/kinetic-tiles.tsx",
         "upstream/kinetic-a/KineticACard.tsx",
         "upstream/kinetic-a/engine.ts"
       ],
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/typography/kinetic-tiles",
         "reference": "ui/typography/kinetic-tiles/reference.tsx",
@@ -277249,7 +277760,7 @@
         "prompt": "ui/typography/kinetic-tiles/PROMPT.md",
         "preview": null,
         "upstream": "ui/typography/kinetic-tiles/upstream",
-        "src": null
+        "src": "ui/typography/kinetic-tiles/src"
       }
     },
     {
@@ -277460,6 +277971,11 @@
         "README.md",
         "SOURCE.md",
         "reference.md",
+        "src/demo.tsx",
+        "src/lib/utils.ts",
+        "src/typer-engine.ts",
+        "src/typer.css",
+        "src/typer.tsx",
         "upstream/typer/standalone/typer.css",
         "upstream/typer/standalone/typer.html",
         "upstream/typer/standalone/typer.ts"
@@ -277467,7 +277983,7 @@
       "installation": {
         "method": "source"
       },
-      "copyPaste": false,
+      "copyPaste": true,
       "paths": {
         "directory": "ui/typography/typer",
         "reference": "ui/typography/typer/reference.md",
@@ -277476,7 +277992,7 @@
         "prompt": "ui/typography/typer/PROMPT.md",
         "preview": null,
         "upstream": "ui/typography/typer/upstream",
-        "src": null
+        "src": "ui/typography/typer/src"
       }
     },
     {

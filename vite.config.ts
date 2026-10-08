@@ -147,6 +147,8 @@ export default defineConfig({
     },
   },
   build: {
+    // Keep small ASCII captures local while staying within the Pages file limit.
+    assetsInlineLimit: (file, content) => file.includes("/ascii-rest") && content.length <= 16 * 1024 ? true : undefined,
     outDir: "dist",
     // The icon sets emit ~19.5k assets. Gzipping every one of them to print a
     // size table is the peak-memory step of the whole build (it OOMs on a 4 GB

@@ -33,4 +33,17 @@
 
 ## Snapshot boundary
 
-Piece source is retained per reference, with only its type import rewritten. `src/mount.ts`, `src/react.tsx`, `src/types.ts` and `src/index.ts` are unchanged. The library index includes only the requested pieces. The HTML and Astro adapters use local font paths; the Astro adapter points to captured TypeScript instead of package build output. `frame.tsx`, `frame.css` and the distro React wrappers are bank-only harnesses. Distro attribution notices remain intact. Every default demo runs offline after the bank is loaded.
+Piece source is retained per reference, with only its type import rewritten. `src/mount.ts`, `src/react.tsx`, `src/types.ts`, `src/index.ts` and `src/terminal.ts` are unchanged. `src/cli.ts` reads its captured version from `manifest.json`. The library index includes only the requested pieces. The HTML and Astro adapters use local font paths; the Astro adapter points to captured TypeScript instead of package build output. `frame.tsx`, `frame.css` and the distro React wrappers are bank-only harnesses. Distro attribution notices remain intact. Every default demo runs offline after the bank is loaded.
+
+## Terminal playback
+
+Run from the bank repository root on Aletheia; no install or upstream connection is needed:
+
+```sh
+node ui/_sources/ascii-rest/src/cli.ts list
+node ui/_sources/ascii-rest/src/cli.ts donut
+node ui/_sources/ascii-rest/src/cli.ts ubuntu
+node ui/_sources/ascii-rest/src/cli.ts night-coast
+```
+
+Any key stops playback. `--mono` uses the terminal's own ink; `--light` selects light-background shading; `--seconds` bounds playback. A pipe prints the first frame. Coloured square-cell scenes pair rows into Unicode half blocks with ANSI truecolor; a wide terminal shows the full scene. The piece list contains only the captured scope.

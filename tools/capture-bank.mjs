@@ -28,6 +28,7 @@ const ONLY = opt("--only");
 const WORKERS = Number(opt("--workers") ?? 4);
 // What differs per source: the harness's hooks and the stylesheet static HTML links.
 const SOURCES = {
+  "ascii-rest": { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/ascii-rest/frame.css", label: (m) => `ascii.rest ${m.commit.slice(0, 7)}` },
   astryx: { list: "__astryxExamples", frame: "data-astryx-frame", example: "data-astryx-example", error: "data-astryx-error", css: "_sources/astryx/frame.css", label: (m) => `Astryx ${m.version} (${m.commit.slice(0, 7)})` },
   shadcn: { list: "__bankExamples", frame: "data-bank-frame", example: "data-bank-example", error: "data-bank-error", css: "_sources/shadcn/styles.css", label: (m) => `shadcn/ui ${m.commit.slice(0, 7)}` },
   // Stylesheet per flavour (entry.css); emails are rendered by the importer, not captured.
@@ -77,6 +78,7 @@ async function openTab() {
   await cdp("Page.enable");
   await cdp("Runtime.enable");
   await cdp("Emulation.setDeviceMetricsOverride", { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false });
+  if (SOURCE === "ascii-rest") await cdp("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: "dark" }] });
   const evaluate = async (expression) => (await cdp("Runtime.evaluate", { expression, returnByValue: true, awaitPromise: true })).result.value;
   async function go(url, ready, timeout = 20000) {
     errors.length = 0;
@@ -231,7 +233,7 @@ if (args.includes("--previews")) {
     if (!url && entry.captured?.length) { url = `${BASE}/dashboard/preview.html?id=${encodeURIComponent(entry.id)}&example=${encodeURIComponent(entry.captured[0])}`; selector = "[data-bank-example] > *"; }
     const out = join(ROOT, "ui", entry.id, "preview.png");
     if (!url) { report.previewFailed.push({ id: entry.id, reason: "no upstream page" }); return; }
-    const ready = selector ? `!!document.querySelector('${selector}')?.children.length` : "document.readyState === 'complete'";
+    const ready = SOURCE === "ascii-rest" ? "!!document.querySelector('.well.big .art')" : selector ? `!!document.querySelector('${selector}')?.children.length` : "document.readyState === 'complete'";
     if (!(await tab.go(url, ready, 45000))) { report.previewFailed.push({ id: entry.id, reason: `timeout ${url}` }); return; }
     await delay(2500);
     // Component and hook docs: the first live example on the page; templates and themes: the page.
@@ -249,6 +251,7 @@ if (args.includes("--previews")) {
       const r = el.getBoundingClientRect();
       return r.width > 200 && r.height > 80 ? { x: r.x, y: r.top + scrollY, width: r.width, height: Math.min(r.height, 900), scale: 1 } : null;
     })()`) : null;
+    if (SOURCE === "ascii-rest" && !clip) throw new Error(`No original component found at ${url}`);
     const shot = await tab.cdp("Page.captureScreenshot", { format: "png", ...(clip ? { clip, captureBeyondViewport: true } : {}) });
     writeFileSync(out, Buffer.from(shot.data, "base64"));
     report.previews++;

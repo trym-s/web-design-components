@@ -69,6 +69,7 @@ function sourceOf(id, source, hasPrompt) {
   if (id.startsWith("animation/transitions/")) return "transitions.dev";
   if (hasPrompt) return "arlan-vault";
   if (source.includes("www.interior.dev")) return "interior.dev";
+  if (source.includes("github.com/bas3line/ascii")) return "ascii-rest";
   if (source.includes("github.com/facebook/astryx")) return "astryx";
   if (source.includes("github.com/shadcn-ui/ui")) return "shadcn";
   if (source.includes("github.com/better-auth-ui/better-auth-ui")) return "better-auth-ui";

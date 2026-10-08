@@ -1,0 +1,6 @@
+@font-face{font-family:"IBM Plex Mono";src:url("./fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url("./fonts/ibm-plex-mono-latin-500-normal.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:"ascii.rest mono";src:url("./fonts/ascii-rest-mono.woff2") format("woff2");unicode-range:U+00B0,U+00B7,U+2022,U+2500-259F,U+25CF;font-display:swap}
+.ascii-rest-frame{box-sizing:border-box;width:100%;max-width:960px;container-type:inline-size;display:grid;place-items:center;color:#c9cfd9;background:#131518}
+.ascii-rest-frame pre{margin:0;padding:0;border:0;font-family:"IBM Plex Mono","ascii.rest mono",ui-monospace,monospace;font-size:min(16px,calc(100cqw / var(--cols) / .6));line-height:1.2;letter-spacing:0;white-space:pre;font-variant-ligatures:none;overflow:visible}
+.ascii-rest-frame canvas{display:block;width:100%}

@@ -113,6 +113,7 @@ function fromCatalog(metadata: CatalogEntry): Entry {
     nature: metadata.nature,
     medium: metadata.medium,
     entryPoint: metadata.entryPoint,
+    preview: metadata.paths.preview ? previews[`/${metadata.paths.preview}`] : undefined,
     files: Object.keys(srcRaw)
       .filter((path) => path.startsWith(`${dir}/`))
       .sort()

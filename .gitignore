@@ -5,3 +5,4 @@
 **/dist-demo/
 **/.vite/
 .cache/icon-bank/
+.cache/ascii-rest*

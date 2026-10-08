@@ -20,6 +20,7 @@ const docPaths = import.meta.glob(["/ui/**/{README,SOURCE}.md", "!/ui/icons/**"]
 });
 
 const SOURCE_FRAMEWORK: Record<string, string> = {
+  "ascii-rest": "react",
   "line-md": "svg",
   movingicons: "svelte",
   "lucide-motion-vue": "vue",

@@ -1,0 +1,4619 @@
+{
+  "site": "https://ascii.rest",
+  "repository": "https://github.com/bas3line/ascii",
+  "commit": "813ea2a233b56cc1c67a00d1e65ded21845ed1cd",
+  "captured": "2026-10-08T14:00:32Z",
+  "count": 167,
+  "liveInventory": [
+    "almalinux",
+    "alpine-dawn",
+    "alpine-linux",
+    "analog-clock",
+    "apple",
+    "aquarium",
+    "arch-linux",
+    "aurora",
+    "aurora-fjord",
+    "bar-chart",
+    "big-text",
+    "black-hole",
+    "bonsai",
+    "boot-log",
+    "bouncing-balls",
+    "box-frames",
+    "butterfly",
+    "c",
+    "calendar",
+    "campfire",
+    "candle",
+    "candlesticks",
+    "cat",
+    "centos",
+    "cherry-blossom",
+    "chladni",
+    "clojure",
+    "cloudflare",
+    "coderabbit",
+    "coffee",
+    "command-code",
+    "contour-map",
+    "cpp",
+    "cpu-meters",
+    "csharp",
+    "css",
+    "cube",
+    "dart",
+    "databuddy",
+    "debian",
+    "deep-reef",
+    "deepin",
+    "desert-night",
+    "digital-clock",
+    "dissolve",
+    "dividers",
+    "dna-helix",
+    "donut",
+    "doom-fire",
+    "double-pendulum",
+    "earth",
+    "earthrise",
+    "eclipse",
+    "elementary-os",
+    "elixir",
+    "endeavouros",
+    "epicycles",
+    "equalizer",
+    "erlang",
+    "falling-sand",
+    "fedora",
+    "fern",
+    "ferris-wheel",
+    "file-tree",
+    "fireflies",
+    "fireworks",
+    "flag",
+    "flow-field",
+    "form-controls",
+    "fountain",
+    "fox",
+    "fractal-tree",
+    "galaxy",
+    "gauge",
+    "gentoo",
+    "glider-gun",
+    "glitch",
+    "glxgears",
+    "go",
+    "greptile",
+    "gyroscope",
+    "harmonograph",
+    "haskell",
+    "hawa-mahal",
+    "heart",
+    "heartbeat",
+    "heatmap",
+    "helium",
+    "hilbert-curve",
+    "hourglass",
+    "html",
+    "icosahedron",
+    "java",
+    "javascript",
+    "jellyfish",
+    "julia",
+    "julia-set",
+    "kali-linux",
+    "kite",
+    "kotlin",
+    "kyoto-dusk",
+    "landscape",
+    "langtons-ant",
+    "lantern-lake",
+    "lava-lamp",
+    "lighthouse",
+    "lightning",
+    "linux-mint",
+    "lorenz",
+    "lua",
+    "mandelbrot",
+    "manjaro",
+    "marine-drive",
+    "marquee",
+    "matrix-rain",
+    "maze",
+    "mintlify",
+    "misty-forest",
+    "mobius-strip",
+    "moon-phases",
+    "morse",
+    "newtons-cradle",
+    "night-coast",
+    "nixos",
+    "not-found",
+    "ocaml",
+    "ocean-sunset",
+    "omarchy",
+    "opensuse",
+    "orchid",
+    "owl",
+    "pendulum-wave",
+    "perl",
+    "php",
+    "planet",
+    "planetscale",
+    "plasma",
+    "playstation",
+    "plucked-string",
+    "polar",
+    "pond-ripples",
+    "pop-os",
+    "progress-bar",
+    "python",
+    "r",
+    "radar",
+    "rain",
+    "reaction-diffusion",
+    "red-hat",
+    "rocket",
+    "rocky-linux",
+    "rotozoomer",
+    "ruby",
+    "rule-30",
+    "ruled-mountains",
+    "rust",
+    "saptarishi",
+    "scala",
+    "scramble",
+    "sea-swell",
+    "sierpinski",
+    "skeleton",
+    "skyline",
+    "smoke",
+    "snake",
+    "snowfall",
+    "solar-system",
+    "sparkline",
+    "sparks",
+    "spider",
+    "spinners",
+    "split-flap",
+    "spring",
+    "starfield",
+    "starlings",
+    "storm-plains",
+    "sundial",
+    "sunrise",
+    "supabase",
+    "swift",
+    "synthwave",
+    "taj-dawn",
+    "terminal",
+    "tesseract",
+    "three-body",
+    "tokyo-rain",
+    "torus-knot",
+    "train",
+    "tunnel",
+    "tux",
+    "tv-static",
+    "twisted-ring",
+    "typescript",
+    "typewriter",
+    "ubuntu",
+    "uptime-bar",
+    "varanasi-ghats",
+    "vercel",
+    "vinyl",
+    "void-linux",
+    "voronoi",
+    "wave-interference",
+    "wave-text",
+    "whale",
+    "wind",
+    "windmill",
+    "zig",
+    "zorin-os"
+  ],
+  "entries": [
+    {
+      "slug": "almalinux",
+      "source": "src/pieces/almalinux.ts",
+      "name": "almalinux",
+      "category": "icons",
+      "note": "five coloured figures in a ring, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#ff4546",
+        "#0068d8",
+        "#85d82e",
+        "#ffc911",
+        "#22c1ff",
+        "#ff8687",
+        "#599de6",
+        "#b0e677",
+        "#ffdc64",
+        "#6fd7ff",
+        "#ffc7c8",
+        "#b3d2f3",
+        "#daf3c0",
+        "#ffefb8",
+        "#bdecff",
+        "#ff4546",
+        "#0068d8",
+        "#85d82e",
+        "#ffc911",
+        "#22c1ff",
+        "#ff8687",
+        "#599de6",
+        "#b0e677",
+        "#ffdc64",
+        "#6fd7ff",
+        "#ffc7c8",
+        "#b3d2f3",
+        "#daf3c0",
+        "#ffefb8",
+        "#bdecff"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/almalinux",
+      "page": "https://ascii.rest/almalinux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "alpine-dawn",
+      "source": "src/pieces/alpine-dawn.ts",
+      "name": "alpine dawn",
+      "category": "effects",
+      "note": "snow peaks catching first light above a still, misty mountain lake",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#090c18",
+      "palette": [
+        "#0e1430",
+        "#151d40",
+        "#1d2752",
+        "#263365",
+        "#314179",
+        "#3e508c",
+        "#4f62a0",
+        "#6577b3",
+        "#8090c4",
+        "#9eaad3",
+        "#bec6e2",
+        "#4b3e6c",
+        "#6a5482",
+        "#8c6a92",
+        "#b0829c",
+        "#cf96a4",
+        "#e8a9a8",
+        "#f5bcaa",
+        "#ffd0b0",
+        "#ffe2c2",
+        "#fff1e0",
+        "#fdfaf6",
+        "#ffc887",
+        "#f7a965",
+        "#f2a08f",
+        "#e58a87",
+        "#f8b59d",
+        "#d97b7e",
+        "#7a4c4a",
+        "#a5654f",
+        "#523a4a",
+        "#1b2034",
+        "#262c45",
+        "#363c59",
+        "#0a1418",
+        "#0f1f24",
+        "#162a2f",
+        "#203a3c",
+        "#a3a7c6",
+        "#c6c3d8",
+        "#e0d4dc",
+        "#5a4f7e",
+        "#7b6c9c",
+        "#9a8cb6",
+        "#b8a8c8",
+        "#d8bccb"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-alpine-dawn",
+      "page": "https://ascii.rest/alpine-dawn/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "alpine-linux",
+      "source": "src/pieces/alpine-linux.ts",
+      "name": "alpine linux",
+      "category": "icons",
+      "note": "the mountain in a hexagon, scanned now and then",
+      "cols": 64,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#0d597f",
+        "#6293ac",
+        "#b6cdd9",
+        "#0f6692",
+        "#639cb8",
+        "#b7d1de"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/alpine-linux",
+      "page": "https://ascii.rest/alpine-linux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "analog-clock",
+      "source": "src/pieces/analog-clock.ts",
+      "name": "analog clock",
+      "category": "animation",
+      "note": "a round clock face showing the local time, seconds ticking",
+      "cols": 47,
+      "rows": 23,
+      "fps": 8,
+      "options": {
+        "numerals": true,
+        "seconds": true
+      },
+      "clock": true,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-analog-clock",
+      "page": "https://ascii.rest/analog-clock/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "aquarium",
+      "source": "src/pieces/aquarium.ts",
+      "name": "aquarium",
+      "category": "animation",
+      "note": "fish swimming and turning in a tank, bubbles and weed",
+      "cols": 60,
+      "rows": 20,
+      "fps": 15,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-aquarium",
+      "page": "https://ascii.rest/aquarium/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "arch-linux",
+      "source": "src/pieces/arch-linux.ts",
+      "name": "arch linux",
+      "category": "icons",
+      "note": "the blue arch, scanned now and then",
+      "cols": 59,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#1894d4",
+        "#69b9e3",
+        "#badff2",
+        "#1894d4",
+        "#69b9e3",
+        "#badff2"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/arch-linux",
+      "page": "https://ascii.rest/arch-linux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "aurora-fjord",
+      "source": "src/pieces/aurora-fjord.ts",
+      "name": "aurora fjord",
+      "category": "effects",
+      "note": "aurora curtains rippling over a still fjord, a cabin lit on the shore",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#05080f",
+      "palette": [
+        "#0b1322",
+        "#101b30",
+        "#16243f",
+        "#1e3050",
+        "#2a3f63",
+        "#0e3a33",
+        "#11573f",
+        "#167a4c",
+        "#22a05c",
+        "#3ccb73",
+        "#7cf0a0",
+        "#c8ffdc",
+        "#0f5f5c",
+        "#16877f",
+        "#2cb5a6",
+        "#7fe6d6",
+        "#2a1f52",
+        "#432b78",
+        "#6a3c9f",
+        "#9558c6",
+        "#c48ae4",
+        "#363a72",
+        "#4f5596",
+        "#1b4f63",
+        "#1a2236",
+        "#283350",
+        "#3b4a6e",
+        "#566a92",
+        "#7d91b8",
+        "#a9bad9",
+        "#d6e0f2",
+        "#9fc9cf",
+        "#0f1a1c",
+        "#173128",
+        "#24493a",
+        "#4a1517",
+        "#7c2420",
+        "#b23a2a",
+        "#d65aa8",
+        "#ffd27c",
+        "#ffb04a",
+        "#fff2c4",
+        "#eef3ff"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-aurora-fjord",
+      "page": "https://ascii.rest/aurora-fjord/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "aurora",
+      "source": "src/pieces/aurora.ts",
+      "name": "aurora",
+      "category": "animation",
+      "note": "an aurora curtain rippling over a treeline under stars",
+      "cols": 64,
+      "rows": 20,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-aurora",
+      "page": "https://ascii.rest/aurora/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "bar-chart",
+      "source": "src/pieces/bar-chart.ts",
+      "name": "bar chart",
+      "category": "data-visualization",
+      "note": "bars easing between three datasets, values riding on top",
+      "cols": 60,
+      "rows": 19,
+      "fps": 24,
+      "options": {
+        "title": "visits by day",
+        "labels": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "datasets": [
+          {
+            "name": "week 1",
+            "values": [
+              320,
+              410,
+              380,
+              460,
+              540,
+              240,
+              180
+            ]
+          },
+          {
+            "name": "week 2",
+            "values": [
+              210,
+              480,
+              300,
+              560,
+              390,
+              340,
+              150
+            ]
+          },
+          {
+            "name": "week 3",
+            "values": [
+              450,
+              290,
+              520,
+              380,
+              580,
+              160,
+              270
+            ]
+          }
+        ]
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-bar-chart",
+      "page": "https://ascii.rest/bar-chart/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "big-text",
+      "source": "src/pieces/big-text.ts",
+      "name": "big text",
+      "category": "typography",
+      "note": "a block-letter banner with a line shadow and a passing glint",
+      "cols": 66,
+      "rows": 8,
+      "fps": 24,
+      "options": {
+        "text": "hello"
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-big-text",
+      "page": "https://ascii.rest/big-text/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "black-hole",
+      "source": "src/pieces/black-hole.ts",
+      "name": "black hole",
+      "category": "animation",
+      "note": "a black hole, its lensed disk turning, one side brighter",
+      "cols": 64,
+      "rows": 20,
+      "fps": 15,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-black-hole",
+      "page": "https://ascii.rest/black-hole/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "bonsai",
+      "source": "src/pieces/bonsai.ts",
+      "name": "bonsai",
+      "category": "animation",
+      "note": "a potted tree that sheds its leaves and leafs out again",
+      "cols": 52,
+      "rows": 19,
+      "fps": 10,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-bonsai",
+      "page": "https://ascii.rest/bonsai/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "boot-log",
+      "source": "src/pieces/boot-log.ts",
+      "name": "boot log",
+      "category": "data-display",
+      "note": "a self test counts memory, then the boot log scrolls by",
+      "cols": 64,
+      "rows": 16,
+      "fps": 15,
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-boot-log",
+      "page": "https://ascii.rest/boot-log/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "bouncing-balls",
+      "source": "src/pieces/bouncing-balls.ts",
+      "name": "bouncing balls",
+      "category": "animation",
+      "note": "rubber balls bouncing lower each time, squashing on landing",
+      "cols": 64,
+      "rows": 22,
+      "fps": 30,
+      "options": {
+        "balls": 3
+      },
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-bouncing-balls",
+      "page": "https://ascii.rest/bouncing-balls/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "box-frames",
+      "source": "src/pieces/box-frames.ts",
+      "name": "box frames",
+      "category": "data-display",
+      "note": "twelve frame styles to copy, each one labelled",
+      "cols": 78,
+      "rows": 20,
+      "fps": 0,
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-box-frames",
+      "page": "https://ascii.rest/box-frames/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "butterfly",
+      "source": "src/pieces/butterfly.ts",
+      "name": "butterfly",
+      "category": "animation",
+      "note": "a butterfly flapping and gliding along a wandering path",
+      "cols": 64,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-butterfly",
+      "page": "https://ascii.rest/butterfly/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "calendar",
+      "source": "src/pieces/calendar.ts",
+      "name": "calendar",
+      "category": "data-display",
+      "note": "this month like cal, today bracketed, time ticking below",
+      "cols": 32,
+      "rows": 13,
+      "fps": 8,
+      "options": {
+        "monday": false,
+        "time": true
+      },
+      "clock": true,
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-calendar",
+      "page": "https://ascii.rest/calendar/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "campfire",
+      "source": "src/pieces/campfire.ts",
+      "name": "campfire",
+      "category": "animation",
+      "note": "a log fire flickering, sparks rising; denser ink is hotter",
+      "cols": 52,
+      "rows": 22,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-campfire",
+      "page": "https://ascii.rest/campfire/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "candle",
+      "source": "src/pieces/candle.ts",
+      "name": "candle",
+      "category": "animation",
+      "note": "a flickering candle burning down in its holder, then renewed",
+      "cols": 40,
+      "rows": 30,
+      "fps": 15,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-candle",
+      "page": "https://ascii.rest/candle/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "candlesticks",
+      "source": "src/pieces/candlesticks.ts",
+      "name": "candlesticks",
+      "category": "data-visualization",
+      "note": "hollow up candles, solid down ones, the last one forming live",
+      "cols": 70,
+      "rows": 22,
+      "fps": 15,
+      "options": {
+        "start": 100,
+        "seed": 3
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-candlesticks",
+      "page": "https://ascii.rest/candlesticks/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "cat",
+      "source": "src/pieces/cat.ts",
+      "name": "cat",
+      "category": "animation",
+      "note": "a tabby asleep on its paws, breathing slowly",
+      "cols": 56,
+      "rows": 15,
+      "fps": 15,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-cat",
+      "page": "https://ascii.rest/cat/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "centos",
+      "source": "src/pieces/centos.ts",
+      "name": "centos",
+      "category": "icons",
+      "note": "four coloured squares in a star, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#fefefe",
+        "#262577",
+        "#9ccd2c",
+        "#93237a",
+        "#efa725",
+        "#fefefe",
+        "#7271a7",
+        "#bfdf76",
+        "#b970a9",
+        "#f5c671",
+        "#ffffff",
+        "#bebed6",
+        "#e1f0c0",
+        "#dfbdd7",
+        "#fae5be",
+        "#fefefe",
+        "#504ec8",
+        "#9ccd2c",
+        "#a8288b",
+        "#efa725",
+        "#fefefe",
+        "#8d8cdb",
+        "#bfdf76",
+        "#c673b4",
+        "#f5c671",
+        "#ffffff",
+        "#cbcaef",
+        "#e1f0c0",
+        "#e5bfdc",
+        "#fae5be"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/centos",
+      "page": "https://ascii.rest/centos/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "cherry-blossom",
+      "source": "src/pieces/cherry-blossom.ts",
+      "name": "cherry blossom",
+      "category": "animation",
+      "note": "a flowering cherry branch shedding petals on the wind",
+      "cols": 64,
+      "rows": 20,
+      "fps": 15,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-cherry-blossom",
+      "page": "https://ascii.rest/cherry-blossom/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "chladni",
+      "source": "src/pieces/chladni.ts",
+      "name": "chladni plate",
+      "category": "animation",
+      "note": "sand travelling to the nodal lines of a ringing plate",
+      "cols": 45,
+      "rows": 23,
+      "fps": 12,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-chladni",
+      "page": "https://ascii.rest/chladni/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "coffee",
+      "source": "src/pieces/coffee.ts",
+      "name": "coffee",
+      "category": "animation",
+      "note": "steam curling up from a cup of coffee on its saucer",
+      "cols": 52,
+      "rows": 24,
+      "fps": 20,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-coffee",
+      "page": "https://ascii.rest/coffee/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "contour-map",
+      "source": "src/pieces/contour-map.ts",
+      "name": "contour map",
+      "category": "animation",
+      "note": "an island in contour lines, its hills slowly reshaping",
+      "cols": 72,
+      "rows": 20,
+      "fps": 8,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-contour-map",
+      "page": "https://ascii.rest/contour-map/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "cpu-meters",
+      "source": "src/pieces/cpu-meters.ts",
+      "name": "cpu meters",
+      "category": "data-visualization",
+      "note": "htop-style core, memory and swap meters over a process list",
+      "cols": 66,
+      "rows": 16,
+      "fps": 10,
+      "options": {
+        "commands": [
+          "build",
+          "indexer",
+          "server",
+          "backup",
+          "sync",
+          "editor",
+          "shell"
+        ]
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-cpu-meters",
+      "page": "https://ascii.rest/cpu-meters/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "cube",
+      "source": "src/pieces/cube.ts",
+      "name": "cube",
+      "category": "animation",
+      "note": "a stippled hidden-line cube turning a quarter at a time",
+      "cols": 32,
+      "rows": 18,
+      "fps": 24,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-cube",
+      "page": "https://ascii.rest/cube/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "debian",
+      "source": "src/pieces/debian.ts",
+      "name": "debian",
+      "category": "icons",
+      "note": "the red swirl, scanned now and then",
+      "cols": 46,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#a80030",
+        "#c65978",
+        "#e5b3c1",
+        "#c20037",
+        "#d7597d",
+        "#edb3c3"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/debian",
+      "page": "https://ascii.rest/debian/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "deep-reef",
+      "source": "src/pieces/deep-reef.ts",
+      "name": "deep reef",
+      "category": "effects",
+      "note": "light shafts, swaying kelp and a turning school of fish over a reef",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#03101a",
+      "palette": [
+        "#114a66",
+        "#165c78",
+        "#1d708a",
+        "#27869b",
+        "#3a9fae",
+        "#58b9c0",
+        "#80d2d2",
+        "#b0e8e2",
+        "#e2fbf5",
+        "#5e6b62",
+        "#87927f",
+        "#aab39a",
+        "#cfd2b4",
+        "#38461a",
+        "#5a6420",
+        "#857f2a",
+        "#b0a03c",
+        "#d6c25a",
+        "#efe08e",
+        "#8e3355",
+        "#c4506a",
+        "#e0786e",
+        "#f0a070",
+        "#6a3a78",
+        "#9a5aa8",
+        "#c88ad0",
+        "#6f8a98",
+        "#9fb8c6",
+        "#cfe3ea"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-deep-reef",
+      "page": "https://ascii.rest/deep-reef/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "deepin",
+      "source": "src/pieces/deepin.ts",
+      "name": "deepin",
+      "category": "icons",
+      "note": "the swirl in a blue ring, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#007cff",
+        "#59aaff",
+        "#b3d8ff",
+        "#007cff",
+        "#59aaff",
+        "#b3d8ff"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/deepin",
+      "page": "https://ascii.rest/deepin/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "desert-night",
+      "source": "src/pieces/desert-night.ts",
+      "name": "desert night",
+      "category": "effects",
+      "note": "the milky way over a lone acacia on moonless dunes, meteors falling",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#04060c",
+      "palette": [
+        "#0a1024",
+        "#101830",
+        "#16213f",
+        "#1e2b50",
+        "#283864",
+        "#34477a",
+        "#45598f",
+        "#5a6fa6",
+        "#7488bd",
+        "#93a5d2",
+        "#b6c3e4",
+        "#d8e0f2",
+        "#f4f6fb",
+        "#fff3dc",
+        "#ffe2b4",
+        "#f5c98e",
+        "#e2a86e",
+        "#c4864f",
+        "#9c6440",
+        "#74492f",
+        "#2a2230",
+        "#3d2f3a",
+        "#56404a",
+        "#735358",
+        "#946a62",
+        "#b6836c",
+        "#4a3b48",
+        "#6b5562",
+        "#8a6f7a",
+        "#a88590",
+        "#c9a3a3",
+        "#e2bfb4",
+        "#2a2448",
+        "#3d3466",
+        "#57498a",
+        "#7a68a8",
+        "#ffd8a8",
+        "#cfe0ff",
+        "#a9c4ff",
+        "#ff9a52",
+        "#e07a3e",
+        "#0d0f1a",
+        "#151827"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-desert-night",
+      "page": "https://ascii.rest/desert-night/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "digital-clock",
+      "source": "src/pieces/digital-clock.ts",
+      "name": "digital clock",
+      "category": "data-display",
+      "note": "the local time in seven-segment digits, colon blinking",
+      "cols": 70,
+      "rows": 11,
+      "fps": 10,
+      "options": {
+        "hour12": false,
+        "seconds": true,
+        "date": true
+      },
+      "clock": true,
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-digital-clock",
+      "page": "https://ascii.rest/digital-clock/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "dissolve",
+      "source": "src/pieces/dissolve.ts",
+      "name": "dissolve",
+      "category": "typography",
+      "note": "words that crumble to dust and condense into the next",
+      "cols": 64,
+      "rows": 13,
+      "fps": 20,
+      "options": {
+        "words": [
+          "hello",
+          "hola",
+          "ciao",
+          "salut"
+        ]
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-dissolve",
+      "page": "https://ascii.rest/dissolve/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "dividers",
+      "source": "src/pieces/dividers.ts",
+      "name": "dividers",
+      "category": "data-display",
+      "note": "rules and ornaments for between sections, plain to fancy",
+      "cols": 63,
+      "rows": 25,
+      "fps": 0,
+      "options": {
+        "width": 59
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-dividers",
+      "page": "https://ascii.rest/dividers/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "dna-helix",
+      "source": "src/pieces/dna-helix.ts",
+      "name": "dna helix",
+      "category": "animation",
+      "note": "a double helix with base pairs, turning about its axis",
+      "cols": 64,
+      "rows": 15,
+      "fps": 20,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-dna-helix",
+      "page": "https://ascii.rest/dna-helix/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "donut",
+      "source": "src/pieces/donut.ts",
+      "name": "donut",
+      "category": "animation",
+      "note": "a lit torus turning on two axes, after donut.c",
+      "cols": 40,
+      "rows": 22,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-donut",
+      "page": "https://ascii.rest/donut/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "doom-fire",
+      "source": "src/pieces/doom-fire.ts",
+      "name": "doom fire",
+      "category": "effects",
+      "note": "the psx fire spread, tongues climbing off a white-hot bed",
+      "cols": 60,
+      "rows": 18,
+      "fps": 24,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-doom-fire",
+      "page": "https://ascii.rest/doom-fire/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "double-pendulum",
+      "source": "src/pieces/double-pendulum.ts",
+      "name": "double pendulum",
+      "category": "animation",
+      "note": "a chaotic double pendulum; its tip leaves a fading trail",
+      "cols": 48,
+      "rows": 25,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-double-pendulum",
+      "page": "https://ascii.rest/double-pendulum/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "earth",
+      "source": "src/pieces/earth.ts",
+      "name": "earth",
+      "category": "animation",
+      "note": "a lit globe turning, continents from a five-degree map",
+      "cols": 60,
+      "rows": 30,
+      "fps": 20,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-earth",
+      "page": "https://ascii.rest/earth/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "earthrise",
+      "source": "src/pieces/earthrise.ts",
+      "name": "earthrise",
+      "category": "effects",
+      "note": "the earth rising over a cratered lunar horizon in long low sunlight",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#030408",
+      "palette": [
+        "#18181b",
+        "#232326",
+        "#303033",
+        "#414143",
+        "#555556",
+        "#6b6a69",
+        "#83817d",
+        "#9c9993",
+        "#b6b2aa",
+        "#cfcac1",
+        "#e6e1d8",
+        "#f7f4ee",
+        "#0c1120",
+        "#131a2e",
+        "#1b2540",
+        "#262f4a",
+        "#dfe9ff",
+        "#0a2259",
+        "#0f2f72",
+        "#15408c",
+        "#1d53a6",
+        "#2a69bf",
+        "#4386d3",
+        "#6eaeea",
+        "#a8d3f6",
+        "#e8f0fa",
+        "#c2d0e3",
+        "#8b9fbc",
+        "#2f4a26",
+        "#3b5a2c",
+        "#5b7238",
+        "#7a9150",
+        "#77783f",
+        "#8f8550",
+        "#a8955e",
+        "#6b5634",
+        "#b9774a",
+        "#8a4838"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-earthrise",
+      "page": "https://ascii.rest/earthrise/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "eclipse",
+      "source": "src/pieces/eclipse.ts",
+      "name": "eclipse",
+      "category": "animation",
+      "note": "the moon slides over the sun; diamond ring, then corona",
+      "cols": 64,
+      "rows": 27,
+      "fps": 20,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-eclipse",
+      "page": "https://ascii.rest/eclipse/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "elementary-os",
+      "source": "src/pieces/elementary-os.ts",
+      "name": "elementary os",
+      "category": "icons",
+      "note": "the e in a ring, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#64baff",
+        "#9ad2ff",
+        "#d1eaff",
+        "#64baff",
+        "#9ad2ff",
+        "#d1eaff"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/elementary-os",
+      "page": "https://ascii.rest/elementary-os/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "endeavouros",
+      "source": "src/pieces/endeavouros.ts",
+      "name": "endeavouros",
+      "category": "icons",
+      "note": "the violet sail, scanned now and then",
+      "cols": 67,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#7f7fff",
+        "#acacff",
+        "#d9d9ff",
+        "#7f7fff",
+        "#acacff",
+        "#d9d9ff"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/endeavouros",
+      "page": "https://ascii.rest/endeavouros/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "epicycles",
+      "source": "src/pieces/epicycles.ts",
+      "name": "epicycles",
+      "category": "effects",
+      "note": "a chain of turning circles whose tip traces a star",
+      "cols": 60,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-epicycles",
+      "page": "https://ascii.rest/epicycles/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "equalizer",
+      "source": "src/pieces/equalizer.ts",
+      "name": "equalizer",
+      "category": "data-visualization",
+      "note": "spectrum bars bouncing to a beat, peak caps falling slowly",
+      "cols": 62,
+      "rows": 16,
+      "fps": 30,
+      "options": {
+        "bpm": 120
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-equalizer",
+      "page": "https://ascii.rest/equalizer/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "falling-sand",
+      "source": "src/pieces/falling-sand.ts",
+      "name": "falling sand",
+      "category": "animation",
+      "note": "sand pouring into a heap, then draining through the shelf",
+      "cols": 55,
+      "rows": 22,
+      "fps": 20,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-falling-sand",
+      "page": "https://ascii.rest/falling-sand/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fedora",
+      "source": "src/pieces/fedora.ts",
+      "name": "fedora",
+      "category": "icons",
+      "note": "the f in its blue bubble, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#294172",
+        "#ffffff",
+        "#3c6eb4",
+        "#7484a3",
+        "#ffffff",
+        "#80a1ce",
+        "#bfc6d5",
+        "#ffffff",
+        "#c5d4e9",
+        "#3b5da3",
+        "#ffffff",
+        "#3c6eb4",
+        "#8096c3",
+        "#ffffff",
+        "#80a1ce",
+        "#c4cee3",
+        "#ffffff",
+        "#c5d4e9"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/fedora",
+      "page": "https://ascii.rest/fedora/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fern",
+      "source": "src/pieces/fern.ts",
+      "name": "fern",
+      "category": "animation",
+      "note": "barnsley's fern filling in point by point, then swaying",
+      "cols": 44,
+      "rows": 30,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-fern",
+      "page": "https://ascii.rest/fern/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "ferris-wheel",
+      "source": "src/pieces/ferris-wheel.ts",
+      "name": "ferris wheel",
+      "category": "animation",
+      "note": "a wheel turning on its a-frame, cabins hanging upright",
+      "cols": 64,
+      "rows": 26,
+      "fps": 10,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-ferris-wheel",
+      "page": "https://ascii.rest/ferris-wheel/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "file-tree",
+      "source": "src/pieces/file-tree.ts",
+      "name": "file tree",
+      "category": "data-display",
+      "note": "a tree listing opened folder by folder, then closed again",
+      "cols": 36,
+      "rows": 23,
+      "fps": 15,
+      "options": {
+        "root": ".",
+        "entries": "docs/\n  guide.md\n  notes.md\npublic/\n  favicon.ico\n  robots.txt\nsrc/\n  components/\n    button.ts\n    card.ts\n    menu.ts\n  lib/\n    fetch.ts\n    format.ts\n  index.ts\n  styles.css\ntests/\n  format.test.ts\npackage.json\nREADME.md"
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-file-tree",
+      "page": "https://ascii.rest/file-tree/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fireflies",
+      "source": "src/pieces/fireflies.ts",
+      "name": "fireflies",
+      "category": "animation",
+      "note": "fireflies over night grass, a flash spreading through them",
+      "cols": 60,
+      "rows": 18,
+      "fps": 15,
+      "options": {
+        "seed": 7,
+        "count": 44
+      },
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-fireflies",
+      "page": "https://ascii.rest/fireflies/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fireworks",
+      "source": "src/pieces/fireworks.ts",
+      "name": "fireworks",
+      "category": "effects",
+      "note": "shells climb and burst as peonies, rings, willows and palms",
+      "cols": 64,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-fireworks",
+      "page": "https://ascii.rest/fireworks/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "flag",
+      "source": "src/pieces/flag.ts",
+      "name": "flag",
+      "category": "animation",
+      "note": "a striped flag rippling on a pole, folds catching the light",
+      "cols": 62,
+      "rows": 21,
+      "fps": 30,
+      "options": {
+        "stripes": 5
+      },
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-flag",
+      "page": "https://ascii.rest/flag/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "flow-field",
+      "source": "src/pieces/flow-field.ts",
+      "name": "flow field",
+      "category": "effects",
+      "note": "particle trails gathering into winding, merging streams",
+      "cols": 64,
+      "rows": 22,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-flow-field",
+      "page": "https://ascii.rest/flow-field/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "form-controls",
+      "source": "src/pieces/form-controls.ts",
+      "name": "form controls",
+      "category": "data-display",
+      "note": "a terminal style form being filled in, field by field",
+      "cols": 54,
+      "rows": 16,
+      "fps": 15,
+      "options": {
+        "title": "preferences"
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-form-controls",
+      "page": "https://ascii.rest/form-controls/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fountain",
+      "source": "src/pieces/fountain.ts",
+      "name": "fountain",
+      "category": "animation",
+      "note": "arcs of water from a nozzle falling as drops into a basin",
+      "cols": 57,
+      "rows": 22,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-fountain",
+      "page": "https://ascii.rest/fountain/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fox",
+      "source": "src/pieces/fox.ts",
+      "name": "fox",
+      "category": "animation",
+      "note": "a fox asleep on its tail, breathing, peeking now and then",
+      "cols": 47,
+      "rows": 16,
+      "fps": 10,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-fox",
+      "page": "https://ascii.rest/fox/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "fractal-tree",
+      "source": "src/pieces/fractal-tree.ts",
+      "name": "fractal tree",
+      "category": "animation",
+      "note": "a recursive branching tree swaying in the wind",
+      "cols": 60,
+      "rows": 24,
+      "fps": 15,
+      "options": {
+        "seed": 4
+      },
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-fractal-tree",
+      "page": "https://ascii.rest/fractal-tree/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "galaxy",
+      "source": "src/pieces/galaxy.ts",
+      "name": "galaxy",
+      "category": "animation",
+      "note": "a tilted spiral galaxy turning, its inner stars the fastest",
+      "cols": 64,
+      "rows": 26,
+      "fps": 20,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-galaxy",
+      "page": "https://ascii.rest/galaxy/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "gauge",
+      "source": "src/pieces/gauge.ts",
+      "name": "gauge",
+      "category": "data-visualization",
+      "note": "semicircle dial, the needle overshoots each new reading",
+      "cols": 55,
+      "rows": 18,
+      "fps": 30,
+      "options": {
+        "label": "load",
+        "unit": "%",
+        "min": 0,
+        "max": 100
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-gauge",
+      "page": "https://ascii.rest/gauge/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "gentoo",
+      "source": "src/pieces/gentoo.ts",
+      "name": "gentoo",
+      "category": "icons",
+      "note": "the lavender g, scanned now and then",
+      "cols": 54,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#9d95de",
+        "#bfbaea",
+        "#e2dff5",
+        "#9d95de",
+        "#bfbaea",
+        "#e2dff5"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/gentoo",
+      "page": "https://ascii.rest/gentoo/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "glider-gun",
+      "source": "src/pieces/glider-gun.ts",
+      "name": "glider gun",
+      "category": "effects",
+      "note": "gosper's gun firing a glider every 30 generations",
+      "cols": 56,
+      "rows": 20,
+      "fps": 10,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-glider-gun",
+      "page": "https://ascii.rest/glider-gun/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "glitch",
+      "source": "src/pieces/glitch.ts",
+      "name": "glitch",
+      "category": "typography",
+      "note": "a pixel word that tears into sliding slices in short bursts",
+      "cols": 64,
+      "rows": 13,
+      "fps": 15,
+      "options": {
+        "text": "noise"
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-glitch",
+      "page": "https://ascii.rest/glitch/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "glxgears",
+      "source": "src/pieces/glxgears.ts",
+      "name": "glxgears",
+      "category": "animation",
+      "note": "three meshing gears turning, after glxgears",
+      "cols": 56,
+      "rows": 31,
+      "fps": 24,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-glxgears",
+      "page": "https://ascii.rest/glxgears/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "gyroscope",
+      "source": "src/pieces/gyroscope.ts",
+      "name": "gyroscope",
+      "category": "animation",
+      "note": "gimbals swing round a spinning rotor whose axle holds still",
+      "cols": 60,
+      "rows": 32,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-gyroscope",
+      "page": "https://ascii.rest/gyroscope/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "harmonograph",
+      "source": "src/pieces/harmonograph.ts",
+      "name": "harmonograph",
+      "category": "animation",
+      "note": "a pen on two decaying pendulums winding a figure inward",
+      "cols": 64,
+      "rows": 28,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-harmonograph",
+      "page": "https://ascii.rest/harmonograph/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "hawa-mahal",
+      "source": "src/pieces/hawa-mahal.ts",
+      "name": "hawa mahal",
+      "category": "animation",
+      "note": "jaipur's palace of winds at night, lamps behind the jali",
+      "cols": 61,
+      "rows": 24,
+      "fps": 10,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-hawa-mahal",
+      "page": "https://ascii.rest/hawa-mahal/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "heart",
+      "source": "src/pieces/heart.ts",
+      "name": "heart",
+      "category": "animation",
+      "note": "a glossy 3d heart swaying and beating lub-dub",
+      "cols": 52,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-heart",
+      "page": "https://ascii.rest/heart/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "heartbeat",
+      "source": "src/pieces/heartbeat.ts",
+      "name": "heartbeat",
+      "category": "data-visualization",
+      "note": "an ecg trace sweeping over its last pass, with a bpm readout",
+      "cols": 72,
+      "rows": 15,
+      "fps": 25,
+      "options": {
+        "bpm": 72
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-heartbeat",
+      "page": "https://ascii.rest/heartbeat/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "heatmap",
+      "source": "src/pieces/heatmap.ts",
+      "name": "heatmap",
+      "category": "data-visualization",
+      "note": "contribution calendar, a day at a time, weeks scrolling left",
+      "cols": 66,
+      "rows": 12,
+      "fps": 10,
+      "options": {
+        "unit": "contributions",
+        "seed": 7
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-heatmap",
+      "page": "https://ascii.rest/heatmap/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "hilbert-curve",
+      "source": "src/pieces/hilbert-curve.ts",
+      "name": "hilbert curve",
+      "category": "effects",
+      "note": "a closed loop of two hilbert curves, with two lit runners",
+      "cols": 65,
+      "rows": 17,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-hilbert-curve",
+      "page": "https://ascii.rest/hilbert-curve/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "hourglass",
+      "source": "src/pieces/hourglass.ts",
+      "name": "hourglass",
+      "category": "animation",
+      "note": "sand running through the neck, then turned over",
+      "cols": 43,
+      "rows": 21,
+      "fps": 30,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-hourglass",
+      "page": "https://ascii.rest/hourglass/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "icosahedron",
+      "source": "src/pieces/icosahedron.ts",
+      "name": "icosahedron",
+      "category": "animation",
+      "note": "a wireframe icosahedron turning, its hidden edges dotted",
+      "cols": 46,
+      "rows": 22,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-icosahedron",
+      "page": "https://ascii.rest/icosahedron/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "jellyfish",
+      "source": "src/pieces/jellyfish.ts",
+      "name": "jellyfish",
+      "category": "animation",
+      "note": "a jellyfish pulsing upward, its tentacles trailing late",
+      "cols": 44,
+      "rows": 26,
+      "fps": 24,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-jellyfish",
+      "page": "https://ascii.rest/jellyfish/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "julia-set",
+      "source": "src/pieces/julia-set.ts",
+      "name": "julia set",
+      "category": "effects",
+      "note": "a julia set changing shape as its constant c goes round",
+      "cols": 66,
+      "rows": 24,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-julia-set",
+      "page": "https://ascii.rest/julia-set/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "kali-linux",
+      "source": "src/pieces/kali-linux.ts",
+      "name": "kali linux",
+      "category": "icons",
+      "note": "the blue dragon, scanned now and then",
+      "cols": 71,
+      "rows": 27,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#287aff",
+        "#73a9ff",
+        "#bfd7ff",
+        "#287aff",
+        "#73a9ff",
+        "#bfd7ff"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/kali-linux",
+      "page": "https://ascii.rest/kali-linux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "kite",
+      "source": "src/pieces/kite.ts",
+      "name": "kite",
+      "category": "animation",
+      "note": "a diamond kite riding the wind, its string sagging in lulls",
+      "cols": 64,
+      "rows": 24,
+      "fps": 15,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-kite",
+      "page": "https://ascii.rest/kite/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "kyoto-dusk",
+      "source": "src/pieces/kyoto-dusk.ts",
+      "name": "kyoto dusk",
+      "category": "effects",
+      "note": "a pagoda at dusk behind a cherry tree lit by a stone lantern",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#0b0a16",
+      "palette": [
+        "#1c1d4a",
+        "#262759",
+        "#33316b",
+        "#433d7c",
+        "#574a8c",
+        "#6e5a9a",
+        "#8a5a92",
+        "#a8668f",
+        "#c4748f",
+        "#db8a95",
+        "#ec9f9c",
+        "#f6b8a8",
+        "#fbd0b8",
+        "#fff1d8",
+        "#fffaf0",
+        "#7e5f9e",
+        "#f9d3dc",
+        "#f2b2c4",
+        "#e28fab",
+        "#c66e92",
+        "#9c5279",
+        "#74405f",
+        "#ffd9a0",
+        "#ffbb6a",
+        "#f29a4a",
+        "#d0763a",
+        "#a35a35",
+        "#2a2240",
+        "#3a2c50",
+        "#4a3860",
+        "#5b4f86",
+        "#7a6aa0",
+        "#2c3a3a",
+        "#3d4c46",
+        "#56604f",
+        "#9a6aa0",
+        "#b47ea6",
+        "#4a3038",
+        "#6a4448",
+        "#2b3a6a",
+        "#3e4f86"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-kyoto-dusk",
+      "page": "https://ascii.rest/kyoto-dusk/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "landscape",
+      "source": "src/pieces/landscape.ts",
+      "name": "landscape",
+      "category": "animation",
+      "note": "a range and a lake under the sun or moon of the local hour",
+      "cols": 64,
+      "rows": 18,
+      "fps": 8,
+      "options": {
+        "hour": null,
+        "phase": null
+      },
+      "clock": true,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-landscape",
+      "page": "https://ascii.rest/landscape/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "langtons-ant",
+      "source": "src/pieces/langtons-ant.ts",
+      "name": "langton's ant",
+      "category": "effects",
+      "note": "order, then chaos, then the ant builds its highway",
+      "cols": 72,
+      "rows": 25,
+      "fps": 30,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-langtons-ant",
+      "page": "https://ascii.rest/langtons-ant/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "lantern-lake",
+      "source": "src/pieces/lantern-lake.ts",
+      "name": "lantern lake",
+      "category": "effects",
+      "note": "sky lanterns rising over a still mountain lake, one let go from a boat",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#04060d",
+      "palette": [
+        "#141b30",
+        "#1c2a52",
+        "#22346a",
+        "#2a4080",
+        "#324c96",
+        "#3c58a8",
+        "#33306e",
+        "#433c88",
+        "#54449a",
+        "#62407e",
+        "#7a4a88",
+        "#934e86",
+        "#a4546e",
+        "#bc5e66",
+        "#d06a62",
+        "#dc7650",
+        "#e88444",
+        "#f09238",
+        "#d4581a",
+        "#ea6c1e",
+        "#f78226",
+        "#ff9530",
+        "#ffa83c",
+        "#ffbb4e",
+        "#ffcc66",
+        "#ffdc86",
+        "#ffe8a8",
+        "#fff3cf",
+        "#fffbec",
+        "#b8341a",
+        "#d84420",
+        "#2f3748",
+        "#4f586c",
+        "#5e5a7e",
+        "#7a6a8c",
+        "#5a3220",
+        "#7c4628",
+        "#4a5578",
+        "#5d6a92",
+        "#7381ab",
+        "#c4cdec",
+        "#e4e9fb",
+        "#ffffff"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-lantern-lake",
+      "page": "https://ascii.rest/lantern-lake/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "lava-lamp",
+      "source": "src/pieces/lava-lamp.ts",
+      "name": "lava lamp",
+      "category": "animation",
+      "note": "wax blobs rising, merging and sinking in a lit glass",
+      "cols": 30,
+      "rows": 27,
+      "fps": 15,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-lava-lamp",
+      "page": "https://ascii.rest/lava-lamp/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "lighthouse",
+      "source": "src/pieces/lighthouse.ts",
+      "name": "lighthouse",
+      "category": "animation",
+      "note": "a beam sweeping over night sea from a lighthouse on rocks",
+      "cols": 64,
+      "rows": 30,
+      "fps": 20,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-lighthouse",
+      "page": "https://ascii.rest/lighthouse/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "lightning",
+      "source": "src/pieces/lightning.ts",
+      "name": "lightning",
+      "category": "animation",
+      "note": "a forked bolt striking out of a storm cloud in the rain",
+      "cols": 64,
+      "rows": 22,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-lightning",
+      "page": "https://ascii.rest/lightning/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "linux-mint",
+      "source": "src/pieces/linux-mint.ts",
+      "name": "linux mint",
+      "category": "icons",
+      "note": "lm in a green circle, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#fcfcfc",
+        "#69b53f",
+        "#fdfdfd",
+        "#9ecf82",
+        "#fefefe",
+        "#d2e9c5",
+        "#fcfcfc",
+        "#69b53f",
+        "#fdfdfd",
+        "#9ecf82",
+        "#fefefe",
+        "#d2e9c5"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/linux-mint",
+      "page": "https://ascii.rest/linux-mint/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "lorenz",
+      "source": "src/pieces/lorenz.ts",
+      "name": "lorenz attractor",
+      "category": "animation",
+      "note": "one lorenz trajectory looping both wings, older loops fading",
+      "cols": 60,
+      "rows": 22,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-lorenz",
+      "page": "https://ascii.rest/lorenz/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "mandelbrot",
+      "source": "src/pieces/mandelbrot.ts",
+      "name": "mandelbrot",
+      "category": "effects",
+      "note": "a slow zoom into seahorse valley and back out again",
+      "cols": 64,
+      "rows": 26,
+      "fps": 15,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-mandelbrot",
+      "page": "https://ascii.rest/mandelbrot/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "manjaro",
+      "source": "src/pieces/manjaro.ts",
+      "name": "manjaro",
+      "category": "icons",
+      "note": "three green blocks, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#35bfa4",
+        "#7cd5c4",
+        "#c2ece4",
+        "#35bfa4",
+        "#7cd5c4",
+        "#c2ece4"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/manjaro",
+      "page": "https://ascii.rest/manjaro/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "marine-drive",
+      "source": "src/pieces/marine-drive.ts",
+      "name": "marine drive",
+      "category": "effects",
+      "note": "mumbai's queen's necklace at night, lamps curving round the bay",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#07080f",
+      "palette": [
+        "#18213f",
+        "#202c55",
+        "#2a396d",
+        "#374a88",
+        "#4a60a2",
+        "#6880bc",
+        "#2c2140",
+        "#3f2d58",
+        "#56396b",
+        "#6e4a7a",
+        "#8a5f88",
+        "#5a2e3c",
+        "#7b404c",
+        "#9e5858",
+        "#55300f",
+        "#7d4515",
+        "#a95c1b",
+        "#d27a24",
+        "#ee9631",
+        "#ffb246",
+        "#ffcd6a",
+        "#ffe39c",
+        "#fff2cf",
+        "#ffffff",
+        "#dce6ff",
+        "#a9bde8",
+        "#6a181b",
+        "#b22a28",
+        "#ff4b3e",
+        "#132c38",
+        "#1c3f4f",
+        "#2a5868",
+        "#29283a",
+        "#3c3a4c",
+        "#565266",
+        "#79738a"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-marine-drive",
+      "page": "https://ascii.rest/marine-drive/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "marquee",
+      "source": "src/pieces/marquee.ts",
+      "name": "marquee",
+      "category": "typography",
+      "note": "a scrolling led sign framed by chasing bulbs",
+      "cols": 61,
+      "rows": 10,
+      "fps": 24,
+      "options": {
+        "text": "now showing · doors open at 7:30 ·",
+        "speed": 12
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-marquee",
+      "page": "https://ascii.rest/marquee/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "matrix-rain",
+      "source": "src/pieces/matrix-rain.ts",
+      "name": "matrix rain",
+      "category": "effects",
+      "note": "streams of glyphs falling, heavy at the head, thin behind",
+      "cols": 63,
+      "rows": 24,
+      "fps": 20,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-matrix-rain",
+      "page": "https://ascii.rest/matrix-rain/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "maze",
+      "source": "src/pieces/maze.ts",
+      "name": "maze",
+      "category": "effects",
+      "note": "a maze carved by backtracking, then solved, then remade",
+      "cols": 61,
+      "rows": 21,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-maze",
+      "page": "https://ascii.rest/maze/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "misty-forest",
+      "source": "src/pieces/misty-forest.ts",
+      "name": "misty forest",
+      "category": "effects",
+      "note": "pine ridges fading into morning fog, sunbeams slanting through",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#090f0e",
+      "palette": [
+        "#fffbea",
+        "#fff0c8",
+        "#fbe2a6",
+        "#f2c97e",
+        "#e0a95e",
+        "#b9834a",
+        "#e4ebe6",
+        "#cbe0dc",
+        "#a8d2d0",
+        "#86c0c2",
+        "#68a7ac",
+        "#4f8c93",
+        "#3b7078",
+        "#557570",
+        "#456761",
+        "#365952",
+        "#2a4a44",
+        "#1f3c37",
+        "#172f2b",
+        "#11231f",
+        "#a4a35a",
+        "#8a8f4c",
+        "#6d7440",
+        "#4d5530",
+        "#7a5a3a",
+        "#5b4532",
+        "#a9c3cc",
+        "#8eadb8",
+        "#6f93a2",
+        "#53798a",
+        "#3d6172",
+        "#2b4a5a"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-misty-forest",
+      "page": "https://ascii.rest/misty-forest/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "mobius-strip",
+      "source": "src/pieces/mobius-strip.ts",
+      "name": "mobius strip",
+      "category": "animation",
+      "note": "a mobius strip turning and nodding, lit from above",
+      "cols": 58,
+      "rows": 20,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-mobius-strip",
+      "page": "https://ascii.rest/mobius-strip/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "moon-phases",
+      "source": "src/pieces/moon-phases.ts",
+      "name": "moon phases",
+      "category": "animation",
+      "note": "the moon waxing and waning, its maria darker in the light",
+      "cols": 46,
+      "rows": 23,
+      "fps": 15,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-moon-phases",
+      "page": "https://ascii.rest/moon-phases/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "morse",
+      "source": "src/pieces/morse.ts",
+      "name": "morse",
+      "category": "typography",
+      "note": "a lamp keying morse, the marks on a tape, letters decoded",
+      "cols": 64,
+      "rows": 19,
+      "fps": 15,
+      "options": {
+        "text": "hello world"
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-morse",
+      "page": "https://ascii.rest/morse/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "newtons-cradle",
+      "source": "src/pieces/newtons-cradle.ts",
+      "name": "newton's cradle",
+      "category": "animation",
+      "note": "five steel balls on strings passing one knock back and forth",
+      "cols": 74,
+      "rows": 17,
+      "fps": 30,
+      "options": {
+        "lifted": 1
+      },
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-newtons-cradle",
+      "page": "https://ascii.rest/newtons-cradle/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "night-coast",
+      "source": "src/pieces/night-coast.ts",
+      "name": "night coast",
+      "category": "effects",
+      "note": "a lighthouse turning its beam under moonlit clouds over a dark sea",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#080b12",
+      "palette": [
+        "#15203d",
+        "#1b2a50",
+        "#223463",
+        "#2b4077",
+        "#364e8b",
+        "#445f9f",
+        "#5874b2",
+        "#7089c0",
+        "#8a9cc4",
+        "#a3b1cf",
+        "#bec9dc",
+        "#d8dfea",
+        "#eef1f6",
+        "#f7f8fc",
+        "#ffe9ae",
+        "#ffd27c",
+        "#f3a64a",
+        "#c46c2d",
+        "#121c1b",
+        "#182724",
+        "#203530",
+        "#2c473d",
+        "#3c5c4c",
+        "#232a36",
+        "#363e4c",
+        "#555d6c",
+        "#2a3550",
+        "#3a4868",
+        "#9c4136",
+        "#ff5d4d"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-night-coast",
+      "page": "https://ascii.rest/night-coast/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "nixos",
+      "source": "src/pieces/nixos.ts",
+      "name": "nixos",
+      "category": "icons",
+      "note": "the snowflake of lambdas, scanned now and then",
+      "cols": 64,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#5277c3",
+        "#81bfea",
+        "#8fa7d8",
+        "#add5f1",
+        "#cbd6ed",
+        "#d9ecf9",
+        "#5277c3",
+        "#81bfea",
+        "#8fa7d8",
+        "#add5f1",
+        "#cbd6ed",
+        "#d9ecf9"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/nixos",
+      "page": "https://ascii.rest/nixos/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "not-found",
+      "source": "src/pieces/not-found.ts",
+      "name": "not found",
+      "category": "data-display",
+      "note": "a block-letter 404 with a small ghost drifting beneath it",
+      "cols": 60,
+      "rows": 21,
+      "fps": 15,
+      "options": {
+        "code": "404",
+        "title": "page not found",
+        "message": "the page you asked for has moved or never existed"
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-not-found",
+      "page": "https://ascii.rest/not-found/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "ocean-sunset",
+      "source": "src/pieces/ocean-sunset.ts",
+      "name": "ocean sunset",
+      "category": "effects",
+      "note": "the sun sets past a pine headland, lit cloud, glitter on rolling sea",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#0b0817",
+      "palette": [
+        "#140f2c",
+        "#1e1640",
+        "#2b1c52",
+        "#3d2266",
+        "#552a74",
+        "#6e2c78",
+        "#90327c",
+        "#b23c7c",
+        "#d24f7a",
+        "#ea6a78",
+        "#c2306a",
+        "#ff5d8f",
+        "#ff8a9a",
+        "#7a2456",
+        "#f05d5e",
+        "#f2804f",
+        "#f99a43",
+        "#ffb44a",
+        "#ffcd62",
+        "#ffe39a",
+        "#fff5d8",
+        "#a8323c",
+        "#d2453c",
+        "#e8603e",
+        "#2f1a3e",
+        "#47234f",
+        "#63305c",
+        "#874266",
+        "#ac5b70",
+        "#ff9e86",
+        "#ffc4a2",
+        "#ffdcc0",
+        "#0e1230",
+        "#171a46",
+        "#232059",
+        "#33286a",
+        "#4a2f78",
+        "#1c2a5c",
+        "#2e4078",
+        "#7d3f8f",
+        "#a24f98",
+        "#c8649e",
+        "#de8bb5"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-ocean-sunset",
+      "page": "https://ascii.rest/ocean-sunset/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "omarchy",
+      "source": "src/pieces/omarchy.ts",
+      "name": "omarchy",
+      "category": "icons",
+      "note": "the square o of brackets, in green, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#6ea235",
+        "#a1c37c",
+        "#d4e3c2",
+        "#9ece6a",
+        "#c0df9e",
+        "#e2f0d2"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/omarchy",
+      "page": "https://ascii.rest/omarchy/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "opensuse",
+      "source": "src/pieces/opensuse.ts",
+      "name": "opensuse",
+      "category": "icons",
+      "note": "the green chameleon, scanned now and then",
+      "cols": 69,
+      "rows": 18,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#76be26",
+        "#a6d572",
+        "#d6ecbe",
+        "#76be26",
+        "#a6d572",
+        "#d6ecbe"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/opensuse",
+      "page": "https://ascii.rest/opensuse/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "owl",
+      "source": "src/pieces/owl.ts",
+      "name": "owl",
+      "category": "animation",
+      "note": "an owl on a branch, blinking slowly and turning its head",
+      "cols": 41,
+      "rows": 24,
+      "fps": 12,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-owl",
+      "page": "https://ascii.rest/owl/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "pendulum-wave",
+      "source": "src/pieces/pendulum-wave.ts",
+      "name": "pendulum wave",
+      "category": "animation",
+      "note": "a row of pendulums drifting in and out of step, from above",
+      "cols": 67,
+      "rows": 19,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-pendulum-wave",
+      "page": "https://ascii.rest/pendulum-wave/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "planet",
+      "source": "src/pieces/planet.ts",
+      "name": "planet",
+      "category": "animation",
+      "note": "a banded ringed planet turning, with shadows both ways",
+      "cols": 64,
+      "rows": 18,
+      "fps": 20,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-planet",
+      "page": "https://ascii.rest/planet/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "plasma",
+      "source": "src/pieces/plasma.ts",
+      "name": "plasma",
+      "category": "effects",
+      "note": "soft interference blobs drifting and pulsing",
+      "cols": 64,
+      "rows": 22,
+      "fps": 24,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-plasma",
+      "page": "https://ascii.rest/plasma/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "plucked-string",
+      "source": "src/pieces/plucked-string.ts",
+      "name": "plucked string",
+      "category": "animation",
+      "note": "a plucked string, slowed down, its harmonics fading",
+      "cols": 64,
+      "rows": 14,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-plucked-string",
+      "page": "https://ascii.rest/plucked-string/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "pond-ripples",
+      "source": "src/pieces/pond-ripples.ts",
+      "name": "pond ripples",
+      "category": "animation",
+      "note": "raindrops opening rings that cross and fade on a pond",
+      "cols": 64,
+      "rows": 20,
+      "fps": 20,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-pond-ripples",
+      "page": "https://ascii.rest/pond-ripples/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "pop-os",
+      "source": "src/pieces/pop-os.ts",
+      "name": "pop!_os",
+      "category": "icons",
+      "note": "the p! in a teal circle, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#48b9c7",
+        "#88d2db",
+        "#c8eaee",
+        "#48b9c7",
+        "#88d2db",
+        "#c8eaee"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/pop-os",
+      "page": "https://ascii.rest/pop-os/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "progress-bar",
+      "source": "src/pieces/progress-bar.ts",
+      "name": "progress bar",
+      "category": "data-display",
+      "note": "five bar styles filling at uneven paces, percent at right",
+      "cols": 48,
+      "rows": 11,
+      "fps": 30,
+      "options": {
+        "labels": [
+          "fetching",
+          "unpacking",
+          "indexing",
+          "building",
+          "linking"
+        ]
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-progress-bar",
+      "page": "https://ascii.rest/progress-bar/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "radar",
+      "source": "src/pieces/radar.ts",
+      "name": "radar",
+      "category": "data-visualization",
+      "note": "rotating sweep with afterglow, contacts fade between passes",
+      "cols": 53,
+      "rows": 25,
+      "fps": 30,
+      "options": {
+        "range": 24,
+        "unit": "nm"
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-radar",
+      "page": "https://ascii.rest/radar/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "rain",
+      "source": "src/pieces/rain.ts",
+      "name": "rain",
+      "category": "animation",
+      "note": "slanting rain in three depths, crowns and puddle rings",
+      "cols": 64,
+      "rows": 20,
+      "fps": 30,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-rain",
+      "page": "https://ascii.rest/rain/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "reaction-diffusion",
+      "source": "src/pieces/reaction-diffusion.ts",
+      "name": "reaction diffusion",
+      "category": "effects",
+      "note": "gray-scott spots and stripes dying back and growing out",
+      "cols": 60,
+      "rows": 24,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-reaction-diffusion",
+      "page": "https://ascii.rest/reaction-diffusion/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "red-hat",
+      "source": "src/pieces/red-hat.ts",
+      "name": "red hat",
+      "category": "icons",
+      "note": "the man in the red hat, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#000000",
+        "#ffffff",
+        "#e93442",
+        "#595959",
+        "#ffffff",
+        "#f17b84",
+        "#b3b3b3",
+        "#ffffff",
+        "#f8c2c6",
+        "#545454",
+        "#ffffff",
+        "#e93442",
+        "#909090",
+        "#ffffff",
+        "#f17b84",
+        "#cccccc",
+        "#ffffff",
+        "#f8c2c6"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/red-hat",
+      "page": "https://ascii.rest/red-hat/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "rocket",
+      "source": "src/pieces/rocket.ts",
+      "name": "rocket",
+      "category": "animation",
+      "note": "a rocket lifting off its pad at night, then landing back",
+      "cols": 48,
+      "rows": 28,
+      "fps": 20,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-rocket",
+      "page": "https://ascii.rest/rocket/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "rocky-linux",
+      "source": "src/pieces/rocky-linux.ts",
+      "name": "rocky linux",
+      "category": "icons",
+      "note": "the mountain in a green circle, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#10bd85",
+        "#64d4b0",
+        "#b7ebda",
+        "#10bd85",
+        "#64d4b0",
+        "#b7ebda"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/rocky-linux",
+      "page": "https://ascii.rest/rocky-linux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "rotozoomer",
+      "source": "src/pieces/rotozoomer.ts",
+      "name": "rotozoomer",
+      "category": "effects",
+      "note": "a brick wall texture turning and zooming about the centre",
+      "cols": 64,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-rotozoomer",
+      "page": "https://ascii.rest/rotozoomer/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "rule-30",
+      "source": "src/pieces/rule-30.ts",
+      "name": "rule 30",
+      "category": "effects",
+      "note": "one cell grows a row at a time under rules 30, 90 and 110",
+      "cols": 64,
+      "rows": 20,
+      "fps": 8,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-rule-30",
+      "page": "https://ascii.rest/rule-30/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "ruled-mountains",
+      "source": "src/pieces/ruled-mountains.ts",
+      "name": "ruled mountains",
+      "category": "animation",
+      "note": "ruled lines with a range rising from them, drifting forward",
+      "cols": 64,
+      "rows": 20,
+      "fps": 10,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-ruled-mountains",
+      "page": "https://ascii.rest/ruled-mountains/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "saptarishi",
+      "source": "src/pieces/saptarishi.ts",
+      "name": "saptarishi",
+      "category": "animation",
+      "note": "the big dipper at true positions in a twinkling sky",
+      "cols": 64,
+      "rows": 18,
+      "fps": 12,
+      "options": {
+        "lines": true
+      },
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-saptarishi",
+      "page": "https://ascii.rest/saptarishi/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "scramble",
+      "source": "src/pieces/scramble.ts",
+      "name": "scramble",
+      "category": "typography",
+      "note": "phrases decoding left to right out of flickering glyphs",
+      "cols": 44,
+      "rows": 3,
+      "fps": 20,
+      "options": {
+        "phrases": [
+          "hello, world",
+          "decoding the signal",
+          "nothing is lost",
+          "see you on the other side"
+        ]
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-scramble",
+      "page": "https://ascii.rest/scramble/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sea-swell",
+      "source": "src/pieces/sea-swell.ts",
+      "name": "sea swell",
+      "category": "animation",
+      "note": "a long swell lifting a small sailboat as it rolls under",
+      "cols": 64,
+      "rows": 14,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-sea-swell",
+      "page": "https://ascii.rest/sea-swell/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sierpinski",
+      "source": "src/pieces/sierpinski.ts",
+      "name": "sierpinski",
+      "category": "effects",
+      "note": "the chaos game filling a sierpinski triangle point by point",
+      "cols": 59,
+      "rows": 26,
+      "fps": 20,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-sierpinski",
+      "page": "https://ascii.rest/sierpinski/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "skeleton",
+      "source": "src/pieces/skeleton.ts",
+      "name": "skeleton",
+      "category": "data-display",
+      "note": "a loading card in shade blocks with a shimmer passing over",
+      "cols": 52,
+      "rows": 23,
+      "fps": 24,
+      "options": {
+        "lines": 3,
+        "image": true,
+        "avatar": true
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-skeleton",
+      "page": "https://ascii.rest/skeleton/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "skyline",
+      "source": "src/pieces/skyline.ts",
+      "name": "skyline",
+      "category": "animation",
+      "note": "a city at night, windows going on and off, a blinking mast",
+      "cols": 64,
+      "rows": 23,
+      "fps": 10,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-skyline",
+      "page": "https://ascii.rest/skyline/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "smoke",
+      "source": "src/pieces/smoke.ts",
+      "name": "smoke",
+      "category": "animation",
+      "note": "incense smoke rising straight, then curling and thinning",
+      "cols": 44,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-smoke",
+      "page": "https://ascii.rest/smoke/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "snake",
+      "source": "src/pieces/snake.ts",
+      "name": "snake",
+      "category": "animation",
+      "note": "a snake slithering along an s-curve, flicking its tongue",
+      "cols": 64,
+      "rows": 15,
+      "fps": 20,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-snake",
+      "page": "https://ascii.rest/snake/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "snowfall",
+      "source": "src/pieces/snowfall.ts",
+      "name": "snowfall",
+      "category": "animation",
+      "note": "snow swaying down, building drifts on the ground and a fence",
+      "cols": 64,
+      "rows": 22,
+      "fps": 20,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-snowfall",
+      "page": "https://ascii.rest/snowfall/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "solar-system",
+      "source": "src/pieces/solar-system.ts",
+      "name": "solar system",
+      "category": "animation",
+      "note": "four planets on dotted orbits, periods by kepler's third law",
+      "cols": 61,
+      "rows": 29,
+      "fps": 20,
+      "options": {
+        "speed": 1
+      },
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-solar-system",
+      "page": "https://ascii.rest/solar-system/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sparkline",
+      "source": "src/pieces/sparkline.ts",
+      "name": "sparkline",
+      "category": "data-visualization",
+      "note": "three live block sparklines scrolling left, values at right",
+      "cols": 72,
+      "rows": 9,
+      "fps": 12,
+      "options": {
+        "series": [
+          {
+            "label": "cpu",
+            "unit": "%",
+            "lo": 0,
+            "hi": 100
+          },
+          {
+            "label": "memory",
+            "unit": " gb",
+            "lo": 1.2,
+            "hi": 3.4,
+            "digits": 1
+          },
+          {
+            "label": "requests",
+            "unit": "/s",
+            "lo": 0,
+            "hi": 260
+          }
+        ],
+        "range": true,
+        "rate": 4
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-sparkline",
+      "page": "https://ascii.rest/sparkline/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sparks",
+      "source": "src/pieces/sparks.ts",
+      "name": "sparks",
+      "category": "effects",
+      "note": "an angle grinder throwing sparks that arc, skip and cool",
+      "cols": 64,
+      "rows": 20,
+      "fps": 30,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-sparks",
+      "page": "https://ascii.rest/sparks/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "spider",
+      "source": "src/pieces/spider.ts",
+      "name": "spider",
+      "category": "animation",
+      "note": "a spider lowering itself on silk, then climbing back up",
+      "cols": 28,
+      "rows": 24,
+      "fps": 15,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-spider",
+      "page": "https://ascii.rest/spider/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "spinners",
+      "source": "src/pieces/spinners.ts",
+      "name": "spinners",
+      "category": "data-display",
+      "note": "twelve loading spinners side by side, each with its name",
+      "cols": 66,
+      "rows": 13,
+      "fps": 12,
+      "options": {
+        "names": [],
+        "labels": true,
+        "speed": 1
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-spinners",
+      "page": "https://ascii.rest/spinners/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "split-flap",
+      "source": "src/pieces/split-flap.ts",
+      "name": "split-flap",
+      "category": "typography",
+      "note": "a departures board whose flaps riffle to each new line",
+      "cols": 61,
+      "rows": 18,
+      "fps": 15,
+      "options": {
+        "title": "departures",
+        "start": "14:03",
+        "flights": [
+          [
+            "14:05",
+            "lisbon",
+            "a4",
+            "on time"
+          ],
+          [
+            "14:15",
+            "oslo",
+            "b12",
+            "on time"
+          ],
+          [
+            "14:20",
+            "nairobi",
+            "c7",
+            "delayed"
+          ],
+          [
+            "14:35",
+            "lima",
+            "a9",
+            "on time"
+          ],
+          [
+            "14:40",
+            "reykjavik",
+            "d21",
+            "on time"
+          ],
+          [
+            "14:50",
+            "seoul",
+            "b3",
+            "on time"
+          ],
+          [
+            "15:00",
+            "marrakesh",
+            "c14",
+            "cancelled"
+          ],
+          [
+            "15:05",
+            "helsinki",
+            "a2",
+            "on time"
+          ],
+          [
+            "15:20",
+            "auckland",
+            "d8",
+            "on time"
+          ],
+          [
+            "15:25",
+            "kyoto",
+            "b16",
+            "delayed"
+          ],
+          [
+            "15:35",
+            "cape town",
+            "c11",
+            "on time"
+          ],
+          [
+            "15:45",
+            "montreal",
+            "a6",
+            "on time"
+          ]
+        ]
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-split-flap",
+      "page": "https://ascii.rest/split-flap/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "spring",
+      "source": "src/pieces/spring.ts",
+      "name": "spring",
+      "category": "animation",
+      "note": "a weight bouncing on a coil spring, its coils bunching",
+      "cols": 40,
+      "rows": 28,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-spring",
+      "page": "https://ascii.rest/spring/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "starfield",
+      "source": "src/pieces/starfield.ts",
+      "name": "starfield",
+      "category": "animation",
+      "note": "stars rush out from the centre and streak at the edges",
+      "cols": 64,
+      "rows": 24,
+      "fps": 30,
+      "options": {
+        "stars": 60,
+        "speed": 1
+      },
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-starfield",
+      "page": "https://ascii.rest/starfield/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "starlings",
+      "source": "src/pieces/starlings.ts",
+      "name": "starlings",
+      "category": "animation",
+      "note": "a murmuration wheeling about, split by a passing falcon",
+      "cols": 64,
+      "rows": 16,
+      "fps": 30,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-starlings",
+      "page": "https://ascii.rest/starlings/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "storm-plains",
+      "source": "src/pieces/storm-plains.ts",
+      "name": "storm plains",
+      "category": "effects",
+      "note": "an anvil thunderhead at dusk flickering over a wheat field",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#0b0912",
+      "palette": [
+        "#0f0c20",
+        "#141029",
+        "#1c1638",
+        "#261c4a",
+        "#32235a",
+        "#40306c",
+        "#53407e",
+        "#6a5590",
+        "#8670a6",
+        "#7a6288",
+        "#9a7890",
+        "#b98e94",
+        "#e6a890",
+        "#f2bca8",
+        "#f7d6a8",
+        "#fbe8c6",
+        "#f8b070",
+        "#e88a4c",
+        "#c8643a",
+        "#9a4630",
+        "#6a3226",
+        "#f0c868",
+        "#d8a447",
+        "#b7843a",
+        "#8c6230",
+        "#5e4226",
+        "#3a2a1c",
+        "#261c14",
+        "#181a2c",
+        "#2a3048",
+        "#3a4260",
+        "#4f5878",
+        "#6a7392",
+        "#8890ae",
+        "#a2aabd",
+        "#5d5878",
+        "#7c7598",
+        "#a6a2c8",
+        "#d6d2fa",
+        "#f4f2ff",
+        "#ffe08a",
+        "#ffb84a"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-storm-plains",
+      "page": "https://ascii.rest/storm-plains/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sundial",
+      "source": "src/pieces/sundial.ts",
+      "name": "sundial",
+      "category": "animation",
+      "note": "jaipur's samrat yantra, its shadow set by your local time",
+      "cols": 65,
+      "rows": 23,
+      "fps": 10,
+      "clock": true,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-sundial",
+      "page": "https://ascii.rest/sundial/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "sunrise",
+      "source": "src/pieces/sunrise.ts",
+      "name": "sunrise",
+      "category": "animation",
+      "note": "the sun lifting off a sea horizon, its path glittering",
+      "cols": 60,
+      "rows": 20,
+      "fps": 15,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-sunrise",
+      "page": "https://ascii.rest/sunrise/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "synthwave",
+      "source": "src/pieces/synthwave.ts",
+      "name": "synthwave",
+      "category": "effects",
+      "note": "a grid rolling toward a striped sun behind a mountain ridge",
+      "cols": 65,
+      "rows": 28,
+      "fps": 20,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-synthwave",
+      "page": "https://ascii.rest/synthwave/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "taj-dawn",
+      "source": "src/pieces/taj-dawn.ts",
+      "name": "taj dawn",
+      "category": "effects",
+      "note": "the taj mahal at sunrise, mirrored in its pool through morning haze",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#0d0a13",
+      "palette": [
+        "#2e2a55",
+        "#3d3870",
+        "#514a8a",
+        "#6a62a3",
+        "#8a83bd",
+        "#5a3a5e",
+        "#7a4d72",
+        "#9a6284",
+        "#b97a92",
+        "#d495a2",
+        "#b8705a",
+        "#d98d66",
+        "#efab78",
+        "#f8c98e",
+        "#ffe2ae",
+        "#fff3d8",
+        "#fffcf2",
+        "#8e7f9e",
+        "#ad9cb4",
+        "#cbb6c4",
+        "#e3cdd2",
+        "#f3e0dc",
+        "#2a4a3e",
+        "#36584a",
+        "#4a6c58",
+        "#66845f",
+        "#8a9a68",
+        "#8a4a3e",
+        "#b0624a",
+        "#3a2f4a",
+        "#4e3d5a",
+        "#f6d6c0",
+        "#e9bfae",
+        "#5e6a40",
+        "#7d8a52",
+        "#a3a064",
+        "#c2b274"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-taj-dawn",
+      "page": "https://ascii.rest/taj-dawn/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "terminal",
+      "source": "src/pieces/terminal.ts",
+      "name": "terminal",
+      "category": "data-display",
+      "note": "a shell session: typed commands, output, scrolling, clear",
+      "cols": 62,
+      "rows": 18,
+      "fps": 20,
+      "options": {
+        "prompt": "~/notes $",
+        "title": "~/notes"
+      },
+      "upstreamCategory": "ui",
+      "id": "data-display/ascii-rest-terminal",
+      "page": "https://ascii.rest/terminal/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "tesseract",
+      "source": "src/pieces/tesseract.ts",
+      "name": "tesseract",
+      "category": "animation",
+      "note": "a 4d hypercube turning, its cubes passing through each other",
+      "cols": 54,
+      "rows": 28,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-tesseract",
+      "page": "https://ascii.rest/tesseract/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "three-body",
+      "source": "src/pieces/three-body.ts",
+      "name": "three-body",
+      "category": "animation",
+      "note": "three equal masses sharing one figure-eight orbit",
+      "cols": 65,
+      "rows": 15,
+      "fps": 30,
+      "upstreamCategory": "space",
+      "id": "animation/ascii-rest-three-body",
+      "page": "https://ascii.rest/three-body/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "tokyo-rain",
+      "source": "src/pieces/tokyo-rain.ts",
+      "name": "tokyo rain",
+      "category": "effects",
+      "note": "a tokyo side street in the rain, neon signs shining on the wet road",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#07060d",
+      "palette": [
+        "#100f22",
+        "#17162f",
+        "#201e3d",
+        "#2b284e",
+        "#383463",
+        "#4a447a",
+        "#4c4890",
+        "#6a64c4",
+        "#1d1520",
+        "#2c1f2e",
+        "#3e2b3e",
+        "#553a52",
+        "#6a3a74",
+        "#8e4c8a",
+        "#b4649c",
+        "#d885ae",
+        "#6e1248",
+        "#a3196c",
+        "#d8278c",
+        "#ff47a8",
+        "#ff85c6",
+        "#ffc4e3",
+        "#0c4656",
+        "#106f80",
+        "#16a0b2",
+        "#28d2e2",
+        "#7cecf4",
+        "#ccfbfd",
+        "#5e340a",
+        "#93540f",
+        "#cc7b16",
+        "#f7a32a",
+        "#ffc65e",
+        "#ffe2a0",
+        "#fff4d8",
+        "#55100e",
+        "#8a1a14",
+        "#c22a1a",
+        "#ee4626",
+        "#ff7a4c",
+        "#8ea2c4",
+        "#bccbe6",
+        "#e4ecfb",
+        "#ffffff",
+        "#2e62e0",
+        "#79a2ff",
+        "#20844c",
+        "#43d884",
+        "#e6c21e",
+        "#fff07a",
+        "#6a7896",
+        "#9ba7c2",
+        "#c9d0e2",
+        "#262a36",
+        "#3a3f4e",
+        "#565c6c"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-tokyo-rain",
+      "page": "https://ascii.rest/tokyo-rain/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "torus-knot",
+      "source": "src/pieces/torus-knot.ts",
+      "name": "torus knot",
+      "category": "animation",
+      "note": "a trefoil knot drawn as a lit tube, turning slowly",
+      "cols": 60,
+      "rows": 28,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-torus-knot",
+      "page": "https://ascii.rest/torus-knot/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "train",
+      "source": "src/pieces/train.ts",
+      "name": "train",
+      "category": "animation",
+      "note": "a steam train crossing on its track, smoke puffing behind",
+      "cols": 76,
+      "rows": 26,
+      "fps": 15,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-train",
+      "page": "https://ascii.rest/train/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "tunnel",
+      "source": "src/pieces/tunnel.ts",
+      "name": "tunnel",
+      "category": "effects",
+      "note": "flying down a tiled tube that bends and twists",
+      "cols": 64,
+      "rows": 24,
+      "fps": 30,
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-tunnel",
+      "page": "https://ascii.rest/tunnel/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "tux",
+      "source": "src/pieces/tux.ts",
+      "name": "tux",
+      "category": "icons",
+      "note": "tux the penguin, scanned now and then",
+      "cols": 49,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#030202",
+        "#fcfcfc",
+        "#a58137",
+        "#fdcc1b",
+        "#5b5b5b",
+        "#fdfdfd",
+        "#c5ad7d",
+        "#fede6b",
+        "#b3b3b3",
+        "#fefefe",
+        "#e4d9c3",
+        "#fef0bb",
+        "#545454",
+        "#fcfcfc",
+        "#a58137",
+        "#fdcc1b",
+        "#909090",
+        "#fdfdfd",
+        "#c5ad7d",
+        "#fede6b",
+        "#cccccc",
+        "#fefefe",
+        "#e4d9c3",
+        "#fef0bb"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/tux",
+      "page": "https://ascii.rest/tux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "tv-static",
+      "source": "src/pieces/tv-static.ts",
+      "name": "tv static",
+      "category": "effects",
+      "note": "snow on an old set that tunes into a test card and loses it",
+      "cols": 58,
+      "rows": 26,
+      "fps": 20,
+      "options": {
+        "set": true
+      },
+      "upstreamCategory": "effects",
+      "id": "effects/ascii-rest-tv-static",
+      "page": "https://ascii.rest/tv-static/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "twisted-ring",
+      "source": "src/pieces/twisted-ring.ts",
+      "name": "twisted ring",
+      "category": "animation",
+      "note": "a square ring twisted three quarters, so it has one face",
+      "cols": 46,
+      "rows": 21,
+      "fps": 30,
+      "upstreamCategory": "shapes",
+      "id": "animation/ascii-rest-twisted-ring",
+      "page": "https://ascii.rest/twisted-ring/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "typewriter",
+      "source": "src/pieces/typewriter.ts",
+      "name": "typewriter",
+      "category": "typography",
+      "note": "phrases typed and deleted in turn behind a blinking cursor",
+      "cols": 44,
+      "rows": 3,
+      "fps": 20,
+      "options": {
+        "prefix": "i make ",
+        "phrases": [
+          "small tools.",
+          "quiet websites.",
+          "things that last.",
+          "notes for later."
+        ]
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-typewriter",
+      "page": "https://ascii.rest/typewriter/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "ubuntu",
+      "source": "src/pieces/ubuntu.ts",
+      "name": "ubuntu",
+      "category": "icons",
+      "note": "the circle of friends, in orange, scanned now and then",
+      "cols": 58,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#e95420",
+        "#f1906e",
+        "#f8ccbc",
+        "#e95420",
+        "#f1906e",
+        "#f8ccbc"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/ubuntu",
+      "page": "https://ascii.rest/ubuntu/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "uptime-bar",
+      "source": "src/pieces/uptime-bar.ts",
+      "name": "uptime bar",
+      "category": "data-visualization",
+      "note": "60-day uptime bars for three services, a new day slides in",
+      "cols": 64,
+      "rows": 15,
+      "fps": 8,
+      "options": {
+        "services": [
+          "api",
+          "website",
+          "database"
+        ]
+      },
+      "upstreamCategory": "data",
+      "id": "data-visualization/ascii-rest-uptime-bar",
+      "page": "https://ascii.rest/uptime-bar/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "varanasi-ghats",
+      "source": "src/pieces/varanasi-ghats.ts",
+      "name": "varanasi ghats",
+      "category": "effects",
+      "note": "dusk aarti on the ganga, lamps on the steps and diyas on the water",
+      "cols": 200,
+      "rows": 100,
+      "cell": 1,
+      "fps": 15,
+      "ground": "#0b0812",
+      "palette": [
+        "#141230",
+        "#1d1a42",
+        "#272257",
+        "#332b6a",
+        "#45357a",
+        "#5a4388",
+        "#7259a8",
+        "#6d3a73",
+        "#8a4677",
+        "#a8527a",
+        "#c4607a",
+        "#d97a92",
+        "#b866a0",
+        "#9a68c8",
+        "#c868b0",
+        "#e8707a",
+        "#d9705f",
+        "#e88552",
+        "#f29f4a",
+        "#f8b85a",
+        "#fcd07a",
+        "#ffe3a6",
+        "#fff2d2",
+        "#1a1220",
+        "#24182a",
+        "#301f33",
+        "#3f2838",
+        "#523340",
+        "#3a2c4c",
+        "#4d3a64",
+        "#5e3524",
+        "#7d4527",
+        "#a0582a",
+        "#c06e2e",
+        "#d98a46",
+        "#ffffff",
+        "#fff6d8",
+        "#ffd860",
+        "#ff9f2a",
+        "#f06a1e",
+        "#c8401a",
+        "#8a2a16",
+        "#0f1a2c",
+        "#162540",
+        "#20325a",
+        "#d6d4ee"
+      ],
+      "upstreamCategory": "scenes",
+      "id": "effects/ascii-rest-varanasi-ghats",
+      "page": "https://ascii.rest/varanasi-ghats/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "vinyl",
+      "source": "src/pieces/vinyl.ts",
+      "name": "vinyl",
+      "category": "animation",
+      "note": "a record turning under the tonearm, seen from above",
+      "cols": 64,
+      "rows": 25,
+      "fps": 24,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-vinyl",
+      "page": "https://ascii.rest/vinyl/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "void-linux",
+      "source": "src/pieces/void-linux.ts",
+      "name": "void linux",
+      "category": "icons",
+      "note": "the green ring, cut through, scanned now and then",
+      "cols": 56,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#478061",
+        "#87ac98",
+        "#c8d9d0",
+        "#478061",
+        "#87ac98",
+        "#c8d9d0"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/void-linux",
+      "page": "https://ascii.rest/void-linux/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "voronoi",
+      "source": "src/pieces/voronoi.ts",
+      "name": "voronoi",
+      "category": "effects",
+      "note": "cells of ground nearest each drifting seed",
+      "cols": 64,
+      "rows": 22,
+      "fps": 15,
+      "upstreamCategory": "generative",
+      "id": "effects/ascii-rest-voronoi",
+      "page": "https://ascii.rest/voronoi/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "wave-interference",
+      "source": "src/pieces/wave-interference.ts",
+      "name": "wave interference",
+      "category": "animation",
+      "note": "two sources in a ripple tank, still lines fanning out",
+      "cols": 72,
+      "rows": 26,
+      "fps": 24,
+      "options": {
+        "wavelength": 5,
+        "separation": 2.2
+      },
+      "upstreamCategory": "physics",
+      "id": "animation/ascii-rest-wave-interference",
+      "page": "https://ascii.rest/wave-interference/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "wave-text",
+      "source": "src/pieces/wave-text.ts",
+      "name": "wave text",
+      "category": "typography",
+      "note": "a swell running through a line of text, left to right",
+      "cols": 36,
+      "rows": 5,
+      "fps": 15,
+      "options": {
+        "text": "making waves",
+        "amp": 1.25,
+        "wavelength": 18,
+        "speed": 8,
+        "spacing": 0,
+        "settle": true
+      },
+      "upstreamCategory": "type",
+      "id": "typography/ascii-rest-wave-text",
+      "page": "https://ascii.rest/wave-text/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "whale",
+      "source": "src/pieces/whale.ts",
+      "name": "whale",
+      "category": "animation",
+      "note": "a whale blows, arches its back and dives, fluke last",
+      "cols": 72,
+      "rows": 18,
+      "fps": 15,
+      "upstreamCategory": "creatures",
+      "id": "animation/ascii-rest-whale",
+      "page": "https://ascii.rest/whale/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "wind",
+      "source": "src/pieces/wind.ts",
+      "name": "wind",
+      "category": "animation",
+      "note": "gusts streaming along bending lines, curling at the head",
+      "cols": 64,
+      "rows": 14,
+      "fps": 15,
+      "upstreamCategory": "nature",
+      "id": "animation/ascii-rest-wind",
+      "page": "https://ascii.rest/wind/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "windmill",
+      "source": "src/pieces/windmill.ts",
+      "name": "windmill",
+      "category": "animation",
+      "note": "four lattice sails turning on a dutch mill, clouds passing",
+      "cols": 64,
+      "rows": 28,
+      "fps": 20,
+      "upstreamCategory": "objects",
+      "id": "animation/ascii-rest-windmill",
+      "page": "https://ascii.rest/windmill/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    },
+    {
+      "slug": "zorin-os",
+      "source": "src/pieces/zorin-os.ts",
+      "name": "zorin os",
+      "category": "icons",
+      "note": "the z in blue stripes, scanned now and then",
+      "cols": 64,
+      "rows": 28,
+      "fps": 30,
+      "options": {
+        "scan": 5
+      },
+      "palette": [
+        "#15a6f0",
+        "#67c5f5",
+        "#b9e4fb",
+        "#15a6f0",
+        "#67c5f5",
+        "#b9e4fb"
+      ],
+      "upstreamCategory": "distros",
+      "id": "icons/ascii-rest/zorin-os",
+      "page": "https://ascii.rest/zorin-os/",
+      "clip": ".well.big",
+      "captured": [
+        "default"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "slug": "apple",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "c",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "clojure",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "cloudflare",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "coderabbit",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "command-code",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "cpp",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "csharp",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "css",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "dart",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "databuddy",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "elixir",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "erlang",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "go",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "greptile",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "haskell",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "helium",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "html",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "java",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "javascript",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "julia",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "kotlin",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "lua",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "mintlify",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "ocaml",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "orchid",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "perl",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "php",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "planetscale",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "playstation",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "polar",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "python",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "r",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "ruby",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "rust",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "scala",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "supabase",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "swift",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "typescript",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "vercel",
+      "category": "companies",
+      "reason": "Language and company logos excluded by user scope"
+    },
+    {
+      "slug": "zig",
+      "category": "logos",
+      "reason": "Language and company logos excluded by user scope"
+    }
+  ]
+}
